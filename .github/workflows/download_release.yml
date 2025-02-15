@@ -40,18 +40,16 @@ jobs:
             git add .
             git commit -m '从Paratranz同步翻译'
             git push origin main
-            CHANGED = true
+            echo "::set-output name=changed::true"
           else
-            CHANGED = false
+            echo "::set-output name=changed::false"
           fi
-          echo "::set-env name=CHANGED::$CHANGED"
-          echo $CHANGED
   release:
     name: Create Release
     runs-on: ubuntu-latest
     environment: PARATRANZ_ENV
     needs: paratranz-to-gitHub
-    if: ${{vars.CHANGED == true}}
+    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
