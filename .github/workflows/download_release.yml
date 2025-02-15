@@ -50,6 +50,8 @@ jobs:
     name: Create Release
     runs-on: ubuntu-latest
     environment: PARATRANZ_ENV
+    env:
+      CHANGED: ${{vars.CHANGED}}
     needs: paratranz-to-gitHub
     if: ${{env.CHANGED == true}}
     steps:
