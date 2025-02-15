@@ -14,7 +14,7 @@ BlockEvents.placed(['obtrophies:display_trophy', 'obtrophies:trophy'], event => 
     let team = $TeamsAPI.api().getManager().getTeamForPlayer(player).get();
     let portalCenter = global.findPortalCenter(event, team.id)
     if(portalCenter == null) {
-        player.tell('No portal found')
+        player.tell(Text.translate("message.trophy.portal"))
         return;
     }
     const displayTrophies = [
@@ -113,7 +113,7 @@ ItemEvents.rightClicked("ftb:creative_portal_switcher", event => {
     let team = $TeamsAPI.api().getManager().getTeamForPlayer(player).get();
     let portalCenter = global.findPortalCenter(player, team.id)
     if(portalCenter == null) {
-        player.tell('No portal found')
+        player.tell(Text.translate("message.trophy.portal"))
         return
     }
     switch(level.getBlock(portalCenter.offset(2, 0, 0)).id){

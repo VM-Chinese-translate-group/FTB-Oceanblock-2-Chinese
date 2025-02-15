@@ -75,12 +75,12 @@ function chargePlayer(player, recipe){
     let playerCharge =  player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
     if(playerCharge + charge > max_charge){
         player.persistentData.putInt("rift_charge", max_charge);
-        NotificationToastData.ofText(Component.literal(`Your rift charge is now at ${max_charge}!`)).show();
+        NotificationToastData.ofText(Text.translate("message.rift.charge.max", max_charge)).show();
         global.showRiftCharge(player)
         return;
     }
     player.persistentData.putInt("rift_charge", playerCharge + charge);
-    NotificationToastData.ofText(Component.literal(`Your rift charge is now at ${playerCharge + charge}!`)).show();
+      NotificationToastData.ofText(Text.translate(`message.rift.charge.now`, (playerCharge + charge))).show();
     global.showRiftCharge(player)
 
 }
