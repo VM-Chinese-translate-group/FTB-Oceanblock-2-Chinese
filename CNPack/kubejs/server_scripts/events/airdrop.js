@@ -21,13 +21,13 @@ const airDropEvent = {
     let relative = { message: "", blocks: 0 };
     if (Math.abs(offset.z) > Math.abs(offset.x)) {
       relative.blocks = Math.abs(offset.z);
-      relative.message = offset.z > 0 ? "South" : "North";
+      relative.message = offset.z > 0 ? Text.translate("warning.airdrop.incoming.south") : Text.translate("warning.airdrop.incoming.north");
     } else {
       relative.blocks = Math.abs(offset.x);
-      relative.message = offset.x > 0 ? "East" : "West";
+      relative.message = offset.x > 0 ? Text.translate("warning.airdrop.incoming.east") : Text.translate("warning.airdrop.incoming.west");
     }
 
-    new ImmersiveMessage(player, `Airdrop Incoming`)
+    new ImmersiveMessage(player, Text.translate("message.airdrop.incoming").getString())
       .setDuration(23)
       .send();
     // player.getServer().runCommandSilent(
@@ -36,7 +36,7 @@ const airDropEvent = {
     //     .getString()} {y:50,size:1.5,sound:1,typewriter:1,color:"#ffffff",wave:1} 23 Airdrop Incoming!`
     // );
 
-    player.tell(`Airdrop Incoming: ${relative.blocks} Blocks ${relative.message}`);
+    player.tell(Text.translate("warning.airdrop.incoming", relative.blocks , relative.message));
 
     let spawned = false;
 
@@ -112,7 +112,7 @@ const airDropEvent = {
         if (y < 190.5) {
           if (!spawned) {
             spawned = true;
-            new ImmersiveMessage(player, `Airdrop Landed!`)
+            new ImmersiveMessage(player, Text.translate("message.airdrop.landed").getString())
             .setDuration(5)
             .setColor("red")
             .send();

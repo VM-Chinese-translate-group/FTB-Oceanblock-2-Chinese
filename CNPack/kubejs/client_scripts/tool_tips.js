@@ -1,77 +1,77 @@
 const tooltips = [
   {
     item: "ftb:abyssal_fragment",
-    text: Text.green("Drops from the majority of Rift mobs"),
+    text: Text.translate("tooltip.ftb.abyssal_fragment").green(),
   },
   {
     item: "minecraft:soul_lantern",
-    text: Text.green("Found in structures above the ocean"),
+    text: Text.translate("tooltip.minecraft.soul_lantern").green(),
   },
   {
     item: "brickfurnace:brick_furnace",
-    text: Text.aqua("ⓘ 2x Faster than a Vanilla Furnace!"),
+    text: Text.translate("tooltip.brickfurnace.brick_furnace").aqua(),
   },
   {
     item: "brickfurnace:brick_blast_furnace",
-    text: Text.aqua("ⓘ 2x Faster than a Vanilla Blast Furnace!"),
+    text: Text.translate("tooltip.brickfurnace.brick_blast_furnace").aqua(),
   },
   {
     item: "oritech:plastic_sheet",
-    text: Text.aqua("Also known as an HDPE Sheet."),
+    text: Text.translate("tooltip.oritech.plastic_sheet").aqua(),
   },
   {
     item: "pneumaticcraft:ingot_iron_compressed",
-    text: Text.green("Crafted with Cast Iron Ingots."),
+    text: Text.translate("tooltip.pneumaticcraft.ingot_iron_compressed").green(),
   },
   {
     item: "ftbstuff:stone_cobblestone_generator",
-    text: Text.of("1").gold().append(Text.of(` Cobble / Sec`).gray()),
+    text: Text.translate("tooltip.ftbstuff.stone_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
   },
   {
     item: "ftbstuff:iron_cobblestone_generator",
-    text: Text.of("2").gold().append(Text.of(` Cobble / Sec`).gray()),
+    text: Text.translate("tooltip.ftbstuff.iron_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
   },
   {
     item: "ftbstuff:gold_cobblestone_generator",
-    text: Text.of("4").gold().append(Text.of(` Cobble / Sec`).gray()),
+    text: Text.translate("tooltip.ftbstuff.gold_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
   },
   {
     item: "ftbstuff:diamond_cobblestone_generator",
-    text: Text.of("16").gold().append(Text.of(` Cobble / Sec`).gray()),
+    text: Text.translate("tooltip.ftbstuff.diamond_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
   },
   {
     item: "ftbstuff:netherite_cobblestone_generator",
-    text: Text.of("32").gold().append(Text.of(` Cobble / Sec`).gray()),
+    text: Text.translate("tooltip.ftbstuff.netherite_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
   },
   {
     item: "justdirethings:time_crystal_budding_block",
-    text: Text.of("(Shift)").gray(),
+    text: Text.translate("tooltip.justdirethings.time_crystal_budding_block").gray(),
   },
   {
     item: "justdirethings:time_crystal_budding_block",
-    text: "Must absorb energy from each dimension in order.",
+    text: Text.translate("tooltip.justdirethings.time_crystal_budding_block.1"),
   },
   {
     item: "justdirethings:time_crystal_budding_block",
-    text: "Will need an occasional recharge",
+    text: Text.translate("tooltip.justdirethings.time_crystal_budding_block.2"),
   },
   {
     item: "justdirethings:time_crystal_budding_block",
-    text: Text.of("Overworld")
+    text: Text.translate("tooltip.justdirethings.time_crystal_budding_block.3")
       .green()
-      .append(Text.of(" → ").gray())
-      .append(Text.of("Nether").red())
-      .append(Text.of(" → ").gray())
-      .append(Text.of("Compact Machine").blue()),
+      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.4").gray())
+      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.5").red())
+      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.6").gray())
+      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.7").blue()),
     shift: true,
   },
   {
     item: "actuallyadditions:coffee_beans",
-    text: Text.gold("ⓘ A Robusta Variant, Grants a Strong and Bitter Flavor."),
+    text: Text.translate("tooltip.actuallyadditions.coffee_beans").gold(),
   },
   {
     item: "rusticdelight:coffee_beans",
-    text: Text.gold("ⓘ A Liberica Variant, Grants a Fruity Flavor."),
+    text: Text.translate("tooltip.rusticdelight.coffee_beans").gold(),
   }
 ];
 
@@ -115,37 +115,37 @@ ItemEvents.modifyTooltips((event) => {
     event.add(
       sluice.itemID,
       { shift: true },
-      Text.of("Processing Time: ")
+      Text.translate("tooltip.sluice.processing.time")
         .gray()
-        .append(Text.of(`${sluice.time}x`).gold())
+        .append(Text.translate(`${sluice.time}x`).gold())
     );
     event.add(
       sluice.itemID,
       { shift: true },
-      Text.of("Fluid Usage Multiplier: ")
+      Text.translate("tooltip.sluice.fluid.usage.multiplier")
         .gray()
-        .append(Text.of(`${sluice.fluidUsage}x`).aqua())
+        .append(Text.translate(`${sluice.fluidUsage}x`).aqua())
     );
     event.add(
       sluice.itemID,
       { shift: true },
-      Text.of("Item Automation: ")
+      Text.translate("tooltip.sluice.item.automation")
         .gray()
-        .append(Text.of(sluice.item ? "True" : "False").color(sluice.item ? "green" : "red"))
+        .append(Text.translate(sluice.item ? "tooltip.sluice.true" : "tooltip.sluice.false").color(sluice.item ? "green" : "red"))
     );
     event.add(
       sluice.itemID,
       { shift: true },
-      Text.of("Fluid Automation: ")
+      Text.translate("tooltip.sluice.fluid.automation")
         .gray()
-        .append(Text.of(sluice.fluid ? "True" : "False").color(sluice.fluid ? "green" : "red"))
+        .append(Text.translate(sluice.fluid ? "tooltip.sluice.true" : "tooltip.sluice.false").color(sluice.fluid ? "green" : "red"))
     );
     event.add(
       sluice.itemID,
       { shift: true },
-      Text.of("Requires Power: ")
+      Text.translate("tooltip.sluice.requires.power")
         .gray()
-        .append(Text.of(sluice.power ? "True" : "False").color(sluice.power ? "green" : "red"))
+        .append(Text.translate(sluice.power ? "tooltip.sluice.true" : "tooltip.sluice.false").color(sluice.power ? "green" : "red"))
     );
   });
 
@@ -155,43 +155,43 @@ ItemEvents.modifyTooltips((event) => {
 
   event.modify("mekanism:module_elytra_unit", (tooltip) => {
     tooltip.removeLine(1);
-    tooltip.insert(1, Text.of("Applies an Elytra to the Meka Suit."));
+    tooltip.insert(1, Text.translate("tooltip.mekanism.module_elytra_unit"));
   });
 
   event.modify(`obtrophies:display_trophy`, (b) => b.dynamic(`streamertrophy`));
-
+  
   event.modify(['mekanism:jetpack', 'mekanism:jetpack_armored', 'oritech:jetpack', 'oritech:exo_jetpack', 'ftb:rift_charge'], { shift: false }, (tooltip) => {
-    tooltip.insert(1, Text.gray("[Hold Shift for more info]"));
+    tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.1").gray());
   })
   event.modify(['mekanism:jetpack', 'mekanism:jetpack_armored', 'oritech:jetpack', 'oritech:exo_jetpack'], { shift: true }, (tooltip) => {
-    tooltip.insert(1, Text.red("The Rift will disrupt the Jetpack."));
+    tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.2").red());
   })
   event.modify('ftb:rift_charge', {shift: true}, tooltip => {
-    tooltip.insert(1, Text.darkGray('Does not drop as an item.'))
-    tooltip.insert(2, Text.darkGray('Only charges your Rift Time.'))
+    tooltip.insert(1, Text.translate('tooltip.ftb.rift_charge.1').darkGray())
+    tooltip.insert(2, Text.translate('tooltip.ftb_rift_charge.2').darkGray())
   });
 });
 
 const trophyTooltips = {
-  "minecraft:cactus": "A special Trophy - For Reese",
-  "oritech:banana": "A special Trophy - For Matrixis",
-  "ars_nouveau:creative_spell_book": "A special Trophy - For ChosenArchitect",
-  "mysticalagradditions:inferium_apple": "A special Trophy - For ectorvynk",
-  "ftbstuff:purple_barrel": "A special Trophy - For Lashmak",
-  "ftb:rift_weaver_disc": "A special Trophy - For Threefold",
-  "ae2:singularity": "A special Trophy - For SystemCollapse",
-  "minecraft:cauldron": "A special Trophy - For Vlofast",
-  "ars_nouveau:frostaya_pod": "A special Trophy - For Joprebond",
-  "gag:no_solicitors": "A special Trophy - For AlfredGG",
-  "oritech:tech_button": "A special Trophy - For Button",
+  "minecraft:cactus": "tooltip.streamertrophy.minecraft_cactus",
+  "oritech:banana": "tooltip.streamertrophy.oritech_banana",
+  "ars_nouveau:creative_spell_book": "tooltip.streamertrophy.ars_nouveau_creative_spell_book",
+  "mysticalagradditions:inferium_apple": "tooltip.streamertrophy.mysticalagradditions_inferium_apple",
+  "ftbstuff:purple_barrel": "tooltip.streamertrophy.ftbstuff_purple_barrel",
+  "ftb:rift_weaver_disc": "tooltip.streamertrophy.ftb_rift_weaver_disc",
+  "ae2:singularity": "tooltip.streamertrophy.ae2_singularity",
+  "minecraft:cauldron": "tooltip.streamertrophy.minecraft_cauldron",
+  "ars_nouveau:frostaya_pod": "tooltip.streamertrophy.ars_nouveau_frostaya_pod",
+  "gag:no_solicitors": "tooltip.streamertrophy.gag_no_solicitors",
+  "oritech:tech_button": "tooltip.streamertrophy.oritech_tech_button",
 };
 
 ItemEvents.dynamicTooltips("streamertrophy", (event) => {
   const { item } = event;
   Object.entries(trophyTooltips).forEach(([key, value]) => {
     if (item.getComponentsPatch().get("obtrophies:display_trophy_info").get().displayItem().id == key) {
-      event.add(Text.green(value));
-      event.add(Text.gray("With love from the FTB Team"));
+      event.add(Text.translate(value).green());
+      event.add(Text.translate("tooltip.streamertrophy").gray());
     }
   });
 
@@ -205,6 +205,6 @@ const riftCrystalInformation = [
   "Every Rift Attenuation Crystal has a limited amount of energy and is capped at their respective time limit.",
 ]
 RecipeViewerEvents.addInformation('item', event => {
-  event.add(/ftb:(.*)attenuation_crystal/, riftCrystalInformation);
+  event.add(/ftb:(.*)attenuation_crystal/, Text.translate("info.ftb.attenuation_crystal"));
 })
 
