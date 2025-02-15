@@ -5,7 +5,7 @@
     chapter.143441998FF2D8BD.title:"Iron's Jewelry"
     chapter.158D033F7F934345.title:"Replication"
     chapter.1E741D8D60A01B78.title:"通用存储"
-    chapter.2214CC9FC9A1EA7A.title:"The Abyssal Archives"
+    chapter.2214CC9FC9A1EA7A.title:"深渊档案馆"
     chapter.29669B3D02C7D3D3.title:"提示和技巧"
     chapter.2D069B87B860C09B.title:"Extreme Reactors"
     chapter.2D4BDD06393E56E1.title:"Under Pressure"
@@ -60,7 +60,7 @@
     quest.030DA26E4A03A96B.title:"&c中级精华&f护甲"
     quest.0319451F474043A2.quest_subtitle:"传输物品"
     quest.0354E57671DAFDF3.title:"&cBlazegold Boots"
-    quest.036C11AC70835846.title:"&fThe Power Of The &dEnd&r"
+    quest.036C11AC70835846.title:"&d末地&r&f之力"
     quest.03A7D3280ECF5076.title:"&cPrismarine Crystal Shard"
     quest.03DEDA820D937824.title:"Log Entry 015"
     quest.04013A6813F80EF7.title:"&fUpgraded &cFuel"
@@ -293,7 +293,7 @@
     quest.1FBEA2EB39456FD5.quest_subtitle:"存储气体"
     quest.1FBEA2EB39456FD5.title:"{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
     quest.1FD9B331E6CD9BDE.title:"It's Time For Some Power"
-    quest.1FE952E6D58451EA.title:"&fTranscribing Our &dSpells"
+    quest.1FE952E6D58451EA.title:"&f抄录&d魔咒&r"
     quest.1FEEBCA6D633B479.title:"&a末影存储"
     quest.2061FEEF44253E13.title:"&f物品卡"
     quest.206987FC6B1524F8.title:"&f原子再构器"
@@ -338,7 +338,7 @@
     quest.2682A911828C2D88.title:"&2框架方块&r"
     quest.26B6680DCE14A228.title:"&fCharging Station"
     quest.26D7C5298D95C69A.title:"&fBanding Materials"
-    quest.26D8F6345B6AB232.title:"&bSorceror Set"
+    quest.26D8F6345B6AB232.title:"&b巫师套装"
     quest.26EA309139C7C27E.title:"&a熔炉&r"
     quest.2765AC7C3E0350FE.title:"&9Spawning Mobs"
     quest.276D2B384F21AC10.title:"&fFerricore Sword"
@@ -400,7 +400,7 @@
     quest.2E3D56F5BC1075DB.title:"&fUpgrade: Flight"
     quest.2E56DB4CBFE2F37C.quest_subtitle:"四阶精华"
     quest.2E56DB4CBFE2F37C.title:"&b高级精华&r"
-    quest.2E919C741282C30B.quest_subtitle:"Analyzing The Wreckage"
+    quest.2E919C741282C30B.quest_subtitle:"分析“遗骸”"
     quest.2E9C2F524BE5FC10.title:"&fEngineering Blocks"
     quest.2EBDE5767588B43C.title:"&6觉醒粉&r"
     quest.2F057F981B68EB95.title:"&fSimple Fluid Placer"
@@ -510,7 +510,7 @@
     quest.3A59D1773EBD3B8A.quest_subtitle:"拓展网络"
     quest.3A59D1773EBD3B8A.title:"&6量子桥"
     quest.3A5A665B1F76BE26.title:"&fI am (Compressed) Iron Man!"
-    quest.3AC24F0B92156F55.title:"&fThe &dAssembler&r"
+    quest.3AC24F0B92156F55.title:"&d装配器&r"
     quest.3AEBDB8CAA13C522.title:"&a磁力戒指"
     quest.3AF4B31403FE9E0D.title:"&2初级精华&f护甲"
     quest.3AF598F0517B7BA6.title:"&aRemote Network Access"
@@ -730,7 +730,7 @@
     quest.562156281B8D0843.title:"&a电解分离器&r"
     quest.5624865A6F796087.quest_subtitle:"Replicates Items"
     quest.5624865A6F796087.title:"&fReplicator"
-    quest.565AF0E2D4AB41BE.title:"&fWelcome to &6Just Dire Things&f!"
+    quest.565AF0E2D4AB41BE.title:"&f欢迎游玩&6Just Dire Things&f！"
     quest.56721C451DCBAE5D.title:"&5Eclipse Alloy Pickaxe"
     quest.5685E88BCD17D066.title:"凝胶和裂缝的共鸣"
     quest.570CA0A0CA64C09E.title:"&aSusje's Simple Circle"
@@ -764,7 +764,7 @@
     quest.5BDBB419A8FA0D2D.title:"&dMagic &fin a Jar"
     quest.5BFA3D0271320E07.title:"&f温室玻璃"
     quest.5CA5F9BE51C24FC8.title:"&f红石卡"
-    quest.5CA6809074DCA551.quest_subtitle:"The Crash"
+    quest.5CA6809074DCA551.quest_subtitle:"坠机的那一天……"
     quest.5CAC010680313D6B.title:"&fUnique Soils"
     quest.5CC11DF487EA2867.title:"&7Foliot &fJanitor"
     quest.5D41616086EA607A.title:"&dGearing Up&r"
@@ -783,7 +783,7 @@
     quest.5DF40808F9C6FEC0.title:"&fUseful Machine Tools"
     quest.5E04779BC1EB52E9.quest_subtitle:"在这加个阿凡达笑话"
     quest.5E04779BC1EB52E9.title:"&b元素&f种子 "
-    quest.5E0AF550AAE74676.title:"Basic Logistics"
+    quest.5E0AF550AAE74676.title:"基础物流"
     quest.5E18F5B83FC4EC2D.title:"&f祛魔透镜"
     quest.5E5BDCBF185E48E3.title:"&fEngineer's Workbench"
     quest.5EACD1D6B9B970EC.title:"&dCelestigem Shovel"
@@ -914,7 +914,7 @@
     quest.7157B4069731D802.title:"充起来！"
     quest.71C0BC71D3B45690.title:"&fAncient Machine Parts"
     quest.720D8E574EB9D689.title:"&cIhagan's Enthrallment Familiars"
-    quest.722E213A3A4FD26B.title:"The Abyssal Archives"
+    quest.722E213A3A4FD26B.title:"深渊档案馆"
     quest.723152AC816F91A5.title:"Automation"
     quest.726B9A931D3E1242.title:"&dMagical Equipment"
     quest.72EBD96ED914471F.title:"&fCharger"
@@ -1183,7 +1183,7 @@
     task.42FAF622DDC2AEA0.title:"&c三阶&f种子"
     task.4309B43CD4447705.title:"建筑棒"
     task.43333831CA15EA20.title:"&fSummon a &ePossessed Warden"
-    task.43E37A07733FB8E4.title:"&bSorceror Set"
+    task.43E37A07733FB8E4.title:"&b巫师套装"
     task.44471E3598AA381B.title:"&2二阶&f怪物种子"
     task.446D5F05F0D41082.title:"&c三阶&f怪物种子"
     task.44755E4FAA0413B7.title:"Log Entry 012"
@@ -1195,7 +1195,7 @@
     task.48693C868CF2C4D6.title:"Summon an &7Otherworld Sapling Trader"
     task.48BB22683A4C50AD.title:"&a下级精华&r工具"
     task.48DC30FE8B5DEC6D.title:"&6液体锂"
-    task.497CF86F5BC5A7D0.title:"Basic Cables"
+    task.497CF86F5BC5A7D0.title:"基础线缆"
     task.498D86D3DCD85DE3.title:"Complete This Quest"
     task.4A0037264C36EBE1.title:"&eObserve&f: &dArc Furnace"
     task.4B48F3912AE46B3C.title:"&fSummoned a &ePossessed Phantom"
@@ -1265,7 +1265,7 @@
     task.654450BCAE6FF1CA.title:"&c中级精华&f护甲"
     task.65ABFF26ECEB2A3D.title:"裂缝护甲"
     task.65B8627FFE5418FB.title:"Log Entry 013"
-    task.676CCF6511031CB3.title:"Log Entry 001"
+    task.676CCF6511031CB3.title:"日志记录 001"
     task.67773EAE20B67BD2.title:"Summon a &cDawn Spirit"
     task.67A22BBA4C91522B.title:"Item Use"
     task.681570B1424CE111.title:"Complete This Quest"
@@ -1453,11 +1453,11 @@
         "Allows further redstone and comparator configuration."
     ]
     quest.036C11AC70835846.quest_desc:[
-        "&aEnderic Lasers&r are primarily used to create &aFluxite&r, but can also be used to transfer RF wirelessly or mine blocks in the world."
+        "&a末影激光器&r一般拿来制造&a能量水晶&r，不过它还有传输RF和挖掘方块的用途。"
         ""
-        "To link a machine or block to the &aEnderic Laser&r, use the &eTarget Designator&r by shift + right clicking the machine or block, then shift + right-clicking the Enderic Laser to link them."
+        "如果想把方块或机器链接到&a末影激光器&r上，首先拿着&e目标指示器&r潜行右击机器/方块，然后再潜行右击末影激光器即可。"
         ""
-        "&l&cWARNING!&r Removing a linked block without stopping the laser will mine all blocks in the laser's line of sight."
+        "&l&c千万小心！&r如果在没关闭激光的情况下就挖掉链接的方块，那么激光就会把一条线上的方块全部挖掉！"
     ]
     quest.03A7D3280ECF5076.quest_desc:[
         "&aPrismarine Crystal Shards&r are a used for most of the advanced items and machinery."
@@ -2039,7 +2039,7 @@
         "The &cDjinni Smelter&r functions like all other &bSmelters&r, but process things 50% faster than normal."
     ]
     quest.0D92EFDB73114B0C.quest_desc:[
-        "有了&2初级精华&r科技，你现在可以制造&b怪物种子&r了。"
+        "有了&2初级精华&r后，你现在就可以制造&b怪物种子&r了。"
         ""
         "这类种子和别的不一样，需要&2充能活化种子&r和装满对应怪物精华的&a灵魂瓶&r才能合成。"
     ]
@@ -2938,11 +2938,11 @@
         "How To Set Up ->"
     ]
     quest.1FE952E6D58451EA.quest_desc:[
-        "With Magebloom, we can craft &aSpell Parchment&r for us to inscribe our spells on!"
+        "有了法师之花，意味着可以合成&a法术羊皮纸&r，然后可以把魔咒抄写上去！"
         ""
-        "To inscribe a spell onto a &aBlank Parchment&r, use the parchment on your &aScribe's Table&r. Select the spell you'd like to inscribe in your Spell Book, then sneak-right click onto the parchment to set the spell!"
+        "把羊皮纸放在你的&a抄写台&r上，这样就可以将魔咒抄写到&a空白羊皮纸&r上了。首先在法术书中选中你想抄写的魔咒，然后潜行右击羊皮纸即可设定魔咒！"
         ""
-        "These &aBlank Parchments&r can also be used to create item filters to help with automation, as well as making &dWarp Scrolls&r!"
+        "&a空白羊皮纸&r还可以拿来做自动化的过滤器，以及制作&d折越卷轴&r！"
     ]
     quest.1FEEBCA6D633B479.quest_desc:[
         "&a末影存储&r可以实现跨维度存储流体/物品。"
@@ -3229,9 +3229,9 @@
         "Their main use, however, is to multiply &aGems&r effects with their quality multiplier."
     ]
     quest.26D8F6345B6AB232.quest_desc:[
-        "The &bSorceror's Set&r is for those who don't need the defense, because they aren't going to get hit in the first place. Or at least they think they won't."
+        "&b巫师套装&r适合那些完全不需要防御的玩家，因为他们绝不会在战斗中受伤……或者不会受伤只是他们一厢情愿罢了。"
         ""
-        "When upgraded, this set has many more high-tier thread slots."
+        "这种套装升级后有更多高阶丝线槽。"
         "{image:ftb:textures/quests/ars/sorcerer_set.png width:130 height:125 align:center}"
     ]
     quest.26EA309139C7C27E.quest_desc:[
@@ -3636,14 +3636,14 @@
         "1个高级精华=64个下级精华"
     ]
     quest.2E919C741282C30B.quest_desc:[
-        "The water is littered with wreckage, most of it mine. Some of it... isn’t."
+        "水中漂浮着许许多多的残骸，很多的都是我飞船留下的，但有些……貌似不是。"
         "The thought that gnaws at me is; if I wasn’t the first, and if other ships have been caught in this..."
         ""
         "&lWhere did their crews go?&r"
         ""
-        "I’ve salvaged what I can- some hull plating, circuitry, a few tools that somehow survived."
+        "我已经把手头能拆的都拆了一遍，有一些电路和外壳镀层，以及一些在空难中幸存下来的工具。"
         ""
-        "This wasn’t just a freak accident. The way the Continuum was &oripped&r off course, the way every system failed at once... I think this was deliberate. "
+        "这不是一场偶然发生的意外，连续统引擎被&o强行拽离&r航线，以及所有飞船系统同时失效……事出反常必有妖。"
         ""
         "{@pagebreak}"
         "&lI felt it.&r That pull, that raw force, like the universe itself reached out, grabbed hold, and dragged us out of the sky just to watch us fall."
@@ -4290,9 +4290,9 @@
         "This armor does not have infinite durability like some other tech armors, but can be upgraded to automatically repair with pressure."
     ]
     quest.3AC24F0B92156F55.quest_desc:[
-        "The &dAssembler&r features a 2x2 crafting grid and will automatically assemble items as long as it has energy, items in the input slots, and space for the finished product in the output slot."
+        "&d装配器&r提供2x2合成格，有能量就会自动组装物品。原材料放入输入槽，成品会从输出槽输出。"
         ""
-        "Some machine components can be crafted without an &aAssembler&r, but doing so consumes more resources."
+        "有些机器组件虽然不用&a自动装配机&r制作，但这样会消耗更多资源。"
     ]
     quest.3ACEBC2F651514F4.quest_desc:[
         "&a咀叶发电机&r会消耗七格半径内的树叶，然后产出能量。"
@@ -5094,11 +5094,11 @@
         "它会召唤&d虚空编织者&r。"
     ]
     quest.4CD72CD5BEF64E24.quest_desc:[
-        "&o&c毫无预警的离奇空难&r"
+        "&o&c一场毫无预兆的诡异空难&r"
         ""
-        "我毫无防备的遭受了一场空中浩劫。我试着重新掌握飞船的控制权，但是它一直在混乱中螺旋飞行……"
+        "我毫无防备的遭受了一场空中浩劫，虽然我试着重新掌握飞船的控制权，但是它一直在胡乱的螺旋下降……"
         ""
-        "&6&o&n任务&r：进入&6大厅传送门&r并选择你的&b初始基地&r。"
+        "&6&o&n当前任务&r：进入&6大厅传送门&r并选择你的&b初始基地&r。"
     ]
     quest.4CDCFE544B72E6C4.quest_desc:[
         "The &5Eldritch Ancient Miner&r harvests entire blocks of raw ore at once."
@@ -5743,16 +5743,16 @@
         "这个玻璃只在&e白天&r有特殊效果，而且上方不允许被任何方块遮盖。"
     ]
     quest.5CA6809074DCA551.quest_desc:[
-        "This day didn’t exactly go as planned. "
-        "For now, I &oneed&r to survive... And I &oneed&r to &5&lignore&r whatever just moved beneath me."
+        "今天和我预想中的实在相差甚远。"
+        "现在我只要考虑的&o就是&r生存而已……哦不，&o还要&r&6&l无视&r刚刚脚下游过的“东西”。"
         ""
-        "One moment, the Continuum was gliding through the void, systems stable, trajectory locked. The next; alarms screaming, hull integrity failing, radiation flooding the ship, and the violent pull of an unseen force wrenching us from reality itself. The reactor core surged past critical, containment failing faster than I could react. I barely made it to the &6escape pod&r."
+        "前一刻，飞船的连续统系统正顺滑地穿过虚空，系统运行稳定飞行轨道也已锁定。就在下一秒，警铃如催命般挨个响起，船体完整度疯狂下降，船舱内被辐射灌满……然后一股强大无比的力量仿佛要把我们从这个现实中剥离出去一般冲入。飞船反应堆在我能反应过来之前已经达到了核爆临界点，我差点就没坐上我的&6逃生舱&r。"
         ""
         ""
         "{@pagebreak}"
-        "&oThe GPS and Comm Link weren’t so lucky.&r"
+        "&o但是GPS和通讯链接器就没我这么幸运了。&r"
         ""
-        "     Now I’m here. No land, no comms, just a &6raft &r(and I use the term loosely) and wreckage bobbing in the waves. The Continuum is out there, crippled but still kicking. If I can &brepair the Commlink&r, I can link it with the GPS mapping system. Maybe I can find a way off this rock."
+        "    现在我孤身一人站在这里，没有土地，没有任何交流手段。唯一有的就只有个&6木筏&r和海上随波逐流的飞船残骸，飞船使用的连续统引擎还在，虽然不成样子但貌似还能用。如果我能&b修好通讯链接器&r的话，只要连上GPS我就可以离开这个鬼地方。"
     ]
     quest.5CAC010680313D6B.quest_desc:[
         "Using the &aFerricore Hoe&r to till dirt will create &aPrimogel Soil&r!"
@@ -5839,23 +5839,23 @@
         "你需要它才能做最强大的精华——&6觉醒精华&r。"
     ]
     quest.5E0AF550AAE74676.quest_desc:[
-        "If you want to automate any type of machine, you'll need to have some way to pipe things in and out."
+        "如果你想实现某台机器的自动化，那么你得先想个办法实现物流自动化。"
         ""
-        "Sneak+using the Wrench on a pipe will insta-break a pipe!"
+        "拿着扳手时潜行右键管道就可以立刻破坏它！"
         "{@pagebreak}"
-        "Pipe Throughputs:"
+        "管道传输性能数据："
         ""
-        "- Item Pipes: 8 items per 5 Ticks"
-        "- Fluid Pipes: 500mb per 3 Ticks"
-        "- Energy Pipes: 10k RF per 1 Tick."
+        "- 物品管道：每5tick传输8个物品"
+        "- 流体管道：每3tick传输500mb流体"
+        "- 能量管道：每1tick传输10kRF"
         ""
-        "&6Oritech&r comes with several basic &bPipes&r just for this! And of course, you'll need some way to configure the pipes, which is where the &aWrench&r comes in."
+        "&6Oritech&r为此添加了一些基础&b管道&r，完全可以胜任你的物流需求！呃对的我知道，你还需要对管道进行配置，&a扳手&r就是用来办这事的。"
         ""
-        "The Wrench is a basic tool that can edit and break Pipes. It can be used to edit the connections between each pipe, which is useful when connecting to multiple machines and pipes."
+        "扳手是个基础工具，可以用来编辑或敲掉管道。它可以编辑每个管道之间的链接方式，如果你有多个机器需要用管道交互的话，那这个就很有用了。"
         ""
-        "Right-clicking on a pipe with an empty hand will set the pipe to extract!"
+        "空手右击管道，就会设定管道为提取状态！"
         "{@pagebreak}"
-        "Using the Wrench on the end of a Pipe will disconnect the pipe from whatever it is attached to. To reconnect it, use the wrench on the middle of the pipe."
+        "对着管道的末尾使用扳手则会让它断开和该面的链接，如果想重新连接则对着管道中心使用扳手。"
     ]
     quest.5E18F5B83FC4EC2D.quest_desc:[
         "&a祛魔透镜&r可以把某个附魔从工具传输到书上（附魔书也行）。"
@@ -6276,9 +6276,9 @@
         "It comes with a Base Modifier of 3, which triples the energy storage and speed of the machine it is installed in."
     ]
     quest.66E3E6C2AE15DB9A.quest_desc:[
-        "我被困在一望无际的海中央事故的残骸上，并且丢失了生存物资，其他船员也已失踪。&a&o我必须坚强地活下去&r。"
+        "我被困在一片无尽的海洋之上，脚下只有我的飞船残骸……而且我丢失了我的生存物资，其他船员也已失踪。&a&o但我必须坚强地活下去&r。"
         ""
-        "&6&o&n任务&r：在海平面上&a漂浮的残骸&r上收集一些基本材料来稳固安身之所。"
+        "&6&o&n当前任务&r：在海面上&a漂浮的废墟&r中收集一些基础材料来稳住局面。"
     ]
     quest.670A52F1036507BB.quest_desc:[
         "&bAir pressure&r, measured in &bBAR&r, is what powers most &6PCNR&r machines."
@@ -6612,9 +6612,9 @@
     quest.70A09D5CFC69EA43.quest_desc:[
         "浩瀚无边的海洋……似乎有什么东西在深处蠢蠢欲动。"
         ""
-        "&o你能直面深处潜伏的威胁吗？&r"
+        "&o你能直面深处潜藏的威胁吗？&r"
         ""
-        "&6Oceanblock 2&r是一个任务线循序渐进的整合包，将带你穿越海洋的最深处。"
+        "&6Oceanblock 2&r以任务线为引导，带领你前往海洋的最深处。"
         ""
         "起初你会出生在&a大厅&r！要开始旅程，你只需穿过传送门然后选择你的初始船只。"
     ]
@@ -6686,9 +6686,9 @@
         "&aCthulhu&r: Provides Water Breathing"
     ]
     quest.722E213A3A4FD26B.quest_desc:[
-        "This chapter serves as the storyline for Oceanblock 2!"
+        "这个章节将会为你揭开藏在Oceanblock2面纱下的故事！"
         ""
-        "As you progress, you'll unlock more lore that you've found along the way."
+        "本章节的故事会随着你游戏进度前进而不断解锁。"
     ]
     quest.723152AC816F91A5.quest_desc:[
         "Now that I can start automating most of the process of sluicing, I will need a way to transport items and fluids between the machines and storages."
@@ -7102,11 +7102,11 @@
     quest.790B688EBB673CBA.quest_desc:[
         "你可以用附魔装置制造出&d法师之花种子&r，用它满足你的纤维需求。"
         ""
-        "When harvested, &bMagebloom&r can be turned into &bMagebloom Fiber&r. This Fiber can be used to make several things, but most importantly, &dMagical Armor&r!"
+        "收获后，&b法师之花&r可以合成为&b魔力纤维&r，这种纤维用处繁多，不过最主要的用处还是制作&d魔法护甲&r！"
         ""
-        "There are 3 different types of base armor, each having unique thread slots per armor piece. For example, making the Battlemage set from diamond armor gives the best defence, but has lower tier thread slots per upgrade."
+        "一共有3种不同的基础护甲，每套护甲的丝线槽都不同。比如钻石甲做成的战斗法师套装防御最高，但丝线槽比较少。"
         ""
-        "You can learn more by reading each one in the next set of quests!"
+        "下面的任务中有关于这些套装的说明，挨个看看吧！"
     ]
     quest.7993F4FA33E2B958.quest_desc:[
         "虽然我已经给凝胶喂了带有虚空力量的食物，但是它&o还没吃够&r，还要更多。"
