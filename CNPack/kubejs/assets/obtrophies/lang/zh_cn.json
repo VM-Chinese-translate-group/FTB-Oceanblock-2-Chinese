@@ -46,9 +46,9 @@
     "gui.obtrophies.player_drops":"Drops on player kill only",
     "gui.obtrophies.trophy_category":"Trophy Drops",
     "itemGroup.obtrophies":"Trophies",
-    "obtrophies.configuration.section.obtrophies.client.toml":"Client Settings",
-    "obtrophies.configuration.section.obtrophies.client.toml.title":"Client Settings",
-    "obtrophies.configuration.section.obtrophies.common.toml":"Common Settings",
-    "obtrophies.configuration.section.obtrophies.common.toml.title":"Common Settings",
+    "obtrophies.configuration.section.obtrophies.client.toml":"客户端设置",
+    "obtrophies.configuration.section.obtrophies.client.toml.title":"客户端设置",
+    "obtrophies.configuration.section.obtrophies.common.toml":"通用设置",
+    "obtrophies.configuration.section.obtrophies.common.toml.title":"通用设置",
     "obtrophies.configuration.title":"OpenBlocks Trophies Config"
 }
