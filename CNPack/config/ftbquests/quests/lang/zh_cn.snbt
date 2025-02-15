@@ -71,7 +71,7 @@
     quest.04D4223CC7A21FA4.title:"&fAdvanced Portal Gun"
     quest.04DA6581C64FFF5F.quest_subtitle:"前期就能用的应用能源？"
     quest.04F50469BCFB8188.title:"&5Eclipse Alloy Shovel"
-    quest.04F9459458972A20.title:"&dSource"
+    quest.04F9459458972A20.title:"&d魔源"
     quest.05315396D48EE815.title:"&6制备乙烯&r"
     quest.055F4DA6E97B36B9.title:"&fYour First &dReactor"
     quest.058C71F15E4AB3E2.title:"&cBlazegold Helmet"
@@ -318,7 +318,7 @@
     quest.23B06AB674CC7193.title:"&dSevira's Permanent Confinement"
     quest.23C901E3B4AC916D.quest_subtitle:"Nautec的开端"
     quest.23C901E3B4AC916D.title:"Getting Nauti-cal"
-    quest.2435B9F22A09A945.title:"&fCheaper &dSpells&f!"
+    quest.2435B9F22A09A945.title:"&f更廉价的&d魔咒&f！"
     quest.2461B0DCE15C5BCE.title:"&fSuperior Gemset Ring"
     quest.2464B384CC26F2EC.quest_subtitle:"Stores Matter"
     quest.24CE908ED60FD514.title:"It's Crushing Time"
@@ -480,7 +480,7 @@
     quest.36E0D875AA8E2F66.title:"&5Ore of the Eclipse"
     quest.3710743E7B4F073D.title:"A Mystical Infusion"
     quest.371D1FEFBD49CCFF.title:"&dCelestigem Sword"
-    quest.37313F95E939A6F5.title:"&dAlchemical Sourcelink"
+    quest.37313F95E939A6F5.title:"&d炼金魔源通道"
     quest.37CA431C28D82E55.quest_subtitle:"So anyway, I started blasting"
     quest.37CA431C28D82E55.title:"&dRailgun"
     quest.38248F3AE03BE9F7.title:"&dAfrit Smelter"
@@ -568,7 +568,7 @@
     quest.408165388CBC4556.quest_subtitle:"传输气体和化学品"
     quest.408165388CBC4556.title:"&f化学品导管"
     quest.40836F3C75BD93D1.title:"&d强化锭&r"
-    quest.40AD268694D57BD9.title:"&dMycelial Sourcelink"
+    quest.40AD268694D57BD9.title:"&d菌丝魔源通道"
     quest.40B00524384110B9.title:"&fVortex Tube"
     quest.40C04194E9876363.quest_subtitle:""
     quest.40C04194E9876363.title:"发现波塞冬的小秘密"
@@ -670,7 +670,7 @@
     quest.4DF3BAFE6DD1AE55.title:"Log Entry 017"
     quest.4E0DB5D4574FD4E2.title:"&fUpgrade: Smelter"
     quest.4E48ACEA714B5976.title:"&fArc Furnace Electrode &bBlueprint"
-    quest.4E4E33E04625A9EB.title:"&cVolcanic Sourcelink"
+    quest.4E4E33E04625A9EB.title:"&c火山魔源通道"
     quest.4E623BAFD92591EE.title:"&fStaff of Travelling"
     quest.4E655BB90DE8F356.title:"Attached To My &bSoul&r"
     quest.4E6B0E9C678618A3.title:"Filtering Items"
@@ -749,7 +749,7 @@
     quest.59090638A27CEC29.title:"&d终级精华&f护甲"
     quest.59A6D7B544F1AE06.title:"电梯！"
     quest.5A4BD762C1792546.title:"&5Eclipse Alloy Axe"
-    quest.5A57DB728220261F.title:"&2Agronomic Sourcelink"
+    quest.5A57DB728220261F.title:"&2农艺魔源通道"
     quest.5A5D6DD8D9C3C4A0.quest_subtitle:"Prepping For A Journey"
     quest.5A5D6DD8D9C3C4A0.title:"Tales of Endless Lava"
     quest.5A637C0834B0D450.title:"&aPrism Monocle"
@@ -793,7 +793,7 @@
     quest.5EE3DB64F65604FB.title:"Pressure Suit"
     quest.5F0AAD028931A220.quest_subtitle:"Summoning Pentacle: Tier 2"
     quest.5F0AAD028931A220.title:"&cOphyx' Calling"
-    quest.5F5A8762D664CBF0.title:"&bImbued Essences"
+    quest.5F5A8762D664CBF0.title:"&b灌注精华"
     quest.5FBD41923B66C239.title:"&a存储容量升级！&f"
     quest.5FD42392FCECCB47.title:"&dFluxite&r"
     quest.600DE37317142D0D.title:"&fPrismatic Battery"
@@ -932,7 +932,7 @@
     quest.73E91712D4D9A762.title:"&fMinigun"
     quest.73EC5E7F2300B99D.title:"&b赛特斯石英"
     quest.740DA65D6FB1F0EC.title:"&fSoularium Ingot"
-    quest.741F91C5833DEFFA.title:"&bVitalic Sourcelink"
+    quest.741F91C5833DEFFA.title:"&b生死魔源通道"
     quest.74394A0A56C5CFF5.title:"&fUpgrade: Mob Scanner"
     quest.74406A4321ABC0D4.quest_subtitle:"Compressing"
     quest.74406A4321ABC0D4.title:"I Guess This Works?"
@@ -967,7 +967,7 @@
     quest.78E89B8AC431D36C.quest_subtitle:"A Strange Signal"
     quest.78F3D5C0909EFD27.quest_subtitle:"Jar Automation"
     quest.78F3D5C0909EFD27.title:"A Little Automation"
-    quest.790B688EBB673CBA.title:"&fMagical &dSeeds"
+    quest.790B688EBB673CBA.title:"&f魔法&d种子"
     quest.7993F4FA33E2B958.title:"幽匿凝胶"
     quest.799515068A0B6D57.title:"&f自动点击"
     quest.79A7540F94A2183E.title:"&fAmulet of Protection"
@@ -1086,7 +1086,7 @@
     task.16E364F01286BDB3.title:"&b元素&f种子 "
     task.174EBF0DF6B39219.title:"Complete This Quest"
     task.17C371D0A671264A.title:"个人存储"
-    task.17E5AF15A0633680.title:"&dRings of Discount"
+    task.17E5AF15A0633680.title:"&d节魔之戒&r"
     task.17F5C28F412FABC5.title:"&fSummoned a &ePossessed Witch"
     task.1817578EA1A618AB.title:"&b高级精华&f护甲"
     task.183FEFA2AEF46058.title:"观察&a灵火"
@@ -1252,7 +1252,7 @@
     task.5E824F724F133342.title:"&eObserve&f: Fermenter"
     task.5FD3ED03945F754B.title:"&fSummon a &aParrot"
     task.60763988647E0462.title:"&dMagic &fin a Jar"
-    task.60789ACB2B0A6E74.title:"&bImbued Essences"
+    task.60789ACB2B0A6E74.title:"&b灌注精华"
     task.60ED1CC486A3405C.title:"Log Entry 018"
     task.612FC6A5C40DE21C.title:"Log Entry 011"
     task.6130E9ED81C8EECD.title:"&eMagical Storage"
@@ -1528,13 +1528,13 @@
         "The &aTerminal&r can be placed on any Logic Cable, which can then be used to access any item within the network."
     ]
     quest.04F9459458972A20.quest_desc:[
-        "&dSource&r is the power of Ars."
+        "&d魔源&r就是新生魔艺的能源。"
         ""
-        "A lot of blocks and recipes require Source to function, which means we'll need both a way to store it, and a way to generate it."
+        "很多方块和配方都需要魔源才能开始，所以你需要找个办法生产与储存魔源。"
         ""
-        "To generate Source, you'll need to use a &aSourcelink&r. There are many different types, each with their own ways of drawing out Source from their environments."
+        "首先用&a魔源通道&r生产魔源。魔源通道种类繁多，它们可以从周边特殊环境下提取魔源。"
         ""
-        "Storing Source is easy! Placing a &aSource Jar&r near any Sourcelink and it will slowly fill up over time. You can also use &aRelays&r to transfer Source between blocks! "
+        "至于储存魔源就很简单了！在魔源通道边上放个&a魔源罐&r，魔源通道工作的时候魔源罐就会缓慢装满。如果想跨方块传输魔源的话，请使用&a中继器&r！"
     ]
     quest.05315396D48EE815.quest_desc:[
         "将&9水&r，&b氢气&r和&2生物燃料&r一块投入&a加压反应室&r以制作&6基片&r，制作基片时会有&6乙烯&r作为副产输出。"
@@ -3071,11 +3071,11 @@
         "&6&o&nTASK&r: Craft the &dNautical Eye&r. This can be used to find the Nautic Crystal structure."
     ]
     quest.2435B9F22A09A945.quest_desc:[
-        "One of the best items to make at the start of your Ars journey is the &aRing of Lesser Discount&r. This ring reduces the &cmana cost&r of your spells by 10 while equipped in the ring slot, as well as giving a small amount of max mana and mana regen."
+        "想要上手新生魔艺的话，最推荐你做的东西就是&a次等节魔之戒&r。装备到戒指槽后，它不仅可以减少你10点&c魔力消耗&r，还能增加一点魔力再生与最大值。"
         ""
-        "You can also upgrade the ring to a &aRing of Greater Discount&r, decreasing your spell costs by 20!"
+        "你可以把这个戒指升级为&a高等节魔之戒&r，它可以减少20点魔力消耗！"
         ""
-        "Check the &bCurios&r tab out in your inventory to see how many fingers you can put rings on!"
+        "查看&b饰品栏&r，看看你有多少根手指头能戴戒指！"
     ]
     quest.2461B0DCE15C5BCE.quest_desc:[
         "The &aSuperior Gemset Ring&r has a two gem slots."
@@ -4096,9 +4096,9 @@
         "This can hold the same upgrades as before, with the addition of the &dDrops Teleport Upgrade&r."
     ]
     quest.37313F95E939A6F5.quest_desc:[
-        "The &dAlchemical Sourcelink&r generates Source by consuming potions from adjacent &aPotion Jars&r. The amount of Source generated depends on the complexity of the potion. The longer the potion lasts and the overall level of the potion will generate a bonus amount of Source, with multipliers for each effect a potion contains."
+        "&d炼金魔源通道&r会吸收周边&a药水罐&r的药水，产生魔源。产生的魔源数量由药水制造复杂程度决定，时间越长等级越高，魔源产生的越多，而且多个药水效果会产生多倍魔源。"
         ""
-        "If you're looking to automate this, you should look into making friends with &dWixies&r!"
+        "如果你想自动化这个的话，何不试试和&d薇克精&r打打交道？"
     ]
     quest.37CA431C28D82E55.quest_desc:[
         "This marvel of engineering is capable of accelerating various projectiles, like Iron Rods, to very high speeds."
@@ -4545,11 +4545,11 @@
         "有了锇压缩机后，你就可以制造出&d强化黑曜石锭&r和&6强化荧石锭&r。这两个锭都是高阶合成要用的，不过当工具材料也是可以的！"
     ]
     quest.40AD268694D57BD9.quest_desc:[
-        "The &dMycelial Sourcelink&r generates a moderate amount of source from nearby food, with a bonus depending on the overal nourishment of the food, with &9Source Berry&r food generating more than other non-magical foods."
+        "&d菌丝魔源通道&r会用周边掉落的食物产生魔源，会在原来食物饱食度上再加一点。而且用&9魔源浆果&r产生的魔源比别的食物多得多。"
         ""
-        "This Sourcelink will also convert Grass or Dirt in the 3x3 below it into Mycelium, and will grow mushrooms around it if the space is empty."
+        "而且这个魔源通道可以将周围3x3的草方块/泥土转化为菌丝，且如果周边为空地，则会长出蘑菇。"
         ""
-        "You can \"feed\" it items by using nearby pedestals."
+        "你可以在周边放置基座来“喂”它。"
     ]
     quest.40B00524384110B9.quest_desc:[
         "The &aVortex Tube&r uses compressed air to make one side &bCold&r and the other side &cHot&r."
@@ -5071,11 +5071,11 @@
         "To craft &9Blutonium&r, insert two &bCyanite&r ingots and one bucket of water into a reprocessor."
     ]
     quest.4C78823B3EFA3105.quest_desc:[
-        "The &dEnchanting Apparatus&r is basically the ritual table of Ars. It uses nearby items placed on &aArcane Pedestals&r to create new items, make enchantments, or upgrade Mage Armor later on."
+        "&d附魔装置&r是新生魔艺最基础的仪式台。附魔装置所需物品要放在边上的&a奥术基座&r上，这样才能制造新物品、附魔和升级巫师护甲。"
         ""
-        "To function, the Apparatus needs an &6Arcane Core&r placed underneath it. It also needs several &aArcane Pedestals&r placed within 3 blocks from the Apparatus. The number of pedestals needed depends on the recipe!"
+        "要使用附魔装置的话，首先在附魔装置底下放置一个&6奥术核心&r。在附魔装置边上需要放置多个&a奥术基座&r，且只能放置在附魔装置的三格半径内。配方要求物品越多，要放置的奥术基座就越多！"
         ""
-        "Some recipes also require &dSource&r, which means you'll need &aSource Jars&r placed within 3 blocks as well. "
+        "有些配方需要&d魔源&r，所以处理这类配方时你需要在三格内放置一个装有魔源的&a魔源罐&r。"
     ]
     quest.4C9473D2E4149656.quest_desc:[
         "&6Ronaza's Contact&r is the most complex and advanced &bPentacle&r, combining all human knowledge of &9The Otherworld&r to allow communication with the &5Eldritch Gods&r."
@@ -5206,11 +5206,11 @@
         "&dGraphite Electrodes&r are required for the &dArc Furnace&r to work."
     ]
     quest.4E4E33E04625A9EB.quest_desc:[
-        "&cVolcanic Sourcelinks&r generate Source by consuming nearby burnable items like Coal or Logs that are either dropped into the world or placed upon pedestals. Using Archwood Logs will give a bonus to the amount of Source generated, with &cBlazing Archwood&r generating the most."
+        "&c火山魔源通道&r可以通过烧煤炭和原木等物品产生魔源，被消耗的物品可以是以掉落物形式，或者放在底座上也行。如果用至高木原木的话会产生更多魔源，&c烈焰至高木&r产量最大。"
         ""
-        "As this sourcelink produces Source, it generates heat as well. This will cause stone blocks within a 3x3 area around it to be converted into Magma Blocks, then eventually into Lava."
+        "这个魔源通道不仅仅能产生魔源，还能产生热量。所以该魔源通道周边3x3的石头会因为热量先变成岩浆块，之后变成熔岩。"
         ""
-        "If nothing is covering the Lava, it will create a &cLava Lily&r on top of the Lava. "
+        "如果周边熔岩没有封顶，则它会在熔岩顶部再制造一格&c熔岩源&r。"
     ]
     quest.4E623BAFD92591EE.quest_desc:[
         "The &aStaff of Travelling&r is a powerful tool that allows you to teleport forward a short distance by \"Shift + right-clicking\". You can also use this mechanic to go through thin walls!"
@@ -5663,11 +5663,11 @@
         "如果对其使用其他方块，电梯还能复制该方块的纹理哦！"
     ]
     quest.5A57DB728220261F.quest_desc:[
-        "The &2Agronomic Sourcelink&r will generate Source from crop or tree growth within 15 blocks of it. You can get bonus Source from magical plants, like &9Magebloom&r, &9Source Berry Bushes&r, or &aArchwood Trees&r."
+        "&2农艺魔源通道&r周边半径15格内有植物和树生长时，就会生成魔源。如果是魔法作物的话还有魔源加成，比如&9魔力之花&r、&9魔源浆果丛&r和&a至高木&r之类的作物。"
         ""
-        "The Source that is created will output to a Source Jar within 5 blocks of it."
+        "生产的魔源会自动输出到半径五格内的魔源罐。"
         ""
-        "&eNote&r: No, you cannot bonemeal crops to speed up making Source. :)"
+        "&e注意&r：用骨粉催熟是没法加速魔源生产的。:)"
     ]
     quest.5A5D6DD8D9C3C4A0.quest_desc:[
         "I've heard tales of the &cLava Dimension&r before."
@@ -5888,9 +5888,9 @@
         "Most &bRituals&r using this &bPentacle&r are optional."
     ]
     quest.5F5A8762D664CBF0.quest_desc:[
-        "The Imbuement Chamber is also used to make certain magical &bEssences&r."
+        "灌注室可以制作一些魔法&b精华&r。"
         ""
-        "These recipes require more items and Source to craft, which utilizes &aArcane Pedestals&r."
+        "这种配方需要更多物品，而且还要消耗魔源才能开始，所以你需要&a奥术基座&r。"
     ]
     quest.5FBD41923B66C239.quest_desc:[
         "普通抽屉只能以它的存储上限存储东西，但是你可以升级它的存储性能！"
@@ -6796,9 +6796,9 @@
         "&aSoularium&r is a special soul-based alloy used to create some late-game machinery, like the &dSoul Binder&r and &aSlice \&\ Splice&r."
     ]
     quest.741F91C5833DEFFA.quest_desc:[
-        "The &bVitalic Sourcelink&r generates Source from \"the cycle of life\"."
+        "&b生死魔源通道&r从“生命的循环”中生产魔源。"
         ""
-        "This means either from mobs dying nearby, or from nearby animals breeding. It can also generate Source passively from nearby baby animals, as well as speeding up their growth."
+        "意味着周围只要有怪物死亡，或者动物繁育，就会产生魔源。它还可以用周边的幼年动物生产魔源，同时加速它的成长。"
     ]
     quest.74394A0A56C5CFF5.quest_desc:[
         "When equipped in a &aJust Dire's Sword&r, this upgrade allows you to scan for nearby mobs by right clicking with the sword."
@@ -7100,7 +7100,7 @@
         "Note: When placed on top of a Tempered Glass Jar, this will automate the mixing process as long as the Tempered Jar has items inside."
     ]
     quest.790B688EBB673CBA.quest_desc:[
-        "Using the Enchantment Apparatus, we can make &dMagebloom Seeds&r for all of our fabric needs."
+        "你可以用附魔装置制造出&d法师之花种子&r，用它满足你的纤维需求。"
         ""
         "When harvested, &bMagebloom&r can be turned into &bMagebloom Fiber&r. This Fiber can be used to make several things, but most importantly, &dMagical Armor&r!"
         ""
