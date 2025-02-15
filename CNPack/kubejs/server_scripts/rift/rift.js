@@ -46,7 +46,7 @@ BlockEvents.broken(event => {
   if(breakableBlocks.includes(block.id.toString())) return;
 
 
-  player.tell(`You can't break this block in the Rift!`)
+  player.tell(Text.translate("message.rift.blockBreak"))
   event.cancel();
 })
 
@@ -55,7 +55,7 @@ ItemEvents.rightClicked(event => {
     return;
 
   if (riftItemBlacklist.includes(event.getItem().id)) {
-    event.player.tell(Text.of(["You can't use this in the Rift!"]).darkPurple())
+    event.player.tell(Text.translate(["message.rift.itemUse"]).darkPurple())
     event.cancel();
   }
 })
@@ -65,12 +65,12 @@ BlockEvents.rightClicked(event => {
     return;
   
   if (event.player.mainHandItem?.id == "mekanism:cardboard_box" || event.player.offHandItem?.id == "mekanism:cardboard_box") {
-    event.player.tell(Text.of(["You can't use the Cardboard Box in the Rift!"]).darkPurple())
+    event.player.tell(Text.translate(["message.rift.cardboardUse"]).darkPurple())
     event.cancel();
   }
 
   if (event.getBlock().getEntity() != null && !riftContainerWhitelist.includes(event.getBlock().id.toString())) {
-    event.player.tell(Text.of(["You can't use this in the Rift!"]).darkPurple())
+    event.player.tell(Text.translate(["message.rift.itemUse"]).darkPurple())
     event.cancel();
   }
 })
@@ -104,7 +104,7 @@ PlayerEvents.tick((event) => {
   {
     dropRiftLoot(event.player)
     kickFromRift(event.player)
-    event.player.tell(Text.of(["The Rift ejected you! Your loot was dropped!"]).darkPurple())
+    event.player.tell(Text.translate(["message.rift.reject"]).darkPurple())
   }
   else {
     // rift countdown timer
@@ -113,7 +113,7 @@ PlayerEvents.tick((event) => {
     {
       if (timeLeft % (20 * 60) == 0) {
         var minutesLeft = (timeLeft / 20) / 60;
-        new ImmersiveMessage(event.player, `${minutesLeft} ${minutesLeft == 1 ? "Minute" : "Minutes" } Left in the Rift!`)
+        new ImmersiveMessage(event.player, Text.translate("message.rift.timeLeft", minutesLeft, minutesLeft == 1 ? Text.translate("message.rift.timeLeft.minute") : Text.translate("message.rift.timeLeft.minutes")).getString())
           .setColor("#AA00AA")
           .setDuration(5)
           .send()
@@ -121,7 +121,7 @@ PlayerEvents.tick((event) => {
     } else if (timeLeft > 20 * 10) {
       if (timeLeft % (20 * 15) == 0) {
 
-        new ImmersiveMessage(event.player, `${(timeLeft / 20)} Seconds Left in the Rift!`)
+        new ImmersiveMessage(event.player, Text.translate("message.rift.timeLeft.1", (timeLeft / 20)).getString())
         .setColor("#AA00AA")
         .setDuration(4)
         .send()
@@ -129,7 +129,7 @@ PlayerEvents.tick((event) => {
       }
     } else {
       if (timeLeft > 0 && timeLeft % 20 == 0) {
-        event.player.tell(Text.of([`${(timeLeft / 20)} ${(timeLeft / 20) == 1 ? "Second" : "Seconds" } Left in the Rift!`]).darkPurple())
+        event.player.tell(Text.translate("message.rift.timeLeft",(timeLeft / 20), (timeLeft / 20) == 1 ? Text.translate("message.rift.timeLeft.second") : Text.translate("message.rift.timeLeft.seconds")).darkPurple())
       }
     }
   }
@@ -303,7 +303,7 @@ PlayerEvents.tick(event => {
   if (player.getAbilities().flying) {
     player.abilities.mayfly = false
     player.abilities.flying = false
-    new ImmersiveMessage(player, "Flying disabled in the Rift!")
+    new ImmersiveMessage(player, Text.translate("message.rift.flying.disable").getString())
       .setColor("#AA0000")
       .setDuration(5)
       .send()
@@ -336,7 +336,7 @@ function handleOriTechJetpacks(chest, player){
   let using = chestItem.tryUseEnergy(chest, energyStorage, player)
   
   if(using){
-    new ImmersiveMessage(player, "The Rift disrupts the Energy in your Jetpack!")
+    new ImmersiveMessage(player, Text.translate("message.rift.jetpack").getString())
     .setColor("#AA0000")
     .send()
   }
@@ -350,7 +350,7 @@ function handleMekJetpacks(chest, player){
   }
   if(stored.getAmount() == 0) return;
   stored.setAmount(0);
-  new ImmersiveMessage(player, "The Rift disrupts the Energy in your Jetpack!")
+  new ImmersiveMessage(player, Text.translate("message.rift.jetpack").getString())
   .setColor("#AA0000")
   .send()
 }

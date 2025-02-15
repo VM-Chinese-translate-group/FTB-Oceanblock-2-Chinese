@@ -67,7 +67,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
         player.level.runCommand(
             `/immersivemessages sendcustom ${player
             .getDisplayName()
-            .getString()} {y:50,size:1.1,sound:1,color:"#AA00AA"} 4 You are not close enough to the Rift Arena!`
+            .getString()} {y:50,size:1.1,sound:1,color:"#AA00AA"} 4 ` + Text.translate("message.rift.arena").getString()
         )
         return;
     }

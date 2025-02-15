@@ -5,7 +5,7 @@ StartupEvents.registry("item", (event) => {
     event
       .create(`ftb:food_canned_${t[0].toLowerCase()}_open`)
       .displayName(`Emergency Ration (${t[1]} Flavor)`)
-      .tooltip("§8A tasty, long-lasting fruity meal in a can!§f")
+      .tooltip(Text.translate("item.ftb.food_canned.tooltip"))
       .food((food) => {
         food.nutrition(4).saturation(0.4);
       });
@@ -13,13 +13,13 @@ StartupEvents.registry("item", (event) => {
 
   //Pebbles
   global.pebbles.forEach((pebble) => {
-    event.create("ftb:" + pebble.toLowerCase().replace(" ", "_") + "_pebbles").displayName(pebble + " Pebbles");
+    event.create("ftb:" + pebble.toLowerCase().replace(" ", "_") + "_pebbles").displayName(pebble + " Pebbles");  
   });
 
   // Random Items
   event.create("ftb:kelp_goo").displayName("Kelp Resin");
   event.create("ftb:barrel_smasher").displayName("Barrel Smasher");
-  event.create("ftb:abyssal_pearl").displayName("§5Abyssal Pearl§f").tooltip("§8§oChtulhu ahor nogephaii!§f");
+  event.create("ftb:abyssal_pearl").displayName("§5Abyssal Pearl§f").tooltip(Text.translate("item.ftb.abyssal_pearl.tooltip"));
   // Remove as not needed ATM
   // event.create("ftb:kelp_plastic").displayName("Kelp Plastic");
 
@@ -27,14 +27,14 @@ StartupEvents.registry("item", (event) => {
   event
     .create("ftb:gps")
     .displayName("Ship Commlink")
-    .tooltip("§8§oA Communication link with your ship.")
+    .tooltip(Text.translate("item.ftb.gps.tooltip"))  
     .maxStackSize(1);
 
   //GPS
   event
     .create("ftb:gps_broken")
     .displayName("Broken Ship Commlink")
-    .tooltip("§8§oA Broken Communication link with your ship.")
+    .tooltip(Text.translate("item.ftb.gps_broken.tooltip"))
     .maxStackSize(1);
 
   //Magma Droplet
@@ -47,7 +47,7 @@ StartupEvents.registry("item", (event) => {
   event
     .create("ftb:rift_charge_meter")
     .displayName("Rift Charge Meter")
-    .tooltip("§8§oA counter that keeps track of the rift charge.")
+    .tooltip(Text.translate("item.ftb.rift_charge_meter.tooltip"))
     .maxStackSize(1)
     .use((level, player, hand) => {
       try {
@@ -61,26 +61,26 @@ StartupEvents.registry("item", (event) => {
   event
     .create("ftb:heart_of_the_rift")
     .displayName("Heart of the Rift")
-    .tooltip("§8§oBurning endlessly in the fires of time...")
+    .tooltip(Text.translate("item.ftb.heart_of_the_rift.tooltip"))
     .maxStackSize(1)
     .rarity("epic");
 
   event
     .create("ftb:rift_attenuation_crystal")
     .displayName("Rift Attenuation Crystal")
-    .tooltip("§8§o5 Minute Base Rift Time")
+    .tooltip(Text.translate("item.ftb.rift_attenuation_crystal.tooltip"))
     .maxStackSize(4)
     .rarity("uncommon");
   event
     .create("ftb:enhanced_rift_attenuation_crystal")
     .displayName("Enhanced Rift Attenuation Crystal")
-    .tooltip("§8§o10 Minute Base Rift Time")
+    .tooltip(Text.translate("item.ftb.enhanced_rift_attenuation_crystal.tooltip"))
     .maxStackSize(4)
     .rarity("rare");
   event
     .create("ftb:ultimate_rift_attenuation_crystal")
     .displayName("Ultimate Rift Attenuation Crystal")
-    .tooltip("§8§o15 Minute Base Rift Time")
+    .tooltip(Text.translate("item.ftb.ultimate_rift_attenuation_crystal.tooltip"))
     .maxStackSize(4)
     .rarity("epic");
   event.create("ftb:charged_prosperity_seed").displayName("Charged Prosperity Seed");
@@ -90,7 +90,7 @@ StartupEvents.registry("item", (event) => {
 
   event.create('ftb:creative_portal_switcher')
     .displayName('Creative Portal Switcher')
-  event.create('ftb:rift_charge').displayName("Rift Charge").tooltip(["§8§o15 Minutes Rift Time."]);
+  event.create('ftb:rift_charge').displayName("Rift Charge").tooltip([Text.translate("item.ftb.rift_charge.tooltip")]);
 
   event.create('ftb:rift_weaver_disc').displayName(`In the Depths Below`).jukeboxPlayable("ftb:rift_weaver_boss", true).rarity('epic');
   event.create('ftb:mystic_depths_disc').displayName(`Mystic Depths`).rarity("epic").jukeboxPlayable("ftb:mystic_depths", true);

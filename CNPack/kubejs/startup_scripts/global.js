@@ -664,6 +664,6 @@ global.showRiftCharge = (player) => {
   const emptyLength = barLength - filledLength;
   const bar = "█".repeat(filledLength) + "░".repeat(emptyLength);
   try {
-    player.sendSystemMessage(`Rift Charge: [${bar}] ${percentage}%`, true);
+    player.sendSystemMessage(Text.translate("message.rift.charge", bar , percentage), true);
   } catch (e) {}
 };

@@ -123,7 +123,7 @@ ServerEvents.commandRegistry((event) => {
               const time = Arguments.INTEGER.getResult(ctx, "time");
               const player = Arguments.PLAYER.getResult(ctx, "player");
               player.persistentData.putInt("rift_charge", time*20);
-              new ImmersiveMessage(player, "Rift Timer set to " + time + " seconds!").send();
+              new ImmersiveMessage(player, Text.translate("command.rift.set_timer" , time).getString()).send();
               return 1;
             })
           )
@@ -141,7 +141,7 @@ ServerEvents.commandRegistry((event) => {
               let timer = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 20 * 5;
               
               player.persistentData.putInt("rift_charge", Math.max(0, (timer + time * 20) > 24000 ? 24000 : timer + time));
-              new ImmersiveMessage(player, "Rift Timer increased by " + (time/20).toFixed(0) + " seconds!").send();
+              new ImmersiveMessage(player, Text.translate("command.rift.add_timer", (time/20).toFixed(0)).getString()).send();
               return 1;
             })
           )
@@ -154,7 +154,7 @@ ServerEvents.commandRegistry((event) => {
           .executes(function (ctx) {
             const player = Arguments.PLAYER.getResult(ctx, "player");
             player.persistentData.putInt("rift_charge", 0);
-            new ImmersiveMessage(player, "Rift Timer cleared!").send();
+            new ImmersiveMessage(player, Text.translate("command.rift.clear_timer").getString()).send();
             return 1;
           })
         )
@@ -469,7 +469,7 @@ function checkForSoulLantern(event, player) {
   let lantern = inv.get().isEquipped("minecraft:soul_lantern");
   if (lantern) return
 
-  new ImmersiveMessage(player, "Equip the soul lantern on your belt to pass between worlds!")
+  new ImmersiveMessage(player, Text.translate("message.soul.lantern").getString())
   .setColor("#bc82ff")
   .setWave(true)
   .setDuration(4)
