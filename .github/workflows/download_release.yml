@@ -43,8 +43,10 @@ jobs:
             git commit -m '从Paratranz同步翻译'
             git push origin main
             echo "changed=true" >> $GITHUB_OUTPUT # 使用 $GITHUB_OUTPUT 设置输出
+            echo "译文变动，发布release！"
           else
             echo "changed=false" >> $GITHUB_OUTPUT # 使用 $GITHUB_OUTPUT 设置输出
+            echo "译文不变，取消发布release！"
           fi
   release:
     name: Create Release
