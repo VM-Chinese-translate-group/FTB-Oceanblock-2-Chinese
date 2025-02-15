@@ -654,7 +654,7 @@
     quest.4B50B455573D924B.title:"&dAbras' Possessions"
     quest.4BCA3115FA95C81F.title:"&eEssence Decay"
     quest.4BDC456540EBE648.title:"&9Blutonium"
-    quest.4C78823B3EFA3105.title:"&fThe &dEnchanting Apparatus"
+    quest.4C78823B3EFA3105.title:"&d附魔装置"
     quest.4C9473D2E4149656.quest_subtitle:"The Final Pentacle"
     quest.4C9473D2E4149656.title:"&6Ronaza's Contact"
     quest.4CD72CD5BEF64E24.title:"坠机"
@@ -5548,7 +5548,7 @@
     quest.5759DA1D4FD37834.quest_desc:[
         "你需要&a魔源宝石&r才能制作&a魔源石&r，这种石头不仅仅是绝妙的建筑材料，还是一个重要的合成材料！"
         ""
-        "We'll use a few of these to craft several &aArcane Pedestals&r. These are used in several recipes for both the &dEnchanting Apparatus&r and the &aImbuement Chamber&r."
+        "你需要用一些魔源石来制作&a奥术基座&r，&d附魔装置&r和&a灌注室&r。"
     ]
     quest.575F50E62EF3EE64.quest_desc:[
         "While swimming between the debris, this planet has way more pressure than I'm used to."
