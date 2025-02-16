@@ -76,16 +76,7 @@ def save_translation(zh_cn_dict: dict[str, str], path: Path) -> None:
     file_path = dir_path / "zh_cn.json"
     source_path = str(file_path).replace("zh_cn.json", "en_us.json").replace("CNPack", "Source")
     with open(file_path, "w", encoding="UTF-8") as f:
-        try:
-            with open(source_path, "r", encoding="UTF-8") as f1:
-                source_json: dict = json.load(f1)
-            keys = source_json.keys()
-            for key in keys:
-                source_json[key] = zh_cn_dict[key]
-            json.dump(source_json, f, ensure_ascii=False, indent=4, separators=(",", ":"))
-        except IOError:
-            print(f"{source_path}路径不存在，文件按首字母排序！")
-            json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"),sort_keys=True)
+        json.dump(zh_cn_dict, f, ensure_ascii=False, indent=4, separators=(",", ":"))
 
 
 def process_translation(file_id: int, path: Path) -> dict[str, str]:
@@ -98,8 +89,11 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     """
     keys, values = translate(file_id)
 
-    # 手动处理文本的替换，避免反斜杠被转义
-    zh_cn_dict = {}
+    try:
+        with open("Source\\" + str(path), "r", encoding="UTF-8") as f:
+            zh_cn_dict = json.load(f)
+    except IOError:
+        zh_cn_dict = {}
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
         value = re.sub(r"&#92;", r"\\", value)
@@ -164,7 +158,7 @@ def escape_quotes(data):
         return data
 
 def  normal_json2_ftb_desc(origin_en_us):
-    en_json = json.dumps(origin_en_us,ensure_ascii=False, indent=4, separators=(",", ":"),sort_keys=True)
+    en_json = json.dumps(origin_en_us,ensure_ascii=False, indent=4, separators=(",", ":"))
     en_json = eval(en_json)
     temp_set = set()
     temp_en_json = {}
@@ -199,20 +193,16 @@ def main() -> None:
             continue;
         save_translation(zh_cn_dict, Path(path))
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
-    #snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
+        
+    if(len(ftbquests_dict) > 0):
+        json_data = escape_quotes(json.loads(json.dumps(ftbquests_dict,ensure_ascii=False, indent=4, separators=(",", ":"),sort_keys=True)))
     
-    #json_data = json.dumps(snbt_dict,ensure_ascii=False, indent=4, separators=(",", ":"))
-    # Escape quotation marks in the translated data
-    json_data = escape_quotes(json.loads(json.dumps(ftbquests_dict,ensure_ascii=False, indent=4, separators=(",", ":"),sort_keys=True)))
+        nbt_data = json_to_nbt(json_data)
+    
+        formatted_snbt_string = format_snbt(nbt_data)
 
-    # Convert the loaded JSON data to NBT format
-    nbt_data = json_to_nbt(json_data)
-
-    # Format the NBT structure as a pretty-printed SNBT string
-    formatted_snbt_string = format_snbt(nbt_data)
-    # Optionally save the formatted SNBT to a file
-    with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
-        snbt_file.write(formatted_snbt_string)
+        with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
+            snbt_file.write(formatted_snbt_string)
     
 if __name__ == "__main__":
     main()
