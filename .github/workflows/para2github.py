@@ -100,7 +100,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
 
     # 手动处理文本的替换，避免反斜杠被转义
     try:
-        with open("Source\\" + str(path), "r", encoding="UTF-8") as f:
+        with open("Source/" + str(path), "r", encoding="UTF-8") as f:
             zh_cn_dict = json.load(f)
     except IOError:
         zh_cn_dict = {}
