@@ -203,7 +203,7 @@ def main() -> None:
     
     #json_data = json.dumps(snbt_dict,ensure_ascii=False, indent=4, separators=(",", ":"))
     # Escape quotation marks in the translated data
-    json_data = escape_quotes(ftbquests_dict)
+    json_data = escape_quotes(json.loads(json.dumps(ftbquests_dict,ensure_ascii=False, indent=4, separators=(",", ":"),sort_keys=True)))
 
     # Convert the loaded JSON data to NBT format
     nbt_data = json_to_nbt(json_data)
