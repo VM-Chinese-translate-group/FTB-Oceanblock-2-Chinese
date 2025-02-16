@@ -4,5 +4,5 @@
     "block.functionalstorage.simple_compacting_drawer":"简易压缩抽屉",
     "storageupgrade.desc.fluid":"方块流体存储量乘以",
     "storageupgrade.desc.item":"物品流体存储量乘以",
-    "storageupgrade.desc.range":"增加控制器半径 %s 方块"
+    "storageupgrade.desc.range":"控制器半径增加%s方块"
 }

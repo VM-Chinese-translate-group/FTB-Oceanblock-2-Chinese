@@ -1,6 +1,6 @@
 {
-    "item.pnc_ocean_addons.depth_upgrade_1":"深潜升级模块MK1",
-    "item.pnc_ocean_addons.depth_upgrade_2":"深潜升级模块MK2",
+    "item.pnc_ocean_addons.depth_upgrade_1":"深潜升级：I级",
+    "item.pnc_ocean_addons.depth_upgrade_2":"深潜升级：II级",
     "pnc_ocean_addons.configuration.depth_damage":"危险深度每秒伤害：",
     "pnc_ocean_addons.configuration.depth_upgrade_0_limit":"最大安全深度（无深潜升级模块情况下）",
     "pnc_ocean_addons.configuration.depth_upgrade_1_limit":"最大安全深度（安装深潜升级模块MK1情况下）",

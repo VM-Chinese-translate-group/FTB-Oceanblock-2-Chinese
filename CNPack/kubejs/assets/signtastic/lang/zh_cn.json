@@ -2,12 +2,12 @@
     "block.signtastic.square_sign":"方形告示牌",
     "block.signtastic.block_sign":"方块告示牌",
     "block.signtastic.slab_sign":"台阶告示牌",
-    "item.signtastic.sign_configurator":"告示牌调试器",
+    "item.signtastic.sign_configurator":"告示牌配置器",
     "itemGroup.signtastic":"SignTastic",
     "message.signtastic.shiftmessage":"<按下Shift>",
-    "message.signtastic.square_sign.header":"这个方形告示牌可以随意配置各种参数",
+    "message.signtastic.square_sign.header":"这个平整的方形告示牌可以随意配置各种参数",
     "message.signtastic.block_sign.header":"这个方块告示牌可以随意配置各种参数",
-    "message.signtastic.slab_sign.header":"这个台阶告示牌可以随意配置参数",
+    "message.signtastic.slab_sign.header":"这个台阶告示牌可以随意配置各种参数",
     "message.signtastic.sign_configurator.header":"用它可以复制告示牌的配置",
     "message.signtastic.sign_configurator.gold":"右击复制，潜行右击黏贴"
 }
