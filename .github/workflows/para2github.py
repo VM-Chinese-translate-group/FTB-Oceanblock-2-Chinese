@@ -194,15 +194,16 @@ def main() -> None:
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
         if "kubejs/assets/quests/lang/" in path:
+            zh_cn_dict = normal_json2_ftb_desc(zh_cn_dict)
             ftbquests_dict = ftbquests_dict | zh_cn_dict
             continue;
         save_translation(zh_cn_dict, Path(path))
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
-    snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
+    #snbt_dict = normal_json2_ftb_desc(ftbquests_dict)
     
     #json_data = json.dumps(snbt_dict,ensure_ascii=False, indent=4, separators=(",", ":"))
     # Escape quotation marks in the translated data
-    json_data = escape_quotes(snbt_dict)
+    json_data = escape_quotes(ftbquests_dict)
 
     # Convert the loaded JSON data to NBT format
     nbt_data = json_to_nbt(json_data)
