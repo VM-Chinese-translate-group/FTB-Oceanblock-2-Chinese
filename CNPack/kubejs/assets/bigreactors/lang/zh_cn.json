@@ -97,7 +97,7 @@
     "block.bigreactors.reinforced_reactorpowertapfe_active":"反应堆主动FE能源接口（强化）",
     "block.bigreactors.reinforced_reactorpowertapfe_passive":"反应堆被动FE能源接口（强化）",
     "block.bigreactors.reinforced_reactorsolidaccessport":"反应堆固体访问端口（强化）",
-    "block.bigreactors.reinforced_reactorfluidaccessport":"反应堆燃料访问端口(强化)",
+    "block.bigreactors.reinforced_reactorfluidaccessport":"反应堆燃料访问端口（强化）",
     "block.bigreactors.reinforced_reactorcontrolrod":"反应堆控制杆（强化）",
     "block.bigreactors.reinforced_reactorcomputerport":"反应堆电脑端口（强化）",
     "block.bigreactors.reinforced_reactorredstoneport":"反应堆红石端口（强化）",
