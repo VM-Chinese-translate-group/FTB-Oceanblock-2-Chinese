@@ -66,18 +66,18 @@ jobs:
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
       - name: Zip CNPack folder
-        run: zip -r "${{ env.datetime }}.zip" ./CNPack
+        run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: "${{ env.datetime }}.zip"
-          path: "${{ env.datetime }}.zip"
+          name: "VM-CNPack-${{ env.datetime }}.zip"
+          path: "VM-CNPack-${{ env.datetime }}.zip"
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
           artifacts: "${{ env.datetime }}.zip"
-          tag: "Release-${{ env.datetime }}"
-          name: "Release ${{ env.datetime }}"
+          tag: "VM-CNPack-Release-${{ env.datetime }}"
+          name: "VM CNPack Release ${{ env.datetime }}"
           body: "自动生成的最新汉化补丁"
           draft: false
           prerelease: true
