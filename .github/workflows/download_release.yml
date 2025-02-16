@@ -75,7 +75,7 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "${{ env.datetime }}.zip"
+          artifacts: "VM-CNPack-${{ env.datetime }}.zip"
           tag: "VM-CNPack-Release-${{ env.datetime }}"
           name: "VM CNPack Release ${{ env.datetime }}"
           body: "自动生成的最新汉化补丁"
