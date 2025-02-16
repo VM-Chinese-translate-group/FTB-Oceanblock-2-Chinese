@@ -1,10 +1,9 @@
 {
-    "tag.fluid.woodenbucket.ceramic_cracking":"Fluids that crack the Ceramic Bucket",
     "item.ceramicbucket.ceramic_bucket":"Ceramic Bucket",
     "item.ceramicbucket.ceramic_bucket.entity":"Ceramic Bucket of %s",
     "item.ceramicbucket.ceramic_bucket.filled":"Ceramic %s Bucket",
     "item.ceramicbucket.unfired_clay_bucket":"Unfired Clay Bucket",
-    "text.autoconfig.ceramicbucket.title":"Ceramic Bucket Settings",
+    "tag.fluid.woodenbucket.ceramic_cracking":"Fluids that crack the Ceramic Bucket",
     "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE":"Break temperature",
     "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[0]":"§6§lBreak temperature",
     "text.autoconfig.ceramicbucket.option.BREAK_TEMPERATURE.@Tooltip[1]":"Minimum temperature of fluid at which the",
@@ -27,5 +26,6 @@
     "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[0]":"§6§lMilking enabled",
     "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[1]":"Whether or not milking entities with a",
     "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[2]":"Ceramic Bucket should be enabled.",
-    "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[3]":"§7§oDefault: true"
+    "text.autoconfig.ceramicbucket.option.MILKING_ENABLED.@Tooltip[3]":"§7§oDefault: true",
+    "text.autoconfig.ceramicbucket.title":"Ceramic Bucket Settings"
 }

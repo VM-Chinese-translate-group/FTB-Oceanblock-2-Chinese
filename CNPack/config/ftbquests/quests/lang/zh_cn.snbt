@@ -432,14 +432,14 @@
     ]
     quest.07B0C76DFA277DAF.title:"&d幽匿块&r转转转"
     quest.07CC52EDB45C7994.quest_desc:[
-        "All multiblocks have a size limit, and &dReactors&r and &3Turbines&r come in two different forms:"
+        "多方块结构都有尺寸限制，且&d反应堆&r与&3涡轮机&r均有两种规格："
         ""
-        "&aBasic Parts&r: Are far cheaper to craft, making them ideal for early-game power generation."
+        "&a基础结构&r：搭建成本较低，是前期发电的理想选择。"
         ""
-        "&2Reinforced Parts&r: Allow you to build a much larger multiblock structures, but are much more constly."
+        "&2强化结构&r：建造更大型的多方块结构，但造价显著提升。"
     ]
-    quest.07CC52EDB45C7994.quest_subtitle:"Too Basic For You?"
-    quest.07CC52EDB45C7994.title:"&fMultiblock Sizes"
+    quest.07CC52EDB45C7994.quest_subtitle:"觉得太简单了？"
+    quest.07CC52EDB45C7994.title:"&f多方块结构的大小"
     quest.0806978F98A7A3E8.quest_desc:[
         "&aSteel&r is one of the most used resources when creating &6I.E&r multiblock machines."
         ""
@@ -1162,15 +1162,15 @@
     ]
     quest.1277CECF9C633D8B.title:"&6Biopolymer&r"
     quest.12D1B9539CB0D796.quest_desc:[
-        "I might not be the best at woodworking, but I can fashion some of this wood into a funnel for water to drip over time."
+        "我虽然并非顶尖木匠，但我至少可以将木头制作成一个滴水器让水缓缓滴落。"
         ""
-        "This system should soften up &adirt&r enough to turn it into something more useable."
+        "这个装置可以慢慢将&a泥土&r转换为一些可以为我所用的资源。"
         ""
-        "&6&o&nTASK&r: Craft a &aDripper&r and convert &2Dirt&r into &bClay&r."
+        "&6&o&n当前任务&r：制作一个&a滴水器&r将&2泥土&r转换为&b黏土&r。"
         ""
-        "Note: The Dripper must be placed directly above the Dirt block. Use a &2Bowl&r to scoop water into it."
+        "提示：滴水器必须紧贴放置在泥土上方。使用&2碗&r将水舀入其中。"
     ]
-    quest.12D1B9539CB0D796.quest_subtitle:"Notes On Wood"
+    quest.12D1B9539CB0D796.quest_subtitle:"木语笔记"
     quest.131199313AE3F5E9.quest_desc:[
         "&a电力熔炼炉&r是一个消耗能量熔炼东西的熔炉，不过它可以升级！"
     ]
@@ -1539,13 +1539,13 @@
     quest.19762D55D6AD8908.quest_desc:[
         "滤水器似乎收集到了一些漂浮着的&2树苗&r。"
         ""
-        "If I had some &aDirt&r to plant these in, I could figure out a way to extract minerals from some of these blocks I have."
+        "如果我有一些&a泥土&r来种植树苗就好了，我得想个办法用目前拥有的方块中制作出泥土。"
         ""
-        "For whatever reason, the Saplings respond to me squatting over and over. Maybe they like dancing?"
+        "也不知道为什么，树苗似乎对我蹲来蹲去的样子情有独钟。也许他们喜欢我的舞步？"
         ""
-        "&6&o&nTASK&r: Gather &2Wooden Logs&r by planting Saplings in Dirt."
+        "&6&o&n当前任务&r：将树苗种植在泥土中并获得&2原木&r。"
         ""
-        "Note: Twerking to grow things requires holding a &aHoe&r in one of your hands."
+        "提示：在跳电臀舞的时候需要手持一把&a锄&r才能加速植物的生长。"
     ]
     quest.19762D55D6AD8908.quest_subtitle:"海平面繁茂生长的大树"
     quest.19762D55D6AD8908.title:"浮桴之树"
@@ -1670,11 +1670,11 @@
     quest.1B9C122BAE5A64BC.title:"&cLove at First Summon?"
     quest.1BC0E8258FBDBF56.title:"&cIhagan's Enthrallment Animals"
     quest.1BE00286EDFBF416.quest_desc:[
-        "The pebbles are definitely starting to add up quickly."
+        "收集的石子已经堆成一座小山了。"
         ""
-        "With enough of them, I believe I can create a place to make &aCharcoal&r from the spare wood I've gathered."
+        "有了这么多石子以后，我认为接下来就可以用它们搭建一个烧制&a木炭&r的地方，木炭材料就用我搜集到的多余木头吧。"
         ""
-        "&6&o&nTASK&r: Gather enough stone pebbles to create a &aFurnace&r to make &aCharcoal&r."
+        "&6&o&n当前任务&r：收集足够制作&a熔炉&r的石子，然后烧制&a木炭&r。"
     ]
     quest.1C044AAAA1306C6F.title:"&dFamiliar &fBeds"
     quest.1C58933205E5C96D.quest_desc:[
@@ -2552,15 +2552,15 @@
     quest.2CC60A9AD991255F.quest_subtitle:"致命的深度"
     quest.2CC60A9AD991255F.title:"日志记录 008"
     quest.2CD606A9C5C786D8.quest_desc:[
-        "There are two methods of cooling your &dReactors&r:"
-        "In this case, the coolant will be vaporized and the vapor can be extracted from the &dReactor&r to drive the rotors of one or more &3Turbines&r"
+        "有两种使&d反应堆&r冷却的方式："
+        "在此模式下，冷却剂会被汽化，产生的蒸汽可从&d反应堆&r中导出，并驱动一台或多台&3涡轮机&r的转子发电。"
         ""
-        "&aPassive Cooling&r: Generates energy directly without any external medium."
+        "&a被动冷却&r：直接生成能量，无需依赖外部介质。"
         ""
-        "This is your standard standalone &dReactor&r setup."
+        "此为标准的独立&d反应堆&r配置。"
         ""
         ""
-        "&aActive Cooling&r: Uses an external coolant to dissipate &cHeat&r."
+        "&a主动冷却&r：通过外部冷却剂进行&c散热&r。"
         ""
     ]
     quest.2CD606A9C5C786D8.quest_subtitle:"是时候“冷静”一下了"
@@ -5568,18 +5568,18 @@
     ]
     quest.62851FAE7E9D2137.title:"&cLong Distance Lazer&r"
     quest.62B2AE7A4A184E7B.quest_desc:[
-        "After chopping down enough trees, I finally have some sturdy &2wooden logs&r I can use to create my first contraption to extract minerals."
+        "在砍倒许多树木以后，我总算收集到了足够多的坚硬&2原木&r，这样我就可以制作一个提取矿物的装置。"
         ""
-        "Although it's cheaply made, making an &2Oak Sluice&r is going to be a game changer for my survival."
+        "虽然这玩意做工很廉价，但是&2橡木洗矿槽&r足以改变我当前生存现状。"
         "{@pagebreak}"
-        "I'll definitely need some more string for another &acloth mesh&r. With this placed inside, I can place in items like &aGravel&r or &2Dirt&r and run water through to leave only minerals behind."
+        "当然我还需要更多的线来制作一个&a布网&r。将它们组装完成以后，我只需要放入一些&a砂砾&r或者&2泥土&r，然后用水冲刷它们就可以获得我想要的矿物。"
         ""
-        "I'll need some kind of bucket to get the water in as well. A &2wooden bowl&r will do the trick, but might take longer. Maybe I can use clay to fire up a &bceramic bucket&r?"
+        "我还需要一个容器来盛水。&2木碗&r算是能用的东西，但长远来看，是不是烧制一个&b陶瓷桶&r会好一点？"
         ""
-        "&6&o&nTASK&r: Craft an &2Oak Sluice&r and place a &acloth mesh&r inside of it. Fill the Sluice with water from either a &2Wooden Bowl&r or &bCeramic Bucket&r, then run Gravel through to filter out minerals."
+        "&6&o&n当前任务&r：制作一个&2橡木洗矿槽&r并且放入一张&a布网&r。使用&2木碗&r或者&b陶瓷桶&r倒入足量的水洗涤沙砾收集矿物。"
     ]
-    quest.62B2AE7A4A184E7B.quest_subtitle:"Not A Sieve"
-    quest.62B2AE7A4A184E7B.title:"The Game Changer"
+    quest.62B2AE7A4A184E7B.quest_subtitle:"并非筛子"
+    quest.62B2AE7A4A184E7B.title:"改变游戏的发明"
     quest.62BB8F93956480BA.quest_desc:[
         "将书与笔丢入&a灵火&r中，获得&a绑定之书&r，其可用于召唤不同类型的&b魔灵&r。"
         "- &cDjinni&r: Tier 2"
@@ -6015,7 +6015,7 @@
         ""
         "我可以收集足够多的石子，并将它们制作为一整块&3圆石&r。"
         ""
-        "随着缓步前进，在无边海洋存活下去已经成为了一种可能。"
+        "随着不断收集石子，在无边海洋存活下去已经成为了一种可能。"
         ""
         "&6&o&n当前任务&r：收集足够多的&a石子&r并将它们制作为&3圆石&r。"
     ]
@@ -7259,7 +7259,7 @@
     task.1817578EA1A618AB.title:"&b高级精华&f盔甲"
     task.183FEFA2AEF46058.title:"观察&a灵火"
     task.185302C49E85B5E3.title:"&fSummon a &aDeer"
-    task.1A02CBDB99C6928B.title:"&fBlock Variants"
+    task.1A02CBDB99C6928B.title:"&f方块变种"
     task.1A02DE93233BF8FB.title:"&cHeat Sources&r"
     task.1A3819027110CDC5.title:"&fSummon a &aCommon Animal"
     task.1A712E5D65A28EF4.title:"&d口袋存储&f！"
@@ -7473,7 +7473,7 @@
     task.7A024E88591A8862.title:"&fSummon a &aBat"
     task.7BB3EBCE8739E890.title:"&2二级&f种子"
     task.7C746BFE931358D1.title:"Find A Nether Fortress"
-    task.7C8D8C6E2909390C.title:"Bucket Options"
+    task.7C8D8C6E2909390C.title:"可用盛水容器"
     task.7D4016582D0FDBDB.title:"&fSummon a &ePossessed Enderman"
     task.7D546DE558467587.title:"&fSummon a &aChimera"
     task.7EA1CB8D304927B8.title:"一棍式服务！"
