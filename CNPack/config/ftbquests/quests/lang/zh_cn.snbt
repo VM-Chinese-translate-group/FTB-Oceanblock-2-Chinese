@@ -453,7 +453,7 @@
     quest.5D41616086EA607A.title:"&dGearing Up&r"
     task.71F7915F3EA94E46.title:"Suggested Armor"
     quest.141F7BD2B1A4CC74.title:"Makeshift Diving Suit"
-    chapter.0FC6D9571E0C2EDC.title:"Immersive Engineering"
+    chapter.0FC6D9571E0C2EDC.title:"沉浸工程"
     quest.0A2DB5AFC89E852F.title:"&fCoke Oven"
     quest.0806978F98A7A3E8.title:"&fSteel Ingot"
     quest.63B7AC676FC1EE7F.title:"&fTreated Wood Planks"
@@ -1221,7 +1221,7 @@
     task.14BC93367178C58B.title:"观察&6时间水晶母岩&r"
     chapter.2214CC9FC9A1EA7A.title:"深渊档案馆"
     quest.722E213A3A4FD26B.title:"深渊档案馆"
-    task.3EF560ABB680926C.title:"故事张杰"
+    task.3EF560ABB680926C.title:"故事章节"
     quest.5CA6809074DCA551.quest_subtitle:"坠机的那一天……"
     task.676CCF6511031CB3.title:"日志记录 001"
     quest.2E919C741282C30B.quest_subtitle:"分析“遗骸”"
@@ -6907,7 +6907,7 @@
     quest.722E213A3A4FD26B.quest_desc:[
         "这个章节将会为你揭开藏在Oceanblock2面纱下的故事！"
         ""
-        "本章节的故事会随着你游戏进度前进而不断解锁。"
+        "本章节的故事会随着游戏进度的深入而不断解锁。"
     ]
     quest.5CA6809074DCA551.quest_desc:[
         "今天和我预想中的实在相差甚远。"
@@ -7475,7 +7475,7 @@
         ""
         "&a/ftbteambases visit （玩家名）&r - 探访朋友的基地。"
         "{@pagebreak}"
-        "此整合包自带了许多新种类的&a资源包&r！"
+        "整合包内自带了许多新种类的&a资源包&r！"
         ""
         "在&b选项&r中即可启用或禁用它们。"
     ]
