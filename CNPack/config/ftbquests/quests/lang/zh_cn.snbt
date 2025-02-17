@@ -216,17 +216,17 @@
     quest.4782346A565FF21F.quest_subtitle:"很酷的磨机"
     quest.3A55DAA85874864A.title:"&f其他实用机器"
     quest.4E623BAFD92591EE.title:"&f旅行权杖"
-    quest.262F5FE957F52F5D.title:"&fBinding Souls"
-    quest.7D0175F16F9A2D0D.title:"&2Electromagnet"
-    quest.2B8B225CF404A351.title:"&fEnchanter"
-    quest.1F8EC3339B8873B9.title:"&fXP Obelisk"
+    quest.262F5FE957F52F5D.title:"&f灵魂绑定"
+    quest.7D0175F16F9A2D0D.title:"&2电磁铁"
+    quest.2B8B225CF404A351.title:"&f附魔器"
+    quest.1F8EC3339B8873B9.title:"&f经验方尖碑"
     quest.2E01CCF4FC7D949F.title:"&f终结之剑"
-    quest.0F4ABB66EC22C066.title:"&f隐藏导管"
-    quest.77372AD6C4049263.title:"&6EnderIO &dConduits"
+    quest.0F4ABB66EC22C066.title:"&f装饰导管"
+    quest.77372AD6C4049263.title:"&6末影接口&d导管"
     task.221C0FFE873F2F5E.title:"&d导管"
     quest.1980C42D8CDBE51C.title:"&f电动刷怪笼"
-    quest.7D6F927122F7FE62.title:"&fEnder Crystal"
-    quest.487A0367385B68BC.title:"&6Grains of the End"
+    quest.7D6F927122F7FE62.title:"&f末影水晶"
+    quest.487A0367385B68BC.title:"&6末影水晶粉"
     quest.33C16E82B90E5C1F.title:"&f欢迎游玩&6极限反应堆&f！"
     chapter.2D069B87B860C09B.title:"极限反应堆"
     quest.055F4DA6E97B36B9.title:"&f属于你的第一台&d反应堆"
@@ -399,11 +399,11 @@
     quest.0113FC4C63E64DEE.quest_subtitle:"急需升级"
     quest.0113FC4C63E64DEE.title:"熔炼升级"
     quest.69AC1FABD1917612.title:"矿物高效利用技术"
-    quest.74406A4321ABC0D4.quest_subtitle:"Compressing"
-    quest.74406A4321ABC0D4.title:"I Guess This Works?"
-    quest.049E10DB8D447A4D.title:"By The Threads"
-    quest.75FFD3B6ED10E37D.quest_subtitle:"Byproducts"
-    quest.75FFD3B6ED10E37D.title:"More Smashing"
+    quest.74406A4321ABC0D4.quest_subtitle:"压缩"
+    quest.74406A4321ABC0D4.title:"我想这行得通？"
+    quest.049E10DB8D447A4D.title:"巧线死结"
+    quest.75FFD3B6ED10E37D.quest_subtitle:"副产品"
+    quest.75FFD3B6ED10E37D.title:"粉碎多多益善"
     quest.65DB98356A7ABA09.title:"A New Type Of Smelter"
     quest.0C9F8B1E40C4C6F4.title:"A Place To Flow"
     quest.651149C8A37CA508.quest_subtitle:"For The Iron Sluice"
@@ -1062,12 +1062,12 @@
     quest.143E07D2565798AB.title:"使用&a机器核心&r搭建多方块机器"
     task.0AE9E3C1553154B6.title:"原始和基础机器核心"
     quest.2C0C63951FDED180.title:"&d粒子加速器"
-    quest.2B6EC298B50C0D03.title:"Tree Automation"
-    quest.13DFA7B0975971B7.title:"&dOritech Enchanting"
-    quest.1CA7E96F42B75C2F.title:"&fThe &aPowered Furnace"
-    quest.5D9EAE2A6D2B6646.title:"&fThe &6Fragment Forge&r"
-    quest.4348C9D795E92FCE.title:"&aPortable Energy Storage&r"
-    quest.5FD42392FCECCB47.title:"&dFluxite&r"
+    quest.2B6EC298B50C0D03.title:"全自动伐木"
+    quest.13DFA7B0975971B7.title:"&dOritech的附魔方式"
+    quest.1CA7E96F42B75C2F.title:"&f第一台&a电力熔炉"
+    quest.5D9EAE2A6D2B6646.title:"&6粉碎工厂&r"
+    quest.4348C9D795E92FCE.title:"&a便携储能手段&"
+    quest.5FD42392FCECCB47.title:"&d通量水晶&r"
     quest.6CA3339B472F4464.title:"&dProcessing Units&r"
     quest.0C9CD2D8F10D750F.title:"&cFlux Gate"
     quest.3FC961B8C0657214.quest_subtitle:"Or Is It Fiber?"
@@ -2497,29 +2497,29 @@
     quest.7B17CDF1C8FE0CDA.quest_desc:[
         "&a头颅装配器&r用于将生物头颅转换为特殊机器的部件。"
         ""
-        "It requires two tools in order to function: an &aAxe&r and &aShears&r. Each operation will take off one durability from each tool. The &aAxe&r must be at least iron, and some &aShears&r from other mods may work."
+        "要让它工作，需要两种工具：&a斧&r和&a剪刀&r。每次工作都将消耗工具的1点耐久。其&a斧头&r必须至少是铁的，还有就是，其他模组的&a剪刀&r应该也能用。"
     ]
     quest.262F5FE957F52F5D.quest_desc:[
-        "&dMob Souls&r have special properties, and can be captured by using &aEmpty Soul Vials&r on a mob. These souls can be extracted to make end-game items in a &dSoul Binder&r."
+        "&d生物灵魂&r都有特殊的属性，你可以用&a空灵魂瓶&r捕捉生物来获得它。通过&d灵魂绑定器&r，可以用它制作各种游戏后期的物品。"
         ""
-        "The &dSoul Binder&r consumes liquid experience and a filled &aSoul Vial&r to convert &7Broken Spawners&r or create new empowered items."
+        "&d灵魂绑定器&r消耗液态经验和满的&a灵魂瓶&r后可以转化出&7破损的刷怪笼&r或者是其他强化的物品。"
         ""
-        "Note: &aFused Quartz&r is made by smelting 4 Nether Quarts in an Alloy Smelter."
+        "注意：&a石英玻璃&r可以在合金炉用4个下界石英熔炼出来。"
     ]
     quest.7D0175F16F9A2D0D.quest_desc:[
-        "The &aElectromagnet&r is a powered accessory that pulls items into your inventory from up to 5 blocks away."
+        "&a电磁铁&r是一种能量驱动的饰品，它可以将最大5格内的物品吸到你的物品栏中。"
     ]
     quest.2B8B225CF404A351.quest_desc:[
-        "The &aEnchanter&r is an &dEnchantment Table&r that allows you to pick which enchantment you want to make."
+        "&a附魔器&r是一种能让你自行选择你所需的附魔的&d附魔台&r。"
         ""
-        "When provided with specific items and &6experience&r, you can enchant &aBook \&\ Quills&r with an enchantment of your choice."
+        "当你放入特定的物品并消耗经验后，就能把你所需的附魔赋予到&a书与笔&r上。"
         ""
-        "To see which enchantments you can make, make sure to check out the uses in JEI!"
+        "你可以通过查询JEI来知道你能做哪些附魔，以及这个附魔需要什么物品！"
     ]
     quest.1F8EC3339B8873B9.quest_desc:[
-        "The &aXP Obelisk&r is one of the best ways to store your experience, especially when combined with the &aXP Vacuum&r."
+        "&a经验方尖碑&r是你存储经验的最好方式之一，如果与&a真空经验箱&r配合使用，体验更佳。"
         ""
-        "It allows you to store and pull levels from its tank one level at a time, ten levels at a time, or all at once."
+        "你可以一次往其内部存储一级、十级的经验，或者全部储存。"
     ]
     quest.2E01CCF4FC7D949F.quest_desc:[
         "&a终结之剑&r是一种用&a玄钢&r制成的基础剑。"
@@ -2527,18 +2527,18 @@
         "虽然它的威力并不特别大，但是非常适合用于获得&a怪物头颅&r。"
     ]
     quest.0F4ABB66EC22C066.quest_desc:[
-        "如果你想将&a导管&r隐藏起来，你就需要做一些&b导管框架&r！"
+        "如果你想将&a导管&r隐藏起来，你可以做一些&b导管框架&r！"
         ""
-        "These Facades can be changed to the appearance of any other block using the &aPainting Machine&r."
+        "通过&a喷涂机&r可以将框架变成任意方块的样子。"
         ""
-        "Inside of the &aPainting Machine&r, blocks inserted into the second input slot will be painted to look like the block placed in the template slot. Blocks placed into the Template slot are not consumed."
+        "在&a喷涂机&r中，会将模板槽中方块的样子喷涂到第二个槽中的方块上。放置在模板槽的方块不会消耗。"
     ]
     quest.77372AD6C4049263.quest_desc:[
-        "For modded veterans, &6EnderIO&r held great memories due to its amazing pipes, called &dConduits&r."
+        "模组老玩家都对&6末影接口&r中的这个叫&d导管&r的管道有非常好的印象。"
         ""
-        "These &dConduits&r are highly configurable, and can even store multiple conduits in the same block space. If you don't like the look of the cables, you can also slap on a &aConduit Facade&r to cover them up!"
+        "这些&d导管&r可以随心所欲配置，甚至一个方块空间内可以放置多个导管。如果你不喜欢这玩意的样子的话，就往上面贴个&a导管框架&r吧！"
         ""
-        "Configuring them is made easy using the &aYeta Wrench&r. If any pipe is hidden beneath a Facade, holding the wrench in your hand will uncover them for easy configuration."
+        "调节这些管道需要&a耶塔扳手&r，如果你把管道放在了导管框架下，但是又想调整这个管道的话，手持耶塔扳手就可以隐藏导管框架，轻松调整。"
     ]
     quest.1980C42D8CDBE51C.quest_desc:[
         "&6电动刷怪笼&r是原版刷怪笼的电驱动版本。"
@@ -2549,15 +2549,15 @@
         "{@pagebreak}"
         "赋予能量后，会在机器周围半径4格中刷出怪物。"
         ""
-        "Just like most powered machines, it can be upgraded by installing higher tier &aConduits&r."
+        "像大多数能量驱动型机器，你可以用更高级的&a电容&r来升级它的性能。"
         ""
-        "Note: The recipe for this can be found in JEI by hitting &eU&r on a Broken Spawner in your inventory."
+        "注意：在你的物品栏对着破损的刷怪笼按&eU&r键即可打开JEI查看配方。"
     ]
     quest.7D6F927122F7FE62.quest_desc:[
-        "The &6Ender Crystal&r is an end-game item that is crafted by combining a &aVibrant Crystal&r with the soul of an &dEnderman&r."
+        "&6末影水晶&r是游戏后期物品，将&a振动水晶&r与&d末影人&r的灵魂相结合即可合成。"
     ]
     quest.487A0367385B68BC.quest_desc:[
-        "&6Grains of the End&r shows your mastery of EnderIO."
+        "能做出&6末影水晶粉&r，则代表你是末影接口大佬了。"
     ]
     quest.33C16E82B90E5C1F.quest_desc:[
         "在&6极限反应堆&r这款强大的能源模组中，你可以建造&a反应堆&r和&d涡轮机&r来利用&3核能&r。"
@@ -3462,34 +3462,34 @@
         "&6&o&n当前任务&r：使用&b铁网&r来获取足够的&r金锭&r制造&6金网&r。"
     ]
     quest.74406A4321ABC0D4.quest_desc:[
-        "I'll be here for the rest of my life if I keep breaking a single piece of Cobblestone at a time."
+        "按照我一次打碎一颗圆石这蜗牛般的速度，我只能在这里独自度过余生了。"
         ""
-        "If I compress it down even further, I can save myself even more time by &aHammering&r the compressed version instead."
+        "如果我进一步压缩圆石，我可以用&a锤子&r锤它的压缩版本来节省很多时间。"
         ""
-        "&6&o&nTASK&r: Create &3Compressed Cobblestone&r and &aHammer&r it into 9 pieces of Gravel at once."
+        "&6&o&n当前任务&r：制作&3压缩圆石&r并用&a锤子&r将它一口气打碎成9块沙砾。"
     ]
     quest.049E10DB8D447A4D.quest_desc:[
-        "Using my &aFlint Shears&r on the &bBanners&r I run into seems to make quick work in breaking them down."
+        "对&b旗帜&r使用我的&a燧石剪刀&r可以快速分解它们。"
         ""
-        "If I can get enough &aString&r, I can make some kind of system to &afilter out the debris&r in this water."
+        "获得了足够的&a线&r以后，我可以制作一个装置&a过滤水中的碎屑&r。"
         ""
-        "&6&o&nTASK&r: Gather &aString&r."
+        "&6&o&n当前任务&r：获得&a线&r。"
     ]
     quest.2F0A0E95F1689256.quest_desc:[
-        "I can't keep swimming between these piles of debris. It's taking &ltoo long&r. I'll never survive at this rate."
+        "我在这些残骸中游泳的速度&l太慢了&r，再这样下去我就离死不远了。"
         ""
-        "Some of these &acrates&r seem to have &2Bamboo&r stuck in them. If I collect enough of them, I can create a makeshift raft to get me by."
+        "&a板条箱&r里似乎有一些竹子存放在里面。我可以收集一些做成竹筏来当成交通工具供我使用。"
         ""
-        "&6&o&nTASK&r: Gather &2Bamboo&r from &acrates&r to create a &eBamboo Raft&r."
+        "&6&o&n当前任务&r：从&a板条箱&r中收集&2竹子&r来制作一个&e竹筏&r。"
     ]
     quest.75FFD3B6ED10E37D.quest_desc:[
-        "This Hammer is going to save my life, I'm sure of it."
+        "我确信这把锤子是支撑我活下去的关键。"
         ""
-        "If I keep &ahammering&r to make even finer materials, I can make more materials to work with."
+        "坚持不懈的&a粉碎&r可以获得更多高质量材料，这可以使我目前有更多的材料选项。"
         ""
-        "Surely I can figure out a way to extract minerals from them as well."
+        "当然我也可以从它们当中提取矿石。"
         ""
-        "&6&o&nTASK&r: Using the Hammer, turn Gravel into &2Dirt&r, &eSand&r, and then into &aDust&r."
+        "&6&o&n当前任务&r：使用锤子，将沙砾锤成&2泥土&r，&e沙子&r，最后变为&a尘土&r。"
     ]
     quest.65DB98356A7ABA09.quest_desc:[
         "Now that I have Casts to make ingots, I can use the &6Foundry&r to make new &6Alloys&r!"
@@ -6141,7 +6141,7 @@
         ""
         "这台机器日后可以安装&b流体处理插件&r来分离流体，或者和后面要造的&6粉碎工厂&r搭配着进行自动化矿物处理。"
         ""
-        "现在你先用它做点&3碳纤维薄片&r吧！"
+        "现在你先用它做点&3碳纤维&r吧！"
     ]
     quest.0A6E103A6945D11E.quest_desc:[
         "&a铸造器&r是&6Oritech&r推动进度的重要机器，而且它很适合拿来制作&6Oritech&r的各种合金。"
@@ -6199,7 +6199,7 @@
         "&a装备充能台&r用来给物品充能或加装&c涡轮燃料&r"
     ]
     quest.52D486F9FE1BCC66.quest_desc:[
-        "[\"\", {\"text\": \"钷战斧\", \"color\":\"#FCD205\"}, \"是比普通斧头还要高级，无法破坏还能附魔的斧头。\"]"
+        "[\"\", {\"text\": \"钷战斧\", \"color\":\"#FCD205\"}, \"是比普通斧头更高级，无法破坏的可附魔的斧头。\"]"
         ""
         "砍树的时候按住shift就可以一次砍掉整棵树。"
     ]
@@ -6231,7 +6231,7 @@
         "而且它可以给下方的耕地自动浇水。"
     ]
     quest.6F966D2071DBA50A.quest_desc:[
-        "The &aPlacer&r, &aDestroyer&r, and &aFertilizer&r blocks all operate on a gantry built with &aMachine Frames&r designating the area in which the machines operate. The working area must be rectangular and empty inside."
+        "&a方块放置器&r，&a方块破坏器&r和&a方块施肥器&r都在用&a机器框架&r搭建的龙门架上工作，这些框架划定了机器运行的区域。工作区域必须为矩形且内部空心"
         ""
         "这台机器的工作范围为&a机器框架&r下的方块。"
         ""
@@ -6252,13 +6252,13 @@
         "注意，要输入的流体只能通入离心机本体，不要将流体输入到插件上去了！"
     ]
     quest.3D9FFFF325533514.quest_desc:[
-        "Double byproduct amount in &aFragment Forge&r. Increases block breaking yield in &aDestroyer Blocks&r and &aEnderic Lasers&r."
+        "在&a粉碎工厂&r中，使副产物产量加倍。增加&a方块破坏器&r和&末影激光器&r挖掘的产出。"
     ]
     quest.06DA083C1726EE4C.quest_desc:[
-        "Increases working area size of &aDestroyer Blocks&r and &aEnderic Lasers&r."
+        "增加&a方块破坏器&r和&a末影激光器&r的工作范围"
     ]
     quest.7A26B0FFC0BCA275.quest_desc:[
-        "Applicable to &aEnderic Lasers&r. Targets living entities."
+        "适用于&a末影激光器&r。使其可以瞄准实体"
     ]
     quest.39BC89942A5CA7E1.quest_desc:[
         "提升能源效率。"
@@ -6288,99 +6288,99 @@
         "现在你可以制作前两阶的机器核心来开始！"
     ]
     quest.2C0C63951FDED180.quest_desc:[
-        "&dParticle Accelators&r are quite complex! Because of this, each part is split into different quests to break down how they all work."
+        "&d粒子加速器&r的工作方式很复杂！所以接下来的任务将会把它的机理掰碎了进行讲解。"
         ""
-        "To create new items with this machine, you will need to collide items from two separate controllers."
+        "想要用它制作新物品的话，你需要让两个不同控制器中的物品发生碰撞。"
     ]
     quest.53031F8BB47F117D.quest_desc:[
-        "The &aBig Solar Panel&r can generate a variable amount of energy, depending on the tier of &bMachine Core&r used to build it."
+        "&a大型太阳能电池板&r可以产生大量能量，产能基于建造它使用的&b机械核心&r。"
     ]
     quest.2B6EC298B50C0D03.quest_desc:[
-        "When powered, the &aTree Cutter&r is a basic machine that will cut down an entire tree in one go, including the leaves!"
+        "供能时，&a伐木器&r是一台基础机器，可以一次砍倒整棵树，包括树叶！"
         ""
-        "The &aTree Cutter&r will only cut logs up to 7 blocks away, so it may not reach the top of larger trees."
+        "&a伐木器&r仅会砍倒距离7格内的树木，因此它有可能不能砍到较大树木的顶部"
         ""
-        "The logs, leaves, and drops from the leaves are stored in the &aTree Cutter's&r internal inventory."
+        "原木，树叶和树叶的掉落物会储存在&a伐木器&r的存储空间。"
     ]
     quest.26D59E04760C5747.quest_desc:[
-        "The &aDestroyer Block&r is a multiblock that operates on a &aMachine Frame&r gantry and destroys the block layer directly below the frame."
+        "&a方块破坏器&r是需要&a机器框架&r才能工作的多方块机器，它会自动破坏位于下面的方块。"
         ""
-        "The time and energy required to break a block depend on the block's hardness. The &aBlock Destroyer&r attempts to destroy all blocks below. To enable farming use, the &bCrop Filter Addon&r can be installed, which causes the &aBlock Destroyer&r to skip all non-finished crops."
+        "破坏方块所消耗的时间和能源取决于目标的硬度，而这台机器会一直尝试破坏下方的所有方块。为了启用农业用途，方块破坏器可以加装&b作物过滤器插件&r来使其忽略未成熟作物。"
         ""
-        "By adding &bQuarry Addons&r, the &aBlock Destroyer&r can also function as a quarry. Each &bQuarry Addon&r multiplies the range by 8 blocks."
+        "通过加装&b矿场插件&r，&a方块破坏器&r可以作为采石场。每个加装的&b矿场插件&r都可以将其工作范围扩大八倍。"
         ""
-        "This means one &bQuarry Addon&r provides an 8-block range, two &bQuarry Addons&r give a 64-block range, and three &bQuarry Addons&r extend it to a 512-block range!"
+        "这就意味着一个&b矿场插件&r就有8格，两个&b矿场场插件&r是8x8=64格，三个就是512格了！"
     ]
     quest.21723F4B52A69BE9.quest_desc:[
-        "The &aDrone Port&r allows you to transport items across vast distances using flying drones. It requires a &aDrone Port&r at both the takeoff and landing positions to be built and powered."
+        "&a无人机港&r让你可以使用无人机远距离运输物品。需要在发送端和接收端都放置&a无人机港&r并供能"
         ""
-        "Once built, assign the target port using a &eTarget Designator&r. Bind it to the targeted &aDrone Port&r by shift + right-clicking the target port. Then, on the port you wish to send items from, open the UI and place the &eTarget Designator&r into the special item slot."
+        "放置好后，使用&e目标标识器&r标记接收端。使用Shift+右击来将其绑定到目标端&a无人机港&r。然后将&e目标标识器&r放置在在发送端无人机港的UI中的特殊槽位。"
         "{@pagebreak}"
-        "The target &aDrone Port&r must be at least 50 blocks away, and the area it's in needs to be chunk-loaded."
+        "目标&a无人机港&r必须位于50格以外，且其所在区块需被加载。"
         ""
-        "A &aDrone Port&r can only send items to one target port, but can receive items from multiple ports. However, each drone takes a few seconds to land, so if items arrive too frequently, one receiving port may be overloaded when targeted by multiple ports."
+        "一个&a无人机港&r只能向一个特定的目标港发送材料，但一个港可以从多个港接收材料。然而，每个无人机着陆需要几秒钟时间，因此如果材料到达得太频繁，一个接收港可能会因多个港同时发送而过载。"
         ""
-        "The time it takes to deliver items is constant, regardless of the distance the drone has to fly. However, the energy cost increases with distance."
+        "无人机送达材料所需的时间是固定的，与飞行距离无关。然而，能量成本随距离增加。"
     ]
     quest.13DFA7B0975971B7.quest_desc:[
-        "&6Oritech&r offers two methods for applying enchantments. All &6Oritech&r equipment and tools are enchantable."
+        "&6Oritech&r提供了两种不同的附魔方式。该模组的所有装备和工具都可以附魔。"
         ""
-        "The &dStabilized Enchanter&r allows for 'normal' enchantments to be applied to equipment. Having a nearby &dArcane Catalyst&r filled with &9Souls&r allows the application of an enchantment from an enchanted book to any item, at any level."
-        ""
-        "{@pagebreak}"
-        "When inserting an item into the &dStabilized Enchanter&r, you can select the enchantment to be applied from the GUI. The enchantment is stored for subsequent items but can also be changed."
-        ""
-        "Both energy and &9Souls&r are required to operate. The &dStabilized Enchanter&r doesn't collect souls by itself, but instead uses &9Souls&r stored in nearby &dArcane Catalysts&r. The number of required &dArcane Catalysts&r depends on the level of the enchant."
-        ""
-        "Only &dArcane Catalysts&r with stored &9Souls&r are counted."
+        "&d稳定附魔器&r允许将“正常”的附魔应用于装备。当附近有充满&9灵魂&r的&d奥术触媒&r时候，可以将任何附魔书中的附魔应用到任何物品上，并且可以达到任意等级"
         ""
         "{@pagebreak}"
-        "The &dArcane Catalysts&r may also enchant items using books. The book used must be at the maximum level of the enchantment. It can apply any enchantment to any item."
+        "把物品放入&d稳定附魔台&r后，就可以在GUI中选择可用的附魔。附魔可以保留给下一个物品，或者直接换掉。"
         ""
-        "If a tool is already at the maximum or higher level of the applied enchantment, it will be &6Hyper Enchanted&r. This significantly increases the enchantment cost but allows you to exceed the default max level."
+        "稳定附魔台需要能量和&9灵魂&r才能正常运作，但&d稳定附魔台&r本身不会主动收集灵魂，它会从周围的&d奥术触媒&r中自动提取&9灵魂&r。附魔等级越高需要的&d奥术触媒&r越多。"
         ""
-        "By default, an &dArcane Catalyst&r can store up to 50 &9Souls&r. However, &6Hyper Enchanting&r requires more than that."
+        "注意：只有储存了&9灵魂&r的&d奥术触媒&r才会被计算在内。"
         ""
-        "You can stabilize the &dArcane Catalysts&r using &aEnderic Lasers&r, each one increasing the number of &9Souls&r that can be stored."
+        "{@pagebreak}"
+        "&d奥术触媒&r还可以用附魔书附魔物品，前提是附魔书上的附魔必须满级。它可以把任意附魔附加到任意物品上。"
         ""
-        "&c&lWARNING!&r Loss of stabilization while storing &9Souls&r may have &ccatastrophic&r consequences."
+        "如果工具已经处于或高于所应用附魔的最大等级，它将被&6超附&r。 这会显著增加附魔成本，但允许你超过默认的最大等级。"
+        ""
+        "默认情况下，&d奥术触媒&r可以存储50个灵魂。然而，&6超附&r需要超过50个灵魂。"
+        ""
+        " 你可以使用&a末影激光器&r来稳定&d奥术触媒&r。每个激光器都会增加可存储的&9灵魂&r数量。"
+        ""
+        "&c&l注意！！！&r，如果储存大量&9灵魂&r的时候失去外部稳定，则可能造成&c 极 其 严 重 &r的后果！！"
     ]
     quest.1CA7E96F42B75C2F.quest_desc:[
-        "One of the first machines that you can make is the &aPowered Furnace&r!"
+        "你可以制作的第一台机器就是&a电炉&r！"
         ""
-        "To build this machine, place down the Powered Furnace block first, then place a &bMachine Core&r on top of it. Then you can right click it to build it."
+        "要构建这台机器，你需要先放下电炉方块，然后在它上面放置一个&b机器核心&r。然后右击它便可构建完毕"
         ""
-        "This is a decent machine in the early game, but can be upgraded to be much faster using &bAddons&r."
+        "这是一台在游戏初期相当不错的机器，但是你可以为它加装&b插件&r来大幅提升工作速度"
     ]
     quest.7365369CF1CCB2C9.quest_desc:[
-        "The &aPortable Tank&r can store up to 256000mb of any fluid and will retain all fluids when broken."
+        "&a便携储罐&r可以储存256000mb的流体，并且在被破坏后仍能保存其中的流体。"
     ]
     quest.5D9EAE2A6D2B6646.quest_desc:[
-        "The &6Fragment Forge&r is an advanced multiblock machine that is mostly used to &bFragment Ores&r and process ores, increasing the overall yield of ingot production."
+        "&6粉碎工厂&r是个高级多方块结构，它可以&b把矿物粉碎&r，并且还能处理矿物，极大地提升单个矿物产出。"
         ""
-        "Most &bAddons&r affect the operation of the &6Fragment Forge&r. The &bMachine Yield Addon&r will produce additional byproducts when installed in the &6Fragment Forge&r."
+        "这台机器日后可以安装&b流体处理插件&r来分离流体，或者与后续的&6粉碎工厂&r搭配着进行自动化矿物处理。"
         ""
-        "This is also another great way of getting &dFluxite&r!"
+        "用它来获取&d通量水晶&r是个不错的主意！"
     ]
     quest.4348C9D795E92FCE.quest_desc:[
-        "This &aPortable Energy Storage&r can hold up to 1M RF and will retain energy when broken."
+        "&a便携能量存储器&r最多可以储存1MRF，摧毁时可以保留内部的能源。"
         ""
-        "The &aPortable Energy Storage&r accepts energy from all sides through a green port and can only output through the single red port. A redstone signal will disable all energy output."
+        "&a便携能量存储器&r可以从任意有绿色端口的面输入能量，然后从仅有一个的红色端口输出能量。如果给它一个红石信号，那么它就不会输出能量。"
     ]
     quest.3B2B26B1AD947CC5.quest_desc:[
-        "The &aLarge Energy Storage&r holds a base value of 20M RF which can be upgraded with &bAddons&r."
+        "&a大型能量存储器&r基础容量为20MRF，它可以使用&b插件&r升级"
         ""
-        "The &aLarge Energy Storage&r accepts energy from all green ports but can only output through the single red port. A redstone signal will disable all energy output."
+        "&a大型能量存储器&r可以从任意有绿色端口的面输入能量，然后从仅有一个的红色端口输出能量。如果给它一个红石信号，那么它就不会输出能量。"
     ]
     quest.76F41BF761405713.quest_desc:[
-        "&aEnderic Compound&r can be obtained by crushing ender pearls in a &aFragment Forge&r, or by processing sculk in a &aCentrifuge&r before you're able to build the &aFragment Forge&r."
+        "你可以在&a粉碎工厂&r中打碎末影珍珠来获取&a末影化合物&r，也可以在你可以组建&a粉碎工厂&r前，通过在&a离心机&r中离心幽匿块来得到。"
         ""
-        "This compound can be utilized to create budding amethyst in an &aAssembler&r or to duplicate ores using an &dAtomic Forge&r."
+        "这个化合物可以在&a装配器&r中制造紫水晶母岩，或者在&d原子再构机&r中复制矿物。"
     ]
     quest.2ECAD5F752E445F1.quest_desc:[
-        "[\"\", { \"text\": \"Prometheum\", \"color\":\"#FCD205\"}, \" is an advanced material that can only be produced in an \", { \"text\": \"Atomic Forge\", \"color\":\"#FF55FF\"}, \".\" ]"
+        "[\"\", { \"text\": \"钷\", \"color\":\"#FCD205\"}, \" 是一种高级材料，仅能制作于\", { \"text\": \"原子锻造器\", \"color\":\"#FF55FF\"}, \"。\" ]"
         ""
-        "[\"This powerful resource is essential for crafting \", {\"text\": \"Prometheum Tools\", \"color\":\"#FCD205\"}, \" and the \", {\"text\": \"Ultimate Machine Core\", \"color\":\"#FF55FF\"}, \".\"]"
+        "[\"这是一种用于制造 \", {\"text\": \"钷工具\", \"color\":\"#FCD205\"}, \" 和 \", {\"text\": \"终极机器核心\", \"color\":\"#FF55FF\"}, \"的强大材料。\"]"
     ]
     quest.5FD42392FCECCB47.quest_desc:[
         "With the power of &dEnderic Lasers&r, you can focus the laser to mine Amethyst Clusters to get &dFluxite&r."
