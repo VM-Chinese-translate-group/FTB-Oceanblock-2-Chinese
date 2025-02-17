@@ -1,6 +1,6 @@
 {
     chapter.3CE58B5907FB2A58.title:"实用拓展"
-    quest.206987FC6B1524F8.title:"&f原子再构器"
+    quest.206987FC6B1524F8.title:"&f原子再构机"
     quest.2D7445BDE865635C.title:"&f咖啡制造机"
     quest.735DAACDBF57DA01.title:"&f油菜"
     quest.7A82CC64D8966010.title:"&c晶化油菜籽"
@@ -286,12 +286,12 @@
     reward_table.790A03E65CE8EBE4.title:"海洋的馈赠"
     reward_table.7D4F4BCAA73DD644.title:"冒险者奖励箱"
     chapter.3D9342DE6B42E055.title:"Steaming Ahead"
-    quest.7D7DAC8ABD1FEFF3.title:"A Giant Bastion Amidst The Lava"
-    task.116C60E8F8746D6D.title:"Find A &cBastion&r"
-    quest.1C90DD17A67CAAE2.title:"Molten Magma"
-    quest.3DA0BFEF3DD6B003.title:"What Could They Be Hiding?"
-    task.7C746BFE931358D1.title:"Find A Nether Fortress"
-    quest.6E5652B1F2ADF381.quest_subtitle:"Start of Immersive Engineering"
+    quest.7D7DAC8ABD1FEFF3.title:"熔岩中矗立的一座堡垒"
+    task.116C60E8F8746D6D.title:"找到&c下界堡垒&r"
+    quest.1C90DD17A67CAAE2.title:"熔融岩浆"
+    quest.3DA0BFEF3DD6B003.title:"这些家伙会藏在哪呢？"
+    task.7C746BFE931358D1.title:"找到下界要塞"
+    quest.6E5652B1F2ADF381.quest_subtitle:"沉浸工艺的开端"
     quest.6E5652B1F2ADF381.title:"Coke A Coal Uh?"
     quest.6B3F61CE37AD6BEF.title:"Finally, Steel!"
     quest.1FD9B331E6CD9BDE.title:"It's Time For Some Power"
@@ -404,14 +404,14 @@
     quest.049E10DB8D447A4D.title:"巧线死结"
     quest.75FFD3B6ED10E37D.quest_subtitle:"副产品"
     quest.75FFD3B6ED10E37D.title:"粉碎多多益善"
-    quest.65DB98356A7ABA09.title:"A New Type Of Smelter"
-    quest.0C9F8B1E40C4C6F4.title:"A Place To Flow"
-    quest.651149C8A37CA508.quest_subtitle:"For The Iron Sluice"
-    quest.651149C8A37CA508.title:"Item Automation"
-    quest.2E2A3DB1E097BAD3.quest_subtitle:"A Step Towards Machines"
-    quest.2E2A3DB1E097BAD3.title:"The Red Spark"
-    quest.7771C7CE9A9C6872.title:"Passage Through The Portal"
-    task.549CC333BCDC3F55.title:"Visit The &cLava Dimension&r"
+    quest.65DB98356A7ABA09.title:"新款熔炉"
+    quest.0C9F8B1E40C4C6F4.title:"水流的终点"
+    quest.651149C8A37CA508.quest_subtitle:"一切为了铁洗矿槽"
+    quest.651149C8A37CA508.title:"自动物流"
+    quest.2E2A3DB1E097BAD3.quest_subtitle:"迈向机器的一大步"
+    quest.2E2A3DB1E097BAD3.title:"赤红火花"
+    quest.7771C7CE9A9C6872.title:"传送门的另一边"
+    task.549CC333BCDC3F55.title:"造访&a熔岩维度&r"
     quest.16D683E35A8211BF.quest_subtitle:"Cobble Generation"
     quest.16D683E35A8211BF.title:"No More Pebbles"
     quest.575F50E62EF3EE64.quest_subtitle:"Underwater Findings"
@@ -449,10 +449,10 @@
     quest.3710743E7B4F073D.title:"A Mystical Infusion"
     quest.2BEABBCA1FB4A824.title:"Passive Mobs"
     task.31DCC2E3E14BBC4C.title:"This Is All I Have"
-    quest.7AE2748759261A0B.title:"Help From Kelp"
-    quest.5D41616086EA607A.title:"&dGearing Up&r"
-    task.71F7915F3EA94E46.title:"Suggested Armor"
-    quest.141F7BD2B1A4CC74.title:"Makeshift Diving Suit"
+    quest.7AE2748759261A0B.title:"海带的馈赠"
+    quest.5D41616086EA607A.title:"&d万全准备&r"
+    task.71F7915F3EA94E46.title:"推荐的盔甲类型"
+    quest.141F7BD2B1A4CC74.title:"简易潜水服"
     chapter.0FC6D9571E0C2EDC.title:"沉浸工程"
     quest.0A2DB5AFC89E852F.title:"&fCoke Oven"
     quest.0806978F98A7A3E8.title:"&fSteel Ingot"
@@ -1350,7 +1350,7 @@
         "&a油菜&r可以用来生产&a菜籽油&r之类的东西，然后用它们发电。"
     ]
     quest.7A82CC64D8966010.quest_desc:[
-        "&a发酵桶&r用于生产&a精制菜籽油&r，菜籽油进一步加工就是&c晶化油&r。"
+        "把&a晶化油菜籽&r丢进&a精制菜籽油&r就可以将其变为&c晶化菜籽油&r，不过它还能再升级一次。"
     ]
     quest.1E95AD23243FEF87.quest_desc:[
         "现在你就可以制造&6实用拓展&r模组中的最强燃料！只需动动手把&a充能油菜种子&r丢进&c晶化油&r里头，然后&d充能油&r就会duang的一下出现啦！"
@@ -1362,12 +1362,12 @@
         "&a磁力指环&r在有充能的情况下，会自动拾取玩家身边6格的掉落物。"
     ]
     quest.3B6CDE92B84CBFE5.quest_desc:[
-        "&a钻头&r充能后就像镐子和铲子一样，手持钻头潜行右击可以加装升级。"
+        "&a钻头&r在充能后可以当铲子或镐子使用，手持钻头潜行右击可以给它加装升级。"
         ""
         "下一个任务中将会介绍所有的&b钻头拓展&r。"
     ]
     quest.330F69D2F2626B50.quest_desc:[
-        "&a斑斓透镜&r射出的激光会穿透物品，然后改变它们本身的颜色，比如染色玻璃或玻璃板、地毯、染料、羊毛以及染色陶瓦。"
+        "&a斑斓透镜&r射出的激光会穿透物品，然后改变它们本身的颜色，比如染色玻璃或玻璃板、地毯、染料、羊毛以及带釉陶瓦。"
     ]
     quest.6B23438D6F622F5D.quest_desc:[
         "&l&c小心！&r&a爆破透镜&r会在激光命中点处触发一场大爆炸。"
@@ -1414,7 +1414,7 @@
         "你可以在野外找到&a咖啡豆&r，收获它们拿来煮&a咖啡&r吧。"
     ]
     quest.7380416E70BEAD65.quest_desc:[
-        "&a亚麻种子&r在收获作物的时候会蜇你一下。"
+        "&a亚麻种子&r在收获的时候会蜇你一下。"
     ]
     quest.2F89B4E5640AB5E8.quest_desc:[
         "&a发酵桶&r用于生产&a精制菜籽油&r，菜籽油进一步加工就是&c晶化油&r。"
@@ -2723,35 +2723,35 @@
         "在&d反应堆&r和&3涡轮机线圈&r中，&a晶振&r材料有着最优秀的性能。"
     ]
     quest.7D7DAC8ABD1FEFF3.quest_desc:[
-        "I cannot understand how any creature &osurvived&r out here."
+        "我根本无法理解为什么有生物能在这里&o生存&r。"
         ""
-        "These pigs have evolved and created their own towers and castles."
+        "但是这些猪们进化了，还搭建了自己的城镇和城堡。"
         ""
-        "They don't seem very friendly. Maybe I can persuade them with something shiny."
+        "它们看起来不是很友善，也许我可以用一些闪亮的东西和他们交易。"
         ""
-        "&6&o&nTASK&r: Visit a &cBastion&r. Piglins are willing to trade, and can even be set up in their own shop using a &6Barterer&r block."
+        "&6&o&n当前任务&r：前往&下界堡垒&r。猪灵们愿意和你做些以物易物的交易，用&6交易所&r方块可以搭建一个猪灵商店。"
         ""
-        "Notes on Easy Piglins ->"
+        "简易猪灵模组说明书（往下看！）"
         "{@pagebreak}"
-        "To use the &6Barterer&r, it will need a Piglin placed inside of it."
+        "如果要使用&6交易所&r方块，里头必须有一个猪灵。"
         ""
-        "You can sneak-right click on a Piglin to pick them up, so long as they aren't mad at you."
+        "潜行右击猪灵可以将它捡起，前提是它们对你没有敌意。"
         ""
-        "The block can be automated by piping in gold and piping out the items into storage."
+        "用自动输入金锭自动输出物品的方式，可以自动化该方块的贸易。"
     ]
     quest.1C90DD17A67CAAE2.quest_desc:[
-        "I don't believe I can use the &cLava&r directly, but I should definitely keep a lookout for magma-infused stone."
+        "我不敢保证我现在可以直接使用&c熔岩&r，所以我应该找找那种含有岩浆的石头。"
         ""
-        "I should be able use the heat-resistant properties of the block to create some sort of oven."
+        "有了这种方块的抗热特性后，我应该就可以做出类似炉子的东西了。"
         ""
-        "&6&o&nTASK&r: Find a &cMagma Block&r and break it down into &6Magma Droplets&r."
+        "&6&o&n当前任务&r：找到&c岩浆块&r然后把它打破，变为&6岩浆液滴&r。"
     ]
     quest.3DA0BFEF3DD6B003.quest_desc:[
-        "This dimension seems to be inhabited by strange looking Pigs."
+        "这个维度似乎被那些看起来很奇怪的猪占领了。"
         ""
-        "They've made massive &6Fortresses&r that protect them from the Lava, but most of it seems taken over by other mobs here."
+        "它们建造了巨大的&6要塞&r，用以保护它们免受熔岩伤害，不过这里的大部分要塞似乎都被别的怪物占领了。"
         ""
-        "&6&o&nTASK&r: Visit a &6Fortress&r and collect &cNether Wart&r and &cBlaze Rods&r."
+        "&6&o&n当前任务&r：造访&6下界要塞&r，然后收集&c下界疣&r和&c烈焰棒&r。"
     ]
     quest.6E5652B1F2ADF381.quest_desc:[
         "Just like I thought!"
@@ -3492,54 +3492,54 @@
         "&6&o&n当前任务&r：使用锤子，将沙砾锤成&2泥土&r，&e沙子&r，最后变为&a尘土&r。"
     ]
     quest.65DB98356A7ABA09.quest_desc:[
-        "Now that I have Casts to make ingots, I can use the &6Foundry&r to make new &6Alloys&r!"
+        "现在我有了铸模来作为金属锭的模具，可以开始启用&6熔铸炉&r制作一些全新的&6合金&r了！"
         ""
-        "I'll admit, I'm not much of a metalworker."
+        "当然，加工金属我也不是很熟练就是了。"
         ""
-        "&6&o&nTASK&r: Use the &6Foundry&r to craft new &6Alloys&r needed for basic electronic components."
+        "&6&o&n当前任务&r：使用&6熔铸炉&r制作基础电子元件所需的全新&6合金&r。"
     ]
     quest.0C9F8B1E40C4C6F4.quest_desc:[
-        "I've noticed that the runoff from the &2sluice&r seems to go right to the end of the contraption."
+        "我注意到&2洗矿槽&r的产物似乎最后都会流向末端。"
         ""
-        "If I place some sort of storage there, I bet I could easily capture the byproducts from the sluice!"
+        "如果我在末端放置一个存储方块，我猜可以自动收集洗矿槽的产物！"
         ""
-        "&6&o&nTASK&r: Place a &aChest&r at the end of the &2sluice&r to automate item collection. "
+        "&6&o&n当前任务&r：放置一个&a箱子&r在&2洗矿槽&r的末端来自动收集物品。"
     ]
     quest.651149C8A37CA508.quest_desc:[
-        "The &bIron Sluice&r I've made seems to be way better at handling any processing blocks."
+        "&b铁洗矿槽&r似乎有一种更方便的方式放入原材料。"
         ""
-        "I can keep placing in these blocks manually, but I bet I could use some metal to figure out a way to automate putting items in."
+        "我手动放入方块的时代已经过去了，我现在可以用金属找到一种自动放入方块的方法。"
         ""
-        "&6&o&nTASK&r: Craft a &aHopper&r and use it to automate placing in items into the &bIron Sluice&r."
+        "&6&o&n当前任务&r：制作一个&a漏斗&r实现自动往&b铁洗矿槽&r中放入物品。"
     ]
     quest.2E2A3DB1E097BAD3.quest_desc:[
-        "I've been experimenting more with the &6Golden Mesh&r, and I've found some &cRedstone&r!"
+        "在多次尝试使用&6金网&r后，我找到了一些&c红石&r！"
         ""
-        "It seems like it holds the key to creating some sort of power source, but that will have to hold off for now. What would I even need to power at this point? My ship is in pieces!"
+        "这是产生某种能量的关键，但不是我现在考虑的。目前阶段我无心专注于能量开发，因为我都泥菩萨过河自身难保了！"
         ""
-        "&6&o&nTASK&r: Gather &aRedstone Chunks&r from sluicing &bDust&r. Craft &eRedstone Clusters&r and smelt these in the &bTempered Glass Jar&r to make &cRedstone&r."
+        "&6&o&n当前任务&r：洗涤&b尘土&r获得&a红石矿粒&r。制作&e红石簇&r并将其放入&b强化玻璃罐&r熔炼成为&c红石&r。"
     ]
     quest.7771C7CE9A9C6872.quest_desc:[
-        "I believe I have everything to access the &cLava Dimension&r now."
+        "现在我装备齐全，可以准备前往&c熔岩维度&r了。"
         ""
-        "Although I've never visited the place myself, I just need to construct the portal and make sure I have the &bSoul Lantern&r equipped. Don't want to lose my own soul here."
+        "虽然我从来没有去过那个地方，但我只需要鼓起勇气，带着我的&b灵魂灯笼&r穿过搭建好的传送门，我的魂魄必然一息尚存。"
         ""
-        "Visiting this pocket dimension will be dangerous, but it is home to some very valuable resources that might be strong enough to withstand the depths of this ocean."
+        "这个小型维度风险和收益并存，它独有的稀缺资源可以支持你潜入海底。"
         ""
-        "&6&o&nTASK&r: Build out a &cNether Portal&r, equip the &bSoul Lantern&r, and enter the &cNether&r!"
+        "&6&o&n当前任务&r：搭建一个&c下界传送门&r，装备&b灵魂灯笼&r，进入&c下界&r！"
         ""
-        "Note: If you die in the Nether, you will need another &bSoul Lantern&r to enter the portal again."
+        "注意：如果你在下界不幸殒命，你需要另一个&b灵魂灯笼&r才能再次穿过传送门。"
     ]
     quest.60AFA8C508B1FD96.quest_desc:[
-        "With the &aTempered Glass Jar&r, I can easily heat up enough cobblestone to create Lava."
+        "&a强化玻璃罐&r可以轻松的将圆石熔化为熔岩。"
         ""
-        "You know what having Lava means? &dObsidian&r!"
+        "你知道获得熔岩意味着什么？&d黑曜石&r！"
         ""
-        "I should probably make another &aJar&r to cool the two liquids down in."
+        "我需要再制作一个&a罐子&r来将两种液体混合冷却。"
         ""
-        "&dObsidian&r is the key to the &cLava Dimension&r... I'll just need to figure out how to use it!"
+        "&d黑曜石&r是造访&c熔岩维度&r的一把钥匙……我来看看这玩意是怎么用的！"
         ""
-        "&6&o&nTASK&r: Create &cLava&r in the &aTempered Glass Jar&r, then craft &dObsidian&r using another Jar with water."
+        "&6&o&n当前任务&r：在&a强化玻璃罐&r中制造&c熔岩&r，然后在另一个罐子中和水混合冷却成为&d黑曜石&r。"
     ]
     quest.16D683E35A8211BF.quest_desc:[
         "When mixing in the &bTempered Glass Jar&r, the &aFluids&r it produces seem to fit nicely in another Glass Jar."
@@ -3792,29 +3792,29 @@
         "&6&o&nTASK&r: Use the &aCooking Pot&r to melt down sugar into &eHoney Bottles&r, then use it to create &2Ersatz Leather&r."
     ]
     quest.7AE2748759261A0B.quest_desc:[
-        "Every day that I spend on this vast ocean, the kelp just grows higher and higher. It must have &lsome&r use, right?"
+        "在这片海上的每一天，这些海带都长的越来越高。这肯定会有&l什么&r用，对吧？"
         ""
-        "I wish I could cut it all down, but I can't reach the bottom yet."
+        "我本想从底部一次性将海带全部收获，但是现在海底我还去不了。"
         ""
-        "&6&o&nTASK&r: Using the &aCooking Pot&r, cook Kelp into &2Kelp Resin&r. This can be smelted down into &aSlimeballs&r."
+        "&6&o&n当前任务&r：使用&a厨锅&r，将海带烹饪成&2海带树脂&r。这东西可以进一步熔炼得到&a黏液球&r。"
     ]
     quest.5D41616086EA607A.quest_desc:[
-        "The journey to the &cLava Dimension&r is incredibly dangerous."
+        "&c熔岩维度&r之旅非常危险。"
         ""
-        "I should take as much time as I need to make some of the strongest gear I can before I take the portal."
+        "在穿过传送门之前，我需要准备一些强力的装备。"
         ""
-        "&6&o&nTASK&r: Make an &dEnchanting Table&r and enchant some gear."
+        "&6&o&n当前任务&r：制作一个&d附魔台&r来为装备附魔。"
         ""
-        "Note: The Nether is &oreally&r dangerous. :)"
+        "注意：下界&o真的真的&r很危险。 :)"
     ]
     quest.141F7BD2B1A4CC74.quest_desc:[
-        "Have you ever felt &2Kelp&r before? It's pretty tough stuff!"
+        "你有采摘过&2海带&r么？在这里绝非易事！"
         ""
-        "I'm sure with enough of it, I can fashion some sort of makeshift diving suit to stay underwater a little longer."
+        "在有了足够的海带以后，你可以制作一些建议潜水服使你在水下停留更长的时间。"
         ""
-        "&6&o&nTASK&r: Craft the &2Diving Suit&r."
+        "&6&o&n当前任务&r：制作&2潜水服&r。"
         ""
-        "Notes: The &aDiving Helmet&r allows you to see better underwater. The &aDiving Chestplate&r can store air for you to breathe underwater for a small amount of time."
+        "注意：&a潜水头盔&r可以让你在水下视野更清晰。&a潜水胸甲&r可以为你在水下提供更多的氧气，使你停留更长时间。"
     ]
     quest.0A2DB5AFC89E852F.quest_desc:[
         "The &aCoke Oven&r is another early-game multiblock that converts regular coal into &3Coke Coal&r and &7Creosote Oil&r."
@@ -5182,14 +5182,12 @@
     quest.58AA1E1E16977E47.quest_desc:[
         "The &aCatalyst&r is the secret to activating the Crystal."
         ""
-        "To activate it, place the &bAquatic Catalyst&r a few blocks away from one of the crystal's sides."
-        ""
-        "On the side facing away from the Crystal, use the &dHeart of the Sea&r on the &bAquatic Catalyst&r."
+        "To activate it, place the &bAquatic Catalyst&r a few blocks away from one of the crystal's sides. Making sure the small darkside is facing the crystal."
         ""
         "You'll then need to pump in &2Kelp&r into the Catalyst with something like a Hopper."
         "{@pagebreak}"
         "If done properly, the opposite side will shoot out a laser beam towards the &bCrystal&r. This will create a laser beam we can use to purify our &aAquarine Steel Compounds&r."
-        ""
+        "{@pagebreak}"
         "Throw them into the beam under the crystal to create &aAquarine Steel&r."
         ""
         "Note: These Beams can kill you!"
@@ -6383,28 +6381,28 @@
         "[\"这是一种用于制造 \", {\"text\": \"钷工具\", \"color\":\"#FCD205\"}, \" 和 \", {\"text\": \"终极机器核心\", \"color\":\"#FF55FF\"}, \"的强大材料。\"]"
     ]
     quest.5FD42392FCECCB47.quest_desc:[
-        "With the power of &dEnderic Lasers&r, you can focus the laser to mine Amethyst Clusters to get &dFluxite&r."
+        "有了&d末影激光器&r，你可以让激光挖掘紫水晶簇来得到&d通量水晶&r"
         ""
-        "Make sure to use the &eTarget Designator&r to aim the laser properly!"
+        "一定要用&a目标指示器&r来正确指示激光的位置！"
         ""
-        "Using the laser on a Budding Amethyst will energize it and increase its growth rate."
+        "如果把激光射到紫水晶母岩上，则该母岩会被充能，水晶生长速率会提升。"
     ]
     quest.7791DA964DA2A80D.quest_desc:[
-        "When particles of different items collide, they can create new items. The particle starts from the &aParticle Accelerator Block&r, where you can insert any item to be used as a particle. A straight &aGuide Ring&r needs to be placed right behind the &aController&r, facing to the side, with visuals aligning correctly."
+        "当不同物品的粒子碰撞时，就会产生新的物品，粒子起始处是&a粒子加速器方块&r，你可以插入任何想作为粒子发射的物品。在&a粒子加速器控制器&r后面必须放一个正对控制器的&a导向环&r，如果你搭建出的导向环对齐的话，那么它会有视觉效果。"
         ""
-        "Once inserted, the particle travels along a route defined by the &aGuide Rings&r. They can be right-clicked to add a 45-degree turn on one side. Another &aGuide Ring&r needs to be in the particle's path as defined by the &aGuide Rings&r. Depending on the speed, the allowed distance between &aGuide Rings&r increases"
+        "在插入作为粒子的物品后，它就会开始按&a导向环&r给定的路径往前移动，在导向环上右键可设定一个45度角的拐弯。&a导向环&r的结尾后面需要衔接另一个&a导向环&r，粒子运动速度越快两个&a导向环&r的距离就越大。"
         ""
-        "This means that, at higher speeds, the distance between &aGuide Rings&r can be larger."
+        "这就意味着如果粒子速度很快，那么两个&a导向环&r之间的间距就可以拉的很大。"
     ]
     quest.778A876616D4638E.quest_desc:[
-        "When a redstone signal is applied to a non-straight &aGuide Rings&r, it becomes a switch block. When powered on, it leads particles straight; when powered off, it guides them into the original curved direction. A particle can also enter from the 'other' direction, visualized by the smaller red glass tube, following the path of the white tube, and entering from both the red and white tubes."
+        "当给非直线状态下的&a导向环&r通入红石信号后，它就会按照信号指示粒子运动轨迹。充能时粒子会直线发射，未充能则会按照导向环自有的弧度加速粒子。另一边也可以输入粒子，这里将输入方向可视化为小一点的红色玻璃管，粒子运动轨迹为白色管道，最终进入红色/白色管道。"
         ""
-        "At higher speeds, the particle can't take tight turns. If the last full 90-degree turn is too close, it exits the guided path and shoots out into the world. If the distance between &aGuide Rings&r is too big, or no next &aGuide Ring&r is found, it will also shoot out."
+        "粒子速度极高，没法像水滴一样实现急转弯，所以如果最后90度拐角太急的话它就会射出导向环，然后粒子就会跑到外界去。假如&a导向环&r太大或者没有下一段&a导向环&r的话，那么粒子也会射出轨道。"
         ""
         "{@pagebreak}"
-        "A particle's speed can be measured with a &aParticle Accelerator Sensor&r. A comparator can then provide a redstone signal based on the particle's speed."
+        "你可以使用&a粒子加速器传感器&r测量粒子速度，比较器可以将粒子速度以红石信号的方式输出。"
         ""
-        "The following shows the required speed for each redstone level:"
+        "下方列出了红石信号所对应的速度。"
         ""
         "&71.&r  0"
         "&72.&r  10"
@@ -6423,11 +6421,11 @@
         "&715.&r 15000"
     ]
     quest.77C53FD36F7747EA.quest_desc:[
-        "When particles collide at high speed, they'll emit energy-dense tachyons. The higher the collision energy, the more energy will be ejected with tachyons. They'll also fly farther and there'll be more tachyons at higher speeds."
+        "当粒子以高速碰撞时，它们会发射能量密集的速子。碰撞能量越高，释放的能量越多，速子也会飞得越远，产生的速子也越多。"
         ""
-        "&dTachyons Absorbers&r can be used to catch those particles and turn them into energy. The tachyons will always exit in random directions at the collision point."
+        "速子收集器可以用来捕捉这些粒子并将其转化为能量。速子总是从碰撞点随机方向发射。"
         ""
-        "Surrounding the entire area in collectors ensures you'll catch them all. If all tachyons are collected, you can get up to 3x the amount of energy that was used to accelerate the particles. However for large collisions, a lot of high-energy tachyons will be emitted, quickly filling the capacity of a single collector. "
+        "围绕整个区域设置收集器可以确保捕捉到所有速子。如果所有速子都被收集，可以获得高达加速粒子所用能量的3倍。然而，对于大规模碰撞，大量高能速子会被释放，迅速填满单个收集器的容量。"
         ""
         "Placing the &dTachyons Absorbers&r further back allows the tachyons to be spread over multiple absorbers so they don't fill up too quickly and get overwhelmed."
         ""
@@ -6793,7 +6791,7 @@
         "用Just Dire Things做出&d多态流体&r。"
     ]
     quest.3147A88D91AF7EA6.quest_desc:[
-        "在岩浆维度的&c烈焰竞技场&r上击杀&c焰魔&r。"
+        "在熔岩维度的&c烈焰竞技场&r上击杀&c焰魔&r。"
         ""
         "如果要召唤焰魔的话，在烈焰竞技场中央的&c烈焰祭坛&r使用&d炽燃余烬&r即可。"
         ""
@@ -6865,7 +6863,7 @@
         ""
         "&6&o&n当前任务&r：制作一个&6终极裂缝缓冲水晶&r。"
         ""
-        ""
+        "Note: Using these Crystals in the final, cheaper &aEmpowering Craft&r will add 15 minutes of Rift Charge per craft, but destroys the crystals in the process."
     ]
     quest.5685E88BCD17D066.quest_desc:[
         "很有意思，看来有&d凝胶&r参与制造的盔甲和&d裂缝&r维度有很强的亲和力。"
