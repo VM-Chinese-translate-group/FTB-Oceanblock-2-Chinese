@@ -57,21 +57,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Upload CNPack folder
-        uses: actions/upload-artifact@v4
-        with:
-          name: CNPack
-          path: ./CNPack
       - name: Get current datetime for tag
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
-      - name: Zip CNPack folder
-        run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
-      - name: Upload artifact
+      - name: Upload CNPack folder
         uses: actions/upload-artifact@v4
         with:
           name: "VM-CNPack-${{ env.datetime }}.zip"
-          path: "VM-CNPack-${{ env.datetime }}.zip"
+          path: ./CNPack
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
