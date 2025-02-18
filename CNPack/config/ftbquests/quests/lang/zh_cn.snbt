@@ -716,7 +716,7 @@
     quest.7D6B50926D672B77.title:"&a一阶矿物处理线&r"
     task.36C5D1EED2022E8D.title:"&a阶段一"
     quest.7EF7546FF007EF36.title:"&2生物燃料&r"
-    quest.007CD364F96C2912.title:"&f跑得&a飞起&r！"
+    quest.007CD364F96C2912.title:"&f跑得&a飞快&r！"
     quest.27C5F8272212B35A.title:"&a建立&d工厂"
     task.223BF1DD305A9FC5.title:"工厂升级安装器"
     quest.114B4840D2FA1CDF.title:"&a提纯矿物&r"
@@ -770,18 +770,18 @@
     quest.25EB6E3274347822.title:"&d输导矩阵&r"
     chapter.642768EC48CAFC60.title:"海蓝科技"
     quest.334A319CC010293A.title:"&f让我们开始&9深潜"
-    quest.48CADAFA7696B518.title:"&fFinding a &9Crystal Geode"
-    quest.58AA1E1E16977E47.title:"&aPowering The Catalyst"
-    quest.71C0BC71D3B45690.title:"&fAncient Machine Parts"
-    quest.3BAE611AE4CEA7A6.title:"[{\"text\": \"Removing The \", \"color\": \"#FFFFFF\"}, {\"text\":\"Rust\", \"color\": \"#D5510E\"}]"
-    quest.2953423FCB0A3146.title:"&fUnderwater Brewing"
-    quest.1E7FCA66EDB1BCF5.title:"&cAquarine Steel Tools"
-    quest.75EE2E239783B03E.title:"&dAquarine Steel Armor"
-    quest.1216065631D8B731.title:"&aElectrolyte Algae Serum"
-    quest.03A7D3280ECF5076.title:"&cPrismarine Crystal Shard"
-    quest.72EBD96ED914471F.title:"&fCharger"
-    quest.600DE37317142D0D.title:"&fPrismatic Battery"
-    quest.2E1393EB3FAF322C.title:"&aAugments&r"
+    quest.48CADAFA7696B518.title:"&f找到一个&9海蓝水晶洞穴"
+    quest.58AA1E1E16977E47.title:"&a给催化器供能"
+    quest.71C0BC71D3B45690.title:"&f远古机械零件"
+    quest.3BAE611AE4CEA7A6.title:"[{\"text\": \"除\", \"color\": \"#FFFFFF\"}, {\"text\":\"锈\", \"color\": \"#D5510E\"}]"
+    quest.2953423FCB0A3146.title:"&f水下酿造"
+    quest.1E7FCA66EDB1BCF5.title:"&c海蓝钢制工具"
+    quest.75EE2E239783B03E.title:"&d海蓝钢护甲"
+    quest.1216065631D8B731.title:"&a电解藻类血清"
+    quest.03A7D3280ECF5076.title:"&c海蓝水晶碎片"
+    quest.72EBD96ED914471F.title:"&f充能器"
+    quest.600DE37317142D0D.title:"&f海蓝电池"
+    quest.2E1393EB3FAF322C.title:"&a强化&r"
     quest.55C9854AAC7DFB86.title:"&dAugmentation Station"
     quest.5A637C0834B0D450.title:"&aPrism Monocle"
     quest.781C67090DF1C611.title:"&fManaging Your &dLazer Network"
@@ -1136,38 +1136,19 @@
     quest.7123022757E50A70.title:"&5究极精华&r"
     quest.458B3C345767E296.title:"&5下界之星种子"
     quest.2AF9753B396F7625.title:"&d终级注魔水晶"
-    quest.603BAFEF92DA275E.title:"&a下级精华&f盔甲"
-    task.0C41CFCD491848EC.title:"&a下级精华&f盔甲"
-    task.48BB22683A4C50AD.title:"&a下级精华&r工具"
     quest.26EA309139C7C27E.title:"&a熔炉"
     quest.208A53545D649C8D.title:"&a机器升级&r"
     quest.3429ADCC43607897.title:"&f处理&2多余的种子&r"
     quest.140258D21BFEA3EB.title:"&a全自动收割&r"
-    quest.0BB08BDA4100A686.title:"&2初级精华&f工具"
-    task.2C8687501A9C54A8.title:"&2初级精华&f工具"
-    quest.3AF4B31403FE9E0D.title:"&2初级精华&f盔甲"
-    task.57A9D2B9030E96F9.title:"&2初级精华&盔甲"
     quest.665C690EFB275701.quest_subtitle:"5x5的灌溉范围！"
     quest.665C690EFB275701.title:"&2初级精华&f洒水壶"
     quest.7FF2F7E49EF7512E.title:"&2初级&f机器升级"
-    quest.030DA26E4A03A96B.title:"&c中级精华&f盔甲"
-    task.654450BCAE6FF1CA.title:"&c中级精华&f盔甲"
-    quest.5B063F5520171280.title:"&c中级精华&f工具"
-    task.69165B138F6A0983.title:"&c中级精华&f工具"
     quest.2AF06433C6EDDB62.title:"&c中级&f机器升级"
     quest.35A457C89558CF59.quest_subtitle:"7x7的灌溉范围！"
     quest.35A457C89558CF59.title:"&c中级精华&f洒水壶"
     quest.7F1B3EDA4DAFF0CB.quest_subtitle:"9x9的灌溉范围！"
     quest.7F1B3EDA4DAFF0CB.title:"&b高级精华&f洒水壶"
     quest.2D4CECA1F01E2E3B.title:"&b高级&f机器升级"
-    quest.3E37D6522BE4EB9B.title:"&b高级精华&f盔甲"
-    task.1817578EA1A618AB.title:"&b高级精华&f盔甲"
-    quest.34C8F98F68B133B5.title:"&b高级精华&f工具"
-    task.08A176AF81AFB67F.title:"&b高级精华&f工具"
-    quest.59090638A27CEC29.title:"&d终级精华&f盔甲"
-    task.228E18B91C6F4249.title:"&d终级精华&f盔甲"
-    quest.342F1C3D3A821B2B.title:"&d终级精华&f工具"
-    task.0D0541DC3C0F1FDC.title:"&d终级精华&f工具"
     quest.6E9BCC46F9963413.quest_subtitle:"11x11的灌溉范围！"
     quest.6E9BCC46F9963413.title:"&d终级精华&f洒水壶"
     quest.550BD484CE96EAB1.title:"&d终级&f机器升级"
@@ -1182,10 +1163,6 @@
     quest.06635954BF3D49AE.quest_subtitle:"13x13的灌溉范围！"
     quest.06635954BF3D49AE.title:"&6觉醒精华&f洒水壶"
     quest.4A8D12E484DF2A81.title:"&6觉醒&f机器升级"
-    quest.47916D9BDCC5E6C4.title:"&6觉醒精华&f工具"
-    task.76CF3F2C875B9EAF.title:"&6觉醒精华&f工具"
-    quest.454B2187BD8B939F.title:"&6觉醒精华&f盔甲"
-    task.3F8CD319BDBC509E.title:"&6觉醒精华&f盔甲"
     quest.259818648228F2E9.title:"&2充能活化种子"
     quest.0ACF5DAF571848F5.title:"&c充能虚炎种子"
     chapter.58F6AEE2F2B62190.title:"下方的裂痕"
@@ -4217,7 +4194,7 @@
         "手持&a工匠卷轴&r时，右键即可学习珠宝的制作方法。"
     ]
     quest.2F6F52B669C50A01.quest_desc:[
-        "The &aSharpshooter's Loop&r is a &bRing&r that applies a gem's on-hit effects whenever an arrow hits an enemy."
+        "在 &b戒指&r槽位装备&a神枪手指环&r后，当玩家使用弓箭命中敌人时，会对敌人施加宝石的命中效果。"
     ]
     quest.79A7540F94A2183E.quest_desc:[
         "当受到敌人的攻击时，&a防御纹章&r会对攻击者施加命中效果。"
@@ -4249,19 +4226,19 @@
         "- &b其他宝石&f：x2.0"
     ]
     quest.4929927157D97BFC.quest_desc:[
-        "The &aImproved Gemset Ring&r has a x1.5 base effect multiplier, which stacks with the &aBanding Material&r quality."
+        "&a进阶宝石指环&r会使宝石的数值/效果倍率提高至原本的1.5倍，可以与&a指环材料&r品质倍率加成叠加。"
     ]
     quest.2461B0DCE15C5BCE.quest_desc:[
         "&a高级宝石指环&r拥有两个宝石槽位。"
         ""
         "第一个孔位镶嵌的宝石的数值/效果倍率会降低至原本的0.875倍，而第二个孔位镶嵌的宝石的数值/效果倍率会提升至原本的1.75倍。"
         ""
-        "These base multipliers stack with &aBanding Material&r quality multipliers."
+        "这些倍率改变会与&a指环材料&r的品质倍率叠加在一起，改变宝石的数值/效果。"
         ""
-        "The same gem can be slotted into both slots, providing an effective x2.625 base multiplier."
+        "两个宝石孔位也可以镶嵌同样的宝石，如此做的话宝石的数值/效果倍率会提升至原本的2.625倍。"
     ]
     quest.65523A9928B0AF3E.quest_desc:[
-        "The &aTearstone Ring&r provides an immunity buff depending on what gem is slotted."
+        "&a泪石指环&r会根据所镶嵌的宝石种类，为玩家提供免疫指定负面效果的能力。"
     ]
     quest.6B0731EE1A55A7F0.quest_desc:[
         "&b属性提升&r：盔甲穿透"
@@ -4877,7 +4854,7 @@
     quest.27C5F8272212B35A.quest_desc:[
         "通用机械的最终目的便是建起一座巨型高科技工厂，现在，是时候升级你的机器了！"
         ""
-        "你可以选择把机器直接合成为&a基础工厂&r，或者对机器使用&a基础升级&r。"
+        "你可以选择把机器合成为&a基础工厂&r，或者对机器使用&a基础升级&r。"
         ""
         "加装升级后机器就会升级为&a工厂&r，工厂一次可输入输出的物品会增多。并且工厂等级越高，处理的效率就越高！"
         ""
@@ -5170,83 +5147,83 @@
         ""
         "在这个结构中，有一个&6海洋催化器&r。"
         ""
-        "The &6Catalyst&r can also be crafted."
+        "&6催化剂&r也可以制作。"
     ]
     quest.48CADAFA7696B518.quest_desc:[
-        "Going deeper beneath the Ruins structure, you'll find a massive &bCrystal&r."
+        "深入废墟建筑的下方，你会发现一块巨大的&b海蓝水晶&r。"
         ""
-        "This structure has several loot barrels to scavenge through, some with some important items needed for progression."
+        "这个结构里有几个可供搜刮的战利品桶，其中一些桶里装着推进游戏进程所需的重要物品。"
         ""
-        "Using the &aCrowbar&r, you can crack open any crate that isn't rusted shut."
+        "你可以使用&a撬棍&r撬开任何没有锈死的板条箱。"
     ]
     quest.58AA1E1E16977E47.quest_desc:[
-        "The &aCatalyst&r is the secret to activating the Crystal."
+        "这种&a催化器&r是激活那块水晶的关键所在。"
         ""
-        "To activate it, place the &bAquatic Catalyst&r a few blocks away from one of the crystal's sides. Making sure the small darkside is facing the crystal."
+        "&b海洋催化器&r放置在距离水晶某一侧几个方块远的地方。确保其黑色的那一小面正对着水晶"
         ""
-        "You'll then need to pump in &2Kelp&r into the Catalyst with something like a Hopper."
+        "然后，你需要使用像漏斗之类的东西，把&2海带&r注入催化器中。"
         "{@pagebreak}"
-        "If done properly, the opposite side will shoot out a laser beam towards the &bCrystal&r. This will create a laser beam we can use to purify our &aAquarine Steel Compounds&r."
+        "如果操作正确，催化器相对的一侧会向&b海蓝水晶&r射出一道激光束。这样就会产生一道我们可以用来提纯&a海蓝钢化合物&r的激光束。"
         "{@pagebreak}"
-        "Throw them into the beam under the crystal to create &aAquarine Steel&r."
+        "把它们丢到水晶下面的激光，就可以制造出&a海蓝钢&r。"
         ""
-        "Note: These Beams can kill you!"
+        "注意：这些激光束会置你于死地！ "
     ]
     quest.71C0BC71D3B45690.quest_desc:[
-        "Keep an eye out for chests, crates, and mobs underwater."
+        "多留意一下水下的箱子、板条箱和生物。"
         ""
-        "These can contain some ancient machine parts that you'll need to progress!"
+        "里头可能会有一些远古机器零件，你需要它才能推进度！"
     ]
     quest.3BAE611AE4CEA7A6.quest_desc:[
-        "[\"You'll find lots of old \", {\"text\":\"rusty items\", \"color\": \"#D5510E\"}, \" from loot crates or underwater mobs.\"]"
+        "[\"你可以在战利品箱和水下怪物身上搜刮到很多\", {\"text\":\"生锈的\", \"color\": \"#D5510E\"}, \"东西。\"]"
         ""
-        "[\"You can remove the \", {\"text\": \"rust\", \"color\": \"#D5510E\"}, \" by making some \", {\"text\": \"Etching Acid\", \"color\": \"#55FF55\"}, \" then placing it down and throwing your items in them. It takes a few seconds.\"]"
+        "[\"你可以把\", {\"text\": \"生锈的\", \"color\": \"#D5510E\"}, \"东西扔进\", {\"text\": \"蚀刻酸\", \"color\": \"#55FF55\"}, \"中等上几秒，就可以除锈了。\"]"
     ]
     quest.2953423FCB0A3146.quest_desc:[
-        "One of the most important machines you can make in NauTec is the &aMixer&r. This machine requires &bLaser Power&r from the &bCrystal&r."
+        "在海蓝科技中最重要的机器之一就是&a搅拌机&r。它需要&b海蓝水晶&r产出的&b激光能量&r。"
         ""
-        "This allows you to create new types of liquids and items, most importantly, &aElectrolyte Algae Serum&r."
+        "这能让你制造出新的液体和物品，其中最为重要的是，&a电解海藻血清&r。"
         ""
-        "Note:  Each item in a recipe needs to be placed into the machine from each cardinal direction."
+        "注意：配方中的每一种物品都需要从不同的方向放入机器中。 "
         ""
-        "You can output items from the bottom."
+        "你可以从底部输出物品。"
     ]
     quest.1E7FCA66EDB1BCF5.quest_desc:[
-        "&aAquarine Steel Tools&r are unbreakable tools with special abilities."
+        "&a海蓝钢制工具&r是具有特殊能力且牢不可破的工具。"
         ""
-        "To infuse a tool, you will need to infuse it with &bAquatic power&r in a &aCharger&r. You will also need to drop it in some &aEAS&r, which will consume a full bucket to activate the powers."
+        "要给一件工具注入能量，你需要在&a充能器&r中用&b海蓝能量&r为其充能。你还需要将该工具放入一些&a电解藻类血清&r中，这将消耗满满一桶（血清）来激活其能量。"
         ""
-        "Shift + Right-clicking an infused tool will activate its special ability, which can be found on their tooltip."
+        "按下 Shift 键并右键点击充能后的工具将激活其特殊能力，该能力可以在工具的提示信息中查看。"
     ]
     quest.75EE2E239783B03E.quest_desc:[
-        "While this armor might look weak at first, it gains actual attributes when supplied with power."
+        "虽然这件盔甲乍一看可能很薄弱，但在充能后就会获得它的真实能力。"
         ""
-        "Each piece can have up to +10 Armor and +5 Armor Toughness"
+        "每件（盔甲）最多可拥有+10的护甲值和+5的护甲韧性。"
     ]
     quest.1216065631D8B731.quest_desc:[
-        "&aElectrolyte Algae Serum&r (&aEAS&r) is used to empower items and entities."
+        "&a电解海藻血清&r（&aEAS&r）用于增强物品和实体。"
     ]
     quest.03A7D3280ECF5076.quest_desc:[
-        "&aPrismarine Crystal Shards&r are a used for most of the advanced items and machinery."
+        "&a海蓝水晶碎片&r可用于制造大多数高级物品和先进机器。"
         ""
-        "In order to obtain them you have to use the &cAquarine Steel Pickaxe&r with its ability enabled and mine a &bPrimarine Crystal&r. "
+        "为了获得它们，你必须启用&c海蓝钢镐&r的能力，然后开采&b海蓝水晶&r。"
         ""
-        "Make sure the &bPrismarine Crystal&r has more than 100 power."
+        "确保&b海蓝水晶&r拥有超过100的能量。"
     ]
     quest.72EBD96ED914471F.quest_desc:[
-        "The &aCharger&r is used to infuse items with &bAquatic Power&r."
+        "&a充能器&r是用来给物品注入&b海蓝能量&r的。"
         ""
-        "Shooting it with a &bLaser&r from an energy source will charge the item inside it."
+        "使用&b激光&r照射充能器来给充能器中的物品充能。"
     ]
     quest.600DE37317142D0D.quest_desc:[
-        "The &aPrismatic Battery&r is a device that can store up to 10,000 &bAquatic Power&r."
+        "&a海蓝电池&r是一种能够储存多达 10000 点 &b海蓝能量&r的装置。"
         ""
-        "It is mainly used to charge tools and armor in your inventory, and can be activated by Shift + Right-clicking in your hand."
+        "它主要的作用是为你物品栏中的工具和盔甲充电，并且当你手持它时，通过按住Shift键+鼠标右键就可以激活它。 "
         ""
-        "This item must be in a &eCurios&r slot to work."
+        "这件物品必须放置在&e饰品栏&r对应的槽位中才能发挥作用。"
     ]
     quest.2E1393EB3FAF322C.quest_desc:[
-        "Specific mobs can drop rare items that you can use to augment your body!"
+        "特定的生物可掉落稀有物品，你可以用这些物品来强化你的身体！"
         ""
         "The &aGuardian Eye&r gives you the ability to shoot a Laser at an entity you are looking at within a 15 block radius. Dropped from Guardians."
         ""
@@ -6663,16 +6640,6 @@
         ""
         "这种注魔水晶可以无限使用！"
     ]
-    quest.603BAFEF92DA275E.quest_desc:[
-        "现在你有了&b活化水晶锭&r和&b宝石&r，用它们把钻石盔甲升级成更棒的盔甲吧。"
-        ""
-        "该模组的盔甲可以在&a工具装配台&r上升级，需要消耗各类&d升级&r。"
-    ]
-    quest.13448A305B57016A.quest_desc:[
-        "如果你想要一套更好的工具，那么我推荐&a下级精华工具&r，它比钻石工具性能要好的多！而且&e镰刀&r和&b收割刀&r这样的新工具还可以大范围收割作物！"
-        ""
-        "这些工具可以在工具装配台上升级，需要消耗各类&d升级&r。"
-    ]
     quest.26EA309139C7C27E.quest_desc:[
         "想要个熔炼速度更快的熔炉？试试神秘农业的吧！"
         ""
@@ -6696,9 +6663,6 @@
         "这台机器充能后就会自动收获作物，速度由安装的升级等级决定。它和熔炉一样可以用可燃物当燃料用于发电！"
         ""
         "它会自动收获面向的同一Y轴坐标的作物。"
-    ]
-    quest.5B063F5520171280.quest_desc:[
-        ""
     ]
     quest.0C259021A652EFCE.quest_desc:[
         "虽然别的模组也有很多加速作物生长的东西，但这里要说的是神秘农业。神秘农业有两个办法加速作物生长，第一个东西叫生长加速器。"
@@ -7358,7 +7322,7 @@
         ""
         "I'm thinking this has to be used to activate something within the structure."
         ""
-        "&6&o&nTASK&r: Find or craft an &bAquatic Catalyst&r, as well as a &dHeart of the Sea&r."
+        "&6&o&nTASK&r: Find or craft an &bAquatic Catalyst&r, as well as some &dPrismarine to fuel it&r."
     ]
     quest.693320A7F24F202C.quest_desc:[
         "One thing I probably should have accounted for..."
@@ -7395,9 +7359,9 @@
         "{@pagebreak}"
         "To activate the crystal, place the &bAquatic Catalyst&r a few blocks away from one of the crystal's sides."
         ""
-        "On the side facing away from the Crystal, use the &dHeart of the Sea&r on the &bAquatic Catalyst&r."
+        "On the side facing away from the Crystal, use some &dPrismarine Shards&r on the &bAquatic Catalyst&r."
         ""
-        "You'll then need to pump in &2Kelp&r into the Catalyst with something like a Hopper."
+        "You'll then need to pump in more &2Prismarine&r into the Catalyst with something like a Hopper."
         ""
         "The energy beams can kill you."
     ]
