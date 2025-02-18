@@ -104,14 +104,11 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
             zh_cn_dict = json.load(f)
     except IOError:
         zh_cn_dict = {}
-    if "quest" in str(path):
-        zh_cn_dict = {
-            key: value.replace(" ", "\u00A0") if "image" not in value else value
-            for key, value in zip(keys, values)
-        }
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
         value = re.sub(r"&#92;", r"\\", value)
+        if "quest" in str(path):
+            value = re.sub(r" ","\u00A0",value)
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
         # 保存替换后的值
