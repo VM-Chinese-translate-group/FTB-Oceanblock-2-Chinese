@@ -624,18 +624,18 @@
     quest.16180601C60DA378.title:"&f升级：夜视"
     quest.35E0EDF360749CC9.title:"&f升级：鞘翅"
     quest.32D8D0691DF5B0F0.title:"&f升级：抵消摔落"
-    quest.4FA766AD24D00325.title:"&fAdvanced Machines"
-    task.6FBF3A3F71E35DF0.title:"&fAdvanced Machines"
-    quest.15D80251D92D6A3C.title:"&fAltering &dTime"
+    quest.4FA766AD24D00325.title:"&f高级机器"
+    task.6FBF3A3F71E35DF0.title:"&f高级机器"
+    quest.15D80251D92D6A3C.title:"&f扭曲&d时间"
     quest.34CB13A91DB2E871.title:"&fThe &dParadox Machine"
-    quest.7E0BE6024525BF56.title:"&fTime Wand"
-    quest.101457F50427E14E.title:"&cBlazejet Wand"
-    quest.4FF4DA1DA3551C1C.title:"&fSimple Swapper"
-    quest.50CDEB1051A8B5E1.title:"&dVoidflame Fuel"
-    quest.16EAA225AFBF41E6.title:"&5Eclipse Ember Fuel"
-    quest.20AC15DC1E6E47D7.title:"&fUpgrade: Smoker"
-    quest.38FBC8ECE9138452.title:"&dJustDire's &fItem Collector"
-    quest.2A8CE31467C66033.title:"&fPocket Generator"
+    quest.7E0BE6024525BF56.title:"&f时间手杖"
+    quest.101457F50427E14E.title:"&c烈焰推进手杖"
+    quest.4FF4DA1DA3551C1C.title:"&f初级替换器"
+    quest.50CDEB1051A8B5E1.title:"&d虚炎燃料"
+    quest.16EAA225AFBF41E6.title:"&5蚀空烬质"
+    quest.20AC15DC1E6E47D7.title:"&f升级：烟熏"
+    quest.38FBC8ECE9138452.title:"&dJustDire的&f物品拾取器"
+    quest.2A8CE31467C66033.title:"&f便携发电机"
     chapter.7F56138A835F29C1.title:"物流模组"
     quest.64E34B2DA32D3586.title:"&f通用物流学"
     task.1F380E6DD3CF799C.title:"&f通用物流学"
@@ -4519,7 +4519,7 @@
         "这个升级可以让你拥有创造飞行的能力，把它加装到你的&d蚀空合金胸甲&r上就行。"
     ]
     quest.4FA766AD24D00325.quest_desc:[
-        "With access to &bCelestigems&r, you can now create the Advanced versions of most machines!"
+        "&b苍穹晶&r可以合成该模组的高级机器！"
     ]
     quest.15D80251D92D6A3C.quest_desc:[
         "&6Time Crystals&r can be found in the Rift. These can be turned into a Budding Time Crystal Block using Shadowpulse Goo."
@@ -4548,46 +4548,46 @@
         "To learn more of the uses and &cdangers&r of using the machine, refer to the guide book!"
     ]
     quest.7E0BE6024525BF56.quest_desc:[
-        "Using &6Time Crystals&r, you can make the &6Time Wand&r."
+        "&6时间水晶&r可以制作&6时间手杖&r。"
         ""
-        "This uses &6Time Fluid&r to speed up any block it's used on, similar to the Time in a Bottle or Temporal Pouch."
+        "它消耗&6时间流体&r来加速所接触的方块，和时间之瓶/手袋之类的差不多。"
     ]
     quest.101457F50427E14E.quest_desc:[
-        "The &cBlazejet Wand&r is a great tool for getting around."
+        "&c烈焰推进手杖&r适合跑图的时候用。"
         ""
-        "This wand comes with the &aAir Burst&r ability. When used, it will boost you forward a few blocks."
+        "这个魔杖有&a空爆&r能力，使用后将会把你往前推几格。"
         ""
-        "You can even upgrade it to unlock even more abilities!"
+        "升级它就可以解锁更多魔杖能力！"
     ]
     quest.4FF4DA1DA3551C1C.quest_desc:[
-        "The &cSimple Swapper&r is a useful machine for swapping adjacent blocks between two Swappers."
+        "&c初级替换器&r可以把两个替换器之间的方块换位。"
         ""
-        "This might prove useful later on."
+        "日后可能会很有用。"
     ]
     quest.50CDEB1051A8B5E1.quest_desc:[
-        "With &dVoidflame Coal&r, you can create &dVoidflame Fuel&r."
+        "&d虚炎煤炭&r可以制造&d虚炎燃料&r。"
         ""
-        "This is a more energy dense fuel that can be used to create 1.3k FE/t in a Simple Fuel Generator."
+        "这种燃料的能量密度更大，在初级燃液发电机中可以产出1300FE/t的能量。"
     ]
     quest.16EAA225AFBF41E6.quest_desc:[
-        "Using &dEclipse Embers&r, you can create the most energy dense fuel!"
+        "&d蚀空烬质&r可以制备能量密度最高的燃料！"
         ""
-        "&dEclipse Ember Fuel&r can create up to 4k FE/t in a Simple Fuel Generator."
+        "&d蚀空烬质&r在初级燃液发电机中可以产出4000FE/t的能量。"
     ]
     quest.20AC15DC1E6E47D7.quest_desc:[
-        "This upgrade works just like the Smelter upgrade, and allows you to autosmelt mob drops when installed."
+        "这个升级和熔炼升级一样，可以自动熔炼怪物掉落物。"
     ]
     quest.38FBC8ECE9138452.quest_desc:[
-        "The &aItem Collector&r from &dJust Dire Things&r is a highly configurable collector."
+        "&dJust Dire Things&r模组的&a物品拾取器&r可以随意配置。"
         ""
-        "Inside of the interface, you can adjust the radius up to a max of 11x11x11, but can also offset where the machine collects if needed."
+        "你可以在内部UI中将最大收集范围调整为11x11x11，如果需要的话还可以设定物品收集范围的偏移量。"
         ""
-        "You can also adjust even more options like filtering which items it can pick up, or how fast it picks items up."
+        "还可以调整物品收集器的拾取白名单，以及拾取频率！"
     ]
     quest.2A8CE31467C66033.quest_desc:[
-        "It's like a &aCoal Generator&r that fits into your pocket!"
+        "这是个可以随身携带的&a煤炭发电机&r！"
         ""
-        "It burns fuel sources to generate energy to power the items in your inventory!"
+        "它可以通过燃烧燃料给物品栏的东西供电！"
     ]
     quest.64E34B2DA32D3586.quest_desc:[
         "本&b章节&r将会主要介绍如何传输物品、能量、流体和其他东西！"
@@ -6492,17 +6492,17 @@
         ""
         "本章向你介绍了Oceanblock2中一些别的发电方法。"
         ""
-        "注意：本章节的大部分任务都被主线任务线锁定，只有完成特定任务才会解锁。"
+        "注意：本章节的大部分任务都被主线任务锁定，只有完成对应前置任务才会解锁。"
     ]
     quest.63C6CCD277C86EF4.quest_desc:[
-        "它不会消耗煤炭，只会消耗这个模组的特殊&6燃料&r，最大产能可达4000RF/t。"
+        "它不会消耗煤炭，&a初级燃液发电机&r只会消耗这个模组的特殊&6燃料&r，最高产能可达4000RF/t。"
         ""
-        "能做&c烈焰蕾凝胶&r的时候，这个发电机就可以用了。"
+        "制作出&c烈焰蕾凝胶&r之后，这台发电机就可以发电了。"
     ]
     quest.30C2F5DF2A084982.quest_desc:[
-        "&c燃油发电机&r是个3x3x2的多方块发电机，它可以消耗&3原油&r或者&c涡轮燃料&r发电。"
+        "&c燃料发电机&r是一个3x3x2的多方块发电机，它可以消耗&3原油&r或者&c涡轮燃料&r发电。"
         ""
-        "&c涡轮燃料&r虽然RF产出速率和普通燃料一样，不过它持续时间更久！"
+        "&c涡轮燃料&r虽然单位时间内RF产出相同，不过它更耐烧！"
         ""
         "在你可以做&d末影激光器&r后就可以用这个发电机了，或者换句话说，能用&6搅拌机&r制作&3石油&r后就能用。"
     ]
@@ -7423,11 +7423,11 @@
         ""
         "&a/home&r - 传送回你的&e家&r标记点。"
         ""
-        "&a/ftbteambases home&r - 传送回你的&e初始船舱&r。"
-        ""
         "&a/back&r - 传送回你上次死亡的位置。"
         ""
         "&a/spawn&r - 将你传送到&e大厅&r"
+        ""
+        "&a再次进入出生点传送门&r - 将你传送至&e逃生舱重生点&r。"
         ""
         "注意：使用&a/back&r跨维度时，仍然需要满足进入该维度所需的要求。"
         "{@pagebreak}"
