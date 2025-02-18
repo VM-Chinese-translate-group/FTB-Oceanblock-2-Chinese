@@ -699,13 +699,13 @@
     quest.3E7E07DB49639EA5.title:"&c红石&r&a灌注&r"
     quest.437F2C378CD6FE51.title:"&c碳&r&a灌注&r"
     quest.45C2A0B3F277C09B.quest_subtitle:"能量管道"
-    quest.45C2A0B3F277C09B.title:"{\"text\": \"基础通用线缆\", \"color\": \"#5EFCB6\"}"
+    quest.45C2A0B3F277C09B.title:"{\"text\": \"基础通用线缆\", \"color\": \"#5EFCB6\"}"
     quest.012DA013C192D30E.quest_subtitle:"流体管道"
-    quest.012DA013C192D30E.title:"{\"text\": \"基础机械管道\", \"color\": \"#5EFCB6\"}"
+    quest.012DA013C192D30E.title:"{\"text\": \"基础机械管道\", \"color\": \"#5EFCB6\"}"
     quest.296C424C7D2C7589.quest_subtitle:"气体管道"
-    quest.296C424C7D2C7589.title:"{\"text\": \"基础加压管道\", \"color\": \"#5EFCB6\"}"
+    quest.296C424C7D2C7589.title:"{\"text\": \"基础加压管道\", \"color\": \"#5EFCB6\"}"
     quest.1C65FB6D312F1287.quest_subtitle:"物品管道"
-    quest.1C65FB6D312F1287.title:"{\"text\": \"基础物流管道\", \"color\": \"#5EFCB6\"}"
+    quest.1C65FB6D312F1287.title:"{\"text\": \"基础物流管道\", \"color\": \"#5EFCB6\"}"
     quest.5D4C39B5E9263FFB.title:"&f储存&c能量"
     task.45016D6A71CA38A9.title:"&c能量立方"
     quest.131199313AE3F5E9.title:"&f你的第一台&a电力熔炉"
@@ -723,9 +723,9 @@
     quest.38BD69DD1995E971.title:"&9二阶矿物处理线&r"
     task.591E2F53EFC69C37.title:"&9阶段二"
     quest.562156281B8D0843.title:"&a电解分离器&r"
-    quest.24F17FA24ED466FA.title:"{\"text\": \"基础液体储罐\", \"color\": \"#5EFCB6\"}"
+    quest.24F17FA24ED466FA.title:"{\"text\": \"基础液体储罐\", \"color\": \"#5EFCB6\"}"
     quest.1FBEA2EB39456FD5.quest_subtitle:"存储气体"
-    quest.1FBEA2EB39456FD5.title:"{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
+    quest.1FBEA2EB39456FD5.title:"{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
     quest.3FE99AE10B0737BB.title:"&f大量存储单一物品"
     quest.5B85AB4B095F240B.title:"&f充充充！"
     quest.24E7FEB8D24FAB4A.title:"&a化学压射室&r"
@@ -773,7 +773,7 @@
     quest.48CADAFA7696B518.title:"&f找到一个&9海蓝水晶洞穴"
     quest.58AA1E1E16977E47.title:"&a给催化器供能"
     quest.71C0BC71D3B45690.title:"&f远古机械零件"
-    quest.3BAE611AE4CEA7A6.title:"[{\"text\": \"除\", \"color\": \"#FFFFFF\"}, {\"text\":\"锈\", \"color\": \"#D5510E\"}]"
+    quest.3BAE611AE4CEA7A6.title:"[{\"text\": \"除\", \"color\": \"#FFFFFF\"}, {\"text\":\"锈\", \"color\": \"#D5510E\"}]"
     quest.2953423FCB0A3146.title:"&f水下酿造"
     quest.1E7FCA66EDB1BCF5.title:"&c海蓝钢制工具"
     quest.75EE2E239783B03E.title:"&d海蓝钢护甲"
@@ -882,9 +882,9 @@
     quest.0733AB66BFEB220E.quest_subtitle:"Perfected Foundation"
     quest.0733AB66BFEB220E.title:"&fBlack Chalk"
     quest.016E959A387A1E03.quest_subtitle:"Chalk of Infusion"
-    quest.016E959A387A1E03.title:"{\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}"
-    quest.6E07405D08CCC2D4.title:"[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
-    quest.0017F48E23512C75.title:"[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
+    quest.016E959A387A1E03.title:"{\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}"
+    quest.6E07405D08CCC2D4.title:"[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
+    quest.0017F48E23512C75.title:"[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
     quest.2F0C6EA5380AA661.quest_subtitle:"Chalk of Control"
     quest.2F0C6EA5380AA661.title:"&cRed Chalk"
     quest.4F7B94DCD4B52CE4.quest_subtitle:"Possession Pentacle: Tier 1"
@@ -923,15 +923,15 @@
     quest.1CD21F10064581B4.quest_subtitle:"Chalk of Nature"
     quest.1CD21F10064581B4.title:"&aGreen Chalk"
     quest.5D5D0878275558BC.quest_subtitle:"Chalk of Ice"
-    quest.5D5D0878275558BC.title:"{\"text\": \"Light Blue Chalk\", \"color\": \"#A6CAFC\"}"
+    quest.5D5D0878275558BC.title:"{\"text\": \"Light Blue Chalk\", \"color\": \"#A6CAFC\"}"
     quest.1CAA9A2F7F3EDAD3.quest_subtitle:"Chalk of Flesh"
-    quest.1CAA9A2F7F3EDAD3.title:"{\"text\": \"Pink Chalk\", \"color\": \"#FCB1D0\"}"
+    quest.1CAA9A2F7F3EDAD3.title:"{\"text\": \"Pink Chalk\", \"color\": \"#FCB1D0\"}"
     quest.43BF1E0CE33F8BB7.quest_subtitle:"Chalk of Evil"
-    quest.43BF1E0CE33F8BB7.title:"{\"text\": \"Brown Chalk\", \"color\": \"#AA7B5A\"}"
+    quest.43BF1E0CE33F8BB7.title:"{\"text\": \"Brown Chalk\", \"color\": \"#AA7B5A\"}"
     quest.337838FB759E4377.quest_subtitle:"Chalk of Draconic Energy"
-    quest.337838FB759E4377.title:"{\"text\": \"Magenta Chalk\", \"color\": \"#D17CC9\"}"
+    quest.337838FB759E4377.title:"{\"text\": \"Magenta Chalk\", \"color\": \"#D17CC9\"}"
     quest.504EEAA75990C78C.quest_subtitle:"Chalk of Ancients"
-    quest.504EEAA75990C78C.title:"{\"text\": \"Cyan Chalk\", \"color\": \"#3DADAD\"}"
+    quest.504EEAA75990C78C.title:"{\"text\": \"Cyan Chalk\", \"color\": \"#3DADAD\"}"
     quest.4113BA0BADB486F0.title:"&fMore About &bRituals \&\ Pentacles"
     quest.4BCA3115FA95C81F.title:"&eEssence Decay"
     task.3B91067C07169C66.title:"Spiritual Decay"
@@ -2356,7 +2356,7 @@
         ""
         "Look for the \"Import Button\" at the top left of the GUI, then click the \"paste from clipboard\" option in the bottom."
         ""
-        "{\"text\": \"单击此处查看代码\", \"underlined\": true, \"color\": \"#FFFFFF\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/e8c83e912c92e28b9d428a07b5fe7fbc\"}}"
+        "{\"text\": \"单击此处查看代码\", \"underlined\": true, \"color\": \"#FFFFFF\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/e8c83e912c92e28b9d428a07b5fe7fbc\"}}"
         "{@pagebreak}"
         "With this you can notice that &bDrone Code&r is done via &3Code Blocks/Steps&r you can start by placing the &a\"Start Block\"&r and then add a block for each respective step of the process."
         ""
@@ -2376,7 +2376,7 @@
         ""
         "First, make sure to open your &aProgramming Table&r and import this basic code:"
         ""
-        "{\"text\": \"单击此处查看代码\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/df8f8e046f85e0e97daf16f2976891e2\"}}"
+        "{\"text\": \"单击此处查看代码\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/df8f8e046f85e0e97daf16f2976891e2\"}}"
         "{@pagebreak}"
         "As previously mentioned, with this code you should only need to tweak the values to your specific needs."
         ""
@@ -4882,7 +4882,7 @@
         "制作出机器之后，其第一个用法就是把&b水&r分解成&e氧气&r和&e氢气&r。许多机器都要使用&a氧气&r，比如&a提纯仓&r。"
     ]
     quest.24F17FA24ED466FA.quest_desc:[
-        "[\"\", {\"text\": \"基础流体储罐\", \"color\": \"#5EFCB6\"}, \"不仅仅能储存流体，它还可以当做桶使用！\"]"
+        "[\"\", {\"text\": \"基础流体储罐\", \"color\": \"#5EFCB6\"}, \"不仅仅能储存流体，它还可以当做桶使用！\"]"
         ""
         "潜行的时候手持储罐，相当于把模式调整为&a桶&r，这样就可以装起多桶流体（比如水或熔岩）。"
     ]
@@ -5175,9 +5175,9 @@
         "里头可能会有一些远古机器零件，你需要它才能推进度！"
     ]
     quest.3BAE611AE4CEA7A6.quest_desc:[
-        "[\"你可以在战利品箱和水下怪物身上搜刮到很多\", {\"text\":\"生锈的\", \"color\": \"#D5510E\"}, \"东西。\"]"
+        "[\"你可以在战利品箱和水下怪物身上搜刮到很多\", {\"text\":\"生锈的\", \"color\": \"#D5510E\"}, \"东西。\"]"
         ""
-        "[\"你可以把\", {\"text\": \"生锈的\", \"color\": \"#D5510E\"}, \"东西扔进\", {\"text\": \"蚀刻酸\", \"color\": \"#55FF55\"}, \"中等上几秒，就可以除锈了。\"]"
+        "[\"你可以把\", {\"text\": \"生锈的\", \"color\": \"#D5510E\"}, \"东西扔进\", {\"text\": \"蚀刻酸\", \"color\": \"#55FF55\"}, \"中等上几秒，就可以除锈了。\"]"
     ]
     quest.2953423FCB0A3146.quest_desc:[
         "在海蓝科技中最重要的机器之一就是&a搅拌机&r。它需要&b海蓝水晶&r产出的&b激光能量&r。"
@@ -5320,13 +5320,13 @@
         "&e基础粉笔&r是一系列能够与其它无色粉笔相互替代使用的粉笔类型，前提是粉笔支持对应的级别。基础粉笔总共有四种级别与颜色："
         ""
         "- 白色：级别1"
-        "[\"- \", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, {\"text\": \": 级别2\", \"color\": \"white\"}]"
-        "[\"- \", {\"text\": \"灰色\", \"color\": \"#929292\"}, {\"text\": \"：级别3\", \"color\": \"white\"}]"
-        "[\"- \", {\"text\": \"黑色\", \"color\": \"#000000\"}, {\"text\": \"：级别4\", \"color\": \"white\"}]"
+        "[\"- \", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, {\"text\": \": 级别2\", \"color\": \"white\"}]"
+        "[\"- \", {\"text\": \"灰色\", \"color\": \"#929292\"}, {\"text\": \"：级别3\", \"color\": \"white\"}]"
+        "[\"- \", {\"text\": \"黑色\", \"color\": \"#000000\"}, {\"text\": \"：级别4\", \"color\": \"white\"}]"
         ""
         "更高级的&b仪式&r需要更好的&e基础粉笔&r。"
         "{@pagebreak}"
-        "[\"举个例子，你可以使用\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"绘制白色、\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"和\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"的粉笔图案来完成\", {\"text\": \"仪式\", \"color\": \"#55FFFF\"}, \"。 反之，用白色粉笔的粉笔图案替代\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"，\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"则无法进行仪式。\"]"
+        "[\"举个例子，你可以使用\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"绘制白色、\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"和\", {\"text\": \"灰色粉笔\", \"color\": \"#929292\"}, \"的粉笔图案来完成\", {\"text\": \"仪式\", \"color\": \"#55FFFF\"}, \"。 反之，用白色粉笔的粉笔图案替代\", {\"text\": \"淡灰色\", \"color\": \"#C6C6C6\"}, \"，\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"黑色粉笔\", \"color\": \"#000000\"}, \"则无法进行仪式。\"]"
     ]
     quest.62BB8F93956480BA.quest_desc:[
         "将书与笔丢入&a灵火&r中，获得&a绑定之书&r，其可用于召唤不同类型的&b魔灵&r。"
@@ -5649,13 +5649,13 @@
         "This can be used to upgrade your existing &bPentacles&r, as well as being the highest tier &aFoundation Chalk&r."
     ]
     quest.016E959A387A1E03.quest_desc:[
-        "[\"Crushing endstone allows you to craft \", {\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}, \", which is the next tier of Chalk we'll need to perform better Rituals.\"]"
+        "[\"Crushing endstone allows you to craft \", {\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}, \", which is the next tier of Chalk we'll need to perform better Rituals.\"]"
     ]
     quest.6E07405D08CCC2D4.quest_desc:[
-        "[\"For the next tier of Chalks to upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \", you'll need \", {\"text\": \"Lime Chalk\", \"color\": \"#E2FC97\"}, \", \", {\"text\": \"Light Gray Chalk\", \"color\": \"#C2C2C2\"}, \", and some skeleton skulls.\"]"
+        "[\"For the next tier of Chalks to upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \", you'll need \", {\"text\": \"Lime Chalk\", \"color\": \"#E2FC97\"}, \", \", {\"text\": \"Light Gray Chalk\", \"color\": \"#C2C2C2\"}, \", and some skeleton skulls.\"]"
     ]
     quest.0017F48E23512C75.quest_desc:[
-        "[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"
+        "[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"
     ]
     quest.2F0C6EA5380AA661.quest_desc:[
         "With &cAfrit Essence&r, you can create the next tier of Chalk: &cRed Chalk&r."
@@ -5677,33 +5677,33 @@
         "某些&e绑定仪式&r不是必须的，但想要达到&6神秘学&r的终局，你可能会经常用到它们。"
     ]
     quest.5F0AAD028931A220.quest_desc:[
-        "[ \"有了\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"，你现在就能把\", {\"text\": \"阿维亚之环\", \"color\": \"#55FFFF\"}, \"升级为\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"了，它可以驱散乌云、跳过夜晚、或者召唤一系列\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"。\"]"
+        "[ \"有了\", {\"text\": \"黄绿色粉笔\", \"color\": \"#E2FC97\"}, \"和\", {\"text\": \"淡灰色粉笔\", \"color\": \"#C2C2C2\"}, \"，你现在就能把\", {\"text\": \"阿维亚之环\", \"color\": \"#55FFFF\"}, \"升级为\", {\"text\": \"欧菲克斯的呼唤\", \"color\": \"#FF5555\"}, \"了，它可以驱散乌云、跳过夜晚、或者召唤一系列\", {\"text\": \"巨灵\", \"color\": \"#FF5555\"}, \"。\"]"
         ""
         "Most &bRituals&r using this &bPentacle&r are optional."
     ]
     quest.013375F170CE6A2F.quest_desc:[
-        "[\"Using \", {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" and \", {\"text\": \"Light Gray\", \"color\": \"#D6D6D6\"}, \" chalks, you can now attract a \", {\"text\": \"Djinni\", \"color\": \"#FF5555\"}, \", allowing possession and summoning of stronger creatures.\"]"
+        "[\"Using \", {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" and \", {\"text\": \"Light Gray\", \"color\": \"#D6D6D6\"}, \" chalks, you can now attract a \", {\"text\": \"Djinni\", \"color\": \"#FF5555\"}, \", allowing possession and summoning of stronger creatures.\"]"
         ""
         "Most &ePossesion&r and &eFamiliar Rituals&r are optional, but you will still need to complete their &bPentacles&r to reach the end-game."
         ""
         "Simply click on the checkmark to progress the questline."
     ]
     quest.4FD0504ADB98E0C0.quest_desc:[
-        "[\"By upgrading your \", {\"text\": \"Eziveus' Spectral Compulsion\", \"color\": \"#55FFFF\"}, \", you can permanently bind a \", {\"text\": \"Djinni\", \"color\": \"#FF5555\"}, \" into an item.\"]"
+        "[\"By upgrading your \", {\"text\": \"Eziveus' Spectral Compulsion\", \"color\": \"#55FFFF\"}, \", you can permanently bind a \", {\"text\": \"Djinni\", \"color\": \"#FF5555\"}, \" into an item.\"]"
         ""
         "Some &eBinding Rituals&r are optional, but you will need most of them if you want to reach &6Occultism&r end-game."
         ""
         "Click on the checkmark to progress the questline."
     ]
     quest.23B06AB674CC7193.quest_desc:[
-        "[\"Upgrading \", {\"text\": \"Strigeor's Higher Binding\", \"color\": \"#FF5555\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \" allows you to permanently bind the powerful \", {\"text\": \"Afrit\", \"color\": \"#FF55FF\"}, \" to an item.\"]"
+        "[\"Upgrading \", {\"text\": \"Strigeor's Higher Binding\", \"color\": \"#FF5555\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \" allows you to permanently bind the powerful \", {\"text\": \"Afrit\", \"color\": \"#FF55FF\"}, \" to an item.\"]"
         ""
         "Some &eBinding Rituals&r are optional, but you will need most of them if you want to reach &6Occultism&r end-game."
         ""
         "Click on the checkmark to progress the questline."
     ]
     quest.53B7A49C8138D3B0.quest_desc:[
-        "[\"Using \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, and \", {\"text\": \"Spirit Attune Crystals\", \"color\": \"#FF55FF\"}, \", you can now control an \", {\"text\": \"Afrit\", \"color\": \"#FF55FF\"}, \" to possess a zombie pigman, dropping \", {\"text\": \"Demonic Meat\", \"color\": \"#55FF55\"}, \" upon its death.\"]"
+        "[\"Using \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, and \", {\"text\": \"Spirit Attune Crystals\", \"color\": \"#FF55FF\"}, \", you can now control an \", {\"text\": \"Afrit\", \"color\": \"#FF55FF\"}, \" to possess a zombie pigman, dropping \", {\"text\": \"Demonic Meat\", \"color\": \"#55FF55\"}, \" upon its death.\"]"
     ]
     quest.583456FAA606B5B4.quest_desc:[
         "Stabilizing &bAbra's Commanding Conjure&r with &cRed Chalk&r allows you to command an &dAfrit Spirit&r to possess and summon powerful creatures."
@@ -5744,12 +5744,12 @@
     quest.43BF1E0CE33F8BB7.quest_desc:[
         "If we want to commune with the &5Eldritch Gods&r, we need the right colors of &bChalk&r."
         ""
-        "[\"Using \", {\"text\": \"Xeovrenth Adjure\", \"color\": \"#FFAA00\"}, \", \", {\"text\": \"Cruelty Essence\", \"color\": \"#FF5555\"}, \" can be used to craft \", {\"text\": \"Brown Chalk\", \"color\": \"#AA7B5A\"}, \".\"]"
+        "[\"Using \", {\"text\": \"Xeovrenth Adjure\", \"color\": \"#FFAA00\"}, \", \", {\"text\": \"Cruelty Essence\", \"color\": \"#FF5555\"}, \" can be used to craft \", {\"text\": \"Brown Chalk\", \"color\": \"#AA7B5A\"}, \".\"]"
     ]
     quest.337838FB759E4377.quest_desc:[
         "I'm starting to think the &5Eldritch Gods&r might have had a hand in creating everything."
         ""
-        "[\"To create \", {\"text\": \"Magenta Chalk\", \"color\": \"#D17CC9\"}, \", you will need \", {\"text\": \"Dragonyst Dust\", \"color\": \"#FF55FF\"}, \".\"]"
+        "[\"To create \", {\"text\": \"Magenta Chalk\", \"color\": \"#D17CC9\"}, \", you will need \", {\"text\": \"Dragonyst Dust\", \"color\": \"#FF55FF\"}, \".\"]"
         ""
         "This can only be acquired by using the &6Uphyxes Inverted Tower&r Pentacle."
     ]
@@ -5771,7 +5771,7 @@
         ""
         "This means that you only need four 19x19 areas to set up all 4 types of &bPentacles&r!"
         "{@pagebreak}"
-        "[\"\", {\"text\": \"Rituals\", \"color\": \"#55FFFF\"}, \" are mainly split into four categories: \", {\"text\": \"Binding\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"51D07B8762C46982\"}}, \", \", {\"text\": \"Possession\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBEF0B2D2F13C3D\"}}, \", \", {\"text\": \"Familiar\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6338A56F731A5F25\"}}, \", and \", {\"text\": \"Summoning\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6137DE875E13EF72\"}}, \".\"]"
+        "[\"\", {\"text\": \"Rituals\", \"color\": \"#55FFFF\"}, \" are mainly split into four categories: \", {\"text\": \"Binding\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": {\"action\": \"change_page\", \"value\": \"51D07B8762C46982\"}}, \", \", {\"text\": \"Possession\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0EBEF0B2D2F13C3D\"}}, \", \", {\"text\": \"Familiar\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6338A56F731A5F25\"}}, \", and \", {\"text\": \"Summoning\", \"color\":\"#FFFF55\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6137DE875E13EF72\"}}, \".\"]"
         ""
         "Your &aAviar's Circle&r &bPentacle&r is considered a &aSummoning Pentacle&r."
         ""
@@ -5928,7 +5928,7 @@
         "However, it can not only instantly complete the entire &bPentacle&r at once (if provided all materials), but it can also pick up all blocks used in the &bPentacle&r by right-clicking the &aGolden Sacrificial Bowl&r."
     ]
     quest.0C24D8CD961D86B2.quest_desc:[
-        "[\"With \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, you can now upgrade your \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to \", {\"text\": \"Abras' Open Conjure\", \"color\": \"#FF55FF\"}, \".\"]"
+        "[\"With \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" and \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" chalks, you can now upgrade your \", {\"text\": \"Ophynx' Calling\", \"color\": \"#FF5555\"}, \" to \", {\"text\": \"Abras' Open Conjure\", \"color\": \"#FF55FF\"}, \".\"]"
         ""
         "This &bRitual&r is only used to summon an &dUnbound Afrit&r. Killing it will grant you its essence, allowing you to make &cRed Chalk&r."
         ""
@@ -6174,7 +6174,7 @@
         "&a装备充能台&r用来给物品充能或加装&c涡轮燃料&r"
     ]
     quest.52D486F9FE1BCC66.quest_desc:[
-        "[\"\", {\"text\": \"钷战斧\", \"color\":\"#FCD205\"}, \"是比普通斧头更高级，无法破坏的可附魔的斧头。\"]"
+        "[\"\", {\"text\": \"钷战斧\", \"color\":\"#FCD205\"}, \"是比普通斧头更高级，无法破坏的可附魔的斧头。\"]"
         ""
         "砍树的时候按住shift就可以一次砍掉整棵树。"
     ]
@@ -6188,7 +6188,7 @@
         "&a喷气背包&r有和鞘翅联动的模式，在你装备鞘翅后，&a喷气背包&r将仅在你用鞘翅飞行的时候才会激活。这种情况下喷气背包会给你一个向上的推力，大体上和用烟花推进一样。"
     ]
     quest.543197E63ABD06C5.quest_desc:[
-        "[\"\", {\"text\": \"钷镐\", \"color\":\"#FCD205\"}, \"是比普通镐子更高级的，无法破坏的可附魔的镐子。\"]"
+        "[\"\", {\"text\": \"钷镐\", \"color\":\"#FCD205\"}, \"是比普通镐子更高级的，无法破坏的可附魔的镐子。\"]"
         ""
         "它有两个模式：精准采集和区域挖掘（一次挖1x3的范围）。按住shift右击即可切换模式。"
     ]
@@ -6353,9 +6353,9 @@
         "这个化合物可以在&a装配器&r中制造紫水晶母岩，或者在&d原子再构机&r中复制矿物。"
     ]
     quest.2ECAD5F752E445F1.quest_desc:[
-        "[\"\", { \"text\": \"钷\", \"color\":\"#FCD205\"}, \" 是一种高级材料，仅能制作于\", { \"text\": \"原子锻造器\", \"color\":\"#FF55FF\"}, \"。\" ]"
+        "[\"\", { \"text\": \"钷\", \"color\":\"#FCD205\"}, \" 是一种高级材料，仅能制作于\", { \"text\": \"原子锻造器\", \"color\":\"#FF55FF\"}, \"。\" ]"
         ""
-        "[\"这是一种用于制造 \", {\"text\": \"钷工具\", \"color\":\"#FCD205\"}, \" 和 \", {\"text\": \"终极机器核心\", \"color\":\"#FF55FF\"}, \"的强大材料。\"]"
+        "[\"这是一种用于制造 \", {\"text\": \"钷工具\", \"color\":\"#FCD205\"}, \" 和 \", {\"text\": \"终极机器核心\", \"color\":\"#FF55FF\"}, \"的强大材料。\"]"
     ]
     quest.5FD42392FCECCB47.quest_desc:[
         "有了&d末影激光器&r，你可以让激光挖掘紫水晶簇来得到&d通量水晶&r"
@@ -6409,7 +6409,7 @@
         "更高能量的碰撞中，速子会从碰撞点传播得更远。"
     ]
     quest.1770A460E1FD7CC8.quest_desc:[
-        "[\"\", {\"text\": \"粒子加速器\", \"color\":\"#FF55FF\"}, \" 可以根据目标以多种方式构建。{\"text\": \"直线型马达阵列\", \"color\":\"#55FF55\"}, \"可以将粒子射向某个目标，但更高效率的速度通常通过环形设计实现。非常大的环可能需要包含某些要素。慢速粒子需要\", {\"text\": \"导向环\", \"color\": \"#55FF55\"}, \"紧密排列，因此从小环开始\", {\"text\": \"使用红石\", \"color\":\"#55FFFF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"778A876616D4638E\" } }, \" 然后切换到更大的环通常是有意义的。\"]"
+        "[\"\", {\"text\": \"粒子加速器\", \"color\":\"#FF55FF\"}, \" 可以根据目标以多种方式构建。{\"text\": \"直线型马达阵列\", \"color\":\"#55FF55\"}, \"可以将粒子射向某个目标，但更高效率的速度通常通过环形设计实现。非常大的环可能需要包含某些要素。慢速粒子需要\", {\"text\": \"导向环\", \"color\": \"#55FF55\"}, \"紧密排列，因此从小环开始\", {\"text\": \"使用红石\", \"color\":\"#55FFFF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"778A876616D4638E\" } }, \" 然后切换到更大的环通常是有意义的。\"]"
         ""
         "某些情况下可能需要设计多环结构。"
     ]
@@ -6467,7 +6467,7 @@
         "包括&b塑料片&r、&6有机钢&r在内的许多重要物品都需要它。"
     ]
     quest.3CC776328188FE33.quest_desc:[
-        "[ \"拥有了\", {\"text\": \"钷\", \"color\": \"#FCD205\"}, \" 你便可以制作最终等级的机器核心： \", {\"text\": \"终极机器核心\", \"color\": \"#FF55FF\"}, \"！\"]"
+        "[ \"拥有了\", {\"text\": \"钷\", \"color\": \"#FCD205\"}, \" 你便可以制作最终等级的机器核心： \", {\"text\": \"终极机器核心\", \"color\": \"#FF55FF\"}, \"！\"]"
     ]
     quest.30BCD6DAC377A61D.quest_desc:[
         "拥有了&a碳纤维&r，你现在可以制作&c中级机器核心&r了。"
