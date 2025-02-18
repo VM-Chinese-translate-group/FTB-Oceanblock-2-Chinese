@@ -32,7 +32,7 @@
     "ftbteambases.gui.select_dimension":"选择一个维度",
     "ftbteambases.gui.by":"作者：%s",
     "ftbteambases.gui.show_archived":"显示已存档",
-    "ftbteambases.gui.level_stats":"%s ms/tick (%s TPS) | 每刻正在计算的方块实体：%s | 实体：%s | 已加载的区块：%s",
+    "ftbteambases.gui.level_stats":"%s ms/tick (%s TPS) | 每刻正在计算的方块实体：%s | 实体：%s | 已加载的区块：%s",
     "ftbteambases.gui.block_entities":"每刻正在计算的方块实体：",
     "ftbteambases.gui.entities":"实体：%s",
     "ftbteambases.gui.loaded_chunks":"已加载的区块：%s"

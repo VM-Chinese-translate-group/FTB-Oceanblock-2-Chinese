@@ -17,7 +17,7 @@
     "item.pocketstorage.psu_4.info3":"超出存储上限则会被销毁。",
     "pocketstorage.util.count":"数量",
     "pocketstorage.util.deposit":"%s箱子以存储物品",
-    "pocketstorage.util.empty":"<  >",
+    "pocketstorage.util.empty":"<  >",
     "pocketstorage.util.invalid_uuid":"未知的UUID",
     "pocketstorage.util.key_shift":"Shift",
     "pocketstorage.util.migration":"存储单元已迁移",
