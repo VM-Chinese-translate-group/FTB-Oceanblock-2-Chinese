@@ -17,17 +17,18 @@ global.findPortalCenter = (player, teamId) => {
     let spawnPos = baseDetails.get().spawnPos()
     console.log(`Finding portal center for team ${teamId} at ${spawnPos.x}, ${spawnPos.y}, ${spawnPos.z}`)
     global.forceChunkload(player, spawnPos, 2, true)
-    let aabb = AABB.of(spawnPos.x-150, spawnPos.y-270, spawnPos.z-150, spawnPos.x+150, spawnPos.y-200, spawnPos.z+150)
-    // Find the portal center
-    player.getServer().getLevel('minecraft:overworld').getEntitiesWithin(aabb).forEach(entity => {
-        if (entity == null) return
-        if(entity.type == "minecraft:marker"){
-            console.log(`Found marker entity at ${entity.x}, ${entity.y}, ${entity.z}`)
-            portalCenter = new BlockPos(entity.x, entity.y, entity.z)
-        }
-    })
+    let sPData = player.getServer().persistentData;
+    if(!sPData.portals[teamId].position){
+        let portalBlock = Item.of("ftb:portal_holder").getBlock().defaultBlockState()
+        let kuLevel = new Ku.Level(player.getLevel());
+        const locations = kuLevel.findBlockWithinRadius(portalBlock, new BlockPos(spawnPos.x, spawnPos.y-270, spawnPos.z), 150, false);
+        portalCenter = global.findCenterBlockPos(locations)
+        console.log(`Portal center found at ${portalCenter.x}, ${portalCenter.y}, ${portalCenter.z}`)
+        sPData.portals[teamId].position = {x: portalCenter.x, y: portalCenter.y, z: portalCenter.z}
+    }    
+
     global.forceChunkload(player, spawnPos, 2, false)
-    return portalCenter;
+    return new BlockPos(sPData.portals[teamId].position.x, sPData.portals[teamId].position.y, sPData.portals[teamId].position.z)
 }
 
 global.getBaseDetails = (server, teamId) => {
@@ -36,12 +37,20 @@ global.getBaseDetails = (server, teamId) => {
     return baseDetails
 }
 
-global.createPortalData = (server, teamId) => {
+global.createPortalData = (server, teamId, player) => {
     let sPData = server.persistentData;
+    console.log(`Creating portal data for team ${teamId}`)
     sPData.portals = sPData.portals ?? {}
     sPData.portals[teamId] = sPData.portals[teamId] ?? {}
     sPData.portals[teamId].active = true
     if(sPData.portals[teamId].getDouble('timer') == 0) sPData.portals[teamId].timer = 20*60*20
+    console.log(`Portal data created for team ${teamId}`)
+    console.log(player)
+    if(player){
+        let portalCenter = global.findPortalCenter(player, teamId)
+        console.log(`Setting PortalCenter in sPData: ${portalCenter}`)
+        if(!sPData.portals[teamId].position) sPData.portals[teamId].position = {x: portalCenter.x, y: portalCenter.y, z: portalCenter.z}
+    }
 }
 
 global.forceChunkload = (player, pos, chunkRadius, load) => {
@@ -97,4 +106,30 @@ global.setRiftTimer = (player, timer) => {
 
 global.getTeam = (player) => {
     return $TeamsAPI.api().getManager().getTeamForPlayer(player).get();
+}
+global.setWaypoint = (player, name, pos, dimension) => {
+    dimension = dimension ?? 'minecraft:overworld'
+    let command = `execute as ${player.username} run ftbchunks waypoint add ${name} ${pos.x} ${pos.y} ${pos.z} ${dimension}`
+    player.getServer().runCommand(command)
+} 
+
+global.findCenterBlockPos = (positions) => {
+    let minX = Infinity, maxX = -Infinity;
+    let minY = Infinity, maxY = -Infinity;
+    let minZ = Infinity, maxZ = -Infinity;
+
+    for (let pos of positions) {
+        minX = Math.min(minX, pos.x);
+        maxX = Math.max(maxX, pos.x);
+        minY = Math.min(minY, pos.y);
+        maxY = Math.max(maxY, pos.y);
+        minZ = Math.min(minZ, pos.z);
+        maxZ = Math.max(maxZ, pos.z);
+    }
+
+    const centerX = Math.floor((minX + maxX) / 2);
+    const centerY = maxY;
+    const centerZ = Math.floor((minZ + maxZ) / 2);
+
+    return new BlockPos(centerX, centerY, centerZ);
 }

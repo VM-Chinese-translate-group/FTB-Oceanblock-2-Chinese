@@ -12,7 +12,7 @@ const trophyOffsets = [
 BlockEvents.placed(['obtrophies:display_trophy', 'obtrophies:trophy'], event => {
     const {player, block, level, server} = event
     let team = $TeamsAPI.api().getManager().getTeamForPlayer(player).get();
-    let portalCenter = global.findPortalCenter(event, team.id)
+    let portalCenter = global.findPortalCenter(player, team.id)
     if(portalCenter == null) {
         player.tell(Text.translate("message.trophy.portal"))
         return;
@@ -101,7 +101,7 @@ BlockEvents.placed(['obtrophies:display_trophy', 'obtrophies:trophy'], event => 
 
     // Change the portal blocks and spawn it
     server.scheduleInTicks(iterations*5 + 20, (_) => {
-        swapPortal(level, portalCenter, 'minecraft:bedrock', 'justdirethings:polymorphic_fluid_block')
+        swapPortal(level, portalCenter, 'minecraft:bedrock', 'justdirethings:portal_fluid_block')
 
     })
 })
@@ -111,6 +111,7 @@ ItemEvents.rightClicked("ftb:creative_portal_switcher", event => {
     const {player, level, hand, item} = event
     if(hand != "MAIN_HAND") return; 
     let team = $TeamsAPI.api().getManager().getTeamForPlayer(player).get();
+    let pPortal = player.getServer().persistentData.portals[team.id].position   
     let portalCenter = global.findPortalCenter(player, team.id)
     if(portalCenter == null) {
         player.tell(Text.translate("message.trophy.portal"))
@@ -121,7 +122,7 @@ ItemEvents.rightClicked("ftb:creative_portal_switcher", event => {
             swapPortal(level, portalCenter, 'ftb:portal_holder', 'air')
             break;
         case 'ftb:portal_holder':
-            swapPortal(level, portalCenter, 'minecraft:bedrock', 'justdirethings:polymorphic_fluid_block')
+            swapPortal(level, portalCenter, 'minecraft:bedrock', 'justdirethings:portal_fluid_block')
             break;
     }
     player.addItemCooldown(item.id, 20)
@@ -146,8 +147,11 @@ ServerEvents.tick(event => {
             if(sPData.portals[teamId].getDouble('timer') <= 0){
                 sPData.portals[teamId].putBoolean('active', false)
                 sPData.portals[teamId].putBoolean('rift_weaver_spawn', false)
-                server.scheduleInTicks(20, (_) => {
-                    let portalCenter = global.findPortalCenter(event, teamId)
+                let team = $TeamsAPI.api().getManager().getTeamByID(teamId).get()
+                let onlineMembers = team.getOnlineMembers();
+                if(onlineMembers.length == 0) return;
+                server.scheduleInTicks(40, (_) => {
+                    let portalCenter = global.findPortalCenter(onlineMembers[0], team.id)
                     swapPortal(server.getLevel('minecraft:overworld'), portalCenter, 'ftb:portal_holder', 'air')
                     // console.log(`Portal for team ${teamId} is deactivated`)
                 })

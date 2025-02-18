@@ -657,7 +657,7 @@ global.materialTypes = [
 
 global.showRiftCharge = (player) => {
   let charge = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
-  const maxTime = 24000;
+  const maxTime = 900*20;
   const percentage = Math.max(0, Math.min(100, Math.floor((charge / maxTime) * 100)));
   const barLength = 20;
   const filledLength = Math.floor((percentage / 100) * barLength);

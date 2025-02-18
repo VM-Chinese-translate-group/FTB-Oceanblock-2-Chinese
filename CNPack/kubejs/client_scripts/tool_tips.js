@@ -184,6 +184,7 @@ const trophyTooltips = {
   "ars_nouveau:frostaya_pod": "tooltip.streamertrophy.ars_nouveau_frostaya_pod",
   "gag:no_solicitors": "tooltip.streamertrophy.gag_no_solicitors",
   "oritech:tech_button": "tooltip.streamertrophy.oritech_tech_button",
+  "sushigocrafting:shrimp": "tooltip.streamertrophy.sushigocrafting_shrimp",
 };
 
 ItemEvents.dynamicTooltips("streamertrophy", (event) => {

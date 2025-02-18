@@ -451,7 +451,10 @@ ServerEvents.command(event => {
   switch(input){
     case 'back': return checkForSoulLantern(event, player);
   }
-  if(input.contains('ftbrifthelper send_to_rift')){return global.createPortalData(player.getServer(), global.getTeam(player).id)}
+  if(input.contains('ftbrifthelper send_to_rift')){
+    console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
+    global.createPortalData(player.getServer(), global.getTeam(player).id), player}
+
 })
 
 function checkForSoulLantern(event, player) {
