@@ -107,15 +107,17 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
         value = re.sub(r"&#92;", r"\\", value)
-        if "quest" in str(path):
-            value = re.sub(r" ","\u00A0",value)
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
         # 保存替换后的值
         zh_cn_dict[key] = value
 
     # 特殊处理：ftbquest 文件
-
+    if "ftbquest" in path.name:
+        zh_cn_dict = {
+            key: value.replace(" ", "\u00A0") if "image" not in value else value
+            for key, value in zip(keys, values)
+        }
     return zh_cn_dict
 
 
@@ -186,21 +188,24 @@ def normal_json2_ftb_desc(origin_en_us):
     for key in temp_set:
         en_json.pop(key, None)
     en_json.update(temp_en_json)
+
     print("NormalJson2FtbDesc end...")
     return en_json
 
 
 def main() -> None:
     get_files()
-    ftbquests_dict = {}
+    with open("CNPack/config/ftbquests/quests/lang/en_us.json", "r", encoding="UTF-8") as f:
+        ftbquests_dict = json.load(f)
     for file_id, path in zip(file_id_list, file_path_list):
         if "TM" in path:  # 跳过 TM 文件
             continue
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
         if "kubejs/assets/quests/lang/" in path:
+            for key in zh_cn_dict.keys():
             # zh_cn_dict = normal_json2_ftb_desc(zh_cn_dict)
-            ftbquests_dict = ftbquests_dict | zh_cn_dict
+                ftbquests_dict[key] = zh_cn_dict[key]
             continue;
         save_translation(zh_cn_dict, Path(path))
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
@@ -216,7 +221,6 @@ def main() -> None:
 
         # Format the NBT structure as a pretty-printed SNBT string
         formatted_snbt_string = format_snbt(nbt_data)
-        formatted_snbt_string = formatted_snbt_string.replace("quest desc","quest_desc")
         # Optionally save the formatted SNBT to a file
         with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
             snbt_file.write(formatted_snbt_string)
