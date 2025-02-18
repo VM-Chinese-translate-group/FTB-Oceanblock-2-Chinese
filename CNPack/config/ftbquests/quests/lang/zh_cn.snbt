@@ -1262,7 +1262,7 @@
     quest.215E7EB95A7C64A3.title:"袋子中的时光"
     task.5078BE981F759D0F.title:"搬运"
     task.5CE52CCA9AEA95D5.title:"提示和技巧！"
-    chapter.2D4BDD06393E56E1.title:"Under Pressure"
+    chapter.2D4BDD06393E56E1.title:"压力山大"
     quest.2FF4717777A2EFEC.title:"激光！"
     quest.07B0C76DFA277DAF.title:"&d幽匿块&r转转转"
     quest.0A0DDECA61681E6E.quest_subtitle:"产出的一小步，深潜的一大步！"
@@ -1276,7 +1276,7 @@
     quest.79D6F1D02DBB5B6E.title:"Ancient Infusion"
     quest.23C901E3B4AC916D.quest_subtitle:"Nautec的开端"
     quest.23C901E3B4AC916D.title:"海的味道我知道"
-    quest.693320A7F24F202C.title:"Mining Underwater"
+    quest.693320A7F24F202C.title:"水下挖矿"
     task.214F322313DAA976.title:"Underwater Mining"
     task.3EC165E92E0A5635.title:"Underwater Mining Options"
     quest.53C9142F41A30AF5.title:"Going Exploring"
@@ -3087,18 +3087,18 @@
         "右边就是输出和能源槽了，能源槽可以用电池之类的物品供能，或者也可以选择放置&c红石&r来给机器暂时供能。如果你在通用机械的机器中看到有能源槽，就意味着它可以用红石供能！"
     ]
     quest.46617B1FA6A39399.quest_desc:[
-        "Although it's made from literal fire, &cPolymorphic Fluid&r can change its composition depending on the item it consumes."
+        "虽然它是由字面意义上的火所产生的东西，但是&c多态流体&r可以基于它所吞噬的物品改变特性。"
         ""
-        "What can I use it to create?"
+        "那么我能用它制作什么呢？"
         ""
-        "&6&o&nTASK&r: Drop &bIce&r into &cPolymorphic Fluid&r to create &bSnow&r."
+        "&6&o&n当前任务&r：把&b冰&r丢进&c多态流体&r，以此制造出&b雪&r。"
     ]
     quest.63E2C7C30142DF86.quest_desc:[
         "凝胶可以轻松蔓延到金属方块上，然后把它变为新的材料。"
         ""
         "如果凝胶属于任何意义上的&l活物&r，那它肯定有复制自身的办法。"
         ""
-        "&6&o&nTASK&r: Blazebloom Goo can spread to another &aPrimogel Goo&r block to upgrade it to the same tier."
+        "&6&o&n当前任务&r：烈焰金可以传播到别的&a原初浆凝胶&r上，传播时会升级目标凝胶。"
         ""
         "高阶的凝胶同样适配这个机制！用你手头的另一个原初浆凝胶就可以再复制一个出来！"
     ]
@@ -3109,7 +3109,7 @@
         ""
         "但我现在没空纠结这个了，也许我能利用它？也许吧。"
         ""
-        "&6&o&nTASK&r: Create the &dSoulbound&r Enchantment by using Polymorphic Fluid and &bSoul Flowers&r."
+        "&6&o&n当前任务&r：用多态流体和&b灵魂之花&r制造&d灵魂绑定&r附魔。"
     ]
     quest.098FC37FAEAFCA33.quest_desc:[
         "The &cPolymorphic Fluid&r can easily morph into other fluids, but what if I could create an item that has the same morphing properties?"
@@ -3129,20 +3129,20 @@
         ""
         "然后我再做个盔甲充能站之类的东西给它充气。"
         ""
-        "&6&o&nTASK&r: Craft the &dPneumatic Helmet&r and &dLeggings&r, then craft a &6Charging Station&r to use to modify and charge your pneumatic gear."
+        "&6&o&n当前任务&r：制作一件&d气动头盔&r和&d气动护腿&r，然后做个&6充气站&r来调整或给你的气动盔甲充气。"
         ""
         "注意：&6物品寿命升级&r安装到盔甲后就可以用气压恢复其耐久。"
     ]
     quest.7C431927B89A9590.quest_desc:[
         "大功告成！这就是我这段时间一直努力研究的成果。"
         ""
-        "If I use the strength of &dAdamant&r, I can construct an upgrade that enables my suit to withstand the depths of this vast ocean."
+        "如果我能充分利用&d精镍&r的力量，那么我就可以制作出一种可以让我的盔甲承受极高水压的升级。"
         ""
         "而且我还需要做个能让我在深海呼吸的东西……"
         ""
-        "&6&o&nTASK&r: Craft and install the &6Scuba&r and &dDepth Upgrade Mk.1&r."
+        "&6&o&n当前任务&r：制作并给你的盔甲加装&6水肺升级&r和&d深潜升级：I级&r。"
         ""
-        "Note: To apply &6Soulbound&r to your pneumatic gear, combine them in a crafting table."
+        "注意：在合成台就可以把&6灵魂绑定&r附到你的气动盔甲上。"
     ]
     quest.049DE43A1B31C38F.quest_desc:[
         "这个章节会着重介绍大多数存储物品的办法！"
@@ -7324,11 +7324,11 @@
         "&6&o&nTASK&r: Find or craft an &bAquatic Catalyst&r, as well as some &dPrismarine to fuel it&r."
     ]
     quest.693320A7F24F202C.quest_desc:[
-        "One thing I probably should have accounted for..."
+        "有一件事我实在应该注意一下……"
         ""
-        "How am I supposed to break things under this pressure? I can barely move my arms!"
+        "在这么高的压力之下我怎么可能挖东西啊？我连胳膊都根本抬不起来！"
         ""
-        "&6&o&nTASK&r: Explore the different ways to increase underwater mining speed."
+        "&6&o&n当前任务&r：想个办法提升水下挖掘速度。"
         "{@pagebreak}"
         "&nWays to mine underwater faster:&r"
         ""
