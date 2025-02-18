@@ -102,6 +102,7 @@
   "command.rift.clear_timer": "Rift Timer cleared!",
   "entity.ender_eye.name": "Nautical Eye",
   "message.ftboceanmobs.rift_weaver": "You can't hurt this mob outside of the arena!",
+  "message.ftboceanmobs.rift_weaver_spawn": "Rift Weaver already spawned!",
   "message.ftb_gps.disconnected": "GPS Link Disconnected!",
   "message.ftb_gps.established": "GPS Link Established!",
   "message.rift.charge.max": "Your rift charge is now at %s!",
