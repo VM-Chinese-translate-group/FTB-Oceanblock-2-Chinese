@@ -61,7 +61,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: CNPack
-          path: ${{ github.workspace }}/CNPack
+          path: ./CNPack
       - name: Get current datetime for tag
         id: datetime
         run: echo "datetime=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
@@ -80,4 +80,4 @@ jobs:
           name: "VM CNPack Release ${{ env.datetime }}"
           body: "自动生成的最新汉化补丁"
           draft: false
-          prerelease: true
+          prerelease: false
