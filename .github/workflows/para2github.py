@@ -46,7 +46,7 @@ def translate(file_id: int) -> Tuple[list[str], list[str]]:
         original = item.get("original", "")
         # 优先使用翻译内容，缺失时根据 stage 使用原文
         values.append(
-            original if not translation and item["stage"] in [0, -1] else translation
+            original if not translation and item["stage"] in [0, -1, 2] else translation
         )
 
     return keys, values
@@ -107,7 +107,9 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
         value = re.sub(r"&#92;", r"\\", value)
-        value = re.sub(r" ","\u00A0",value)
+        if "quest" in str(path):
+            if "image" not in value:
+                value = re.sub(r" ","\u00A0",value)
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
         # 保存替换后的值
