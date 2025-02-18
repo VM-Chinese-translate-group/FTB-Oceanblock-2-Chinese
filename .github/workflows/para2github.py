@@ -188,7 +188,7 @@ def normal_json2_ftb_desc(origin_en_us):
     for key in temp_set:
         en_json.pop(key, None)
     en_json.update(temp_en_json)
-
+    print(en_json)
     print("NormalJson2FtbDesc end...")
     return en_json
 
