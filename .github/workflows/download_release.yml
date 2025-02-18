@@ -63,7 +63,7 @@ jobs:
       - name: Upload CNPack folder
         uses: actions/upload-artifact@v4
         with:
-          name: "VM-CNPack-${{ env.datetime }}.zip"
+          name: "VM-CNPack-${{ env.datetime }}"
           path: ./CNPack
       - name: Create Release
         uses: ncipollo/release-action@v1
