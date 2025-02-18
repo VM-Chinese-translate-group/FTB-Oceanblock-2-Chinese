@@ -138,7 +138,7 @@ PlayerEvents.tick((event) => {
 
 function kickFromRift(player) {
   global.setRiftTimer(player, 1)
-  player.runCommand("/ftbteambases home")
+  player.getServer().runCommand(`/execute as ${player.username} run ftbteambases home`)
 
 }
 

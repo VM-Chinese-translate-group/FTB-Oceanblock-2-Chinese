@@ -5,7 +5,7 @@ const airDropEvent = {
   displayName: "airdrop",
   description: "airdrop",
   chance: 1.0,
-  minDistance: 32,
+  minDistance: 48,
   maxDistance: 128,
   size: 10,
   checkBlocks: ["minecraft:air"],
@@ -16,6 +16,7 @@ const airDropEvent = {
   priority: 800,
 
   execute(event, player, location, name) {
+    let eventServer = player.getServer();
     var offset = location.pos.subtract(player.blockPosition());
 
     let relative = { message: "", blocks: 0 };
@@ -30,11 +31,6 @@ const airDropEvent = {
     new ImmersiveMessage(player, Text.translate("message.airdrop.incoming").getString())
       .setDuration(23)
       .send();
-    // player.getServer().runCommandSilent(
-    //   `/immersivemessages sendcustom ${player
-    //     .getDisplayName()
-    //     .getString()} {y:50,size:1.5,sound:1,typewriter:1,color:"#ffffff",wave:1} 23 Airdrop Incoming!`
-    // );
 
     player.tell(Text.translate("warning.airdrop.incoming", relative.blocks , relative.message));
 
@@ -57,7 +53,15 @@ const airDropEvent = {
     }
 
     let entities = [];
-    let startTime = event.server.getTickCount();
+    let startTime = eventServer.getTickCount();
+    
+    //Cleanup old airdrops
+    
+    level.getEntities().forEach((entity) => {
+      if(entity.getType().toString() == 'minecraft:block_display' && entity.tickCount > 20*60*2){
+        entity.discard();
+      }
+    })
 
     for (let i = 0; i < blocks.length; i++) {
       let blockData = blocks[i];
@@ -80,6 +84,7 @@ const airDropEvent = {
         Motion: [0, -0.1, 0],
         view_range: NBT.intTag(9999),
         teleport_duration: NBT.intTag(20),
+        tags: NBT.stringTag("airdrop"),
       });
 
       entity.x = blockData.pos.x + location.pos.x;
@@ -116,11 +121,6 @@ const airDropEvent = {
             .setDuration(5)
             .setColor("red")
             .send();
-            // player.getServer().runCommandSilent(
-            //   `/immersivemessages sendcustom ${player
-            //     .getDisplayName()
-            //     .getString()} {y:50,size:1.5,sound:1,typewriter:1,color:"red"} 5 Airdrop Landed!`
-            // );
 
             var placedBlocks = [];
             entities.forEach((entity) => {
@@ -141,10 +141,10 @@ const airDropEvent = {
               clearInterval(checkPositionInterval);
             });
 
-            if (!event.server.persistentData.contains("landed_airdrops"))
-              event.server.persistentData.put("landed_airdrops", NBT.listTag());
+            if (!eventServer.persistentData.contains("landed_airdrops"))
+              eventServer.persistentData.put("landed_airdrops", NBT.listTag());
 
-            var list = event.server.persistentData.getList("landed_airdrops", 10)
+            var list = eventServer.persistentData.getList("landed_airdrops", 10)
             var airdropTag = NBT.toTagCompound({})
             var blocksTag = NBT.listTag()
 
@@ -167,11 +167,11 @@ const airDropEvent = {
             // console.log(list)
             // console.log(event.server)
             // console.log(event.server.persistentData)
-            event.server.persistentData.put("landed_airdrops", list);
+            eventServer.persistentData.put("landed_airdrops", list);
           }
         }
 
-        if (event.server.getTickCount() - startTime >= 20*60*3) {
+        if (eventServer.getTickCount() - startTime >= 20*60*3) {
           console.log("Airdrop did not land! Clearing anyway...");
           clearInterval(checkPositionInterval);
           entities.forEach((entity) => {

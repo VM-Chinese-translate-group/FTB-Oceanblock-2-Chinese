@@ -1,5 +1,7 @@
 const $BaseInstanceManager = Java.loadClass("dev.ftb.mods.ftbteambases.data.bases.BaseInstanceManager")
 const $TeamsAPI = Java.loadClass("dev.ftb.mods.ftbteams.api.FTBTeamsAPI");
+const $RiftRegionManager = Java.loadClass("dev.ftb.mods.ftbrifthelper.RiftRegionManager");
+
 const trophyOffsets = [
     [5, 2, 1], [5, 2, -1],
     [1, 2, 5], [-1, 2, 5],
@@ -149,6 +151,8 @@ ServerEvents.tick(event => {
                 sPData.portals[teamId].putBoolean('rift_weaver_spawn', false)
                 let team = $TeamsAPI.api().getManager().getTeamByID(teamId).get()
                 let onlineMembers = team.getOnlineMembers();
+                $RiftRegionManager.getInstance().addPendingRefresh(team.id)
+
                 if(onlineMembers.length == 0) return;
                 server.scheduleInTicks(40, (_) => {
                     let portalCenter = global.findPortalCenter(onlineMembers[0], team.id)

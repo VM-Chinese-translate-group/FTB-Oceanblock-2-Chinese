@@ -72,7 +72,11 @@ const tooltips = [
   {
     item: "rusticdelight:coffee_beans",
     text: Text.translate("tooltip.rusticdelight.coffee_beans").gold(),
-  }
+  },
+  {
+    item: "mob_grinding_utils:golden_egg",
+    text: Text.translate("tooltip.mob_grinding_utils.golden_egg").aqua(),
+  },
 ];
 
 const sluices = [
@@ -160,15 +164,24 @@ ItemEvents.modifyTooltips((event) => {
 
   event.modify(`obtrophies:display_trophy`, (b) => b.dynamic(`streamertrophy`));
   
-  event.modify(['mekanism:jetpack', 'mekanism:jetpack_armored', 'oritech:jetpack', 'oritech:exo_jetpack', 'ftb:rift_charge'], { shift: false }, (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.1").gray());
-  })
-  event.modify(['mekanism:jetpack', 'mekanism:jetpack_armored', 'oritech:jetpack', 'oritech:exo_jetpack'], { shift: true }, (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.2").red());
-  })
-  event.modify('ftb:rift_charge', {shift: true}, tooltip => {
-    tooltip.insert(1, Text.translate('tooltip.ftb.rift_charge.1').darkGray())
-    tooltip.insert(2, Text.translate('tooltip.ftb_rift_charge.2').darkGray())
+  event.modify(
+    ["mekanism:jetpack", "mekanism:jetpack_armored", "oritech:jetpack", "oritech:exo_jetpack", "ftb:rift_charge"],
+    { shift: false },
+    (tooltip) => {
+      tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.1").gray());
+    }
+  );
+  
+  event.modify(
+    ["mekanism:jetpack", "mekanism:jetpack_armored", "oritech:jetpack", "oritech:exo_jetpack"],
+    { shift: true },
+    (tooltip) => {
+      tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.2").red());
+    }
+  );
+  event.modify("ftb:rift_charge", {shift: true}, (tooltip) => {
+    tooltip.insert(1, Text.translate("tooltip.ftb.rift_charge.1").darkGray());
+    tooltip.insert(2, Text.translate("tooltip.ftb_rift_charge.2").darkGray());
   });
 });
 
@@ -204,8 +217,8 @@ const riftCrystalInformation = [
   "Standing near the Empowerer when it finishes its craft will up any nearby Player's Charge.",
   " ",
   "Every Rift Attenuation Crystal has a limited amount of energy and is capped at their respective time limit.",
-]
-RecipeViewerEvents.addInformation('item', event => {
+];
+RecipeViewerEvents.addInformation("item", (event) => {
   event.add(/ftb:(.*)attenuation_crystal/, Text.translate("info.ftb.attenuation_crystal"));
-})
+});
 

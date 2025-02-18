@@ -446,15 +446,17 @@ ServerEvents.command(event => {
   let player = event.getParseResults().getContext().getSource().getPlayer();
 
   if(!player) return;
+  // Always create PortalData for the player
+  if(input.contains('ftbrifthelper send_to_rift')){
+  console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
+  global.createPortalData(player.getServer(), global.getTeam(player).id), player}
+
   if(player.isCreative()) return;
 
   switch(input){
     case 'back': return checkForSoulLantern(event, player);
+    case 'spawn': return checkForDimensionToSpawn(event, player);
   }
-  if(input.contains('ftbrifthelper send_to_rift')){
-    console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
-    global.createPortalData(player.getServer(), global.getTeam(player).id), player}
-
 })
 
 function checkForSoulLantern(event, player) {
@@ -479,4 +481,11 @@ function checkForSoulLantern(event, player) {
   .send();
 
   event.cancel()
+}
+
+function checkForDimensionToSpawn(event, player){
+  if(player.getLevel().getDimension().toString() == 'ftb:the_rift'){
+    new ImmersiveMessage(player, Text.translate("message.ftb.the_rift").getString()).setColor("#bc82ff").setWave(true).setDuration(4).send();
+    event.cancel()
+  }
 }
