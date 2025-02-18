@@ -104,7 +104,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
             zh_cn_dict = json.load(f)
     except IOError:
         zh_cn_dict = {}
-    if "quest" in path:
+    if "quest" in str(path):
         zh_cn_dict = {
             key: value.replace(" ", "\u00A0") if "image" not in value else value
             for key, value in zip(keys, values)
