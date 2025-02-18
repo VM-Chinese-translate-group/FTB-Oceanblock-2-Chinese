@@ -60,7 +60,7 @@ jobs:
       - name: Get current datetime for tag
         id: datetime
       - name: Zip CNPack folder
-        run: zip -r CNPack.zip CNPack
+        run: zip -r "CNPack.zip" ./CNPack
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
