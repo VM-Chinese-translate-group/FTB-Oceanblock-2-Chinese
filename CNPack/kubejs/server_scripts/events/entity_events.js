@@ -19,7 +19,7 @@ EntityEvents.beforeHurt("ftboceanmobs:rift_weaver", (event) => {
   let player = source.getActual();
   if (!global.isInArena(player)) {
     player;
-    player.tell(Text.translate("message.ftboceanmobs.rift_weaver").getString());
+    player.tell(Text.translate("message.ftboceanmobs.rift_weaver"));
     event.cancel();
   }
 });
