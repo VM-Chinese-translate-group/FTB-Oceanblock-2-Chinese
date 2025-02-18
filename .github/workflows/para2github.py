@@ -188,7 +188,6 @@ def normal_json2_ftb_desc(origin_en_us):
     for key in temp_set:
         en_json.pop(key, None)
     en_json.update(temp_en_json)
-    print(en_json)
     print("NormalJson2FtbDesc end...")
     return en_json
 
@@ -219,6 +218,7 @@ def main() -> None:
 
         # Format the NBT structure as a pretty-printed SNBT string
         formatted_snbt_string = format_snbt(nbt_data)
+        formatted_snbt_string = formatted_snbt_string.replace("quest desc","quest_desc")
         # Optionally save the formatted SNBT to a file
         with open('CNPack/config/ftbquests/quests/lang/zh_cn.snbt', 'w', encoding='utf-8') as snbt_file:
             snbt_file.write(formatted_snbt_string)
