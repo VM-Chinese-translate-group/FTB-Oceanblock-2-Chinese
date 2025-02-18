@@ -107,6 +107,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
     for key, value in zip(keys, values):
         # 确保替换 \\u00A0 和 \\n
         value = re.sub(r"&#92;", r"\\", value)
+        value = re.sub(r" ","\u00A0",value)
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
         # 保存替换后的值
@@ -195,17 +196,14 @@ def normal_json2_ftb_desc(origin_en_us):
 
 def main() -> None:
     get_files()
-    with open("CNPack/config/ftbquests/quests/lang/en_us.json", "r", encoding="UTF-8") as f:
-        ftbquests_dict = json.load(f)
+    ftbquests_dict = {}
     for file_id, path in zip(file_id_list, file_path_list):
         if "TM" in path:  # 跳过 TM 文件
             continue
         zh_cn_dict = process_translation(file_id, Path(path))
         zh_cn_list.append(zh_cn_dict)
         if "kubejs/assets/quests/lang/" in path:
-            for key in zh_cn_dict.keys():
-            # zh_cn_dict = normal_json2_ftb_desc(zh_cn_dict)
-                ftbquests_dict[key] = zh_cn_dict[key]
+            ftbquests_dict = ftbquests_dict | zh_cn_dict
             continue;
         save_translation(zh_cn_dict, Path(path))
         print(f"已从Patatranz下载到仓库：{re.sub('en_us.json', 'zh_cn.json', path)}")
