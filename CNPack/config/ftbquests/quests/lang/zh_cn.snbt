@@ -324,7 +324,7 @@
     quest.56026DF98E2FD7B8.title:"焦黑石英？"
     quest.7AB8E35FC58302F8.quest_subtitle:"居然能在熔岩维度里头存在？"
     quest.7AB8E35FC58302F8.title:"魔法树"
-    quest.767B734339EB1FA8.title:"Blaze Gold Equipment"
+    quest.767B734339EB1FA8.title:"烈焰金盔甲"
     quest.01CE1D9D083C3C5C.quest_subtitle:"通用机械的开端"
     quest.01CE1D9D083C3C5C.title:"灌注金属"
     quest.46617B1FA6A39399.title:"要有……雪？"
@@ -2897,16 +2897,16 @@
         ""
         "有了足够的有机聚合物以后，我就可以做出自源于大自然的塑料了！"
         ""
-        "&6&o&nTASK&r: Use the &6Centrifuge&r with the Machine Fluid Addon to process &aPacked Wheat&r into &2Biopolymers&r. Run this through again to create &bPlastic Sheets&r."
+        "&6&o&n当前任务&r：用带有流体处理插件的&6离心机&r处理&a打包小麦&r，以此制造&2粗有机聚合物&r，然后再重新处理它一次以制造&b塑料片&r。"
     ]
     quest.5B18F5D102A2EBCC.quest_desc:[
-        "With the Pulverizer, I can make &7Carbon Fibre Strands&r to use for more complicated components."
+        "我可以用磨粉机制造&7碳纤维&r，这样就可以制造更复杂的组件了。"
         ""
         "这台&6离心机&r还不能处理流体……至少目前为止是这样的。"
         ""
-        "Using the Strands, I should be able to make a modification to do exactly what I need!"
+        "想必有了碳纤维，我就可以做出我需要的插件了！"
         ""
-        "&6&o&nTASK&r: Pulverize Coal or Charcoal into &7Carbon Fibre Strands&r, then use those to craft a &cMachine Fluid Addon&r to attach to the Centrifuge."
+        "&6&o&n当前任务&r：把煤炭或木炭用磨粉机打成&7碳纤维&r，然后把产物做成&c流体处理插件&r，最后装到离心机即可。"
     ]
     quest.76B2ADCA34E95BAD.quest_desc:[
         "既然我现在有马达了，那我为什么还要纯手工制作东西？"
@@ -2915,22 +2915,22 @@
         ""
         "如果我能让机器替我合成东西，那我或许也可以进行一些更高级的合成！"
         ""
-        "&6&o&nTASK&r: Craft the &6Assembler&r."
+        "&6&o&n当前任务&r：制作一台&2装配器&r。"
     ]
     quest.7ED140018EF78C38.quest_desc:[
         "这个凝胶很奇怪，我喂他食物的时候，总感觉我可以“转变”它。"
         ""
         "就我之前的研究来看，我真的真的希望我不用喂它其它种类的肉。"
         ""
-        "&6&o&nTASK&r: Craft &cBlazebloom Goo&r by upgrading Primogel Goo. This Goo can convert &6Gold Blocks&r into &aBlazegold&r."
+        "&6&o&n当前任务&r：把你的原初浆凝胶升级为&c烈焰蕾凝胶&r，这种凝胶可以将&6金块&r转化为&a烈焰金&r。"
         "{@pagebreak}"
-        "Once you've gathered some materials from the &cNether&r, you can upgrade to the next tier of Goo."
+        "你可以用&c下界&r的材料升级凝胶。"
         ""
-        "&cBlazebloom Goo&r will allow you to create a new tier of metal call &6Blazegold&r by converting &eBlocks of Gold&r, just like we did with Iron."
+        "&c烈焰蕾凝胶&r可以将&e金块&r转化为全新金属：&6烈焰金&r。转化步骤和之前你转化铁的步骤一样。"
         ""
-        "To activate it, you'll need to feed it either Nether Wart or Blaze Powder."
+        "你需要使用下界疣或烈焰粉才能激活它。"
         ""
-        "It also retains the ability to create &aFerricore Ore&r, so no need to make another Primogel Goo just for Iron. Not only that, it converts Iron faster than Primogel!"
+        "它同样保留了转化&a核源铁矿石&r的能力，所以没必要再做一团凝胶。而且这个凝胶转化速度比原本的更快！"
     ]
     quest.1DD0C33438447DD7.quest_desc:[
         "这个维度里面所有的东西都&c极其的热&r。"
@@ -2987,11 +2987,11 @@
         "&6&o&n当前任务&r：用&b钻石&r和&3钢&r将&6金网&r升级为&b钻石网&r。"
     ]
     quest.64BE2C84DF9B5195.quest_desc:[
-        "If I want to install any type of upgrade, I'll need to make an &6Upgrade Matrix&r."
+        "如果我想给我的气动机器装升级，首先我得先做&6升级矩阵&r。"
         ""
-        "This can only be done in a &aThermopneumatic Processing Plant&r."
+        "它只能用&a热启动加工机&r才能制造。"
         ""
-        "&6&o&nTASK&r: Craft an &6Upgrade Matrix&r in a &aThermopneumatic Processing Plant&r."
+        "&6&o&n当前任务&r：用&a热启动加工机&r制作&6升级矩阵&r。"
         ""
         "&o&8拜托，编故事很难的好吧？&r"
     ]
@@ -3000,7 +3000,7 @@
         ""
         "在它吃掉我之前，我准备先试试它和流体之间会产生什么反应。"
         ""
-        "&6&o&nTASK&r: Craft &cPolymorphic Catalysts&r and drop them in water to create &bPolymorphic Fluid&r."
+        "&6&o&n当前任务&r：制作&c多态催化剂&r，然后把它丢进水里就能产出&b多态流体&r。"
     ]
     quest.322914E060D2583C.quest_desc:[
         "如果我能制造出一片真空环境，那我说不定就能做出植物培养仓！"
@@ -3054,14 +3054,14 @@
         ""
         "这就是我制作更多魔法物品的敲门砖么？"
         ""
-        "&6&o&nTASK&r: Find an &cArchwood Sapling&r in the Lava Dimension, or create one using &aActually Additions&r."
+        "&6&o&n当前任务&r：在熔岩维度里头找到&c至高木树苗&r，或者用&a实用拓展&r做一颗。"
     ]
     quest.767B734339EB1FA8.quest_desc:[
-        "The ingots made from the &cBlazebloom Goo&r are really strong!"
+        "这个&c烈焰蕾凝胶&r所转化出的锭真的很强大！"
         ""
-        "It's definitely time for an upgrade to my gear. "
+        "所以现在我正好升级我的盔甲。"
         ""
-        "&6&o&nTASK&r: Craft &cBlazegold Armor&r to better help survive the Lava Dimension."
+        "&6&o&n当前任务&r：制作一套&c烈焰金&r盔甲，帮助你在熔岩维度更好生存。"
     ]
     quest.01CE1D9D083C3C5C.quest_desc:[
         "传说中&3钢&r可以发展科技，人人都爱钢。"
