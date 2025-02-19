@@ -375,7 +375,7 @@
     quest.66E3E6C2AE15DB9A.title:"寻找补给品"
     task.006F0AEE30F14CE2.title:"木台阶"
     quest.0A480337880DAAEE.title:"意外救星"
-    quest.7CA438754E6EE606.title:"水里淘金"
+    quest.7CA438754E6EE606.title:"大海捞金"
     task.2147ADCFC6287D39.title:"滤水器"
     quest.6BDFD560D63ACBF6.quest_subtitle:"石头"
     quest.6BDFD560D63ACBF6.title:"希望碎片"
@@ -385,9 +385,9 @@
     quest.62B2AE7A4A184E7B.title:"改变游戏的发明"
     task.7C8D8C6E2909390C.title:"可用盛水容器"
     quest.12D1B9539CB0D796.quest_subtitle:"木语笔记"
-    quest.7AC98547668A2B44.quest_subtitle:"拆个粉碎！"
+    quest.7AC98547668A2B44.quest_subtitle:"拆个粉碎"
     quest.7AC98547668A2B44.title:"粉碎岩石"
-    quest.77071C25D4B5AA43.title:"漫长的滤水时间"
+    quest.77071C25D4B5AA43.title:"漫长的洗矿时间"
     quest.7F18633924CDBDD5.title:"文火慢烧"
     quest.2D7C1AA1C36101EA.title:"强化玻璃"
     task.1A02DE93233BF8FB.title:"&c高温资源&r"
@@ -440,15 +440,15 @@
     quest.78F3D5C0909EFD27.quest_subtitle:"玻璃罐自动化"
     quest.78F3D5C0909EFD27.title:"初步自动化"
     quest.69241B20F504931E.title:"闪闪发光的石头"
-    quest.0F436FCC2B16FD11.title:"Tinkering Around"
-    quest.73E7FD206F802E56.title:"Let It Pour"
-    quest.527DC4B444A82A42.title:"The Building Blocks"
-    quest.7DB9760E3196FB3D.title:"The Core of the Foundry"
-    quest.01EF1AF0D4926029.title:"Putting It All Together"
-    quest.723152AC816F91A5.title:"Automation"
-    quest.3710743E7B4F073D.title:"A Mystical Infusion"
-    quest.2BEABBCA1FB4A824.title:"Passive Mobs"
-    task.31DCC2E3E14BBC4C.title:"This Is All I Have"
+    quest.0F436FCC2B16FD11.title:"独具匠心"
+    quest.73E7FD206F802E56.title:"倾泻而出"
+    quest.527DC4B444A82A42.title:"构造方块"
+    quest.7DB9760E3196FB3D.title:"熔铸炉的心脏"
+    quest.01EF1AF0D4926029.title:"将它们拼在一起"
+    quest.723152AC816F91A5.title:"自动化"
+    quest.3710743E7B4F073D.title:"神秘注魔"
+    quest.2BEABBCA1FB4A824.title:"友善生物"
+    task.31DCC2E3E14BBC4C.title:"这就是我所剩无几的物品了"
     quest.7AE2748759261A0B.title:"海带的馈赠"
     quest.5D41616086EA607A.title:"&d万全准备&r"
     task.71F7915F3EA94E46.title:"推荐的盔甲类型"
@@ -510,7 +510,7 @@
     task.6C1AB8986784E504.title:"&eObserve&f: Mixer"
     quest.5878F6DB12C22339.title:"&fRevolver"
     quest.073BE902F972D190.title:"&fGun Modding"
-    quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems \&\ Jewelry&fmod!"
+    quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems 'n Jewelry&f mod!"
     chapter.143441998FF2D8BD.title:"Iron's Jewelry"
     quest.6045E57AA8E56711.title:"&f红宝石"
     quest.34FA9DF0A6D2163D.title:"&f蓝宝石"
@@ -627,7 +627,7 @@
     quest.4FA766AD24D00325.title:"&f高级机器"
     task.6FBF3A3F71E35DF0.title:"&f高级机器"
     quest.15D80251D92D6A3C.title:"&f扭曲&d时间"
-    quest.34CB13A91DB2E871.title:"&fThe &dParadox Machine"
+    quest.34CB13A91DB2E871.title:"&d悖论机器"
     quest.7E0BE6024525BF56.title:"&f时间手杖"
     quest.101457F50427E14E.title:"&c烈焰推进手杖"
     quest.4FF4DA1DA3551C1C.title:"&f初级替换器"
@@ -1273,16 +1273,16 @@
     quest.3C68BDD7D3C09412.quest_subtitle:"应用能源2的开端"
     quest.3C68BDD7D3C09412.title:"海中的陨石"
     task.410607ED10D1790A.title:"观察&d神秘方块&r"
-    quest.79D6F1D02DBB5B6E.title:"Ancient Infusion"
+    quest.79D6F1D02DBB5B6E.title:"古代注魔"
     quest.23C901E3B4AC916D.quest_subtitle:"Nautec的开端"
     quest.23C901E3B4AC916D.title:"海的味道我知道"
     quest.693320A7F24F202C.title:"水下挖矿"
-    task.214F322313DAA976.title:"Underwater Mining"
-    task.3EC165E92E0A5635.title:"Underwater Mining Options"
-    quest.53C9142F41A30AF5.title:"Going Exploring"
-    quest.2CFD9B1806BB52F0.title:"Aquatic Crystal Power"
-    quest.619CA9553F525040.title:"Harnessing Crystal Power"
-    quest.38EA9FAD11870423.title:"Power Of The End"
+    task.214F322313DAA976.title:"水下挖矿"
+    task.3EC165E92E0A5635.title:"水下挖矿小提示"
+    quest.53C9142F41A30AF5.title:"外出探索"
+    quest.2CFD9B1806BB52F0.title:"海洋水晶之力"
+    quest.619CA9553F525040.title:"运用水晶的力量"
+    quest.38EA9FAD11870423.title:"末地之力"
     quest.70A09D5CFC69EA43.title:"欢迎游玩&6Oceanblock 2&r"
     chapter.061E43DCC3E0E302.title:"欢迎"
     task.7F7994DE4B55D7F6.title:"欢迎游玩&6Oceanblock 2&r"
@@ -2298,15 +2298,15 @@
         "你听到空气喷出去的声音就知道哪有漏洞了（前提是你没关声音），拿着&a气动扳手&r对着洞右键就可以把它封死！"
     ]
     quest.6428F17B7E4873A6.quest_desc:[
-        "&cHeat&r disperses to adjacent blocks, including air, and is a mechanic unique to &6PNCR&r"
+        "&b热量&r是气动工具独有的另一种能源。&6热量会分散&r到相邻的方块，包括空气。"
         ""
-        "If certain &cHeat&r sources disperse entirely, they can convert to different block. An example of this would be using lava to heat a machine and it eventually cooling to obsidian."
+        "如果某些加热用的热源的&c热量&r完全散失，它就会变为成不同的方块。例如，用熔岩加热机器，最后加热用的熔岩会变成黑曜石。"
         ""
-        "You can prevent &cHeat&r from dissipating in the air by making sure each side of the block is covered. &bThermal Lagging&r works well for this!"
+        "如果把某个方块的六个面全部堵住，那么它就不会向空气中散发&c热量&r。&b隔热板&r就很适合！"
         "{@pagebreak}"
-        "Some operations are &9Endothermic&r (uses &cHeat&r) while others might be &cExothermic&r (produces &cHeat&r). This will depend on the machine and recipe, so be sure to check JEI and plan accordingly!"
+        "某些合成的反应热&9为负&r（需要消耗&c热量&r），还有一些合成的&c反应热&r为正（需要放出&c热量&r）。合成配方的放热吸热取决于机器和配方，所以搭建工厂的时候多看JEI，仔细规划你的热量！"
         ""
-        "Certain machines can also share &cHeat&r, meaning it is often useful to put machines that require similar temperatures next to each other."
+        "有些机器可以&c共享热量&r，意味着你可以将需要相同热量的机器放在一块。"
         ""
         "You can install &bDispenser Upgrades&r to pipe between them as well!"
     ]
@@ -2448,11 +2448,11 @@
         ""
         "在&a合金炉&r的界面中，你可以按你的需求进行配置来实现自动化。你可以配置每面的输入输出模式、红石模式以及切换三种工作模式。"
         "{@pagebreak}"
-        "&e仅限合金&r：这个模式下合金炉只能处理合金配方。"
+        "&e仅合金配方&r：这个模式下合金炉只能处理合金配方。"
         ""
-        "&e仅限熔炉&r：这个模式下合金炉就是个电熔炉而已。"
+        "&e烧炼模式&r：这个模式下合金炉就是个电熔炉而已。"
         ""
-        "&e全部烧炼&r：这个模式下熔炼和合金配方不分离，等你要烧的物品变成合金就知道错了。"
+        "&e合金和烧炼配方&r：这个模式下熔炼和合金配方不分离，等你要烧的物品变成合金就知道错了。"
     ]
     quest.4782346A565FF21F.quest_desc:[
         "&a半自磨机&r可以将物品磨成粉，它能够实现矿石增产。"
@@ -2904,7 +2904,7 @@
         ""
         "这台&6离心机&r还不能处理流体……至少目前为止是这样的。"
         ""
-        "想必有了碳纤维，我就可以做出我需要的插件了！"
+        "有了碳纤维，我想必就可以做出我需要的插件了！"
         ""
         "&6&o&n当前任务&r：把煤炭或木炭用磨粉机打成&7碳纤维&r，然后把产物做成&c流体处理插件&r，最后装到离心机即可。"
     ]
@@ -3290,7 +3290,7 @@
     quest.66E3E6C2AE15DB9A.quest_desc:[
         "我被困在一片无尽的海洋之上，脚下只有我的飞船残骸……而且我丢失了我的生存物资，其他船员也已失踪。&a&o但我必须坚强地活下去&r。"
         ""
-        "&6&o&n当前任务&r：在海面上&a漂浮的废墟&r中收集一些基础材料来稳住局面。"
+        "&6&o&n当前任务&r：在海面上&a漂浮的飞船残骸&r中收集一些基础材料来稳住局面。"
     ]
     quest.0A480337880DAAEE.quest_desc:[
         "许多看起来年代久远的残骸漂浮在附近的海面上。"
@@ -3302,18 +3302,18 @@
         "&6&o&n当前任务&r：获得燧石以制造一些&a基本工具&r。"
     ]
     quest.7CA438754E6EE606.quest_desc:[
-        "这颗星球上的水似乎含有很多杂质碎片。"
+        "这颗星球的水中似乎含有很多杂质碎片。"
         ""
         "使用我收集到的线，我可以制作一个&6滤水器&r来放在我的筏侧面。"
         ""
-        "希望能过滤出一点有用的东西。燧石工具已经&o用不了多久&r了……"
+        "希望能过滤出一点有用的东西。燧石工具已经&o用不了多久了&r……"
         ""
         "&6&o&n当前任务&r：制作一个&2云杉木滤水器&r或&e竹滤水器&r并将它浸没在水中以收集材料。"
     ]
     quest.6BDFD560D63ACBF6.quest_desc:[
         "&a滤水器&r收集石子的速度非常之快。"
         ""
-        "我可以收集足够多的石子，并将它们制作为一整块&3圆石&r。"
+        "我可以收集足够多的石子，并将它们制作成一块&3圆石&r。"
         ""
         "随着缓步前进，在无边海洋存活下去已经成为了一种可能。"
         ""
@@ -3322,7 +3322,7 @@
     quest.19762D55D6AD8908.quest_desc:[
         "滤水器似乎收集到了一些漂浮着的&2树苗&r。"
         ""
-        "如果我有一些&a泥土&r来种植树苗就好了，我得想个办法用目前拥有的方块中制作出泥土。"
+        "如果我有一些&a泥土&r来种植树苗就好了，我得想个办法用现有的方块制作出泥土。"
         ""
         "也不知道为什么，树苗似乎对我蹲来蹲去的样子情有独钟。也许他们喜欢我的舞步？"
         ""
@@ -3333,14 +3333,14 @@
     quest.1BE00286EDFBF416.quest_desc:[
         "收集的石子已经堆成一座小山了。"
         ""
-        "有了这么多石子以后，我认为接下来就可以用它们搭建一个烧制&a木炭&r的地方，木炭材料就用我搜集到的多余木头吧。"
+        "有了这么多石子以后，我认为接下来得找个烧制&a木炭&r的地方，至于原料就用我搜集到的多余木头吧。"
         ""
         "&6&o&n当前任务&r：收集足够制作&a熔炉&r的石子，然后烧制&a木炭&r。"
     ]
     quest.62B2AE7A4A184E7B.quest_desc:[
-        "在砍倒许多树木以后，我总算收集到了足够多的坚硬&2原木&r，这样我就可以制作一个提取矿物的装置。"
+        "在砍倒许多树以后，我总算收集到了足够多的坚硬&2原木&r，这样我就可以制作一个提取矿物的装置。"
         ""
-        "虽然这玩意做工很廉价，但是&2橡木洗矿槽&r足以改变我当前生存现状。"
+        "虽然做工廉价，但是&2橡木洗矿槽&r足以改变我当前生存现状。"
         "{@pagebreak}"
         "当然我还需要更多的线来制作一个&a布网&r。将它们组装完成以后，我只需要放入一些&a沙砾&r或者&2泥土&r，然后用水冲刷它们就可以获得我想要的矿物。"
         ""
@@ -3351,9 +3351,9 @@
     quest.12D1B9539CB0D796.quest_desc:[
         "我虽然并非顶尖木匠，但我至少可以将木头制作成一个滴水器让水缓缓滴落。"
         ""
-        "这个装置可以慢慢将&a泥土&r转换为一些可以为我所用的资源。"
+        "这个装置可以慢慢将&a泥土&r转化为一些更有用的资源。"
         ""
-        "&6&o&n当前任务&r：制作一个&a滴水器&r将&2泥土&r转换为&b黏土&r。"
+        "&6&o&n当前任务&r：制作一个&a滴水器&r将&2泥土&r转化为&b黏土&r。"
         ""
         "提示：滴水器必须紧贴放置在泥土上方。使用&2碗&r将水舀入其中。"
     ]
@@ -3655,11 +3655,11 @@
         "提示：当放在强化玻璃罐上方时，它会自动混合强化玻璃罐中的物品。"
     ]
     quest.0B86D627BA958D3C.quest_desc:[
-        "我的GPS通讯链路在事故中损毁了。希望我能找到一些材料修复它……"
+        "我的GPS通讯链接器在事故中损毁了。希望我能找到一些材料修复它……"
         ""
         "这段时间我得在心里自己记一张地图了。"
         ""
-        "&6&o&n当前任务&r：找到一些&a铜线&r并做一个&2黏液球&r以修复你的&a损坏的飞船通路链接器&r。这样就可以激活&6&l地图&r和&6&l小地图&r了。"
+        "&6&o&n当前任务&r：找到一些&a铜线&r并做一个&2黏液球&r以修复你的&a损坏的通讯链接器&r。这样就可以激活&6&l地图&r和&6&l小地图&r了。"
     ]
     quest.69241B20F504931E.quest_desc:[
         "&6金网&r让我过滤得到的材料更上一层楼！"
@@ -3669,104 +3669,104 @@
         "&6&o&n当前任务&r：使用&6金网&r，洗涤&b沙砾&r来获得&b钻石矿粒&r并将它变成&b钻石&r。"
     ]
     quest.0F436FCC2B16FD11.quest_desc:[
-        "With access to plenty of cobblestone now, making enough sand and clay should be no problem."
+        "现在的圆石应该非常充足，粉碎以后应该可以有足够的沙子和黏土储备了。"
         ""
-        "I can smelt clay down into normal bricks, but these aren't very heat resistant. I want to make a forge that for metalworking, and these won't do."
+        "直接烧制黏土得到的只是普通砖块，并不能承受很高的温度。我想制作一个可以加工金属的熔铸炉，那些砖块差的远呢。"
         ""
-        "Mixing Clay with Sand makes a much better mixture, and when fired, these make much more durable bricks."
+        "将沙子和黏土混合可以得到更好的胚子，将那些半成品烧制后，那些砖块看起来更加坚硬耐用。"
         ""
-        "&6&o&nTASK&r: Craft &cFire Clay&r using &asand&r and &3clay&r. Smelt these down into &6Fire Bricks&r."
+        "&6&o&n当前任务&r：用&a沙子&r和&3黏土&r制作&c耐火黏土&r。然后将它烧制为&6耐火砖&r。"
     ]
     quest.73E7FD206F802E56.quest_desc:[
-        "If I plan on working with molten metal, I definitely can't be scooping it up with my hands."
+        "如果我想加工熔融金属，我肯定不能直接用手接触它们。"
         ""
-        "I can mold the Fire Brick into a proper drain, which should allow me to pour out the metal."
+        "我可以将耐火砖制作成一个排液孔，让我可以倾倒出熔融金属。"
         ""
-        "I should probably make something to catch it, though."
+        "当然我也得为流出来的液体做一个容器。"
         ""
-        "&6&o&nTASK&r: Craft a &aFoundry Drain&r, &aFoundry Tap&r, and a &aCasting Table&r."
+        "&6&o&n当前任务&r：制作一个&a熔铸炉排液孔&r，&a浇注口&r，和一个&a铸件台&r。"
         ""
-        "The Casting Basin is optional, but can be used to store and create blocks of metals."
+        "铸造盆是一个可用的容器，可以直接冷却一整个金属块。"
     ]
     quest.527DC4B444A82A42.quest_desc:[
-        "These &cFire Brick&r stack very nicely together."
+        "这些&c耐火砖&r堆在一起的性能非常不错。"
         ""
-        "If I want to make a Foundry, I'll need to use these as one of the main building blocks to hold in the molten metal."
+        "我想搭建一个熔铸炉，我需要它作为一个可以储存熔融金属的重要多方块结构。"
         ""
-        "&6&o&nTASK&r: Craft 21 &cFire Bricks&r to use for building the &bFoundry Multiblock&r."
+        "&6&o&n当前任务&r：制作21个&c耐火砖&r来搭建一个&b熔铸炉多方块结构&r。"
     ]
     quest.7DB9760E3196FB3D.quest_desc:[
-        "I need to construct a base that can get hot enough to melt metal. &aCopper&r seems to be a good conductive metal for this!"
+        "我需要一个足够耐热的基座来融化金属。&a铜&r似乎是一个非常不错的选择！"
         ""
-        "Of course, I'll also need some way to control the Foundry itself, as well as a storage with something hot enough in it to smelt things down."
+        "当然，我还需要一个控制熔铸炉的方块，还有一个足够耐热的储罐，里面存放熔化金属的高温液体。"
         ""
-        "&6&o&nTASK&r: Craft the &6Foundry Controller&r, &aFoundry Tank&r, and 9 &cLiquid Heating Coils&r."
+        "&6&o&n当前任务&r：制作&6熔铸炉控制器&r，&a熔铸炉储罐&r，和9个&c液体加热线圈&r。"
     ]
     quest.01EF1AF0D4926029.quest_desc:[
-        "Using this &aBig Book of Metallurgy&r, I can see a guide on how to make a proper Foundry."
+        "阅读这本&aBig Book of Metallurgy&r，我可以大概知晓如何建造一个合格的熔铸炉。"
         ""
-        "The &cLiquid Heating Coils&r are used as the base, with the walls being made out of &aFire Bricks&r."
+        "&c液体加热线圈&r作为底座，墙体则用&a耐火砖块&r搭建。"
         ""
-        "Somewhere on the walls, I'll make sure to have the &6Controller&r, the &aTank&r, and somewhere to &aDrain&r the molten metal I plan on making out of the &aTaps&r onto the &aTable&r."
+        "将墙的任意一格替换为&6控制器&r、&a储罐&r还有&a排液孔&r。排液孔上接一个&a浇注口&r流向&a铸件台&r。"
         ""
-        "I should definitely make some casts first with the Foundry to mold the molten metal in."
+        "我得先用熔铸炉做一些铸模来方便熔融金属固定成型。"
         ""
-        "&6&o&nTASK&r: Construct the &6Foundry Multiblock&r and use it to make &3Casts&r."
+        "&6&o&n当前任务&r：搭建一个&6熔铸炉多方块结构&r并制作&3铸模&r。"
         ""
-        "More About The Foundry ->"
+        "关于熔铸炉更多知识 ->"
         "{@pagebreak}"
-        "The &aBig Book of Metallurgy&r has a visualizer to help you build the multiblock."
+        "&aBig Book of Metallurgy&r有一个可视化工具帮你搭建多方块结构。"
         ""
-        "The &aFoundry Tank&r needs to be filled with Lava to melt down items placed into the &6Controller&r."
+        "&a熔铸炉储罐&r需要填充熔岩来熔化&6控制器&r内的物品。"
         ""
-        "To pour out the molten metal, select it in the Controller, then right click on a Foundry Tap that is above either a &aCasting Table&r or &aCasting Basin&r."
+        "你想要流出的熔融金属需在控制器内选择，然后右击放置在&a铸件台&r或&a铸造盆&r上的熔铸炉浇注口。"
     ]
     quest.40352D7AADCFF6BA.quest_desc:[
-        "Either I'm going to have the biggest arms in the universe.."
+        "如果我没有传说中的金刚臂……"
         ""
-        "Or I need to find a way to automate hammering."
+        "那我得想个办法来帮我自动化锤击。"
         ""
-        "&6&o&nTASK&r: Craft an &aIron Auto-Hammer&r"
+        "&6&o&n当前任务&r：制作一个&a铁自动锤&r"
         ""
-        "Note: This machine will automatically pull and push to storage on its sides. Blue will input, red will output."
+        "提示：这个机器会自动从相邻的存储方块中存入或取出东西。蓝色为输入，红色为输出。"
     ]
     quest.723152AC816F91A5.quest_desc:[
-        "Now that I can start automating most of the process of sluicing, I will need a way to transport items and fluids between the machines and storages."
+        "现在洗矿的大部分工序都可以自动化了，我现在要想个办法在机器和存储装置之间运输物品和流体。"
         ""
-        "&aNickel&r seems to be a great material to fashion pipes out of."
+        "&a镍&r似乎是做管道的好材料。"
         ""
-        "&6&o&nTASK&r: Craft Item and Fluid Pipes to use for automation."
+        "&6&o&n当前任务&r：为自动化系统制作物流和流体管道。"
         ""
-        "Note: The &a Pipe Wrench&r can be used to disconnect unwanted pipe connections, or instantly break pipes by sneak-using it."
+        "提示：&a管道扳手&r可以断开你不想要的管道连接，或者潜行使用来立即拆除管道。"
     ]
     quest.3710743E7B4F073D.quest_desc:[
-        "&6Gold&r is great for electronic components, but it is also highly sought after for rituals."
+        "&6金&r是制作电子元件的好材料，也是某些神秘仪式必不可少的物品。"
         ""
-        "Having some should allow me to create a new way to &2Infuse&r materials that are more magical in nature."
+        "制备一些应该可以为自然界的物品&2灌注&r一些神奇的魔力。"
         ""
-        "&6&o&nTASK&r: Use &6Gold&r to create 8 &aInfusion Pedastals&r and an &2Infusion Altar&r."
+        "&6&o&n当前任务&r：使用&6金&r制作8个&a注魔基座&r和1个&2注魔祭坛&r。"
     ]
     quest.2BEABBCA1FB4A824.quest_desc:[
-        "To no surprise at all, I haven't seen a single land animal since I crashed onto this planet, and let me tell you something..."
+        "在我坠机到这颗星球以后我还没有见到过任何一只动物，想想这也并不奇怪，说句心里话……"
         ""
-        "I really miss chicken."
+        "我很想念我的小鸡。"
         ""
-        "The &2Infusion&r setup should allow me to create a magical item that opens a one-way portal to ship in some livestock."
+        "&2注魔&r祭坛的竣工让我可以制作一个神秘的物品，它可以开启传送门来生成一些家畜。"
         ""
-        "It's kind of like ordering pizza, except from another dimension."
+        "有点像外卖软件点单一个披萨，除了发货地是其他维度这件事以外。"
         ""
-        "&6&o&nTASK&r: Using the &2Infusion Altar&r, create a &2Gate Pearl: Gateway of the Emerald Grove&r."
+        "&6&o&n当前任务&r：使用&2注魔祭坛&r制作一颗&2Gate Pearl: Gateway of the Emerald Grove&r。"
         ""
-        "Using this should open a portal with a challenge!"
+        "使用它可以开启挑战传送门！"
         ""
-        "Note: Mobs spawn within an &a8 block radius&r around the portal, and can spawn underwater. Build accordingly!"
+        "提示：怪物会在传送门&a8个方块内&r生成，水下亦可生成怪物。记得选个好地方！"
     ]
     quest.28F2D895C980C8CF.quest_desc:[
-        "This &aCooking Pot&r is going to be incredibly useful for making a good home cooked meal later on, but for now, I just need something sticky to hold together some fabric."
+        "&a厨锅&r在不久的将来可以被用于烹饪一顿美味佳肴，但眼下，我们需要用它来制造粘合剂拼凑布料。"
         ""
-        "&eMelted Sugar&r should work just fine."
+        "&e融化的糖&r的粘稠度应该就够用了。"
         ""
-        "&6&o&nTASK&r: Use the &aCooking Pot&r to melt down sugar into &eHoney Bottles&r, then use it to create &2Ersatz Leather&r."
+        "&6&o&n当前任务&r：使用&a厨锅&r来熔化糖然后瓶装为&e蜂蜜瓶&r，然后用它来制作&2人造皮革&r。"
     ]
     quest.7AE2748759261A0B.quest_desc:[
         "在这片海上的每一天，这些海带都长的越来越高。这肯定会有&l什么&r用，对吧？"
@@ -4088,9 +4088,9 @@
         "The &aAmplifying Electron Tubes&r is a &aRevolver&r-exclusive mod that stuns the target shot."
     ]
     quest.496903AB7E8A0A92.quest_desc:[
-        "使用&6Iron's Jems \&\ Jewelry&rmod，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
+        "使用&6Iron's Gems 'n Jewelry&r mod，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
         ""
-        "在制作&bJewelry&r之前，你需要先制作一个&a珠宝装配台&r。"
+        "在制作&b珠宝&r之前，你需要先制作一个&a珠宝装配台&r。"
         ""
         "为了制作更高级的&b珠宝&r，你需要在世界各地探索，获得工匠卷轴。"
         ""
@@ -4104,49 +4104,49 @@
         ""
         "&b命中效果&r：点燃目标"
         ""
-        "&bI效果免疫&r：饥饿"
+        "&b效果免疫&r：饥饿"
     ]
     quest.34FA9DF0A6D2163D.quest_desc:[
         "&b属性提升&r：闪避率"
         ""
         "&b命中效果&r：冻结目标"
         ""
-        "&bI效果免疫&r：缓慢"
+        "&b效果免疫&r：缓慢"
     ]
     quest.4FB98E93DE3BE477.quest_desc:[
         "&b属性提升&r：盔甲韧性"
         ""
         "&b命中效果&r：将自己拉向目标"
         ""
-        "&bI效果免疫&r：漂浮"
+        "&b效果免疫&r：漂浮"
     ]
     quest.432185176A39B3B2.quest_desc:[
         "&b属性提升&r：弹射物伤害"
         ""
         "&b命中效果&r：造成爆炸"
         ""
-        "&bI效果免疫&r：失明"
+        "&b效果免疫&r：失明"
     ]
     quest.3389EB27CF459DB3.quest_desc:[
         "&b属性提升&r：挖掘速度"
         ""
         "&b命中效果&r：击退目标"
         ""
-        "&bI效果免疫&r：中毒"
+        "&b效果免疫&r：中毒"
     ]
     quest.7B7A7CEC2F56275C.quest_desc:[
         "&b属性提升&r：暴击伤害"
         ""
         "&b命中效果&r：回复生命值"
         ""
-        "&bI效果免疫&r：失明"
+        "&b效果免疫&r：失明"
     ]
     quest.14844C0E66FD7F44.quest_desc:[
         "&b属性提升&r：攻击伤害"
         ""
         "&b命中效果&r：回复生命值"
         ""
-        "&bI效果免疫&r：无"
+        "&b效果免疫&r：无"
     ]
     quest.01B764188498B1FD.quest_desc:[
         "&b品质倍率加成&r：x1.0"
@@ -4194,7 +4194,7 @@
         "手持&a工匠卷轴&r时，右键即可学习珠宝的制作方法。"
     ]
     quest.2F6F52B669C50A01.quest_desc:[
-        "在 &b戒指&r槽位装备&a神枪手指环&r后，当玩家使用弓箭命中敌人时，会对敌人施加宝石的命中效果。"
+        "在&b戒指&r槽位装备&a神枪手指环&r后，当玩家使用弓箭命中敌人时，会对敌人施加宝石的命中效果。"
     ]
     quest.79A7540F94A2183E.quest_desc:[
         "当受到敌人的攻击时，&a防御纹章&r会对攻击者施加命中效果。"
@@ -4245,35 +4245,35 @@
         ""
         "&b命中效果&r：对目标造成荆棘伤害"
         ""
-        "&bI效果免疫&r：中毒"
+        "&b效果免疫&r：中毒"
     ]
     quest.0C9AF68E6C9CF4CA.quest_desc:[
         "&b属性提升&r：护甲值"
         ""
         "&b命中效果&r：对目标造成魔法伤害"
         ""
-        "&bI效果免疫&r：虚弱"
+        "&b效果免疫&r：虚弱"
     ]
     quest.4F1F2AA921441924.quest_desc:[
         "&b属性提升&r：水中移动效率"
         ""
         "&b命中效果&r：无"
         ""
-        "&bI效果免疫&r：无"
+        "&b效果免疫&r：无"
     ]
     quest.117131CF7E2FE2DE.quest_desc:[
         "&b属性提升&r：经验获取"
         ""
         "&b命中效果&r：施加缓慢效果"
         ""
-        "&bI效果免疫&r：无"
+        "&b效果免疫&r：无"
     ]
     quest.61FBB8F1E0BB7189.quest_desc:[
         "&b属性提升&r：速度"
         ""
         "&b命中效果&r：有概率生成绿宝石"
         ""
-        "&bI效果免疫&r：无"
+        "&b效果免疫&r：无"
     ]
     quest.26D7C5298D95C69A.quest_desc:[
         "在制作&b珠宝&r时，仅使用&a指环材料&r制成饰品就可以获得效果增益和/或数值加成。"
@@ -4283,7 +4283,7 @@
     quest.2F2DC018DD6A2A23.quest_desc:[
         "大多数&b珠宝&r的效果加成都来自其所镶嵌的&a宝石&r 。"
         ""
-        "同样的&a宝石&r镶嵌在不同的&b珠宝&r上会赋予其各不相同的属性与增益，因此在合成，需要仔细查看。"
+        "同样的&a宝石&r镶嵌在不同的&b珠宝&r上会赋予其各不相同的属性与增益，因此在合成时，需要仔细查看。"
     ]
     quest.565AF0E2D4AB41BE.quest_desc:[
         "虽然它叫这个名字，但&6Just Dire Things&r其实是一个很酷很轻量的模组，它加入了一些&o令人眼前一亮&r而且有些小超模的&2小帮手&r、&a工具&r，以及&9护甲&r！"
@@ -4353,10 +4353,10 @@
         "安装&a重锤&r升级后还可以一次挖一片区域！"
     ]
     quest.46C2C45AE017AE81.quest_desc:[
-        "When equipped to a &aJust Dire's Pickaxe&r, right clicking will activate the ability and make nearby ores glow through walls."
+        "这个升级装入&aJust Dire模组的镐&r后，右击就会让周边的矿石透过墙壁发光。"
     ]
     quest.74394A0A56C5CFF5.quest_desc:[
-        "When equipped in a &aJust Dire's Sword&r, this upgrade allows you to scan for nearby mobs by right clicking with the sword."
+        "这个升级装入&aJust Dire模组的剑&r后，拿着剑右击就可以扫描周边的怪物。"
     ]
     quest.04013A6813F80EF7.quest_desc:[
         "现在你可以制造出&a多态流体&r了，用它做些新流体吧，比如&a精炼烈焰燃液&r。"
@@ -4522,30 +4522,30 @@
         "&b苍穹晶&r可以合成该模组的高级机器！"
     ]
     quest.15D80251D92D6A3C.quest_desc:[
-        "&6Time Crystals&r can be found in the Rift. These can be turned into a Budding Time Crystal Block using Shadowpulse Goo."
+        "&6时间水晶&r能在裂缝中找到。使用暗影脉壤能将它转化为时间水晶母岩。"
         ""
-        "To create and harvest &6Time Crystals&r from these, you'll need to make use of &cSwapper&r machines."
+        "你需要用&c替换器&r才能创造并收获&6时间水晶&r。"
         ""
-        "To start, place the Budding Time Crystal block in the overworld. After a little bit of time, the block will make a noise and change colors. It means it's ready to be moved!"
+        "先把时间水晶母岩放在主世界，耐心等一会后它就会放出声音，同时颜色也会变化，这样你就可以进行下一步了。"
         "{@pagebreak}"
-        "The next step will be moving the Budding Time Crystal block to the &cNether&r for it to absorb more energy there. Just like before, it will make a sound and change colors when ready."
+        "下一步把你的时间水晶母岩带到&c下界&r去吸收能量，充能完毕后和上一步一样会放出声音改变颜色。"
         "{@pagebreak}"
-        "Finally, you'll need to transport the Budding block to a &dCompact Machine World&r."
+        "最后把母岩带到&d压缩空间世界&r。"
         ""
-        "It will absorb the dimension's energies and start to grow &6Time Crystals&r. Be careful not to harvest any crystal that isn't fully grown!"
+        "然后母岩就会吸收维度的能量，开始生长&6时间水晶&r。没长好的水晶千万别挖！"
         ""
-        "Over time, it will lose the energies it has absorbed and will need to be brought back to each dimension to recharge. This means you'll need to move the small crystal buds as well!"
+        "不过母岩最后总会消耗掉其蕴含能量，所以你必须把它带回各个维度重新充能，意味着你得把水晶簇也一块带走！"
         ""
-        "To move the block and growing crystals, you'll need to use the &cAdvanced Swapper&r."
+        "你得用&c高级替换器&r才能移动水晶。"
     ]
     quest.34CB13A91DB2E871.quest_desc:[
-        "The &dParadox Machine&r is one of the most unique machines you will ever make."
+        "&d悖论机器&r估计是你制造出的最独特的机器。"
         ""
-        "This machine can take a snapshot of an area and &6rewind time&r for the area back to the time of the snapshot."
+        "这个机器可以给一块区域留下“影像”，之后可以&6回滚时间&r，将被留影的区域恢复为留影时的样子。"
         ""
-        "This means placing blocks, harvesting them, then rewinding to harvest again."
+        "所以你肯定会放下方块挖掉再回滚的吧。"
         ""
-        "To learn more of the uses and &cdangers&r of using the machine, refer to the guide book!"
+        "读一下它的教程，了解一下这个机器的用途和&c潜在的危险&r！"
     ]
     quest.7E0BE6024525BF56.quest_desc:[
         "&6时间水晶&r可以制作&6时间手杖&r。"
@@ -5193,7 +5193,7 @@
         ""
         "要给一件工具注入能量，你需要在&a充能器&r中用&b海蓝能量&r为其充能。你还需要将该工具放入一些&a电解藻类血清&r中，这将消耗满满一桶（血清）来激活其能量。"
         ""
-        "按下 Shift 键并右键点击充能后的工具将激活其特殊能力，该能力可以在工具的提示信息中查看。"
+        "按下 Shift 键并右击充能后的工具将激活其特殊能力，该能力可以在工具的提示信息中查看。"
     ]
     quest.75EE2E239783B03E.quest_desc:[
         "虽然这件盔甲乍一看可能很薄弱，但在充能后就会获得它的真实能力。"
@@ -5236,7 +5236,7 @@
     quest.55C9854AAC7DFB86.quest_desc:[
         "&d强化站&r是一种多方块结构装置，它能让你对自身进行强化。"
         ""
-        "一旦这个结构搭建完成，就用扳手右键点击中间的方块来完成整个结构的构建。 "
+        "一旦这个结构搭建完成，就用扳手右击中间的方块来完成整个结构的构建。 "
         ""
         "每种原料都可以通过将其与一个&a爪式机械臂&r一起放入四个扩展插槽中的一个来提供。"
         ""
@@ -6109,7 +6109,7 @@
     quest.3AC24F0B92156F55.quest_desc:[
         "&d装配器&r提供2x2合成格，有能量就会自动组装物品。原材料放入输入槽，成品会从输出槽输出。"
         ""
-        "有些机器组件虽然不用&a自动装配机&r制作，但这样会消耗更多资源。"
+        "有些机器组件虽然不用&a装配器&r制作，但这样会消耗更多资源。"
     ]
     quest.50B7CA94F8BB6F58.quest_desc:[
         "&a离心机&r是个很简单的机器，主要用处就是分离和转换一些物品。"
@@ -6528,7 +6528,7 @@
     quest.4FF1C456DC2A08C4.quest_desc:[
         "&6Oritech&r在发电上有很多好用的东西，你甚至可以搭建一个自定义反应堆来满足你的需求！"
         ""
-        "制作反应堆组件需要&6装配工厂&r。"
+        "制作反应堆组件需要&6装配器&r。"
     ]
     quest.705E4FFB4FCADFD1.quest_desc:[
         "你可以用&a物质网络管道&r将&6Replication&r模组的机器串联起来，这样就可以在同一个网络下共享物质。"
@@ -6851,7 +6851,7 @@
         ""
         "你需要从主世界、下界和&6压缩机器&r这三个维度中吸取能量，才能让&6时间水晶&r真正成长出来。"
         ""
-        "用Just Dires Things的&6高级换位器&r就可以做到。"
+        "用Just Dires Things的&6高级替换器&r就可以做到。"
         ""
         "用这些东西合成一个&6时间水晶母岩&r。"
     ]
@@ -7214,7 +7214,7 @@
         ""
         "我肯定还需要一个控制器控制它发射激光。"
         ""
-        "&6&o&nTASK&r: Craft the &dEnderic Laser&r and a &6Target Designator&r. Use the Designator to zap an &dAmethyst Crystal&r to get &dFluxite&r."
+        "&6&o&n当前任务&r：制作一台&d末影激光器&r和&6目标指示器&r，然后用目标指示器将&d紫水晶&r指定为目标，以此产出&d通量水晶&r。"
         ""
         "末影激光器使用说明书：（翻下一页！）"
         "{@pagebreak}"
@@ -7238,7 +7238,7 @@
         ""
         "这样我就可以完全防止水压的问题了。"
         ""
-        "&6&o&nTASK&r: Craft the &6Depth Module Mk.2&r. This allows you to ignore all pressure underwater."
+        "&6&o&n当前任务&r：制作&6深潜升级：II级&r，它可以让你完全无视水下的压力。"
     ]
     quest.1AF8DB4E0B3BE3ED.quest_desc:[
         "我是不是忘了我做出的凝胶的……饥饿？"
@@ -7247,7 +7247,7 @@
         ""
         "嗯……也许这就是问题所在了！给它喂点来自虚空的食物！"
         ""
-        "&6&o&nTASK&r: Using the &6Mixer&r, mix &cBlazebloom Goo&r with an &dAbyssal Pearl&r and &bPolymorphic Fluid&r to create &dVoidshimmer Goo&r."
+        "&6&o&n当前任务&r：用&6搅拌机&r将&c烈焰蕾凝胶&r和&d深渊珍珠&r以及&b多态流体&r搅拌起来，然后制造&d虚空辉凝胶&r。"
         ""
         "Note: You will need 2 Aquatic Catalysts to power the Mixer."
     ]
@@ -7265,7 +7265,7 @@
         ""
         "我很确定&d幽匿块&r也能凑合用用，嗯？毕竟它也是一种凝胶不是吗……说不定还是我这块凝胶的亲戚呢。"
         ""
-        "&6&o&nTASK&r: Craft &6Shadowpulse Goo&r, then convert Blocks of Netherite to create &dEclipse Alloy Ingots&r."
+        "&6&o&n当前任务&r：制作&6暗影脉凝胶&r，然后把下界合金块转化为&d蚀空合金锭&r。"
     ]
     quest.48A82982DE38D228.quest_desc:[
         "&d回响碎片&r就是我现在需要的东西。"
@@ -7274,7 +7274,7 @@
         ""
         "我可以用它做出一台将能量凝聚为一点的机器，换句话说就是&6激光&r！"
         ""
-        "&6&o&nTASK&r: Using &dEcho Shards&r and &dEnderic Compounds&r, craft an &dEnderic Laser&r using the &6Assembler&r."
+        "&6&o&n当前任务&r：用&d回响碎片&r和&d末影化合物&r，在&6装配机&r中制造&d末影激光器&r。"
     ]
     quest.3C68BDD7D3C09412.quest_desc:[
         "现在我的深潜深度又提升了，总算可以看看海里面到底漂浮着什么了。"
@@ -7290,7 +7290,7 @@
         "{@pagebreak}"
         "&n移动紫水晶母岩的小建议：&r"
         ""
-        "- Using 2 of &6Just Dires&r &aSimple Swappers&r to swap them to your base."
+        "- 用两个&6Just Dires模组&r的&a简易替换器&r把矿物换到你的基地里。"
         ""
         "- 用&6通用机械&r的&a纸箱&r。"
     ]
@@ -7312,16 +7312,16 @@
         ""
         "但是在这个星球上，末影之眼需要一些……更“海洋”性的东西。"
         ""
-        "&6&o&nTASK&r: Craft the &dNautical Eye&r. This can be used to find the Nautic Crystal structure."
+        "&6&o&n当前任务&r：制作一个&d航海之眼&r，用它就可以找到有海洋催化剂的结构。"
     ]
     quest.61C490B6BBED73DC.quest_desc:[
-        "I've followed the &dNautical Eye&r deep underwater..."
+        "我已经跟随着&d航海之眼&r前往到了深海区域……"
         ""
-        "It wants me to go further, but there seems to be a small structure that has a &bAquatic Catalyst&r in the middle of it."
+        "它还想要我接着深潜，不过我在这里发现了一个小建筑物，里头正中央有个&d海洋催化器&r。"
         ""
-        "I'm thinking this has to be used to activate something within the structure."
+        "我觉得它应该是激活这个建筑物中的某种东西用的。"
         ""
-        "&6&o&nTASK&r: Find or craft an &bAquatic Catalyst&r, as well as some &dPrismarine to fuel it&r."
+        "&6&o&n当前任务&r：找到或制作一个&d海洋催化剂&r，然后顺便再做一些&d海蓝水晶碎片&r为它供能。"
     ]
     quest.693320A7F24F202C.quest_desc:[
         "有一件事我实在应该注意一下……"
@@ -7332,82 +7332,82 @@
         "{@pagebreak}"
         "&n水下高速挖掘小秘诀：&r"
         ""
-        "- Craft &6Jewelry&r made of &aLead&r using the &6Jewelcrafting Station&r."
+        "- 用&6珠宝装配台&r做一个&a铅&r材质的&6珠宝&r。"
         ""
-        "- Craft and use the &dMining Gadget&r instead of mining by hand."
+        "- 用&d采矿小工具&r来挖矿，解放双手。"
         ""
-        "- Use the &aBreak Spell&r from &dArs Nouveau&r."
+        "- 用&d新生魔艺&r的&a魔符：粉碎&r。"
     ]
     quest.53C9142F41A30AF5.quest_desc:[
-        "Using the power of the Crystal, I should be able to transmute certain items."
+        "有了水晶的力量后，我应该就可以变形一些物品了。"
         ""
-        "&6&o&nTASK&r: Infuse a &bCompass&r into the &dExplorer's Compass&r using the Nautec Crystal."
+        "&6&o&n当前任务&r：用Nautec的水晶，将&b指南针&r灌注成&d探险者指南针&r。"
     ]
     quest.2CFD9B1806BB52F0.quest_desc:[
-        "Underneath that small structure was a &omassive&r Crystal."
+        "有一块&o巨大的&r水晶藏在水下的那个建筑物里头。"
         ""
-        "There are tons of crates and blocks that were left behind from previous explorers..."
+        "这里还有过去探索者所留下的大量板条箱和方块……"
         ""
-        "These &bCatalysts&r have channels on each side, which means something should be able to flow through them."
+        "这些&b催化剂&r在每个边上都有隧道，应该是让某种东西穿过用的。"
         ""
-        "That's got to have something to do with this Crystal..."
+        "那么接下来我就要对这个水晶上下其手了……"
         ""
-        "&6&o&nTASK&r: Using the &bAquatic Catalyst&r and &dHeart of the Sea&r, active the Crystal and use it to create &6Aquarine Steel Ingots&r."
+        "&6&o&n当前任务&r：用&b海洋催化剂&r和&d海洋之心&r激活水晶，然后用水晶制造&6海蓝钢&r。"
         ""
-        "Notes for Activating ->"
+        "激活水晶说明（翻下一页！）"
         "{@pagebreak}"
-        "To activate the crystal, place the &bAquatic Catalyst&r a few blocks away from one of the crystal's sides."
+        "请把&b海洋催化器&r放在水晶某侧几个方块远的地方。"
         ""
-        "On the side facing away from the Crystal, use some &dPrismarine Shards&r on the &bAquatic Catalyst&r."
+        "然后在它背对着水晶的一面，对着&b海洋催化器&r使用&d海蓝水晶碎片&r。"
         ""
-        "You'll then need to pump in more &2Prismarine&r into the Catalyst with something like a Hopper."
+        "然后，你需要使用像漏斗之类的东西，把&2海晶碎片&r注入催化器中。"
         ""
-        "The energy beams can kill you."
+        "激光束能直接把你打死。"
     ]
     quest.619CA9553F525040.quest_desc:[
-        "The raw power from this Crystal should have more use than just purifying items."
+        "这种水晶所迸发出的狂野力量，应该不仅仅只能拿来纯化物品。"
         ""
-        "The &6Aquarine Steel&r is strong enough to withstand the power, which means I can create some kind of machine that can use that power!"
+        "&6海蓝钢&r可以承受这种能量，也就是说我可以制造出能使用这种能量的机器！"
         ""
-        "&6&o&nTASK&r: Craft a &6Mixer&r."
+        "&6&o&n当前任务&r：制作一台&6搅拌机&r。"
         ""
-        "Notes on the Mixer ->"
+        "搅拌机使用说明（翻下一页！）"
         "{@pagebreak}"
-        "The &6Mixer&r can convert items and fluids into something new."
+        "&6搅拌机&r可以将物品和流体变为新的物品。"
         ""
-        "To use it, only one item can be placed in from each cardinal direction."
+        "注意，每个物品在每个方向上只能放一个。"
         ""
-        "To power it, it must have a beam flowing into the top, either from the Crystal itself, or from a channel."
+        "把激光从上方通入就可以给它供能，水晶发出的激光或通过别的方式发射的激光都可以。"
     ]
     quest.090C216FD86DFF95.quest_desc:[
-        "The &6Fragment Forge&r can be made to break down items and sometimes gives extra items."
+        "&6粉碎工厂&r可以打碎物品，有的时候会有额外产出。"
         ""
-        "This can be used to create more &6Platinum&r and &dFluxite&r."
+        "你可以用它产出更多的&6铂&r和&d通量水晶&r。"
     ]
     quest.156F1911B93FA2A0.quest_desc:[
-        "I'm excited to see all of the different metal types that I'll be able to use with this &dShadowpulse Goo&r."
+        "我很想知道这个&d暗影脉凝胶&r可以吞噬什么金属。"
         ""
-        "More importantly, the liquid fuel I can make with this should be extra potent..."
+        "而且我能用这个凝胶做出的流体燃料似乎有很高的利用价值……"
         ""
-        "&6&o&nTASK&r: Craft or find &dRaw Platinum&r, then smelt it into ingots."
+        "&6&o&n当前任务&r：制作或找到&d粗铂&r，然后把它熔炼成锭。"
     ]
     quest.212155506A40BA41.quest_desc:[
-        "&dFluxite&r is a crystal that is specifically designed to allow perfect flow of electricity."
+        "&d通量水晶&r是一种可以精确控制电流的水晶。"
         ""
-        "That's what I'd say if I wanted to sound like I know what I am talking about. I'm just guessing at this point."
+        "不，我只是想显得我不懂装懂而已，这都是我纯猜出来的而已。"
         ""
-        "Installing one of these into a circuit board might allow me to control exactly how my suit responds to pressure."
+        "把它装到我的电路板上，这样我就可以控制我的潜水服如何应对水压了。"
         ""
-        "&6&o&nTASK&r: Craft a &6Flux Gate&r."
+        "&6&o&n当前任务&r：制作一个&6磁通门&r。"
     ]
     quest.38EA9FAD11870423.quest_desc:[
-        "I don't believe I'll ever make it to the home of the Enderman, but I believe I can at least harness the power from the &dEnd&r."
+        "我不敢保证我能成功到达末影人的老巢，不过我至少现在可以操纵一下来自&d末地&r的力量。"
         ""
-        "I'll need a &oton&r of Ender Pearls for this to work, though."
+        "只不过我得做&o成吨&r的末影珍珠了。"
         ""
-        "&6&o&nTASK&r: Craft &6Ender Stars&r using the &dEnder Crafter&r."
+        "&6&o&n当前任务&r：用&d末影工作台&r做出&6末影之星&r。"
         ""
-        "Note: To complete the craft, you will need at least one &dEnder Alternator&r within a 7x7 area from the Ender Crafter. The more you have, the faster it crafts."
+        "注意：想要完成合成的话，你的末影工作台周边7x7的区域内至少要有一台&d末影发电机&r。发电机越多你的合成速度就越快。"
     ]
     quest.70A09D5CFC69EA43.quest_desc:[
         "浩瀚无边的海洋……似乎有什么东西在深处蠢蠢欲动。"
