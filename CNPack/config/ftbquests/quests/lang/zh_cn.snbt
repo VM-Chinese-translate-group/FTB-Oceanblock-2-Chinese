@@ -466,14 +466,14 @@
     quest.5E5BDCBF185E48E3.title:"&f工程师装配台"
     quest.498FEAF2BFD77D2E.title:"&f园艺玻璃罩"
     quest.4DABDC2484C732AC.title:"&d电弧炉"
-    task.4A0037264C36EBE1.title:"&eObserve&f: &dArc Furnace"
-    quest.7F6363864003FFC0.title:"&fMetal Press"
-    task.04A70E089DED1FFE.title:"&eObserve&f: Metal Press"
-    quest.207CE761F35EB902.title:"&fCrafting Components &bBlueprint"
-    quest.5461C3C56F568B75.title:"&fMetal Press Molds &bBlueprint"
-    quest.4E48ACEA714B5976.title:"&fArc Furnace Electrode &bBlueprint"
-    quest.660443512BB2E867.title:"&dGraphite Electrode"
-    quest.287D00E1CE70F334.title:"&fImproved Blast Furnace"
+    task.4A0037264C36EBE1.title:"&e观察&f：&d电弧炉"
+    quest.7F6363864003FFC0.title:"&f金属冲压机"
+    task.04A70E089DED1FFE.title:"&e观察&f：金属冲压机"
+    quest.207CE761F35EB902.title:"&f制作组件&b工程师蓝图"
+    quest.5461C3C56F568B75.title:"&f金属模具&b工程师蓝图"
+    quest.4E48ACEA714B5976.title:"&f电弧炉电极&b工程师蓝图"
+    quest.660443512BB2E867.title:"&d石墨电极"
+    quest.287D00E1CE70F334.title:"&f强化高炉"
     task.3A3DB763BBBC3F31.title:"&eObserve&f: Improved Blast Furnace"
     quest.026A64F01C301119.title:"&3HOP Graphite&r"
     quest.2E9C2F524BE5FC10.title:"&fEngineering Blocks"
@@ -2525,14 +2525,14 @@
         "能做出&6末影水晶粉&r，则代表你是末影接口大佬了。"
     ]
     quest.33C16E82B90E5C1F.quest_desc:[
-        "在&6极限反应堆&r这款强大的能源模组中，你可以建造&a反应堆&r和&d涡轮机&r来利用&3核能&r。"
+        "在&6极限反应堆&r这款强大的能源模组中，你可以建造个性化的&d反应堆&r和&3涡轮机&r多方块结构来利用&6核能&r。"
         ""
         "To get started, you'll need to craft some &6Uranium&r. This is the fuel and lifeblood of &dReactors&r!"
     ]
     quest.055F4DA6E97B36B9.quest_desc:[
         "&d反应堆&r是一个多方块结构，可以用来发电，也可被用作汽化冷却剂。"
         ""
-        "&d反应堆&r的搭建方式会因其用途而产生变化，此任务将带领你搭建一个基础&d反应堆&r来产生能量。"
+        "&d反应堆&r是一个多方块结构，可以用来发电，也可被用作汽化冷却剂。"
         ""
         "要搭建您的第一个&d反应堆&r，首先要用&a反应堆外壳&r搭建一个3*3*3的框架，底面填实。把&a反应堆燃料棒&r放在中间，&a控制杆&r放在它的正上方。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a反应堆外壳&r填上最后的空位。"
         ""
@@ -2540,9 +2540,9 @@
         "{@pagebreak}"
         "&a基础框架&r可以建造最大5*5*5的&d反应堆&r。"
         "{@pagebreak}"
-        "&2强化框架&r可以建造最大32*32*48的&d反应堆&r。"
+        "&a基础框架&r可以建造最大5*5*5的&d反应堆&r。"
         ""
-        "A &2Reinforced Frame&r can build a &dReactor&r as big as 32x32x48."
+        "&2强化框架&r可以建造最大32*32*48的&d反应堆&r。"
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
         ""
         "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
@@ -2557,7 +2557,7 @@
         "Note: &3Graphite Blocks&r are great Moderators to start out with!"
     ]
     quest.2CD606A9C5C786D8.quest_desc:[
-        "有两种使&d反应堆&r冷却的方式："
+        "根据你&b冷却&r&d反应堆&r的方式不同可以建造出两种&d反应堆&r。"
         ""
         "&a被动冷却&r：直接生成能量，无需依赖外部介质。"
         ""
@@ -2574,7 +2574,7 @@
         ""
         "&a基础结构&r：搭建成本较低，是前期发电的理想选择。"
         ""
-        "&2强化结构&r：建造更大型的多方块结构，但造价显著提升。"
+        "&2强化结构&r：建造更大型的多方块结构与更多的自定义选择，但造价显著提升。"
     ]
     quest.5BBE73445913E9A3.quest_desc:[
         "&c再处理器&r是可以通过将&d反应堆&r废料转化为新的燃料或资源来重复利用乏燃料的多方块结构。"
@@ -3902,44 +3902,44 @@
         ""
         "结构顶部的两个接口用于物品输入和附加材料输入。"
         ""
-        "The bottom slot in the back will output slag, and the front one will output the main process."
+        "机器正面底部的接口用于输出产物，背面底部的接口输出矿渣。"
         ""
-        "Energy can be inserted through the three connectors at the back."
+        "背面的三个接口用于输入能量。"
     ]
     quest.7F6363864003FFC0.quest_desc:[
-        "The &aMetal Press&r is a &bHeavy Machine&r multiblock that presses down items into a selected mold."
+        "&a金属冲压机&r是一种&b重型机器&r，依据模具将材料冲压成不同物品。"
         ""
-        "When setting up the &aMetal Press&r, make sure that both conveyor belts are facing the same cardinal direction."
+        "搭建&a金属冲压机&r时，确保两个传送带的朝向相同。"
         ""
-        "The &aMetal Press&r receives power from the top, and items through the conveyor belts in the direction of movement."
+        "&a金属冲压机&r从顶部接受能量，物品通过传送带输入输出。"
         ""
-        "Make sure to check out the &bEngineer's Manual&r to help you build the multiblock!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.207CE761F35EB902.quest_desc:[
-        "The &aCrafting Components &bBlueprint&r will be your most used &bBlueprint&r."
+        "&a制作组件&b工程师蓝图&r是最常用的&b工程师蓝图&r。"
         ""
-        "This &bBlueprint&r allows you to craft the most common items used in creating more advanced machines."
+        "该&b工程师蓝图&r提供了高级机器基本材料的制作配方。"
     ]
     quest.5461C3C56F568B75.quest_desc:[
-        "The &aMetal Press Molds &bBlueprint&r offers a variety of different molds that can also be used in other machines besides the &aMetal Press&r."
+        "&a金属模具&b工程师蓝图&r提供了不同模具的制作配方，这些模具还能应用于&a金属冲压机&r以外的机器。"
         ""
-        "For the purpose of progression, there are four main molds you would want: &aGear Mold&r, &aRod Mold&r, &aWire Mold&r, and &aPlate Mold&r."
+        "为了进一步发展，你需要准备&a金属模具：齿轮&r，&a金属模具：金属棒&r，&a金属模具：线缆&r以及&a金属模具：板材&r。"
         ""
-        "These all press ingots sent through the &aMetal Press&r into their respective items."
+        "这些模具都能装在&a金属冲压机&r上将金属锭压制成对应的物品。"
         "{@pagebreak}"
-        "&aPacking Molds&r can be used to convert a variety of blocks to their 3x3, 2x2, or 1x1 crafting recipes."
+        "&a压缩包模具&r用于物品3x3，2x2或1x1配方的制作。"
         ""
-        "The &aBullet Casing Mold&r is used to craft bullet casings or pellets when used in a &aBottling Machine&r."
+        "&a弹壳模具&r用于在&a灌装机&r中制作弹壳。"
     ]
     quest.4E48ACEA714B5976.quest_desc:[
-        "The &aArc Furnace Electrode &bBlueprint&r can be acquired from trading in &6PneumaticCraft's&r &aAmadron Network&r."
+        "&a电弧炉电极&b工程师蓝图&r可以使用来自&6气动工艺&r的&aAmadon Network&r交易获取。"
         ""
-        "&dGraphite Electrodes&r are required for the &dArc Furnace&r to work."
+        "&d电弧炉&r需要&d石墨电极&r才能工作。"
     ]
     quest.660443512BB2E867.quest_desc:[
-        "The &dGraphite Electrode&r is mainly used as a fuel source for the &dArc Furnace&r, but it can also be used as deadly ammunition for the &dRailgun&r."
+        "&d石墨电极&r主要作为&d电弧炉&r的燃料源使用，不过它也能成为&d磁轨炮&r的致命弹药。"
         ""
-        "&dGraphite Electrodes&r can also be crafted through the metal press, without needing the blueprint, but will only have half of their usual durability."
+        "&d石墨电极&r也能通过金属冲压机制作，该方法无需蓝图，但耐久度只有一半。"
     ]
     quest.287D00E1CE70F334.quest_desc:[
         "The &2Improved Blast Furnace&r is a large multiblock machine that functions the same as the &aCrude Blast Furnace&r, but has some extra features:"
@@ -3965,7 +3965,7 @@
         ""
         "It can also be used to grind up enemies that are unfortunate enough to fall into it, outputting their relevant drops."
         ""
-        "Make sure to check out the &bEngineer's Manual&r to help you build the multiblock!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.1EFED5AC265CDB0C.quest_desc:[
         "Before having a &aMetal Press&r, you will need to craft plates by combining an ingot with an &aEngineer's Hammer&r in a crafting table."
@@ -4065,7 +4065,7 @@
         ""
         "This &bHeavy Machine&r is used to make more advanced fluids, like &dAcetaldehyde&r."
         ""
-        "Make sure to check out the &bEngineer's Manual&r to help you build the multiblock!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.2F933169CF164EC7.quest_desc:[
         "By refining &aEthanol&r and a silver plate in the &6Refinery&r, you can get &aAcetaldehyde&r."
@@ -4080,7 +4080,7 @@
     quest.1962F37154380EBF.quest_desc:[
         "The &aFermenter&r is a &bHeavy Machine&r used to extract &aEthanol&r from fruits, grains, and vegetables."
         ""
-        "Make sure to check out the &bEngineer's Manual&r to help you build the multiblock!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.37CA431C28D82E55.quest_desc:[
         "This marvel of engineering is capable of accelerating various projectiles, like Iron Rods, to very high speeds."
@@ -4113,7 +4113,7 @@
     quest.436BFB9B69B6D4A7.quest_desc:[
         "The &aSqueezer&r presses &2Plant Oil&r out of seeds, or 8 &3Coke Dusts&r into &cHOP Graphite Dust&r."
         ""
-        "Make sure to check out the &bEngineer's Manual&r to help you build the multiblock!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.6B04DF90E7F33C9D.quest_desc:[
         "&aCoke Dust&r can be made by crushing &3Coke&r, which can be processed in a &aSqueezer&r to make &3Graphite Dust&r."
@@ -4362,7 +4362,7 @@
     quest.105D29AEE67BE97B.quest_desc:[
         "这个模组的大部分工具都有各自的&6升级&r。"
         ""
-        "要你首先要合成升级，然后才能用&a锻造台&r把升级敲到工具/护甲上。"
+        "要你首先要合成升级，然后才能用&a锻造台&r把升级敲到工具或盔甲上。"
         ""
         "注意：鼠标对着物品的时候按下Shift会显示该工具可用的升级！有些升级只能装在高阶物品上。"
     ]
@@ -5076,11 +5076,11 @@
         "为其泵入一些水，然后在右上角将工作模式调整为液体变气体。这样，处理完毕后水应当变成&b水蒸气&r！"
     ]
     quest.0AF5992D0DF57313.quest_desc:[
-        "截至目前，你应该已经搭建出一条完备的&6四阶矿物处理线&r了。现在，为这条产线做个回顾："
+        "现在，你应该已经搭建出一条完备的&6四阶矿物处理线&r了。现在，让我们回顾一下这条产线："
         ""
         "首先，矿石在化学溶解室（需要稳定的硫酸供应）中溶解为1000mB的“污浊的矿物浆液”（气体）。"
         ""
-        "然后，污浊的矿物浆液在有足够水的化学清洗机中清洗为纯净的矿物浆液。（也是个气体）"
+        "随后，污浊的矿物浆液在有足够水的化学清洗机中清洗为纯净的矿物浆液。（也是个气体）"
         ""
         "再然后，化学结晶器会把1000mB的纯净的矿物浆液变为5个矿物晶体。"
         "{@pagebreak}"
