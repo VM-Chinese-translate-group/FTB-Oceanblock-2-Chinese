@@ -128,7 +128,7 @@ PlayerEvents.tick((event) => {
   if (timer <= 0) {
     dropRiftLoot(event.player);
     kickFromRift(event.player);
-    event.player.tell(Text.translate(["message.rift.reject"]).darkPurple());
+    event.player.tell(Text.translate("message.rift.reject").darkPurple());
   } else {
     // rift countdown timer
     var timeLeft = timer;
