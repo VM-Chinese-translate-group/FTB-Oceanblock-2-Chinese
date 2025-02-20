@@ -182,19 +182,19 @@
     quest.670A52F1036507BB.title:"&f空气压力101"
     task.3D09A59994D73C21.title:"&f气压"
     quest.3FB51F0568B0896C.title:"&f加压"
-    quest.6428F17B7E4873A6.title:"&fThermodynamics"
-    quest.40B00524384110B9.title:"&fVortex Tube"
-    quest.299CD86325D3D74B.title:"&fHeat Sink"
-    quest.15F655AA668D6541.title:"&fFluid Mixer"
-    quest.228C9567BB43034A.title:"&fTurning Pressure Into FE"
-    quest.400EFC233FBC8CBA.title:"&fFlux Compressor"
-    quest.1E39AB995B86D47A.title:"&fReinforced Pressure Tubes"
-    quest.7141C2CA9321B710.quest_subtitle:"Seems complicated, but its actually quite simple."
-    quest.7141C2CA9321B710.title:"&fAutomating &dDrones &fto Farm!"
-    quest.43E68DE2E5A53162.title:"&fHarvesting Crops with &dDrones"
-    quest.4DD685A3F0F1329F.title:"&fHarvesting Crops with &dDrones"
-    quest.55B7E3EE706E8D6F.title:"&fReinforced Stone"
-    quest.31B06C6ACEF764E0.quest_subtitle:"The U.S. Would Like To Know Your Location"
+    quest.6428F17B7E4873A6.title:"&f热力学"
+    quest.40B00524384110B9.title:"&f涡流管"
+    quest.299CD86325D3D74B.title:"&f散热片"
+    quest.15F655AA668D6541.title:"&f流体混合器"
+    quest.228C9567BB43034A.title:"&f把压力转换FE"
+    quest.400EFC233FBC8CBA.title:"&f通量压缩机"
+    quest.1E39AB995B86D47A.title:"&f强化压力管道"
+    quest.7141C2CA9321B710.quest_subtitle:"看似复杂，其实很简单。"
+    quest.7141C2CA9321B710.title:"&f自动化&d无人机&f来耕种！"
+    quest.43E68DE2E5A53162.title:"&d用无人机&f收获作物"
+    quest.4DD685A3F0F1329F.title:"&d用无人机&f收获作物"
+    quest.55B7E3EE706E8D6F.title:"&f强化石"
+    quest.31B06C6ACEF764E0.quest_subtitle:"但 是 小 心 霉 菌 马 上 要 进 你 家 了"
     quest.31B06C6ACEF764E0.title:"&f挖石油喽！"
     quest.49E9EBFC7B717D8E.title:"&f精制油"
     quest.6AF16D867409D140.title:"&f漫游"
@@ -322,7 +322,7 @@
     quest.06BE551FB486ABD7.title:"怎么还有别的合金炉啊？"
     quest.56026DF98E2FD7B8.quest_subtitle:"实用拓展的开端"
     quest.56026DF98E2FD7B8.title:"焦黑石英？"
-    quest.7AB8E35FC58302F8.quest_subtitle:"居然能在熔岩维度里头存在？"
+    quest.7AB8E35FC58302F8.quest_subtitle:"居然能在熔岩维度里存在？"
     quest.7AB8E35FC58302F8.title:"魔法树"
     quest.767B734339EB1FA8.title:"烈焰金盔甲"
     quest.01CE1D9D083C3C5C.quest_subtitle:"通用机械的开端"
@@ -454,12 +454,12 @@
     task.71F7915F3EA94E46.title:"推荐的盔甲类型"
     quest.141F7BD2B1A4CC74.title:"简易潜水服"
     chapter.0FC6D9571E0C2EDC.title:"沉浸工程"
-    quest.0A2DB5AFC89E852F.title:"&fCoke Oven"
-    quest.0806978F98A7A3E8.title:"&fSteel Ingot"
-    quest.63B7AC676FC1EE7F.title:"&fTreated Wood Planks"
-    quest.5E5BDCBF185E48E3.title:"&fEngineer's Workbench"
-    quest.498FEAF2BFD77D2E.title:"&fGarden Cloche"
-    quest.4DABDC2484C732AC.title:"&dArc Furnace"
+    quest.0A2DB5AFC89E852F.title:"&f焦炉"
+    quest.0806978F98A7A3E8.title:"&f钢锭"
+    quest.63B7AC676FC1EE7F.title:"&f防腐木板"
+    quest.5E5BDCBF185E48E3.title:"&f工程师装配台"
+    quest.498FEAF2BFD77D2E.title:"&f园艺玻璃罩"
+    quest.4DABDC2484C732AC.title:"&d电弧炉"
     task.4A0037264C36EBE1.title:"&eObserve&f: &dArc Furnace"
     quest.7F6363864003FFC0.title:"&fMetal Press"
     task.04A70E089DED1FFE.title:"&eObserve&f: Metal Press"
@@ -1298,7 +1298,7 @@
     quest.2D7445BDE865635C.quest_desc:[
         "&a咖啡制造机&r可以制作像药水一样的饮料，喝了可以获得很多buff。"
         ""
-        "这台机器需要能源才能正常工作，它将会把&a咖啡豆&r和水混合，然后倒在&a空杯子&r里头产出一份&a咖啡&r。"
+        "这台机器需要能源才能正常工作，它将会把&a咖啡豆&r和水混合，最后倒在&a空杯子&r里就产出了一份&a咖啡&r。"
         ""
         "最多可以在GUI中放入八格物品，以此获得不同buff。"
         "{@pagebreak}"
@@ -1330,7 +1330,7 @@
         "把&a晶化油菜籽&r丢进&a精制菜籽油&r就可以将其变为&c晶化菜籽油&r，不过它还能再升级一次。"
     ]
     quest.1E95AD23243FEF87.quest_desc:[
-        "现在你就可以制造&6实用拓展&r模组中的最强燃料！只需动动手把&a充能油菜种子&r丢进&c晶化油&r里头，然后&d充能油&r就会duang的一下出现啦！"
+        "现在你就可以制造&6实用拓展&r模组中的最强燃料！只需动动手把&a充能油菜种子&r丢进&c晶化油&r里，然后&d充能油&r就会duang的一下出现啦！"
     ]
     quest.47EAA97131FD2B76.quest_desc:[
         "&a生长指环&r在充能的时候，会自动催生玩家周边三格内的作物。"
@@ -1367,7 +1367,7 @@
     quest.443C71D871AFAB67.quest_desc:[
         "&a麻袋&r不仅可以像背包一样存放物品，还可以自动捡起地上的某样物品。"
         ""
-        "&a虚空麻袋&r和普通麻袋功能一样，但是你关闭界面后里头的东西就会被直接销毁。"
+        "&a虚空麻袋&r和普通麻袋功能一样，但是当你关闭界面后里面的东西就会被直接销毁。"
     ]
     quest.3E00AA33AC5304F9.quest_desc:[
         "当把&a蚯蚓&r放置在草方块或泥土上后，它就会为它周边3x3的方块自动耕地、浇水。还能提升作物生长速度。"
@@ -1419,7 +1419,7 @@
     quest.7819C1805C7E5BCD.quest_desc:[
         "&a农场方块&r可以自动在它周围9x9范围以内栽种/收割作物。"
         ""
-        "GUI里头的左边是储存种子和别的需要栽的东西，右边储存的则是作物。"
+        "在GUI里，左边是储存种子和其他的需要栽的东西，右边储存的则是作物。"
     ]
     quest.283EA4E7BA93DA11.quest_desc:[
         "&a充能台&r可以吸收周边的物品，用它们的力量充能你的水晶。"
@@ -1524,7 +1524,7 @@
         ""
         "采集水晶自动化对于我们来说是非常有必要的，但在这之前我们需要一些赛特斯石英水晶。"
         ""
-        "That's why you can twerk to grow the crystals in the early game! To do this, hold a hoe in your hand and start crouching."
+        "所以你游戏前期可以用跳舞来催生水晶！拿着锄头疯狂蹲起就行。"
     ]
     quest.60871670B71C711F.quest_desc:[
         "水晶母岩的生长速度很缓慢，尤其是急着搭建AE系统的时候，绝对没人想等那么久的。"
@@ -1740,7 +1740,7 @@
         "这个教程面面俱到，如果需要帮助的话它绝对能帮到你！"
     ]
     quest.0E06BDC6265EB7F7.quest_desc:[
-        "&6ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏初期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&6控制器&r的网络只能&b暂时拿来用用&r。"
+        "&6ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏前期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&6控制器&r的网络只能&b暂时拿来用用&r。"
         ""
         "ME控制器是你的ME网络路由中心，一个网络内不允许存在两个互相独立的ME控制器，如果实在需要大量频道的话，你可以选择建造一个巨大的ME控制器多方块结构。"
         "{@pagebreak}"
@@ -1778,14 +1778,14 @@
         "&a致密线缆&r可以传递&b128个频道&r，但不能连接总线和面板。如果你想的话可以制作智能致密线缆！"
     ]
     quest.450A1BAD728F594B.quest_desc:[
-        "等你成功连通了两个&d量子桥&r后，就可以合成并链接&6量子桥卡&r，然后把它装入你的无线终端里头！这张卡可以让你无视维度限制访问AE网络。"
+        "等你成功连通了两个&d量子桥&r后，就可以合成并链接&6量子桥卡&r，然后把它装入你的无线终端里！这张卡可以让你无视维度限制访问AE网络。"
         ""
         "如果想把终端和网络链接在一起的话，首先做一对&d量子纠缠奇点&r，然后一个放在接入基地的&6量子桥&r内，另一个和量子桥卡一起装入你的&d无线终端&r即可。"
     ]
     quest.69F87073390131D5.quest_desc:[
         "你需要给你的网络塞&a合成样板&r，才能教会它怎么合成某样东西。请在&6ME样板终端&r中编写样板。"
         ""
-        "给终端里头放上&a空白样板&r后，在JEI中搜索某样你想写样板的东西，之后按&b+&r键将合成表移动到终端里。"
+        "给终端里放上&a空白样板&r后，在JEI中搜索某样你想写样板的东西，之后按&b+&r键将合成表移动到终端里。"
         ""
         "样板放入正确槽位后，点击样板下方的按钮就能编写样板，日后自动合成就能用了！"
     ]
@@ -1808,7 +1808,7 @@
         "首先你要找到&2至高木&r，然后把它砍掉做成你需要的工作站。至高木在主世界中随机分布，但&a至高木森林&r中最多。"
     ]
     quest.1A6984A6484FF8F3.quest_desc:[
-        "手持&a法术书&r，然后按下&aC&r键就会打开构建咒语的目录，你可以在里头构建你的第一个咒语！"
+        "手持&a法术书&r并按下&aC&r键就会打开构建咒语的目录，你可以在里面构建你的第一个咒语！"
         ""
         "{image:ftb:textures/quests/ars/spellbook_menu.png width:225 height:150 align:center}"
         "{@pagebreak}"
@@ -1982,7 +1982,7 @@
     quest.43B4B6F09B5AF30C.quest_desc:[
         "&b支配之杖&r就是新生魔艺的扳手，用处很多！"
         ""
-        "首先，这个魔杖可以配置方块之间的&d魔源&r传输。比如你可以用它制定某个&a魔源中继器&r将魔源输入到特定&b魔源罐&r里头，首先对着想要输出魔源的方块使用魔杖，然后对着输入方块使用魔杖即可。"
+        "首先，这个魔杖可以配置方块之间的&d魔源&r传输。比如你可以用它制定某个&a魔源中继器&r将魔源输入到特定&b魔源罐&r里，首先对着想要输出魔源的方块使用魔杖，然后对着输入方块使用魔杖即可。"
         ""
         "潜行使用魔杖可取消选中，对着空气潜行使用魔杖将会把模式改为严格模式，这样就可以选中具体的输出/输入面。"
         ""
@@ -2295,7 +2295,7 @@
         "{@pagebreak}"
         "&b气压&r提升需要时间，你需要一个完全&b封闭系统&r才能积累气压，如果你的管道网中有洞的话，则气体就会从洞中流失。"
         ""
-        "你听到空气喷出去的声音就知道哪有漏洞了（前提是你没关声音），拿着&a气动扳手&r对着洞右键就可以把它封死！"
+        "你听到空气喷出去的声音就知道哪有漏洞了（前提是你没关声音），拿着&a气动扳手&r对着洞右击就可以把它封死！"
     ]
     quest.6428F17B7E4873A6.quest_desc:[
         "&b热量&r是气动工具独有的另一种能源。&6热量会分散&r到相邻的方块，包括空气。"
@@ -2308,106 +2308,106 @@
         ""
         "有些机器可以&c共享热量&r，意味着你可以将需要相同热量的机器放在一块。"
         ""
-        "You can install &bDispenser Upgrades&r to pipe between them as well!"
+        "加装&6发射器升级&r就可以让它们传导热量！ "
     ]
     quest.40B00524384110B9.quest_desc:[
-        "The &aVortex Tube&r uses compressed air to make one side &bCold&r and the other side &cHot&r."
+        "&a涡流管&r会利用压缩空气&b制冷&r一端，另一端则会被&c加热&r。"
         ""
-        "The higher the airflow, the more extreme the temperature difference will be."
+        "气压越大，温差越大。"
     ]
     quest.299CD86325D3D74B.quest_desc:[
-        "&aHeat Sinks&r can be placed on a block or machine to help dissipate &cHeat&r faster!"
+        "&a散热片&r放在方块或机器上，就可以加快对应方块的&c散热速度&r！"
         ""
-        "Their effectiveness can be greatly increased by using an &aAir Grate&r to vent air over the fins. Combining that with the use of &aVortex Tubes&r can effectively handle all of your temperature problems!"
+        "使用&a空气栅&r将气体直接排放到散热片上，则会极大地提升散热片的散热效率。如果把它和&a涡流管&r配套使用的话，那么机器的温度将不再是问题！"
         ""
-        "&eNote&r: Once a &aHeat Sink&r reaches over 60C or under -60C, it will &cdeal damage when touched&r."
+        "&e注意&r：如果散热片的温度达到60℃或-60℃，则会对接触生物&c造成伤害&r。"
     ]
     quest.15F655AA668D6541.quest_desc:[
-        "Using the &dPressure Chamber&r, we can craft some more advanced components like the &aFluid Mixer&r."
+        "你可以用&6压力室&r制作一些高阶机器所需的组件，比如接下来要做的&a流体搅拌机&r就需要它。"
         ""
-        "The &aFluid Mixer&r mixes two fluids into either an item or another fluid. One significant use for this is producing &aBiodiesel&r."
+        "&b流体混合器&r可以混合两种流体来制造一种物品或制造另一种液体。其中一个重要的用途是生产&a生物柴油&r。"
         ""
-        "Since &0Crude Oil&r isn't a renewable resource, making &aBiodiesel&r from plant or vegetable oil is a better way of automating plastic!"
+        "由于&0原油&r不是可再生资源，用植物油来制作&a生物柴油&r是实现塑料自动化的更好办法！"
     ]
     quest.228C9567BB43034A.quest_desc:[
-        "The &aPneumatic Dynamo&r converts excess pressure into Forge Energy (FE)."
+        "&6气动能源炉&r可以将压力转化为FE。"
     ]
     quest.400EFC233FBC8CBA.quest_desc:[
-        "The &aFlux Compressor&r is a machine that converts &cFE&r into &bAir Pressure&r!"
+        "&a通量压缩机&r是一台可以将&cFE&r转换为&b压力&r的空气压缩机！"
     ]
     quest.1E39AB995B86D47A.quest_desc:[
-        "By applying a &bPolyethylene&r layer to your &aBasic Pressure Tubes&r, you're able to upgrade them to &2Reinforced Pressure Tubes&r, allowing them to handle up to 10 &bBAR&r of pressure!"
+        "在&a压力管道&r上添加一层&b聚乙烯&r，就可以将其升级为&2强化压力管道&r，使其能够承受高达10&bBAR&r的压力！"
         ""
-        "&cMake sure to balance your pressure system accordingly&r."
+        "&c确保相应地让你的压力系统平衡。&r"
     ]
     quest.7141C2CA9321B710.quest_desc:[
-        "If you want &dDrones&r to harvest your crops and do your work for you, you'll need a few things."
+        "假如你想解放双手，让&d无人机&r帮你收庄稼的话，那你就得先做点东西。"
         ""
-        "First, make yourself a &aProgramming Table&r. This is used to tell your &dDrone&r what you want it to do."
+        "首先，做一个&a编程台&r，用它才能告诉你的&d无人机&r你想让它们做什么。"
         ""
-        "Next, you'll want to get your hands on some &bPuzzle Pieces&r, with every step of this process requiring 1 piece each."
+        "然后做点&b编程拼图&r，编写程序的时候每一步都要消耗一个。"
         ""
-        "It's also a good idea to have &bGPS Tools&r handy, as you'll use these to set coordinates for your &dDrone&r instructions."
+        "此外，随身携带&b定位工具&r也很重要，因为你需要使用它们为&d无人机&r的指令设定坐标。"
     ]
     quest.43E68DE2E5A53162.quest_desc:[
-        "Although there's a pre-programmed &5Harvesting Drone&r, this questline is going to teach you how to make one yourself. This should give you a good headstart on how programming works!"
+        "虽然有一种预编程的&5收割无人机&r，但在这部分任务中我们将教你如何自己制作一架，这应该会让你对这种编程系统的工作原理有一个良好的开端。"
         ""
-        "To get started, open up your &aProgramming Table&r and import the code:"
+        "首先，打开你的&a编程台&r，导入这些代码："
         ""
-        "Look for the \"Import Button\" at the top left of the GUI, then click the \"paste from clipboard\" option in the bottom."
+        "在GUI左上方找到“导入按钮”，然后点击底部的“从剪贴板粘贴”选项即可。"
         ""
         "{\"text\": \"单击此处查看代码\", \"underlined\": true, \"color\": \"#FFFFFF\", \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/e8c83e912c92e28b9d428a07b5fe7fbc\"}}"
         "{@pagebreak}"
-        "With this you can notice that &bDrone Code&r is done via &3Code Blocks/Steps&r you can start by placing the &a\"Start Block\"&r and then add a block for each respective step of the process."
+        "有了它，你就可以注意到，&b“无人机代码”&r是通过&3“代码块/步骤”&r来完成的，你可以从放置&a“开始代码块”&r开始，然后为每个步骤添加一个代码块。 "
         ""
         "{image:ftb:textures/quests/pneumaticcraft/quest_drone_1.png width:240 height:200 align:center}"
         "{@pagebreak}"
-        "You might also notice that when you add commands to harvest and/or import something from a chest, an &aArea Block&r is needed. To easily add the correct coordinates, simply left click with your GPS Tool to paste them in."
+        "你还要注意的是在添加从箱子中收获和/或导入物品的命令时，需要一个&a“范围块”&r，要轻松添加正确的坐标，只需用定位工具左击，粘贴所需的坐标即可。 "
         ""
-        "You can also add &aFilter Blocks&r to certain commands, in this given code, you may want to set one for the Hoe you wish to use."
+        "你还可以在某些命令中添加&a“过滤拼图”&r，在这段代码中，你可能需要为你要使用的锄头&r设置一个“过滤器”。"
         ""
         "{image:ftb:textures/quests/pneumaticcraft/quest_drone_1.png width:240 height:200 align:center}"
         "{@pagebreak}"
         ""
-        "&eBonus tip:&r It's good practice to add a &9Standby&r command at the end so your drone can shut itself off when no work is needed, saving some &bPressure&r"
+        "&e额外的小提示&r，在最后添加一个&9“待机”&r命令，这样无人机就可以在不需要工作时自动关闭，从而避免浪费&b压力&r。"
     ]
     quest.4DD685A3F0F1329F.quest_desc:[
-        "Although there is a pre-programmed &5Collector Drone&r, this quest will show you how to make one for yourself!"
+        "&5无人机&r虽然有预编程的程序，不过如果你想要写个属于自己的程序的话，仔细跟着这个任务学吧。"
         ""
-        "First, make sure to open your &aProgramming Table&r and import this basic code:"
+        "首先，确保打开你的&a编程台&r，并导入这些基本代码："
         ""
         "{\"text\": \"单击此处查看代码\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://gist.github.com/ArtpokeBr/df8f8e046f85e0e97daf16f2976891e2\"}}"
         "{@pagebreak}"
-        "As previously mentioned, with this code you should only need to tweak the values to your specific needs."
+        "正如先前提到的，在已有代码的基础上你只需要将具体数值改为你需要的值。"
         ""
         "{image:ftb:textures/quests/pneumaticcraft/quest_drone_2.png width:240 height:200 align:center}"
         "{@pagebreak}"
-        "It's also good to note that some &bCode Blocks&r like the &2Export to Chest&r one may have some additional config options that can be accessed via Right-clicking."
+        "还需注意的是，某些&b“代码块”&r（如&2“导出到箱子”&r）可能有一些额外的配置选项，可以通过右击来查看。"
         ""
-        "In this case, you can select from wich side the &dDrone&r will access the &2Chest&r."
+        "在这种情况下，你可以选择&d无人机&r从哪一边访问&2箱子&r。"
     ]
     quest.55B7E3EE706E8D6F.quest_desc:[
-        "&bReinforced Stone&r is the basis for most &6PNCR&r machinery."
+        "&b强化石&r是最先进的气动工艺机器的基础。"
         ""
-        "It's hardened and thermally resistant nature makes it a perfect material to contain the high pressure of pneumatic devices."
+        "&b强化石&r是最先进的气动工艺机器的基础。它的硬度和耐热性使其成为控制气动设备高气压的完美材料。"
         ""
-        "You'll need a good bit of these to craft a lot of the machines in the mod!"
+        "你需要大量的这些材料来制作模组中的许多机器！"
     ]
     quest.31B06C6ACEF764E0.quest_desc:[
-        "Before we can start crafting advanced technology, we'll need to find some &0Crude Oil&r first."
+        "在我们可以开始制作更高级科技前，必须去寻找&3原油&r。"
         ""
-        "This can be infinitely made in the &6Mixer&r from Nautec."
+        "原油可由Nautec的&6搅拌机&r无限制作。"
     ]
     quest.49E9EBFC7B717D8E.quest_desc:[
         "&0石油&r是一种非常珍贵的材料，因为你可以把它精炼为一些用途很多的液体，比如&d汽油&r或&b塑料&r！"
         ""
-        "为了办到它，你需要搭建一个&a精炼厂&r才能精炼石油。精炼厂是个小型多方块结构，由一个&a精炼厂控制器&r几个&2精炼厂输出&r组成。"
+        "为了办到它，你需要搭建一个&a精炼厂&r才能精炼石油。精炼厂是个小型多方块结构，由一个&a精炼厂控制器&r几个&2精炼厂输出端&r组成。"
         "{@pagebreak}"
-        "The &aRefinery Controller&r will need to be heated up, and the outputs determine how many different byproducts you can create when refining. "
+        "&a精炼厂控制器&r需要外部热源加热，输出口的数量则决定了精炼产出流体种类。"
         ""
-        "This can easily be done by placing the &aRefinery Controller&r directly over a lava source block, and then stacking the 4 outputs on top of it."
+        "将&a精炼厂控制器&r直接放在熔岩上，之后再将4个输出口放在它的上方便可大功告成。"
         ""
-        "You'll need to prevent &cHeat&r from dissipating, which can be done by covering each face with &bThermal Lagging&r."
+        "不过放完后你还需要防止&c热量&r散失，用&b隔热板&r包裹起来就行。"
     ]
     quest.6AF16D867409D140.quest_desc:[
         "&6亚马龙贸易网络&r提供各种随机预设的村民交易，这些交易将在每个游戏日刷新一次。一些整合包或模组的特定交易将始终存在，所以务必要定期查看！"
@@ -2966,7 +2966,7 @@
     quest.2642E8FE5AD1E8C3.quest_desc:[
         "找到&b下界石英&r就意味着我马上就能搞出基础科技了！！"
         ""
-        "无论它在熔铸炉里头能做出什么合金，我都丝毫不会惊讶。"
+        "无论它在熔铸炉里能做出什么合金，我都丝毫不会惊讶。"
         ""
         "&6&o&n当前任务&r：探索用&b下界石英&r可以做出的各种物品。"
     ]
@@ -2979,7 +2979,7 @@
         "{@pagebreak}"
         "蓝冰可以用原初浆凝胶做，这里推荐一个可选的自动化选项：&a方块破坏器&r可以在不消耗能量的情况下用锤子来粉碎方块。"
         ""
-        "&a收集升级&r可以安装到抽屉上，功能就像磁铁一样。在抽屉界面里头右击升级就可以进行配置，你可以在里头调整它的拾取方向。"
+        "&a收集升级&r可以安装到抽屉上，功能就像磁铁一样。在抽屉界面里右击升级就可以进行配置，你也可以在里面调整它的拾取方向。"
     ]
     quest.0F3F61955AF65462.quest_desc:[
         "有了&3钢&r以后，我就可以用它做出更坚硬的框架，以此把我的&6金网&r升级为&b钻石网&r。"
@@ -3011,7 +3011,7 @@
         ""
         "园艺玻璃罩使用说明书（翻下一页！）"
         "{@pagebreak}"
-        "园艺玻璃罩在有能量和水的情况下可以在里头种作物。"
+        "在有能量和水的情况下，可以在园艺玻璃罩里种植作物。"
         ""
         "作物生长速度取决于土的种类。"
         ""
@@ -3054,7 +3054,7 @@
         ""
         "这就是我制作更多魔法物品的敲门砖么？"
         ""
-        "&6&o&n当前任务&r：在熔岩维度里头找到&c至高木树苗&r，或者用&a实用拓展&r做一颗。"
+        "&6&o&n当前任务&r：在熔岩维度里找到&c至高木树苗&r，或者用&a实用拓展&r做一颗。"
     ]
     quest.767B734339EB1FA8.quest_desc:[
         "这个&c烈焰蕾凝胶&r所转化出的锭真的很强大！"
@@ -3112,7 +3112,7 @@
         "&6&o&n当前任务&r：用多态流体和&b灵魂之花&r制造&d灵魂绑定&r附魔。"
     ]
     quest.098FC37FAEAFCA33.quest_desc:[
-        "&c多态流体&r可以轻松变为别的流体，那么如果我能制造出带有多态特性的“物品”会怎么样呢？"
+        "&c多态流体&r可以轻松变为别的流体，那么如果我能制造出带有多态特性的物品会怎么样呢？"
         ""
         "是时候撸起袖子加油做实验了！"
         ""
@@ -3211,7 +3211,7 @@
         "&a简易压缩抽屉&r可以处理只有原物品和方块物品配方的储存，比如放各种矿的碎块！"
     ]
     quest.093FB6A70B7243F9.quest_desc:[
-        "建立自动化产线的时候，要想从抽屉里头放入/提取物品会很麻烦，所以存储工具就派上用场了！"
+        "建立自动化产线的时候，要想从抽屉中放入/提取物品会很麻烦，所以存储工具就派上用场了！"
         ""
         "&6配置工具&r是用来锁定抽屉存放物品种类的，如果你要从抽屉中一直存取同类物品的话，那么它就能派上用场了！"
         ""
@@ -3253,7 +3253,7 @@
         "对着空气使用工具会调整工具的添加移除工作模式，如果对着空气潜行右击的话，会改变一次设定中并入网络的抽屉数量！"
     ]
     quest.141CE17C25D2A53A.quest_desc:[
-        "你的背包可以加装很多酷炫的升级，但是大部分升级只能在&a板条箱&r和&a木桶&r里头找到。"
+        "你的背包可以加装很多酷炫的升级，但是大部分升级只能在&a板条箱&r和&a木桶&r里找到。"
         ""
         "别读这破任务了，赶快出去砸点桶！"
     ]
@@ -3794,54 +3794,54 @@
         "注意：&a潜水头盔&r可以让你在水下视野更清晰。&a潜水胸甲&r可以为你在水下提供更多的氧气，使你停留更长时间。"
     ]
     quest.0A2DB5AFC89E852F.quest_desc:[
-        "The &aCoke Oven&r is another early-game multiblock that converts regular coal into &3Coke Coal&r and &7Creosote Oil&r."
+        "&a焦炉&r是一个定位于游戏前期用于将煤炭转化为&3焦煤&r和&7杂酚油&r的多方块结构。"
         ""
-        "&3Coke Coal&r is a more efficient fuel, while &aCreosote Oil&r will be used in many crafting recipes."
+        "&3焦煤&r是一种更加高效的燃料，而&a杂酚油&r则广泛应用于许多配方。"
     ]
     quest.0806978F98A7A3E8.quest_desc:[
-        "&aSteel&r is one of the most used resources when creating &6I.E&r multiblock machines."
+        "&a钢&r是建造&6沉浸工程&r多方块机器时用量最大的材料，"
         ""
-        "You will need many different variant blocks made from &aSteel&r, so get ready to do some automation!"
+        "你会遇见各式各样的需要&a钢&r来制造的方块，所以早早准备搭建自动化吧！"
     ]
     quest.63B7AC676FC1EE7F.quest_desc:[
-        "Using &3Creosote Oil&r, you can combine it with planks to create &aTreated Wood&r."
+        "有了&3杂酚油&r之后，你就可以用它与木板合成&a防腐木&r了。"
         ""
-        "&aTreated Wood&r is used to craft various &6I.E&r workstations, such as the &aEngineer's Workbench&r."
+        "&a防腐木&r能用来制作几种&6沉浸工程&r工作台，例如&a工程师装配台&r。"
     ]
     quest.5E5BDCBF185E48E3.quest_desc:[
-        "The &aEngineer's Workbench&r is the main crafting table for all of your engineering needs!"
+        "&a工程师装配台&r是用来制作沉浸工程耗材的最主要的工作台！"
         ""
-        "To make items using the &aEngineer's Workbench&r, you will need different types of &bBlueprints&r to craft different types of items."
+        "要想使用&a工程师装配台&r制作东西，你需要提供&b工程师蓝图&r，不同的蓝图能够制作的东西也不同。"
         ""
-        "When you place a &bBlueprint&r on the top-left slot, it will show what recipes are available to craft on the right side of the workbench. You can then place in the items for the recipe, then pull the crafted item out."
+        "将&b工程师蓝图&r放置在左上方的槽位后，装配台的界面右侧将会显示可制作的物品。你需要将配方所需的原材料丢进装配台，然后直接取出你想制作的物品。"
     ]
     quest.498FEAF2BFD77D2E.quest_desc:[
-        "The &aGarden Cloche&r is a very sought-after machine that grows crops and automatically harvests and replants them in a controlled environment."
+        "&a园艺玻璃罩&r是一台因实用性而备受玩家追捧的机器，它能够自动种植和收获作物，并且在收获后能够自动重新种植。"
         ""
-        "Seeds require the correct soil to grow, and providing fertilizers will boost growth speed."
+        "你需要给种子提供正确的土壤才能种植，提供肥料可以加快生长速度。"
         ""
-        "The machines require water and power to function."
+        "园艺玻璃罩需要提供水和能量才能工作。"
     ]
     quest.4DABDC2484C732AC.quest_desc:[
-        "The &dArc Furnace&r is a massive machine used to quickly alloy metals and smelt ores."
+        "&d电弧炉&r是台用于快速冶炼矿石和合金的大家伙。"
         ""
-        "The &dArc Furnace&r can smelt batches of many items at once at the cost of larger amounts of power."
+        "&d电弧炉&r能以消耗大量能量作为代价一次批量熔炼大量物品。"
         ""
-        "The next pages break down the &dArc Furnace's&r interface and automation."
+        "下面两页将详细介绍&d电弧炉&r的界面与自动化。"
         ""
-        "Make sure to check out the &bEngineer's Manual&r to help you build the multiblock!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
         "{@pagebreak}"
-        "&lInterface:"
+        "&l界面："
         ""
-        "The top three slots are for &dGraphite Electrodes&r, which will degrade with use."
+        "顶部的三个槽位用于安放&d石墨电极&r，石墨电极会随着使用而老化。"
         ""
-        "The twelve left slots are for item inputs, with the temperature bars representing the smelting progress of each individual item."
+        "左侧的12个槽位用于物品输入，温度条表示每个物品各自的冶炼进度。"
         ""
-        "The button in the top left changes whether items are spread across the twelve slots or not."
+        "左上角的按钮能将物品均分至12个槽位。"
         ""
-        "The four right slots are for additive materials that can be used for certain recipes."
+        "右侧的四个槽位用于加入某些特殊配方的材料。"
         "{@pagebreak}"
-        "&lAutomation:&r"
+        "&l自动化：&r"
         ""
         "Input and additives are inserted through the left and right hatches at the top of the structure."
         ""
@@ -4286,12 +4286,12 @@
         "同样的&a宝石&r镶嵌在不同的&b珠宝&r上会赋予其各不相同的属性与增益，因此在合成时，需要仔细查看。"
     ]
     quest.565AF0E2D4AB41BE.quest_desc:[
-        "虽然它叫这个名字，但&6Just Dire Things&r其实是一个很酷很轻量的模组，它加入了一些&o令人眼前一亮&r而且有些小超模的&2小帮手&r、&a工具&r，以及&9护甲&r！"
+        "虽然它叫这个名字，但&6Just Dire Things&r其实是一个很酷很轻量的模组，它加入了一些&o令人眼前一亮&r而且有些小超模的&2小帮手&r、&a工具&r，以及&9盔甲&r！"
         ""
         "在深入了解这个模组前，你需要一些基础的材料，就比如铁和红石。"
     ]
     quest.0868EF9F8233B6ED.quest_desc:[
-        "&a原初浆凝胶&r在煤炭块之类的地方也可以蔓延！"
+        "&a原初浆凝胶&r可以蔓延到煤炭块之类的方块！"
         ""
         "这些方块会被转化为&a原初煤炭&r，是个不错的燃料。"
     ]
@@ -4303,14 +4303,14 @@
         "总之，有了燃料罐，你再也不怕浪费你的煤炭了！"
     ]
     quest.105D29AEE67BE97B.quest_desc:[
-        "这个模组的大部分工具都有各自的升级。"
+        "这个模组的大部分工具都有各自的&6升级&r。"
         ""
         "要你首先要合成升级，然后才能用&a锻造台&r把升级敲到工具/护甲上。"
         ""
-        "注意：鼠标对着物品的时候按下shift会显示该工具可用的升级！有些升级只能装在高阶物品上。"
+        "注意：鼠标对着物品的时候按下Shift会显示该工具可用的升级！有些升级只能装在高阶物品上。"
     ]
     quest.276D2B384F21AC10.quest_desc:[
-        "&a核源铁剑&r比原版铁剑好用一点，可以加装&a怪物扫描&r升级。"
+        "&a核源铁剑&r比原版铁剑好用一点，可以加装&a生物扫描&r升级。"
     ]
     quest.17729D2D1F20BF44.quest_desc:[
         "&a核源铁镐&r比原版铁镐好用多了。"
@@ -4327,9 +4327,9 @@
         "它同样保留了转化&a核源铁矿石&r的能力，所以没必要再做一团凝胶。而且这个凝胶转化速度比原本的更快！"
     ]
     quest.36E0D875AA8E2F66.quest_desc:[
-        "在黑暗深渊逛了一圈后，你手头的材料足够你做出最高级的黏浆：&5暗影烈焰黏浆&r。"
+        "在深暗之域逛了一圈后，你手头的材料足够你做出最高级的黏浆：&5暗影烈焰黏浆&r。"
         ""
-        "这种凝胶可以将&6下界合金块&r转化为&5蚀空合金矿&r。"
+        "这种凝胶可以将&6下界合金块&r转化为&5蚀空合金矿石&r。"
         ""
         "想要激活的话，你需要给它喂幽匿催发体或幽匿块。"
         ""
@@ -4380,7 +4380,7 @@
     quest.04D4223CC7A21FA4.quest_desc:[
         "&d高级传送枪&r很适合瞬间移动。"
         ""
-        "这把传送枪可以让你保存传送点，里头需要有能量和&d传送门液&r。"
+        "这把传送枪可以让你保存传送点，前提是需要有能量和&d传送门液&r。"
         ""
         "如果要保存目的地的话，只需打开菜单后按默认的&bV&r键。如果有按键冲突的话你就得改按键绑定了。"
         ""
@@ -4624,7 +4624,7 @@
         ""
         "这些卡都可以随心所欲地配置。比如&a物品卡&r可以从不同的地方提取或输入物品，还可以写入过滤条件，实现精准自动化。"
         "{@pagebreak}"
-        "打开&a激光节点&r的UI后，可在里头查看激光节点的各个面信息。激光节点的面决定卡的工作位置，你就当卡是那个面的模式就行。"
+        "打开&a激光节点&r的UI后，可以再里面查看激光节点的各个面信息。激光节点的面决定卡的工作位置，你就当卡是那个面的模式就行。"
         ""
         "你还可以给卡升级，提升节点和对应方块交互的速度，甚至可以实现极快速度的自动化。卡还可以设定过滤和特定频道。"
         "{@pagebreak}"
@@ -4635,7 +4635,7 @@
         ""
         "上述所有不可思议的功能都是靠主方块完成的，即&a模块化路由器&r。你首先要给路由器安装&a模块&r来“告诉”路由器应该干什么，这样它才能正常运转。模块可以用&a拓展&r来改装和升级。"
         ""
-        "路由器本体也可以加装不同的&a升级&r，加装的升级决定了里头的模块如何运作。"
+        "路由器本体也可以加装不同的&a升级&r，加装的升级决定了里面的模块如何运作。"
         "{@pagebreak}"
         "初始路由器只有一个物品缓存槽，可以装一组物品。"
         ""
@@ -4744,7 +4744,7 @@
         ""
         "在你设置完以后，点底部的&b创建&r！"
         "{@pagebreak}"
-        "然后你会自动切换到&a网络列表&r里头，在这里你可以看到所有可用的网络，其中就包括你刚刚创建的！"
+        "然后你就会自动切换到&a网络列表&r里，在这里你可以看到所有可用的网络，其中就包括你刚刚创建的！"
         ""
         "无论你要用什么设备，上述的创建过程是你第一次一定要做的。"
         ""
@@ -5172,7 +5172,7 @@
     quest.71C0BC71D3B45690.quest_desc:[
         "多留意一下水下的箱子、板条箱和生物。"
         ""
-        "里头可能会有一些远古机器零件，你需要它才能推进度！"
+        "这里面可能会有一些远古机器零件，你需要它才能推进度！"
     ]
     quest.3BAE611AE4CEA7A6.quest_desc:[
         "[\"你可以在战利品箱和水下怪物身上搜刮到很多\", {\"text\":\"生锈的\", \"color\": \"#D5510E\"}, \"东西。\"]"
@@ -6256,7 +6256,7 @@
         "&a生物质发电机&r消耗生物质产生RF，加装&b插件&r可以提升发电效率。"
     ]
     quest.143E07D2565798AB.quest_desc:[
-        "&6Oritech&r模组的主要机器为&b多方块机器&r，其中绝大多数的多方块机器都需要用上&a机器核心&r。记得查看机器的tooltip吧，里头标出了需要多少核心。"
+        "&6Oritech&r模组的主要机器为&b多方块机器&r，其中绝大多数的多方块机器都需要用上&a机器核心&r。记得查看机器的工具提示，其中标出了需要多少核心。"
         ""
         "总共有七个等级的&a机器核心&r，等级不同可安装的&b插件&r数量也不同。"
         ""
@@ -6482,7 +6482,7 @@
     quest.4E6B0E9C678618A3.quest_desc:[
         "&a物品筛选器&r可以轻松设定什么物品可以穿过某个管道。"
         ""
-        "把它装到某个机器的面或缓存里头后，就可以设定加装过滤器的方块可以输入什么物品。"
+        "把它装到某个机器的面或缓存里后，就可以设定加装过滤器的方块可以输入什么物品。"
     ]
     quest.0D4C45BBECC8A780.quest_desc:[
         "提升操作速度和能量使用效率。"
@@ -6541,23 +6541,23 @@
         "关闭无限模式只需将物品拿出无限模式槽位即可。"
     ]
     quest.2F8BB4724991B7C4.quest_desc:[
-        "&a鉴定室&r可以扫描物品的物质“价值”，然后把扫描数据存储到&a存储器芯片&r里头。"
+        "&a鉴定室&r可以扫描物品的物质值，然后把扫描数据存储到&a存储器芯片&r里。"
         ""
-        "物品会缓慢进行扫描，直到它的物质读取进度完全存储进&a存储器芯片&r里头。扫描结束后该物品会被消耗掉。"
+        "物品会缓慢进行扫描，直到它的物质读取进度完全存储进&a存储器芯片&r里。扫描结束后该物品会被消耗掉。"
     ]
     quest.388014ECCC529C2C.quest_desc:[
         "&a分解机&r可以将物品分解为物质。"
         ""
         "不同物品提供不同种类不同数量的物质，你可以用物质复制物品。"
         ""
-        "虽然它自带缓存空间，但是我还是建议你把物质存储在&a物质储罐&r里头。"
+        "虽然它自带缓存空间，但是我还是建议你把物质存储在&a物质储罐&r里。"
     ]
     quest.39751E377C0F22EE.quest_desc:[
         "&a复制终端&r显示你的物质网络总有多少物质，以及可用的复制机。"
         ""
         "你还可以用&a复制机终端&r进行复制任务下单、取消和查看正在进行的复制任务。"
         ""
-        "复制任务在&a复制终端&r底部可看。"
+        "复制任务可以在&a复制终端&r底部查看。"
         ""
         "点击右上角靠近搜索栏的&e复制任务&r图像，就可以查看正在进行的复制任务。"
     ]
@@ -6706,7 +6706,7 @@
         ""
         "神庙中心就是逃离这颗星球的办法……"
         ""
-        "但里头涌出的生物……看来一时半会是停不下了。"
+        "但从中涌出的生物……看来一时半会是停不下了。"
         ""
         "&6&o&n当前任务&r：游到你的逃生舱下面，然后顺着海底开始挖掘，直到找到&d裂缝传送门&r为止。"
     ]
@@ -6735,7 +6735,7 @@
         ""
         "但5分钟远不够我找到这股暗能量的源头。"
         ""
-        "&6&o&n当前任务&r：找到&d裂缝&r维度里头的&6时间水晶&r。"
+        "&6&o&n当前任务&r：找到&d裂缝&r维度里的&6时间水晶&r。"
     ]
     quest.134C281AEA99E5A3.quest_desc:[
         "我没有按照预期的那样直接回到家里……"
@@ -6765,7 +6765,7 @@
         "制作Oritech的&6粒子加速器&r。"
     ]
     quest.551276B3354B653E.quest_desc:[
-        "做一个高级AE里头的&d量子计算机核心&r。"
+        "做一个高级AE里的&d量子计算机核心&r。"
     ]
     quest.39FD7A010B791999.quest_desc:[
         "收集裂缝中的&6时间水晶&r，然后做一个&6时间水晶块&r。"
@@ -6944,7 +6944,7 @@
         ""
         "我找到了一个很大的结构，它很古老，而且很明显有股不祥的气息。"
         ""
-        "外表参差不齐的石头，上面涂满了奇怪的符号……就好像时间试图把它抹去但失败了一样。要说这是自然生成的实在太精致，但要说这是随机的废墟的话又太刻意了。无论是谁建了这个结构，它一定很了解这片海洋，而且曾经在里头住过……也许吧。"
+        "外表参差不齐的石头，上面涂满了奇怪的符号……就好像时间试图把它抹去但失败了一样。要说这是自然生成的实在太精致，但要说这是随机的废墟的话又太刻意了。无论是谁建了这个结构，它一定很了解这片海洋，而且曾经在里面住过……也许吧。"
         ""
         ""
         "{@pagebreak}"
@@ -7008,7 +7008,7 @@
     quest.7AE5040CD44D7BC9.quest_desc:[
         "行吧，至少我找到这些诡异现象的源头了。"
         ""
-        "传送门，从深渊里头延伸出来的传送门，像一个呼吸过度的肺一样脉动着。"
+        "一扇传送门。由深渊雕琢而成，如同不堪重负的肺叶般搏动。"
         ""
         "它在呼吸……它在把恐惧喷射到水中。要穿过来的是什么牛鬼蛇神？至少可以确定的是，绝对不是现世的东西。"
         ""
@@ -7317,7 +7317,7 @@
     quest.61C490B6BBED73DC.quest_desc:[
         "我已经跟随着&d航海之眼&r前往到了深海区域……"
         ""
-        "它还想要我接着深潜，不过我在这里发现了一个小建筑物，里头正中央有个&d海洋催化器&r。"
+        "它还想要我接着深潜，不过我在这里发现了一个小建筑物，其中正中央有一个&d海洋催化器&r。"
         ""
         "我觉得它应该是激活这个建筑物中的某种东西用的。"
         ""
@@ -7344,7 +7344,7 @@
         "&6&o&n当前任务&r：用Nautec的水晶，将&b指南针&r灌注成&d探险者指南针&r。"
     ]
     quest.2CFD9B1806BB52F0.quest_desc:[
-        "有一块&o巨大的&r水晶藏在水下的那个建筑物里头。"
+        "有一块&o巨大的&r水晶藏在水下的那个建筑物里。"
         ""
         "这里还有过去探索者所留下的大量板条箱和方块……"
         ""
