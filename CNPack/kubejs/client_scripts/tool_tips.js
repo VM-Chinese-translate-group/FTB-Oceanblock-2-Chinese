@@ -21,31 +21,55 @@ const tooltips = [
   },
   {
     item: "pneumaticcraft:ingot_iron_compressed",
-    text: Text.translate("tooltip.pneumaticcraft.ingot_iron_compressed").green(),
+    text: Text.translate(
+      "tooltip.pneumaticcraft.ingot_iron_compressed"
+    ).green(),
   },
   {
     item: "ftbstuff:stone_cobblestone_generator",
-    text: Text.translate("tooltip.ftbstuff.stone_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
+    text: Text.translate("tooltip.ftbstuff.stone_cobblestone_generator")
+      .gold()
+      .append(
+        Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()
+      ),
   },
   {
     item: "ftbstuff:iron_cobblestone_generator",
-    text: Text.translate("tooltip.ftbstuff.iron_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
+    text: Text.translate("tooltip.ftbstuff.iron_cobblestone_generator")
+      .gold()
+      .append(
+        Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()
+      ),
   },
   {
     item: "ftbstuff:gold_cobblestone_generator",
-    text: Text.translate("tooltip.ftbstuff.gold_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
+    text: Text.translate("tooltip.ftbstuff.gold_cobblestone_generator")
+      .gold()
+      .append(
+        Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()
+      ),
   },
   {
     item: "ftbstuff:diamond_cobblestone_generator",
-    text: Text.translate("tooltip.ftbstuff.diamond_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
+    text: Text.translate("tooltip.ftbstuff.diamond_cobblestone_generator")
+      .gold()
+      .append(
+        Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()
+      ),
   },
   {
     item: "ftbstuff:netherite_cobblestone_generator",
-    text: Text.translate("tooltip.ftbstuff.netherite_cobblestone_generator").gold().append(Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()),
+    text: Text.translate("tooltip.ftbstuff.netherite_cobblestone_generator")
+      .gold()
+      .append(
+        Text.translate(`tooltip.cobblestone_generator.persec.cobble`).gray()
+      ),
   },
   {
     item: "justdirethings:time_crystal_budding_block",
-    text: Text.translate("tooltip.justdirethings.time_crystal_budding_block").gray(),
+    text: Text.translate(
+      "tooltip.justdirethings.time_crystal_budding_block"
+    ).gray(),
   },
   {
     item: "justdirethings:time_crystal_budding_block",
@@ -59,10 +83,26 @@ const tooltips = [
     item: "justdirethings:time_crystal_budding_block",
     text: Text.translate("tooltip.justdirethings.time_crystal_budding_block.3")
       .green()
-      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.4").gray())
-      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.5").red())
-      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.6").gray())
-      .append(Text.translate("tooltip.justdirethings.time_crystal_budding_block.7").blue()),
+      .append(
+        Text.translate(
+          "tooltip.justdirethings.time_crystal_budding_block.4"
+        ).gray()
+      )
+      .append(
+        Text.translate(
+          "tooltip.justdirethings.time_crystal_budding_block.5"
+        ).red()
+      )
+      .append(
+        Text.translate(
+          "tooltip.justdirethings.time_crystal_budding_block.6"
+        ).gray()
+      )
+      .append(
+        Text.translate(
+          "tooltip.justdirethings.time_crystal_budding_block.7"
+        ).blue()
+      ),
     shift: true,
   },
   {
@@ -79,80 +119,7 @@ const tooltips = [
   },
 ];
 
-const sluices = [
-  {
-    itemID: "ftbstuff:oak_sluice",
-    time: "1.0",
-    fluidUsage: "1.0",
-    item: false,
-    fluid: false,
-    power: false,
-  },
-  {
-    itemID: "ftbstuff:iron_sluice",
-    time: "0.75",
-    fluidUsage: "0.75",
-    item: true,
-    fluid: false,
-    power: false,
-  },
-  {
-    itemID: "ftbstuff:diamond_sluice",
-    time: "0.50",
-    fluidUsage: "0.50",
-    item: true,
-    fluid: true,
-    power: false,
-  },
-  {
-    itemID: "ftbstuff:netherite_sluice",
-    time: "0.25",
-    fluidUsage: "0.25",
-    item: true,
-    fluid: true,
-    power: true,
-  },
-];
-
 ItemEvents.modifyTooltips((event) => {
-  sluices.forEach((sluice) => {
-    event.add(
-      sluice.itemID,
-      { shift: true },
-      Text.translate("tooltip.sluice.processing.time")
-        .gray()
-        .append(Text.translate(`${sluice.time}x`).gold())
-    );
-    event.add(
-      sluice.itemID,
-      { shift: true },
-      Text.translate("tooltip.sluice.fluid.usage.multiplier")
-        .gray()
-        .append(Text.translate(`${sluice.fluidUsage}x`).aqua())
-    );
-    event.add(
-      sluice.itemID,
-      { shift: true },
-      Text.translate("tooltip.sluice.item.automation")
-        .gray()
-        .append(Text.translate(sluice.item ? "tooltip.sluice.true" : "tooltip.sluice.false").color(sluice.item ? "green" : "red"))
-    );
-    event.add(
-      sluice.itemID,
-      { shift: true },
-      Text.translate("tooltip.sluice.fluid.automation")
-        .gray()
-        .append(Text.translate(sluice.fluid ? "tooltip.sluice.true" : "tooltip.sluice.false").color(sluice.fluid ? "green" : "red"))
-    );
-    event.add(
-      sluice.itemID,
-      { shift: true },
-      Text.translate("tooltip.sluice.requires.power")
-        .gray()
-        .append(Text.translate(sluice.power ? "tooltip.sluice.true" : "tooltip.sluice.false").color(sluice.power ? "green" : "red"))
-    );
-  });
-
   tooltips.forEach((tooltip) => {
     event.add(tooltip.item, tooltip.shift ? { shift: true } : {}, tooltip.text);
   });
@@ -163,23 +130,34 @@ ItemEvents.modifyTooltips((event) => {
   });
 
   event.modify(`obtrophies:display_trophy`, (b) => b.dynamic(`streamertrophy`));
-  
+
   event.modify(
-    ["mekanism:jetpack", "mekanism:jetpack_armored", "oritech:jetpack", "oritech:exo_jetpack", "ftb:rift_charge"],
+    [
+      "mekanism:jetpack",
+      "mekanism:jetpack_armored",
+      "oritech:jetpack",
+      "oritech:exo_jetpack",
+      "ftb:rift_charge",
+    ],
     { shift: false },
     (tooltip) => {
       tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.1").gray());
     }
   );
-  
+
   event.modify(
-    ["mekanism:jetpack", "mekanism:jetpack_armored", "oritech:jetpack", "oritech:exo_jetpack"],
+    [
+      "mekanism:jetpack",
+      "mekanism:jetpack_armored",
+      "oritech:jetpack",
+      "oritech:exo_jetpack",
+    ],
     { shift: true },
     (tooltip) => {
       tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.2").red());
     }
   );
-  event.modify("ftb:rift_charge", {shift: true}, (tooltip) => {
+  event.modify("ftb:rift_charge", { shift: true }, (tooltip) => {
     tooltip.insert(1, Text.translate("tooltip.ftb.rift_charge.1").darkGray());
     tooltip.insert(2, Text.translate("tooltip.ftb_rift_charge.2").darkGray());
   });
@@ -188,8 +166,10 @@ ItemEvents.modifyTooltips((event) => {
 const trophyTooltips = {
   "minecraft:cactus": "tooltip.streamertrophy.minecraft_cactus",
   "oritech:banana": "tooltip.streamertrophy.oritech_banana",
-  "ars_nouveau:creative_spell_book": "tooltip.streamertrophy.ars_nouveau_creative_spell_book",
-  "mysticalagradditions:inferium_apple": "tooltip.streamertrophy.mysticalagradditions_inferium_apple",
+  "ars_nouveau:creative_spell_book":
+    "tooltip.streamertrophy.ars_nouveau_creative_spell_book",
+  "mysticalagradditions:inferium_apple":
+    "tooltip.streamertrophy.mysticalagradditions_inferium_apple",
   "ftbstuff:purple_barrel": "tooltip.streamertrophy.ftbstuff_purple_barrel",
   "ftb:rift_weaver_disc": "tooltip.streamertrophy.ftb_rift_weaver_disc",
   "ae2:singularity": "tooltip.streamertrophy.ae2_singularity",
@@ -203,12 +183,17 @@ const trophyTooltips = {
 ItemEvents.dynamicTooltips("streamertrophy", (event) => {
   const { item } = event;
   Object.entries(trophyTooltips).forEach(([key, value]) => {
-    if (item.getComponentsPatch().get("obtrophies:display_trophy_info").get().displayItem().id == key) {
+    if (
+      item
+        .getComponentsPatch()
+        .get("obtrophies:display_trophy_info")
+        .get()
+        .displayItem().id == key
+    ) {
       event.add(Text.translate(value).green());
       event.add(Text.translate("tooltip.streamertrophy").gray());
     }
   });
-
 });
 
 const riftCrystalInformation = [
@@ -219,6 +204,8 @@ const riftCrystalInformation = [
   "Every Rift Attenuation Crystal has a limited amount of energy and is capped at their respective time limit.",
 ];
 RecipeViewerEvents.addInformation("item", (event) => {
-  event.add(/ftb:(.*)attenuation_crystal/, Text.translate("info.ftb.attenuation_crystal"));
+  event.add(
+    /ftb:(.*)attenuation_crystal/,
+    Text.translate("info.ftb.attenuation_crystal")
+  );
 });
-

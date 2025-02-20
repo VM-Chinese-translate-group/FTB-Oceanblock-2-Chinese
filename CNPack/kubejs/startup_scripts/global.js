@@ -650,20 +650,40 @@ global.materialTypes = [
     type: "wire",
   },
   {
-    materials: ["apatite", "brass", "chromium", "electrum", "gold", "plutonium", "resonating_ore", "silicon", "silver"],
+    materials: [
+      "apatite",
+      "brass",
+      "chromium",
+      "electrum",
+      "gold",
+      "plutonium",
+      "resonating_ore",
+      "silicon",
+      "silver",
+    ],
     type: "gem",
   },
 ];
 
 global.showRiftCharge = (player) => {
-  let charge = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
-  const maxTime = 900*20;
-  const percentage = Math.max(0, Math.min(100, Math.floor((charge / maxTime) * 100)));
+  let charge = player.persistentData.contains("rift_charge")
+    ? player.persistentData.getInt("rift_charge")
+    : 0;
+  const maxTime = 900 * 20;
+  const percentage = Math.max(
+    0,
+    Math.min(100, Math.floor((charge / maxTime) * 100))
+  );
   const barLength = 20;
   const filledLength = Math.floor((percentage / 100) * barLength);
   const emptyLength = barLength - filledLength;
   const bar = "█".repeat(filledLength) + "░".repeat(emptyLength);
   try {
-    player.sendSystemMessage(Text.translate("message.rift.charge", bar , percentage), true);
+    player
+      .getServer()
+      .runCommandSilent(
+        `/title ${player.username} actionbar {"translate":"message.rift.charge"}`
+      );
+    // player.sendSystemMessage(`Rift Charge: [${bar}] ${percentage}%`, true);
   } catch (e) {}
 };

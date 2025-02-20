@@ -110,7 +110,7 @@ global.getArenaCenter = (player) => {
 
 global.isInArena = (entity) => {
   let { x, y, z } = global.getArenaCenter(entity);
-  return entity.distanceToSqr(new $Vec3(x, y, z)) < 32 * 32;
+  return entity.distanceToSqr(new $Vec3(x, y, z)) < 64 * 64;
 };
 global.spawnRiftWeaver = (player, teamId, item) => {
   let server = player.getServer();

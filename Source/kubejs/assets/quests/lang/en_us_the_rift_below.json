@@ -103,7 +103,7 @@
 	"quest.50AC20231ECBEA86.quest_desc6":"",
 	"quest.50AC20231ECBEA86.quest_desc7":"&6&o&nTASK&r: Craft a &6Rift Attenuation Crystal&r.",
 	"quest.50AC20231ECBEA86.quest_desc8":"",
-	"quest.50AC20231ECBEA86.quest_desc9":"Note: When crafting the crystal, anyone with a 5 block radius from the &6Empowerer&r will gain &6Rift Charge&r based on the item crafted.",
+	"quest.50AC20231ECBEA86.quest_desc9":"Note: When crafting the crystal, any online Teammember, thats not currently in the &dRift&r, will gain &6Rift Charge&r based on the item crafted.",
 	"quest.50AC20231ECBEA86.quest_desc10":"",
 	"quest.50AC20231ECBEA86.quest_desc11":"The &6Rift Attenuation Crystal&r itself is only used for the next tier craft.",
 	"quest.179E0D3279EB17CD.quest_desc1":"The &6Time Crystals&r are exactly what I need to extend my stay.",

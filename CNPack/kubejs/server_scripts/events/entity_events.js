@@ -17,6 +17,8 @@ EntityEvents.beforeHurt("ftboceanmobs:rift_weaver", (event) => {
   if (!source.getActual() || source.getActual().type != "minecraft:player")
     return;
   let player = source.getActual();
+  if (!player.isPlayer()) return;
+  if (player.isCreative()) return;
   if (!global.isInArena(player)) {
     player;
     player.tell(Text.translate("message.ftboceanmobs.rift_weaver"));

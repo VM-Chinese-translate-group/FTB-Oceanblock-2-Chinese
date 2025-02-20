@@ -95,6 +95,7 @@
   "command.rift.set_timer": "Rift Timer set to %s seconds!",
   "message.soul.lantern": "Equip the soul lantern on your belt to pass between worlds!",
   "message.ftb.the_rift": "The Energies of the Rift are interfering with teleportation!",
+  "message.ftb.the_rift.mari_023": "Sorry, no Wireless Terminal for u in the Rift!",
   "message.airdrop.incoming": "Airdrop Incoming",
   "message.airdrop.landed": "Airdrop Landed!",
   "command.event.disable": "You have not unlocked disabling this event yet!",
