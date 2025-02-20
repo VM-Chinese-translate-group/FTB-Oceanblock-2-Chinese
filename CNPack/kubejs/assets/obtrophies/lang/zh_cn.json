@@ -23,7 +23,7 @@
     "command.obtrophies.empty_list":"战利品列表未填充！",
     "command.obtrophies.mod_not_loaded":"模组%s不存在！",
     "command.obtrophies.place":"放置的%s战利品",
-    "command.obtrophies.trophies_made":"成功制作%s战利品配置！",
+    "command.obtrophies.trophies_made":"成功修改%s战利品配置！",
     "command.obtrophies.trophy_made":"为实体制作的战利品存根%s",
     "config.obtrophies.drop_chance":"全局战利品掉落几率：",
     "config.obtrophies.drop_chance.tooltip":"对应生物战利品掉落的几率。\n所有战利品的掉落几率都定义在他们的战利品 json 文件中，但如果你不想在浏览并更改每个 json 文件的情况下覆盖该几率，这是为你准备的。\n该值以百分比（数字 * 100）表示，因此 0.2 的几率为 20%。\n将此值设置为任何负数以禁用覆盖。",

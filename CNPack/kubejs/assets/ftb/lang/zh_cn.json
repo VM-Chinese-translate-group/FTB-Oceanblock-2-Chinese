@@ -95,6 +95,7 @@
     "command.rift.set_timer":"裂缝计时器设置为 %s 秒！",
     "message.soul.lantern":"将灵魂灯笼系在腰间，即可穿梭世界！",
     "message.ftb.the_rift":"The Energies of the Rift are interfering with teleportation!",
+    "message.ftb.the_rift.mari_023":"Sorry, no Wireless Terminal for u in the Rift!",
     "message.airdrop.incoming":"空投即将到达",
     "message.airdrop.landed":"空投已着陆！",
     "command.event.disable":"你还没有解锁禁用此事件的功能！",

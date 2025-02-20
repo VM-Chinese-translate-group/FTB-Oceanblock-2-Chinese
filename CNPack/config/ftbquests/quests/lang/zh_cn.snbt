@@ -24,9 +24,7 @@
     quest.7380416E70BEAD65.title:"&f亚麻种子"
     quest.2F89B4E5640AB5E8.title:"&f发酵桶"
     quest.2F2E3501A70EB920.title:"&f物品吸收器"
-    quest.7819C1805C7E5BCD.title:"&f农场"
     quest.283EA4E7BA93DA11.title:"&f给水晶充能"
-    quest.69C82E67CEA88673.title:"&f早期发电手段"
     quest.05ACCA23B0F13E0A.title:"&f油菜压榨机"
     quest.5BFA3D0271320E07.title:"&f温室玻璃"
     quest.0846E2BE2F3D825C.title:"&f钻头拓展"
@@ -35,6 +33,8 @@
     quest.41DC64EC52AB0494.title:"&f水晶块"
     task.7F7F60B4E9A074FE.title:"水晶方块"
     quest.7EA01C721DFBF014.title:"&f将方块与流体玩弄于股掌之中"
+    task.1114E07F8446FAA0.title:"方块自动化"
+    task.03DFD823ACDCF36F.title:"流体自动化"
     quest.0BFC8B66AF86846E.title:"&f自动饲育机"
     quest.1044061B20F62F5E.title:"&f能量管理"
     quest.46BB702F2847F818.title:"&f红石水晶"
@@ -194,7 +194,7 @@
     quest.43E68DE2E5A53162.title:"&d用无人机&f收获作物"
     quest.4DD685A3F0F1329F.title:"&d用无人机&f收获作物"
     quest.55B7E3EE706E8D6F.title:"&f强化石"
-    quest.31B06C6ACEF764E0.quest_subtitle:"但 是 小 心 霉 菌 马 上 要 进 你 家 了"
+    quest.31B06C6ACEF764E0.quest_subtitle:"小 心 美 军 马 上 到 你 家 门 口 "
     quest.31B06C6ACEF764E0.title:"&f挖石油喽！"
     quest.49E9EBFC7B717D8E.title:"&f精制油"
     quest.6AF16D867409D140.title:"&f漫游"
@@ -212,7 +212,6 @@
     quest.30D00AC248214D58.title:"&c充能合金"
     quest.4004CA1BEBA2914C.title:"&d振动合金"
     quest.740DA65D6FB1F0EC.title:"&f魂金锭"
-    quest.109CB437DFAECDC6.title:"&f合金炉"
     quest.4782346A565FF21F.quest_subtitle:"很酷的磨机"
     quest.3A55DAA85874864A.title:"&f其他实用机器"
     quest.4E623BAFD92591EE.title:"&f旅行权杖"
@@ -230,20 +229,14 @@
     quest.33C16E82B90E5C1F.title:"&f欢迎游玩&6极限反应堆&f！"
     chapter.2D069B87B860C09B.title:"极限反应堆"
     quest.055F4DA6E97B36B9.title:"&f属于你的第一台&d反应堆"
-    quest.3DDEFC2521CAF3BA.quest_subtitle:"反应堆设计入门"
-    quest.3DDEFC2521CAF3BA.title:"&f管理&c热量&f"
-    task.4C6F7EC282CFD619.title:"&c热量&f管理"
     quest.18A73FAF4D0F9F40.quest_subtitle:"不是你的Discord版主（mod）！"
     quest.18A73FAF4D0F9F40.title:"&e慢化剂（Moderator）"
-    task.38ED2C6DF4CB2EB2.title:"&b反应堆&r慢化剂"
+    task.2C1DE5245FEB3956.title:"Examples of Moderators"
     quest.2CD606A9C5C786D8.quest_subtitle:"是时候“冷静”一下了"
-    task.62BBC71F71D1E941.title:"&d反应堆&r冷却系统"
+    quest.2CD606A9C5C786D8.title:"Passive Or Active Reactors?"
     quest.07CC52EDB45C7994.quest_subtitle:"觉得太简单了？"
     quest.07CC52EDB45C7994.title:"&f多方块结构的大小"
     task.1A02CBDB99C6928B.title:"&f方块变种"
-    quest.2137D5491D1AAF0D.quest_subtitle:"有啥用？"
-    quest.2137D5491D1AAF0D.title:" &d反应堆&r部件"
-    task.2B768B49E9DECC0C.title:" &d反应堆&r部件"
     quest.5BBE73445913E9A3.title:"&c再处理器"
     quest.13F84B912C8FA7FD.title:"&f属于你的第一台&3涡轮机"
     quest.7876408A8635B7F6.title:"&6流化器"
@@ -259,6 +252,11 @@
     quest.3985170CDB3A0BC3.title:"&c空想"
     quest.49C272F5ECDF9FA4.quest_subtitle:"这一切是为了什么？"
     quest.49C272F5ECDF9FA4.title:"&a晶振"
+    quest.3E25EAA3D2851941.title:"&fReactor Walls"
+    quest.1839CCDAC3346C27.title:"&fFueling The Reactor"
+    quest.12BBDC662C7D6622.title:"&fReactor Ports"
+    quest.617363DDAA59D686.title:"&fBuild A Reinforced Reactor Next!"
+    task.1E4417D6C15F6207.title:"&fBuild A Reinforced Reactor Next!"
     chapter_group.1082D352D1CC13F4.title:"主线任务"
     chapter_group.236F0B414FA815E0.title:"魔法模组"
     chapter_group.26835947166CBCA2.title:"物流模组"
@@ -268,6 +266,7 @@
     file.0000000000000001.title:"Oceanblock 2"
     reward.16C69B8BA9FBE5D1.title:"召唤Dinnerbeef"
     reward.2ECFC29F1290F82C.title:"召唤Saereth"
+    reward.4D3ECD71ADB0D468.title:"Paraxox Machine"
     reward.5A546B00CA8D9817.title:"召唤AlfredGG"
     reward.5BB51B5018D58CD8.title:"召唤Sunekaer"
     reward.5F2B294C5E0BBC4E.title:"召唤Tazz"
@@ -277,8 +276,10 @@
     reward_table.0EA01888FEABBD21.title:"&d稀有奖励箱&r"
     reward_table.18327B8452E390A9.title:"随机遗物奖励箱"
     reward_table.1E75B6A7FCDDE38A.title:"罕见奖励箱"
+    reward_table.2A5CCDB8C49A933C.title:"EnderIO Reward Chest"
     reward_table.37050078793DE537.title:"AE2奖励箱"
     reward_table.40521CF80673B184.title:"自选奖励箱"
+    reward_table.5239C94509B7050F.title:"Dire Things Loot Box"
     reward_table.5B1E940ED976BB40.title:"混沌奖励箱"
     reward_table.61D338F0B6CBFAD3.title:"随机种子奖励箱"
     reward_table.6AD278380BF9C4F4.title:"通用机械奖励箱"
@@ -398,6 +399,7 @@
     quest.01CDD25D83DED1D7.title:"这里有好多的铁"
     quest.0113FC4C63E64DEE.quest_subtitle:"急需升级"
     quest.0113FC4C63E64DEE.title:"熔炼升级"
+    task.426F2CFFCFB00ECE.title:"Cast Iron Options"
     quest.69AC1FABD1917612.title:"矿物高效利用技术"
     quest.74406A4321ABC0D4.quest_subtitle:"压缩"
     quest.74406A4321ABC0D4.title:"我想这行得通？"
@@ -453,6 +455,10 @@
     quest.5D41616086EA607A.title:"&d万全准备&r"
     task.71F7915F3EA94E46.title:"推荐的盔甲类型"
     quest.141F7BD2B1A4CC74.title:"简易潜水服"
+    quest.0446F4732B120FDD.quest_subtitle:"Easy AE2"
+    quest.0446F4732B120FDD.title:"Early Storage Options"
+    quest.590A170857B8CED8.title:"Storage For The Little Things"
+    task.07F7B1E50A97198C.title:"Any Storage Drawer"
     chapter.0FC6D9571E0C2EDC.title:"沉浸工程"
     quest.0A2DB5AFC89E852F.title:"&f焦炉"
     quest.0806978F98A7A3E8.title:"&f钢锭"
@@ -786,7 +792,6 @@
     quest.5A637C0834B0D450.title:"&a棱镜单片眼镜"
     quest.781C67090DF1C611.title:"&f管理你的&d激光网络"
     quest.62851FAE7E9D2137.title:"&c长距离激光&r"
-    reward.07ACBFCA0BA1B8B5.title:"制备盐水"
     quest.10F792474C01A594.title:"&f欢迎进入&6神秘学&f的世界！"
     chapter.366003AD7B6B722C.title:"神秘学"
     quest.4E90956E9A3ADAC9.title:"&f魔鬼之梦果"
@@ -1082,6 +1087,16 @@
     quest.30BCD6DAC377A61D.title:"中级机器核心"
     quest.4E6B0E9C678618A3.title:"物品过滤"
     quest.0D4C45BBECC8A780.title:"&f协同矩阵插件"
+    quest.5FC606C21AA7310C.title:"&dCybernetic Augmentation Center"
+    quest.5FE085B5672EEA5D.title:"&dResearch Stations"
+    quest.3E719C5EB260F7E7.title:"&dNuclear Reactor Control Panel"
+    quest.499FE5B9A6E42D1B.title:"&aReactor Rods"
+    task.4CB6CE40C86BF2E5.title:"&aReactor Rods"
+    quest.385FCE9BEC913790.title:"&cHeat Vents &f\&\ &cHeat Pipes"
+    quest.12F774E4D4B62CCB.title:"&bReactor Heat Absorbers"
+    quest.53F1206438C02132.title:"&2Energy &f\&\ &cRedstone &fPorts"
+    quest.5A34991062F66626.title:"&fDesigning Your &dReactor"
+    task.2DB72DE95EA7A67F.title:"&fDesigning Your &dReactor"
     quest.1C58933205E5C96D.title:"跟你的蒸汽说拜拜吧！"
     chapter.391B65CD04A90459.title:"发电"
     quest.63C6CCD277C86EF4.title:"&a“初级”&r燃液发电机"
@@ -1110,7 +1125,6 @@
     quest.2E56DB4CBFE2F37C.title:"&b高级精华&r"
     quest.2AE9ADF578ABEA11.quest_subtitle:"五级精华"
     quest.2AE9ADF578ABEA11.title:"&d终级精华&r"
-    quest.737E1886B44C3D8B.title:"&f制作工具&a升级"
     quest.5E04779BC1EB52E9.quest_subtitle:"在这加个阿凡达笑话"
     quest.5E04779BC1EB52E9.title:"&b元素&f种子 "
     task.16E364F01286BDB3.title:"&b元素&f种子 "
@@ -1416,27 +1430,12 @@
         ""
         "供应的燃料种类不同的话产能会增多。"
     ]
-    quest.7819C1805C7E5BCD.quest_desc:[
-        "&a农场方块&r可以自动在它周围9x9范围以内栽种/收割作物。"
-        ""
-        "在GUI里，左边是储存种子和其他的需要栽的东西，右边储存的则是作物。"
-    ]
     quest.283EA4E7BA93DA11.quest_desc:[
         "&a充能台&r可以吸收周边的物品，用它们的力量充能你的水晶。"
         ""
         "你需要先在&a充能台&r周围两格以内放置&a物品展示台&r。"
         ""
         "&a展示台&r上的物品位置无所谓，你只需要给展示台充能即可。"
-    ]
-    quest.3ACEBC2F651514F4.quest_desc:[
-        "&a咀叶发电机&r会消耗七格半径内的树叶，然后产出能量。"
-    ]
-    quest.69C82E67CEA88673.quest_desc:[
-        "&a煤炭发电机&r消耗燃料产生能量。"
-        ""
-        "&a热能发电机&r会从四面的熔岩中产出能量，但是有概率消耗熔岩。"
-        ""
-        "&a8原油发电机&r消耗燃料产生能量。"
     ]
     quest.05ACCA23B0F13E0A.quest_desc:[
         "&a油菜压榨机&r可以将&a油菜&r压成&a菜籽油&r，菜籽油处理后就是&a精制菜籽油&r。"
@@ -1740,11 +1739,11 @@
         "这个教程面面俱到，如果需要帮助的话它绝对能帮到你！"
     ]
     quest.0E06BDC6265EB7F7.quest_desc:[
-        "&6ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏前期并不是特别重要的东西，因为你初始网络自带36个频道。但是一个没有&6控制器&r的网络只能&b暂时拿来用用&r。"
+        "&6ME控制器&r可以用来增加一个网络中的频道数量，这个东西在游戏前期并不是特别重要的东西，因为你初始网络自带16个频道。但是一个没有&6控制器&r的网络只能&b暂时拿来用用&r。"
         ""
         "ME控制器是你的ME网络路由中心，一个网络内不允许存在两个互相独立的ME控制器，如果实在需要大量频道的话，你可以选择建造一个巨大的ME控制器多方块结构。"
         "{@pagebreak}"
-        "这个整合包开启了4倍频道设置，所以一个面可以提供&b128个频道&r，所以只要你愿意加控制器的话，根本不用担心频道问题。"
+        "这个整合包开启了2倍频道设置，所以一个面可以提供&b64个频道&r，所以只要你愿意加控制器的话，根本不用担心频道问题。"
         ""
         "你可以在AE2教程中，获得更多多方块控制器的介绍和建筑规则。"
     ]
@@ -1761,21 +1760,21 @@
         "量子计算机的基础方块是&d量子合成存储器&r，&6量子合成器&r和&6多方块量子计算机&r都需要它。"
     ]
     quest.46A1341E5E97ABDC.quest_desc:[
-        "构建属于你的&bAE网络&r前，首先了解一下有关&6频道&r的知识吧。你不用担心频道用得抠抠搜搜，因为这个包的AE频道数量&b翻了四倍&r，对新手极其友好。"
+        "构建属于你的&bAE网络&r前，首先了解一下有关&6频道&r的知识吧。你不用担心频道用得抠抠搜搜，因为这个包的AE频道数量&b翻了两倍&r，对新手极其友好。"
         ""
         "&6频道&r是你网络能同时处理的设备最大值，如果巧妙利用一些机制，或者加装多方块&aME控制器&r的话，就可以提升频道。后面的任务会介绍多方块控制器。"
         ""
-        "这个包因为频道数翻了四倍，所以你的初始网络应该有&632个频道&r。"
+        "这个包因为频道数翻了两倍，所以你的初始网络应该有&616个频道&r。"
         "{@pagebreak}"
         "你可以用三种不同的ME线缆连通你的网络，这三种线缆分别为&b玻璃线缆&r，&b致密线缆&r，以及&6智能线缆&r。"
         ""
         "每个线缆所传递频道数都不同，意味着如果你线缆全都用ME玻璃线缆的话，大后期必然会出问题。"
         "{@pagebreak}"
-        "&b玻璃线缆&r可以传输能量，在该整合包设定下可以传递&b32个频道&r。"
+        "&b玻璃线缆&r可以传输能量，在该整合包设定下可以传递&b16个频道&r。"
         ""
         "&6智能线缆&r传递频道数和玻璃线缆一样，但是它可视化了线缆的频道负载。"
         ""
-        "&a致密线缆&r可以传递&b128个频道&r，但不能连接总线和面板。如果你想的话可以制作智能致密线缆！"
+        "&a致密线缆&r可以传递&b64个频道&r，但不能连接总线和面板。如果你想的话可以制作智能致密线缆！"
     ]
     quest.450A1BAD728F594B.quest_desc:[
         "等你成功连通了两个&d量子桥&r后，就可以合成并链接&6量子桥卡&r，然后把它装入你的无线终端里！这张卡可以让你无视维度限制访问AE网络。"
@@ -2443,17 +2442,6 @@
     quest.740DA65D6FB1F0EC.quest_desc:[
         "&a魂金&r是一种被注入灵魂的特殊合金，能用来做一些游戏后期的机器，比如&d灵魂绑定器&r和&a头颅装配机&r。"
     ]
-    quest.109CB437DFAECDC6.quest_desc:[
-        "在&6末影接口&r模组中，&a合金炉&r会是你使用频率最高的机器，它是&7原始合金炉&r的改进版本，而且你能使用&b电容&r提升它的性能。"
-        ""
-        "在&a合金炉&r的界面中，你可以按你的需求进行配置来实现自动化。你可以配置每面的输入输出模式、红石模式以及切换三种工作模式。"
-        "{@pagebreak}"
-        "&e仅合金配方&r：这个模式下合金炉只能处理合金配方。"
-        ""
-        "&e烧炼模式&r：这个模式下合金炉就是个电熔炉而已。"
-        ""
-        "&e合金和烧炼配方&r：这个模式下熔炼和合金配方不分离，等你要烧的物品变成合金就知道错了。"
-    ]
     quest.4782346A565FF21F.quest_desc:[
         "&a半自磨机&r可以将物品磨成粉，它能够实现矿石增产。"
         ""
@@ -2538,6 +2526,8 @@
     ]
     quest.33C16E82B90E5C1F.quest_desc:[
         "在&6极限反应堆&r这款强大的能源模组中，你可以建造&a反应堆&r和&d涡轮机&r来利用&3核能&r。"
+        ""
+        "To get started, you'll need to craft some &6Uranium&r. This is the fuel and lifeblood of &dReactors&r!"
     ]
     quest.055F4DA6E97B36B9.quest_desc:[
         "&d反应堆&r是一个多方块结构，可以用来发电，也可被用作汽化冷却剂。"
@@ -2549,20 +2539,13 @@
         "若是正确搭建，那么&d反应堆&r结构应该出现材质变化，并且当你与&a控制器&r交互时会出现UI界面。"
         "{@pagebreak}"
         "&a基础框架&r可以建造最大5*5*5的&d反应堆&r。"
-        ""
+        "{@pagebreak}"
         "&2强化框架&r可以建造最大32*32*48的&d反应堆&r。"
         ""
-        ""
+        "A &2Reinforced Frame&r can build a &dReactor&r as big as 32x32x48."
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
-    ]
-    quest.3DDEFC2521CAF3BA.quest_desc:[
-        "实际上，在&d反应堆&r内产生的能量是&c热能&r。"
         ""
-        "辐照后的燃料产生热量，&e慢化剂&r通过吸收辐射将&a燃料棒&r中的热能导出。"
-        ""
-        "&a外壳&r上的&c温度&r决定生成能量还是汽化&b冷却剂&r。"
-        ""
-        "将&a燃料棒&r上的&c热量&r传出是反应堆设计中的重要环节，而&e慢化剂&r在其中起到了关键作用。"
+        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
     ]
     quest.18A73FAF4D0F9F40.quest_desc:[
         "辐射&e慢化剂&r是&d反应堆&r内用于吸收辐射并从&a燃料棒&r导&c热&r的方块或流体。"
@@ -2570,6 +2553,8 @@
         "&e慢化剂&r效能差异显著，稀有或高成本的方块/流体通常属性更强。"
         ""
         "若在&d反应堆&r内放置无效的&e慢化剂&r，将无法形成其多方块结构。"
+        ""
+        "Note: &3Graphite Blocks&r are great Moderators to start out with!"
     ]
     quest.2CD606A9C5C786D8.quest_desc:[
         "有两种使&d反应堆&r冷却的方式："
@@ -2578,10 +2563,11 @@
         ""
         "此为标准的独立&d反应堆&r配置。"
         ""
-        ""
+        "&aActive Cooling&r: Uses an external coolant to dissipate &cHeat&r."
         "&a主动冷却&r：通过外部冷却剂进行&c散热&r。"
-        ""
+        "In this case, the coolant will be vaporized and the vapor can be extracted from the &dReactor&r to drive the rotors of one or more &3Turbines&r"
         "在此模式下，冷却剂会被汽化，产生的蒸汽可从&d反应堆&r中导出，并驱动一台或多台&3涡轮机&r的转子发电。"
+        "To convert a reactor to an &aActive Cooling&r Reactor, you will need a new port!"
     ]
     quest.07CC52EDB45C7994.quest_desc:[
         "多方块结构都有尺寸限制，且&d反应堆&r与&3涡轮机&r均有两种规格："
@@ -2589,11 +2575,6 @@
         "&a基础结构&r：搭建成本较低，是前期发电的理想选择。"
         ""
         "&2强化结构&r：建造更大型的多方块结构，但造价显著提升。"
-    ]
-    quest.2137D5491D1AAF0D.quest_desc:[
-        "各类功能型方块可用于提升&d反应堆&r的自动化水平、维护效率及运行性能。"
-        ""
-        "完整清单请查阅&a《The Extreme Book》&r中的“&d反应堆&r”章节，手册左页展示三种基础组件，右页则为进阶部件详解。"
     ]
     quest.5BBE73445913E9A3.quest_desc:[
         "&c再处理器&r是可以通过将&d反应堆&r废料转化为新的燃料或资源来重复利用乏燃料的多方块结构。"
@@ -2698,6 +2679,36 @@
         "将十六个&b蓝锥矿晶体&r和两桶&b液态&c废料&r放入再处理机中以制造&a晶振&r。"
         ""
         "在&d反应堆&r和&3涡轮机线圈&r中，&a晶振&r材料有着最优秀的性能。"
+    ]
+    quest.3E25EAA3D2851941.quest_desc:[
+        "&bReactor Walls&r are used to build the structural frame of the &dReactor&r multiblock."
+        ""
+        "&bReactor Glass&r can be used on non-frame blocks when building bigger &dReactors&r."
+        ""
+        "You will need at least 22 &bWalls&r to build your first &dReactor&r."
+        ""
+        "Keep in mind that the maximum size &dReactor&r you can build with the &eBasic&r tier is a 5x5x5 structure."
+    ]
+    quest.1839CCDAC3346C27.quest_desc:[
+        "&bFuel Rods&r are where your &dReactor&r stores its fuel. The more &bFuel Rods&r you have, the more fuel will be needed to completely fill it."
+        ""
+        "&bControl Rods&r allow you to control the &eInjection Rate&r, which is how fast your &dReactor&r burns through fuel. This directly affects your power generation. Burning more fuel generally generates more power."
+    ]
+    quest.12BBDC662C7D6622.quest_desc:[
+        "&bPorts&r are how you interact with your &dReactor&r."
+        ""
+        "The &bSolid Access Port&r allows you to insert &6Uranium Fuel&r directly into your &dReactor&r to power it."
+        ""
+        "The &bPassive FE Power Tap&r allows you to draw out energy from your &dReactor&r."
+        ""
+        "The &bRedstone Port&r, while optional, allows you to control the status of your &dReactor&r with redstone, allowing for some automation."
+        ""
+        "There are many more &bPorts&r that you will need when building more complex systems, all of which can be found in &6The Extreme Book&r."
+    ]
+    quest.617363DDAA59D686.quest_desc:[
+        "It's time to free yourself from the limitations of the &eBasic&r blocks."
+        ""
+        "With &bReinforced&r blocks, you can build your structures up to 32x32x32 blocks, with the &dReactor&r allowing up to 32x32x48."
     ]
     quest.7D7DAC8ABD1FEFF3.quest_desc:[
         "我根本无法理解为什么有生物能在这里&o生存&r 。"
@@ -3039,6 +3050,18 @@
         "&6&o&n当前任务&r：做一台末影接口的&6合金炉&r。"
         ""
         "温馨提示：在深板岩上用打火石点火，就可以获得&d无尽粉&r。"
+        ""
+        "Notes on the Alloy Smelter ->"
+        "{@pagebreak}"
+        "The &aAlloy Smelter&r is the most used machine in &6EnderIO&r and can be upgraded with &bCapacitors&r."
+        ""
+        "In the &aAlloy Smelter's&r interface, you can configure it in many different ways to improve your automation. It allows for side input/output configuration, redstone configuration, and swapping between three modes:"
+        "{@pagebreak}"
+        "&eAlloy only mode&r: Only allows the Alloy Smelter to create alloys."
+        ""
+        "&eFurnace only mode&r: Treats the Alloy Smelter as a furnace"
+        ""
+        "&eAlloying and Smelting&r: This mode will do both alloying and smelting, which can be bad when automating as some items will be smelted before turning into alloys."
     ]
     quest.56026DF98E2FD7B8.quest_desc:[
         "我早前就知道&e下界石英水晶&r，不过我实在没见过这种玩意。"
@@ -3430,6 +3453,10 @@
         "它的隔热性能也非常出色。也许是时候升级我的熔炉了！"
         ""
         "&6&o&n当前任务&r：制作一个&a铸铁熔炉&r或者&a铸铁高炉&r提升2倍的熔炼速度。"
+        ""
+        "This can be either a &aCast Iron Furnace&r, &aCast Iron Blast Furnace&r, or making a &aJumbo Furnace&r."
+        ""
+        "This is done by making a 3x3x3 cube of Furnaces."
     ]
     quest.69AC1FABD1917612.quest_desc:[
         "&b铁网&r在洗矿槽获取矿物的表现非常优异。"
@@ -3793,6 +3820,36 @@
         ""
         "注意：&a潜水头盔&r可以让你在水下视野更清晰。&a潜水胸甲&r可以为你在水下提供更多的氧气，使你停留更长时间。"
     ]
+    quest.0446F4732B120FDD.quest_desc:[
+        "With access to &cRedstone&r, setting up a better storage system is definitely something I should put some time into."
+        ""
+        "There are so many different ways that I can achieve this, but one of the best ways might be to make an early form of &6Digital Storage&r using &aIntegrated Dynamics&r."
+        ""
+        "&6&o&nTASK&r: Make an early game digital storage setup using &aLogic Cables&r, &aItem Interfaces&r, and a &dStorage Terminal&r."
+        ""
+        "Notes on the setup ->"
+        "{@pagebreak}"
+        "While &6Integrated Dynamics&r seems overly complicated, it is really easy to set up a basic digital storage setup using only a few items!"
+        ""
+        "Start by placing &aItem Interfaces&r on each of your chests that you wish to add to the storage network, then connect them all together using &aLogic Cables&r."
+        ""
+        "The &dStorage Terminal&r is then placed somewhere on a Logic Cable to connect and see the network."
+        ""
+        "The Terminal allows you to see any item that is in a connected chest, and also allows you to craft directly from the Terminal!"
+        "{@pagebreak}"
+        "If you're having trouble getting enough &dMenril Chunks&r, make sure to use the &aSqueezer&r to squeeze &2Menril Logs&r into a full bucket of Menril Resin, which can be dried in a &aDrying Basin&r for a full block of Crystallized Menril!"
+    ]
+    quest.590A170857B8CED8.quest_desc:[
+        "There are a &oLOT&r of little items that come from this &2Sluice&r."
+        ""
+        "Chests are a great start, but these items are adding up quick."
+        ""
+        "It will definitely be worth looking into setting up a better storage system!"
+        ""
+        "&6&o&nTASK&r: Craft any type of &2Storage Drawer&r."
+        ""
+        "To learn more about using Functional Storage, make sure to check out the &6General Storage&r chapter!"
+    ]
     quest.0A2DB5AFC89E852F.quest_desc:[
         "&a焦炉&r是一个定位于游戏前期用于将煤炭转化为&3焦煤&r和&7杂酚油&r的多方块结构。"
         ""
@@ -3839,11 +3896,11 @@
         ""
         "左上角的按钮能将物品均分至12个槽位。"
         ""
-        "右侧的四个槽位用于加入某些特殊配方的材料。"
+        "右侧的四个槽位用于加入某些特殊配方的附加材料。"
         "{@pagebreak}"
         "&l自动化：&r"
         ""
-        "Input and additives are inserted through the left and right hatches at the top of the structure."
+        "结构顶部的两个接口用于物品输入和附加材料输入。"
         ""
         "The bottom slot in the back will output slag, and the front one will output the main process."
         ""
@@ -4624,7 +4681,7 @@
         ""
         "这些卡都可以随心所欲地配置。比如&a物品卡&r可以从不同的地方提取或输入物品，还可以写入过滤条件，实现精准自动化。"
         "{@pagebreak}"
-        "打开&a激光节点&r的UI后，可以再里面查看激光节点的各个面信息。激光节点的面决定卡的工作位置，你就当卡是那个面的模式就行。"
+        "打开&a激光节点&r的UI后，可以在里面查看激光节点的各个面信息。在这里可以决定卡工作的位置，说白了就是卡可以调整那个面的模式。"
         ""
         "你还可以给卡升级，提升节点和对应方块交互的速度，甚至可以实现极快速度的自动化。卡还可以设定过滤和特定频道。"
         "{@pagebreak}"
@@ -5159,9 +5216,9 @@
     quest.58AA1E1E16977E47.quest_desc:[
         "这种&a催化器&r是激活那块水晶的关键所在。"
         ""
-        "&b海洋催化器&r放置在距离水晶某一侧几个方块远的地方。确保其黑色的那一小面正对着水晶"
+        "&b海洋催化器&r放置在距离水晶某一侧几个方块远的地方。确保其有黑色小孔的那一面正对着水晶。"
         ""
-        "然后，你需要使用像漏斗之类的东西，把&2海晶碎片&r注入催化器中。"
+        "然后，你需要使用像漏斗之类的东西，把&b海晶碎片&r注入催化器中。"
         "{@pagebreak}"
         "如果操作正确，催化器相对的一侧会向&b海蓝水晶&r射出一道激光束。这样就会产生一道我们可以用来提纯&a海蓝钢化合物&r的激光束。"
         "{@pagebreak}"
@@ -6487,6 +6544,92 @@
     quest.0D4C45BBECC8A780.quest_desc:[
         "提升操作速度和能量使用效率。"
     ]
+    quest.5FC606C21AA7310C.quest_desc:[
+        "The &dCybernetic Augmentation Center&r allows you to install cybernetic &bAugmentations&r directly into your body, providing you with a variety of passive benefits and active abilities."
+        ""
+        "Walk into the assembled machine to open the &bResearch \&\ Application Interface&r. Each &bAugmentation&r has an energy and resource costs, which can be stored in the center's or the player's inventory."
+        ""
+        "Once you have researched an &bAugment&r, they become available for installation, requiring additional resources."
+        ""
+        "&c&lBE CAREFUL!&r The center stores all researched blueprints, this means all research will be lost when the machine is destroyed!"
+        ""
+        "Should you ever accidentally destroy your center, existing player &bAugmentations&r can be scanned in via the Import button in the bottom-left of the interface."
+        "{@pagebreak}"
+        "All &bAugmentations&r are installed permanently, requiring no additional maintenance or energy, and can be removed at any time, but the resources used for installation are lost."
+        ""
+        "Some abilities can be toggled while others remain always-active. Press and hold the &bAugmentation&r hotkey (\"G\" by default), hover over the desired augment, and release to toggle it."
+    ]
+    quest.5FE085B5672EEA5D.quest_desc:[
+        "The &dAugmentation Center&r has 3 multiblock research slots which are attached similar to &eAddon Slots&r."
+        ""
+        "Each station requires 3 machine cores and can handle one research at a time."
+        ""
+        "Better stations are required for better &bAugments&r."
+    ]
+    quest.3E719C5EB260F7E7.quest_desc:[
+        "&6Oritech Reactors&r are a great way to generate large amounts of power."
+        ""
+        "This block needs to be placed once somewhere on the walls, which should be made entirely of &eReactor Walls&r except for where &2Energy Ports&r should go."
+        ""
+        "The interface shows the current status of the reactor, along with the temperatures of the components and statistics. It also only shows the first layer of the interior."
+        ""
+        "Consuming uranium or plutonium pellets produces RF based on the number of &aReactor Rods&r and &bNeutron Reflectors&r next to the rods. "
+        ""
+        "&cIt is important to keep everything sufficiently cooled!&r"
+    ]
+    quest.499FE5B9A6E42D1B.quest_desc:[
+        "&aReactor Fuel Rods&r are interior components that need to be supplied with uranium or plutonium pellets to generate heat."
+        ""
+        "When burning fuel, &aFuel Rods&r will generate neutron pulses that create a specific amount of energy, the more pulses a rod receives, the more energy it also creates. However, if a neighbor component is also a &aFuel Rod&r, it will also hit the neighboring component with a pulse."
+        ""
+        "The amount of heat generated is based on the total pulses of a rod (internal + external pulses)."
+        ""
+        "A &aSingle Rod&r will generate 1 internal pulse, a &aDouble Rod&r 4, and a &aQuad Rod&r 12. "
+        "{@pagebreak}"
+        "&eNeutron Reflectors&r can be used to send a pulse back to its origin, acting as a similar rod type to its neighbor, increasing its efficiency."
+        ""
+        "Each &aFuel Rod&r will consume a fixed amount of fuel from the &bReactor Fuel Ports&r above the stack. Each fuel pellet has a capacity, and each rod will use 1 capacity unit, a double rod uses 2, and a quad rod uses 4."
+    ]
+    quest.385FCE9BEC913790.quest_desc:[
+        "&cReactor Heat Vents&r remove heat from the hottest neighboring component (&3Fuel Rods&r or &cHeat Pipes&r) and vent it out of the &dReactor&r."
+        ""
+        "The amount of heat removed is based on the temperature of the neighboring component. Hotter components will result in more heat removed."
+        ""
+        "&cReactor Heat Pipes&r take heat from &3Fuel Rods&r and spread it among neighboring &cHeat Vents&r."
+        ""
+        "The maximum transferred heat amount from a neighbor component is based on the temperature difference between them."
+    ]
+    quest.12F774E4D4B62CCB.quest_desc:[
+        "&bReactor Heat Absorbers&r remove a fixed amount of heat from all neighboring components making it more efficient when surrounded by components that need to be cooled."
+        ""
+        "It requires a constant supply of coolant in the form of ice (or blue/packed ice), which can be inserted via the &bCoolant Port&r above the &bAbsorber&r stack."
+        ""
+        "The amount of coolant used is fixed, and does not increase with more sides being cooled. Each tick, 16 units of heat are removed from each neighbor."
+        ""
+        "A &bReactor Coolant Port&r must be placed on the outer ceiling of the &dReactor&r, with &bHeat Absorbers&r beneath it."
+    ]
+    quest.53F1206438C02132.quest_desc:[
+        "The &2Reactor Energy Port&r is used to output the energy generated by the &dReactor&r, and it needs to be placed on one of its outer walls."
+        ""
+        "Each port may output up to 25 000 RF/t."
+        ""
+        "The &cReactor Redstone Port&r can disable the intake of new fuels, but will finish burning any pellet that has already started burning before the reactor is fully shut off."
+        ""
+        "It can also be used with a comparator to output data. It has 3 modes which can be cycled by right-clicking the port: Energy, Active Rod Count, and Temperature."
+    ]
+    quest.5A34991062F66626.quest_desc:[
+        "The &dReactor&r needs to be made of rectangular walls, where the frame is made of reactor wall blocks. The max size of a reactor is 64 blocks per direction. Its interior needs to be identical in the vertical (y) axis. "
+        ""
+        "Even though the &dReactor&r allows for some heat build-up, a properly cooled design should not produce any leaking heat."
+        ""
+        "You can design your &dReactors&r as you wish. In general, &aDual/Quad Rods&r use fuel more efficiently, generating more total RF per pellet, but are also much harder to cool."
+        ""
+        "You can use active cooling with the &bHeat Absorbers&r, or passive cooling with just &cHeat Vents&r."
+        ""
+        "If a &aFuel Rod&r contains a temperature of over 2000°C for a long period of time, it will overheat and trigger a &4NUCLEAR MELTDOWN&r!"
+        ""
+        "Warning sirens will engage before it reaches those temperatures. Depending on the size of the &dReactor&r and the number of &aFuel Rods&r, the meltdown will result in a bigger or smaller explosion."
+    ]
     quest.1C58933205E5C96D.quest_desc:[
         "在你做出一些基础的&b蒸汽发电机&r后，就该准备和蒸汽说再见了！"
         ""
@@ -6599,11 +6742,6 @@
     ]
     quest.2AE9ADF578ABEA11.quest_desc:[
         "1个终级精华=256个下级精华"
-    ]
-    quest.737E1886B44C3D8B.quest_desc:[
-        "&b神秘农业&r的工具与盔甲可以在&a工具装配台&r上升级，需要消耗各类&d升级&r。"
-        ""
-        "这些升级的等级不同，只能升级同级或更高级的物品。同时每件工具的升级槽都十分有限，升级时千万牢记！"
     ]
     quest.5E04779BC1EB52E9.quest_desc:[
         "&b元素种子&r可以收获基础元素精华来合成物品，比如水桶和熔岩桶。"
@@ -6807,7 +6945,7 @@
         ""
         "&6&o&n当前任务&r：制作一个&6裂缝缓冲水晶&r。"
         ""
-        "Note: When crafting the crystal, anyone with a 5 block radius from the &6Empowerer&r will gain &6Rift Charge&r based on the item crafted."
+        "Note: When crafting the crystal, any online Teammember, thats not currently in the &dRift&r, will gain &6Rift Charge&r based on the item crafted."
         ""
         "&6裂缝缓冲水晶&r只能拿来合成下一阶的东西。"
     ]
@@ -7352,17 +7490,17 @@
         ""
         "那么接下来我就要对这个水晶上下其手了……"
         ""
-        "&6&o&n当前任务&r：用&b海洋催化剂&r和&d海洋之心&r激活水晶，然后用水晶制造&6海蓝钢&r。"
+        "&6&o&n当前任务&r：用&b海洋催化剂&r激活水晶，然后用水晶制造&6海蓝钢&r。"
         ""
         "激活水晶说明（翻下一页！）"
         "{@pagebreak}"
-        "请把&b海洋催化器&r放在水晶某侧几个方块远的地方。"
+        "请把&b海洋催化器&r放在水晶某侧几个方块远的地方，注意它必须要在水晶中心的一条线上！"
         ""
-        "然后在它背对着水晶的一面，对着&b海洋催化器&r使用&d海蓝水晶碎片&r。"
+        "然后，你需要使用像漏斗之类的东西，把&b海晶碎片&r注入催化器中。"
         ""
-        "然后，你需要使用像漏斗之类的东西，把&2海晶碎片&r注入催化器中。"
+        "如果一切妥当，那么它就会自动往水晶上射出一道激光！"
         ""
-        "激光束能直接把你打死。"
+        "注意：激光束能直接把你打死。"
     ]
     quest.619CA9553F525040.quest_desc:[
         "这种水晶所迸发出的狂野力量，应该不仅仅只能拿来纯化物品。"
