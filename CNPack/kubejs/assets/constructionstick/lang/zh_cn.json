@@ -4,7 +4,7 @@
     "constructionstick.description.durability.limited":"%d个方块",
     "constructionstick.description.key.sneak":"潜行",
     "constructionstick.description.key.sneak_opt":"潜行+%s",
-    "constructionstick.description.stick":"%s可以在你面向的方块一次放置最多%s个方块，并可以持续放置%s。\n\n按下快捷键%s键以更改放置方向锁定（水平、垂直、北/南、东/西、无锁定）。\n\n按下快捷键%s键打开选项屏幕。\n\n§5§n撤销§0§r\n按下快捷键%s键并看向方块时，会显示最近放置的方块，并在其周围显示绿色边框。在查看任何一项时按下快捷键%s键，将撤销操作返还所有物品。如果你使用了破坏升级，它将恢复被破坏的方块。\n\n§5§n容器§0§r\n潜影盒、收纳袋和其他模组的许多容器可以为建筑棒提供建筑方块。\n\n§5§n副手优先级§0§r\n当副手上有方块时，会放置它们而不是你正在看向的方块。",
+    "constructionstick.description.stick":"%s可以在你面向的方块一次放置最多%s个方块，并可以持续放置%s。\n\n按下快捷键%s以更改放置方向锁定（水平、垂直、北/南、东/西、无锁定）。\n\n按下快捷键%s打开选项屏幕。\n\n§5§n撤销§0§r\n按下快捷键%s键并看向方块时，会显示最近放置的方块，并在其周围显示绿色边框。在查看任何一项时按下快捷键%s键，将撤销操作返还所有物品。如果你使用了破坏升级，它将恢复被破坏的方块。\n\n§5§n容器§0§r\n潜影盒、收纳袋和其他模组的许多容器可以为建筑棒提供建筑方块。\n\n§5§n副手优先级§0§r\n当副手上有方块时，会放置它们而不是你正在看向的方块。",
     "constructionstick.description.template_angel":"天使方块升级会在你面对的方块（或一排方块）的后面放置一个方块。最大距离取决于建筑棒等级。右键点击空白区域，将方块放置在空中，放置时需要将要放置的方块放在副手。",
     "constructionstick.description.template_battery":"电池升级允许您使用能量而不是耐久度。建筑棒将可以存储能量，并使用这些能量来放置方块。警告，只有当你拥有一个提供相应功能的mod时，才能为该建筑棒充能。",
     "constructionstick.description.template_destruction":"破坏升级会破坏面向你的那一侧的方块（不包括方块实体）。最大方块数量取决于建筑棒等级。",

@@ -357,16 +357,16 @@
     task.5E3DB978C813B92A.title:"&f控制点接入器"
     quest.6D2B6421B1115667.title:"&f压缩抽屉"
     task.6FA17DE3B63BDA1A.title:"&f压缩抽屉"
-    quest.093FB6A70B7243F9.title:"&f配置你的抽屉"
+    quest.093FB6A70B7243F9.title:"&f配置抽屉"
     quest.019C7CBC9B62C803.title:"&f镶框抽屉"
     task.42D7392235F0A913.title:"&f镶框抽屉"
     quest.49DD167D6323406B.title:"&f流体抽屉"
     task.3C30835D105E888F.title:"&f流体抽屉"
     quest.4A207BA624849BB8.title:"&d末影抽屉"
-    quest.1AA08B095A8B378F.title:"&f链接你的抽屉们"
+    quest.1AA08B095A8B378F.title:"&f链接抽屉"
     quest.141CE17C25D2A53A.title:"&a背包升级&r"
     task.34E73B963E55E8DF.title:"背包升级"
-    quest.304B25BADD64077D.title:"&f存储升级"
+    quest.304B25BADD64077D.title:"&f升级等级"
     task.51E0FB26781697CB.title:"背包等级"
     quest.08204AA5ACCC914E.title:"&f五颜六色的背包！"
     task.5B8D61770B7554D0.title:"&f通用存储"
@@ -469,53 +469,53 @@
     task.4A0037264C36EBE1.title:"&e观察&f：&d电弧炉"
     quest.7F6363864003FFC0.title:"&f金属冲压机"
     task.04A70E089DED1FFE.title:"&e观察&f：金属冲压机"
-    quest.207CE761F35EB902.title:"&f制作组件&b工程师蓝图"
+    quest.207CE761F35EB902.title:"&f合成用零件&b工程师蓝图"
     quest.5461C3C56F568B75.title:"&f金属模具&b工程师蓝图"
     quest.4E48ACEA714B5976.title:"&f电弧炉电极&b工程师蓝图"
     quest.660443512BB2E867.title:"&d石墨电极"
-    quest.287D00E1CE70F334.title:"&f强化高炉"
-    task.3A3DB763BBBC3F31.title:"&eObserve&f: Improved Blast Furnace"
-    quest.026A64F01C301119.title:"&3HOP Graphite&r"
-    quest.2E9C2F524BE5FC10.title:"&fEngineering Blocks"
-    quest.1461682BD1978BA8.title:"&fCrusher"
-    task.4750B6095A6DC2F2.title:"&eObserve&f: Crusher"
-    quest.1EFED5AC265CDB0C.title:"&fMetal Plates \&\ Wires"
-    quest.61D6B29594193438.title:"&fImmersive Power"
-    quest.3CADD463CFC2FE32.title:"&fThermoelectric Generator"
-    quest.648083DCC5BDF216.title:"&fKinetic Generator"
-    quest.4843F5564CA5810C.title:"&fDiesel Generator"
-    task.4C37818287E9D1ED.title:"&eObserve&f: Diesel Generator"
-    quest.29C1C4491D8B344E.title:"&fLightning Rod"
-    task.0E8C4E7C9C329FA2.title:"&eObserve&f: Lightning Rod"
-    quest.7C19FA7515BC295F.title:"&cMV Wires"
-    quest.05A13861001BBF3C.title:"&dHV Wires"
-    quest.7C7C53CB012B14C5.title:"&fAccumulators"
-    task.2B2AC5A9A28F14A9.title:"Accumulators"
-    quest.65A18B0DA64B7A42.title:"&fLogistics"
-    quest.234945ED1315945B.title:"&fProjectiles &bBlueprints"
-    quest.7BBE12078C2FC82E.title:"&cAdvanced Electronic Component"
-    quest.580FC87308E6D5B9.title:"&fDuroplast Sheet"
-    quest.3CF48BB941321C47.title:"&fBottling Machine"
-    task.6CDF504643794087.title:"&eObserve&f: Bottling Machine"
-    quest.3BD6FEDB8CFAC914.title:"&fPhenolic Resin"
-    quest.1036AB9D02AB96F1.title:"&fRefinery"
-    task.77B96BEA9D8D8654.title:"&eObserve&f: Refinery"
-    quest.2F933169CF164EC7.title:"&fAcetaldehyde"
-    quest.3F4C25DF20877606.title:"&fEthanol"
-    quest.1962F37154380EBF.title:"&fFermenter"
-    task.5E824F724F133342.title:"&eObserve&f: Fermenter"
-    quest.37CA431C28D82E55.quest_subtitle:"So anyway, I started blasting"
-    quest.37CA431C28D82E55.title:"&dRailgun"
-    quest.1507B28963B38101.title:"&fAutomated Engineer's Workbench"
-    task.63631EC45A5E0BD0.title:"&eObserve&r: Auto Workbench"
-    quest.436BFB9B69B6D4A7.title:"&fIndustrial Squeezer"
-    task.3F7FE89F1DBD4A48.title:"&eObserve&f: Squeezer"
-    quest.6B04DF90E7F33C9D.title:"&fCoke Dust"
-    quest.21E8659A60134C9B.title:"&fBucket of Redstone Acid"
-    quest.1F9E582F684EA247.title:"&fMixer"
-    task.6C1AB8986784E504.title:"&eObserve&f: Mixer"
-    quest.5878F6DB12C22339.title:"&fRevolver"
-    quest.073BE902F972D190.title:"&fGun Modding"
+    quest.287D00E1CE70F334.title:"&f改良高炉"
+    task.3A3DB763BBBC3F31.title:"&e观察&f：改良高炉"
+    quest.026A64F01C301119.title:"&3高定向热解石墨&r"
+    quest.2E9C2F524BE5FC10.title:"&f工程块"
+    quest.1461682BD1978BA8.title:"&f粉碎机"
+    task.4750B6095A6DC2F2.title:"&e观察&f：粉碎机"
+    quest.1EFED5AC265CDB0C.title:"&f金属板\&\线"
+    quest.61D6B29594193438.title:"&f沉浸工程的能量系统"
+    quest.3CADD463CFC2FE32.title:"&f热传导发电机"
+    quest.648083DCC5BDF216.title:"&f动能发电机"
+    quest.4843F5564CA5810C.title:"&f柴油发电机"
+    task.4C37818287E9D1ED.title:"&e观察&f：柴油发电机"
+    quest.29C1C4491D8B344E.title:"&f避雷针"
+    task.0E8C4E7C9C329FA2.title:"&e观察&f：避雷针"
+    quest.7C19FA7515BC295F.title:"&c中压线圈"
+    quest.05A13861001BBF3C.title:"&d高压线圈"
+    quest.7C7C53CB012B14C5.title:"&f蓄电池"
+    task.2B2AC5A9A28F14A9.title:"蓄电池"
+    quest.65A18B0DA64B7A42.title:"&f物流系统"
+    quest.234945ED1315945B.title:"&f子弹&b工程师蓝图"
+    quest.7BBE12078C2FC82E.title:"&c高级电子元件"
+    quest.580FC87308E6D5B9.title:"&f工程塑料板"
+    quest.3CF48BB941321C47.title:"&f灌装机"
+    task.6CDF504643794087.title:"&e观察&f：灌装机"
+    quest.3BD6FEDB8CFAC914.title:"&f酚醛树脂"
+    quest.1036AB9D02AB96F1.title:"&f精炼厂"
+    task.77B96BEA9D8D8654.title:"&e观察&f：精炼厂"
+    quest.2F933169CF164EC7.title:"&f乙醛"
+    quest.3F4C25DF20877606.title:"&f乙醇"
+    quest.1962F37154380EBF.title:"&f发酵机"
+    task.5E824F724F133342.title:"&e观察&f：发酵机"
+    quest.37CA431C28D82E55.quest_subtitle:"不管了，这回我要搞点大动静"
+    quest.37CA431C28D82E55.title:"&d磁轨炮"
+    quest.1507B28963B38101.title:"&f自动化工程师装配台"
+    task.63631EC45A5E0BD0.title:"&e观察&r：自动工作站"
+    quest.436BFB9B69B6D4A7.title:"&f工业挤压机"
+    task.3F7FE89F1DBD4A48.title:"&e观察&f：挤压机"
+    quest.6B04DF90E7F33C9D.title:"&f焦煤粉"
+    quest.21E8659A60134C9B.title:"&f红石酸桶"
+    quest.1F9E582F684EA247.title:"&f搅拌机"
+    task.6C1AB8986784E504.title:"&e观察&f：搅拌机"
+    quest.5878F6DB12C22339.title:"&f左轮手枪"
+    quest.073BE902F972D190.title:"&f枪支改造"
     quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems 'n Jewelry&f mod!"
     chapter.143441998FF2D8BD.title:"Iron's Jewelry"
     quest.6045E57AA8E56711.title:"&f红宝石"
@@ -574,7 +574,7 @@
     quest.2F057F981B68EB95.title:"&f初级流体放置器"
     quest.5B499DF961D9308B.title:"&f初级点击器"
     quest.389A8206E7B3A22C.title:"&f初级方块放置器"
-    quest.04013A6813F80EF7.title:"&f升级版的&c燃料"
+    quest.04013A6813F80EF7.title:"&f升级版&c燃料"
     quest.4962BB8B57D6650E.title:"&f制造&c更多流体"
     quest.78A644464D4C506A.title:"&6传送枪"
     quest.04D4223CC7A21FA4.title:"&f高级传送枪"
@@ -684,7 +684,7 @@
     quest.799515068A0B6D57.title:"&f自动点击"
     quest.314E9901D4E89E6F.title:"&f检测红石信号"
     quest.1F6FE0AAF690665D.title:"&f通用路由器升级"
-    quest.0ED940DF43A934ED.title:"&f虚空模块"
+    quest.0ED940DF43A934ED.title:"&f真空模块"
     quest.1739969280BB4E82.quest_subtitle:"传输红石信号"
     quest.1739969280BB4E82.title:"&f红石导管"
     quest.34D191F76AA69707.title:"&6通量网络"
@@ -724,16 +724,16 @@
     quest.7EF7546FF007EF36.title:"&2生物燃料&r"
     quest.007CD364F96C2912.title:"&f跑得&a飞快&r！"
     quest.27C5F8272212B35A.title:"&a建立&d工厂"
-    task.223BF1DD305A9FC5.title:"工厂升级安装器"
+    task.223BF1DD305A9FC5.title:"工厂安装器"
     quest.114B4840D2FA1CDF.title:"&a提纯矿物&r"
     quest.38BD69DD1995E971.title:"&9二阶矿物处理线&r"
-    task.591E2F53EFC69C37.title:"&9阶段二"
+    task.591E2F53EFC69C37.title:"&9二阶"
     quest.562156281B8D0843.title:"&a电解分离器&r"
     quest.24F17FA24ED466FA.title:"{\"text\": \"基础液体储罐\", \"color\": \"#5EFCB6\"}"
     quest.1FBEA2EB39456FD5.quest_subtitle:"存储气体"
     quest.1FBEA2EB39456FD5.title:"{\"text\": \"基础化学品储罐\", \"color\": \"#5EFCB6\"}"
     quest.3FE99AE10B0737BB.title:"&f大量存储单一物品"
-    quest.5B85AB4B095F240B.title:"&f充充充！"
+    quest.5B85AB4B095F240B.title:"&f充能"
     quest.24E7FEB8D24FAB4A.title:"&a化学压射室&r"
     quest.53EEF2EC6314E8F2.title:"&b强化合金"
     quest.02F52598328E84A0.title:"&b精英控制电路"
@@ -1186,7 +1186,7 @@
     task.160B0F1F03749876.title:"进入&5裂缝&r"
     quest.1843C6E119E4E92D.title:"时间就是金钱"
     quest.134C281AEA99E5A3.title:"延长时限"
-    quest.40C04194E9876363.quest_subtitle:"Break a Nautec Prismarine Crystal"
+    quest.40C04194E9876363.quest_subtitle:"打破一个Nautec的海蓝水晶"
     quest.40C04194E9876363.title:"发现波塞冬的小秘密"
     quest.46169983AA03D507.title:"裂缝编织者"
     quest.5D693FF0A43C2D75.quest_subtitle:"多态流体"
@@ -1441,7 +1441,7 @@
         "&a油菜压榨机&r可以将&a油菜&r压成&a菜籽油&r，菜籽油处理后就是&a精制菜籽油&r。"
     ]
     quest.210E56AC8F66C19E.quest_desc:[
-        "&a经验固化机&r可以将玩家的经验固化为&a固化经验&r。"
+        "&a经验固化器&r可以将玩家的经验固化为&a固化经验&r。"
         ""
         "&a固化经验&r就是经验的固化形态（废话），右击使用即可取回固化的经验（如果潜行右击则会消耗一组的固化经验）。"
     ]
@@ -2776,7 +2776,7 @@
         ""
         "如何正确使用？请翻下一页——>"
         "{@pagebreak}"
-        "&6Oritech&r的机器是需要使用&a机器核心&r来搭建的多方块机器，放下机器本体后，右击它就可以查看需要在哪里放置&a机器核心&。手持机器核心右击它就会自动放置机器核心。"
+        "&6Oritech&r的机器是需要使用&a机器核心&r来搭建的多方块机器，放下机器本体后，右击它就可以查看需要在哪里放置&a机器核心&r。手持机器核心右击它就会自动放置机器核心。"
         ""
         "目前你可以制作前三个等级的机器核心，需要更多信息请移步&6Oritech&r章节。"
         ""
@@ -2982,7 +2982,7 @@
         "&6&o&n当前任务&r：探索用&b下界石英&r可以做出的各种物品。"
     ]
     quest.2A9FBA823B2C99E9.quest_desc:[
-        "流动态的&c熔岩&同时碰到灵魂土和蓝冰后，就会产生&6玄武岩&r。"
+        "流动态的&c熔岩&r同时碰到灵魂土和蓝冰后，就会产生&6玄武岩&r。"
         ""
         "粉碎玄武岩后再用洗矿槽冲洗，想必是个做下界岩的好办法。"
         ""
@@ -3051,17 +3051,17 @@
         ""
         "温馨提示：在深板岩上用打火石点火，就可以获得&d无尽粉&r。"
         ""
-        "Notes on the Alloy Smelter ->"
+        "合金炉使用说明（翻下一页！）"
         "{@pagebreak}"
-        "The &aAlloy Smelter&r is the most used machine in &6EnderIO&r and can be upgraded with &bCapacitors&r."
+        "&a合金炉&r将是你&6末影接口&r旅途中最常用的机器，可以用&b电容&r升级。"
         ""
-        "In the &aAlloy Smelter's&r interface, you can configure it in many different ways to improve your automation. It allows for side input/output configuration, redstone configuration, and swapping between three modes:"
+        "在&a合金炉&r的UI内可以按你需求进行自动化配置，比如侧面输入/输出、按红石信号工作，以及切换工作模式。"
         "{@pagebreak}"
-        "&eAlloy only mode&r: Only allows the Alloy Smelter to create alloys."
+        "&e仅限合金&r：这个模式下合金炉只能处理合金配方。"
         ""
-        "&eFurnace only mode&r: Treats the Alloy Smelter as a furnace"
+        "&e仅限熔炉&r：这个模式下合金炉就是个电熔炉而已。"
         ""
-        "&eAlloying and Smelting&r: This mode will do both alloying and smelting, which can be bad when automating as some items will be smelted before turning into alloys."
+        "&e全部烧炼&r：这个模式下熔炼和合金配方不分离，等你要烧的物品变成合金就知道错了。"
     ]
     quest.56026DF98E2FD7B8.quest_desc:[
         "我早前就知道&e下界石英水晶&r，不过我实在没见过这种玩意。"
@@ -3082,7 +3082,7 @@
     quest.767B734339EB1FA8.quest_desc:[
         "这个&c烈焰蕾凝胶&r所转化出的锭真的很强大！"
         ""
-        "所以现在我正好升级我的盔甲。"
+        "现在应该就是升级盔甲的最佳时机。"
         ""
         "&6&o&n当前任务&r：制作一套&c烈焰金&r盔甲，帮助你在熔岩维度更好生存。"
     ]
@@ -3206,9 +3206,9 @@
         "专业提示：你可以把存储升级加装到&6存储控制器&r中，可以提升存储控制器的链接范围。"
     ]
     quest.7312FFEDAD1A6F75.quest_desc:[
-        "如果你想用抽屉应对巨量的存储需求，那你得准备一个备用存储方法，&o以备你的存储系统爆满。&r"
+        "如果你想用抽屉应对巨量的存储需求，那你得准备一个备用存储方法，&o以防你的存储系统爆满。&r"
         ""
-        "&d虚空升级&r可以自动摧毁超出存储上限的物品，对于处理大量小型煤炭很有用！"
+        "&d虚空升级&r可以自动摧毁超出存储上限的物品，对于处理大量小块煤炭很有用！"
     ]
     quest.5881702D0DE6180E.quest_desc:[
         "&a收集升级&r - 给抽屉内置一个“磁铁”，可以拾取周边的东西。"
@@ -3227,30 +3227,30 @@
         "&a控制点接入器&r在链接一个特定控制器后，可以当做该抽屉控制器使用。"
     ]
     quest.6D2B6421B1115667.quest_desc:[
-        "你没必要再把铁粒铁锭铁块分开装三个抽屉了，都丢进&a压缩抽屉&r就行。"
+        "你没必要再把铁粒、铁锭、铁块分开装三个抽屉了，都丢进&a压缩抽屉&r就行。"
         ""
-        "这是特殊抽屉，可以把物品变为它的压缩形态！你可以用它轻松转化铁和金的形态！"
+        "这是特殊抽屉，可以把物品变为它的压缩形态！你可以用它轻松转化像是铁和金的形态！"
         ""
-        "&a简易压缩抽屉&r可以处理只有原物品和方块物品配方的储存，比如放各种矿的碎块！"
+        "&a简易压缩抽屉&r可以处理只有原物品和方块物品配方的储存，比如存放各种矿块！"
     ]
     quest.093FB6A70B7243F9.quest_desc:[
-        "建立自动化产线的时候，要想从抽屉中放入/提取物品会很麻烦，所以存储工具就派上用场了！"
+        "建立自动化产线的时候，要想从抽屉中存入或取出物品会很麻烦，所以存储工具就派上用场了！"
         ""
         "&6配置工具&r是用来锁定抽屉存放物品种类的，如果你要从抽屉中一直存取同类物品的话，那么它就能派上用场了！"
         ""
-        "高玩建议：如果你把抽屉都连上了&a存储控制器&r，那么可以对存储控制器使用配置工具，这样一次就能把所有抽屉全部锁定！"
+        "专业提示：如果你把抽屉都连上了&a存储控制器&r，那么可以对存储控制器使用配置工具，这样一次就能把所有抽屉全部锁定！"
         "{@pagebreak}"
         "潜行使用配置工具可以改变模式。配置工具有很多模式，比如隐藏物品存储数量，又或者为了节省FPS而隐藏抽屉物品显示。"
     ]
     quest.019C7CBC9B62C803.quest_desc:[
-        "不喜欢抽屉的样子？那就做个&a自定义抽屉&r吧！"
+        "不喜欢抽屉的样子？那就做个&a镶框抽屉&r吧！"
         ""
-        "你可以把别的物品和这些抽屉一块合成，以改变抽屉的外观。每个合成槽都代表抽屉上的一块材质。"
+        "你可以把别的物品和这些抽屉合成以改变外观。每个合成槽都代表抽屉上的一块纹理。"
         ""
-        "一号位：外部材质"
-        "二号位：内部材质"
-        "三号位：镶框抽屉"
-        "四号位：抽屉分割线"
+        "- 1号槽位：外部纹理"
+        "- 2号槽位：内部纹理"
+        "- 3号槽位：镶框抽屉"
+        "- 4号槽位：分割线纹理"
     ]
     quest.49DD167D6323406B.quest_desc:[
         "你可以用功能性存储模组的&a流体抽屉&r来存储流体！"
@@ -3271,35 +3271,35 @@
         "{@pagebreak}"
         "这个工具默认模式是将单个抽屉并入抽屉网。首先手持工具潜行右击控制器，然后对着想并入网络的抽屉右击即可。"
         ""
-        "手持控制器的时候你可以看到控制器最大连接范围，装存储升级的话最大范围可以提升！"
+        "手持控制器的时候你可以看到控制器最大连接范围，安装存储升级的话可以扩大范围！"
         ""
-        "对着空气使用工具会调整工具的添加移除工作模式，如果对着空气潜行右击的话，会改变一次设定中并入网络的抽屉数量！"
+        "对着空气使用工具会调整工具的添加或移除工作模式，如果对着空气潜行右击的话，会改变一次并入网络的抽屉数量！"
     ]
     quest.141CE17C25D2A53A.quest_desc:[
-        "你的背包可以加装很多酷炫的升级，但是大部分升级只能在&a板条箱&r和&a木桶&r里找到。"
+        "你的背包可以加装很多酷炫的升级，但是大部分升级只能在&a战利品箱&r和&a桶&r中找到。"
         ""
-        "别读这破任务了，赶快出去砸点桶！"
+        "别读任务了，赶快出去砸点桶！"
     ]
     quest.304B25BADD64077D.quest_desc:[
         "把你的背包升级，这样就可以提升背包的存储空间！"
         ""
-        "你可以把基础背包升级到&a铜&r或&a铁&r等级。我建议你先升级到铜，因为从铜升级上去只需要4个铁，能节约一点。"
+        "你可以把基础背包升级到&a铜&r或&a铁&r等级。建议你先升级到铜，因为从铜升级只需要4个铁，能节约一点。"
         ""
-        "升级的背包有更多的&a升级槽位&r！"
+        "升级后的背包有更多的&a升级槽位&r！"
     ]
     quest.08204AA5ACCC914E.quest_desc:[
-        "背包可以染色！你可以给你的染色背包分类，或者染个酷炫背包出去，多帅啊。"
+        "背包可以染色！这样一来，你可以用颜色来区分不同的背包，或者只是单纯想背着黑色背包耍酷，两者皆可。"
         ""
         "顺便一提，我最喜欢黑色。"
     ]
     quest.1FEEBCA6D633B479.quest_desc:[
-        "&a末影存储&r可以实现跨维度存储流体/物品。"
+        "&a末影存储&r可以实现跨维度存储流体和物品。"
         ""
         "相同颜色排列的&a末影箱子&r之间互通，用染料对着它的羊毛右击就可以改变颜色。"
         "{@pagebreak}"
         "&a末影袋子&r可以让你无线访问相同颜色的&a末影箱子&r，对着目标箱子右击就可以将袋子颜色变为箱子颜色。"
         ""
-        "&a末影蓄水槽和&a末影箱子&r一样，但是它储存的是流体。"
+        "&a末影蓄水槽和&a末影箱子&r一样，但是它储存的是液体。"
         ""
         "手持&b钻石&r右击&a末影箱子&r会将它转化为私人模式，这样就只有对它使用钻石的玩家能使用它了，服务器用这个挺舒适的。"
     ]
@@ -3390,7 +3390,7 @@
     quest.77071C25D4B5AA43.quest_desc:[
         "滤水系统已经展现了他的价值，他提取的矿物残渣现在都可以为我所用。"
         ""
-        "&6&o&n当前任务&r：使用&2洗矿槽&r来获得一些基础的矿粒并加以冶炼。"
+        "&6&o&n当前任务&r：使用&2洗矿槽&r来获得一些基础的矿块并加以冶炼。"
     ]
     quest.7F18633924CDBDD5.quest_desc:[
         "我已经用这个滤水系统洗涤沙砾好多天了。"
@@ -3858,17 +3858,17 @@
     quest.0806978F98A7A3E8.quest_desc:[
         "&a钢&r是建造&6沉浸工程&r多方块机器时用量最大的材料，"
         ""
-        "你会遇见各式各样的需要&a钢&r来制造的方块，所以早早准备搭建自动化吧！"
+        "你会遇见许多需要&a钢&r来制造的方块，所以早早准备开始自动化吧！"
     ]
     quest.63B7AC676FC1EE7F.quest_desc:[
-        "有了&3杂酚油&r之后，你就可以用它与木板合成&a防腐木&r了。"
+        "有了&3杂酚油&r之后，你就可以用它与木板合成&a防腐木板&r了。"
         ""
-        "&a防腐木&r能用来制作几种&6沉浸工程&r工作台，例如&a工程师装配台&r。"
+        "&a防腐木板&r能用来制作几种&6沉浸工程&r的工作台，例如&a工程师装配台&r。"
     ]
     quest.5E5BDCBF185E48E3.quest_desc:[
         "&a工程师装配台&r是用来制作沉浸工程耗材的最主要的工作台！"
         ""
-        "要想使用&a工程师装配台&r制作东西，你需要提供&b工程师蓝图&r，不同的蓝图能够制作的东西也不同。"
+        "要想使用&a工程师装配台&r制作物品，你需要提供&b工程师蓝图&r，不同的蓝图能够制作的东西也不同。"
         ""
         "将&b工程师蓝图&r放置在左上方的槽位后，装配台的界面右侧将会显示可制作的物品。你需要将配方所需的原材料丢进装配台，然后直接取出你想制作的物品。"
     ]
@@ -3880,9 +3880,9 @@
         "园艺玻璃罩需要提供水和能量才能工作。"
     ]
     quest.4DABDC2484C732AC.quest_desc:[
-        "&d电弧炉&r是台用于快速冶炼矿石和合金的大家伙。"
+        "&d电弧炉&r是台用于快速冶炼矿石和制作合金的大家伙。"
         ""
-        "&d电弧炉&r能以消耗大量能量作为代价一次批量熔炼大量物品。"
+        "&d电弧炉&r能一次批量熔炼大量物品，但是需要消耗大量能量。"
         ""
         "下面两页将详细介绍&d电弧炉&r的界面与自动化。"
         ""
@@ -3916,7 +3916,7 @@
         "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.207CE761F35EB902.quest_desc:[
-        "&a制作组件&b工程师蓝图&r是最常用的&b工程师蓝图&r。"
+        "&a合成用零件&b工程师蓝图&r是最常用的&b工程师蓝图&r。"
         ""
         "该&b工程师蓝图&r提供了高级机器基本材料的制作配方。"
     ]
@@ -3929,7 +3929,7 @@
         "{@pagebreak}"
         "&a压缩包模具&r用于物品3x3，2x2或1x1配方的制作。"
         ""
-        "&a弹壳模具&r用于在&a灌装机&r中制作弹壳。"
+        "&a弹壳模具&r用于在&a灌装机&r中制作弹筒。"
     ]
     quest.4E48ACEA714B5976.quest_desc:[
         "&a电弧炉电极&b工程师蓝图&r可以使用来自&6气动工艺&r的&aAmadon Network&r交易获取。"
@@ -3942,207 +3942,207 @@
         "&d石墨电极&r也能通过金属冲压机制作，该方法无需蓝图，但耐久度只有一半。"
     ]
     quest.287D00E1CE70F334.quest_desc:[
-        "The &2Improved Blast Furnace&r is a large multiblock machine that functions the same as the &aCrude Blast Furnace&r, but has some extra features:"
+        "&2改良高炉&r是与&a粗制高炉&r的功能完全相同的大型多方块机器，它还拥有一些新的特性："
         ""
-        "- It can have up to two Preheaters, which can be powered with RF to improve processing speed."
+        "- 改良高炉能够加装至多2个高炉预热器，高炉预热器使用RF加速高炉的工作效率。"
         ""
-        "- It can be automated to retrieve items from the top, export steel from the front, and export slag from the back."
+        "- 改良高炉能自动从顶部接口输入物品，从正面输出钢，从背面输出矿渣。"
         ""
-        "To help build this multiblock, make sure to check out the &bEngineer's Manual&r!"
+        "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.026A64F01C301119.quest_desc:[
-        "&aHOP Graphite Dust&r can be smelted down to make &3HOP Graphite Ingots&r."
+        "&a高定向热解石墨粉&r经过冶炼即可得到&3高定向热解石墨锭&r。"
         ""
-        "These ingots are used to make more advanced crafted items, like the &dHV Accumulator&r."
+        "这些锭用于制作一些高级物品，例如&d高压蓄电池&r。"
     ]
     quest.2E9C2F524BE5FC10.quest_desc:[
-        "&aEngineering Blocks&r are the core building blocks used to create most of the multiblock machines in the mod."
+        "&a工程块&r用于建造沉浸工程中的绝大多数的多方块机器。"
         ""
-        "Note: All machines will require at least one &aRedstone Engineering Block&r!"
+        "注：所有的机器都需要至少一个&a红石工程块&r！"
     ]
     quest.1461682BD1978BA8.quest_desc:[
-        "The &aCrusher&r is a &bHeavy Machine&r primarily used as a way to break down ores and metals into &bdust&r."
+        "&a粉碎机&r是一种&b重型机器&r，可将矿石和金属磨制成&b粉&r。"
         ""
-        "It can also be used to grind up enemies that are unfortunate enough to fall into it, outputting their relevant drops."
+        "它还能碾碎不幸落入其中的敌对生物，输出它们的掉落物。"
         ""
         "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.1EFED5AC265CDB0C.quest_desc:[
-        "Before having a &aMetal Press&r, you will need to craft plates by combining an ingot with an &aEngineer's Hammer&r in a crafting table."
+        "在建造&a金属冲压机&r前，你需要在工作台中借助&a工程师锤&r才能制作金属板。"
         ""
-        "To craft wires, combine a plate with &aWire Cutters&r in the same way."
+        "要制作金属线，类似地你需要一把&a工程师剪线钳&r。"
     ]
     quest.61D6B29594193438.quest_desc:[
-        "&6I.E&r power is split into three categories: &aLow Voltage&r (&aLV&r), &cMedium Voltage&r (&cMV&r), and &dHigh Voltage&r (&dHV&r)."
+        "&6沉浸工程&r的能量分为3类，&a低压&r（&aLV&r），&c中压&r（&cMV&r）以及&d高压&r（&dHV&r）。"
         ""
-        "Each category of &bVoltage&r transfers a different amount of power and, as such, require different methods of transportation."
+        "每种&b电压&r传输能量的功率不同，需要不同的传输方式。"
         ""
-        "In general, every power network needs three things: an input, an ouput, and a storage buffer (all machines have a built-in buffer)."
+        "简单来说，每个能量网络都需要三样东西：输入，输出与存储器（所有机器都有内置的能量存储）。"
         "{@pagebreak}"
-        "Power can be sent to and from a network via a connector using a &aWire Coil&r of the matching &bVoltage&r. You can extend the wires by connecting them to a &aWire Relay&r."
+        "使用与&b电压&r相匹配的&a线圈&r和接线器即可收发能量，&a继电器&r可作为接线器之间的桥梁，从而延长电线传输的距离。"
         ""
-        "&cWARNING&f: Exposed wires will shock entities that come into contact with them. &aLV&r and &cMV&r wires can be insulated to prevent damage, but &dHV Wires&r cannot."
+        "&c警告&f：裸露的电线会电击与其接触的实体，&a低压&r与&c中压&r线圈可以制成绝缘线圈避免受伤，但&d高压线圈&r没有绝缘版。"
     ]
     quest.3CADD463CFC2FE32.quest_desc:[
-        "The &aThermoelectric Generator&r uses the temperature differential between the blocks on either side of it to generate &aLV&r power."
+        "&a热传导发电机&r利用自身两侧方块的温差产生&a低压&r能量。"
         ""
-        "This means that you need to place one cold block/fluid and one hot block/fluid on opposite sides of the block to generate power."
+        "这意味着你需要在发电机的两侧分别放置高温和低温的方块/流体才能产生能量。"
         ""
-        "You can check the &aEngineer's Manual&r or JEI for a list of compatible blocks."
+        "通过&A工程师手册&r或JEI查询方块的温度。"
     ]
     quest.648083DCC5BDF216.quest_desc:[
-        "The &aKinetic Generator&r uses forces generated by &aWindmills&r ot &aWaterwheels&r to generate power."
+        "&a动能发电机&r利用&a风车&r或&a水车&r产生的动能产生能量。"
         ""
-        "A &aWindmill&r needs to be placed at least four blocks above the ground and can be sped up by applying a &aWindmill Sail&r to each individual blade."
+        "&a风车&r需要放置在离地至少4格高的地方，每个叶片上均可使用&a风车帆&r来加快转速。"
         ""
-        "&aWaterwheels&r provide constant power based on the amount of water flowing around the wheel. Up to three &aWaterwheels&r can be attached to the same shaft."
+        "&a水车&r根据周围的水流量大小提供不同的能量，同轴最多可放置3个水车。"
     ]
     quest.4843F5564CA5810C.quest_desc:[
-        "The &aDiesel Generator&r generates &dHV&r power by consuming fuels like &2Diesel&r."
+        "&a柴油发电机&r通过消耗诸如&2柴油&r的燃料产生&d高压&r能量。"
         ""
-        "Depending on the fuel used, certain fuels will burn for longer inside the generator, creating more power."
+        "依据使用的燃料种类，燃烧时间也有所不同，从而产生不同热值的能量。"
         ""
-        "For a full list of fuels check the &bEngineer's Manual&r or JEI."
+        "完整的燃料燃烧时间表请在&b工程师手册&r查阅。"
         ""
-        "To learn more about building and using them, refer to the &aElectrical Grids&r section of the &bEngineer's Manual&r."
+        "要了解更多有关搭建发电机与应用方法，请转到&b工程师手册&r的&a电网&r部分。"
     ]
     quest.29C1C4491D8B344E.quest_desc:[
-        "The &aLightning Rod&r is a power generator that generates an enormous amount of HV power when struck by lightning."
+        "&a避雷针&r是一种被闪电击中时会产生大量高压能量的发电机。"
         ""
-        "Stacking &aSteel Fences&r on the port on top of the &aLightning Rod&r increases the chances that it is hit during a thunderstorm."
+        "在&a避雷针&r顶部的接口上叠加&a钢栅栏&r能够增加雷击的几率。"
         ""
-        "To learn more about them, check out the &aElectrical Grids&r section of the &bEngineer's Manual&r."
+        "要了解更多有关多方块的信息，请查阅&b工程师手册&r的&a电网&r部分。"
     ]
     quest.7C19FA7515BC295F.quest_desc:[
-        "To transfer the next tier of voltage, you'll need &cMV Wires&r."
+        "想传输下一级电压，你需要来点&c中压线圈&r。"
         ""
-        "If you plan on stepping down from MV to LV to connect to certain relays, you will need a &aTransformer&r for it to work."
+        "如果你打算从中压降压到低压来链接继电器，需要添置一个&a变压器&r才能正常施工。"
         ""
-        "These can be placed on &2Posts&r as well, making them look great for decoration!"
+        "接线器与继电器均可放置在&2木杆&r上，让它们变得像基地的装饰一样漂亮吧。"
     ]
     quest.05A13861001BBF3C.quest_desc:[
-        "The final tier of voltage is &dHV&r."
+        "沉浸工程中最高的电压级别是&d高压&r。"
         ""
-        "Just like going from MV to LV, you'll need a transformer to convert between the tiers."
+        "就像从中压到低压一样，你仍然需要一个变压器在不同电压级别中转换才能连接线圈。"
         ""
-        "The &dHV Transformer&r can convert LV directly to HV."
+        "&d高压变压器&r能直接将低压升压至高压。"
         ""
-        "However, it cannot be placed on posts."
+        "不过，高压变压器没法放置在木杆上（译注：实际指无法放置在侧面）。"
     ]
     quest.7C7C53CB012B14C5.quest_desc:[
-        "&aAccumulators&r are energy storage blocks for Immersive Engineering."
+        "&a蓄电池&r是沉浸工程中用于存储能量的方块。"
         ""
-        "These blocks increase in storage capacity at higher &bVoltage&r categories."
+        "&b电压&r级别越高，蓄电池的容量越高。"
     ]
     quest.65A18B0DA64B7A42.quest_desc:[
-        "In &6I.E&r, items are generally moved around using various types of &aConveyor Belts&r."
+        "&6沉浸工程&r中，物品使用不同种类的&a传送带&r进行运输。"
         ""
-        "For fluid transportation, the &aFluid Pipe&r can be used between machines."
+        "至于流体，则需要&a流体管道&r进行传输。"
         ""
-        "Check the &eStorage \&\ Transport&r section in the &aEngineer's Manual&r for all of your options!"
+        "查阅&a工程师手册&r中的&e储存与运输&r部分以了解你所有的可选项。"
     ]
     quest.234945ED1315945B.quest_desc:[
-        "&aProjectile &bBlueprints&r can be used to create a wide assortment of bullets to use in the &aRevolver&r or &dRailgun&r."
+        "&a子弹&b工程师蓝图&r用于制作多种不同种类的子弹，&a左轮手枪&r与&d磁轨炮&r也许能用上。"
     ]
     quest.7BBE12078C2FC82E.quest_desc:[
-        "The &cAdvanced Electronic Component&r is used to craft various late-game items and machines, most notably, the &dRailgun&r."
+        "&c高级电子元件&r用于制作几种沉浸工程游戏后期的物品与机器，最引人注目的当属&d磁轨炮&r。"
         ""
-        "To craft one, you'll need &cDuroplast Sheets&r from a &aBottling Machine&r."
+        "要制作高级电子元件，你需要用&a灌装机&r制作&c工程塑料板&r。"
     ]
     quest.580FC87308E6D5B9.quest_desc:[
-        "Using a &bPlate Mold&r you can form &aDuroplast Sheet&r, a type of plastic used in many electronic and crafting components."
+        "使用&b板材模具&r就能制作&a工程塑料板&r，一种用于制作许多电子元件与合成用零件的塑料。"
     ]
     quest.3CF48BB941321C47.quest_desc:[
-        "The &aBottling Machine&r is a &bHeavy Machine&r that fills containers, molds, and other items with fluids."
+        "&a灌装机&r是一种&b重型机器&r，可以为容器，模具或其他物品灌入流体。"
         ""
-        "To help build and learn more about the machine, make sure to check the &bEngineer's Manual&r!"
+        "要了解更多有关机器的信息，请查阅&b工程师手册&r！"
     ]
     quest.3BD6FEDB8CFAC914.quest_desc:[
-        "Refining &aAcetaldehyde&r and &aCreosote Oil&r together produces &aPhenolic Resin&r, which is used in the creation of plastics."
+        "精炼&a乙醛&r与&a杂酚油&r即可制造出&a酚醛树脂&r，一种用于制作塑料的材料。"
     ]
     quest.1036AB9D02AB96F1.quest_desc:[
-        "The &aRefinery&r processes fluids and catalysts to produce a new output."
+        "&a精炼厂&r能处理流体与催化剂并产出新的流体。"
         ""
-        "This &bHeavy Machine&r is used to make more advanced fluids, like &dAcetaldehyde&r."
+        "这台&b重型机器&r用于制作更高阶的流体，比如&d乙醛&r。"
         ""
         "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.2F933169CF164EC7.quest_desc:[
-        "By refining &aEthanol&r and a silver plate in the &6Refinery&r, you can get &aAcetaldehyde&r."
+        "将&a乙醇&r与1块银板加入&6精炼厂&r即可得到&a乙醛&r。"
         ""
-        "This is a key ingredient for making &aPhenolic Resin&r!"
+        "这是制作&a酚醛树脂&r的重要组分！"
     ]
     quest.3F4C25DF20877606.quest_desc:[
-        "&aEthanol&r is a very useful resource that can be turned into &2Herbicide&r, &2Biodiesel&r, and &dAcetaldehyde&r."
+        "&a乙醇&r是一种很有用的资源，能够参与&2除草剂&r，&2生物柴油&r以及&d乙醛&r的制作。"
         ""
-        "We'll need &dAcetaldehyde&r to make a type of plastic sheet for electronic components."
+        "接下来需要&d乙醛&r制作一种塑料板，这种塑料板将成为电子元件的原料。"
     ]
     quest.1962F37154380EBF.quest_desc:[
-        "The &aFermenter&r is a &bHeavy Machine&r used to extract &aEthanol&r from fruits, grains, and vegetables."
+        "&f发酵机&r是一种&b重型机器&r，用于从水果，谷物与蔬菜中提取&a乙醇&r。"
         ""
         "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.37CA431C28D82E55.quest_desc:[
-        "This marvel of engineering is capable of accelerating various projectiles, like Iron Rods, to very high speeds."
+        "这把工程的奇迹能够将好几种射弹加速到恐怖的速度，比如铁棒。"
         ""
-        "To use the &dRailgun&r, have an accepted type of projectile in your inventory and hold-use the gun to charge it. Release to let it fire!"
+        "想要使用&d磁轨炮&r，物品栏要放好磁轨炮所接受的弹药并长按右键为它充能，松开开火！"
         ""
-        "The &dRailgun&r deals different amounts of damage depending on the projectile shot by using a small amount of power."
+        "依据弹药的不同，&d磁轨炮&r利用能量造成的伤害也不同。"
         ""
-        "It is recommended to use it with an &aAccumulator Backpack&r!"
+        "建议搭配&a蓄电池背包&r使用！"
         ""
-        "It can also be modified in the &aEngineer's Workbench&r and customized with &bShaders&r."
+        "磁轨炮还能在&a工程师装配台&r中使用&b皮肤&r进行个性化改造。"
         "{@pagebreak}"
-        "List of Projectiles:"
+        "可用弹药列表："
         ""
-        "- Iron, Aluminum, or Steel Rods"
-        "- Graphite Electrodes"
-        "- Blaze Rods"
-        "- End Rods"
-        "- Ender Pearls"
-        "- Sawblades"
-        "- Tridents"
+        "- 铁棒，铝棒与钢棒"
+        "- 石墨电极"
+        "- 烈焰棒"
+        "- 末地烛"
+        "- 末影珍珠"
+        "- 锯片"
+        "- 三叉戟"
     ]
     quest.1507B28963B38101.quest_desc:[
-        "Tired of having manually craft all your componenets? Then the &aAutomated Engineer's Workbench&r is the right tool for you!"
+        "厌倦了手搓零件的日子了？那&a自动化工程师装配台&r正是为你量身定制的好帮手！"
         ""
-        "This multiblock has the same funcitionality as its non-automated version, but will automatically accept items and output the appropriate product based on the blueprint inside of the machine."
+        "这台多方块机器拥有工程师装配台的所有功能，但能根据机器内的蓝图自动接收物品并输出产物。"
         ""
-        "This is considered &aHeavy Machinery&r, so make sure to check out the &bEngineer's Manual&r to learn how to build the multiblock!"
+        "这是一种&a重型机器&r，要了解如何建造，务必查阅&b工程师手册&r！"
     ]
     quest.436BFB9B69B6D4A7.quest_desc:[
-        "The &aSqueezer&r presses &2Plant Oil&r out of seeds, or 8 &3Coke Dusts&r into &cHOP Graphite Dust&r."
+        "&a工业挤压机&r能用作物种子挤压出&2植物油&r，也能将8个&3焦煤粉&r挤压成1个&c高定向热解石墨粉&r。"
         ""
         "务必查看&b工程师手册&r来辅助搭建多方块结构！"
     ]
     quest.6B04DF90E7F33C9D.quest_desc:[
-        "&aCoke Dust&r can be made by crushing &3Coke&r, which can be processed in a &aSqueezer&r to make &3Graphite Dust&r."
+        "&a焦煤粉&r通过粉碎&3焦煤&r获取，能在&a挤压机&r中处理成&3石墨粉&r。"
     ]
     quest.1F9E582F684EA247.quest_desc:[
-        "The &aMixer&r is a &bHeavy Machine&r that dissolves and mixes solids into fluids."
+        "&a搅拌机&r是一种&b大型机器&r，用于溶解固体并混合制作一些流体。"
         ""
-        "The most common uses are &aLiquid Concrete&r, &aRedstone Acid&r, or &dLiquid Potions&r."
+        "主要用于制作&a液态混凝土&r，&a红石酸&r以及&d液态药水&r。"
     ]
     quest.5878F6DB12C22339.quest_desc:[
-        "The &aRevolver&r is a loud, 12-gauge gun that will attract nearby hostile mobs when shot."
+        "&a左轮手枪&r是一种声势浩大的12口径枪支，射击时会吸引周围的敌对生物。"
         ""
-        "It can be loaded with different types of ammunition by sneak + right-clicking the weapon and placing cartridges into its slots."
+        "手持左轮手枪潜行+右键装入弹药，允许同时装载不同种类的弹药。"
         ""
-        "It can also be modified in the &aEngineer's Workbench&r."
+        "左轮手枪能在&a工程师装配台&r中改造。"
     ]
     quest.073BE902F972D190.quest_desc:[
-        "Guns can be modded in the &aEngineer's Workbench&r."
+        "枪支能在&a工程师装配台&r中进行改造。"
         ""
-        "The &aPrecision Scope&r allows you to zoom in using the Middle Mouse Button."
+        "&a瞄准镜&r允许你使用鼠标中键进行缩放。"
         ""
-        "The &aAdvanced Heatsink&r is a &dRailgun&r-exclusive mod that greatly reduces its charge time."
+        "&a附加电容&r是&d磁轨炮&r的专属配件，能够极大地减少充能时间。"
         "{@pagebreak}"
         ""
-        "The &aBayonet&r is a &aRevolver&r-exclusive mod that allows for melee damage as powerful as an iron sword."
+        "&a刺刀&r是&a左轮手枪&r的专属配件，能将左轮手枪的近战伤害提升至铁剑的威力。"
         ""
-        "The &aExtended Magazine&r is a &aRevolver&r-exclusive mod that allows loading of six more cartridges into the &aRevolver&r"
+        "&a扩容弹匣&r是&A左轮手枪&r的专属配件，能为&a左轮手枪&r增加6个弹药槽位。"
         ""
-        "The &aAmplifying Electron Tubes&r is a &aRevolver&r-exclusive mod that stuns the target shot."
+        "&a加强电子管&r是&a左轮手枪&r的专属配件，使左轮手枪的射弹能够击晕目标。"
     ]
     quest.496903AB7E8A0A92.quest_desc:[
         "使用&6Iron's Gems 'n Jewelry&r mod，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
@@ -4432,28 +4432,28 @@
     quest.78A644464D4C506A.quest_desc:[
         "&6传送枪&r算是个很有趣的工具，因为它可以打开能让你通过的传送门，只需要消耗一些能量就行！"
         ""
-        "左击打开蓝色传送门，右击打开橙色传送门，走进A就会从B出去。"
+        "左击打开蓝色传送门，右击打开橙色传送门，从一个门进去会从另一个门出来。"
     ]
     quest.04D4223CC7A21FA4.quest_desc:[
-        "&d高级传送枪&r很适合瞬间移动。"
+        "&d高级传送枪&r很适合小范围传送。"
         ""
-        "这把传送枪可以让你保存传送点，前提是需要有能量和&d传送门液&r。"
+        "这把传送枪可以让你保存传送点，前提是需要有能量和&d传送流体&r。"
         ""
-        "如果要保存目的地的话，只需打开菜单后按默认的&bV&r键。如果有按键冲突的话你就得改按键绑定了。"
+        "如果要保存目的地的话，只需打开菜单后默认按&bV&r键。如果有按键冲突的话你就得改快捷键了。"
         ""
         "保存地点后，使用传送枪就会直接打开一条前往目的地的传送门。"
     ]
     quest.340D7F25B5EB0D33.quest_desc:[
-        "下一阶的黏胶叫&d虚空辉凝胶&r，它可以将&b钻石块&r变成&d苍穹晶块&r。"
+        "下一阶的凝胶叫&d虚空辉凝胶&r，它可以将&b钻石块&r转化为&d苍穹晶块&r。"
         ""
         "给它喂末影珍珠或紫颂果就可以激活。"
         ""
-        "这种黏胶可以生产上一阶的物品，且速度更快。"
+        "这种凝胶可以生产上一阶的物品，且速度更快。"
     ]
     quest.371D1FEFBD49CCFF.quest_desc:[
-        "&b苍穹晶剑&r是上一阶剑的升级版，它不会再消耗耐久，因为它消耗的是&c能量&r！"
+        "&b苍穹晶剑&r是上一阶剑的升级版，它不再消耗耐久，而是&c能量&r！"
         ""
-        "这把剑可以安装之前的所有升级，而且可以多加一个&d掉落物传送升级&r。"
+        "这把剑可以安装之前的所有升级，而且可以多增加一个&d掉落物传送升级&r。"
     ]
     quest.626AFCC6B90F61D5.quest_desc:[
         "&b苍穹晶镐&r的耐久虽然只比钻石镐多一点，但是你可以安装一些酷炫的升级。"
@@ -4470,7 +4470,7 @@
         ""
         "它和物品收集器一样，可以设定吸取经验的范围。"
         ""
-        "而且它有储存经验的存储槽，你可以在它的UI中提取或存入经验！"
+        "而且它有储存经验的存储槽，你可以在它的UI中取回或存储经验！"
     ]
     quest.7A0028FE5DF359E8.quest_desc:[
         "&a能量传输器&r可以给范围内的方块无线充能。"
@@ -4480,7 +4480,7 @@
     quest.5DF40808F9C6FEC0.quest_desc:[
         "你可以用新到手的&a核源铁&r制作一些该模组的简易机器。"
         ""
-        "现在你有了新机器，做一把&a核源铁扳手&r吧，反正做个又不会掉块肉！拿着扳手右击就可以旋转机器，潜行右击机器会立刻破坏并掉落该机器。"
+        "现在你有了新机器，做一把&a核源铁扳手&r吧。拿着扳手右击就可以旋转机器，潜行右击机器会立刻破坏并掉落该机器。"
         ""
         "&a机器设置复制器&r的功能和你想的一样！首先对着机器潜行右击，这将会把配置复制到复制器上，再右击别的机器即可粘贴配置。"
     ]
@@ -4742,7 +4742,7 @@
         "对某些自动化很有用，比如用镰刀自动收割范围内的作物。"
     ]
     quest.314E9901D4E89E6F.quest_desc:[
-        "&c红石模块&r在物品进入路由器内部缓存时，可以释放红石信号。"
+        "&c检测模块&r在物品进入路由器内部缓存时，可以释放红石信号。"
         ""
         "这对于自动化很有用，或者也能拿来控制其余模块开关！"
     ]
@@ -4751,12 +4751,12 @@
         ""
         "- &a速度升级&r提升路由器执行已安装模块的频率。"
         ""
-        "- &a堆栈升级&r可以提升路由器处理一组物品的效率，不用再一个一个物品慢吞吞地处理了。"
+        "- &a堆叠升级&r可以提升路由器处理一组物品的效率，不用再一个一个物品慢吞吞地处理了。"
         ""
         "如果你想要升级你的模块的话，不能用升级，得用&a拓展核心&r。"
     ]
     quest.0ED940DF43A934ED.quest_desc:[
-        "&a虚空模块&r和它的名字一样，可以像虚空漏斗一样收集范围内的掉落物。可以安装&a范围升级拓展&r来加大范围。"
+        "&a真空模块&r和它的名字一样，可以像虚空漏斗一样收集范围内的掉落物。可以安装&a范围升级拓展&r来加大范围。"
         ""
         "&a快速拾取拓展&r也可以放在这个模块内，它可以加快拾取速度。"
     ]
@@ -4915,24 +4915,24 @@
         ""
         "加装升级后机器就会升级为&a工厂&r，工厂一次可输入输出的物品会增多。并且工厂等级越高，处理的效率就越高！"
         ""
-        "注意：你不能把终级工厂安装器直接安装在基础工厂上，必须按照基础—>高级—>精英—>终级的顺序升级。"
+        "注意：你不能把终级工厂安装器直接安装在基础工厂上，必须按照基础、高级、精英、终级的顺序升级。"
     ]
     quest.114B4840D2FA1CDF.quest_desc:[
         "&a提纯仓&r可以提升粗矿的矿物产量。"
         ""
-        "这个机器是&e二阶矿物处理线&r的第一台机器，通过消耗&b氧气&r将粗矿变成&a矿物碎块&r。"
+        "这个机器是&e二阶矿物处理线&r的第一台机器，通过消耗&b氧气&r将粗矿变成&a矿簇&r。"
     ]
     quest.38BD69DD1995E971.quest_desc:[
         "当你拥有提纯仓，粉碎机以及富集仓后，就可以准备搭建&9二阶矿物处理线&r了。搭建好后一个粗矿就可以生产出三个锭。"
         ""
-        "首先，粗矿要进入&a提纯仓&r消耗&a电离分离器&r制造出的&a氧气&r将粗矿变为&e矿物碎块&r。"
+        "首先，粗矿要进入&a提纯仓&r消耗&a电离分离器&r制造出的&a氧气&r将粗矿变为&e矿簇&r。"
         ""
         "随后，矿物碎块要进入&a粉碎机&r处理成&a污浊粉尘&r。"
         ""
         "最后，污浊粉尘在&a富集仓&r中净化为矿粉，矿粉熔炼后便可成为矿物锭了。"
     ]
     quest.562156281B8D0843.quest_desc:[
-        "这台机器可以将某些流体（比如&b水&r）分解成两种不同的&a气体&r。"
+        "这台机器可以将某些流体（比如&b水&r）电解成两种不同的&a气体&r。"
         ""
         "要合成这台机器，你需要有办法制造矿粉，用富集仓或者粉碎机就可以。"
         ""
@@ -4941,12 +4941,12 @@
     quest.24F17FA24ED466FA.quest_desc:[
         "[\"\", {\"text\": \"基础流体储罐\", \"color\": \"#5EFCB6\"}, \"不仅仅能储存流体，它还可以当做桶使用！\"]"
         ""
-        "潜行的时候手持储罐，相当于把模式调整为&a桶&r，这样就可以装起多桶流体（比如水或熔岩）。"
+        "潜行的时候手持储罐，把模式调整为&a桶&r，这样就可以装起多桶流体（比如水或熔岩）。"
     ]
     quest.5B85AB4B095F240B.quest_desc:[
-        "站上&a充电台&r，它会自动为你物品栏中有能源需求的物品充能。"
+        "站上&a充电台&r，它会自动为你物品栏中有需要电能的物品充能。"
         ""
-        "给&d机器人&r充能也是如此！"
+        "&d机器人&r也是如此！"
     ]
     quest.24E7FEB8D24FAB4A.quest_desc:[
         "&a化学压射室&r可以将气体和方块相结合，产出新的物品。这个机器不仅可以拿来快速氧化铜块/复活死珊瑚块，还可以用于&a三阶矿物处理线&r。"
@@ -6140,7 +6140,7 @@
     quest.036C11AC70835846.quest_desc:[
         "&a末影激光器&r一般拿来制造&a能量水晶&r，不过它还有传输RF和挖掘方块的用途。"
         ""
-        "如果想把方块或机器链接到&a末影激光器&r上，首先拿着&e目标指示器&r潜行右击机器/方块，然后再潜行右击末影激光器即可。"
+        "如果想把方块或机器链接到&a末影激光器&r上，首先拿着&e目标标识器&r潜行右击机器/方块，然后再潜行右击末影激光器即可。"
         ""
         "&l&c千万小心！&r如果在没关闭激光的情况下就挖掉链接的方块，那么激光就会把一条线上的方块全部挖掉！"
     ]
@@ -6417,7 +6417,7 @@
     quest.5FD42392FCECCB47.quest_desc:[
         "有了&d末影激光器&r，你可以让激光挖掘紫水晶簇来得到&d通量水晶&r"
         ""
-        "一定要用&a目标指示器&r来正确指示激光的位置！"
+        "一定要用&a目标标识器&r来正确指示激光的位置！"
         ""
         "如果把激光射到紫水晶母岩上，则该母岩会被充能，水晶生长速率会提升。"
     ]
@@ -6855,7 +6855,7 @@
         ""
         "多态流体可以字面意义上的转化为任意物品，把它和&d末地&r的力量组合起来后所产生的物品……我应该可以加以利用。"
         ""
-        "&6&o&n当前任务&r：用&d传送门流体催化剂&r合成一桶&6传送门流体&r。"
+        "&6&o&n当前任务&r：用&d传送流体催化剂&r合成一桶&6传送流体&r。"
     ]
     quest.4DAE859CAD8DA492.quest_desc:[
         "我成功激活&d裂缝传送门&r了，这应该是我逃离这个星球的唯一方法。"
@@ -6929,12 +6929,12 @@
         "制作&6裂缝之心&r。"
     ]
     quest.7157B4069731D802.quest_desc:[
-        "Overcharge yourself on a pump!"
+        "在泵上体验超强“泵”感！"
         ""
         "别害怕，这玩意不会要了你的命的。"
     ]
     quest.0A2D97FFF49037A0.quest_desc:[
-        "Craft the &6Replicator&r from the &6Replication&r mod."
+        "制作&6Replication&r模组的&6复制机&r。"
     ]
     quest.50AC20231ECBEA86.quest_desc:[
         "&o我总算知道是怎么一回事了！&r"
@@ -6945,7 +6945,7 @@
         ""
         "&6&o&n当前任务&r：制作一个&6裂缝缓冲水晶&r。"
         ""
-        "Note: When crafting the crystal, any online Teammember, thats not currently in the &dRift&r, will gain &6Rift Charge&r based on the item crafted."
+        "注意：合成这个水晶后，任何在线且不在&d裂缝&r内的队伍成员，都会收到基于物品等级的&6裂缝充能&r效果。"
         ""
         "&6裂缝缓冲水晶&r只能拿来合成下一阶的东西。"
     ]
@@ -6965,7 +6965,7 @@
         ""
         "&6&o&n当前任务&r：制作一个&6终极裂缝缓冲水晶&r。"
         ""
-        "Note: Using these Crystals in the final, cheaper &aEmpowering Craft&r will add 15 minutes of Rift Charge per craft, but destroys the crystals in the process."
+        "注意：把它放在终极的&a充能台&r上后，每个水晶会增加你15分钟长的裂缝充能效果，但是在这之后水晶会被摧毁。"
     ]
     quest.5685E88BCD17D066.quest_desc:[
         "很有意思，看来有&d凝胶&r参与制造的盔甲和&d裂缝&r维度有很强的亲和力。"
@@ -7352,13 +7352,13 @@
         ""
         "我肯定还需要一个控制器控制它发射激光。"
         ""
-        "&6&o&n当前任务&r：制作一台&d末影激光器&r和&6目标指示器&r，然后用目标指示器将&d紫水晶&r指定为目标，以此产出&d通量水晶&r。"
+        "&6&o&n当前任务&r：制作一台&d末影激光器&r和&6目标标识器&r，然后用目标标识器将&d紫水晶&r指定为目标，以此产出&d通量水晶&r。"
         ""
         "末影激光器使用说明书：（翻下一页！）"
         "{@pagebreak}"
         "&d末影激光器&r是一台需要供能的机器，它可以指定激光射向的方块。被照射的方块不同，转化出的方块也不同。"
         ""
-        "手持&6目标指示器&r潜行右击方块就可以设定目标方块位置，然后手持指示器潜行右击激光器就可以设定数据。"
+        "手持&6目标标识器&r潜行右击方块就可以设定目标方块位置，然后手持标识器潜行右击激光器就可以设定数据。"
         ""
         "注意：激光会一直发射，就算目标方块不存在也会发射。"
     ]
@@ -7387,7 +7387,7 @@
         ""
         "&6&o&n当前任务&r：用&6搅拌机&r将&c烈焰蕾凝胶&r和&d深渊珍珠&r以及&b多态流体&r搅拌起来，然后制造&d虚空辉凝胶&r。"
         ""
-        "Note: You will need 2 Aquatic Catalysts to power the Mixer."
+        "注意：你需要用两个海洋催化剂给搅拌机供能。"
     ]
     quest.1EE32B2BE71B90AE.quest_desc:[
         "水下很多结构都被……很古老的&o凝胶&r覆盖了？"
@@ -7428,7 +7428,7 @@
         "{@pagebreak}"
         "&n移动紫水晶母岩的小建议：&r"
         ""
-        "- 用两个&6Just Dires模组&r的&a简易替换器&r把矿物换到你的基地里。"
+        "- 用两个&6Just Dires模组&r的&a初级替换器&r把矿物换到你的基地里。"
         ""
         "- 用&6通用机械&r的&a纸箱&r。"
     ]
@@ -7479,7 +7479,7 @@
     quest.53C9142F41A30AF5.quest_desc:[
         "有了水晶的力量后，我应该就可以变形一些物品了。"
         ""
-        "&6&o&n当前任务&r：用Nautec的水晶，将&b指南针&r灌注成&d探险者指南针&r。"
+        "&6&o&n当前任务&r：用Nautec的水晶，将&b指南针&r灌注成&d探险家指南针&r。"
     ]
     quest.2CFD9B1806BB52F0.quest_desc:[
         "有一块&o巨大的&r水晶藏在水下的那个建筑物里。"
