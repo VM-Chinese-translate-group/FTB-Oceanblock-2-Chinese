@@ -5,9 +5,9 @@
     "pnc_ocean_addons.configuration.depth_upgrade_0_limit":"最大安全深度（无深潜升级）",
     "pnc_ocean_addons.configuration.depth_upgrade_1_limit":"最大安全深度（安装深潜升级：I级）",
     "pnc_ocean_addons.configuration.depth_upgrade_2_limit":"最大安全深度（安装深潜升级：II级）",
-    "pnc_ocean_addons.depth_alarm":"警告：当前深度已超过危险深度%s米！",
+    "pnc_ocean_addons.depth_alarm":"警告：当前深度已超过%s米危险深度！",
     "pnc_ocean_addons.depth_display":"当前深度：%s米",
     "pnc_ocean_addons.depth_upgrade.tooltip":"最大安全下潜深度：%s米",
-    "pnc_ocean_addons.depth_warning":"警告：距离危险深度仅剩%s米！",
+    "pnc_ocean_addons.depth_warning":"警告：正在接近位于%s米的危险深度！",
     "pneumaticcraft.armor.upgrade.pnc_ocean_addons.depth":"深潜保护"
 }

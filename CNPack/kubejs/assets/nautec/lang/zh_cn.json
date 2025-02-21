@@ -297,7 +297,7 @@
     "multiblock.info.block_pos":"坐标：%d, %d, %d",
     "multiblock.info.expected_block":"预计：%s",
     "multiblock.info.failed_to_construct":"方块缺失或无效",
-    "nautec.air_bottle.craft_msg":"要么制作胸甲时用，要么在穿戴胸甲时饮用来增加氧气含量",
+    "nautec.air_bottle.craft_msg":"可以用于制作充满氧气的潜水胸甲，亦或者直接右击饮用来增加潜水服的氧气含量",
     "nautec.air_bottle.fill":"在气泡柱上右击玻璃瓶以填充压缩空气",
     "nautec.armor.ability.desc":"能力：在充能后增强防护效果",
     "nautec.armor.disabled":"Shift + 右键点击来启用",
