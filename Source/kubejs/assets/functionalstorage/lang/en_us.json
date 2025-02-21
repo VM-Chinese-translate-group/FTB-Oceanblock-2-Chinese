@@ -1,7 +1,4 @@
 {
-  "block.functionalstorage.framed_fluid_2": "Framed Drawer (1x2)",
-  "block.functionalstorage.framed_fluid_4": "Framed Drawer (2x2)",
-  "block.functionalstorage.simple_compacting_drawer": "Simple Compacting Drawer",
   "storageupgrade.desc.fluid": "Multiplies the block fluid storage by ",
   "storageupgrade.desc.item": "Multiplies the block item storage by ",
   "storageupgrade.desc.range": "Increases controller radius by %s blocks"
