@@ -1,3 +1,10 @@
+# 汉化正在进行中，达到80%翻译，30%审核。
+
+如果您找到了这个公开仓库，稍安勿躁，我们会尽力的(｡>∀<｡) 
+找到这里距离下载汉化仅一步之遥，如果确实想体验就请便吧~ 当前汉化不代表最终结果☺️ 
+
+让我们一起做个小约定叭：**不要把这里告诉其他人哦**❤️ 建议等待我们的最终成果，本意是不想让大家找到的……但是抵挡不住大家的热情啊……
+
 <div align="center"> 
    <img height="256px" width="256px" alt="logo" src="https://www.feed-the-beast.com/_next/image?url=https%3A%2F%2Fcdn.feed-the-beast.com%2Fblob%2Ffa%2Ffae647b9fa950ab09081ca6b395ea02dd06c7532b09b22fc3eb035b3092f7f78.png&w=640&q=75"/>
    <h1>FTB Oceanblock 2 项目简体中文翻译</h1>
@@ -5,7 +12,7 @@
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.0.0 | 翻译中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.2.0 | 翻译中       |
 
 ---
 
