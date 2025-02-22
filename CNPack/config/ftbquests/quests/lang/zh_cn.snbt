@@ -479,7 +479,7 @@
     quest.2E9C2F524BE5FC10.title:"&f工程块"
     quest.1461682BD1978BA8.title:"&f粉碎机"
     task.4750B6095A6DC2F2.title:"&e观察&f：粉碎机"
-    quest.1EFED5AC265CDB0C.title:"&f金属板\&\线"
+    quest.1EFED5AC265CDB0C.title:"&f金属板和线"
     quest.61D6B29594193438.title:"&f沉浸工程的能量系统"
     quest.3CADD463CFC2FE32.title:"&f热传导发电机"
     quest.648083DCC5BDF216.title:"&f动能发电机"
@@ -516,7 +516,7 @@
     task.6C1AB8986784E504.title:"&e观察&f：搅拌机"
     quest.5878F6DB12C22339.title:"&f左轮手枪"
     quest.073BE902F972D190.title:"&f枪支改造"
-    quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems 'n Jewelry&f mod!"
+    quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems 'n Jewelry&f模组！"
     chapter.143441998FF2D8BD.title:"Iron's Jewelry"
     quest.6045E57AA8E56711.title:"&f红宝石"
     quest.34FA9DF0A6D2163D.title:"&f蓝宝石"
@@ -4145,7 +4145,7 @@
         "&a加强电子管&r是&a左轮手枪&r的专属配件，使左轮手枪的射弹能够击晕目标。"
     ]
     quest.496903AB7E8A0A92.quest_desc:[
-        "使用&6Iron's Gems 'n Jewelry&r mod，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
+        "使用&6Iron's Gems 'n Jewelry&r模组，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
         ""
         "在制作&b珠宝&r之前，你需要先制作一个&a珠宝装配台&r。"
         ""
