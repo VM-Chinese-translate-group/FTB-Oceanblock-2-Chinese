@@ -122,7 +122,7 @@
   "message.rift.jetpack": "The Rift disrupts the Energy in your Jetpack!",
   "message.trophy.portal": "No portal found",
   "message.rift.arena": "You are not close enough to the Rift Arena!",
-  "message.rift.charge": "Rift Charge: [%1$s] %2$s%%",
+  "message.rift.charge": "Rift Charge: %1$s %2$s%%",
   "block.ftb.portal_holder": "Portal Holder",
   "item.ftb.nautical_eye": "Nautical Eye",
   "item.ftb.ancient_eye": "Ancient Eye",

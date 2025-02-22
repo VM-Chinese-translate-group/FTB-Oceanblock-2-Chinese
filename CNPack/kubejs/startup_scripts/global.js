@@ -682,7 +682,7 @@ global.showRiftCharge = (player) => {
     player
       .getServer()
       .runCommandSilent(
-        `/title ${player.username} actionbar {"translate":"message.rift.charge"}`
+        `/title ${player.username} actionbar {"translate":"message.rift.charge","with":[{"text":"[${bar}]"},{"text":"${percentage}%"}]}`
       );
     // player.sendSystemMessage(`Rift Charge: [${bar}] ${percentage}%`, true);
   } catch (e) {}
