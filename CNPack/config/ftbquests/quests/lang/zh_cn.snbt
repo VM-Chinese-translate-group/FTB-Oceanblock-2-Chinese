@@ -1998,7 +1998,7 @@
         "The &6Enchanter's Shield&r will grant the user Mana Regen and Spell Damage for a short duration when you block damage with it. It also repairs itself over time using your mana pool."
     ]
     quest.425CB9CE53FBC0FF.quest_desc:[
-        "By default, the &6Enchanter's Mirror&r will cast a spell with the form &aSelf&r."
+        "&6巫师之镜&r一般会施放&a自身&r类型的法术。"
         ""
         "You could use this to create a Mirror that heals you by inscribing a spell that just contains &2Heal&r onto the mirror!"
     ]
