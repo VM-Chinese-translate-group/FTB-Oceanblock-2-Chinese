@@ -6120,7 +6120,7 @@
         "你需要点&a粗镍&r，这玩意是这个模组的重要合成材料。"
     ]
     quest.6432ABF56BFF2F8F.quest_desc:[
-        "&aResource Nodes&r appear in clusters of Platinum, Uranium, and Uranite ores in structures deep within the ocean."
+        "&a资源节点&r在海底结构中成簇地出现，包括铂矿石，晶制铀矿石和铀矿石。"
         ""
         "&a资源节点&r仅能通过&c基岩层钻机&r开采。"
         ""
@@ -6545,7 +6545,7 @@
         "提升操作速度和能量使用效率。"
     ]
     quest.5FC606C21AA7310C.quest_desc:[
-        "The &dCybernetic Augmentation Center&r allows you to install cybernetic &bAugmentations&r directly into your body, providing you with a variety of passive benefits and active abilities."
+        "& &dCybernetic Augmentation Center&r允许你直接在你身体内安装赛博&b植入体&r，为你提供各种各样的被动增益和主动能力。"
         ""
         "Walk into the assembled machine to open the &bResearch \&\ Application Interface&r. Each &bAugmentation&r has an energy and resource costs, which can be stored in the center's or the player's inventory."
         ""

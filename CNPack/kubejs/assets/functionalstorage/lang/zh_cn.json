@@ -1,7 +1,4 @@
 {
-    "block.functionalstorage.framed_fluid_2":"镶框抽屉（1x2）",
-    "block.functionalstorage.framed_fluid_4":"镶框抽屉（2x2）",
-    "block.functionalstorage.simple_compacting_drawer":"简易压缩抽屉",
     "storageupgrade.desc.fluid":"方块流体存储量乘以",
     "storageupgrade.desc.item":"物品流体存储量乘以",
     "storageupgrade.desc.range":"控制器半径增加%s方块"
