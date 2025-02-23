@@ -1035,7 +1035,7 @@
     task.174EBF0DF6B39219.title:"Complete This Quest"
     quest.0C0E16939C8567C6.title:"&dOther Repairing Rituals"
     task.543F7E507C47F2EB.title:"&fRepair Armor"
-    task.384B6BCA1FEDF650.title:"&fRepair Any Tool"
+    task.384B6BCA1FEDF650.title:"&f修理任意工具"
     quest.627CC178ACA711E6.title:"&6Iesnium Golem"
     task.55CC22F0E7476029.title:"&fSummoned an &6Iesnium Golem"
     quest.44E044BA9C152631.title:"&fA Note For The Questline"
@@ -1551,7 +1551,7 @@
     quest.663460DE8AF7E464.quest_desc:[
         "&a压印器&r是AE2中最重要的机器。"
         ""
-        "你需要它才能产出AE科技的所有处理器，它们虽然需要消耗能源，但可以接受其余模组的FE能量。"
+        "这个机器可以产出AE科技的所有处理器。机器运作需要消耗能源，但可以接受其他模组的FE能量。"
         ""
         "你肯定会想给所有处理器都安排一个&e压印器&r，而且最好赶快把自动化完成。每个压印器都可以安装&b四张加速卡&r，大大加快它的工作速度。"
     ]
@@ -5030,7 +5030,7 @@
     quest.1CEA8C4CF222E70B.quest_desc:[
         "来讲讲三阶矿物处理线应该是啥样的吧！"
         ""
-        "首先，矿石在&a化学压射室&r中分解为四个矿物碎片并且这台机器中必须有氯化氢或盐。"
+        "首先，矿石在&a化学压射室&r中分解为四个矿物碎片，并且这台机器中必须有氯化氢或盐。"
         ""
         "然后，矿物碎片进入提纯仓消耗氧气变为四个碎块。"
         ""
