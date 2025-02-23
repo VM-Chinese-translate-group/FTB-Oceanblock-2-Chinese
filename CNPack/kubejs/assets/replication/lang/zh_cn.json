@@ -16,7 +16,7 @@
     "item.replication.replica_ingot":"复制锭",
     "itemGroup.replication":"Replication",
     "relocation.blueprint.contains_information":"包含信息：",
-    "relocation.blueprint.not_found":"找不到信息",
+    "relocation.blueprint.not_found":"未找到信息",
     "relocation.blueprint.use_on_chip_storage":"在鉴定室中扫描以获取信息，或右击芯片存储直接传输",
     "replication.crafting_tasks":"复制任务",
     "replication.current_crafting":"复制中",
