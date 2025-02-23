@@ -33,7 +33,7 @@
     "message.rftoolsbase.shiftmessage":"<按住Shift>",
     "message.rftoolsbase.crafting_card.header":"该物品用于合成。它存储了物品的配方和输出结果信息。",
     "message.rftoolsbase.crafting_card.info":"物品：",
-    "message.rftoolsbase.information_screen.header":"将它摆放在能量单元上以显示能量单元的详细信息。使用扳手右键它来切换模式",
+    "message.rftoolsbase.information_screen.header":"将它摆放在能量单元上以显示能量单元的详细信息。使用扳手右击它来切换模式",
     "message.rftoolsbase.information_screen.gold":"它能显示任何使用RF/FE能量的方块的能源信息",
     "message.rftoolsbase.machine_infuser.header":"使用它，你可以在不同方面改进RFTools模组内的大部分机器。需要消耗维度碎片",
     "message.rftoolsbase.machine_infuser.gold":"注能增益：减少能量消耗",
