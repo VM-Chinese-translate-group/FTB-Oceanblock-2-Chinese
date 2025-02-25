@@ -66,6 +66,10 @@ const tooltips = [
       ),
   },
   {
+    item: "oritech:lava_generator_block",
+    text: Text.translate("tooltip.oritech.boiler").gold(),
+  },
+  {
     item: "justdirethings:time_crystal_budding_block",
     text: Text.translate(
       "tooltip.justdirethings.time_crystal_budding_block"
@@ -117,6 +121,10 @@ const tooltips = [
     item: "mob_grinding_utils:golden_egg",
     text: Text.translate("tooltip.mob_grinding_utils.golden_egg").aqua(),
   },
+  {
+    item: "justdirethings:coal_t1",
+    text: Text.translate("tooltip.justdirethings.coal_t1").aqua(),
+  },
 ];
 
 ItemEvents.modifyTooltips((event) => {
@@ -144,7 +152,6 @@ ItemEvents.modifyTooltips((event) => {
       tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.1").gray());
     }
   );
-
   event.modify(
     [
       "mekanism:jetpack",
@@ -178,6 +185,10 @@ const trophyTooltips = {
   "gag:no_solicitors": "tooltip.streamertrophy.gag_no_solicitors",
   "oritech:tech_button": "tooltip.streamertrophy.oritech_tech_button",
   "sushigocrafting:shrimp": "tooltip.streamertrophy.sushigocrafting_shrimp",
+  "nautec:anchor": "tooltip.streamertrophy.nautec_anchor",
+  "supplementaries:statue": "tooltip.streamertrophy.supplementaries_statue",
+  "actuallyadditions:engineers_goggles":
+    "tooltip.streamertrophy.actuallyadditions_engineers_gogglesn",
 };
 
 ItemEvents.dynamicTooltips("streamertrophy", (event) => {
@@ -190,7 +201,7 @@ ItemEvents.dynamicTooltips("streamertrophy", (event) => {
         .get()
         .displayItem().id == key
     ) {
-      event.add(Text.translate(value).green());
+      event.add(Text.green(value));
       event.add(Text.translate("tooltip.streamertrophy").gray());
     }
   });

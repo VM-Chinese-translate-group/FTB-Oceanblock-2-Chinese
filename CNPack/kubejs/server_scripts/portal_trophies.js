@@ -113,7 +113,7 @@ ItemEvents.rightClicked("ftb:creative_portal_switcher", event => {
     const {player, level, hand, item} = event
     if(hand != "MAIN_HAND") return; 
     let team = $TeamsAPI.api().getManager().getTeamForPlayer(player).get();
-    let pPortal = player.getServer().persistentData.portals[team.id].position   
+    let pPortal = player.getServer().persistentData.portals[team.id].position
     let portalCenter = global.findPortalCenter(player, team.id)
     if(portalCenter == null) {
         player.tell(Text.translate("message.trophy.portal"))
@@ -149,11 +149,13 @@ ServerEvents.tick(event => {
             if(sPData.portals[teamId].getDouble('timer') <= 0){
                 sPData.portals[teamId].putBoolean('active', false)
                 sPData.portals[teamId].putBoolean('rift_weaver_spawn', false)
+
                 let team = $TeamsAPI.api().getManager().getTeamByID(teamId).get()
                 let onlineMembers = team.getOnlineMembers();
                 $RiftRegionManager.getInstance().addPendingRefresh(team.id)
 
                 if(onlineMembers.length == 0) return;
+
                 server.scheduleInTicks(40, (_) => {
                     let portalCenter = global.findPortalCenter(onlineMembers[0], team.id)
                     swapPortal(server.getLevel('minecraft:overworld'), portalCenter, 'ftb:portal_holder', 'air')

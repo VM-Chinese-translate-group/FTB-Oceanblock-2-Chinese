@@ -3,7 +3,11 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.living.MobDespawnEvent
 });
 NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent", (event) => {
   try {
+    if (event.entity == null) return;
+    if (!event.entity.isPlayer()) return;
     event.entity.stages.sync();
+    if(event.getFrom() != "ftb:the_rift") return;
+    global.refreshRiftRegion(global.getTeam(event.entity));
   } catch (e) {
     console.log(e);
   }
@@ -28,7 +32,6 @@ global.handleDimensionTeleport = (event) => {
   let lantern = inv.get().isEquipped("minecraft:soul_lantern");
   if (!lantern && !entity.isCreative()) {
     try {
-      event.setCanceled(true);
       entity.getServer().runCommand(
         `/immersivemessages sendcustom ${entity
           .getDisplayName()

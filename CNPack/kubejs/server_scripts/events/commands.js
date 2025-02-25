@@ -12,7 +12,7 @@ function setupCommand(e, ctx) {
   var disabledEvents = pData.disabledEvents;
 
   if (e.disableStage && !player.stages.has(e.disableStage)) {
-    source.sendSuccess(Text.of(["You have not unlocked disabling this event yet!"]).red(), false);
+    source.sendSuccess(Text.translate("command.event.disable").getString().red(), false);
     return 0;
   }
   if (disabledEvents) {
@@ -95,7 +95,7 @@ ServerEvents.commandRegistry((event) => {
   event.register(
     Commands.literal("spawn")
       .executes(function (ctx) {
-        ctx.getSource().getPlayer().runCommand("/ftbteambases lobby")
+        ctx.getSource().getPlayer().runCommandSilent("/ftbteambases lobby")
         return 1;
       })
   );
@@ -103,7 +103,7 @@ ServerEvents.commandRegistry((event) => {
   event.register(
     Commands.literal("lobby")
       .executes(function (ctx) {
-        ctx.getSource().getPlayer().runCommand("/ftbteambases lobby")
+        ctx.getSource().getPlayer().runCommandSilent("/ftbteambases lobby")
         return 1;
       })
   );
@@ -161,7 +161,41 @@ ServerEvents.commandRegistry((event) => {
       )
 
     )
+    .then(Commands.literal("kick_from_rift")
+    .requires((src) => src.hasPermission(3))
+    .then(Commands.argument("player", Arguments.PLAYER.create(event))
+      .executes(function (ctx) {
+        const player = Arguments.PLAYER.getResult(ctx, "player");
+        if(!player) return 0;
+        if(!player.isPlayer()) {
+          console.log("Invalid player");
+          return 0;}
+        const team = global.getTeam(player);
+        global.refreshRiftRegion(team);
+        player.tell(Text.translate("command.rift.reset").getString());
+        return 1
+      })
+      .then(Commands.argument("Kick Team from Rift? (initiate refresh)", Arguments.BOOLEAN.create(event))
+        .executes(function (ctx) {
+          const player = Arguments.PLAYER.getResult(ctx, "player");
+          if(!player) return 0;
+          if(!player.isPlayer()) {
+            console.log("Invalid player");
+            return 0;}
+          const team = global.getTeam(player);
+          global.refreshRiftRegion(team);
+          team.getOnlineMembers().forEach((member) => { 
+            if(member.level.dimension.toString() == 'ftb:the_rift') {
+              member.getServer().runCommandSilent(`execute as ${member.username} run ftbteambases home`)
+            }
+          })
+          player.tell(Text.translate("command.rift.reset").getString());
+          return 1
+        })
+      )
+    )
   )
+);
   /*
   event.register(
     Commands.literal("home")
@@ -446,10 +480,11 @@ ServerEvents.command(event => {
   let player = event.getParseResults().getContext().getSource().getPlayer();
 
   if(!player) return;
+
   // Always create PortalData for the player
   if(input.contains('ftbrifthelper send_to_rift')){
-  console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
-  global.createPortalData(player.getServer(), global.getTeam(player).id), player}
+    console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
+    global.createPortalData(player.getServer(), global.getTeam(player).id), player}
 
   if(player.isCreative()) return;
 
@@ -457,6 +492,7 @@ ServerEvents.command(event => {
     case 'back': return checkForSoulLantern(event, player);
     case 'spawn': return checkForDimensionToSpawn(event, player);
   }
+
 })
 
 function checkForSoulLantern(event, player) {
@@ -474,7 +510,7 @@ function checkForSoulLantern(event, player) {
   let lantern = inv.get().isEquipped("minecraft:soul_lantern");
   if (lantern) return
 
-  new ImmersiveMessage(player, Text.translate("message.soul.lantern").getString())
+  new ImmersiveMessage(player, `{"translate":"message.soul.lantern"}`)
   .setColor("#bc82ff")
   .setWave(true)
   .setDuration(4)

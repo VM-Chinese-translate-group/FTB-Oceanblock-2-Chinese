@@ -119,7 +119,7 @@ const airDropEvent = {
             spawned = true;
             new ImmersiveMessage(player, Text.translate("message.airdrop.landed").getString())
             .setDuration(5)
-            .setColor("red")
+            .setColor("#ff0000")
             .send();
 
             var placedBlocks = [];
@@ -165,8 +165,8 @@ const airDropEvent = {
 
             // console.log("landed_airdrops")
             // console.log(list)
-            // console.log(event.server)
-            // console.log(event.server.persistentData)
+            // console.log(eventServer)
+            // console.log(eventServer.persistentData)
             eventServer.persistentData.put("landed_airdrops", list);
           }
         }

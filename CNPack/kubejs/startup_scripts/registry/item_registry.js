@@ -13,7 +13,7 @@ StartupEvents.registry("item", (event) => {
 
   //Pebbles
   global.pebbles.forEach((pebble) => {
-    event.create("ftb:" + pebble.toLowerCase().replace(" ", "_") + "_pebbles").displayName(pebble + " Pebbles");  
+    event.create("ftb:" + pebble.toLowerCase().replace(" ", "_") + "_pebbles").displayName(pebble + " Pebbles");
   });
 
   // Random Items
@@ -90,7 +90,7 @@ StartupEvents.registry("item", (event) => {
 
   event.create('ftb:creative_portal_switcher')
     .displayName('Creative Portal Switcher')
-  event.create('ftb:rift_charge').displayName("Rift Charge").tooltip([Text.translate("item.ftb.rift_charge.tooltip")]);
+    event.create('ftb:rift_charge').displayName("Rift Charge").tooltip([Text.translate("item.ftb.rift_charge.tooltip")]);
 
   event.create('ftb:rift_weaver_disc').displayName(`In the Depths Below`).jukeboxPlayable("ftb:rift_weaver_boss", true).rarity('epic');
   event.create('ftb:mystic_depths_disc').displayName(`Mystic Depths`).rarity("epic").jukeboxPlayable("ftb:mystic_depths", true);
