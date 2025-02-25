@@ -55,5 +55,17 @@
 	"quest.060DD09733BE86C9.quest_desc5":"To do this, you'll need to &bset a keybind&r for it first.",
 	"task.5078BE981F759D0F.title":"Carry On",
 	"quest.74C6CBDB38C29D4D.quest_desc1":"In this chapter, you'll find plenty of useful items and tips you can use in your playthrough!",
-	"task.5CE52CCA9AEA95D5.title":"Tips \\&\\ Tricks!"
+	"task.5CE52CCA9AEA95D5.title":"Tips \\&\\ Tricks!",
+	"quest.70D723ED513104E2.title":"Creating Mob Farms",
+	"quest.70D723ED513104E2.quest_desc1":"In this pack, passive mobs do not naturally spawn at all, while hostile mobs will only spawn in a dark room under the sea level.",
+	"quest.70D723ED513104E2.quest_desc2":"",
+	"quest.70D723ED513104E2.quest_desc3":"One of the easiest ways to create a faster mob farm is to make &aChicken Feed&r. When fed to a Chicken, it will cause the chicken to explode and drop either a &6Golden Egg&r or &2Rotten Egg&r, depending on the Feed you use.",
+	"quest.70D723ED513104E2.quest_desc4":"",
+	"quest.70D723ED513104E2.quest_desc5":"&6Golden Eggs&r will convert a 5x5 of dirt to &6Delightful Dirt&r, which spawns passive mobs from &dArs Nouveau&r only.",
+	"quest.70D723ED513104E2.quest_desc6":"",
+	"quest.70D723ED513104E2.quest_desc7":"To spawn mobs like cows or chickens, you will need to use a &2Gateway of The Emerald Grove&r.",
+	"quest.70D723ED513104E2.quest_desc8":"{@pagebreak}",
+	"quest.70D723ED513104E2.quest_desc9":"To create a fast hostile mob farm, you can create a &2Rotten Egg&r by feeding a chicken &dCursed Chicken Feed&r. This egg is used on a 5x5 of Dirt to convert it into &dDreadful Dirt&r.",
+	"quest.70D723ED513104E2.quest_desc10":"",
+	"quest.70D723ED513104E2.quest_desc11":"This dirt will speed up the spawning of hostile mobs, and can be turned off by turning on the lights."
 }

@@ -18,7 +18,7 @@
 	"quest.0A480337880DAAEE.quest_desc4":"",
 	"quest.0A480337880DAAEE.quest_desc5":"That wasn’t just a storm—it felt... deliberate. &oWhat was that &canomaly&r?&r",
 	"quest.0A480337880DAAEE.quest_desc6":"",
-	"quest.0A480337880DAAEE.quest_desc7":"&6&o&nTASK&r: Gather Flint from to make some &abasic tools&r.",
+	"quest.0A480337880DAAEE.quest_desc7":"&6&o&nTASK&r: Gather Flint from Crates to make some &abasic tools&r.",
 	"quest.7CA438754E6EE606.title":"Sifting Through The Waters",
 	"quest.7CA438754E6EE606.quest_desc1":"The water on this planet seems to have a lot of debris floating in it.",
 	"quest.7CA438754E6EE606.quest_desc2":"",
@@ -515,5 +515,7 @@
 	"quest.590A170857B8CED8.quest_desc7":"&6&o&nTASK&r: Craft any type of &2Storage Drawer&r.",
 	"quest.590A170857B8CED8.quest_desc8":"",
 	"quest.590A170857B8CED8.quest_desc9":"To learn more about using Functional Storage, make sure to check out the &6General Storage&r chapter!",
-	"task.07F7B1E50A97198C.title":"Any Storage Drawer"
+	"task.07F7B1E50A97198C.title":"Any Storage Drawer",
+	"quest.37FC0C5C283E0580.quest_desc1":"This quest is for those who might have misplaced their &aBroken Commlink&r.",
+	"task.45AC420D963E6900.title":"Lost Commlink?"
 }
