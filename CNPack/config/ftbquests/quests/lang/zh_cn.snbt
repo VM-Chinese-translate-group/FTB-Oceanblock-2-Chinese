@@ -41,7 +41,7 @@
     quest.1820069FEA2237E6.title:"&f装饰用石英"
     quest.0B5E11225338F0CF.title:"&f铁晶"
     quest.452A356F35EE46DD.title:"&f充能钻石水晶"
-    quest.0457FBD64D57E07B.title:"&f充能钻石水晶"
+    quest.0457FBD64D57E07B.title:"&f充能铁晶"
     quest.212F163A18A332A1.title:"&f充能青金石水晶"
     quest.189DE52ADD270985.title:"&f透镜"
     quest.2992268BD1E5C553.quest_subtitle:"九倍的效率（和价值）提升！"
@@ -194,9 +194,6 @@
     quest.43E68DE2E5A53162.title:"&d用无人机&f收获作物"
     quest.4DD685A3F0F1329F.title:"&d用无人机&f收获作物"
     quest.55B7E3EE706E8D6F.title:"&f强化石"
-    quest.31B06C6ACEF764E0.quest_subtitle:"小 心 美 军 马 上 到 你 家 门 口 "
-    quest.31B06C6ACEF764E0.title:"&f挖石油喽！"
-    quest.49E9EBFC7B717D8E.title:"&f精制油"
     quest.6AF16D867409D140.title:"&f漫游"
     task.643C260144990936.title:"&f漫游"
     chapter.6F0ED7CA1077DD3C.title:"末影接口"
@@ -233,7 +230,7 @@
     quest.18A73FAF4D0F9F40.title:"&e慢化剂（Moderator）"
     task.2C1DE5245FEB3956.title:"慢化剂举例"
     quest.2CD606A9C5C786D8.quest_subtitle:"是时候“冷静”一下了"
-    quest.2CD606A9C5C786D8.title:"主动还是被动的反应堆？"
+    quest.2CD606A9C5C786D8.title:"&f主动还是被动的反应堆？"
     quest.07CC52EDB45C7994.quest_subtitle:"觉得太简单了？"
     quest.07CC52EDB45C7994.title:"&f多方块结构的大小"
     task.1A02CBDB99C6928B.title:"&f方块变种"
@@ -252,11 +249,27 @@
     quest.3985170CDB3A0BC3.title:"&c空想"
     quest.49C272F5ECDF9FA4.quest_subtitle:"这一切是为了什么？"
     quest.49C272F5ECDF9FA4.title:"&a晶振"
-    quest.3E25EAA3D2851941.title:"&f反应堆外壳"
-    quest.1839CCDAC3346C27.title:"&f为反应堆加注燃料"
-    quest.12BBDC662C7D6622.title:"&f反应堆端口"
-    quest.617363DDAA59D686.title:"&f接下来，建造一个强化反应堆吧！"
+    quest.3E25EAA3D2851941.title:"&d反应堆&f外壳"
+    quest.1839CCDAC3346C27.title:"&f为&d反应堆&f加注燃料"
+    quest.12BBDC662C7D6622.title:"&d反应堆&f端口"
+    quest.617363DDAA59D686.title:"&f接下来，建造一个强化&d反应堆&f吧！"
     task.1E4417D6C15F6207.title:"&f接下来，建造一个强化反应堆吧！"
+    quest.24651265607A772B.title:"&6Fluidizer &fWalls"
+    quest.2118F7E7DA50BE2E.title:"&6Fluidizer &fModes"
+    quest.78FEB17736D2E8C5.title:"&6Fluidizer &bPorts"
+    quest.52B005DF145A5707.title:"&3Turbine &fWalls"
+    task.081862F8BA857882.title:"&3Turbine &fWalls"
+    quest.0B7AD8830F63CC2A.title:"&3Turbine &fRotors"
+    task.287383C50A51C925.title:"&fRotor Bearings"
+    task.3ECDB56A4577AB1E.title:"&fRotor Shafts"
+    task.37E5BA11AD84D7AF.title:"&fRotor Blades"
+    quest.5CCCCC773275CFAC.title:"&3Turbine &bPorts"
+    task.327E3C53D0FEA46E.title:"&3Turbine &fEnergy Port"
+    task.20F7D4F697921733.title:"&3Turbine &fActive Fluid Port"
+    quest.11C6F6554654573A.title:"&3Turbine &dInduction Coils"
+    quest.22A060CE1CD96EE5.title:"&cReprocessor &fWalls"
+    quest.558971F923A3C186.title:"&cReprocessor &bPorts"
+    quest.506DDFCF6639744D.title:"&fInjectors \&\ Collector"
     chapter_group.1082D352D1CC13F4.title:"主线任务"
     chapter_group.236F0B414FA815E0.title:"魔法模组"
     chapter_group.26835947166CBCA2.title:"物流模组"
@@ -459,6 +472,7 @@
     quest.0446F4732B120FDD.title:"Early Storage Options"
     quest.590A170857B8CED8.title:"存放细碎物品的方法"
     task.07F7B1E50A97198C.title:"任意储物抽屉"
+    task.45AC420D963E6900.title:"Lost Commlink?"
     chapter.0FC6D9571E0C2EDC.title:"沉浸工程"
     quest.0A2DB5AFC89E852F.title:"&f焦炉"
     quest.0806978F98A7A3E8.title:"&f钢锭"
@@ -799,7 +813,6 @@
     task.183FEFA2AEF46058.title:"观察&a灵火"
     quest.0A63C6F9B76293DB.quest_subtitle:"神秘学完整流程体验"
     quest.0A63C6F9B76293DB.title:"&f探测杖"
-    quest.465A950126ABF758.title:"&a异界树林"
     quest.633843210DE84A0D.title:"基础粉笔"
     task.2E079C677B170563.title:"基础粉笔"
     quest.62BB8F93956480BA.title:"&b魔灵&r"
@@ -810,9 +823,9 @@
     task.6B0602266368826B.title:"&e附身仪式"
     quest.51D07B8762C46982.title:"&e绑定仪式"
     task.4F725B8E1BB9B8D1.title:"&e绑定仪式"
-    quest.6137DE875E13EF72.title:"&eSummoning Rituals"
-    task.34F38A214F5DEFC3.title:"&eSummoning Rituals"
-    quest.3BCB8667CCEBAE57.title:"&aStorage Actuator Base"
+    quest.6137DE875E13EF72.title:"&e召唤仪式"
+    task.34F38A214F5DEFC3.title:"&e召唤仪式"
+    quest.3BCB8667CCEBAE57.title:"&a存储促动器基座"
     quest.1EAF085D3C13253B.title:"&cInfused Pickaxe"
     quest.0FC3672189B0854D.title:"&cIesnium"
     quest.2AAD4463A90C639B.title:"&cDimensional Mineshaft"
@@ -1042,7 +1055,6 @@
     task.346A097A266F1BCD.title:"&fA Note For The Questline"
     quest.33E4C81B762892B2.title:"&6欢迎游玩Oritech！&r"
     chapter.7B3ADCA4950CB4F0.title:"Oritech"
-    task.057BB7FB5B9AF27F.title:"任意粗镍"
     quest.6432ABF56BFF2F8F.title:"资源节点"
     quest.46AF8085E4151D9E.title:"&c基岩层钻机"
     quest.036C11AC70835846.title:"&d末地&r&f之力"
@@ -1092,11 +1104,11 @@
     quest.3E719C5EB260F7E7.title:"&d核反应堆控制面板"
     quest.499FE5B9A6E42D1B.title:"&a反应堆燃料棒"
     task.4CB6CE40C86BF2E5.title:"&a反应堆燃料棒"
+    task.008E39502A7A1D2E.title:"Reactor Fuel"
     quest.385FCE9BEC913790.title:"&c散热口&f和&c热管"
     quest.12F774E4D4B62CCB.title:"&b反应堆吸热装置"
     quest.53F1206438C02132.title:"&2能量&f和&c红石&f端口"
     quest.5A34991062F66626.title:"&f设计你的&d反应堆"
-    task.2DB72DE95EA7A67F.title:"&f设计你的&d反应堆"
     quest.1C58933205E5C96D.title:"跟你的蒸汽说拜拜吧！"
     chapter.391B65CD04A90459.title:"发电"
     quest.63C6CCD277C86EF4.title:"&a“初级”&r燃液发电机"
@@ -1276,6 +1288,7 @@
     quest.215E7EB95A7C64A3.title:"袋子中的时光"
     task.5078BE981F759D0F.title:"搬运"
     task.5CE52CCA9AEA95D5.title:"提示和技巧！"
+    quest.70D723ED513104E2.title:"打造刷怪场"
     chapter.2D4BDD06393E56E1.title:"压力山大"
     quest.2FF4717777A2EFEC.title:"激光！"
     quest.07B0C76DFA277DAF.title:"&d幽匿块&r转转转"
@@ -1323,7 +1336,7 @@
         ""
         "河豚：提供&9水下呼吸&r，最大可达2级。（译者注：什么神人能在咖啡机放河豚我请问了）"
         ""
-        "岩浆膏：提供&6防火&r，最大可达2级。"
+        "岩浆膏：提供&6抗火&r，最大可达2级。"
         ""
         "金胡萝卜：提供&e夜视&r，最大可达2级。"
         ""
@@ -1618,7 +1631,7 @@
         "{@pagebreak}"
         "&6并行处理单元&r是个可选组件，不过我推荐你还是放几个比较好。并行处理单元越多，意味着一次可以执行的分支请求就越多，对于那种合成树很复杂的请求很有效。"
         ""
-        "我打个比方吧，要做1000个工作台首先需要把原木变成木板，木板再做成工作台。如果你安装了多个并行处理单元的话，你的多方块合成器就可以同时处理原木变木板，还有木板变工作台。不然的话它就会先完成木头合成木板，再一次性把木板变成合成桌。"
+        "我打个比方吧，要做1000个工作台首先需要把原木变成木板，木板再做成工作台。如果你安装了多个并行处理单元的话，你的多方块合成器就可以同时处理原木变木板，还有木板变工作台。不然的话它就会先完成木头合成木板，再一次性把木板变成工作台。"
         "{@pagebreak}"
         "有一个非常重要的事：一个&6多方块合成CPU&r一次只能处理一种合成任务，如果你想合成1000个工作台的同时烧1000个铁锭，那你就需要两个合成CPU才能处理两个任务。"
         ""
@@ -1804,7 +1817,9 @@
     quest.13D6C551C8DBC124.quest_desc:[
         "一位魔法师要是没有自己搞学问的魔法桌子，怎么潜心搞魔法学问？魔法桌子需要用魔法森林中的魔法木头制作，听起来真是太&o魔法&r辣！"
         ""
-        "首先你要找到&2至高木&r，然后把它砍掉做成你需要的工作站。至高木在主世界中随机分布，但&a至高木森林&r中最多。"
+        "首先你要找到&2至高木&r，然后把它砍掉做成你需要的工作站。"
+        ""
+        "These can be made either by using the &aAtomic Reconstructor&r, or by finding a specific one in the &cLava Dimension&r."
     ]
     quest.1A6984A6484FF8F3.quest_desc:[
         "手持&a法术书&r并按下&aC&r键就会打开构建咒语的目录，你可以在里面构建你的第一个咒语！"
@@ -2050,7 +2065,7 @@
         "Naming a chest will provide a separate storage tab in the Storage Lectern. This can be done by naming the chest in an anvil, or by using a Name spell!"
     ]
     quest.3E92AE1CCA722AA3.quest_desc:[
-        "Chances are, you've seen this squirrel-like creature running around in the world. If you want to befriend the &aStarbuncle&r, hold a &6Gold Nugget&r in your hand and toss it to one, which will give you the &aStarbuncle Charm&r."
+        "If you want to befriend the &aStarbuncle&r, hold a &6Gold Nugget&r in your hand and toss it to one, which will give you the &aStarbuncle Charm&r."
         ""
         "Starbunkles are used to pick up items off the ground and transport them to storage nearby. Using the Dominion Wand, you can bind a Starbuncle to a specific chest for it to transport items to. If you'd like them to transfer items out of a chest, you must first select the chest with the Wand, then use it again on the Starbuncle."
         ""
@@ -2324,7 +2339,7 @@
     quest.15F655AA668D6541.quest_desc:[
         "你可以用&6压力室&r制作一些高阶机器所需的组件，比如接下来要做的&a流体搅拌机&r就需要它。"
         ""
-        "&b流体混合器&r可以混合两种流体来制造一种物品或制造另一种液体。其中一个重要的用途是生产&a生物柴油&r。"
+        "&b流体混合器&r可以混合两种流体来制造一种物品或制造另一种流体。其中一个重要的用途是生产&a生物柴油&r。"
         ""
         "由于&0原油&r不是可再生资源，用植物油来制作&a生物柴油&r是实现塑料自动化的更好办法！"
     ]
@@ -2391,22 +2406,6 @@
         "&b强化石&r是最先进的气动工艺机器的基础。它的硬度和耐热性使其成为控制气动设备高气压的完美材料。"
         ""
         "你需要大量的这些材料来制作模组中的许多机器！"
-    ]
-    quest.31B06C6ACEF764E0.quest_desc:[
-        "在我们可以开始制作更高级科技前，必须去寻找&3原油&r。"
-        ""
-        "原油可由Nautec的&6搅拌机&r无限制作。"
-    ]
-    quest.49E9EBFC7B717D8E.quest_desc:[
-        "&0石油&r是一种非常珍贵的材料，因为你可以把它精炼为一些用途很多的液体，比如&d汽油&r或&b塑料&r！"
-        ""
-        "为了办到它，你需要搭建一个&a精炼厂&r才能精炼石油。精炼厂是个小型多方块结构，由一个&a精炼厂控制器&r几个&2精炼厂输出端&r组成。"
-        "{@pagebreak}"
-        "&a精炼厂控制器&r需要外部热源加热，输出口的数量则决定了精炼产出流体种类。"
-        ""
-        "将&a精炼厂控制器&r直接放在熔岩上，之后再将4个输出口放在它的上方便可大功告成。"
-        ""
-        "不过放完后你还需要防止&c热量&r散失，用&b隔热板&r包裹起来就行。"
     ]
     quest.6AF16D867409D140.quest_desc:[
         "&6亚马龙贸易网络&r提供各种随机预设的村民交易，这些交易将在每个游戏日刷新一次。一些整合包或模组的特定交易将始终存在，所以务必要定期查看！"
@@ -2530,19 +2529,19 @@
         "制作一些&6铀锭&r（&d反应堆&r的命脉）以开始这个模组！"
     ]
     quest.055F4DA6E97B36B9.quest_desc:[
-        "现在，准备好搭建第一台&d反应堆&r了!"
+        "现在，准备好搭建第一台&d反应堆&r了！"
         ""
         "&d反应堆&r是一个多方块结构，可以用来发电，也可被用作汽化冷却剂。"
         ""
         "&d反应堆&r的搭建方式会因其用途而产生变化，此任务将带领你搭建一个基础&d反应堆&r来产生能量。"
         ""
-        "要搭建您的第一个&d反应堆&r，首先要用&a反应堆外壳&r搭建一个3*3*3的框架，底面填实。把&a反应堆燃料棒&r放在中间，&a控制杆&r放在它的正上方。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a反应堆外壳&r补全结构。"
+        "要搭建您的第一个&d反应堆&r，首先要用&a反应堆外壳&r搭建一个3x3x3的框架，底面填实。把&a反应堆燃料棒&r放在中间，&a控制杆&r放在它的正上方。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a反应堆外壳&r补全结构。"
         "{@pagebreak}"
-        "若是正确搭建，那么&d反应堆&r结构应该出现材质变化，并且当你与&a控制器&r交互时会出现UI界面。"
+        "若是正确搭建，那么&d反应堆&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         "{@pagebreak}"
-        "&a基础框架&r可以建造最大5*5*5的&d反应堆&r。"
+        "&a基础框架&r可以建造最大5x5x5的&d反应堆&r。"
         ""
-        "&2强化框架&r可以建造最大32*32*48的&d反应堆&r。"
+        "&2强化框架&r可以建造最大32x32x48的&d反应堆&r。"
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
         ""
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
@@ -2567,7 +2566,7 @@
         "&a主动冷却&r：通过外部冷却剂进行&c散热&r。"
         "这种情况下，冷却剂会蒸发且蒸汽可以从&d反应堆&r中提取以用作驱动一或多个&3涡轮机&r的转子。"
         "在此模式下，冷却剂会被汽化，产生的蒸汽可从&d反应堆&r中导出，并驱动一台或多台&3涡轮机&r的转子发电。"
-        "要把一个反应堆转换为&a主动冷却&的反应堆，你需要一个新的端口！"
+        "要把一个反应堆转换为&a主动冷却&r的反应堆，你需要一个新的端口！"
     ]
     quest.07CC52EDB45C7994.quest_desc:[
         "多方块结构都有尺寸限制，且&d反应堆&r与&3涡轮机&r均有两种规格："
@@ -2579,58 +2578,34 @@
     quest.5BBE73445913E9A3.quest_desc:[
         "&c再处理器&r是可以通过将&d反应堆&r废料转化为新的燃料或资源来重复利用乏燃料的多方块结构。"
         ""
-        "&c再处理器&r的规格为3*3*7，每个部分都需要放置下来。"
+        "&c再处理器&r的规格为3x3x7，其每个部分都需要放置下来。"
         ""
-        "先用&a回收机外壳&r搭建一个3*3*7的框架，然后把&a回收机收集端口&r放在底部，并将&a回收机废料端口&r放在顶部。其余方块可以放在除框架上的任何地方。放完之后用&a回收机外壳&r补全结构。"
+        "先用&a回收机外壳&r搭建一个3x3x7的框架，然后把&a回收机收集端口&r放在底部，并将&a回收机废料端口&r放在顶部。其余方块可以放在除框架上的任何地方。放完之后用&a回收机外壳&r补全结构。"
         ""
-        "若是正确搭建，那么&c再处理器&r结构应该出现材质变化，并且当你与&a控制器&r交互时会出现UI界面。"
+        "若是正确搭建，那么&c再处理器&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         ""
         ""
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
     ]
     quest.13F84B912C8FA7FD.quest_desc:[
-        "&3涡轮机&r是通过旋转&b转子&r产生能量的多方块结构。"
+        "要搭建您的第一个&3涡轮机&r，首先要用&a涡轮机外壳&r搭建一个5x5x3的框架，并在底面中央的位置放一个&a涡轮机转子轴承&r。把&a涡轮机转子转轴&r放在中间，&b转子叶片&r放在它的四个正方向。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a涡轮机外壳&r填上最后的空位。"
         ""
-        "此任务将带领你搭建属于你的第一台&3涡轮机&r，请确保你完整阅读了这两页任务。"
+        "若是正确搭建，那么&3涡轮机&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         ""
         "要搭建您的第一个&3涡轮机&r，首先要用&a涡轮机外壳&r搭建一个5*5*3的框架，并在底面中央的位置放一个&a涡轮机转子轴承&r。把&a涡轮机转子转轴&r放在中间，&b转子叶片&r放在它的四个正方向。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a涡轮机外壳&r填上最后的空位。"
         ""
         "若是正确搭建，那么&3涡轮机&r结构应该出现材质变化，并且当你与&a控制器&r交互时会出现UI界面。"
         "{@pagebreak}"
-        "实际上，在&3涡轮机&r内产生的能量是&d感应电流&r。"
-        ""
-        "所以（通常）在&a转子转轴&r周围、贴近&a涡轮机外壳&r的地方放下金属方块可以提取出这些能量，并使它减速。"
-        ""
-        "你可以放置最多三个&d感应线圈&r，但是更少的配置需求可能受益于更少的线圈数量。"
-        ""
-        "你也可以混合&d线圈&r材质搭建，这也意味着你可以随着获得更高级的材料逐步升级你的&3涡轮机&r。"
-        ""
-        ""
-        "&a基础框架&r可以建造最大5*5*10的&d涡轮机&r。"
-        ""
-        "&2强化框架&r可以建造最大32*32*32的&d涡轮机&r。"
-        ""
-        ""
-        "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
+        "&e注&r：如果需要更加深入的解释，你可以随时查看指南。"
     ]
     quest.7876408A8635B7F6.quest_desc:[
-        "&6流化器&r是可以以各种方式处理流体的多方块结构。"
+        "要搭建您的第一个&6流化器&r，首先要用&a流化器外壳&r搭建一个3x3x3的框架，然后放置&a控制器&r和&b端口&r以及与选择的模式相对应数量的&b注入器&r（不能在框架上），最后补全结构的剩余部分。 "
         ""
-        "所有类型的&6流化器&r都需要&a输出端口&r、&a能源端口&r还有&a流化器外壳&r，在开始搭建&6流化器&r之前，你有必要了解它的三个模式："
+        "若是正确搭建，那么&6流化器&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         ""
-        "- &e固体混合模式&r：将两种固体融化并融合为流体。需要两个&b固体注入器&r。"
+        "要毕业这个mod，你必须把该多方块结构的所有三种模式都建造出来。"
         ""
         "- &e流体混合模式&r：将两种流体混合成一种新的燃料。需要两个&b流体注入器&r。"
-        ""
-        "- &e固体转液体模式&r：将固体（如钢锭）转变为流体。只需要一个&b固体注入器&r。"
-        "{@pagebreak}"
-        "要搭建您的第一个&6流化器&r，首先要用&a流化器外壳&r搭建一个3*3*3的框架，然后放置&a控制器&r和&b注入器&r以及与选择的模式相对应数量的&b端口&r（不能在框架上），并用&a流化器外壳&r补全结构。"
-        ""
-        "若是正确搭建，那么&6流化器&r结构应该出现材质变化，并且当你与&a控制器&r交互时会出现UI界面。"
-        ""
-        "你需要将三个模式的结构都搭建出来以发展这个模组。"
-        ""
-        "&6流化器&r的最大规格为32*32*32"
         ""
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
     ]
@@ -2639,7 +2614,7 @@
         ""
         "此结构的外壳必须全部由&a能源池外壳&r组成（除了&a控制器&r），而且其内部必须用&b能量单元&r填满。"
         ""
-        "&2能源池&r的最小规格为3*3*3，最大32*32*32。"
+        "&2能源池&r的最小规格为3x3x3，最大32x32x32。"
     ]
     quest.4BDC456540EBE648.quest_desc:[
         "将两个&b蓝晶&r锭和一桶水放入再处理器中以制造&9蓝钚&r。"
@@ -2687,7 +2662,7 @@
         ""
         "你需要至少22个&b反应堆外壳&r以建造第一个&d反应堆&r。"
         ""
-        "牢记&e基础框架&r可以建造最大5*5*5的&d反应堆&r。"
+        "牢记&e基础框架&r可以建造最大5x5x5的&d反应堆&r。"
     ]
     quest.1839CCDAC3346C27.quest_desc:[
         "&b反应堆燃料棒&r是你的&d反应堆&r存储燃料的地方。&b燃料棒&r越多，就需要更多的燃料以将它完全填满。"
@@ -2708,7 +2683,38 @@
     quest.617363DDAA59D686.quest_desc:[
         "是时候让你摆脱&e基础&r方块的局限性了。"
         ""
-        "使用&b强化&r部件，可以建造最大32*32*32的&d结构&r，而&d反应堆&r可最大有32*32*48的规格。"
+        "使用&b强化&r部件，可以建造最大32x32x32的&d结构&r，而&d反应堆&r最大可有32x32x48的规格。"
+    ]
+    quest.24651265607A772B.quest_desc:[
+        "&6流化器&r是可以以各种方式处理流体的多方块结构。"
+        ""
+        "在开始搭建&6流化器&r之前，你有必要了解它的三个模式："
+    ]
+    quest.2118F7E7DA50BE2E.quest_desc:[
+        "&e固体混合模式&r：将两种固体融化并融合为流体。需要&l刚好两个&r&b固体注入器&r。"
+        ""
+        "&e流体混合模式&r：将两种流体混合成一种新的燃料。需要&l刚好两个&r&b流体注入器&r。"
+        ""
+        "&e固体转液体模式&r：将固体（如钢锭）转变为流体。需要&l刚好一个&r&b固体注入器&r。"
+    ]
+    quest.52B005DF145A5707.quest_desc:[
+        "The &3Turbine&r is a multiblock machine that spins &bRotors&r to generate energy."
+        ""
+        "You will need at least 64 casings to build your first &3Turbine&r."
+    ]
+    quest.0B7AD8830F63CC2A.quest_desc:[
+        "&bRotors&r are a core part of your &3Turbine&r setup."
+        ""
+        "You will need to place at least four &bRotor Blades&r around each &bRotor Shaft&r."
+    ]
+    quest.11C6F6554654573A.quest_desc:[
+        "&dInductor Coils&r are what actually generates power within your &3Turbine&r."
+        ""
+        "They are (usually) metallic blocks that can be placed around your &aRotor Shaft&r, near the &aHousing&r, to extract rotational energy, slowing down it down."
+        ""
+        "You can place up to three rings of &dCoils&r, but smaller setups will likely benefit more from having less rings."
+        ""
+        "You can also mix &dCoil&r types, allowing you to slowly upgrade your &3Turbine&r as you unlock better quality items."
     ]
     quest.7D7DAC8ABD1FEFF3.quest_desc:[
         "我根本无法理解为什么有生物能在这里&o生存&r 。"
@@ -2726,6 +2732,8 @@
         "潜行右击猪灵可以将它捡起，前提是它们对你没有敌意。"
         ""
         "用自动输入金锭自动输出物品的方式，可以自动化该方块的贸易。"
+        ""
+        "&6&o&n注意&r：如果输出已满，交易所将继续消耗金锭。"
     ]
     quest.1C90DD17A67CAAE2.quest_desc:[
         "我不敢保证我现在可以直接使用&c熔岩&r，所以我应该找找那种含有岩浆的石头。"
@@ -3165,7 +3173,7 @@
         ""
         "&6&o&n当前任务&r：制作并给你的盔甲加装&6水肺升级&r和&d深潜升级：I级&r。"
         ""
-        "注意：在合成台就可以把&6灵魂绑定&r附到你的气动盔甲上。"
+        "注意：在工作台就可以把&6灵魂绑定&r附到你的气动盔甲上。"
     ]
     quest.049DE43A1B31C38F.quest_desc:[
         "这个章节会着重介绍大多数存储物品的办法！"
@@ -3849,6 +3857,9 @@
         "&6&o&nTASK&r: Craft any type of &2Storage Drawer&r."
         ""
         "To learn more about using Functional Storage, make sure to check out the &6General Storage&r chapter!"
+    ]
+    quest.37FC0C5C283E0580.quest_desc:[
+        "This quest is for those who might have misplaced their &aBroken Commlink&r."
     ]
     quest.0A2DB5AFC89E852F.quest_desc:[
         "&a焦炉&r是一个定位于游戏前期用于将煤炭转化为&3焦煤&r和&7杂酚油&r的多方块结构。"
@@ -5200,7 +5211,7 @@
         "手持&a配置器&r，潜行右击&a输导端口&r就可以调整该端口的输入输出状态。我建议你的第一个矩阵放俩就够！"
     ]
     quest.334A319CC010293A.quest_desc:[
-        "在水下深处，有一个叫做&6海蓝科技遗址的小结构&r。"
+        "在水下深处，有一个叫做&6海蓝科技遗址&r的小结构。"
         ""
         "在这个结构中，有一个&6海洋催化器&r。"
         ""
@@ -5362,15 +5373,6 @@
         ""
         "探测杖宝石的颜色能够指示你离目标方块的距离。白色表示没有找到目标方块。紫色部分越多，你离目标方块越近。"
     ]
-    quest.465A950126ABF758.quest_desc:[
-        "在洞穴探险的时候有偶然见过长在地底下的树吗？那说不定是&2异界树林&r的标志。"
-        ""
-        "&2异界树林&r是一个长满了&a异界树&r的巨大洞穴，四周围绕着&3异界石&r。"
-        ""
-        "&a异界树&r在肉眼下长得就像是一般的橡树，但开启&b第三只眼&r就会发现它的真面目。"
-        ""
-        "&2异界树苗&r只能通过手动破坏&a异界树叶&r来获得。"
-    ]
     quest.633843210DE84A0D.quest_desc:[
         "&b白色粉笔&r是一种&e基础粉笔&r。"
         ""
@@ -5442,14 +5444,14 @@
         "这些物品可以简单的增强功能或执行复杂的功能来帮助玩家。"
     ]
     quest.6137DE875E13EF72.quest_desc:[
-        "&eSummoning Rituals&r force &bSpirits&r to enter this world in a chosen shape, setting them to a specific task."
+        "&e召唤仪式&r强迫&b魔灵&r以选定的形态进入物质世界，给它们设定特殊的任务。"
         ""
-        "You've already made the first tier of Summoning Pentacle: &aAviar's Circle&r."
+        "你已经准备好制作级别一的召唤五芒星：&a阿维亚之环&r。"
         ""
-        "These tasks can range from item manipulation and trading, to slave-like helpers for manual labour."
+        "这些任务的范围从使用物品和交易，到像奴隶一样的体力劳动。"
     ]
     quest.3BCB8667CCEBAE57.quest_desc:[
-        "The &aStorage Actuator Base&r is the first of two parts needed to access your storage dimension."
+        "&a存储促动器基座&r是访问您的存储维度所需的两个部件中的第一个部件。"
         ""
         "This block functions very much like a big shulker box. This means that when breaking the &aDimensional Storage Actuator&r, your items will stay safe inside the block."
     ]
@@ -6309,9 +6311,6 @@
     quest.033F3D2427ED6F40.quest_desc:[
         "可以用它更精密的控制红石和红石比较器。"
     ]
-    quest.7FEDD82D9B47EFCD.quest_desc:[
-        "&a生物质发电机&r消耗生物质产生RF，加装&b插件&r可以提升发电效率。"
-    ]
     quest.143E07D2565798AB.quest_desc:[
         "&6Oritech&r模组的主要机器为&b多方块机器&r，其中绝大多数的多方块机器都需要用上&a机器核心&r。记得查看机器的工具提示，其中标出了需要多少核心。"
         ""
@@ -6488,8 +6487,6 @@
         "&b塑料片&r是高级合成配方的重要材料。"
         ""
         "如果你想做一大堆升级的话，那你肯定需要非~~~~~常多的塑料片！"
-        ""
-        "你可以在离心机中用水和&a粗有机聚合物&r来制作它，或者用石油中的&3石油树脂&r也可。"
     ]
     quest.49D399724FD1805B.quest_desc:[
         "&c涡轮燃料&r作为发电燃料效率更高，而且可以装填&aOritech的喷气背包&r！"
@@ -6500,6 +6497,8 @@
         "&c燃料发电机&r是个3x3x2的多方块发电机，它可以消耗&3原油&r或者&c涡轮燃料&r发电。"
         ""
         "&c涡轮燃料&r虽然RF产出速率和普通燃料一样，不过它持续时间更久！"
+        ""
+        "Note: &3Crude Oil&r is made in the Nautec &6Mixer&r!"
     ]
     quest.2588279A071E5A6B.quest_desc:[
         "当一个生物或活体实体死亡时，它会释放一个&9灵魂&r。如果范围（16个方块）内有能够收集灵魂的方块， &9灵魂&r将会被该方块收集。这在视觉上表现为一个小灵魂飞向该方块。"
@@ -6589,6 +6588,12 @@
         "中子反射器可以将脉冲反射回原点，类似于相邻的燃料棒类型来提高效率。"
         ""
         "每个燃料棒将从上方的燃料端口消耗固定数量的燃料。每个燃料丸有不同的燃料容量。 每个单燃料棒使用1个容量单位，双燃料棒使用2个，四燃料棒使用4个。"
+        ""
+        "A &aSingle Rod&r will generate 1 internal pulse, a &aDouble Rod&r 4, and a &aQuad Rod&r 12. "
+        "{@pagebreak}"
+        "&eNeutron Reflectors&r can be used to send a pulse back to its origin, acting as a similar rod type to its neighbor, increasing its efficiency."
+        ""
+        "Each &aFuel Rod&r will consume a fixed amount of fuel from the &bReactor Fuel Ports&r above the stack. Each fuel pellet has a capacity, and each rod will use 1 capacity unit, a double rod uses 2, and a quad rod uses 4."
     ]
     quest.385FCE9BEC913790.quest_desc:[
         "&c反应堆散热口&r从最热的相邻组件中移除热量（&3燃料棒&r或&c热管&r），并将其排出&d反应堆&r。"
@@ -6625,10 +6630,14 @@
         "您可以根据自己的需求设计&d反应堆&r。一般来说，&a双燃料棒&r或&a四燃料棒&r的燃料利用率更高，每颗燃料丸产生的总RF更多，但冷却难度也更大。"
         ""
         "您可以使用&b吸热装置&r进行主动冷却，或者仅使用&c散热口&r进行被动冷却。"
-        ""
+        "{@pagebreak}"
         "如果&a燃料棒&r温度超过2000°C并持续一段时间，将会触发熔毁。"
         ""
         "在达到这些温度之前，警告警报会启动。根据&d反应堆&r的大小和&a燃料棒&r的数量，熔毁会导致不同程度的爆炸。"
+        ""
+        "If a &aFuel Rod&r contains a temperature of over 2000°C for a long period of time, it will overheat and trigger a &cNUCLEAR MELTDOWN&r!"
+        ""
+        "Warning sirens will engage before it reaches those temperatures. Depending on the size of the &dReactor&r and the number of &aFuel Rods&r, the meltdown will result in a bigger or smaller explosion."
     ]
     quest.1C58933205E5C96D.quest_desc:[
         "在你做出一些基础的&b蒸汽发电机&r后，就该准备和蒸汽说再见了！"
@@ -7344,6 +7353,19 @@
     ]
     quest.74C6CBDB38C29D4D.quest_desc:[
         "在本章节中，你将了解很多实用的物品和技巧，游玩的时候可以好好利用它们！"
+    ]
+    quest.70D723ED513104E2.quest_desc:[
+        "在这个整合包中，被动生物不会自然生成，而敌对生物只会在海平面下的黑暗房间内生成。"
+        ""
+        "One of the easiest ways to create a faster mob farm is to make &aChicken Feed&r. When fed to a Chicken, it will cause the chicken to explode and drop either a &6Golden Egg&r or &2Rotten Egg&r, depending on the Feed you use."
+        ""
+        "&6Golden Eggs&r will convert a 5x5 of dirt to &6Delightful Dirt&r, which spawns passive mobs from &dArs Nouveau&r only."
+        ""
+        "To spawn mobs like cows or chickens, you will need to use a &2Gateway of The Emerald Grove&r."
+        "{@pagebreak}"
+        "To create a fast hostile mob farm, you can create a &2Rotten Egg&r by feeding a chicken &dCursed Chicken Feed&r. This egg is used on a 5x5 of Dirt to convert it into &dDreadful Dirt&r."
+        ""
+        "This dirt will speed up the spawning of hostile mobs, and can be turned off by turning on the lights."
     ]
     quest.2FF4717777A2EFEC.quest_desc:[
         "我可能不是个满分工程师，但我做出的机器真是帅到掉渣了！"
