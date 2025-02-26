@@ -181,6 +181,13 @@
     "block.simplylight.wall_lamp_red":"红色光源灯具",
     "block.simplylight.wall_lamp_yellow":"黄色光源灯具",
     "itemGroup.simplylight":"简单的光源",
+    "simplylight.gui.east": "东",
+    "simplylight.gui.exit": "退出",
+    "simplylight.gui.facing": "正面",
+    "simplylight.gui.north": "北",
+    "simplylight.gui.south": "南",
+    "simplylight.gui.west": "西",
+    "simplylight.key.shift": "Shift",
     "simplylight.pack.fullblock_ctm":"简单的光源方块全收集",
     "simplylight.redstone":"红石",
     "simplylight.shift":"按住<%s>获取更多信息。"
