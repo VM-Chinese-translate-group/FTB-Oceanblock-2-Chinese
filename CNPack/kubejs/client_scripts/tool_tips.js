@@ -23,7 +23,7 @@ const tooltips = [
     item: "pneumaticcraft:ingot_iron_compressed",
     text: Text.translate(
       "tooltip.pneumaticcraft.ingot_iron_compressed"
-    ).green(),
+    ).green(),  
   },
   {
     item: "ftbstuff:stone_cobblestone_generator",
@@ -67,7 +67,8 @@ const tooltips = [
   },
   {
     item: "oritech:lava_generator_block",
-    text: Text.translate("tooltip.oritech.boiler").gold(),
+    text: Text.translate("tooltip.oritech.boiler")
+      .gold()
   },
   {
     item: "justdirethings:time_crystal_budding_block",
@@ -123,7 +124,19 @@ const tooltips = [
   },
   {
     item: "justdirethings:coal_t1",
-    text: Text.translate("tooltip.justdirethings.coal_t1").aqua(),
+    text: Text.translate('tooltip.justdirethings.coal_t1').aqua(),
+  },
+  {
+    item: "justdirethings:coal_t2",
+    text: Text.translate('tooltip.justdirethings.coal_t2').aqua(),
+  },
+  {
+    item: "justdirethings:coal_t3",
+    text: Text.translate('tooltip.justdirethings.coal_t3').aqua(),
+  },
+  {
+    item: "justdirethings:coal_t4",
+    text: Text.translate('tooltip.justdirethings.coal_t4').aqua(),
   },
 ];
 
@@ -140,25 +153,14 @@ ItemEvents.modifyTooltips((event) => {
   event.modify(`obtrophies:display_trophy`, (b) => b.dynamic(`streamertrophy`));
 
   event.modify(
-    [
-      "mekanism:jetpack",
-      "mekanism:jetpack_armored",
-      "oritech:jetpack",
-      "oritech:exo_jetpack",
-      "ftb:rift_charge",
-    ],
+    ["mekanism:jetpack", "mekanism:jetpack_armored", "oritech:jetpack", "oritech:exo_jetpack", "ftb:rift_charge"],
     { shift: false },
     (tooltip) => {
       tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.1").gray());
     }
   );
   event.modify(
-    [
-      "mekanism:jetpack",
-      "mekanism:jetpack_armored",
-      "oritech:jetpack",
-      "oritech:exo_jetpack",
-    ],
+    ["mekanism:jetpack", "mekanism:jetpack_armored", "oritech:jetpack", "oritech:exo_jetpack"],
     { shift: true },
     (tooltip) => {
       tooltip.insert(1, Text.translate("tooltip.mekanism.jetpack.2").red());
@@ -187,21 +189,14 @@ const trophyTooltips = {
   "sushigocrafting:shrimp": "tooltip.streamertrophy.sushigocrafting_shrimp",
   "nautec:anchor": "tooltip.streamertrophy.nautec_anchor",
   "supplementaries:statue": "tooltip.streamertrophy.supplementaries_statue",
-  "actuallyadditions:engineers_goggles":
-    "tooltip.streamertrophy.actuallyadditions_engineers_gogglesn",
+  'actuallyadditions:engineers_goggles': "tooltip.streamertrophy.actuallyadditions_engineers_goggles",
 };
 
 ItemEvents.dynamicTooltips("streamertrophy", (event) => {
   const { item } = event;
   Object.entries(trophyTooltips).forEach(([key, value]) => {
-    if (
-      item
-        .getComponentsPatch()
-        .get("obtrophies:display_trophy_info")
-        .get()
-        .displayItem().id == key
-    ) {
-      event.add(Text.green(value));
+    if (item.getComponentsPatch().get("obtrophies:display_trophy_info").get().displayItem().id == key) {
+      event.add(Text.translate(value).green());
       event.add(Text.translate("tooltip.streamertrophy").gray());
     }
   });
@@ -218,5 +213,4 @@ RecipeViewerEvents.addInformation("item", (event) => {
   event.add(
     /ftb:(.*)attenuation_crystal/,
     Text.translate("info.ftb.attenuation_crystal")
-  );
-});
+  );});

@@ -244,7 +244,7 @@ function ImmersiveMessage(player, message)
         this.duration = 3;
         this.size = 1.5;
         this.typewriter = true;
-        this.color = 0xFFFFFF;
+        this.color = "#FFFFFF";
         this.wave = true;
         this.y = 50;
     
@@ -253,12 +253,7 @@ function ImmersiveMessage(player, message)
         return this;
         }
         this.setColor = (color) => {
-            if (color.startsWith("#")) {
-                const colorInt = parseInt(color.slice(1), 16);
-                this.color = colorInt;
-            } else {
-                this.color = color;
-            }
+            this.color = color;
             return this;
         }
         this.setSize = (size) => {
@@ -285,27 +280,7 @@ function ImmersiveMessage(player, message)
     
     
         this.send = () => {
-            console.log(`Sending message to ${this.player.username}`)
-            console.log(this.message)
-            $ImmersiveMessage["builder(float,net.minecraft.network.chat.MutableComponent)"](this.duration, this.message)
-                ["color(net.minecraft.network.chat.TextColor)"]($TextColor.fromRgb(this.color))
-                // ["font(toni.immersivemessages.ImmersiveFont)"]($ImmersiveFont.MINECRAFTER)
-                // // .bold()
-                // // .italic()
-                .slideUp()
-                .wave()
-                .fadeIn(1)
-                // .fadeOut(2.5)
-                .y(this.y)
-                // .color()
-                .size(this.size)
-                //.sound($SoundEffect.LOWSHORT.getSoundEvent())
-                // .align('bottom_center')
-                // .anchor('bottom_center')
-                .typewriter(1, false)
-                ["sendServer(net.minecraft.server.level.ServerPlayer)"](player)
-            
-        // this.player.getServer().runCommandSilent(`/immersivemessages sendcustom ${player.username} {y:${this.y},size:${this.size},sound:1,typewriter:${this.typewriter ? 1 : 0},color:"${this.color}",wave:${this.wave ? 1 : 0}} ${this.duration} ${this.message}`);
+            this.player.getServer().runCommandSilent(`/immersivemessages sendcustom ${player.username} {y:${this.y},size:${this.size},sound:1,typewriter:${this.typewriter ? 1 : 0},color:"${this.color}",wave:${this.wave ? 1 : 0}} ${this.duration} ${this.message}`);
         }
      
     

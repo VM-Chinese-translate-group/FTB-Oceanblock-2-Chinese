@@ -18,6 +18,7 @@ StartupEvents.registry("item", (event) => {
 
   // Random Items
   event.create("ftb:kelp_goo").displayName("Kelp Resin");
+  event.create("ftb:stacked_netherite").displayName("Netherite Scrappy Alloy");
   event.create("ftb:barrel_smasher").displayName("Barrel Smasher");
   event.create("ftb:abyssal_pearl").displayName("§5Abyssal Pearl§f").tooltip(Text.translate("item.ftb.abyssal_pearl.tooltip"));
   // Remove as not needed ATM

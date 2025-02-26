@@ -154,7 +154,7 @@ ServerEvents.commandRegistry((event) => {
           .executes(function (ctx) {
             const player = Arguments.PLAYER.getResult(ctx, "player");
             player.persistentData.putInt("rift_charge", 0);
-            new ImmersiveMessage(player, Text.translate("command.rift.clear_timer").getString()).send();
+            new ImmersiveMessage(player, "Rift Timer cleared!").send();
             return 1;
           })
         )
@@ -486,7 +486,6 @@ ServerEvents.command(event => {
     console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
     global.createPortalData(player.getServer(), global.getTeam(player).id), player}
 
-  if(player.isCreative()) return;
 
   switch(input){
     case 'back': return checkForSoulLantern(event, player);
@@ -496,6 +495,8 @@ ServerEvents.command(event => {
 })
 
 function checkForSoulLantern(event, player) {
+  if(player.isCreative()) return;
+
   let pData = player.persistentData;
   if(!pData.lastDeath)  return 
 
@@ -523,5 +524,9 @@ function checkForDimensionToSpawn(event, player){
   if(player.getLevel().getDimension().toString() == 'ftb:the_rift'){
     new ImmersiveMessage(player, Text.translate("message.ftb.the_rift").getString()).setColor("#bc82ff").setWave(true).setDuration(4).send();
     event.cancel()
+    return;
   }
+  console.log(`teleport to spawn: ${player.username}`)
+  player.getServer().runCommandSilent(`execute in minecraft:overworld run tp ${player.username} 0 206 0`)
+  event.cancel()
 }

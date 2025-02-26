@@ -67,24 +67,13 @@ ActuallyAdditionsEvents.empower(event => {
 function chargePlayer(player, recipe){
     const {charge, max_charge} = recipe;
     let playerCharge =  player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
-    if(playerCharge + charge > max_charge){
-        player.persistentData.putInt("rift_charge", max_charge);
-        NotificationToastData.ofText(
-            Text.translate("message.rift.charge.max", max_charge)
-        ).show();
+    if(playerCharge >= max_charge){
+        new ImmersiveMessage(player, Text.translate("message.rift.charge.max").getString()).send()
         global.showRiftCharge(player)
         return;
     }
-    player.persistentData.putInt("rift_charge", playerCharge + charge);
-    NotificationToastData.ofText(
-        Text.translate(`message.rift.charge.now`, playerCharge + charge)
-    ).show();
+    let actualCharge = playerCharge + charge > max_charge ? max_charge : playerCharge + charge;
+    player.persistentData.putInt("rift_charge", actualCharge);
     global.showRiftCharge(player)
 
 }
-
-// PlayerEvents.tick(event => {
-//     const {player} = event
-//     showRiftCharge(player)
-//     if(player.age % 20 != 0) return;
-// })

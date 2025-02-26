@@ -18,7 +18,9 @@ NativeEvents.onEvent(
     global.handleDimensionTeleport(event);
   }
 )
-
+NativeEvents.onEvent("net.neoforged.neoforge.event.level.BlockEvent$BlockToolModificationEvent", event => {
+  global.handleToolModification(event);
+})
 const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi");
 
 global.handleDimensionTeleport = (event) => {
@@ -37,6 +39,7 @@ global.handleDimensionTeleport = (event) => {
           .getDisplayName()
           .getString()} {y:50,size:1.5,sound:2,shake:1,color:"#3a1466",wave:1} 4 ` + Text.translate("message.soul.lantern").getString()
       );
+      event.setCanceled(true);
     } catch (e) {
       console.log(e);
     }
@@ -70,3 +73,10 @@ global.handleAngler = (event) => {
     console.error(e);
   }
 };
+global.handleToolModification = (event) => {
+  try{
+    if(event.getHeldItemStack().item.id == "minecraft:wooden_hoe") event.setCanceled(true);
+  }catch(e){
+    console.error(e);
+  }
+}
