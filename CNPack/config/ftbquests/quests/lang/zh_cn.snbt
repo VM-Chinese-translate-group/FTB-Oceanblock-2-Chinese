@@ -120,8 +120,8 @@
     task.60789ACB2B0A6E74.title:"&b灌注精华"
     quest.790B688EBB673CBA.title:"&f魔法&d种子"
     quest.1FE952E6D58451EA.title:"&f抄录&d魔咒&r"
-    quest.26D8F6345B6AB232.title:"&b巫师套装"
-    task.43E37A07733FB8E4.title:"&b巫师套装"
+    quest.26D8F6345B6AB232.title:"&b咒术师套装"
+    task.43E37A07733FB8E4.title:"&b咒术师套装"
     quest.3C03D41F5B1A8BDC.title:"&b奥术师套装"
     task.5355E58AAC34F75A.title:"&b奥术师套装"
     quest.79F2BC05D79B9863.title:"&b战斗法师套装"
@@ -129,9 +129,9 @@
     quest.7F6F3CCD2F68E7E2.title:"&f修改&6服饰"
     quest.138CB008CE4C838B.title:"&d仪式"
     quest.43B4B6F09B5AF30C.title:"&a了如指掌"
-    quest.3C25B0FAC773D70A.title:"&fEnchanter's Wand"
-    quest.3FB99C220188AB6F.title:"&fEnchanter's Sword \&\ Shield"
-    quest.425CB9CE53FBC0FF.title:"&fEnchanter's Mirror"
+    quest.3C25B0FAC773D70A.title:"&f巫师法杖"
+    quest.3FB99C220188AB6F.title:"&f巫师之剑和巫师之盾"
+    quest.425CB9CE53FBC0FF.title:"&f巫师之镜"
     quest.082551D21363A1D9.title:"&fEnchanter's Bow \&\ Crossbow"
     quest.6D739E1A4F4304B3.title:"&fBasic Spell Turret"
     quest.3684E99D50168389.title:"&dDrygmy &bFarms"
@@ -236,9 +236,9 @@
     task.1A02CBDB99C6928B.title:"&f方块变种"
     quest.5BBE73445913E9A3.title:"&c再处理器"
     quest.13F84B912C8FA7FD.title:"&f属于你的第一台&3涡轮机"
+    task.555B507B8B216CE2.title:"&3Turbine &fControllers"
     quest.7876408A8635B7F6.title:"&6流化器"
     quest.62323F1906B5BE00.title:"&2能源池"
-    task.4BBAE72B18D2379D.title:"隐藏"
     quest.4BDC456540EBE648.title:"&9蓝钚"
     quest.45621893734C0B96.title:"&5菱镁"
     quest.39F711F28B0FCABA.title:"&b蓝晶"
@@ -249,27 +249,27 @@
     quest.3985170CDB3A0BC3.title:"&c空想"
     quest.49C272F5ECDF9FA4.quest_subtitle:"这一切是为了什么？"
     quest.49C272F5ECDF9FA4.title:"&a晶振"
-    quest.3E25EAA3D2851941.title:"&d反应堆&f外壳"
+    quest.3E25EAA3D2851941.title:"&d反应堆&b外壳"
     quest.1839CCDAC3346C27.title:"&f为&d反应堆&f加注燃料"
     quest.12BBDC662C7D6622.title:"&d反应堆&f端口"
     quest.617363DDAA59D686.title:"&f接下来，建造一个强化&d反应堆&f吧！"
-    task.1E4417D6C15F6207.title:"&f接下来，建造一个强化反应堆吧！"
-    quest.24651265607A772B.title:"&6Fluidizer &fWalls"
-    quest.2118F7E7DA50BE2E.title:"&6Fluidizer &fModes"
-    quest.78FEB17736D2E8C5.title:"&6Fluidizer &bPorts"
-    quest.52B005DF145A5707.title:"&3涡轮&f外壳"
-    task.081862F8BA857882.title:"&3涡轮&f外壳"
-    quest.0B7AD8830F63CC2A.title:"&3涡轮&f转子"
+    quest.24651265607A772B.title:"&6流化器&f外壳"
+    quest.2118F7E7DA50BE2E.title:"&6流化器&f模式"
+    quest.78FEB17736D2E8C5.title:"&6流化器&b端口"
+    quest.52B005DF145A5707.title:"&3涡轮机&f外壳"
+    task.081862F8BA857882.title:"&3涡轮机&f外壳"
+    quest.0B7AD8830F63CC2A.title:"&3涡轮机&f转子"
     task.287383C50A51C925.title:"&f转子轴承"
-    task.3ECDB56A4577AB1E.title:"&f转轴"
+    task.3ECDB56A4577AB1E.title:"&f转子转轴"
     task.37E5BA11AD84D7AF.title:"&f转子叶片"
-    quest.5CCCCC773275CFAC.title:"&3Turbine &bPorts"
-    task.327E3C53D0FEA46E.title:"&3Turbine &fEnergy Port"
-    task.20F7D4F697921733.title:"&3Turbine &fActive Fluid Port"
-    quest.11C6F6554654573A.title:"&3Turbine &dInduction Coils"
-    quest.22A060CE1CD96EE5.title:"&cReprocessor &fWalls"
-    quest.558971F923A3C186.title:"&cReprocessor &bPorts"
-    quest.506DDFCF6639744D.title:"&fInjectors \&\ Collector"
+    quest.5CCCCC773275CFAC.title:"&3涡轮机&b端口"
+    task.327E3C53D0FEA46E.title:"&3涡轮机&r能源接口"
+    task.20F7D4F697921733.title:"&3涡轮机&r主动流体端口"
+    quest.11C6F6554654573A.title:"&3涡轮机&r感应线圈"
+    task.3D88835E5FF00CFE.title:"Induction Coil Blocks"
+    quest.22A060CE1CD96EE5.title:"&c再处理器&f外壳"
+    quest.558971F923A3C186.title:"&c再处理器&b端口"
+    quest.506DDFCF6639744D.title:"&f注入器\&\收集端口"
     chapter_group.1082D352D1CC13F4.title:"主线任务"
     chapter_group.236F0B414FA815E0.title:"魔法模组"
     chapter_group.26835947166CBCA2.title:"物流模组"
@@ -1943,7 +1943,7 @@
         ""
         "收获后，&b法师之花&r可以合成为&b魔力纤维&r，这种纤维用处繁多，不过最主要的用处还是制作&d魔法护甲&r！"
         ""
-        "一共有3种不同的基础护甲，每套护甲的丝线槽都不同。比如钻石甲做成的战斗法师套装防御最高，但丝线槽比较少。"
+        "一共有3种不同的基础盔甲，每套护甲的纤维槽都不同。比如钻石盔甲做成的战斗法师套装防御最高，但纤维槽等级最低。"
         ""
         "下面的任务中有关于这些套装的说明，挨个看看吧！"
     ]
@@ -1955,26 +1955,26 @@
         "&a空白羊皮纸&r还可以拿来做自动化的过滤器，以及制作&d折越卷轴&r！"
     ]
     quest.26D8F6345B6AB232.quest_desc:[
-        "&b巫师套装&r适合那些完全不需要防御的玩家，因为他们绝不会在战斗中受伤……或者不会受伤只是他们一厢情愿罢了。"
+        "&b咒术师套装&r适合那些完全不需要防御的玩家，因为他们绝不会在战斗中受伤……或者不会受伤只是他们一厢情愿罢了。"
         ""
-        "这种套装升级后有更多高阶丝线槽。"
+        "这种套装升级后会解锁更多高阶纤维槽。"
         "{image:ftb:textures/quests/ars/sorcerer_set.png width:130 height:125 align:center}"
     ]
     quest.3C03D41F5B1A8BDC.quest_desc:[
-        "&b奥术师套装&r是铁护甲做的套装，它比较适合那些想要防御又不想没丝线槽可用的人。"
+        "&b奥术师套装&r是铁护甲制成的套装，它比较适合那些想要防御又不想没纤维槽可用的人。"
         ""
         "{image:ftb:textures/quests/ars/arcanist_set.png width:130 height:125 align:center}"
     ]
     quest.79F2BC05D79B9863.quest_desc:[
         "&b战斗法师套装&r适合那些喜欢一边战斗一边施放咒语的人。"
         ""
-        "这个套装防御力最高，但升级后的高阶丝线槽比较少。"
+        "这个套装防御力在所有基础套装中最高，但升级后的高阶纤维槽比较少。"
         "{image:ftb:textures/quests/ars/battle_mage_set.png width:130 height:125 align:center}"
     ]
     quest.7F6F3CCD2F68E7E2.quest_desc:[
         "没有法师装备怎么能跟别人说自己会魔法？&6改衣台&r可以进一步强化这些衣服！"
         ""
-        "每件法师护甲都至少有一个&a丝线槽&r，丝线槽的等级取决于护甲部位，详情查看物品的提示框。丝线会给护甲提供特殊效果，你需要一个改衣台才能给护甲加装丝线。"
+        "每件法师护甲都至少有一个&a纤维槽&r，丝线槽的等级取决于护甲部位，详情查看物品的提示框。丝线会给护甲提供特殊效果，你需要一个改衣台才能给护甲加装丝线。"
         ""
         "{image:ftb:textures/quests/ars/alteration_table.png width:150 height:100 align:center}"
         "{@pagebreak}"
@@ -2003,14 +2003,14 @@
         "这根魔杖还可以用来控制使魔！"
     ]
     quest.3C25B0FAC773D70A.quest_desc:[
-        "The &6Enchanter's Wand&r can be inscribed with a single spell. By default, the wand will automatically use Projectile -> Accelerate for the inscribed spell."
+        "&6巫师法杖&r可以抄入一个咒语，一般情况下被写入的咒语自带投射物-加速前缀。"
         ""
-        "For example, to create a wand that is used to break blocks, the inscribed spell can just be Break by itself, or can be Break + Augments. When used with the wand, it will cast Projectile -> Accelerate -> Break."
+        "例如，想要做一个能破坏方块的法杖，法术可以是破坏和强化（可选）。使用法杖时它会自动加上投射物的形态魔符。"
     ]
     quest.3FB99C220188AB6F.quest_desc:[
-        "The &6Enchanter's Sword&r will cast a spell with the &2Touch&r as the default form, but also gains one additional Amplify augment on the last effect of the spell!"
+        "&6巫师之剑&r可以施放&2触摸&r形态的法术，而且剑上的法术会得到一个额外的强化！"
         ""
-        "The &6Enchanter's Shield&r will grant the user Mana Regen and Spell Damage for a short duration when you block damage with it. It also repairs itself over time using your mana pool."
+        "当你用&6巫师之盾&r成功格挡伤害后，你会短暂获得魔力再生与法术伤害效果，而且会自动消耗魔力恢复耐久。"
     ]
     quest.425CB9CE53FBC0FF.quest_desc:[
         "&6巫师之镜&r一般会施放&a自身&r类型的法术。"
@@ -2533,18 +2533,13 @@
         ""
         "&d反应堆&r是一个多方块结构，可以用来发电，也可被用作汽化冷却剂。"
         ""
-        "&d反应堆&r的搭建方式会因其用途而产生变化，此任务将带领你搭建一个基础&d反应堆&r来产生能量。"
-        ""
-        "要搭建您的第一个&d反应堆&r，首先要用&a反应堆外壳&r搭建一个3x3x3的框架，底面填实。把&a反应堆燃料棒&r放在中间，&a控制杆&r放在它的正上方。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a反应堆外壳&r补全结构。"
+        "要搭建您的第一个&d反应堆&r，首先要用&a反应堆外壳&r搭建一个3x3x3的框架，底面填实。"
+        "{@pagebreak}"
+        "3x3x3的&d反应堆&r只需要一个&e燃料棒&r，它需要放在&d反应堆&r的中央并且它的上方需要有一个&a控制杆&r。"
         "{@pagebreak}"
         "若是正确搭建，那么&d反应堆&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         "{@pagebreak}"
-        "&a基础框架&r可以建造最大5x5x5的&d反应堆&r。"
-        ""
-        "&2强化框架&r可以建造最大32x32x48的&d反应堆&r。"
-        "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
-        ""
-        "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
+        "若是正确搭建，那么&d反应堆&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
     ]
     quest.18A73FAF4D0F9F40.quest_desc:[
         "辐射&e慢化剂&r是&d反应堆&r内用于吸收辐射并从&a燃料棒&r导&c热&r的方块或流体。"
@@ -2553,7 +2548,7 @@
         ""
         "若在&d反应堆&r内放置无效的&e慢化剂&r，将无法形成其多方块结构。"
         ""
-        "&e注&r：&3石墨块&r是很棒的慢化剂！"
+        "&e注&r：&3石墨块&r是很棒的&e慢化剂&r！"
     ]
     quest.2CD606A9C5C786D8.quest_desc:[
         "根据你&b冷却&r&d反应堆&r的方式不同可以建造出两种&d反应堆&r。"
@@ -2566,7 +2561,7 @@
         "&a主动冷却&r：通过外部冷却剂进行&c散热&r。"
         "这种情况下，冷却剂会蒸发且蒸汽可以从&d反应堆&r中提取以用作驱动一或多个&3涡轮机&r的转子。"
         "在此模式下，冷却剂会被汽化，产生的蒸汽可从&d反应堆&r中导出，并驱动一台或多台&3涡轮机&r的转子发电。"
-        "要把一个反应堆转换为&a主动冷却&r的反应堆，你需要一个新的端口！"
+        "要把一个反应堆转换为&a主动冷却反应堆&r，你需要一个新的端口！"
     ]
     quest.07CC52EDB45C7994.quest_desc:[
         "多方块结构都有尺寸限制，且&d反应堆&r与&3涡轮机&r均有两种规格："
@@ -2576,38 +2571,47 @@
         "&2强化结构&r：建造更大型的多方块结构与更多的自定义选择，但造价显著提升。"
     ]
     quest.5BBE73445913E9A3.quest_desc:[
-        "&c再处理器&r是可以通过将&d反应堆&r废料转化为新的燃料或资源来重复利用乏燃料的多方块结构。"
+        "最后，让&6再处理器控制器&r作为机器的最后一个方块。"
         ""
-        "&c再处理器&r的规格为3x3x7，其每个部分都需要放置下来。"
+        "要搭建&6再处理器&r的话，先用&a再处理器外壳&r搭建一个3x3x7的外壳。"
         ""
-        "先用&a回收机外壳&r搭建一个3x3x7的框架，然后把&a回收机收集端口&r放在底部，并将&a回收机废料端口&r放在顶部。其余方块可以放在除框架上的任何地方。放完之后用&a回收机外壳&r补全结构。"
+        "把&a再处理器收集端口&r放在底部，并将&a再处理器废料注入器&r放在顶部。其余方块可以放在除框架上的任何地方。"
+        "{@pagebreak}"
+        "放完之后用&a再处理器外壳&r补全结构。"
         ""
-        "若是正确搭建，那么&c再处理器&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
-        ""
-        ""
+        "若是正确搭建，那么&d再处理器&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
+        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
     ]
     quest.13F84B912C8FA7FD.quest_desc:[
-        "要搭建您的第一个&3涡轮机&r，首先要用&a涡轮机外壳&r搭建一个5x5x3的框架，并在底面中央的位置放一个&a涡轮机转子轴承&r。把&a涡轮机转子转轴&r放在中间，&b转子叶片&r放在它的四个正方向。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a涡轮机外壳&r填上最后的空位。"
+        "搭建功能齐全的&3涡轮机&r的最后一个方块是&6涡轮机控制器&r。这就是你与&3涡轮机&r交互的方块。"
         ""
-        "若是正确搭建，那么&3涡轮机&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
+        "要搭建您的第一个&3涡轮机&r，首先要用&a涡轮机外壳&r搭建一个5格宽，5格长，3格高的框架。"
         ""
-        "要搭建您的第一个&3涡轮机&r，首先要用&a涡轮机外壳&r搭建一个5*5*3的框架，并在底面中央的位置放一个&a涡轮机转子轴承&r。把&a涡轮机转子转轴&r放在中间，&b转子叶片&r放在它的四个正方向。然后放置&a控制器&r和&b端口&r（不能在框架上），并用&a涡轮机外壳&r填上最后的空位。"
+        "用框架填满底层，但是确保底部中央的方块是&a转子轴承&r。"
         ""
-        "若是正确搭建，那么&3涡轮机&r结构应该出现材质变化，并且当你与&a控制器&r交互时会出现UI界面。"
+        "把&a转子转轴&r放在中间，然后再其周围放上4个&a转子叶片&r。"
         "{@pagebreak}"
         "&e注&r：如果需要更加深入的解释，你可以随时查看指南。"
+        "{@pagebreak}"
+        "Fill in any remaining spots with Housings or Turbine Glass to complete your &3Turbine&r!"
+        ""
+        "If built correctly, the &3Turbine&r multiblock should change textures and the &aController&r will present you with an interface when interacted with."
+        ""
+        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
     ]
     quest.7876408A8635B7F6.quest_desc:[
         "要搭建您的第一个&6流化器&r，首先要用&a流化器外壳&r搭建一个3x3x3的框架，然后放置&a控制器&r和&b端口&r以及与选择的模式相对应数量的&b注入器&r（不能在框架上），最后补全结构的剩余部分。 "
         ""
         "若是正确搭建，那么&6流化器&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
-        ""
+        "{@pagebreak}"
         "要毕业这个mod，你必须把该多方块结构的所有三种模式都建造出来。"
         ""
         "&6流化器&r的最大规格为32x32x32。"
         ""
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
+        ""
+        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
     ]
     quest.62323F1906B5BE00.quest_desc:[
         "&2能源池&r是用来存储大量能量的多方块结构。"
@@ -2618,17 +2622,19 @@
     ]
     quest.4BDC456540EBE648.quest_desc:[
         "将两个&b蓝晶&r锭和一桶水放入再处理器中以制造&9蓝钚&r。"
+        ""
+        "To craft &9Blutonium&r, insert two &bCyanite&r ingots and one bucket of water into a Reprocessor."
     ]
     quest.45621893734C0B96.quest_desc:[
         "当在标准&d反应堆&r中使用&9钚&r作为燃料时，&5菱镁&r就会作为废料产生。"
     ]
     quest.39F711F28B0FCABA.quest_desc:[
-        "蓝晶是&d反应堆&r使用铀作为燃料时产生的主要废料。"
+        "&b蓝晶&r是&d反应堆&r使用铀作为燃料时产生的主要废弃物副产品。"
         ""
         "蓝晶可以在再处理器中转化为蓝钚，或用于制造机器零件。"
     ]
     quest.7476CC3F7F7F7B43.quest_desc:[
-        "要得到&2浓缩核素&r，你需要一个&e混合模式&r的&6流化器&r，并以二比一的比例输入铀和蓝钚。"
+        "要得到&2浓缩核素&r，你需要一个&e混合模式&r的&6流化器&r，并以二比一的比例输入&a铀&r和&9蓝钚&r。"
     ]
     quest.1134A9C11D1AD524.quest_desc:[
         "要得到&c浓缩核素&r，你需要搭建一个以流体为燃料的&d反应堆&r并且以&2浓缩核素&r作为燃料来将其流体形式转变为反应物形式。"
@@ -2654,6 +2660,8 @@
         "将十六个&b蓝锥矿晶体&r和两桶&b液态&c废料&r放入再处理机中以制造&a晶振&r。"
         ""
         "在&d反应堆&r和&3涡轮机线圈&r中，&a晶振&r材料有着最优秀的性能。"
+        ""
+        "&6Insanite&r has the best performance out of all other blocks when used within your &dReactors&r or as &3Turbine Coils&r."
     ]
     quest.3E25EAA3D2851941.quest_desc:[
         "&b反应堆外壳&r可用来制作&d反应堆&r结构的结构框架。"
@@ -2663,11 +2671,17 @@
         "你需要至少22个&b反应堆外壳&r以建造第一个&d反应堆&r。"
         ""
         "牢记&e基础框架&r可以建造最大5x5x5的&d反应堆&r。"
+        ""
+        "Basic &dReactors&r can be as small as 3x3x3, but have a max size of 5x5x5. To build a bigger &dReactor&r, you will need Reinforced blocks."
     ]
     quest.1839CCDAC3346C27.quest_desc:[
         "&b反应堆燃料棒&r是你的&d反应堆&r存储燃料的地方。&b燃料棒&r越多，就需要更多的燃料以将它完全填满。"
         ""
         "&b反应堆控制杆&r让你可以控制&e加注速率&r，即你的&d反应堆&r燃烧燃料的速度。这直接影响到发电量。通常来讲，燃烧更多的燃料就意味着更高的发电量。"
+        "{@pagebreak}"
+        "&bControl Rods&r are placed on the ceiling of the &dReactor&r, with &bFuel Rods&r extending from it all the way down to the bottom of the Reactor."
+        ""
+        "For example, a 5x5x5 &dReactor&r will have a total of 3 &bFuel Rods&r extending from a &bControl Rod&r placed at the top."
     ]
     quest.12BBDC662C7D6622.quest_desc:[
         "&b端口&r是你与&d反应堆&r交互的方式。"
@@ -2675,20 +2689,26 @@
         "&b固体访问接口&r让你可以直接将&6铀燃料&r注入&d反应堆&r中以发电。"
         ""
         "&b被动FE能源接口&r让你从&d反应堆&r中导出能量。"
-        ""
+        "{@pagebreak}"
         "&b红石端口&r（可选），让你使用红石控制&d反应堆&r从而实现部分自动化。"
         ""
         "在构建更复杂的系统时将需要更多&b端口&r，所有这些都可以在 &6The Extreme Book&r 中找到。"
+        ""
+        "There are many more &bPorts&r that you will need when building more complex systems, some allowing even more control over your Reactors!"
     ]
     quest.617363DDAA59D686.quest_desc:[
         "是时候让你摆脱&e基础&r方块的局限性了。"
         ""
         "使用&b强化&r部件，可以建造最大32x32x32的&d结构&r，而&d反应堆&r最大可有32x32x48的规格。"
+        ""
+        "&eNote&r: Basic &dReactors&r can only be Passively cooled!"
     ]
     quest.24651265607A772B.quest_desc:[
         "&6流化器&r是可以以各种方式处理流体的多方块结构。"
         ""
         "在开始搭建&6流化器&r之前，你有必要了解它的三个模式："
+        ""
+        "Just like the Reactor, the &6Fluidizer&r frame is made up of &aFluidizer Casings&r. This multiblock has a minimum size of 3x3x3."
     ]
     quest.2118F7E7DA50BE2E.quest_desc:[
         "&e固体混合模式&r：将两种固体融化并融合为流体。需要&l刚好两个&r&b固体注入器&r。"
@@ -2696,25 +2716,74 @@
         "&e流体混合模式&r：将两种流体混合成一种新的燃料。需要&l刚好两个&r&b流体注入器&r。"
         ""
         "&e固体转液体模式&r：将固体（如钢锭）转变为流体。需要&l刚好一个&r&b固体注入器&r。"
+        ""
+        "&eFluid Mixing Mode&r mixes two fluid fuels into a new fuel type. This requires &ltwo&r &bFluid Injectors&r in the multiblock."
+    ]
+    quest.78FEB17736D2E8C5.quest_desc:[
+        "Aside from how you choose to import items or fluids, the &6Fluidizer&r needs power to function."
+        ""
+        "To import power, you will need to make a &cFluidizer Energy Port&r."
+        ""
+        "To extract the new fluid out of the multiblock, you will need the &bFluidizer Output Port&r."
+        ""
+        "Both of these ports can be placed on any face as long as it is not a part of the frame."
     ]
     quest.52B005DF145A5707.quest_desc:[
-        "The &3Turbine&r is a multiblock machine that spins &bRotors&r to generate energy."
+        "&3涡轮机&r是通过旋转&b转子&r来发电的多方块机械。"
         ""
-        "You will need at least 64 casings to build your first &3Turbine&r."
+        "你需要至少64个&b涡轮机外壳&r以建造第一台&3涡轮机&r。"
+        ""
+        "For this quest, we'll be making the smallest Basic &3Turbine&r, which is 5x5x3, but they can be built up to 5x5x10."
+        ""
+        "A &2Reinforced &3Turbine&r can be as big as 32x32x32."
+        ""
+        "You will need at least 64 &aHousings&r to build your first &3Turbine&r."
     ]
     quest.0B7AD8830F63CC2A.quest_desc:[
-        "&bRotors&r are a core part of your &3Turbine&r setup."
+        "&b转子&r是&3涡轮机&r的核心部件。"
+        ""
+        "你需要在每个&b转子转轴&r周围放置至少4个&b转子叶片&r。"
+        ""
+        "On one side of the &3Turbine&r, the &aTurbine Rotor Bearing&r must be placed on the outer wall of the &3Turbine&r."
         ""
         "You will need to place at least four &bRotor Blades&r around each &bRotor Shaft&r."
     ]
-    quest.11C6F6554654573A.quest_desc:[
-        "&dInductor Coils&r are what actually generates power within your &3Turbine&r."
+    quest.5CCCCC773275CFAC.quest_desc:[
+        "Just like the &dReactor&r, you will need an &cEnergy Port&r to export the power that the &3Turbine&r makes."
         ""
-        "They are (usually) metallic blocks that can be placed around your &aRotor Shaft&r, near the &aHousing&r, to extract rotational energy, slowing down it down."
+        "To give the &3Turbine&r fuel to spin, you will need to import &bSteam&r from your &aActively Cooled Reactor&r into a &6Turbine Active Forge Fluid Port&r."
+        ""
+        "These can be placed on any face of the &3Turbine&r walls."
+    ]
+    quest.11C6F6554654573A.quest_desc:[
+        "While not needed in the smaller &3Turbine&r setups, &dInduction Coils&r help generate power within your &3Turbine&r."
+        ""
+        "They are (usually) metallic blocks that can be placed around your &aRotor Shaft&r near the &aHousing&r to extract rotational energy."
         ""
         "You can place up to three rings of &dCoils&r, but smaller setups will likely benefit more from having less rings."
         ""
         "You can also mix &dCoil&r types, allowing you to slowly upgrade your &3Turbine&r as you unlock better quality items."
+    ]
+    quest.22A060CE1CD96EE5.quest_desc:[
+        "To process byproducts of &dReactors&r, we'll need a new multiblock called the &6Reprocessor&r."
+        ""
+        "Unlike the other multliblocks in this mod, the &6Reprocessor&r is a set size of 3x3x7."
+        ""
+        "The frame must be made out of &6Reprocessor Casings&r."
+    ]
+    quest.558971F923A3C186.quest_desc:[
+        "The &6Reprocessor&r needs power to function, so it will need a &cPower Port&r placed on any vertical face on the multiblock."
+        ""
+        "To output items from the &6Reprocessor&r, you will need to place an &aOutput Port&r on any vertical face as well."
+    ]
+    quest.506DDFCF6639744D.quest_desc:[
+        "When built, the &6Reprocessor&r will look like a tower. To inject and eject products into the multiblock, you will need several ports that are placed in exact parts of the build."
+        ""
+        "The &aReprocessor Collector&r is placed on the middle of the bottom face of the multiblock, and collects materials within the &6Reprocessor&r."
+        ""
+        "The &aWaste Injector&r must be placed in the middle of the top face of the multiblock, and is where you'll import byproducts like &bCyanite&r Ingots."
+        ""
+        "On any vertical face, the &aFluid Injector&r is used to pump in fluids."
     ]
     quest.7D7DAC8ABD1FEFF3.quest_desc:[
         "我根本无法理解为什么有生物能在这里&o生存&r 。"
