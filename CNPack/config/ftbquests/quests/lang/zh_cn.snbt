@@ -1,7 +1,7 @@
 {
     chapter.3CE58B5907FB2A58.title:"实用拓展"
     quest.206987FC6B1524F8.title:"&f原子再构机"
-    quest.2D7445BDE865635C.title:"&f咖啡制造机"
+    quest.2D7445BDE865635C.title:"&f咖啡机"
     quest.735DAACDBF57DA01.title:"&f油菜"
     quest.7A82CC64D8966010.title:"&c晶化油菜籽"
     quest.1E95AD23243FEF87.title:"&f充能油菜籽"
@@ -171,7 +171,7 @@
     quest.633FA983B63A65DD.title:"&f功能扩展！"
     quest.0B9781072E9E935C.title:"&f装配线"
     quest.0EC122E853F2083C.title:"&f高级压力管道"
-    quest.2F91C4B265C670BE.title:"&f空气接口"
+    quest.2F91C4B265C670BE.title:"&b无线压力充气"
     quest.3A5A665B1F76BE26.title:"&f我是（压缩的）钢铁侠！"
     quest.6CD6367FB419EA35.title:"&f热气动加工机"
     quest.6252AF176FC134E9.title:"&f速度升级"
@@ -395,6 +395,8 @@
     quest.6BDFD560D63ACBF6.title:"希望碎片"
     quest.19762D55D6AD8908.quest_subtitle:"海平面繁茂生长的大树"
     quest.19762D55D6AD8908.title:"浮桴之树"
+    task.662D03E3723BAD0C.title:"Sapling"
+    task.46EC79135B4B2DDB.title:"Wooden Log"
     quest.62B2AE7A4A184E7B.quest_subtitle:"并非筛子"
     quest.62B2AE7A4A184E7B.title:"改变游戏的发明"
     task.7C8D8C6E2909390C.title:"可用盛水容器"
@@ -472,7 +474,7 @@
     quest.0446F4732B120FDD.title:"Early Storage Options"
     quest.590A170857B8CED8.title:"存放细碎物品的方法"
     task.07F7B1E50A97198C.title:"任意储物抽屉"
-    task.45AC420D963E6900.title:"Lost Commlink?"
+    task.45AC420D963E6900.title:"弄丢了通讯链接器？"
     chapter.0FC6D9571E0C2EDC.title:"沉浸工程"
     quest.0A2DB5AFC89E852F.title:"&f焦炉"
     quest.0806978F98A7A3E8.title:"&f钢锭"
@@ -530,6 +532,55 @@
     task.6C1AB8986784E504.title:"&e观察&f：搅拌机"
     quest.5878F6DB12C22339.title:"&f左轮手枪"
     quest.073BE902F972D190.title:"&f枪支改造"
+    chapter.6A58A6F56CD199A3.title:"Integrated Dynamics"
+    quest.5B34FEF756C93961.title:"&fWelcome to &6Integrated Dynamics&f!"
+    quest.1403ABF77D987200.title:"&fExtracting &bMenril"
+    quest.6712C96969CB1D58.title:"&fCrystallized Menril"
+    quest.63A3450169DD4B17.title:"&fNetworks"
+    quest.6005C20FD96E6711.title:"&fVariable Card"
+    quest.7E2399076FA8B7AC.title:"&fMono-Directional Connector"
+    quest.5691235133373883.title:"&fEnergy Battery"
+    quest.7F8E338B8B2C9EDC.title:"&fGenerating Power"
+    quest.629C6374800613C4.title:"&fInteracting With Your Network"
+    task.4DDC10B7CDEA5CB5.title:"&fInterfaces"
+    task.44C0CAD2D5C19059.title:"&fFiltering Interfaces"
+    task.5802698B55BD4071.title:"Importers"
+    task.1F7C88C80E271B55.title:"&fExporters"
+    quest.60B37EEA5AD64C3D.title:"&fStorage Terminal"
+    quest.2DDC9D75FBFA1F3C.quest_subtitle:"Time To Change Those Variables"
+    quest.2DDC9D75FBFA1F3C.title:"&fLogic Programmer"
+    quest.1B2E6CA3642024B7.quest_subtitle:"Copy \&\ Paste Variables"
+    quest.1B2E6CA3642024B7.title:"&fMaterializer"
+    quest.69282BCC2FA04060.title:"&fVariable Store"
+    quest.28E945E86D2A67F5.title:"&fWelcome to &6Integrated Dynamics&f!"
+    quest.327E27800EB44FCA.title:"&fCrystallized Chorus Chunks"
+    quest.4A7198127F58DA94.title:"&fLogic Director"
+    quest.3D1796B4F460DBBF.title:"&fOmni-Directional Connector"
+    quest.504D9310A12FBB21.title:"&fWorld Interaction Components"
+    task.461DC877898F48C2.title:"&fWorld Blocks"
+    quest.729DF05C1D2AE6E7.title:"&fReaders \&\ Writers"
+    task.3F5A6F2680A95A43.title:"&fReaders \&\ Writers"
+    quest.2C0332B3354D8A9C.title:"&fPlayer Simulator"
+    quest.5211DFF30B136433.title:"&fEarly &bMenril &fAutomation"
+    quest.3DEA6BCF3DD509D9.quest_subtitle:"Wireless Connections"
+    quest.3DEA6BCF3DD509D9.title:"&fPart Enhancement: Offset"
+    quest.7E44D3D23995717A.title:"&fImproving your setup"
+    task.3301DA41D5748DCE.title:"&fImproving your setup"
+    quest.733B30C6D9F14141.title:"&fAutocrafting With &6I.D"
+    quest.4DB08D796BBE6E93.title:"&fCrafting Writer"
+    quest.5E36696532C72B3A.title:"&fReading Inventories"
+    quest.4EAB855FDFCD1955.title:"&fReading World Information"
+    quest.33CD8F19B27FA484.title:"&fReading Networks \&\ Machines"
+    quest.789BE725F2F89196.title:"&fReading Entities"
+    quest.00E7719300B02F8F.title:"&fWriting Sounds \&\ Effects"
+    quest.3B829DC47FFE77D6.title:"&fWriting Redstone"
+    quest.73B0702440A063EB.title:"&fWorld Item Components"
+    quest.091ACA18018FFD3E.title:"&fWorld Fluid Components"
+    quest.302C29E7007A61D9.title:"&fWorld Energy Components"
+    quest.37D23D46198DA708.title:"&fWorld Block Componenets"
+    quest.2331E407E82138AB.title:"&fUnderstanding Interfaces"
+    task.1C0BB83393437BDF.title:"&fComponent Interfaces"
+    quest.0CEB6ADF1306381D.title:"&fReading Data"
     quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems 'n Jewelry&f模组！"
     chapter.143441998FF2D8BD.title:"Iron's Jewelry"
     quest.6045E57AA8E56711.title:"&f红宝石"
@@ -788,7 +839,7 @@
     quest.0D7F5F7A7E41FDF3.title:"&f批量更改机器配置"
     quest.21E22024A842E46E.title:"&f降噪升级"
     quest.25EB6E3274347822.title:"&d输导矩阵&r"
-    chapter.642768EC48CAFC60.title:"海蓝科技"
+    chapter.642768EC48CAFC60.title:"海蓝科技（NauTec）"
     quest.334A319CC010293A.title:"&f让我们开始&9深潜"
     quest.48CADAFA7696B518.title:"&f找到一个&9海蓝水晶洞穴"
     quest.58AA1E1E16977E47.title:"&a给催化器供能"
@@ -826,15 +877,15 @@
     quest.6137DE875E13EF72.title:"&e召唤仪式"
     task.34F38A214F5DEFC3.title:"&e召唤仪式"
     quest.3BCB8667CCEBAE57.title:"&a存储促动器基座"
-    quest.1EAF085D3C13253B.title:"&cInfused Pickaxe"
-    quest.0FC3672189B0854D.title:"&cIesnium"
-    quest.2AAD4463A90C639B.title:"&cDimensional Mineshaft"
-    quest.0A51EA0A6CC0327F.title:"&7Foliot Miner"
-    quest.2E1CE18A917C637C.title:"&cOre Miner Djinni"
-    quest.60984D2D55BF2E24.title:"&dDeep Ore Afrit Miner"
-    quest.264C4CE122513D7B.title:"&6Master Marid Miner"
-    quest.4CDCFE544B72E6C4.title:"&5Eldritch Ancient Miner"
-    quest.38705F990589B2E8.title:"&dIesnium Sacrificial Bowl"
+    quest.1EAF085D3C13253B.title:"&c灌注镐"
+    quest.0FC3672189B0854D.title:"&c艾瑟金属"
+    quest.2AAD4463A90C639B.title:"&c维度矿井"
+    quest.0A51EA0A6CC0327F.title:"&7劳工魔精"
+    quest.2E1CE18A917C637C.title:"&c掘矿者巨灵"
+    quest.60984D2D55BF2E24.title:"&d淘金者火灵"
+    quest.264C4CE122513D7B.title:"&6矿脉领主魔王"
+    quest.4CDCFE544B72E6C4.title:"&5古老邪灵矿工"
+    quest.38705F990589B2E8.title:"&d艾瑟献祭之碗"
     quest.63516E977D8BC7C4.title:"&5Eldritch Chalice"
     quest.1316B86CF011B016.title:"&6Iesnium Anvil"
     quest.27E0738B56C6ED8C.title:"&aSurprisingly Substantial Satchel"
@@ -895,10 +946,10 @@
     task.5AC8CFBCB4375AC0.title:"Summoned an &dAfrit Smelter"
     quest.6372CB70B09D27EA.title:"&6Marid Smelter"
     task.25225ED0412FB977.title:"&fSummon a &6Marid Smelter"
-    quest.3830D82DFA731ABA.quest_subtitle:"Chalk of Foundation"
-    quest.3830D82DFA731ABA.title:"&fWhite Chalk"
-    quest.0733AB66BFEB220E.quest_subtitle:"Perfected Foundation"
-    quest.0733AB66BFEB220E.title:"&fBlack Chalk"
+    quest.3830D82DFA731ABA.quest_subtitle:"基础粉笔"
+    quest.3830D82DFA731ABA.title:"&f白色粉笔"
+    quest.0733AB66BFEB220E.quest_subtitle:"最完美的基础粉笔"
+    quest.0733AB66BFEB220E.title:"&f黑色粉笔"
     quest.016E959A387A1E03.quest_subtitle:"Chalk of Infusion"
     quest.016E959A387A1E03.title:"{\"text\": \"Purple Chalk\", \"color\": \"#9D7AD0\"}"
     quest.6E07405D08CCC2D4.title:"[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Lime\", \"color\": \"#E2FC97\"}, \" & \", {\"text\": \"Light Gray\", \"color\": \"#C2C2C2\"}, \" Chalks\"]"
@@ -908,8 +959,8 @@
     quest.4F7B94DCD4B52CE4.quest_subtitle:"Possession Pentacle: Tier 1"
     quest.4F7B94DCD4B52CE4.title:"&aHedyrin's Lure"
     task.3C308BEEE3895C69.title:"&bPentacle&r Complete"
-    quest.32E0A399AFBE3099.quest_subtitle:"Binding Pentacle: Tier 1"
-    quest.32E0A399AFBE3099.title:"&aThe Quest For More Chalk"
+    quest.32E0A399AFBE3099.quest_subtitle:"绑定五芒星：级别1"
+    quest.32E0A399AFBE3099.title:"&a粉笔需求增大"
     quest.5F0AAD028931A220.quest_subtitle:"召唤五芒星：级别2"
     quest.5F0AAD028931A220.title:"&c欧菲克斯的呼唤"
     task.41685895FDFE2D3B.title:"&bPentacle&r Complete"
@@ -1323,7 +1374,7 @@
         "它会把激光路径上的所有掉落物材料，或者放置的方块全部转化。"
     ]
     quest.2D7445BDE865635C.quest_desc:[
-        "&a咖啡制造机&r可以制作像药水一样的饮料，喝了可以获得很多buff。"
+        "&a咖啡机&r可以制作像药水一样的饮料，喝了可以获得很多buff。"
         ""
         "这台机器需要能源才能正常工作，它将会把&a咖啡豆&r和水混合，最后倒在&a空杯子&r里就产出了一份&a咖啡&r。"
         ""
@@ -2189,14 +2240,14 @@
         "它们很便宜，而且不需要维护，种田真的很好用！"
     ]
     quest.7B30DD6FB76E75A5.quest_desc:[
-        "得到&b熔融塑料&r后，把它倒在地上后耐心等会，然后它就会变成&b塑料片&r！&c导热框架&r可以将该操作自动化。"
+        "用&6Oritech&r中的&6离心机&r做出&b塑料片&r后，你应该就能为自己做一台&d亚马龙平板&r了。"
         ""
-        "这时，你就可以给自己做一个&d亚马龙平板&r了。它可以让你在&b亚马龙网络&r上进行各种定制/原版村民交易！"
+        "这台平板可以让你在&b亚马龙网络&r上进行各种定制村民交易！"
         ""
         "确保通过潜行右击将其链接到一个存储空间，然后就享受你所有的新交易吧！除此之外你还需要确保它有电（气压）。"
     ]
     quest.18C8FF073435FB10.quest_desc:[
-        "访问&d亚马龙平台&r，购买一个&a印刷电路板蓝图&r，制作自己的第一个&b紫外线灯箱&r！"
+        "访问&d亚马龙平板&r，购买一个&a印刷电路板蓝图&r，制作自己的第一个&b紫外线灯箱&r！"
         ""
         "灯箱可以将&b空印刷电路板&r暴露在&b紫外线&r下，这是组装印刷电路板的重要工序。"
         ""
@@ -2252,13 +2303,13 @@
         "与其他科技模组的盔甲不同，气动盔甲的耐久度是有限的，但是可以插入升级以使用压缩空气来修补。"
     ]
     quest.6CD6367FB419EA35.quest_desc:[
-        "你需要&a热气动加工机&r才能处理&a精炼厂&r产出的液体。"
+        "&a热气动加工机&r是物品与液体处理工序的下一步。"
         ""
-        "&b重质燃料&r可以裂解成轻质燃料，这意味着&a柴油&r可以变成&2煤油&r，&2煤油&r可以变成&3汽油&r，然后再变成&1液化石油气&r。"
+        "这种机器能用于生产多种新的流体，不过最主要还是用来制作&d升级矩阵&r。"
         ""
-        "热气动加工机还可以用来制作&a润滑油&r！"
+        "该矩阵是制作mod中各种升级的基础。"
         ""
-        "把&1液化石油气&r或者&a生物燃油&r通入这台机器后，就会产出&b熔融塑料&r。"
+        "热气动加工机还可以用来制作&2植物油&r和&c润滑油&r！"
     ]
     quest.6252AF176FC134E9.quest_desc:[
         "&a速度升级&r能安装在大部分的&6气动工艺&r机器上，但更快的处理速度意味着更快的压力消耗速度。"
@@ -2350,7 +2401,7 @@
         "&a通量压缩机&r是一台可以将&cFE&r转换为&b压力&r的空气压缩机！"
     ]
     quest.1E39AB995B86D47A.quest_desc:[
-        "在&a压力管道&r上添加一层&b聚乙烯&r，就可以将其升级为&2强化压力管道&r，使其能够承受高达10&bBAR&r的压力！"
+        "在&a压力管道&r中装一层钢，就可以将其升级为&2强化压力管道&r，使其能够承受高达10&bBAR&r的压力！"
         ""
         "&c确保相应地让你的压力系统平衡。&r"
     ]
@@ -2408,9 +2459,9 @@
         "你需要大量的这些材料来制作模组中的许多机器！"
     ]
     quest.6AF16D867409D140.quest_desc:[
-        "&6亚马龙贸易网络&r提供各种随机预设的村民交易，这些交易将在每个游戏日刷新一次。一些整合包或模组的特定交易将始终存在，所以务必要定期查看！"
+        "&6亚马龙贸易网络&r提供各种随机的村民交易，这些交易将在每个游戏日刷新一次。"
         ""
-        "我们狂热的探险家们大概会对&d末影苹果&r的交易特别感兴趣。一个末影苹果可以换取一本&6跃行附魔书&r。附在靴子上时，它将为你提供永久的跨越高度提升。非常适合周围那些大大小小的山！"
+        "一些整合包或模组的特定交易将始终存在，所以务必要定期查看！"
     ]
     quest.54D361B81A53A872.quest_desc:[
         "大部分机器都需要依赖某种&a电容&r来工作。电容的等级直接影响了机器的工作速度和存储的能量。"
@@ -3399,7 +3450,7 @@
         ""
         "这场风暴并不寻常——我感觉……这场灾难已经蓄谋已久。&o那&c诡异&r&o的风暴到底从何而来？&r"
         ""
-        "&6&o&n当前任务&r：获得燧石以制造一些&a基本工具&r。"
+        "&6&o&n当前任务&r：从板条箱中获得燧石以制造一些&a基本工具&r。"
     ]
     quest.7CA438754E6EE606.quest_desc:[
         "这颗星球的水中似乎含有很多杂质碎片。"
@@ -3440,13 +3491,13 @@
     quest.62B2AE7A4A184E7B.quest_desc:[
         "在砍倒许多树以后，我总算收集到了足够多的坚硬&2原木&r，这样我就可以制作一个提取矿物的装置。"
         ""
-        "虽然做工廉价，但是&2橡木洗矿槽&r足以改变我当前生存现状。"
+        "虽然做工廉价，但是&2木洗矿槽&r足以改变我当前生存现状。"
         "{@pagebreak}"
         "当然我还需要更多的线来制作一个&a布网&r。将它们组装完成以后，我只需要放入一些&a沙砾&r或者&2泥土&r，然后用水冲刷它们就可以获得我想要的矿物。"
         ""
         "我还需要一个容器来盛水。&2木碗&r算是能用的东西，但长远来看，是不是烧制一个&b陶瓷桶&r会好一点？"
         ""
-        "&6&o&n当前任务&r：制作一个&2橡木洗矿槽&r并且放入一张&a布网&r。使用&2木碗&r或者&b陶瓷桶&r倒入足量的水洗涤沙砾收集矿物。"
+        "&6&o&n当前任务&r：制作一个&2木洗矿槽&r并且放入一张&a布网&r。使用&2木碗&r或者&b陶瓷桶&r倒入足量的水洗涤沙砾收集矿物。"
     ]
     quest.12D1B9539CB0D796.quest_desc:[
         "我虽然并非顶尖木匠，但我至少可以将木头制作成一个滴水器让水缓缓滴落。"
@@ -3923,12 +3974,12 @@
         ""
         "做个更好的存储系统来存放这些零碎物品肯定值得！"
         ""
-        "&6&o&nTASK&r: Craft any type of &2Storage Drawer&r."
+        "&6&o&n当前任务&r：合成任意种类的&2储物抽屉&r。"
         ""
-        "To learn more about using Functional Storage, make sure to check out the &6General Storage&r chapter!"
+        "要了解更多关于功能性存储的信息，请查看&a通用存储&r章节！"
     ]
     quest.37FC0C5C283E0580.quest_desc:[
-        "This quest is for those who might have misplaced their &aBroken Commlink&r."
+        "此任务是为那些可能弄丢了&a损坏的通讯链接器&r的人准备的。"
     ]
     quest.0A2DB5AFC89E852F.quest_desc:[
         "&a焦炉&r是一个定位于游戏前期用于将煤炭转化为&3焦煤&r和&7杂酚油&r的多方块结构。"
@@ -4223,6 +4274,406 @@
         "&a扩容弹匣&r是&a左轮手枪&r的专属配件，能为&a左轮手枪&r增加6个弹药槽位。"
         ""
         "&a加强电子管&r是&a左轮手枪&r的专属配件，使左轮手枪的射弹能够击晕目标。"
+    ]
+    quest.5B34FEF756C93961.quest_desc:[
+        "&6Integrated Dynamics&r (&6I.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
+        ""
+        "This mod has a certain reputation for being hard to get into, as it contains many elements of coding/programming which can be scary for most people. But we'll get into that later."
+        ""
+        "For now, just explore until you find a &bMenril Tree&r and break it down for some &aLogs&r and &aSaplings&r."
+        ""
+        "&eOn The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
+    ]
+    quest.1403ABF77D987200.quest_desc:[
+        "The &aSqueezer&r is used to extract &bMenril&r from logs or planks, and the &bDrying Basin&r solidifies the liquid into &bCrystallized Menril&r."
+        ""
+        "First, place down your &aSqueezer&r, then place a &aDrying Basin&r next to it on either side where the channels are."
+        ""
+        "Next, right-click a &aMenril Log&r or &aPlank&r into the &aSqueezer&r and jump in the middle of it a few times."
+        ""
+        "If placed correctly, the &aDrying Basin&r should fill up with liquid &bMenril&r and crystallize after a few seconds."
+        ""
+        "Apply a redstone signal, like a button, to the &aSqueezer&r to reset it back to normal and repeat the process."
+    ]
+    quest.6712C96969CB1D58.quest_desc:[
+        "Now that you have a consisten way to produce &bCrystallized Menril&r, you can get started on the different paths of &6I.D&r."
+    ]
+    quest.63A3450169DD4B17.quest_desc:[
+        "&6I.D Networks&r are connected by &aLogic Cables&r, and any interface on a network can interact with another, unless set to a different channel."
+        ""
+        "Channels allow you to have multiple parts of your network set up on the same &aLogic Cable&r network without interacting with things on a different channel. This is very useful when setting up multiple simple systems in a very small area."
+        ""
+        "You can also hide &aLogic Cables&r using &bFacades&r, which can be changed by crafting them with the block of your choice in a crafting table."
+        "{@pagebreak}"
+        "The Wrench has three different modes:"
+        ""
+        "- &eDefault&r: Allows you to disconnect cables from connecting to other cables or blocks next to them. A Logic Cable will NOT automatically connect to blocks except other Logic Cables or some &6I.D&r blocks."
+        ""
+        "- &eSave Offset&r: Saves the co-ordinates of the selected block, and applies it as an offset to the selected part."
+        ""
+        "- &eSave Offset \&\ Side&r: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
+        ""
+        "[\"Saving offsets and sides can be useful when using a \", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \", as it saves you the trouble of having to calculate and keep track of offsets mentally.\"]"
+    ]
+    quest.6005C20FD96E6711.quest_desc:[
+        "&aVariable Cards&r are one of the main components when setting up any automation or network."
+        ""
+        "In programming, a &bVariable&r is anything that can be changed, so these &aVariable Cards&r will be used to store information that can change."
+        ""
+        "Programming can seem like a very scary topic. But, when it comes to &6Integrated Dynamics&r, you really just need to understand some basic concepts to automate almost any system in Minecraft."
+    ]
+    quest.7E2399076FA8B7AC.quest_desc:[
+        "The &aMono-Directional Connector&r can connect two networks in a straight like up to 512 blocks away."
+        ""
+        "&eNote&r: These can cause an large amount of lag if used often, so try to avoid using them as much as possible."
+    ]
+    quest.5691235133373883.quest_desc:[
+        "The &bEnergy Battery&r can store a base of one million RF, but you can craft it with other batteries to combine their capacity, creating massive storage units."
+        ""
+        "It is also used to craft other energy-related components within &6I.D&r."
+    ]
+    quest.565B21FA569CF3CC.quest_desc:[
+        "With access to power and &bMenril&r, you can now create the powered versions of the &aSqueezer&r and the &aDrying Basin&r."
+        ""
+        "Though functionally the same, they give you extra resources when processing items, so you can automate this system in a very similar way as before."
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_powered_automation.png width:200 height:195 align:center}"
+    ]
+    quest.7F8E338B8B2C9EDC.quest_desc:[
+        "The &aGenerator&r is the only way to generate power within &6I.D&r, so it is recommended to have another mod that can generate a good mount of RF to keep up with your machines."
+    ]
+    quest.629C6374800613C4.quest_desc:[
+        "So now that you have your network set up, how do we actually do things with it? That's where &aInterfaces&r, &aImporters&r, and &aExporters&r come into play."
+        ""
+        "&eInterfaces&r allow your network to access storage mediums such as chests, barrels, fluid tanks, energy cubes, etc..."
+        ""
+        "&eFiltered Interfaces&r also allow your network to access storage mediums but have several advanced configuration options and properties focused around filters."
+        ""
+        "&eImporters and Exporters&r allow your network to send items in and out of your networks to other blocks for storage or processing."
+        ""
+        "Storages connected with an interface will automatically have item imported into, and exported from if your network has a configured &aExporter&r."
+        ""
+        "You may have noticed that some of these components have a different UI which can receive &aVariable Cards&r. This interface will be covered in a different chapter."
+    ]
+    quest.60B37EEA5AD64C3D.quest_desc:[
+        "The &aStorage Terminal&r consolidates all items, fluids, and energy values from interfaces connected to your network into the same interface."
+        ""
+        "The &aPortable Storage Terminal&r can be linked to an &aOmni-Directional Connector&r to access your storage network remotely."
+    ]
+    quest.2DDC9D75FBFA1F3C.quest_desc:[
+        "The &a(Portable) Logic Programmer&r is one of the places where you can change the value of your &aVariable Cards&r."
+        ""
+        "There are literally hundreds of &bVariable&r, making it impossible to cover them all in this questbook. However, we will go over some basic terms so you can know what types of &bVariables&r you can create within the &aLogic Programmer&r."
+        ""
+        "Thankfully, &bVariables&r are color-coded within the &aLogic Programmer&r, making them relatively easy to spot them when you're scrolling through the long list. But you can also search up something more specific in the search bar at the top of the interface, if you know what you're looking for."
+        "{@pagebreak}"
+        "&7Any&r: These are mostly unique to Minecraft, and include things like Items, Blocks, Recipes, Fluids, Ingredients, etc...."
+        ""
+        "&3NBTs&r: These are also unique to Minecraft and are often referred to as \"tags\". Don't worry too much about what it stands for, just know that almost everything within Minecraft can have an NBT tag associated with it."
+        ""
+        "&cStrings&r: These are words or sentences containing text, which can include numbers. &oEverything you can read on this page is a &cString&f!&r"
+        ""
+        "&9Booleans&r: These are values which are exclusively &aYes&r or &4No&r, referred to in programming as &aTrue&r or &4False&r. A blank &aVariable Card&r will always equal to &aTrue&r."
+        ""
+        "&6Integers&r: These refer to whole numbers, which can include negative numbers. However, it's better to use &eDoubles&r or &eLong&r when you are working with really big numbers."
+        ""
+        "&eDoubles&r: These are numbers that are not a whole number like &6Integers&r. You generally won't use these very often in your systems, but it's still important to know the difference."
+        ""
+        "There are many other &bVariables&r within the &aLogic Programmer&r, such as &eArithmetics&r and &2Operators&r, but they will not be explained within this questbook as they are almost never practical to use."
+    ]
+    quest.1B2E6CA3642024B7.quest_desc:[
+        "The &aMaterializer&r is used to duplicate an existing &bVariable&r by creating a new copy of it."
+    ]
+    quest.69282BCC2FA04060.quest_desc:[
+        "This block has a very simple, yet important role within your &6I.D&r network, which is to store existing variables that a system can referece back to."
+        ""
+        "You will likely need at least one of these for more complex automation systems."
+        ""
+        ""
+        "Here's a simple and brief example:"
+        ""
+        "Let's say you want your furnace to receive coal to smelt ores, but you don't want to run out of coal in your storage."
+        ""
+        "You can set up a &bVariable Card&r with the minimum amount of coal you want to keep in your storage, let's say 32 coal. Without getting into specifics, this &bCoal Variable&r of 32 would be stored in the &aVarbiable Store&r block so that the system can use it as a reference to only put coal into your furnace when you have more than 32 coal in your storage system."
+    ]
+    quest.28E945E86D2A67F5.quest_desc:[
+        "&6Integrated Dynamics&r (&6I.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
+        ""
+        "This mod has a certain reputation for being hard to get into, as it contains many elements of coding/programming which can be scary for most people. But we'll get into that later."
+        ""
+        "For now, just explore until you find a &bMenril Tree&r and break it down for some &aLogs&r and &aSaplings&r."
+        ""
+        "&eOn The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
+    ]
+    quest.327E27800EB44FCA.quest_desc:[
+        "&dCrystallized Chorus Chunks&r are a key resource for advanced network components, and can be acquired from &aPopped Chorus Fruit&r, which is made by smelting chorus fruits."
+        ""
+        "If you have not reached &6The End&r yet, you can also combine two ender pearls and two menril berries to create &aProto Chorus&r. &aMenril Berries&r drop from menril leaves."
+        ""
+        "While &aProto Chorus&r does not guarantee a &dCrystallized Chorus Chunk&r like regular &aPopped Chorus Fruit&r, it does provide you with Liquid Chorus, which can be converted into &dCrystallized Chorus Blocks&r."
+    ]
+    quest.4A7198127F58DA94.quest_desc:[
+        "&aLogic Directors&r are used to craft advanced network components."
+    ]
+    quest.3D1796B4F460DBBF.quest_desc:[
+        "The &aOmni-Directional Connector&r can connect two networks across any distance, including other dimensions, as long as the chunks are loaded."
+        ""
+        "&aOmni-Directional Connectors&r work off of Groups, which symbolize what network they are connected to. &aOmni-Directional Connectors&r in the same group will have their networks linked."
+        ""
+        "When you craft &aOmni-Directional Connectors&r, they will be automatically linked to the same group. However, if you craft them using an existing &aOmni-Directional Connector&r, you will receive 3 &aConnectors&r that are already linked to the original group."
+        ""
+        "&eNote&r: These can cause an immense amount of lag if used often, so try to avoid using them as much as possible."
+    ]
+    quest.504D9310A12FBB21.quest_desc:[
+        "&aWorld Interaction Components&r are useful when you need to break, place, or collect things from the world."
+    ]
+    quest.729DF05C1D2AE6E7.quest_desc:[
+        "&aReaders&r access a block's information by reading its data, and &aWriters&r output information to a block based on a variable."
+        ""
+        "We'll be going over each individual &aReader&r and &aWriter&r component in their own quest as there's a lot to cover for each one."
+        ""
+        "&eNote&r: The &aEntity&r, &aInventory&r, and &aMachine Writers&r require addons to function which are not installed in this pack. They are currently not useable."
+    ]
+    quest.2C0332B3354D8A9C.quest_desc:[
+        "The player simulator is a very powerful tool that mimics a players action."
+        ""
+        "It allows you to set up clicking actions, like clicking buttons, swinging swords, or feeding farm animals."
+    ]
+    quest.5211DFF30B136433.quest_desc:[
+        "Before getting power and more &bMenril&r, you can easily automate this jumping process and spare your knees."
+        ""
+        "Set up two armor stands above the &aSqueezer&r and a vanilla or modded redstone clock next to it."
+        ""
+        "Then, set up a way to automatically insert items into the &aSqueezer&r from any side, and extract items from under the &aBasin&r, hoppers should do just fine."
+        ""
+        "The next page has a picture showing you how to set it up."
+        "{@pagebreak}"
+        "{image:ftbevolution:textures/quests/integrated_dynamics/menril_automation_line/menril_automation.png width:200 height:250 align:center}"
+        ""
+        "Break the two blocks so both the armor stands are above the &aSqueezer&r and enjoy."
+    ]
+    quest.3DEA6BCF3DD509D9.quest_desc:[
+        "&9Offset Enhancements&r are used to wirelessly perform their task relative to a block's coordinate."
+        ""
+        "While this feature is not always necessary for automation, it can be used to hide away cables to make your setups look nicer."
+    ]
+    quest.7E44D3D23995717A.quest_desc:[
+        "So, you have this menril automation system. But why are we still using hoppers?"
+        ""
+        "Let's get this automation updated with &6I.D&r components."
+        ""
+        "[ \"If you are new to \", {\"text\": \"I.D\", \"color\": \"#FFAA00\"}, \", it is recommend to look at the \", { \"text\": \"Understanding Interfaces\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2331E407E82138AB\" } }, \" quest, and page 2 of the \", {\"text\": \"Logic Programmer\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DDC9D75FBFA1F3C\"}}, \" quest before moving forward as we will be covering some concepts explained in those quests.\"]"
+        ""
+        "&eNote&r: &6I.D&r really shines when dealing with more complex systems. So, while it is still useable in this scenario, it is not the most efficient way to automate this specific menril automation setup."
+        "{@pagebreak}"
+        "It's important to mention that this is not the only way to automate this setup, nor is it the most space-efficient."
+        ""
+        "This should serve as more of a guide to help you understand some basic &6I.D&r components and aspects."
+        ""
+        "For this basic system, you will need:"
+        ""
+        "- 5 &bVariable Cards&r and &aLogic Cables&r to build the networks,"
+        ""
+        "- 3 &aItem Interfaces&r to connect your storages (this depends on how many storage mediums you are using),"
+        ""
+        "- 2 &aEnergy Interfaces&r and &aItem Importers&r to power your &aSqueezer&r \&\ &aDrying Basin&r and pull items into your storage network,"
+        ""
+        "- 1 &aEnergy Importer&r and &aItem Exporter&r to pull power into your network and push items into the &aSqueezer&r."
+        "{@pagebreak}"
+        "Firstly, replace all your hoppers with the &aInterfaces&r as shown below:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_v1_step1.png width:150 height:150 align:center}"
+        ""
+        "The &aItem Interfaces&r allow access to the relevant inventories, which can be replaced depending on what storage system you are using. You can always trade out the drawers for a chest, or any other storage system."
+        ""
+        "The &aItem Importers&r pull out the &bCrystallized Chunks/Blocks&r into your storage network."
+        ""
+        "The &aItem Exporter&r insert items from your storage network into the &aSqueezer&r."
+        "{@pagebreak}"
+        "Now just connect all your interfaces with cables."
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_v1_step2.png width:150 height:150 align:center}"
+        ""
+        "If you are connecting this to an existing storage network system, you can link this automation into it via Logic Cables, but you can also run this as an isolated system as shown in the image above."
+        "{@pagebreak}"
+        "So how do we actually get items and energy moving within the system?"
+        ""
+        "This depends on whether you are running this as an isolated system, or as part of a bigger network."
+        ""
+        "If you are isolating this, then simply place a blank &aVariable Card&r in the first slot for all &aImporters&r and &aExporters&r so that the text box shows \"true\":"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/importer_true.png width:170 height:180 align:center}"
+        "{@pagebreak}"
+        "If you are running this as part of a bigger network, then you'll want to specify exactly which items can go where. You can do this quite simply by defining an \"Item\" aspect as a &bVariable&r:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_item_config.png width:225 height:100 align:center}"
+        ""
+        "Then place that into your &aItem Exporter&r:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_item_export.png width:125 height:120 align:center}"
+        "{@pagebreak}"
+        "So now to get energy into your network, simply attach the &aInterfaces&r as follows and place a blank &aVariable Card&r into the &aImporter&r:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_v1_energy.png width:200 height:105 align:center}"
+        ""
+        "The creative energy cube in this case represents the block that should be swapped out for any energy generating block, or energy storage block."
+        ""
+        ""
+        "And that's it! You've finally set up a basic automated &6Integrated Dynamics&r system."
+        ""
+        "Again, this isn't the most efficient way to do things, but it should be a decent enough example to get you started on you journey with this amazingly versatile mod."
+    ]
+    quest.733B30C6D9F14141.quest_desc:[
+        "Setting up Autocrafting with &6I.D&r is not as complicated as it may seem."
+        ""
+        "Firstly, you will need go into your &aLogic Programmer&r and select the \"Recipe\" aspect, opening up this interface:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/recipe_interface.png width:160 height:150 align:center}"
+        "{@pagebreak}"
+        "Then, select your recipe from JEI and click on the \"+\" icon next to it:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_adding.png width:190 height:60 align:center}"
+        ""
+        "This should automatically fill in the Recipe aspect inside your &aProgrammer&r:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_example.png width:170 height:150 align:center}"
+        "{@pagebreak}"
+        "For some recipes, you'll want to specify the exact item you want to use, instead of using any variant of the item."
+        ""
+        "In this example, you'd want to set up oak planks instead of any planks. Shift-clicking the specific item brings up the interface that allows you to configure such things:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/recipe_configuration_interface.png width:160 height:150 align:center}"
+        ""
+        "&eStrict NBT&r is useful when handling things like armor, or energy storage blocks."
+        ""
+        "&eReusable&r is important setting up certain recipes that don't consume a resource."
+        ""
+        "&eItem Tag Variants&r allow you to configure a specific item via &3NBT Tags&r."
+        "{@pagebreak}"
+        "Once you've configured your recipe, simply place in a &bVariable Card&r on the bottom of the interface and you should receive an aspect for that specific recipe:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_aspect.png width:200 height:125 align:center}"
+        "{@pagebreak}"
+        "You can now use this recipe inside a &aCrafting Interface&r:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_valid.png width:150 height:110 align:center}"
+        ""
+        "Now all that's left is to set up a crafting table in front of it, like in this example system:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/recipe_setups/recipe_build_example.png width:170 height:140 align:center}"
+    ]
+    quest.4DB08D796BBE6E93.quest_desc:[
+        "&aCrafting Writers&r allow your system to stock at least 1 of any item you have a recipe for using the \"Craft Item\" aspect."
+        ""
+        "Sadly, it only allows one item at a time, so unless you want to fill your entire base with &aWriters&r, use these only for the most important things, or things you are constantly exporting out of your system."
+    ]
+    quest.5E36696532C72B3A.quest_desc:[
+        "The &aInventory Reader&r allows you to check all aspects of an attached inventory: If it's full, empty, how many items are in the inventory, what percentage of the inventory is full, all items in the inventory, etc..."
+        ""
+        "It is an extremely powerful reader that you will use very often when managing your storages within automation systems."
+        ""
+        "The &aFluid Reader&r has most of the same feattures as the &aInventory Reader&r, but it can also read fluids out in the world, making it great for certain automations that consume fluids."
+    ]
+    quest.4EAB855FDFCD1955.quest_desc:[
+        "The &aWorld Reader&r gives you information about the Minecraft world you are currently in. Things like the time of day, the weather, a list of players in your world, etc..."
+        ""
+        "The &aExtra-Dimensional Reader&r gives you information about things shared across all Minecraft dimensions. Things like server-wide player count, tick time, TPS, and a random number generator."
+        ""
+        "The &aAudio Reader&r receives information about different sounds around it."
+        ""
+        "The &aBlock Reader&r gives you information about a specific block in the world. Things like the dimension it is in, its coordinates, what block it is, its &3NBT Tags&r, its Biome, etc..."
+    ]
+    quest.33CD8F19B27FA484.quest_desc:[
+        "The &aRedstone Reader&r can be used to either read a redstone value or generate a redstone clock &9Boolean&r."
+        ""
+        "The &aNetwork Reader&r gives you information about all aspects of the connected network."
+        ""
+        "The &aMachine Reader&r allows you to read information from a machine block, such as: its temperature, available recipe list, energy values, and many more..."
+    ]
+    quest.789BE725F2F89196.quest_desc:[
+        "The &aEntity Reader&r gives you information about an entity such as its name, type, or &3NBT Tags&r."
+    ]
+    quest.00E7719300B02F8F.quest_desc:[
+        "The &aAudio Writer&r can replicate Minecraft sounds, Text-to-Speech, or certain instrument sounds."
+        ""
+        "The &aEffect Writer&r can create particle effects and have several configuration options."
+    ]
+    quest.3B829DC47FFE77D6.quest_desc:[
+        "The &cRedstone Writer&r is used to send out a fixed or pulsed redstone signal."
+        ""
+        "You can change the strength or delay of the signal, or toggle between on and off."
+    ]
+    quest.73B0702440A063EB.quest_desc:[
+        "These allow you to place or release items into the world as entities."
+        ""
+        "You can use these to set up systems for auto crop farming and harvesting, as well as picking up items like a vaccum hopper from things like a mob farm."
+    ]
+    quest.091ACA18018FFD3E.quest_desc:[
+        "These allow you to collect or place fluids from the world."
+        ""
+        "This allows you to set up a fluid pump system for infinite water or lava, for example."
+    ]
+    quest.302C29E7007A61D9.quest_desc:[
+        "These allow you to import or export energy from entities."
+        ""
+        "This allows for limited wireless charging early-game, with the downside being that you have to stand directly within range of the component."
+    ]
+    quest.37D23D46198DA708.quest_desc:[
+        "These allow you to break or place items in the world."
+        ""
+        "This allows you to automate systems where you can break ore blocks, or you can convert modded blocks."
+    ]
+    quest.2331E407E82138AB.quest_desc:[
+        "Most components within &6I.D&r have follow a very similar layout regardless of their function, which is what this quest will be covering."
+        ""
+        "For most components, you will see some variation of this interface:"
+        ""
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/component_interface.png width:150 height:150 align:center}"
+        ""
+        "There are 2 buttons on the top left, which are for &bPart Settings&r and &bOffset Settings&r."
+        ""
+        "In the main UI there is a search bar at the top and a scroll bar on the right so you can find the exact aspect you'd like to access."
+        ""
+        "Then, in the middle, you will find your main layout with all the colored aspects and properties."
+        "{@pagebreak}"
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/part_settings_interface.png width:155 height:150 align:center}"
+        ""
+        "This is the &bPart Settings&r interface, and it allows you to change a component's settings."
+        ""
+        "&eTarget Side&r allows you to designate which side of the block the component can access. Useful when working with blocks like a furnace, which can only output items from the bottom face of the block."
+        ""
+        "&eTicks/Operation&r changes the speed at which the component will perform its given task."
+        ""
+        "&ePriority&r affects the order in which a network handles this specific component."
+        ""
+        "&eChannels&r allow you to have many systems running in parallel within the same network without affecting each other. This option will look different in some components, or not have this option at all."
+        "{@pagebreak}"
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/part_offset_interface.png width:140 height:105 align:center}"
+        ""
+        "This is the &bOffset Settings&r interface, allowing you to change the block that the component is reading, allowing you to hide components behind other blocks to clean up your setups."
+        ""
+        "[\"You can manually select a number in increments of 4 depending on how many \", {\"text\": \"Offset Enhancements\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \" you've applied to the part.\"]"
+        ""
+        "You can also use a &aWrench&r in offset mode to automatically calculate the relative offset, or use variable cards for more complex or mobile systems."
+        "{@pagebreak}"
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/properties_interface.png width:165 height:140 align:center}"
+        ""
+        "Within the main inteface, you will find a little + box next to aspects. These have a wide variety of properties that can be changed to allow for even more refined systems."
+        ""
+        "Most of these should be somewhat self-explanatory, or will be explained within quests or setup examples."
+        ""
+        "However, due to the sheer amount of different properties, it is best to refer to the &6I.D&r guidebook for more specific properties."
+        ""
+        "If you're still stuck, you can always ask someone on our discord for help."
+        "{@pagebreak}"
+        "{image:ftb:textures/quests/integrated_dynamics/interfaces/info_interface.png width:150 height:150 align:center}"
+        ""
+        "Holding Shift on an aspect will give you a brief description of what it does and what &bVariable Types&r it requires to function."
+    ]
+    quest.0CEB6ADF1306381D.quest_desc:[
+        "The &aDisplay Panel&r will be one of your best friends when learning new &6I.D&r systems as it can show show you what is stored within a &aVariable Card&r."
+        ""
+        "You can also copy the information on your &aVariable Card&r to your clipboard if you're ever dealing with some very long variables that are not properly displayed on such a small screen."
     ]
     quest.496903AB7E8A0A92.quest_desc:[
         "使用&6Iron's Gems 'n Jewelry&r模组，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
@@ -4746,7 +5197,7 @@
         "移步&a通用机械&r章节，深入了解这个工具！"
     ]
     quest.2AF7DF42143C5443.quest_desc:[
-        "有的玩家讨厌那些婴儿式UI，想直接触摸机器运作的根本原理，&a集成动力&r正是为此而生。"
+        "有的玩家讨厌那些婴儿式UI，想直接触摸机器运作的根本原理，&a动态联合&r正是为此而生。"
         ""
         "这个模组比较有难度，但是那些能熟练使用该模组的玩家可以轻松拿捏物流系统。你可以用它搭建一个瞬间传输物流系统，或者一个全自定义的物流过滤……全靠你的想象！"
         ""
@@ -5280,7 +5731,7 @@
         "手持&a配置器&r，潜行右击&a输导端口&r就可以调整该端口的输入输出状态。我建议你的第一个矩阵放俩就够！"
     ]
     quest.334A319CC010293A.quest_desc:[
-        "在水下深处，有一个叫做&6海蓝科技遗址&r的小结构。"
+        "在水下深处，有一个叫做&6海蓝科技（NauTec）遗址&r的小结构。"
         ""
         "在这个结构中，有一个&6海洋催化器&r。"
         ""
@@ -5317,7 +5768,7 @@
         "[\"你可以把\", {\"text\": \"生锈的\", \"color\": \"#D5510E\"}, \"东西扔进\", {\"text\": \"蚀刻酸\", \"color\": \"#55FF55\"}, \"中等上几秒，就可以除锈了。\"]"
     ]
     quest.2953423FCB0A3146.quest_desc:[
-        "在海蓝科技中最重要的机器之一就是&a搅拌机&r。它需要&b海蓝水晶&r产出的&b激光能量&r。"
+        "在海蓝科技（NauTec）中最重要的机器之一就是&a搅拌机&r。它需要&b海蓝水晶&r产出的&b激光能量&r。"
         ""
         "这能让你制造出新的液体和物品，其中最为重要的是，&a电解海藻血清&r。"
         ""
@@ -5384,7 +5835,7 @@
         ""
         "你要了解&b激光纯度&r时，它尤其有用。 "
         ""
-        "这件物品最好与&e玉（Jade）&r模组一起使用，因为玉模组对&6海蓝科技&r有更广泛的支持。"
+        "这件物品最好与&e玉（Jade）&r模组一起使用，因为玉模组对&6海蓝科技（NauTec）&r有更广泛的支持。"
     ]
     quest.781C67090DF1C611.quest_desc:[
         "&d激光枢纽&r可以让你将一束&d激光&r分成多个方向，或者将多束&d激光&r合并为一束。"
@@ -5525,56 +5976,56 @@
         "This block functions very much like a big shulker box. This means that when breaking the &aDimensional Storage Actuator&r, your items will stay safe inside the block."
     ]
     quest.1EAF085D3C13253B.quest_desc:[
-        "&9Otherworld&r ores usually can only be mined with &9Otherworld&r metal tools."
+        "&9异界&r矿石通常只能被&9异界&r金属制成的工具采集。"
         ""
-        "The &aInfused Pickaxe&r is a makeshift solution to this problem."
+        "要解决这一问题，可以临时做一把&a灌注镐&r使用。"
         ""
-        "Brittle &aSpirit Attuned Gems&r house a &cDjinni&r that allows harvesting the ores, but the durability is extremely low."
+        "&a魔灵同调宝石&r中蕴封着&c巨灵&r，因此其制成的镐可以采掘异界矿石，但是耐久度很低。"
     ]
     quest.0FC3672189B0854D.quest_desc:[
-        "&cIesnium&r is a rare metal that can be acquired by breaking red, purple, and blue barrels in the &cNether&r."
+        "&c艾瑟金属&r是一种稀有金属，可以通过打破&c下界&r中的红色、紫色或蓝色的战利品桶来获得。"
         ""
-        "&cIesnium&r ore can be processed like most other ores. You can also place it down, which enables it to be mined with any other pickaxe, dropping &aRaw Iesnium&r."
+        "&c艾瑟金属&r可以像其他大多数矿石那样被加工，你也可以将其矿石放在地上，然后就可以被任何一种镐采集，并掉落&a粗艾瑟金属&r。"
         ""
-        "&cIesnium Ingots&r can be used to craft the &cIesnium Pickaxe&r, &cSpirit Lamps&r, or other powerful items."
+        "&c艾瑟金属锭&r可以用于合成&c艾瑟金属镐&r，&c神灯&r，还有其他各种强大的物品。"
     ]
     quest.2AAD4463A90C639B.quest_desc:[
-        "The &aDimensional Mineshaft&r is used to harverst resources from an uninhabited mining dimension."
+        "&a维度矿井&r可以用于从荒无人烟的挖矿维度中采集资源。"
         ""
-        "The &aDimensional Mineshaft&r will discard any items it cannot store, so it is important to regularly empty the mineshaft."
+        "不过若&a维度矿井&r已满，则挖到的无法存下的物品都会被直接销毁，所以最好定期清空矿井，腾出空槽。"
         ""
-        "&bSpirits&r in lamps can be inserted from the top, and items can be extracted from all other sides."
+        "绑定了&b魔灵&r的神灯可以从矿井顶部输入矿井，其余面都能用作输出面。"
         "{@pagebreak}"
-        "The &aDimensional Mineshaft&r has two interactions with redstone:"
+        "&a维度矿井&r有两种红石交互方式："
         ""
-        "1) The &bSpirit&r will stop working when receiving a redstone signal."
+        "1）接收到红石信号后，矿井中的&b魔灵&r就会停止工作。"
         ""
-        "2) A comparator can be used to get a redstone signal based on occupied slots and lamp durability."
+        "2）红石比较器会检测矿井中存有物品的槽位数量与神灯的剩余耐久度，以此输出红石信号。"
     ]
     quest.0A51EA0A6CC0327F.quest_desc:[
-        "The &7Foliot Miner&r harvests random blocks, returning anything it finds."
+        "&7劳工魔精&r会采集随机方块，并把它挖到的一切东西都传输回来。"
         ""
         "It is quite slow and inefficient, degrading its lamp much faster than other miners."
     ]
     quest.2E1CE18A917C637C.quest_desc:[
-        "The &cOre Miner Djinni&r only harvests ores."
+        "&c掘矿者巨灵&r只会采集矿物，不会采集普通的石头。"
         ""
         "It is able to mine faster more efficiently than the &7Foliot&r. Because of it's speed, however, it damages its lamp faster."
     ]
     quest.60984D2D55BF2E24.quest_desc:[
-        "The &dDeep Ore Afrit Miner&r harvests ores like the &cDjinni&r, and additionally mines deepslate ores."
+        "&d淘金者火灵&r与&c掘矿者巨灵&r采集的矿石种类差不多，但是前者还会额外采集矿石的深层变种。"
         ""
         "It is faster and more efficient, damaging its lamp even more slowly."
     ]
     quest.264C4CE122513D7B.quest_desc:[
-        "The &6Master Marid Miner&r is the most powerful miner &bSpirit&r."
+        "&6矿脉领主魔王&r是最强大的&b魔灵&r矿工。"
         ""
         "It has the fastest mining speed and best lamp preservation. Unlike other miners, they can also mine rare ores like &dAncient Debris&r and &dIesnium Ore&r."
     ]
     quest.4CDCFE544B72E6C4.quest_desc:[
-        "The &5Eldritch Ancient Miner&r harvests entire blocks of raw ore at once."
+        "&5古老邪灵矿工&r能够一次采集一整个粗矿石块。"
         ""
-        "Compressing the &6Master Marid Miner&r has given you an extremely powerul and efficient miner."
+        "将多个&6矿脉领主魔王&r压缩到一起，你就能得到这种极高效的矿工。"
     ]
     quest.38705F990589B2E8.quest_desc:[
         "The &dIesnium Sacrificial Bowl&r is an upgrade to the standard &aGolden Sacrifical Bowl&r."
@@ -5763,16 +6214,16 @@
         "The &6Marid Smelter&r functions like all other &bSmelters&r, but process things 99% faster than normal."
     ]
     quest.3830D82DFA731ABA.quest_desc:[
-        "If we want to play with &cDemons&r, we'll need a way to summon them with rituals. To do this, we need &aChalk&r."
+        "要想和&c魔鬼&r玩耍，需要通过仪式把它们召唤到我们的存在位面。为此，我们需要&a粉笔&r。"
         ""
-        "&aChalk&r is used to draw glyphs for your &bRituals&r. You will come across many different colored &aChalks&r as you progress through &6Occultism&r."
+        "&a粉笔&r用于画出仪式所需的图案。随着你推进&6神秘学&r，你将遇到各种不同颜色的&a粉笔&r。"
         ""
-        "By combining &aOtherworld Ashes&r and &aBurnt Otherstone&r, you can craft an &7Impure White Chalk&r, which can be thrown into &aSpirit Fire&r to purify it into &aWhite Chalk&r."
+        "把&a异界灰烬&r和&a煅烧异界石&r混合，就能够制作出&7含杂白色粉笔&r，可以通过将其扔入&a灵火&r中除杂得到&a白色粉笔&r。"
         ""
-        "Chalk is pretty hard to scrub off of the ground. You can use a &aChalk Brush&r to get rid of any misplaced glyphs."
+        "画在地上的粉笔痕迹没法轻易擦除。你需要使用&a粉笔擦&r来擦去绘制错误的图案。"
     ]
     quest.0733AB66BFEB220E.quest_desc:[
-        "Using &dSevira's Permanent Confinement&r, you can craft &dBlack Chalk&r."
+        "你可以通过&d塞维拉永囚咒&r制作出&d黑色粉笔&r。"
         ""
         "This can be used to upgrade your existing &bPentacles&r, as well as being the highest tier &aFoundation Chalk&r."
     ]
@@ -5796,9 +6247,9 @@
         "Simply click on the checkmark to progress the questline."
     ]
     quest.32E0A399AFBE3099.quest_desc:[
-        "To summon higher tier &bSpirits&r, we're going to need better chalk."
+        "要想召唤更高阶的&b魔灵&r，就要准备更好的粉笔。"
         ""
-        "This requires a new type of &bPentacle&r called &aEziveus' Spectral Compulsion&r. Make sure to use the guidebook to help you create it!"
+        "这需要一种新类型的&b五芒星&r，叫做&a埃兹维斯灵体强迫&r。可在魔灵全典中查阅如何绘制此五芒星！"
         ""
         "这也是你首次进行&e绑定仪式&r。它会将&7魔精&r绑定在物品上并增强其功能。"
         ""
@@ -6889,7 +7340,7 @@
     quest.2EBDE5767588B43C.quest_desc:[
         "想要制作&6觉醒&r系列物品，你需要一种只能击败&5末影龙&r或&5凋灵&r后掉落的粉尘。"
         ""
-        "这个粉末叫做&6觉醒粉&r，在使用附魔有&d神秘启示&r的神秘农业武器杀死末影龙或凋灵时掉落。"
+        "这种粉末叫做&6觉醒粉&r，在使用附魔有&d神秘启示&r的神秘农业武器杀死末影龙或凋灵时掉落。"
     ]
     quest.7C9CABB75B422A4A.quest_desc:[
         "在&6觉醒祭坛&r上将&6觉醒粉&r和&b元素精华&r结合之后，终极精华则会觉醒！"
@@ -7426,15 +7877,15 @@
     quest.70D723ED513104E2.quest_desc:[
         "在这个整合包中，被动生物不会自然生成，而敌对生物只会在海平面下的黑暗房间内生成。"
         ""
-        "One of the easiest ways to create a faster mob farm is to make &aChicken Feed&r. When fed to a Chicken, it will cause the chicken to explode and drop either a &6Golden Egg&r or &2Rotten Egg&r, depending on the Feed you use."
+        "要创建一个更快的怪物农场，最简单的方法之一是制作&a鸡饲料&r。当给鸡喂食时，它会让鸡爆炸并掉落一个&6金鸡蛋&r或 &2腐烂鸡蛋&r，具体取决于你使用的饲料。"
         ""
-        "&6Golden Eggs&r will convert a 5x5 of dirt to &6Delightful Dirt&r, which spawns passive mobs from &dArs Nouveau&r only."
+        "&6金鸡蛋&r会将周围5x5范围内的泥土转化为&6祈福之土&r，这种泥土只会生成来自&d新生魔艺&r的被动生物。"
         ""
         "To spawn mobs like cows or chickens, you will need to use a &2Gateway of The Emerald Grove&r."
         "{@pagebreak}"
         "To create a fast hostile mob farm, you can create a &2Rotten Egg&r by feeding a chicken &dCursed Chicken Feed&r. This egg is used on a 5x5 of Dirt to convert it into &dDreadful Dirt&r."
         ""
-        "This dirt will speed up the spawning of hostile mobs, and can be turned off by turning on the lights."
+        "这种土会加快敌对生物的生成速度，而添加光源则可以关闭这一效果。"
     ]
     quest.2FF4717777A2EFEC.quest_desc:[
         "我可能不是个满分工程师，但我做出的机器真是帅到掉渣了！"

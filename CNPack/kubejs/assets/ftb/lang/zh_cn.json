@@ -154,7 +154,7 @@
     "message.rift.jetpack":"裂缝扰乱了你的喷气背包中的能量！",
     "message.trophy.portal":"没有找到传送门",
     "message.rift.arena":"你离裂缝竞技场还不够近！",
-    "message.rift.charge":"裂缝充能：%1$s %2$s%%",
+    "message.rift.charge":"裂缝充能：[%1$s] %2$s%%",
     "block.ftb.portal_holder":"传送门框架",
     "item.ftb.nautical_eye":"航海之眼",
     "item.ftb.ancient_eye":"远古之眼",
