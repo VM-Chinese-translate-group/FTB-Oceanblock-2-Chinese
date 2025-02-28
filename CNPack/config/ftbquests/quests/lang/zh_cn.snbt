@@ -236,7 +236,7 @@
     task.1A02CBDB99C6928B.title:"&f方块变种"
     quest.5BBE73445913E9A3.title:"&c再处理器"
     quest.13F84B912C8FA7FD.title:"&f属于你的第一台&3涡轮机"
-    task.555B507B8B216CE2.title:"&3Turbine &fControllers"
+    task.555B507B8B216CE2.title:"&3涡轮机&f控制器"
     quest.7876408A8635B7F6.title:"&6流化器"
     quest.62323F1906B5BE00.title:"&2能源池"
     quest.4BDC456540EBE648.title:"&9蓝钚"
@@ -457,7 +457,7 @@
     quest.78F3D5C0909EFD27.quest_subtitle:"玻璃罐自动化"
     quest.78F3D5C0909EFD27.title:"初步自动化"
     quest.69241B20F504931E.title:"闪闪发光的石头"
-    quest.0F436FCC2B16FD11.title:"独具匠心"
+    quest.0F436FCC2B16FD11.title:"匠遇良材"
     quest.73E7FD206F802E56.title:"倾泻而出"
     quest.527DC4B444A82A42.title:"构造方块"
     quest.7DB9760E3196FB3D.title:"熔铸炉的心脏"
@@ -532,30 +532,30 @@
     task.6C1AB8986784E504.title:"&e观察&f：搅拌机"
     quest.5878F6DB12C22339.title:"&f左轮手枪"
     quest.073BE902F972D190.title:"&f枪支改造"
-    chapter.6A58A6F56CD199A3.title:"Integrated Dynamics"
-    quest.5B34FEF756C93961.title:"&fWelcome to &6Integrated Dynamics&f!"
-    quest.1403ABF77D987200.title:"&fExtracting &bMenril"
-    quest.6712C96969CB1D58.title:"&fCrystallized Menril"
-    quest.63A3450169DD4B17.title:"&fNetworks"
-    quest.6005C20FD96E6711.title:"&fVariable Card"
-    quest.7E2399076FA8B7AC.title:"&fMono-Directional Connector"
-    quest.5691235133373883.title:"&fEnergy Battery"
-    quest.7F8E338B8B2C9EDC.title:"&fGenerating Power"
-    quest.629C6374800613C4.title:"&fInteracting With Your Network"
+    chapter.6A58A6F56CD199A3.title:"动态联合"
+    quest.5B34FEF756C93961.title:"&f欢迎游玩&6动态联合&f!"
+    quest.1403ABF77D987200.title:"&f提取&b门瑞欧树脂"
+    quest.6712C96969CB1D58.title:"&f门瑞欧结晶碎片"
+    quest.63A3450169DD4B17.title:"&f构建网络"
+    quest.6005C20FD96E6711.title:"&f变量卡"
+    quest.7E2399076FA8B7AC.title:"&f单向连接器"
+    quest.5691235133373883.title:"&f能量电池"
+    quest.7F8E338B8B2C9EDC.title:"&f发电"
+    quest.629C6374800613C4.title:"&f组建网络"
     task.4DDC10B7CDEA5CB5.title:"&fInterfaces"
     task.44C0CAD2D5C19059.title:"&fFiltering Interfaces"
     task.5802698B55BD4071.title:"Importers"
     task.1F7C88C80E271B55.title:"&fExporters"
     quest.60B37EEA5AD64C3D.title:"&fStorage Terminal"
-    quest.2DDC9D75FBFA1F3C.quest_subtitle:"Time To Change Those Variables"
-    quest.2DDC9D75FBFA1F3C.title:"&fLogic Programmer"
+    quest.2DDC9D75FBFA1F3C.quest_subtitle:"是时候为变量赋值了"
+    quest.2DDC9D75FBFA1F3C.title:"&f逻辑编程器"
     quest.1B2E6CA3642024B7.quest_subtitle:"Copy \&\ Paste Variables"
     quest.1B2E6CA3642024B7.title:"&fMaterializer"
-    quest.69282BCC2FA04060.title:"&fVariable Store"
+    quest.69282BCC2FA04060.title:"&f变量卡箱"
     quest.28E945E86D2A67F5.title:"&fWelcome to &6Integrated Dynamics&f!"
     quest.327E27800EB44FCA.title:"&fCrystallized Chorus Chunks"
     quest.4A7198127F58DA94.title:"&fLogic Director"
-    quest.3D1796B4F460DBBF.title:"&fOmni-Directional Connector"
+    quest.3D1796B4F460DBBF.title:"&f全向连接器"
     quest.504D9310A12FBB21.title:"&fWorld Interaction Components"
     task.461DC877898F48C2.title:"&fWorld Blocks"
     quest.729DF05C1D2AE6E7.title:"&fReaders \&\ Writers"
@@ -563,8 +563,8 @@
     quest.2C0332B3354D8A9C.title:"&fPlayer Simulator"
     quest.5211DFF30B136433.title:"&fEarly &bMenril &fAutomation"
     quest.3DEA6BCF3DD509D9.quest_subtitle:"Wireless Connections"
-    quest.3DEA6BCF3DD509D9.title:"&fPart Enhancement: Offset"
-    quest.7E44D3D23995717A.title:"&fImproving your setup"
+    quest.3DEA6BCF3DD509D9.title:"&f部件强化：偏移"
+    quest.7E44D3D23995717A.title:"&f升级你的设备"
     task.3301DA41D5748DCE.title:"&fImproving your setup"
     quest.733B30C6D9F14141.title:"&fAutocrafting With &6I.D"
     quest.4DB08D796BBE6E93.title:"&fCrafting Writer"
@@ -1152,10 +1152,10 @@
     quest.0D4C45BBECC8A780.title:"&f协同矩阵插件"
     quest.5FC606C21AA7310C.title:"&dCybernetic Augmentation Center"
     quest.5FE085B5672EEA5D.title:"&d研究站"
-    quest.3E719C5EB260F7E7.title:"&d核反应堆控制面板"
+    quest.3E719C5EB260F7E7.title:"&d核子能量"
     quest.499FE5B9A6E42D1B.title:"&a反应堆燃料棒"
     task.4CB6CE40C86BF2E5.title:"&a反应堆燃料棒"
-    task.008E39502A7A1D2E.title:"Reactor Fuel"
+    task.008E39502A7A1D2E.title:"反应堆燃料"
     quest.385FCE9BEC913790.title:"&c散热口&f和&c热管"
     quest.12F774E4D4B62CCB.title:"&b反应堆吸热装置"
     quest.53F1206438C02132.title:"&2能量&f和&c红石&f端口"
@@ -2762,7 +2762,7 @@
         "Just like the Reactor, the &6Fluidizer&r frame is made up of &aFluidizer Casings&r. This multiblock has a minimum size of 3x3x3."
     ]
     quest.2118F7E7DA50BE2E.quest_desc:[
-        "&e固体混合模式&r：将两种固体融化并融合为流体。需要&l刚好两个&r&b固体注入器&r。"
+        "是把物品还是流体转变成一种新的流体燃料，这取决于搭建流化器时使用的注入器的数量。"
         ""
         "&e固体转液体模式&r：将固体（如钢锭）转变为流体。需要&l刚好一个&r&b固体注入器&r。"
         ""
@@ -2793,7 +2793,7 @@
     quest.0B7AD8830F63CC2A.quest_desc:[
         "&b转子&r是&3涡轮机&r的核心部件。"
         ""
-        "你需要在每个&b转子转轴&r周围放置至少4个&b转子叶片&r。"
+        "转子要放在涡轮机中央，&b转子转轴&r需要从一头贯穿到另一头。"
         ""
         "On one side of the &3Turbine&r, the &aTurbine Rotor Bearing&r must be placed on the outer wall of the &3Turbine&r."
         ""
@@ -3824,11 +3824,11 @@
         "&6&o&n当前任务&r：使用&6金网&r，洗涤&b沙砾&r来获得&b钻石矿块&r并将它变成&b钻石&r。"
     ]
     quest.0F436FCC2B16FD11.quest_desc:[
-        "现在的圆石应该非常充足，粉碎以后应该可以有足够的沙子和黏土储备了。"
+        "现在的圆石应该非常充足，粉碎之后差不多就有足够的沙子和黏土储备了。"
         ""
-        "直接烧制黏土得到的只是普通砖块，并不能承受很高的温度。我想制作一个可以加工金属的熔铸炉，那些砖块差的远呢。"
+        "直接烧制黏土得到的只是普通砖块，并不能承受很高的温度。要想制作一个可以加工金属的熔铸炉的话，那些砖块还差得远呢。"
         ""
-        "将沙子和黏土混合可以得到更好的胚子，将那些半成品烧制后，那些砖块看起来更加坚硬耐用。"
+        "将沙子和黏土混合可以制成更好的胚子，将这些半成品烧制后，得到的砖块应该会更加坚实耐用。"
         ""
         "&6&o&n当前任务&r：用&a沙子&r和&3黏土&r制作&c耐火黏土&r。然后将它烧制为&6耐火砖&r。"
     ]
@@ -4276,76 +4276,76 @@
         "&a加强电子管&r是&a左轮手枪&r的专属配件，使左轮手枪的射弹能够击晕目标。"
     ]
     quest.5B34FEF756C93961.quest_desc:[
-        "&6Integrated Dynamics&r (&6I.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
+        "运用&6动态联合&r (&6I.D&r)可以为简单或复杂的自动化程序和系统搭建网络，让你跳过在机器页面中摆弄参数的过程，直指Minecraft的核心。"
         ""
-        "This mod has a certain reputation for being hard to get into, as it contains many elements of coding/programming which can be scary for most people. But we'll get into that later."
+        "大多数玩家认为这个mod难以入门，因为其中包含了太多令人害怕的代码/编程要素。不过我们待会儿再讨论这个。"
         ""
-        "For now, just explore until you find a &bMenril Tree&r and break it down for some &aLogs&r and &aSaplings&r."
+        "至于现在，继续探索吧，去找一片&b门勒格林&r，获取一个&a门瑞欧原木&r和&a门瑞欧树苗&r。"
         ""
-        "&eOn The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
+        "&e论动态联合&r是一本非常有用的指导书，深入讲解了本mod的大量复杂机制。如果你卡住了，记得多看看书。"
     ]
     quest.1403ABF77D987200.quest_desc:[
-        "The &aSqueezer&r is used to extract &bMenril&r from logs or planks, and the &bDrying Basin&r solidifies the liquid into &bCrystallized Menril&r."
+        "&a挤压机&r可以从门瑞欧原木和木板中提取&b门瑞欧树脂&r，而&b烘干池&r可以将树脂凝固成&b门瑞欧结晶块&r。"
         ""
-        "First, place down your &aSqueezer&r, then place a &aDrying Basin&r next to it on either side where the channels are."
+        "首先，放下你的&a挤压机&r，然后将&a烘干池&r放到有管道的一侧。"
         ""
-        "Next, right-click a &aMenril Log&r or &aPlank&r into the &aSqueezer&r and jump in the middle of it a few times."
+        "然后，拿着&a门瑞欧原木&r或&a门瑞欧木板&r右击&a挤压机&r放进，然后在挤压机的中心跳跃几下。"
         ""
-        "If placed correctly, the &aDrying Basin&r should fill up with liquid &bMenril&r and crystallize after a few seconds."
+        "如果没出错的话，&b门瑞欧树脂&r会流入并充满&a烘干池&r，并在几秒后凝固结晶。"
         ""
-        "Apply a redstone signal, like a button, to the &aSqueezer&r to reset it back to normal and repeat the process."
+        "为&a挤压机&r提供一个红石信号（如按钮），就可以使其回到初始状态，重新开始流程。"
     ]
     quest.6712C96969CB1D58.quest_desc:[
-        "Now that you have a consisten way to produce &bCrystallized Menril&r, you can get started on the different paths of &6I.D&r."
+        "现在你已经有了稳定的&b门瑞欧结晶块&r来源，可以着手体验&6I.D&r的其它流程了。"
     ]
     quest.63A3450169DD4B17.quest_desc:[
-        "&6I.D Networks&r are connected by &aLogic Cables&r, and any interface on a network can interact with another, unless set to a different channel."
+        "&6I.D网络&r通过&a逻辑线缆&r相互连接，在网络中的任一接口都可以与其它同频道的接口交互。"
         ""
-        "Channels allow you to have multiple parts of your network set up on the same &aLogic Cable&r network without interacting with things on a different channel. This is very useful when setting up multiple simple systems in a very small area."
+        "善用频道，你就可以在同一个&a逻辑线缆&r网络中布设多个子网络，并使频道不同的子网络之间不会相互干扰，在构架网络的空间比较逼仄时非常有用。"
         ""
-        "You can also hide &aLogic Cables&r using &bFacades&r, which can be changed by crafting them with the block of your choice in a crafting table."
+        "你也可以使用&b伪装方块&r来隐藏&a逻辑线缆&r。将伪装方块 - 无与你想使用的方块合成即可。"
         "{@pagebreak}"
-        "The Wrench has three different modes:"
+        "扳手有三种不同的模式："
         ""
-        "- &eDefault&r: Allows you to disconnect cables from connecting to other cables or blocks next to them. A Logic Cable will NOT automatically connect to blocks except other Logic Cables or some &6I.D&r blocks."
+        "- &e默认&r：可以将相邻的逻辑线缆断开，或使逻辑线缆与相邻的方块之间的连接断开。逻辑线缆只会与其他逻辑线缆或某些&6I.D&r中的方块相互连接。"
         ""
-        "- &eSave Offset&r: Saves the co-ordinates of the selected block, and applies it as an offset to the selected part."
+        "- &e保存偏移量&r：记录选定方块的坐标，并可以使指定接口自动识别偏移量。"
         ""
-        "- &eSave Offset \&\ Side&r: Does the same as the above, but also saves the side of the block you selected. This is particularly useful for blocks that have functionality on a specific side."
+        "- &e保存偏移量和面&r：与上述保存偏移量的功能相同，但同时还会保存你选的方块时的面。当指定一些不同面有不同功能的方块时非常有用。"
         ""
-        "[\"Saving offsets and sides can be useful when using a \", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \", as it saves you the trouble of having to calculate and keep track of offsets mentally.\"]"
+        "[\"在使用\", {\"text\": \"Part Enhancement: Offset\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \"时，保存偏移量和面就会相当有用，因为它可以节省你计算和保持偏移量的时间\"]"
     ]
     quest.6005C20FD96E6711.quest_desc:[
-        "&aVariable Cards&r are one of the main components when setting up any automation or network."
+        "在制作任何自动化程序或网络时，&a变量卡&r都是最重要的组件之一。"
         ""
-        "In programming, a &bVariable&r is anything that can be changed, so these &aVariable Cards&r will be used to store information that can change."
+        "在编程过程中，&b变量&r是指任何可以改变的东西。因此&a变量卡&r就是用来存储那些可以改变的信息。"
         ""
-        "Programming can seem like a very scary topic. But, when it comes to &6Integrated Dynamics&r, you really just need to understand some basic concepts to automate almost any system in Minecraft."
+        "编程听起来是一个可怕的话题。但在使用&6动态联合&r时，你真的只需要理解一些基础概念，就几乎可以搭建用于Minecraft的所有自动化系统了。"
     ]
     quest.7E2399076FA8B7AC.quest_desc:[
-        "The &aMono-Directional Connector&r can connect two networks in a straight like up to 512 blocks away."
+        "&a单向连接器&r可以通过无线的方式长距离（最多512格）连接两个逻辑网络。"
         ""
-        "&eNote&r: These can cause an large amount of lag if used often, so try to avoid using them as much as possible."
+        "&e注意&r：经常使用单向连接器会导致大量延迟，所以请尽可能的避免使用它们。"
     ]
     quest.5691235133373883.quest_desc:[
-        "The &bEnergy Battery&r can store a base of one million RF, but you can craft it with other batteries to combine their capacity, creating massive storage units."
+        "&b能量电池&r能够储存一百万RF。不过你可以通过将多个能量电池无序合成的方式来增加其储能上限。"
         ""
-        "It is also used to craft other energy-related components within &6I.D&r."
+        "它还用于制作&6I.D&中一些与能量有关的组件。"
     ]
     quest.565B21FA569CF3CC.quest_desc:[
-        "With access to power and &bMenril&r, you can now create the powered versions of the &aSqueezer&r and the &aDrying Basin&r."
+        "有了能量和&b门瑞欧结晶碎片&r之后，你就可以制作电力驱动的&a挤压机&r和&a烘干池&r了。"
         ""
-        "Though functionally the same, they give you extra resources when processing items, so you can automate this system in a very similar way as before."
+        "尽管功能相同，它们会提供额外的产出。你只需以与之前相似的方法自动化生产即可。"
         ""
         "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_powered_automation.png width:200 height:195 align:center}"
     ]
     quest.7F8E338B8B2C9EDC.quest_desc:[
-        "The &aGenerator&r is the only way to generate power within &6I.D&r, so it is recommended to have another mod that can generate a good mount of RF to keep up with your machines."
+        "&a发电机&r是&6I.D&r中唯一一个可以发电的机器，因此还是推荐你使用其他可以发电的模组来让你的机器保持运转。"
     ]
     quest.629C6374800613C4.quest_desc:[
-        "So now that you have your network set up, how do we actually do things with it? That's where &aInterfaces&r, &aImporters&r, and &aExporters&r come into play."
+        "既然你已经搭建好了你的网络，它又能用来干什么呢？现在就该&a接口&r，&a输入口&r和&a输出口&r出场了。"
         ""
-        "&eInterfaces&r allow your network to access storage mediums such as chests, barrels, fluid tanks, energy cubes, etc..."
+        "&e接口&r能够将存储设备接入到网络之中，譬如箱子、电池、储罐、能量立方等等。"
         ""
         "&eFiltered Interfaces&r also allow your network to access storage mediums but have several advanced configuration options and properties focused around filters."
         ""
@@ -4361,40 +4361,40 @@
         "The &aPortable Storage Terminal&r can be linked to an &aOmni-Directional Connector&r to access your storage network remotely."
     ]
     quest.2DDC9D75FBFA1F3C.quest_desc:[
-        "The &a(Portable) Logic Programmer&r is one of the places where you can change the value of your &aVariable Cards&r."
+        "通过&a(便携式) 逻辑编程器&r，你可以为你的&a变量卡&r赋值。"
         ""
-        "There are literally hundreds of &bVariable&r, making it impossible to cover them all in this questbook. However, we will go over some basic terms so you can know what types of &bVariables&r you can create within the &aLogic Programmer&r."
+        "在这本任务书中无法为你展示全部的数百种&b变量&r，不过我们可以学习一些基础的种类，以便于你了解你可以使用&a逻辑编程器&r制作哪些种类的&b变量&r。"
         ""
-        "Thankfully, &bVariables&r are color-coded within the &aLogic Programmer&r, making them relatively easy to spot them when you're scrolling through the long list. But you can also search up something more specific in the search bar at the top of the interface, if you know what you're looking for."
+        "幸运的是，在&a逻辑编程器&r中&b变量的种类&r是使用颜色进行区分的，使得你在长长的列表中翻找时能轻松的找到想要的变量种类。不过如果你需要的话，你仍可以在顶部搜索栏直接搜寻想要的变量种类。"
         "{@pagebreak}"
-        "&7Any&r: These are mostly unique to Minecraft, and include things like Items, Blocks, Recipes, Fluids, Ingredients, etc...."
+        "&7Any&r：这些是几乎独属于Minecraft的类型，比如物品、方块、配方、流体、原料等。"
         ""
-        "&3NBTs&r: These are also unique to Minecraft and are often referred to as \"tags\". Don't worry too much about what it stands for, just know that almost everything within Minecraft can have an NBT tag associated with it."
+        "&3NBTs&r：这些也是独属于Minecraft的类型，通常被称为“标签”。不必过于纠结NBT到底是什么，只需知道Minecraft中的所有物品都有对应的NBT标签即可。"
         ""
-        "&cStrings&r: These are words or sentences containing text, which can include numbers. &oEverything you can read on this page is a &cString&f!&r"
+        "&cStrings（字符串）&r：字符串可以使词语，也可以是句子，其中可以包括数字。&o你在这个页面上阅读到的所有内容都是&c字符串&f！&r"
         ""
-        "&9Booleans&r: These are values which are exclusively &aYes&r or &4No&r, referred to in programming as &aTrue&r or &4False&r. A blank &aVariable Card&r will always equal to &aTrue&r."
+        "&9Booleans（布尔型）&r：布尔型变量的值仅为&a是&r或者&4否&r，代表着编程语言中的&aTrue&r和&4False&r。一张空白的&a向量卡&r的值始终是&aTrue&r。"
         ""
-        "&6Integers&r: These refer to whole numbers, which can include negative numbers. However, it's better to use &eDoubles&r or &eLong&r when you are working with really big numbers."
+        "&6Integers（整型）&r：此类型中包含所有整数，当然可包括负数。不过，在处理非常大的数字是，还是建议使用&eDoubles（双精度型）&r或&eLong（长整型）&r。"
         ""
-        "&eDoubles&r: These are numbers that are not a whole number like &6Integers&r. You generally won't use these very often in your systems, but it's still important to know the difference."
+        "&eDoubles（双精度型）&r：这些数字并不像&6整型&r一样全是整数。你在构建网络时基本不会使用双精度型，不过你需要了解它们之间的区别。"
         ""
-        "There are many other &bVariables&r within the &aLogic Programmer&r, such as &eArithmetics&r and &2Operators&r, but they will not be explained within this questbook as they are almost never practical to use."
+        "在&a逻辑编辑器&r中还有非常多的其他类型的&b变量&r，例如&eArithmetics（算数）&r和&2Operators（运算符）&r。但这些类型几乎都不会实际用到，因此任务书中也就不再多讲。"
     ]
     quest.1B2E6CA3642024B7.quest_desc:[
         "The &aMaterializer&r is used to duplicate an existing &bVariable&r by creating a new copy of it."
     ]
     quest.69282BCC2FA04060.quest_desc:[
-        "This block has a very simple, yet important role within your &6I.D&r network, which is to store existing variables that a system can referece back to."
+        "这个方块非常简单，但在&6I.D&r网络中起着非常重要的作用。你可以赋值好的变量卡放在其中，以便网络调用。"
         ""
-        "You will likely need at least one of these for more complex automation systems."
+        "在一个复杂自动化系统中你至少需要放置一个变量卡箱。"
         ""
         ""
-        "Here's a simple and brief example:"
+        "以下是一个简单的例子："
         ""
-        "Let's say you want your furnace to receive coal to smelt ores, but you don't want to run out of coal in your storage."
+        "假设你想让你的熔炉接收煤炭来冶炼矿物，但不希望用光储存的所有煤炭。"
         ""
-        "You can set up a &bVariable Card&r with the minimum amount of coal you want to keep in your storage, let's say 32 coal. Without getting into specifics, this &bCoal Variable&r of 32 would be stored in the &aVarbiable Store&r block so that the system can use it as a reference to only put coal into your furnace when you have more than 32 coal in your storage system."
+        "你可以用你希望库存中保留的煤炭数为一张&b变量卡&r赋值。比如说32个煤炭。略去细节，值为32的&b煤炭变量&r就会存储在变量卡箱之中，系统会将其作为参考，只在你的存储系统中煤炭数量大于32时才会将煤炭输入熔炉。"
     ]
     quest.28E945E86D2A67F5.quest_desc:[
         "&6Integrated Dynamics&r (&6I.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
@@ -4416,13 +4416,13 @@
         "&aLogic Directors&r are used to craft advanced network components."
     ]
     quest.3D1796B4F460DBBF.quest_desc:[
-        "The &aOmni-Directional Connector&r can connect two networks across any distance, including other dimensions, as long as the chunks are loaded."
+        "&a全向连接器&r能够以无线的方式无视距离甚至跨纬度将两个网络连接起来，前提是两边的区块都在加载状态。"
         ""
-        "&aOmni-Directional Connectors&r work off of Groups, which symbolize what network they are connected to. &aOmni-Directional Connectors&r in the same group will have their networks linked."
+        "&a全向连接器&r需要成组使用，同组的组件会相互连接。"
         ""
-        "When you craft &aOmni-Directional Connectors&r, they will be automatically linked to the same group. However, if you craft them using an existing &aOmni-Directional Connector&r, you will receive 3 &aConnectors&r that are already linked to the original group."
+        "制作&a全向连接器&r时，他们会自动分配到同一个组别。当你用一个已有分组的&a全向连接器&r合成三个&a全向连接器&r，他们都会被分配到用于合成的原料的组别。"
         ""
-        "&eNote&r: These can cause an immense amount of lag if used often, so try to avoid using them as much as possible."
+        "&e注意&r：经常使用全向连接器会导致大量延迟，所以请尽可能的避免使用它们。"
     ]
     quest.504D9310A12FBB21.quest_desc:[
         "&aWorld Interaction Components&r are useful when you need to break, place, or collect things from the world."
@@ -4453,9 +4453,9 @@
         "Break the two blocks so both the armor stands are above the &aSqueezer&r and enjoy."
     ]
     quest.3DEA6BCF3DD509D9.quest_desc:[
-        "&9Offset Enhancements&r are used to wirelessly perform their task relative to a block's coordinate."
+        "&9部件强化：偏移&r可以使接口通过无线的方式连接到其他方块上。"
         ""
-        "While this feature is not always necessary for automation, it can be used to hide away cables to make your setups look nicer."
+        "虽然在做自动化的时候也不是必须要使用这件物品，不过他确实能有效的减少线缆的使用，让网络设备看起来更简洁。"
     ]
     quest.7E44D3D23995717A.quest_desc:[
         "So, you have this menril automation system. But why are we still using hoppers?"
@@ -5973,7 +5973,7 @@
     quest.3BCB8667CCEBAE57.quest_desc:[
         "&a存储促动器基座&r是访问您的存储维度所需的两个部件中的第一个部件。"
         ""
-        "This block functions very much like a big shulker box. This means that when breaking the &aDimensional Storage Actuator&r, your items will stay safe inside the block."
+        "这个方块的功能特别像大号的潜影盒。这意味着当你破坏&a维度存储稳定器&r时，你的物品会被安全保留在其中。"
     ]
     quest.1EAF085D3C13253B.quest_desc:[
         "&9异界&r矿石通常只能被&9异界&r金属制成的工具采集。"
@@ -6005,7 +6005,7 @@
     quest.0A51EA0A6CC0327F.quest_desc:[
         "&7劳工魔精&r会采集随机方块，并把它挖到的一切东西都传输回来。"
         ""
-        "It is quite slow and inefficient, degrading its lamp much faster than other miners."
+        "它相当的慢且效率低下，装载其的神灯耐久度消耗的也比其他采矿魔灵快。"
     ]
     quest.2E1CE18A917C637C.quest_desc:[
         "&c掘矿者巨灵&r只会采集矿物，不会采集普通的石头。"
@@ -6707,7 +6707,7 @@
     quest.24CE908ED60FD514.quest_desc:[
         "&a磨粉机&r是个很简单的机器，用于制造各种粉，以及生物质。"
         ""
-        "这是前期获取&6末影化合物&r的最佳方式。"
+        "这是前期获取&3煤粉&r来制作&6碳纤维&r的最佳方式。"
     ]
     quest.091B8E814908DEDF.quest_desc:[
         "&d原子锻造器&r是个强大的机器，可以合成一些高阶芯片、强化深板岩……甚至可以复制矿物！"
@@ -6924,9 +6924,9 @@
         "&a大型能量存储器&r可以从任意有绿色端口的面输入能量，然后从仅有一个的红色端口输出能量。如果给它一个红石信号，那么它就不会输出能量。"
     ]
     quest.76F41BF761405713.quest_desc:[
-        "你可以在&a粉碎工厂&r中打碎末影珍珠来获取&a末影化合物&r，也可以在你可以组建&a粉碎工厂&r前，通过在&a离心机&r中离心幽匿块来得到。"
+        "你可以通过在&a离心机&r中离心幽匿块来得到&a末影化合物&r，也可以在之后用&a粉碎工厂&r打碎末影珍珠来获取它。"
         ""
-        "这个化合物可以在&a装配器&r中制造紫水晶母岩，或者在&d原子再构机&r中复制矿物。"
+        "这个化合物可以在&a装配器&r中制造紫水晶母岩，也是&6末影激光器&r的必要材料。"
     ]
     quest.2ECAD5F752E445F1.quest_desc:[
         "[\"\", { \"text\": \"钷\", \"color\":\"#FCD205\"}, \"是一种高级材料，仅能制作于\", { \"text\": \"原子锻造器\", \"color\":\"#FF55FF\"}, \"。\" ]"
@@ -7011,14 +7011,14 @@
     quest.49D399724FD1805B.quest_desc:[
         "&c涡轮燃料&r作为发电燃料效率更高，而且可以装填&aOritech的喷气背包&r！"
         ""
-        "把&a石油&r和&d通量水晶&r一起置入加装&b流体处理插件&r的&a搅拌机&r，这样就可以合成&b涡轮燃料&r了。"
+        "把&a原油&r和&d通量水晶&r一起置入加装&b流体处理插件&r的&a搅拌机&r，这样就可以合成&b涡轮燃料&r了。"
     ]
     quest.4887C8EA4441F62B.quest_desc:[
         "&c燃料发电机&r是个3x3x2的多方块发电机，它可以消耗&3原油&r或者&c涡轮燃料&r发电。"
         ""
         "&c涡轮燃料&r虽然RF产出速率和普通燃料一样，不过它持续时间更久！"
         ""
-        "Note: &3Crude Oil&r is made in the Nautec &6Mixer&r!"
+        "注意：&3原油&r是由Nautec的&6搅拌机&r制作的！"
     ]
     quest.2588279A071E5A6B.quest_desc:[
         "当一个生物或活体实体死亡时，它会释放一个&9灵魂&r。如果范围（16个方块）内有能够收集灵魂的方块， &9灵魂&r将会被该方块收集。这在视觉上表现为一个小灵魂飞向该方块。"
@@ -7040,7 +7040,7 @@
     quest.1277CECF9C633D8B.quest_desc:[
         "既然你现在可以用离心机处理流体了，那就做点&a粗有机聚合物&r吧！"
         ""
-        "包括&b塑料片&r、&6有机钢&r在内的许多重要物品都需要它。"
+        "它可以用于制作&b塑料片&r。"
     ]
     quest.3CC776328188FE33.quest_desc:[
         "[ \"拥有了\", {\"text\": \"钷\", \"color\": \"#FCD205\"}, \"你便可以制作最终等级的机器核心：\", {\"text\": \"终极机器核心\", \"color\": \"#FF55FF\"}, \"！\"]"
@@ -7086,34 +7086,34 @@
         "更好的&b植入体&r需要更好的研究站。"
     ]
     quest.3E719C5EB260F7E7.quest_desc:[
-        "&6Oritech反应堆&r是一种生成大量能量的绝佳方式。"
+        "&6Oritech反应堆&r是一种生成大量能量的绝佳方式！"
         ""
-        "此方块需要放置在墙上的某个位置，墙壁应完全由&e反应堆墙&r制成，除了&2反应堆能量端口&r应放置的位置。"
+        "反应堆是一个由许多不同部分组成的大型自定义多方块结构，&6核反应堆控制面板&r是它的主要交互界面。"
         ""
         "这个界面显示了当前反应堆的状态、组件温度和统计数据。它仅显示内部的第一层。"
         ""
-        "消耗铀或钚燃料棒，并根据相邻的&a反应堆燃料棒&r和&b中子反射器&r的数量产生RF。"
+        "&6反应堆&r通过消耗铀或钚丸来产生能量，产电量由相邻的&a反应堆燃料棒&r和&b中子反射器&r的数量来决定。"
         ""
-        "&c保持其充分冷却非常重要！&r"
+        "&c保持反应堆充分冷却非常重要！&r反应堆喜欢炸个大坑。"
     ]
     quest.499FE5B9A6E42D1B.quest_desc:[
-        "&a反应堆燃料棒&r是内部组件，需要供应铀或钚燃料丸来产生热量。"
+        "&a反应堆燃料棒&r是内部组件，需要从&a反应堆燃料口&r供应&6铀&r或&6钚&r&6丸&r来产生热量。"
         ""
-        "当燃烧燃料时，每个&a燃料棒&r会产生中子脉冲。进而产生特定量的能量。燃料棒接收到的脉冲越多，生成的能量也越多。然而，如果相邻组件也是&a燃料棒&r，则脉冲也会击中相邻的燃料棒。"
+        "&a燃料口&r应该被放在反应堆的顶面上。这个接口需要&a燃料棒&r与其相连至反应堆底面。"
         ""
-        "生成的热量基于燃料棒的总脉冲数（内部脉冲+外部脉冲）。"
+        "为了生产&6铀球&r，你需要原子锻造器来制作&6铀石&r。"
+        ""
+        "你可以离心&c红石粉&r来得到&铀粉&r"
+        "{@pagebreak}"
+        "当燃烧燃料时，每个&a燃料棒&r会产生中子脉冲。每个脉冲默认生成固定能量。燃料棒接收到的脉冲越多，生成的能量也越多。 每个燃料棒默认发送和接收一个脉冲。然而，如果相邻组件也是&a燃料棒&r，则脉冲也会击中相邻的燃料棒。"
+        ""
+        "生成的热量量基于燃料棒的总脉冲数（内部脉冲+外部脉冲）。"
         ""
         "&a单燃料棒&r生成1个内部脉冲，&a双燃料棒&r生成4个，&a四燃料棒&r生成12个。"
         "{@pagebreak}"
-        "中子反射器可以将脉冲反射回原点，类似于相邻的燃料棒类型来提高效率。"
+        "&e中子反射器&r可用于将脉冲反射回原点，类似于相邻的燃料棒类型，提高其效率。"
         ""
-        "每个燃料棒将从上方的燃料端口消耗固定数量的燃料。每个燃料丸有不同的燃料容量。 每个单燃料棒使用1个容量单位，双燃料棒使用2个，四燃料棒使用4个。"
-        ""
-        "A &aSingle Rod&r will generate 1 internal pulse, a &aDouble Rod&r 4, and a &aQuad Rod&r 12. "
-        "{@pagebreak}"
-        "&eNeutron Reflectors&r can be used to send a pulse back to its origin, acting as a similar rod type to its neighbor, increasing its efficiency."
-        ""
-        "Each &aFuel Rod&r will consume a fixed amount of fuel from the &bReactor Fuel Ports&r above the stack. Each fuel pellet has a capacity, and each rod will use 1 capacity unit, a double rod uses 2, and a quad rod uses 4."
+        "每个&a燃料棒&r将从上方的&b燃料端口&r消耗固定数量的燃料。每个燃料丸有不同的燃料容量。 每个单燃料棒使用1个容量单位，双燃料棒使用2个，四燃料棒使用4个。"
     ]
     quest.385FCE9BEC913790.quest_desc:[
         "&c反应堆散热口&r从最热的相邻组件中移除热量（&3燃料棒&r或&c热管&r），并将其排出&d反应堆&r。"
@@ -7127,7 +7127,7 @@
     quest.12F774E4D4B62CCB.quest_desc:[
         "&b反应堆吸热装置&r：吸热装置可以从所有相邻组件中移除固定数量的热量。这意味着当被需要冷却的组件包围时，它更有效率。"
         ""
-        "它需要持续供应冰（或蓝冰/压缩冰）作为冷却剂，可以通过其上方的&b反应堆冷却器吸收器口&r来注入。"
+        "它需要持续供应任意原版&b冰块&r变种作为冷却剂，可以通过其上方的&b反应堆冷却器吸收器口&r来注入。"
         ""
         "冷却剂的使用量是固定的，不会随着冷却面的增加而增加。每个刻度，吸热装置从每个相邻组件移除 16 单位的热量。"
         ""
@@ -7143,21 +7143,21 @@
         "端口还可以与比较器一起使用以输出数据。它有三种模式：能量、活动燃料棒数量和温度。要切换模式，只需右击端口。"
     ]
     quest.5A34991062F66626.quest_desc:[
-        "&d反应堆&r需要由矩形墙壁构成，边缘由反应堆墙方块组成。反应堆的最大尺寸为每个方向64个方块。内部结构在垂直（y）轴上必须相同。 "
+        "&d反应堆&r需要由矩形墙壁构成，边缘由&a反应堆墙&r组成。反应堆的最大尺寸为每个方向64个方块。内部结构在垂直（y）轴上必须相同。 "
         ""
-        "&d反应堆&r允许一定程度的热量积聚，理想情况下，适当冷却的反应堆不会产生任何泄漏热量。"
+        "在墙上某处，你需要放置&6核反应堆控制面板&r，以及你需要的任何&c能量端口&r。"
         ""
-        "您可以根据自己的需求设计&d反应堆&r。一般来说，&a双燃料棒&r或&a四燃料棒&r的燃料利用率更高，每颗燃料丸产生的总RF更多，但冷却难度也更大。"
+        "尽管制作3x3x3的微型反应堆是可行的，但最好还是制作5x5x5的反应堆以便正确降温。"
         ""
-        "您可以使用&b吸热装置&r进行主动冷却，或者仅使用&c散热口&r进行被动冷却。"
+        "尽管反应堆允许一定程度的热量积聚，但适当冷却的反应堆不会产生任何泄漏热量。"
         "{@pagebreak}"
-        "如果&a燃料棒&r温度超过2000°C并持续一段时间，将会触发熔毁。"
+        "您可以根据自己的需求设计反应堆。一般来说，&a双燃料棒&r或&a四燃料棒&r的燃料利用率更高，它们每颗燃料丸产生的总RF更多，但冷却难度也更大。"
+        ""
+        "您可以使用&b热量吸收器&r进行主动冷却，或者仅使用&c散热口&r进行被动冷却。"
+        ""
+        "如果&a燃料棒&r温度超过2000°C并持续一段时间，将会过热并触发&c熔毁！！！！！&r。"
         ""
         "在达到这些温度之前，警告警报会启动。根据&d反应堆&r的大小和&a燃料棒&r的数量，熔毁会导致不同程度的爆炸。"
-        ""
-        "If a &aFuel Rod&r contains a temperature of over 2000°C for a long period of time, it will overheat and trigger a &cNUCLEAR MELTDOWN&r!"
-        ""
-        "Warning sirens will engage before it reaches those temperatures. Depending on the size of the &dReactor&r and the number of &aFuel Rods&r, the meltdown will result in a bigger or smaller explosion."
     ]
     quest.1C58933205E5C96D.quest_desc:[
         "在你做出一些基础的&b蒸汽发电机&r后，就该准备和蒸汽说再见了！"
