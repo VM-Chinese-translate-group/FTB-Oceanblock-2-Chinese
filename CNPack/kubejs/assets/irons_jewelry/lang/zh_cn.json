@@ -14,7 +14,7 @@
     "container.irons_jewelry.jewelcrafting_station":"珠宝装配台",
     "entity.minecraft.villager.irons_jewelry.jeweler":"珠宝商",
     "pattern.irons_jewelry.simple_band":"简易指环",
-    "pattern.irons_jewelry.simple_band.item":"简易 %s 指环",
+    "pattern.irons_jewelry.simple_band.item":"简易%s指环",
     "pattern.irons_jewelry.effect_on_hit_ring":"回响指环（未完成）",
     "pattern.irons_jewelry.effect_on_hit_ring.item":"%s回响指环",
     "pattern.irons_jewelry.gemset_ring":"宝石指环",
