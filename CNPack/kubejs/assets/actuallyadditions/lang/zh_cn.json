@@ -756,7 +756,7 @@
     "booklet.actuallyadditions.chapter.furnaceDouble":"电力熔炉",
     "booklet.actuallyadditions.chapter.furnaceDouble.text.1":"<item>电力熔炉<r>工作方式和熔炉一样，但是，它可以用<rf>CF/t的功率<imp>一次烧制2个物品<r>。",
     "booklet.actuallyadditions.chapter.lavaFactory":"熔岩工厂",
-    "booklet.actuallyadditions.chapter.lavaFactory.text.1":"<item>熔岩工厂<r>每产生一个熔岩方块需要消耗<imp><rf>CF<r>。<n>岩浆工厂上方的空位四周必须被4个岩浆工厂外墙包围，否则岩浆工厂不会工作。<n>右击<item>岩浆工厂<r>可以显示当前环境下它是否能工作。<n><n><i>做一晚熔岩工。 <n>                厂",
+    "booklet.actuallyadditions.chapter.lavaFactory.text.1":"<item>熔岩工厂<r>每产生一个熔岩方块需要消耗<imp><rf>CF<r>。<n>熔岩工厂上方的空位四周必须被4个熔岩工厂外墙包围，否则熔岩工厂不会工作。<n>右击<item>熔岩工厂<r>可以显示当前环境下它是否能工作。<n><n><i>做一晚熔岩工。 <n>                厂",
     "booklet.actuallyadditions.chapter.energizer":"充能站与释能站",
     "booklet.actuallyadditions.chapter.energizer.text.1":"<item>充能站<r>把它储能槽中的能量<imp>充入使用CF的物品<r>之中。",
     "booklet.actuallyadditions.chapter.energizer.text.2":"<item>释能站<r>从<imp>存储有CF的物品<r>中释放出能量，并将能量储存在它的储能槽中。",

@@ -266,7 +266,7 @@
     task.327E3C53D0FEA46E.title:"&3涡轮机&r能源接口"
     task.20F7D4F697921733.title:"&3涡轮机&r主动流体端口"
     quest.11C6F6554654573A.title:"&3涡轮机&r感应线圈"
-    task.3D88835E5FF00CFE.title:"Induction Coil Blocks"
+    task.3D88835E5FF00CFE.title:"感应线圈方块"
     quest.22A060CE1CD96EE5.title:"&c再处理器&f外壳"
     quest.558971F923A3C186.title:"&c再处理器&b端口"
     quest.506DDFCF6639744D.title:"&f注入器 \&\ 收集端口"
@@ -438,7 +438,7 @@
     quest.7E47A10C65C52753.quest_subtitle:"种点吃的"
     quest.7E47A10C65C52753.title:"水下栽培"
     quest.063EB0858DAF0DBD.quest_subtitle:"一片绿茵"
-    quest.063EB0858DAF0DBD.title:"爸爸们团结起来"
+    quest.063EB0858DAF0DBD.title:"老爹联盟"
     quest.5D69890AB3384ABC.quest_subtitle:"打造怪物农场"
     quest.5D69890AB3384ABC.title:"来自深渊的&d低语&r"
     quest.607A28798499F484.quest_subtitle:"Just Dire Things的开始"
@@ -464,7 +464,7 @@
     quest.01EF1AF0D4926029.title:"将它们拼在一起"
     quest.723152AC816F91A5.title:"自动化"
     quest.3710743E7B4F073D.title:"神秘注魔"
-    quest.2BEABBCA1FB4A824.title:"友善生物"
+    quest.2BEABBCA1FB4A824.title:"被动生物"
     task.31DCC2E3E14BBC4C.title:"这就是我所剩无几的物品了"
     quest.7AE2748759261A0B.title:"海带的馈赠"
     quest.5D41616086EA607A.title:"&d万全准备&r"
@@ -542,27 +542,27 @@
     quest.5691235133373883.title:"&f能量电池"
     quest.7F8E338B8B2C9EDC.title:"&f发电"
     quest.629C6374800613C4.title:"&f组建网络"
-    task.4DDC10B7CDEA5CB5.title:"&fInterfaces"
-    task.44C0CAD2D5C19059.title:"&fFiltering Interfaces"
-    task.5802698B55BD4071.title:"Importers"
-    task.1F7C88C80E271B55.title:"&fExporters"
-    quest.60B37EEA5AD64C3D.title:"&fStorage Terminal"
+    task.4DDC10B7CDEA5CB5.title:"&f接口"
+    task.44C0CAD2D5C19059.title:"&f过滤接口"
+    task.5802698B55BD4071.title:"输入口"
+    task.1F7C88C80E271B55.title:"&f输出口"
+    quest.60B37EEA5AD64C3D.title:"&f存储终端"
     quest.2DDC9D75FBFA1F3C.quest_subtitle:"是时候为变量赋值了"
     quest.2DDC9D75FBFA1F3C.title:"&f逻辑编程器"
-    quest.1B2E6CA3642024B7.quest_subtitle:"Copy \&\ Paste Variables"
-    quest.1B2E6CA3642024B7.title:"&fMaterializer"
+    quest.1B2E6CA3642024B7.quest_subtitle:"复制\&\粘贴变量"
+    quest.1B2E6CA3642024B7.title:"&f固值器"
     quest.69282BCC2FA04060.title:"&f变量卡箱"
-    quest.28E945E86D2A67F5.title:"&fWelcome to &6Integrated Dynamics&f!"
-    quest.327E27800EB44FCA.title:"&fCrystallized Chorus Chunks"
-    quest.4A7198127F58DA94.title:"&fLogic Director"
+    quest.28E945E86D2A67F5.title:"&f欢迎游玩&6动态联合&f!"
+    quest.327E27800EB44FCA.title:"&f紫颂果结晶碎片"
+    quest.4A7198127F58DA94.title:"·&f逻辑导向零件"
     quest.3D1796B4F460DBBF.title:"&f全向连接器"
-    quest.504D9310A12FBB21.title:"&fWorld Interaction Components"
-    task.461DC877898F48C2.title:"&fWorld Blocks"
-    quest.729DF05C1D2AE6E7.title:"&fReaders \&\ Writers"
-    task.3F5A6F2680A95A43.title:"&fReaders \&\ Writers"
-    quest.2C0332B3354D8A9C.title:"&fPlayer Simulator"
-    quest.5211DFF30B136433.title:"&fEarly &bMenril &fAutomation"
-    quest.3DEA6BCF3DD509D9.quest_subtitle:"Wireless Connections"
+    quest.504D9310A12FBB21.title:"&f世界交互组件"
+    task.461DC877898F48C2.title:"&f世界中的方块"
+    quest.729DF05C1D2AE6E7.title:"&f读取器和输出器"
+    task.3F5A6F2680A95A43.title:"&f读取器和输出器"
+    quest.2C0332B3354D8A9C.title:"&f玩家模拟器"
+    quest.5211DFF30B136433.title:"&f早期&b门瑞欧结晶碎片&f自动化"
+    quest.3DEA6BCF3DD509D9.quest_subtitle:"无线连接"
     quest.3DEA6BCF3DD509D9.title:"&f部件强化：偏移"
     quest.7E44D3D23995717A.title:"&f升级你的设备"
     task.3301DA41D5748DCE.title:"&fImproving your setup"
@@ -886,8 +886,8 @@
     quest.264C4CE122513D7B.title:"&6矿脉领主魔王"
     quest.4CDCFE544B72E6C4.title:"&5古老邪灵矿工"
     quest.38705F990589B2E8.title:"&d艾瑟献祭之碗"
-    quest.63516E977D8BC7C4.title:"&5Eldritch Chalice"
-    quest.1316B86CF011B016.title:"&6Iesnium Anvil"
+    quest.63516E977D8BC7C4.title:"&5邪灵圣杯"
+    quest.1316B86CF011B016.title:"&6艾瑟金属砧"
     quest.27E0738B56C6ED8C.title:"&aSurprisingly Substantial Satchel"
     quest.6A84F3464CD7F0D5.title:"&cFeeling Lazy?"
     quest.4B4DFB318CE36DAE.title:"&6Rainbow Chalk"
@@ -1284,7 +1284,7 @@
     task.3514F3D7CE5EDB06.title:"日志记录 003"
     quest.7AE000D515158193.quest_subtitle:"踏汽而行"
     task.74A90A0754D1037E.title:"日志记录 006"
-    quest.78E89B8AC431D36C.quest_subtitle:"奇怪的信号"
+    quest.78E89B8AC431D36C.quest_subtitle:"诡异的信号"
     task.6B7174DAB059F658.title:"日志记录 004"
     quest.7C209475626FF302.quest_subtitle:"第一座废墟"
     task.20A0921DD8D68941.title:"日志记录 005"
@@ -1440,10 +1440,10 @@
     quest.126B4E4814DADCC8.quest_desc:[
         "&a矿工透镜&r可以在激光照射处生成矿石。"
         ""
-        "激光击中石头，则该石头就会被转化为矿石，如果打中的是下界岩的话，那么生成的矿石就只会是下界的矿物。"
+        "激光击中石头方块后，该石头就会被转化为矿石，如果击中的是下界岩，那么其就只会转化为下界的矿石。"
     ]
     quest.443C71D871AFAB67.quest_desc:[
-        "&a麻袋&r不仅可以像背包一样存放物品，还可以自动捡起地上的某样物品。"
+        "&a麻袋&r不仅可以像背包一样存放物品，还可以自动捡起地上的指定物品。"
         ""
         "&a虚空麻袋&r和普通麻袋功能一样，但是当你关闭界面后里面的东西就会被直接销毁。"
     ]
@@ -1651,7 +1651,7 @@
         ""
         "每个&a物品存储元件&r最多可以存储63种物品，存储元件储存物品的能力以&b字节&r计。"
         "{@pagebreak}"
-        "举个栗子：一个1k物品存储元件可以存储8128个相同类型的物品，假如你把63个存储种类全占满了，那么它的存储空间只有4160个物品。"
+        "举个例子：一个1k物品存储元件可以存储8128个相同类型的物品，假如你把63个存储种类全占满了，那么它的存储空间只有4160个物品。"
         ""
         "刚接触的时候也许让人迷惑，但是正式用起来后就不会那么云里雾里了。如果你真的不想和有物品种类限制的存储元件打交道的话，AE2Things能帮到你。你可以稍微多花一点材料费，做个&b无种类限制元件&r。"
         ""
@@ -2632,7 +2632,7 @@
         ""
         "若是正确搭建，那么&d再处理器&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         "&e注&r：如果您需要更深入的解释，您可以在任何时候查看指南。"
-        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
+        "&e注&r：请记住，如果需要更深入的解释，你可以随时查看指南。"
     ]
     quest.13F84B912C8FA7FD.quest_desc:[
         "搭建功能齐全的&3涡轮机&r的最后一个方块是&6涡轮机控制器&r。这就是你与&3涡轮机&r交互的方块。"
@@ -2645,11 +2645,11 @@
         "{@pagebreak}"
         "用&a框架&r填充顶部，然后可以将&a控制器&f和&b端口&r放置在不属于框架的任何一侧。"
         "{@pagebreak}"
-        "Fill in any remaining spots with Housings or Turbine Glass to complete your &3Turbine&r!"
+        "使用涡轮机外壳或者涡轮机玻璃填补空位以完成你的&3涡轮机&r！"
         ""
-        "If built correctly, the &3Turbine&r multiblock should change textures and the &aController&r will present you with an interface when interacted with."
+        "若是正确搭建，那么&3涡轮机&r结构应该出现纹理变化，并且当你与&a控制器&r交互时会出现UI界面。"
         ""
-        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
+        "&e注&r：请记住，如果需要更深入的解释，你可以随时查看指南。"
     ]
     quest.7876408A8635B7F6.quest_desc:[
         "有了&6流化器控制器&r，是时候搭建你的第一台流化器了！"
@@ -2662,7 +2662,7 @@
         ""
         "&6流化器&r的最大尺寸为32x32x32。"
         ""
-        "&eNote&r: Remember that you can check the guidebook at any point if you need a more in-depth explanation."
+        "&e注&r：请记住，如果需要更深入的解释，你可以随时查看指南。"
     ]
     quest.62323F1906B5BE00.quest_desc:[
         "&2能源池&r是用来存储大量能量的多方块结构。"
@@ -2674,7 +2674,7 @@
     quest.4BDC456540EBE648.quest_desc:[
         "对&b蓝晶&r再加工，可以为&d反应堆&r制造一种更好的燃料，称为&9蓝钚&r。"
         ""
-        "To craft &9Blutonium&r, insert two &bCyanite&r ingots and one bucket of water into a Reprocessor."
+        "将两个&b蓝晶&r锭和一桶水放进再处理器以制造&9蓝钚&r。"
     ]
     quest.45621893734C0B96.quest_desc:[
         "当在标准&d反应堆&r中使用&9钚&r作为燃料时，&5菱镁&r就会作为废料产生。"
@@ -2712,7 +2712,7 @@
         ""
         "用8个晶振锭和一个&c空想&r块合成&6空想块&r。"
         ""
-        "&6Insanite&r has the best performance out of all other blocks when used within your &dReactors&r or as &3Turbine Coils&r."
+        "&6晶振&r应用在&d反应堆&r和&3涡轮机线圈&r时有着相比其他材料最好的性能。"
     ]
     quest.3E25EAA3D2851941.quest_desc:[
         "在建造第一台&d反应堆&r之前，值得质疑的是有两种类型的部件：&b基础&r和&a强化&r。"
@@ -2723,16 +2723,16 @@
         ""
         "&b反应堆玻璃&r可以被用作搭建&d反应堆&r除框架外的方块。"
         ""
-        "Basic &dReactors&r can be as small as 3x3x3, but have a max size of 5x5x5. To build a bigger &dReactor&r, you will need Reinforced blocks."
+        "基础&d反应堆&r最小规格为3x3x3，最大5x5x5。要搭建更大的&d反应堆&r的话，就需要强化的部件。"
     ]
     quest.1839CCDAC3346C27.quest_desc:[
         "&b反应堆燃料棒&r是你的&d反应堆&r存储燃料的地方。&b燃料棒&r越多，就需要更多的燃料以将它完全填满。"
         ""
         "&b反应堆控制杆&r让你可以控制&e加注速率&r，即你的&d反应堆&r燃烧燃料的速度。这直接影响到发电量。通常来讲，燃烧更多的燃料就意味着更高的发电量。"
         "{@pagebreak}"
-        "&bControl Rods&r are placed on the ceiling of the &dReactor&r, with &bFuel Rods&r extending from it all the way down to the bottom of the Reactor."
+        "&b控制棒&r放置在&d反应堆&r的顶部，&b燃料棒&r从其下一直延伸到反应堆底部。"
         ""
-        "For example, a 5x5x5 &dReactor&r will have a total of 3 &bFuel Rods&r extending from a &bControl Rod&r placed at the top."
+        "举个例子，一个5x5x5的&d反应堆&r需要总共3个&b燃料棒&r从顶部的&b控制杆&r延伸下去。"
     ]
     quest.12BBDC662C7D6622.quest_desc:[
         "&b端口&r是你与&d反应堆&r交互的方式。它们被放置在侧面。"
@@ -2745,21 +2745,21 @@
         ""
         "&b红石端口&r（可选），让你使用红石控制&d反应堆&r从而实现部分自动化。"
         ""
-        "There are many more &bPorts&r that you will need when building more complex systems, some allowing even more control over your Reactors!"
+        "有很多在你搭建复杂结构时会i用到的&b端口&r，有的可以让你更好的控制你的反应堆。"
     ]
     quest.617363DDAA59D686.quest_desc:[
         "如果你想建造一台更大的反应堆，那么是时候让你摆脱&e基础&r方块的局限性了！"
         ""
         "使用&b强化&r部件，你可以建造的最大的&d反应堆&r有32x32x48的规格。"
         ""
-        "&eNote&r: Basic &dReactors&r can only be Passively cooled!"
+        "&e注&r：基础&d反应堆&r只可以被动散热！"
     ]
     quest.24651265607A772B.quest_desc:[
         "&6流化器&r是可以用物品或其他流体创造新的流体的可自定义大小的多方块结构。"
         ""
         "在开始搭建&6流化器&r之前，你有必要了解它的三个模式："
         ""
-        "Just like the Reactor, the &6Fluidizer&r frame is made up of &aFluidizer Casings&r. This multiblock has a minimum size of 3x3x3."
+        "和反应堆类似，&6流化器&r的框架由&a流化器外壳&r组成。这个多方块结构的最小尺寸为3x3x3。"
     ]
     quest.2118F7E7DA50BE2E.quest_desc:[
         "是把物品还是流体转变成一种新的流体燃料，这取决于搭建流化器时使用的注入器的数量。"
@@ -2768,73 +2768,73 @@
         ""
         "&e固体混合模式&r：将两种固体融化并融合为流体。需要&l刚好两个&r&b固体注入器&r。"
         ""
-        "&eFluid Mixing Mode&r mixes two fluid fuels into a new fuel type. This requires &ltwo&r &bFluid Injectors&r in the multiblock."
+        "&e流体混合模式&r：将两种流体混合成一种新的燃料。需要&l刚好两个&r&b流体注入器&r。"
     ]
     quest.78FEB17736D2E8C5.quest_desc:[
-        "Aside from how you choose to import items or fluids, the &6Fluidizer&r needs power to function."
+        "除了选择如何导入物品或液体，&6流化器&r还需要能量才能使用。"
         ""
-        "To import power, you will need to make a &cFluidizer Energy Port&r."
+        "你需要制作&c流化器能源端口&r以输入能量。"
         ""
-        "To extract the new fluid out of the multiblock, you will need the &bFluidizer Output Port&r."
+        "你需要&b流化器输出端口&r以从结构中导出新的流体。"
         ""
-        "Both of these ports can be placed on any face as long as it is not a part of the frame."
+        "这些端口都可以放置在除框架上的任何地方。 "
     ]
     quest.52B005DF145A5707.quest_desc:[
         "&3涡轮机&r是通过s使用来自&b主动散热反应堆&r的&b蒸汽&r驱动&b转子&r旋转来发电的多方块机械。"
         ""
         "这个多方块结构需要使用&3涡轮机&a外壳&r搭建框架。"
         ""
-        "For this quest, we'll be making the smallest Basic &3Turbine&r, which is 5x5x3, but they can be built up to 5x5x10."
+        "在这个任务中，我们会搭建最小的基础&3涡轮机&r，其尺寸为5x5x3（最大为5x5x10）。"
         ""
-        "A &2Reinforced &3Turbine&r can be as big as 32x32x32."
+        "&2强化&3涡轮机&r的最大尺寸为32x32x32。"
         ""
-        "You will need at least 64 &aHousings&r to build your first &3Turbine&r."
+        "你需要最少64个&a外壳&r以搭建你的第一台&3涡轮机&r。"
     ]
     quest.0B7AD8830F63CC2A.quest_desc:[
         "&b转子&r是&3涡轮机&r的核心部件。"
         ""
         "转子要放在涡轮机中央，&b转子转轴&r需要从一头贯穿到另一头。"
         ""
-        "On one side of the &3Turbine&r, the &aTurbine Rotor Bearing&r must be placed on the outer wall of the &3Turbine&r."
+        "对&3涡轮机&r来说，&a涡轮机转子轴承&r必须放置在&3涡轮机&r的外墙上。"
         ""
-        "You will need to place at least four &bRotor Blades&r around each &bRotor Shaft&r."
+        "你需要在每个&b转子转轴&r的周围放最少4个&b转子叶片&r。"
     ]
     quest.5CCCCC773275CFAC.quest_desc:[
-        "Just like the &dReactor&r, you will need an &cEnergy Port&r to export the power that the &3Turbine&r makes."
+        "像&d反应堆&r一样，你需要一个&c能源接口&r以导出&3涡轮机&r产生的能量。"
         ""
-        "To give the &3Turbine&r fuel to spin, you will need to import &bSteam&r from your &aActively Cooled Reactor&r into a &6Turbine Active Forge Fluid Port&r."
+        "要驱动&3涡轮机&r旋转，你需要使用&6涡轮机主动流体端口&r以输入来自&a主动散热反应堆&r的&b蒸汽&r。"
         ""
-        "These can be placed on any face of the &3Turbine&r walls."
+        "它们可以放置在&3涡轮机&r的任何面。"
     ]
     quest.11C6F6554654573A.quest_desc:[
-        "While not needed in the smaller &3Turbine&r setups, &dInduction Coils&r help generate power within your &3Turbine&r."
+        "虽然在较小的&3涡轮机&r中不需要，但&d感应线圈&r有助于&3涡轮机&r产生能量。"
         ""
-        "They are (usually) metallic blocks that can be placed around your &aRotor Shaft&r near the &aHousing&r to extract rotational energy."
+        "金属方块（通常）可以放置在&a转子转轴&r周围，紧贴&a外壳&r以提取旋转产生的能量。"
         ""
-        "You can place up to three rings of &dCoils&r, but smaller setups will likely benefit more from having less rings."
+        "你可以放置最多三个&d线圈&r，但是较小的涡轮机可能回因为更少的线圈而又更高的收益。"
         ""
-        "You can also mix &dCoil&r types, allowing you to slowly upgrade your &3Turbine&r as you unlock better quality items."
+        "你也可以混合&d线圈&r种类，这就允许你可以随着解锁更好的材料慢慢升级&3涡轮机&r。"
     ]
     quest.22A060CE1CD96EE5.quest_desc:[
-        "To process byproducts of &dReactors&r, we'll need a new multiblock called the &6Reprocessor&r."
+        "我们需要一个叫做&6再处理器&r的多方块结构处理&d反应堆&r的副产物。"
         ""
-        "Unlike the other multliblocks in this mod, the &6Reprocessor&r is a set size of 3x3x7."
+        "不像这个mod的其他多方块结构，&6再处理器&r只有一种尺寸：3x3x7。"
         ""
-        "The frame must be made out of &6Reprocessor Casings&r."
+        "框架必须用&6再处理器外壳&r搭建。"
     ]
     quest.558971F923A3C186.quest_desc:[
-        "The &6Reprocessor&r needs power to function, so it will need a &cPower Port&r placed on any vertical face on the multiblock."
+        "&6再处理器&r需要能量才能运行，所以需要把&c能源端口&r放在任何一个垂直面上。"
         ""
-        "To output items from the &6Reprocessor&r, you will need to place an &aOutput Port&r on any vertical face as well."
+        "把&a输出端口&r放在任何一个垂直面上以从&6再处理器&r中输出物品。"
     ]
     quest.506DDFCF6639744D.quest_desc:[
-        "When built, the &6Reprocessor&r will look like a tower. To inject and eject products into the multiblock, you will need several ports that are placed in exact parts of the build."
+        "建成后，&6再处理器&r看起来回想一座塔。要想从其输入或输出产品则需要将多个端口放置在合适的位置。"
         ""
-        "The &aReprocessor Collector&r is placed on the middle of the bottom face of the multiblock, and collects materials within the &6Reprocessor&r."
+        "&a再处理器控制器&r放置在结构的的底面中间，它会收集&6再处理器&r中的材料。"
         ""
-        "The &aWaste Injector&r must be placed in the middle of the top face of the multiblock, and is where you'll import byproducts like &bCyanite&r Ingots."
+        "&a废料注入器&r必须放置在顶面中央，它就是你输入副产品（比如&b蓝晶&r）的地方。"
         ""
-        "On any vertical face, the &aFluid Injector&r is used to pump in fluids."
+        "在任何垂直面上，&a流体注入器&r用作泵入流体。"
     ]
     quest.7D7DAC8ABD1FEFF3.quest_desc:[
         "我根本无法理解为什么有生物能在这里&o生存&r 。"
@@ -3477,7 +3477,7 @@
         ""
         "也不知道为什么，树苗似乎对我蹲来蹲去的样子情有独钟。也许他们喜欢我的舞步？"
         ""
-        "&6&o&n当前任务&r：将树苗种植在泥土中并获得&2原木&r。"
+        "&6&o&n当前任务&r：将树苗种植在泥土中以获得&2原木&r。"
         ""
         "提示：在跳电臀舞的时候需要手持一把&a锄&r才能加速植物的生长。"
     ]
@@ -3596,7 +3596,7 @@
     quest.74406A4321ABC0D4.quest_desc:[
         "按照我一次打碎一颗圆石这蜗牛般的速度，我只能在这里独自度过余生了。"
         ""
-        "如果我进一步压缩圆石，我可以用&a锤子&r锤它的压缩版本来节省很多时间。"
+        "如果我进一步压缩圆石，就可以用&a锤子&r锤它的压缩版本以节省大量时间。"
         ""
         "&6&o&n当前任务&r：制作&3压缩圆石&r并用&a锤子&r将它一口气打碎成9块沙砾。"
     ]
@@ -3716,11 +3716,11 @@
     quest.063EB0858DAF0DBD.quest_desc:[
         "将泥土放入洗矿槽会获得一些惊人的收获。"
         ""
-        "除了一些常见的植物和种子，我还找到了些还未枯萎的&2草种&r。"
+        "除了一些常见的植物和种子，我还找到了些还未枯萎的&2草种子&r。"
         ""
-        "幸好这些种子看上去来自百慕大群岛，这里的高温可以让他们茂然生长！"
+        "幸好这些种子看上去像是百慕大群岛的，这里的高温可以让他们茂然生长！"
         ""
-        "&6&o&n当前任务&r：用洗矿槽洗涤泥土获得&2草种&r。"
+        "&6&o&n当前任务&r：用洗矿槽洗涤泥土以获得&2草种子&r。"
     ]
     quest.5D69890AB3384ABC.quest_desc:[
         "这颗星球&0黑暗&r深处不断传出呢喃声……我潜的越深听到的就越清晰。"
@@ -3814,7 +3814,7 @@
         ""
         "这段时间我得在心里自己记一张地图了。"
         ""
-        "&6&o&n当前任务&r：找到一些&a铜线&r并做一个&2黏液球&r以修复你的&a损坏的通讯链接器&r。这样就可以激活&6&l地图&r和&6&l小地图&r了。"
+        "&6&o&n当前任务&r：找到一些&a铜线&r，合成一个&2黏液球&r，然后用它们修复你的&a损坏的通讯链接器&r。这样就可以激活&6&l地图&r和&6&l小地图&r了。"
     ]
     quest.69241B20F504931E.quest_desc:[
         "&6金网&r让我过滤得到的材料更上一层楼！"
@@ -3868,13 +3868,13 @@
         ""
         "&6&o&n当前任务&r：搭建一个&6熔铸炉多方块结构&r并制作&3铸模&r。"
         ""
-        "关于熔铸炉更多知识 ->"
+        "关于熔铸炉的更多知识 ->"
         "{@pagebreak}"
-        "&aBig Book of Metallurgy&r有一个可视化工具帮你搭建多方块结构。"
+        "&aBig Book of Metallurgy&r有一个可视化工具帮你搭建多方块结构。（译注：目前该指南书还没有汉化）"
         ""
         "&a熔铸炉储罐&r需要填充熔岩来熔化&6控制器&r内的物品。"
         ""
-        "你想要流出的熔融金属需在控制器内选择，然后右击放置在&a铸件台&r或&a铸造盆&r上的熔铸炉浇注口。"
+        "在控制器内选择熔融金属，然后右击放置在&a铸件台&r或&a铸造盆&r上的熔铸炉浇注口即可使其流出。"
     ]
     quest.40352D7AADCFF6BA.quest_desc:[
         "如果我没有传说中的金刚臂……"
@@ -3888,40 +3888,40 @@
     quest.723152AC816F91A5.quest_desc:[
         "现在洗矿的大部分工序都可以自动化了，我现在要想个办法在机器和存储装置之间运输物品和流体。"
         ""
-        "&a镍&r似乎是做管道的好材料。"
+        "&a镍&r用来做管道好像不错。"
         ""
         "&6&o&n当前任务&r：为自动化系统制作物流和流体管道。"
         ""
-        "提示：&a管道扳手&r可以断开你不想要的管道连接，或者潜行使用来立即拆除管道。"
+        "提示：&a管道扳手&r可以断开你不想要的管道连接，潜行使用可以立即拆除管道。"
     ]
     quest.3710743E7B4F073D.quest_desc:[
-        "&6金&r是制作电子元件的好材料，也是某些神秘仪式必不可少的物品。"
+        "&6金&r是制作电子元件的好材料，也是某些仪式必不可少的物品。"
         ""
-        "制备一些应该可以为自然界的物品&2灌注&r一些神奇的魔力。"
+        "有了黄金后，我就能创造出一种新的方法来&2注入&r更神奇的材料。"
         ""
         "&6&o&n当前任务&r：使用&6金&r制作8个&a注魔基座&r和1个&2注魔祭坛&r。"
     ]
     quest.2BEABBCA1FB4A824.quest_desc:[
         "在我坠机到这颗星球以后我还没有见到过任何一只动物，想想这也并不奇怪，说句心里话……"
         ""
-        "我很想念我的小鸡。"
+        "我想我家的小鸡了。"
         ""
         "&2注魔&r祭坛的竣工让我可以制作一个神秘的物品，它可以开启传送门来生成一些家畜。"
         ""
-        "有点像外卖软件点单一个披萨，除了发货地是其他维度这件事以外。"
+        "除了发货地是其他维度以外，就像是点了个外卖。"
         ""
         "&6&o&n当前任务&r：使用&2注魔祭坛&r制作一颗&2Gate Pearl: Gateway of the Emerald Grove&r。"
         ""
         "使用它可以开启挑战传送门！"
         ""
-        "提示：怪物会在传送门&a8个方块内&r生成，水下亦可生成怪物。记得选个好地方！"
+        "提示：怪物会在传送门&a8格内&r生成，水下亦可生成怪物。记得选个好地方！"
     ]
     quest.28F2D895C980C8CF.quest_desc:[
-        "&a厨锅&r在不久的将来可以被用于烹饪一顿美味佳肴，但眼下，我们需要用它来制造粘合剂拼凑布料。"
+        "以后&a厨锅&r可以被用于烹饪一顿美味佳肴，但眼下，我们只需要把布料粘起来。"
         ""
-        "&e融化的糖&r的粘稠度应该就够用了。"
+        "&e融化的糖&r应该用起来不错。"
         ""
-        "&6&o&n当前任务&r：使用&a厨锅&r来熔化糖然后瓶装为&e蜂蜜瓶&r，然后用它来制作&2人造皮革&r。"
+        "&6&o&n当前任务&r：使用&a厨锅&r来使糖融化，装瓶为&e蜂蜜瓶&r，然后用它来制作&2人造皮革&r。"
     ]
     quest.7AE2748759261A0B.quest_desc:[
         "在这片海上的每一天，这些海带都长的越来越高。这肯定会有&l什么&r用，对吧？"
@@ -3940,9 +3940,9 @@
         "注意：下界&o真的真的&r很危险。 :)"
     ]
     quest.141F7BD2B1A4CC74.quest_desc:[
-        "你有采摘过&2海带&r么？在这里绝非易事！"
+        "你采过&2海带&r吗？在这可不容易！"
         ""
-        "在有了足够的海带以后，你可以制作一些简易潜水服使你在水下停留更长的时间。"
+        "在有了足够的海带以后，你可以制作一套简易潜水服使你在水下停留更长的时间。"
         ""
         "&6&o&n当前任务&r：制作&2潜水服&r。"
         ""
@@ -4280,7 +4280,7 @@
         ""
         "大多数玩家认为这个mod难以入门，因为其中包含了太多令人害怕的代码/编程要素。不过我们待会儿再讨论这个。"
         ""
-        "至于现在，继续探索吧，去找一片&b门勒格林&r，获取一个&a门瑞欧原木&r和&a门瑞欧树苗&r。"
+        "至于现在，继续探索吧，去找一片&b门勒格林&r，获取一些&a门瑞欧原木&r和&a门瑞欧树苗&r。"
         ""
         "&e论动态联合&r是一本非常有用的指导书，深入讲解了本mod的大量复杂机制。如果你卡住了，记得多看看书。"
     ]
@@ -4347,18 +4347,18 @@
         ""
         "&e接口&r能够将存储设备接入到网络之中，譬如箱子、电池、储罐、能量立方等等。"
         ""
-        "&eFiltered Interfaces&r also allow your network to access storage mediums but have several advanced configuration options and properties focused around filters."
+        "&e过滤接口&r也可以将存储在容器中的物品抽入网络，不过在此基础上它还提供了数个有关过滤功能的可配置项。"
         ""
-        "&eImporters and Exporters&r allow your network to send items in and out of your networks to other blocks for storage or processing."
+        "&e输入和输出接口&r则可以将物品抽入网络或从网络中输出，藉此进行存储或其它处理。"
         ""
-        "Storages connected with an interface will automatically have item imported into, and exported from if your network has a configured &aExporter&r."
+        "如果网络中有配置好的&a接口&r，那么物品会自动从容器中抽入或从网络中输出。"
         ""
-        "You may have noticed that some of these components have a different UI which can receive &aVariable Cards&r. This interface will be covered in a different chapter."
+        "也许你已经注意到了，这些组件中有些有可以放置&a变量卡&r的UI界面。此界面将在其他任务中介绍。"
     ]
     quest.60B37EEA5AD64C3D.quest_desc:[
-        "The &aStorage Terminal&r consolidates all items, fluids, and energy values from interfaces connected to your network into the same interface."
+        "通过使用&a存储终端&r，你可以在一个界面上管理网络中所有的物品、流体和能量。"
         ""
-        "The &aPortable Storage Terminal&r can be linked to an &aOmni-Directional Connector&r to access your storage network remotely."
+        "&a便携式存储终端&r可以连接到&a全向连接器&r上，如此你便可以远程查看存储网络。"
     ]
     quest.2DDC9D75FBFA1F3C.quest_desc:[
         "通过&a(便携式) 逻辑编程器&r，你可以为你的&a变量卡&r赋值。"
@@ -4382,7 +4382,7 @@
         "在&a逻辑编辑器&r中还有非常多的其他类型的&b变量&r，例如&eArithmetics（算数）&r和&2Operators（运算符）&r。但这些类型几乎都不会实际用到，因此任务书中也就不再多讲。"
     ]
     quest.1B2E6CA3642024B7.quest_desc:[
-        "The &aMaterializer&r is used to duplicate an existing &bVariable&r by creating a new copy of it."
+        "&a固值器&r可以用来创造已有&b变量&r的副本。"
     ]
     quest.69282BCC2FA04060.quest_desc:[
         "这个方块非常简单，但在&6I.D&r网络中起着非常重要的作用。你可以赋值好的变量卡放在其中，以便网络调用。"
@@ -4397,23 +4397,23 @@
         "你可以用你希望库存中保留的煤炭数为一张&b变量卡&r赋值。比如说32个煤炭。略去细节，值为32的&b煤炭变量&r就会存储在变量卡箱之中，系统会将其作为参考，只在你的存储系统中煤炭数量大于32时才会将煤炭输入熔炉。"
     ]
     quest.28E945E86D2A67F5.quest_desc:[
-        "&6Integrated Dynamics&r (&6I.D&r) is a mod that allows you to build networks for simple or complex automations and systems, allowing you to go beyond the friendly interfaces and get right down to the core of modded Minecraft."
+        "运用&6动态联合&r (&6I.D&r)可以为简单或复杂的自动化程序和系统搭建网络，让你跳过在机器页面中摆弄参数的过程，直指Minecraft的核心。"
         ""
-        "This mod has a certain reputation for being hard to get into, as it contains many elements of coding/programming which can be scary for most people. But we'll get into that later."
+        "大多数玩家认为这个mod难以入门，因为其中包含了太多令人害怕的代码/编程要素。不过我们待会儿再讨论这个。"
         ""
-        "For now, just explore until you find a &bMenril Tree&r and break it down for some &aLogs&r and &aSaplings&r."
+        "至于现在，继续探索吧，去找一片&b门勒格林&r，获取一些&a门瑞欧原木&r和&a门瑞欧树苗&r。"
         ""
-        "&eOn The Dynamics of Integration&r is a very helpful guidebook that goes in-depth into a lot of the more complex mechanics of the mod. If you're ever stuck, check it out!"
+        "&e论动态联合&r是一本非常有用的指导书，深入讲解了本mod的大量复杂机制。如果你卡住了，记得多看看书。"
     ]
     quest.327E27800EB44FCA.quest_desc:[
-        "&dCrystallized Chorus Chunks&r are a key resource for advanced network components, and can be acquired from &aPopped Chorus Fruit&r, which is made by smelting chorus fruits."
+        "&d紫颂果结晶碎片&r是制作高级网络组件的关键原料，你需要通过将紫颂果烧制成&a爆裂紫颂果&r再将其挤压的方式获得。"
         ""
-        "If you have not reached &6The End&r yet, you can also combine two ender pearls and two menril berries to create &aProto Chorus&r. &aMenril Berries&r drop from menril leaves."
+        "如果你还没能前往&6末地&r，你也可以用末影珍珠和门瑞欧浆果合成&a远古紫颂果&r。破坏门瑞欧树叶有概率掉落&a门瑞欧浆果&r"
         ""
-        "While &aProto Chorus&r does not guarantee a &dCrystallized Chorus Chunk&r like regular &aPopped Chorus Fruit&r, it does provide you with Liquid Chorus, which can be converted into &dCrystallized Chorus Blocks&r."
+        "&a远古紫颂果&r不能像&a爆裂紫颂果&r那样百分百产出&d紫颂果结晶碎片&r，但它所产出的紫颂果汁也可以转换成&d紫颂果结晶碎片&r。"
     ]
     quest.4A7198127F58DA94.quest_desc:[
-        "&aLogic Directors&r are used to craft advanced network components."
+        "&a逻辑导向零件&r用于制作高级网络组件，"
     ]
     quest.3D1796B4F460DBBF.quest_desc:[
         "&a全向连接器&r能够以无线的方式无视距离甚至跨纬度将两个网络连接起来，前提是两边的区块都在加载状态。"
@@ -4425,32 +4425,32 @@
         "&e注意&r：经常使用全向连接器会导致大量延迟，所以请尽可能的避免使用它们。"
     ]
     quest.504D9310A12FBB21.quest_desc:[
-        "&aWorld Interaction Components&r are useful when you need to break, place, or collect things from the world."
+        "你可以使用&a世界交互组件&r来破坏、放置方块，或者直接从世界中拾取物品。"
     ]
     quest.729DF05C1D2AE6E7.quest_desc:[
-        "&aReaders&r access a block's information by reading its data, and &aWriters&r output information to a block based on a variable."
+        "&a读取器&r可以通过读取数据的方式获取一个方块的信息。&a输出器&r则可以根据变量输出信息。"
         ""
-        "We'll be going over each individual &aReader&r and &aWriter&r component in their own quest as there's a lot to cover for each one."
+        "由于每个&a读取器&r和&a输出器&r都有许多要介绍的内容，因此我们会在单独介绍它们。"
         ""
-        "&eNote&r: The &aEntity&r, &aInventory&r, and &aMachine Writers&r require addons to function which are not installed in this pack. They are currently not useable."
+        "&e注意&r：&a实体&r、&a物品栏&r以及&a机器写入器&r需要其它mod才能生效，而本包中并未添加这些mod。因此它们并不可用。"
     ]
     quest.2C0332B3354D8A9C.quest_desc:[
-        "The player simulator is a very powerful tool that mimics a players action."
+        "玩家模拟器能够模拟玩家的行为，是一件非常有用的工具。"
         ""
-        "It allows you to set up clicking actions, like clicking buttons, swinging swords, or feeding farm animals."
+        "你可以利用玩家模拟器做出点击鼠标的动作，比如点击按钮、挥舞剑锋亦或者喂食农畜。"
     ]
     quest.5211DFF30B136433.quest_desc:[
-        "Before getting power and more &bMenril&r, you can easily automate this jumping process and spare your knees."
+        "不需要使用电力和其他&b门瑞欧结晶碎片&r，你也可以轻松自动化这个跳跃过程，解放你的膝盖。"
         ""
-        "Set up two armor stands above the &aSqueezer&r and a vanilla or modded redstone clock next to it."
+        "在 &a挤压机&r上放置两个盔甲架，并在侧面制作一个原版或mod中的红石钟。"
         ""
-        "Then, set up a way to automatically insert items into the &aSqueezer&r from any side, and extract items from under the &aBasin&r, hoppers should do just fine."
+        "然后用漏斗将门瑞欧原木自动输入&a挤压机&r，再将门瑞欧结晶块从&a烘干池&r下方用漏斗输出。"
         ""
-        "The next page has a picture showing you how to set it up."
+        "下一页展示了这套机器如何构建。"
         "{@pagebreak}"
         "{image:ftbevolution:textures/quests/integrated_dynamics/menril_automation_line/menril_automation.png width:200 height:250 align:center}"
         ""
-        "Break the two blocks so both the armor stands are above the &aSqueezer&r and enjoy."
+        "破坏这两个方块，让盔甲架都落到&a挤压机&r上方，然后开始享受。"
     ]
     quest.3DEA6BCF3DD509D9.quest_desc:[
         "&9部件强化：偏移&r可以使接口通过无线的方式连接到其他方块上。"
@@ -4458,47 +4458,47 @@
         "虽然在做自动化的时候也不是必须要使用这件物品，不过他确实能有效的减少线缆的使用，让网络设备看起来更简洁。"
     ]
     quest.7E44D3D23995717A.quest_desc:[
-        "So, you have this menril automation system. But why are we still using hoppers?"
+        "此刻，你已经拥有了这套门瑞欧结晶碎片自动化系统，为什么还在用漏斗呢？"
         ""
-        "Let's get this automation updated with &6I.D&r components."
+        "来试试用&6I.D&r中的组件为这套自动化系统升级吧。"
         ""
-        "[ \"If you are new to \", {\"text\": \"I.D\", \"color\": \"#FFAA00\"}, \", it is recommend to look at the \", { \"text\": \"Understanding Interfaces\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2331E407E82138AB\" } }, \" quest, and page 2 of the \", {\"text\": \"Logic Programmer\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DDC9D75FBFA1F3C\"}}, \" quest before moving forward as we will be covering some concepts explained in those quests.\"]"
+        "[ \"如果你是第一次玩\", {\"text\": \"I.D\", \"color\": \"#FFAA00\"}, \"，建议你先去看任务线中的\", { \"text\": \"看懂界面\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2331E407E82138AB\" } }, \" ，以及\", {\"text\": \"逻辑编程器\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2DDC9D75FBFA1F3C\"}}, \"的第二页，为了更好的使用动态联合中的设备和网络，我们会用到这些任务中所提到的知识。\"]"
         ""
-        "&eNote&r: &6I.D&r really shines when dealing with more complex systems. So, while it is still useable in this scenario, it is not the most efficient way to automate this specific menril automation setup."
+        "&e注意&r：&6I.D&r在处理复杂系统时表现的更为出色。因此以下列举的情境中，尽管也可以用&6I.D&r来自动化，但其实这并不是最好的选择。"
         "{@pagebreak}"
-        "It's important to mention that this is not the only way to automate this setup, nor is it the most space-efficient."
+        "有言在先，以下这套自动化流程并非唯一解，也不是最节省空间的方法。"
         ""
-        "This should serve as more of a guide to help you understand some basic &6I.D&r components and aspects."
+        "这个实例演示是作为指导用，帮助你了解&6I.D&r中一些基础的组件和内容。"
         ""
-        "For this basic system, you will need:"
+        "为了搭建这个简单的系统，你需要："
         ""
-        "- 5 &bVariable Cards&r and &aLogic Cables&r to build the networks,"
+        "- 5张&b变量卡&r和5条&a逻辑线缆&r，用于搭建网络。"
         ""
-        "- 3 &aItem Interfaces&r to connect your storages (this depends on how many storage mediums you are using),"
+        "- 3个&a物品接口&r，用于连接容器。（接口数量取决于你使用容器的数量）"
         ""
-        "- 2 &aEnergy Interfaces&r and &aItem Importers&r to power your &aSqueezer&r \&\ &aDrying Basin&r and pull items into your storage network,"
+        "- 两个&a能量接口&r，用于给&a挤压器&r和&a烘干池&r供电；两个&a物品输入口&r，用于将产物输入网络。"
         ""
-        "- 1 &aEnergy Importer&r and &aItem Exporter&r to pull power into your network and push items into the &aSqueezer&r."
+        "- 一个&a能量输入口&，用于将能量抽入网络；一个&a物品输出口&r，用于将原料输入&a挤压器&r"
         "{@pagebreak}"
-        "Firstly, replace all your hoppers with the &aInterfaces&r as shown below:"
+        "首先，用物品&a接口替换掉&r所有的漏斗，如下图所示。"
         ""
         "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_v1_step1.png width:150 height:150 align:center}"
         ""
-        "The &aItem Interfaces&r allow access to the relevant inventories, which can be replaced depending on what storage system you are using. You can always trade out the drawers for a chest, or any other storage system."
+        "&a物品接口&r用于传送物品，摆放的位置取决于你如何使用存储系统。当然你也可以把抽屉换成箱子，或者其他容器。"
         ""
-        "The &aItem Importers&r pull out the &bCrystallized Chunks/Blocks&r into your storage network."
+        "&a物品输入口&r用于将&b门瑞欧结晶碎片/块&r抽入存储系统。"
         ""
-        "The &aItem Exporter&r insert items from your storage network into the &aSqueezer&r."
+        "&a物品输出口&r用于将门瑞欧原木从存储系统中抽入&a挤压机&r。"
         "{@pagebreak}"
-        "Now just connect all your interfaces with cables."
+        "接下来用线缆将接口连接起来。"
         ""
         "{image:ftb:textures/quests/integrated_dynamics/menril_automation_line/menril_integrated_v1_step2.png width:150 height:150 align:center}"
         ""
-        "If you are connecting this to an existing storage network system, you can link this automation into it via Logic Cables, but you can also run this as an isolated system as shown in the image above."
+        "如果你想把这套自动化系统连接到已有的存储网络中，只需用逻辑线缆进行连接。当然你也可以像图片中一样单独设立整套自动化系统。"
         "{@pagebreak}"
-        "So how do we actually get items and energy moving within the system?"
+        "那么又该如何设置以让能量和物品在系统中流转起来呢？"
         ""
-        "This depends on whether you are running this as an isolated system, or as part of a bigger network."
+        "这取决于你是把这套系统单独设立，还是作为整体网络的一部分。"
         ""
         "If you are isolating this, then simply place a blank &aVariable Card&r in the first slot for all &aImporters&r and &aExporters&r so that the text box shows \"true\":"
         ""
@@ -5460,7 +5460,7 @@
         ""
         "随后，矿物碎块要进入&a粉碎机&r处理成&a污浊矿粉&r。"
         ""
-        "最后，污浊粉尘在&a富集仓&r中净化为矿粉，矿粉熔炼后便可成为矿物锭了。"
+        "最后，污浊矿粉在&a富集仓&r中净化为矿粉，矿粉熔炼后便可成为矿物锭了。"
     ]
     quest.562156281B8D0843.quest_desc:[
         "这台机器可以将某些流体（比如&b水&r）电解成两种不同的&a气体&r。"
@@ -5482,16 +5482,16 @@
     quest.24E7FEB8D24FAB4A.quest_desc:[
         "&a化学压射室&r可以将气体和方块相结合，产出新的物品。这个机器不仅可以拿来快速氧化铜块/复活死珊瑚块，还可以用于&a三阶矿物处理线&r。"
         ""
-        "如果你想升级你的矿物处理线，就直接把它放在二阶矿物处理线前面，并把粗矿都丢进去！"
+        "若是想要升级你的矿物处理线，只需要把它放在二阶矿物处理线的最前方，并把原矿放进去即可！"
         ""
         "你需要之前任务提到的&a氯化氢&r才能溶解矿物，也可以使用盐（但是消耗速度很快）。"
         ""
-        "设定好机器之后，就可以用它把一个原矿变为四个&a矿物碎片&r。产物应该投入提纯仓来进一步处理。"
+        "设定好机器之后，就可以用它把一个原矿变为四个&a矿物碎片&r了。产物应该投入提纯仓来进一步处理。"
     ]
     quest.53EEF2EC6314E8F2.quest_desc:[
         "你现在可以用&9富集钻石&r来强化你的合金，利用&a冶金灌注机&r给&c灌注合金&r注入钻石即可。"
         ""
-        "这是下一阶的合金，你需要用它做&9精英控制电路&r。"
+        "这是下一阶的合金，你需要用它制作&9精英控制电路&r。"
     ]
     quest.02F52598328E84A0.quest_desc:[
         "把&b强化合金&r和&c高级控制电路&r组装起来，就能做出&9精英控制电路&r。"
@@ -5503,7 +5503,7 @@
         ""
         "搭建这个多方块结构至少需要53个热力蒸馏方块，3个热力蒸馏阀门和1个热力蒸馏控制器。材料备齐了？那就翻到下1页吧！"
         "{@pagebreak}"
-        "&c热力蒸馏塔&r四格宽四格长，最低三格高，最高十八格高。除了第一层外其余层均为空心（你就当一个桶来搭建就行了），框架必须是热力蒸馏方块，控制器和阀门放在面上即可。"
+        "&c热力蒸馏塔&r4格宽4格长，最低3格高，最高18格高。除了第1层外其余层均为空心（想象一个桶！），框架必须是热力蒸馏方块，控制器和阀门放在面上即可。"
         ""
         "下图为搭建示例："
         ""
@@ -5565,9 +5565,9 @@
         ""
         "然后，矿物碎片进入提纯仓消耗氧气变为四个碎块。"
         ""
-        "之后，矿物碎片在粉碎机中变为污浊粉尘。"
+        "之后，矿物碎片在粉碎机中变为污浊矿粉。"
         ""
-        "而后，污浊粉尘在富集仓中变为矿物粉。"
+        "而后，污浊矿粉在富集仓中变为矿物粉。"
         ""
         "最后，矿物粉尘熔炼成锭。"
         ""
@@ -5620,9 +5620,9 @@
         ""
         "然后，矿物碎片在提纯仓中消耗氧气变为碎块。"
         ""
-        "之后，矿物碎片在粉碎机变为污浊粉尘。"
+        "之后，矿物碎片在粉碎机变为污浊矿粉。"
         "{@pagebreak}"
-        "而后，污浊粉尘在富集仓中变为矿物粉。"
+        "而后，污浊矿粉在富集仓中变为矿物粉。"
         ""
         "最后，矿物粉尘熔炼出锭。"
         ""
@@ -6010,17 +6010,17 @@
     quest.2E1CE18A917C637C.quest_desc:[
         "&c掘矿者巨灵&r只会采集矿物，不会采集普通的石头。"
         ""
-        "It is able to mine faster more efficiently than the &7Foliot&r. Because of it's speed, however, it damages its lamp faster."
+        "它能够比&7劳工魔精&r更快、更高效地开采。然而，由于它的速度，会更快地消耗它的神灯。"
     ]
     quest.60984D2D55BF2E24.quest_desc:[
         "&d淘金者火灵&r与&c掘矿者巨灵&r采集的矿石种类差不多，但是前者还会额外采集矿石的深层变种。"
         ""
-        "It is faster and more efficient, damaging its lamp even more slowly."
+        "它更快且高效，耐久度消耗更加缓慢"
     ]
     quest.264C4CE122513D7B.quest_desc:[
         "&6矿脉领主魔王&r是最强大的&b魔灵&r矿工。"
         ""
-        "It has the fastest mining speed and best lamp preservation. Unlike other miners, they can also mine rare ores like &dAncient Debris&r and &dIesnium Ore&r."
+        "它有着最快的挖掘速度和最少的耐久度耗损。不像其他矿工，魔王可以挖掘像&d远古残骸&r，&d艾瑟金属&r之类的稀有矿物。"
     ]
     quest.4CDCFE544B72E6C4.quest_desc:[
         "&5古老邪灵矿工&r能够一次采集一整个粗矿石块。"
@@ -6028,20 +6028,20 @@
         "将多个&6矿脉领主魔王&r压缩到一起，你就能得到这种极高效的矿工。"
     ]
     quest.38705F990589B2E8.quest_desc:[
-        "The &dIesnium Sacrificial Bowl&r is an upgrade to the standard &aGolden Sacrifical Bowl&r."
+        "&d艾瑟献祭之碗&r是&a黄金献祭之碗&r的升级。"
         ""
-        "Significantly increases &bRitual&r speed."
+        "大幅提升&b仪式&r速度。"
     ]
     quest.63516E977D8BC7C4.quest_desc:[
-        "The &5Eldritch Chalice&r is an upgraded version of the &dIesnium Sacrificial Bowl&r, which will instantly perform any ritual."
+        "&5邪灵圣杯&r是&艾瑟献祭之碗&r的升级版，可以立即执行任何仪式。"
         ""
-        "It's also really cool looking."
+        "它看起来也超级酷。"
     ]
     quest.1316B86CF011B016.quest_desc:[
-        "The &6Iesnium Anvil&r is a &6Marid&r infusion improving regular anvil functions"
+        "&6艾瑟金属砧&r是一种&6魔王&r灌注，可以改进普通铁砧的功能。"
         ""
-        "- It is &3Unbreakable&r."
-        "- It can exceed the maximum level of enchantments by 1."
+        "- 它是&3不可毁坏的&r。"
+        "- 它可以将附魔最高等级提高一级。"
         "- &6Marid&r will pay half of the showed level cost."
         "- The cost increase of working with the same item is reduced."
         "- The maximum cost limit is increased."
@@ -7604,18 +7604,18 @@
         "{@pagebreak}"
         "如果我能做出更强大的装备，强化我的套装，那我也许就能碰到它了。不过深潜进这么未知的地方很冒险，我潜入的越深，和地面的距离就越大……和安全也越远。"
         ""
-        "目前为止，我对&r下面的状况&r还是一无所知。"
+        "目前为止，我对下面的状况还是&o一无所知&r。"
     ]
     quest.7C209475626FF302.quest_desc:[
-        "好吧，真够魔幻的……"
+        "好吧，真是令人不安……"
         ""
-        "我找到了一个很大的结构，它很古老，而且很明显有股不祥的气息。"
+        "我找到了一栋建筑物；看起来巨大、古老，还隐约散发出一种不祥的气息。"
         ""
-        "外表参差不齐的石头，上面涂满了奇怪的符号……就好像时间试图把它抹去但失败了一样。要说这是自然生成的实在太精致，但要说这是随机的废墟的话又太刻意了。无论是谁建了这个结构，它一定很了解这片海洋，而且曾经在里面住过……也许吧。"
+        "外表参差不齐的石头，上面涂满了奇怪的符号……就好像时间试图把它抹去但终究未成。要说这是自然生成的实在太精致，但要说这是随机的废墟的话又太刻意了。无论是谁建了这个结构，它一定很了解这片海洋，而且曾经在里面住过……也许吧。"
         ""
         ""
         "{@pagebreak}"
-        "所以这个到底是啥？房子？要塞？豪华墓地？鬼知道。"
+        "所以这到底是什么？房屋？要塞？豪华墓地？毫无头绪。"
         ""
         "但是这些墙上刻着的字又是怎么回事？它们肯定是有意义的，可能是警告，又或者是一大串屁用没有的介绍什么的。"
         ""
@@ -7881,9 +7881,9 @@
         ""
         "&6金鸡蛋&r会将周围5x5范围内的泥土转化为&6祈福之土&r，这种泥土只会生成来自&d新生魔艺&r的被动生物。"
         ""
-        "To spawn mobs like cows or chickens, you will need to use a &2Gateway of The Emerald Grove&r."
+        "要生成类似于牛或鸡这样的生物，你需要使用&2Gateway of The Emerald Grove&r。"
         "{@pagebreak}"
-        "To create a fast hostile mob farm, you can create a &2Rotten Egg&r by feeding a chicken &dCursed Chicken Feed&r. This egg is used on a 5x5 of Dirt to convert it into &dDreadful Dirt&r."
+        "要搭建一个高效的敌对生物刷怪场，你可以给鸡喂食&d诅咒鸡饲料&r来获得一个&2腐烂鸡蛋&r。然后可以用这个鸡蛋把5x5范围内的泥土转化为&d诅咒之土&r。"
         ""
         "这种土会加快敌对生物的生成速度，而添加光源则可以关闭这一效果。"
     ]
