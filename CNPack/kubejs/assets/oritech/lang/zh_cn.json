@@ -507,7 +507,7 @@
     }
   ],
   "block.oritech.bio_generator_block": "生物质能发电机",
-  "block.oritech.lava_generator_block": "熔岩发电机",
+  "block.oritech.lava_generator_block": "岩浆锅炉",
   "block.oritech.steam_engine_block": "蒸汽机",
   "block.oritech.fuel_generator_block": "燃料发电机",
   "block.oritech.basic_generator_block": "基础发电机",
