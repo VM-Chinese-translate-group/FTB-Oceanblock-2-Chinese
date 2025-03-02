@@ -110,8 +110,10 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
         # 保存替换后的值
+        if "5407B3A9D7544F43" in key:
+            print(value)
         zh_cn_dict[key] = value
-
+        
     # 特殊处理：ftbquest 文件
     if "ftbquest" in path.name:
         zh_cn_dict = {
