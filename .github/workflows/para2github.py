@@ -46,7 +46,7 @@ def translate(file_id: int) -> Tuple[list[str], list[str]]:
         original = item.get("original", "")
         # 优先使用翻译内容，缺失时根据 stage 使用原文
         values.append(
-            original if not translation and item["stage"] in [0, -1, 2] else translation
+            original if item["stage"] in [0, -1, 2] or not translation else translation
         )
 
     return keys, values
@@ -110,8 +110,6 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
         # 保存替换后的值
-        if "5407B3A9D7544F43" in key:
-            print(key +":"+value)
         zh_cn_dict[key] = value
         
     # 特殊处理：ftbquest 文件
