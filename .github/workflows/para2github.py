@@ -109,7 +109,7 @@ def process_translation(file_id: int, path: Path) -> dict[str, str]:
         value = re.sub(r"&#92;", r"\\", value)
         value = re.sub(r"\\u00A0", "\u00A0", value)  # 替换 \\u00A0 为 \u00A0
         value = re.sub(r"\\n", "\n", value)  # 替换 \\n 为换行符
-        value = re.sub(r'\\\\"',"\"",value)
+        value = re.sub(r'\\"','\"',value)
         # 保存替换后的值
         zh_cn_dict[key] = value
         
