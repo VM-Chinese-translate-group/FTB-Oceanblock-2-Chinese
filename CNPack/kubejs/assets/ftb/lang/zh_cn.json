@@ -219,9 +219,9 @@
     "structure.ftb.overworld.underwater.ae2":"AE2陨石",
     "structure.ftb.overworld.underwater.dungeon":"水下地牢",
     "structure.ftb.overworld.underwater.farm_orb":"水下球形农场",
-    "structure.ftb.overworld.underwater.globe_blue":"水下蓝色地球",
-    "structure.ftb.overworld.underwater.globe_orange":"水下橙色地球",
-    "structure.ftb.overworld.underwater.globe":"水下地球",
+    "structure.ftb.overworld.underwater.globe_blue":"水下蓝色生态球",
+    "structure.ftb.overworld.underwater.globe_orange":"水下橙色生态球",
+    "structure.ftb.overworld.underwater.globe":"水下生态球",
     "structure.ftb.overworld.underwater.sculk":"水下幽匿",
     "structure.ftb.overworld.underwater.sea_shrine":"水下海洋神殿"
 }
