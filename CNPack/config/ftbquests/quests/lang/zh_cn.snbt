@@ -1018,8 +1018,8 @@
     quest.28493A960B770451.title:"&d三阶维度存储稳定器	"
     quest.349143B50076A759.title:"&6Tier 4 Dimensional Storage Stabilizer"
     quest.3AF598F0517B7BA6.title:"&aRemote Network Access"
-    quest.1F09A28387DA18A6.title:"&fNBT Tags \&\ Storage Logistics"
-    task.45CC5A8334951331.title:"I have read and agreed to the Terms and Conditions"
+    quest.1F09A28387DA18A6.title:"&fNBT标签与存储物流"
+    task.45CC5A8334951331.title:"我已阅读并同意以下条款"
     quest.1BC0E8258FBDBF56.title:"&cIhagan's Enthrallment Animals"
     task.4742ACCF0E820BD4.title:"&f召唤一个&a附身未约束具翼"
     task.57FEAD1653F0F2DD.title:"&f召唤一个&a村民"
@@ -1067,8 +1067,8 @@
     quest.3964E9A95D52B0FD.quest_subtitle:"召唤五芒星：级别5"
     quest.3964E9A95D52B0FD.title:"&dAbras' Fortified Conjure"
     quest.0D0892AD0DB44795.title:"&f魔灵同调宝石"
-    quest.50F2EDF92D289869.title:"&fOtherstone"
-    quest.10E3AB8F0B7B9F30.title:"&9Otherworld &fLog"
+    quest.50F2EDF92D289869.title:"&f异界石"
+    quest.10E3AB8F0B7B9F30.title:"&9异界&f原木"
     quest.42B887FC6D9FE211.quest_subtitle:"召唤五芒星：级别1"
     quest.42B887FC6D9FE211.title:"&fYour First Ritual"
     quest.73090FDB6ABAF9C3.title:"&dGuardian Familiar"
@@ -4608,11 +4608,11 @@
         ""
         "扳手有三种不同的模式："
         ""
-        "- &e默认&r：可以将相邻的逻辑线缆断开，或断开逻辑线缆与相邻的方块之间的连接。逻辑线缆只会与其他逻辑线缆或某些&6I.D&r中的方块相互连接。"
+        "- &e默认&r：可以将相邻的逻辑线缆断开，或断开逻辑线缆与相邻的方块之间的连接。逻辑线缆只会与其他逻辑线缆或某些&6I.D&r中的方块相互连接。"
         "{@pagebreak}"
-        "- &e保存偏移量&r：记录选定方块的坐标，并可以使指定接口自动识别偏移量。"
+        "- &e保存偏移量&r：记录选定方块的坐标，并可以使指定接口自动识别偏移量。"
         ""
-        "- &e保存偏移量和面&r：与上述保存偏移量的功能相同，但同时还会保存你选的方块时的面。当指定一些不同面有不同功能的方块时非常有用。"
+        "- &e保存偏移量和面&r：与上述保存偏移量的功能相同，但同时还会保存你选的方块时的面。当指定一些不同面有不同功能的方块时非常有用。"
         ""
         "[\"在使用\", {\"text\": \"部件强化：偏移\", \"color\": \"#5555FF\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3DEA6BCF3DD509D9\" } }, \"时，保存偏移量和面就会相当有用，因为它可以节省你计算和保持偏移量的时间\"]"
     ]
@@ -4655,7 +4655,7 @@
         "{@pagebreak}"
         "然后将这张赋值好的变量卡放到&a物品输出口&r界面中的&a输出指定物品&r右边的槽位里。"
         ""
-        "点击变量卡旁边的“”&a+&r“”按钮，你还可以设置传输煤炭的速率。"
+        "点击变量卡旁边的&a+&r按钮，你还可以设置传输煤炭的速率。"
     ]
     quest.496903AB7E8A0A92.quest_desc:[
         "使用&6Iron's Gems 'n Jewelry&r模组，玩家可以将材料与&b珠宝&r结合到一起合成饰品，这些饰品可以为玩家提供特殊效果或数值加成。"
@@ -6392,11 +6392,11 @@
         "Shift-click the &aDimensional Storage Actuator&r to link it, then place the &aStable Wormhole&r in the world to use as a remote access point."
     ]
     quest.1F09A28387DA18A6.quest_desc:[
-        "Items with unique properties (NBT Data), such as damaged or enchanted equipment will take up one item type for each variation."
+        "如果两样相同物品的耐久度、附魔等独特属性（也即NBT数据）不同，那么其在存储中会算作两个不同的种类。"
         ""
-        "For example, two wooden swords with two different damage values will take up two item types."
+        "比如，两把耐久不同木剑存入后就会视为两个种类。"
         ""
-        "Other mods can access the storage controller just like a shulker box, but some mods may struggle to read stack sizes."
+        "装有物品的维度存储促动器在你的物品栏中时，有些模组虽然能显示其内容物，但可能无法正确显示物品数量。"
         "{@pagebreak}"
         "&lLogistics:&r"
         "When inserting items, the &aStorage Actuator&r will maximize performance automatically, minimizing impact on game performance."
@@ -6501,25 +6501,25 @@
         "This &bRitual&r is only used to summon an &6Unbound Marid&r. Killing it will grant you its essence, allowing you to make &9Blue Chalk&r."
     ]
     quest.0D0892AD0DB44795.quest_desc:[
-        "&aSpirit Attuned Gems&r can be used in a variety of crafting recipes and &bRituals&r, but is most commonly used to make the &aDivination Rod&r and &dSpirit Attuned Crystals&r."
+        "&a魔灵同调宝石&r被广泛用于&b仪式&r的合成配方中，但最主要还是用于合成&a探测杖&r和&d魔灵同调水晶&r。"
         ""
-        "To acquire a &aSpirit Attuned Gems&r, simply toss a diamond into &aSpirit Fire&r."
+        "把钻石丢入&a灵火&r中即可得到&a魔灵同调宝石&r，"
         ""
-        "Note: &dSpirit Attuned Crystals&r are great to use in your Enchanting setups!"
+        "注：&d魔灵同调水晶&r在搭建附魔台时很有用！"
     ]
     quest.50F2EDF92D289869.quest_desc:[
-        "&aOtherstone&r can be acquired by tossing andesite into &aSpirit Fire&r."
+        "把安山岩丢入&a灵火&r即可得到&a异界石&r。"
         ""
-        "Smelting &aOtherstone&r will give you &aBurnt Otherstone&r - a key component used to craft the White Chalk."
+        "烧制&a异界石&r可以得到&a煅烧异界石&r，它是制作白色粉笔的关键材料。"
     ]
     quest.10E3AB8F0B7B9F30.quest_desc:[
-        "Throwing a regular &2oak sapling&r into &dSpirit Fire&r will convert it into an &aOak Sapling&r from the &9Otherworld&r."
+        "将&2橡树树苗&r丢入&d灵火&r即可将其转化为来自异界的&a橡树树苗&r。"
         ""
-        "When planted and grown, this tree will look like a regular sapling. Those under the effects of the &bThird Eye&r can see what it really is!"
+        "种下树苗，等它长大后，看起来不过是一棵普通的橡树。只有获得&b第三只眼&r效果后才能看到它的真实面貌！"
         ""
-        "Chopping this tree down while under the effects of the Third Eye should drop you &aOtherworld Logs&r, which can be used in crafting recipes or rituals."
+        "在第三只眼生效时砍倒这棵树能够获得&a异界原木&r，能够用于合成物品或进行仪式。"
         ""
-        "Throwing the logs into &dSpirit Fire&r will give you &aOtherworld Ashes&r - a key component used to craft &aWhite Chalk&r."
+        "把异界原木丢入&d灵火&r会得到&a异界灰烬&r，它是制作&a白色粉笔&r的关键材料。"
     ]
     quest.42B887FC6D9FE211.quest_desc:[
         "For our first &bRitual&r, we're going to summon a &7Foliot Crusher&r using the &bAviar's Circle Pentacle&r."
