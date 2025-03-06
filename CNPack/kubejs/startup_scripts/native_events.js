@@ -18,9 +18,11 @@ NativeEvents.onEvent(
     global.handleDimensionTeleport(event);
   }
 )
+
 NativeEvents.onEvent("net.neoforged.neoforge.event.level.BlockEvent$BlockToolModificationEvent", event => {
   global.handleToolModification(event);
 })
+
 const $CuriosApi = Java.loadClass("top.theillusivec4.curios.api.CuriosApi");
 
 global.handleDimensionTeleport = (event) => {
@@ -37,7 +39,7 @@ global.handleDimensionTeleport = (event) => {
       entity.getServer().runCommand(
         `/immersivemessages sendcustom ${entity
           .getDisplayName()
-          .getString()} {y:50,size:1.5,sound:2,shake:1,color:"#3a1466",wave:1} 4 ` + Text.translate("message.soul.lantern").getString()
+          .getString()} {y:50,size:1.5,sound:2,shake:1,color:"#3a1466",wave:1} 4 ` + "将灵魂灯笼系在腰间，即可穿梭世界！"
       );
       event.setCanceled(true);
     } catch (e) {

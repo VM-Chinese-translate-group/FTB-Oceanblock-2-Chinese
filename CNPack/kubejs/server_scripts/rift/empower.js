@@ -66,14 +66,16 @@ ActuallyAdditionsEvents.empower(event => {
 
 function chargePlayer(player, recipe){
     const {charge, max_charge} = recipe;
+
     let playerCharge =  player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
     if(playerCharge >= max_charge){
-        new ImmersiveMessage(player, Text.translate("message.rift.charge.max").getString()).send()
+        new ImmersiveMessage(player, "你的裂隙能量已达到上限！").send()
         global.showRiftCharge(player)
         return;
     }
+
     let actualCharge = playerCharge + charge > max_charge ? max_charge : playerCharge + charge;
     player.persistentData.putInt("rift_charge", actualCharge);
     global.showRiftCharge(player)
-
 }
+

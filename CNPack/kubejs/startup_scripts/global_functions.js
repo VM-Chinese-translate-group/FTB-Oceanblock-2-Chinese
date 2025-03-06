@@ -26,7 +26,10 @@ global.findPortalCenter = (player, teamId) => {
     console.log(`Finding portal center for team ${teamId} at ${spawnPos.x}, ${spawnPos.y}, ${spawnPos.z}`)
     global.forceChunkload(player, spawnPos, 2, true)
     let sPData = player.getServer().persistentData;
-    if(!sPData.portals[teamId].position){
+    if(!sPData.portals) sPData.portals = {}
+    if(!sPData.portals[teamId]) sPData.portals[teamId] = {}
+    
+    if(!sPData.portals[teamId]?.position){
         let portalBlock = Item.of("ftb:portal_holder").getBlock().defaultBlockState()
         let kuLevel = new Ku.Level(player.getLevel());
         const locations = kuLevel.findBlockWithinRadius(portalBlock, new BlockPos(spawnPos.x, spawnPos.y-270, spawnPos.z), 150, false);
@@ -94,7 +97,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
     player.getLevel().getEntities().forEach(entity => {
         console.log(entity.getType().toString())
         if(entity.getType().toString() == 'ftboceanmobs:rift_weaver' && entity.distanceToSqr(new $Vec3(x,y,z)) < 32*32){
-            new ImmersiveMessage(player,Text.translate("message.ftboceanmobs.rift_weaver_spawn").getString()).setColor("#AA00AA").send()
+            new ImmersiveMessage(player, "隙间织主已生成！").setColor("#AA00AA").send()
             player.addItemCooldown(item.id, 50)
             spawned = true
         }
@@ -111,7 +114,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
         // )
         new ImmersiveMessage(
             player,
-            Text.translate("message.rift.arena").getString()
+            "你离裂隙竞技场还不够近！"
         )
             .setColor("#AA00AA")
             .send();
@@ -178,6 +181,7 @@ global.getOtherTeamMembers = (player) => {
 global.setWaypoint = (player, name, pos, dimension) => {
     dimension = dimension ?? 'minecraft:overworld'
     let command = `execute as ${player.username} run ftbchunks waypoint add ${name} ${pos.x} ${pos.y} ${pos.z} ${dimension}`
+    // console.log(command)
     player.getServer().runCommandSilent(command)
 } 
 
@@ -214,7 +218,7 @@ global.isRiftPending = (team) => {
     return teams.includes(team.id.toString())
 }
 
-global.showRiftCharge = (player) => {
+const showRiftCharge = (player) => {
     let charge = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
     const maxTime = 900*20;
     const percentage = Math.max(0, Math.min(100, Math.floor((charge / maxTime) * 100)));
@@ -223,7 +227,7 @@ global.showRiftCharge = (player) => {
     const emptyLength = barLength - filledLength;
     const bar = "█".repeat(filledLength) + "░".repeat(emptyLength);
     try {
-      player.getServer().runCommandSilent(`/title ${player.username} actionbar {"translate":"message.rift.charge","with":["${bar}", "${percentage}"]}`);
+        player.sendSystemMessage({ translate: "message.rift.charge", with: [bar, percentage], color: "white" }, true)
     } catch (e) {}
   };
   

@@ -12,7 +12,7 @@ function setupCommand(e, ctx) {
   var disabledEvents = pData.disabledEvents;
 
   if (e.disableStage && !player.stages.has(e.disableStage)) {
-    source.sendSuccess(Text.translate("command.event.disable").getString().red(), false);
+    source.sendSuccess(Text.of(["You have not unlocked disabling this event yet!"]).red(), false);
     return 0;
   }
   if (disabledEvents) {
@@ -123,7 +123,7 @@ ServerEvents.commandRegistry((event) => {
               const time = Arguments.INTEGER.getResult(ctx, "time");
               const player = Arguments.PLAYER.getResult(ctx, "player");
               player.persistentData.putInt("rift_charge", time*20);
-              new ImmersiveMessage(player, Text.translate("command.rift.set_timer" , time).getString()).send();
+              new ImmersiveMessage(player, "裂隙计时器已设置为" + time + "秒！").send();
               return 1;
             })
           )
@@ -141,7 +141,7 @@ ServerEvents.commandRegistry((event) => {
               let timer = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 20 * 5;
               
               player.persistentData.putInt("rift_charge", Math.max(0, (timer + time * 20) > 24000 ? 24000 : timer + time));
-              new ImmersiveMessage(player, Text.translate("command.rift.add_timer", (time/20).toFixed(0)).getString()).send();
+              new ImmersiveMessage(player, "裂隙计时器已增加" + (time/20).toFixed(0) + "秒！").send();
               return 1;
             })
           )
@@ -154,7 +154,7 @@ ServerEvents.commandRegistry((event) => {
           .executes(function (ctx) {
             const player = Arguments.PLAYER.getResult(ctx, "player");
             player.persistentData.putInt("rift_charge", 0);
-            new ImmersiveMessage(player, "Rift Timer cleared!").send();
+            new ImmersiveMessage(player, "裂隙计时器已清空！").send();
             return 1;
           })
         )
@@ -483,12 +483,12 @@ ServerEvents.command(event => {
 
   // Always create PortalData for the player
   if(input.contains('ftbrifthelper send_to_rift')){
-    console.log(`Teleporting ${player.getDisplayName().getString()} to the rift`)
     global.createPortalData(player.getServer(), global.getTeam(player).id), player}
 
 
   switch(input){
     case 'back': return checkForSoulLantern(event, player);
+    case 'lobby':
     case 'spawn': return checkForDimensionToSpawn(event, player);
   }
 
@@ -510,19 +510,23 @@ function checkForSoulLantern(event, player) {
 
   let lantern = inv.get().isEquipped("minecraft:soul_lantern");
   if (lantern) return
-
-  new ImmersiveMessage(player, `{"translate":"message.soul.lantern"}`)
-  .setColor("#bc82ff")
-  .setWave(true)
-  .setDuration(4)
-  .send();
+  new ImmersiveMessage(player, "将灵魂灯笼系在腰间，即可穿梭世界！")
+    .setColor("#bc82ff")
+    .setWave(true)
+    .setDuration(4)
+    .send();
 
   event.cancel()
 }
 
 function checkForDimensionToSpawn(event, player){
   if(player.getLevel().getDimension().toString() == 'ftb:the_rift'){
-    new ImmersiveMessage(player, Text.translate("message.ftb.the_rift").getString()).setColor("#bc82ff").setWave(true).setDuration(4).send();
+    if(player.isCreative()) return;
+    new ImmersiveMessage(player, "裂隙的能量干扰了传送！")
+      .setColor("#bc82ff")
+      .setWave(true)
+      .setDuration(4)
+      .send();
     event.cancel()
     return;
   }

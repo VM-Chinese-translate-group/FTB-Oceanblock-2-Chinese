@@ -22,17 +22,17 @@ const airDropEvent = {
     let relative = { message: "", blocks: 0 };
     if (Math.abs(offset.z) > Math.abs(offset.x)) {
       relative.blocks = Math.abs(offset.z);
-      relative.message = offset.z > 0 ? Text.translate("warning.airdrop.incoming.south") : Text.translate("warning.airdrop.incoming.north");
+      relative.message = offset.z > 0 ? "南" : "北";
     } else {
       relative.blocks = Math.abs(offset.x);
-      relative.message = offset.x > 0 ? Text.translate("warning.airdrop.incoming.east") : Text.translate("warning.airdrop.incoming.west");
+      relative.message = offset.x > 0 ? "东" : "西";
     }
 
-    new ImmersiveMessage(player, Text.translate("message.airdrop.incoming").getString())
+    new ImmersiveMessage(player, `空投即将到达`)
       .setDuration(23)
       .send();
 
-    player.tell(Text.translate("warning.airdrop.incoming", relative.blocks , relative.message));
+    player.tell(Text.translate("warning.airdrop.incoming", [relative.message, relative.blocks]));
 
     let spawned = false;
 
@@ -117,7 +117,7 @@ const airDropEvent = {
         if (y < 190.5) {
           if (!spawned) {
             spawned = true;
-            new ImmersiveMessage(player, Text.translate("message.airdrop.landed").getString())
+            new ImmersiveMessage(player, `空投已着陆！`)
             .setDuration(5)
             .setColor("#ff0000")
             .send();
@@ -172,7 +172,7 @@ const airDropEvent = {
         }
 
         if (eventServer.getTickCount() - startTime >= 20*60*3) {
-          console.log("Airdrop did not land! Clearing anyway...");
+          //console.log("Airdrop did not land! Clearing anyway...");
           clearInterval(checkPositionInterval);
           entities.forEach((entity) => {
             if (entity && entity.falling) entity.falling.discard();
@@ -188,3 +188,4 @@ const airDropEvent = {
     }, 50);
   },
 };
+

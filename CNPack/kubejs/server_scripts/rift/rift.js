@@ -48,7 +48,7 @@ BlockEvents.broken(event => {
   if(breakableBlocks.includes(block.id.toString())) return;
 
 
-  player.tell(Text.translate("message.rift.blockBreak"));
+  player.tell(Text.translate("message.rift.blockBreak").darkPurple())
   event.cancel();
 })
 
@@ -57,7 +57,7 @@ ItemEvents.rightClicked(event => {
     return;
 
   if (riftItemBlacklist.includes(event.getItem().id)) {
-    event.player.tell(Text.translate(["message.rift.itemUse"]).darkPurple());
+    event.player.tell(Text.translate("message.rift.itemUse").darkPurple())
     event.cancel();
   }
 })
@@ -67,12 +67,12 @@ BlockEvents.rightClicked(event => {
     return;
   
   if (event.player.mainHandItem?.id == "mekanism:cardboard_box" || event.player.offHandItem?.id == "mekanism:cardboard_box") {
-    event.player.tell(Text.translate(["message.rift.cardboardUse"]).darkPurple())
+    event.player.tell(Text.translate("message.rift.cardboardUse").darkPurple())
     event.cancel();
   }
 
   if (event.getBlock().getEntity() != null && !riftContainerWhitelist.includes(event.getBlock().id.toString())) {
-    event.player.tell(Text.translate(["message.rift.itemUse"]).darkPurple());
+    event.player.tell(Text.translate("message.rift.itemUse").darkPurple())
     event.cancel();
   }
 })
@@ -106,7 +106,7 @@ PlayerEvents.tick((event) => {
   {
     dropRiftLoot(event.player)
     kickFromRift(event.player)
-    event.player.tell(Text.translate("message.rift.reject").darkPurple());
+    event.player.tell(Text.translate("message.rift.reject").darkPurple())
   }
   else {
     // rift countdown timer
@@ -115,7 +115,7 @@ PlayerEvents.tick((event) => {
     {
       if (timeLeft % (20 * 60) == 0) {
         var minutesLeft = (timeLeft / 20) / 60;
-        new ImmersiveMessage(event.player, `${minutesLeft} ${minutesLeft == 1 ? "Minute" : "Minutes" } Left in the Rift!`)
+        new ImmersiveMessage(event.player, `你还能在裂隙中停留${minutesLeft}分钟！`)
           .setColor("#AA00AA")
           .setDuration(5)
           .send()
@@ -123,10 +123,11 @@ PlayerEvents.tick((event) => {
     } else if (timeLeft > 20 * 10) {
       if (timeLeft % (20 * 15) == 0) {
 
-        new ImmersiveMessage(
-          event.player,
-          Text.translate("message.rift.timeLeft.1", timeLeft / 20).getString()
-        )
+        new ImmersiveMessage(event.player, `你还能在裂隙中停留${(timeLeft / 20)}秒！`)
+        .setColor("#AA00AA")
+        .setDuration(4)
+        .send()
+
           .setColor("#AA00AA")
           .setDuration(4)
           .send();
@@ -315,10 +316,7 @@ PlayerEvents.tick(event => {
   if (player.getAbilities().flying) {
     player.abilities.mayfly = false
     player.abilities.flying = false
-    new ImmersiveMessage(
-      player,
-      Text.translate("message.rift.flying.disable").getString()
-    )
+    new ImmersiveMessage(player, "禁止在裂隙中飞行！")
       .setColor("#AA0000")
       .setDuration(5)
       .send();
@@ -351,10 +349,10 @@ function handleOriTechJetpacks(chest, player){
   let using = chestItem.tryUseEnergy(chest, energyStorage, player)
   
   if(using){
-    new ImmersiveMessage(
-      player,
-      Text.translate("message.rift.jetpack").getString()
-    )
+    new ImmersiveMessage(player, "裂隙扰乱了你喷气背包中的能量！")
+    .setColor("#AA0000")
+    .send()
+
       .setColor("#AA0000")
       .send();
   }
@@ -368,10 +366,7 @@ function handleMekJetpacks(chest, player){
   }
   if(stored.getAmount() == 0) return;
   stored.setAmount(0);
-  new ImmersiveMessage(
-    player,
-    Text.translate("message.rift.jetpack").getString()
-  )
-    .setColor("#AA0000")
-    .send();
+  new ImmersiveMessage(player, "裂隙扰乱了你喷气背包中的能量！")
+  .setColor("#AA0000")
+  .send()
 }

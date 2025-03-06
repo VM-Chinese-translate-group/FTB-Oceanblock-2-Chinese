@@ -42,7 +42,9 @@
   "jukebox_song.ftb.abyssal_archives_log17": "Abyssal Archives - Log #017",
   "jukebox_song.ftb.abyssal_archives_log18": "Abyssal Archives - Log #018",
   "jukebox_song.ftb.abyssal_archives_thankyou": "Abyssal Archives - Thank You",
-  "tooltip.oritech.boiler":"Does not produce power, only useful to make steam",
+  "tooltip.oritech.boiler":"ⓘ Does not Produce Power, only useful to make Steam.",
+  "tooltip.relics.jellyfish_necklace": "⚠ Incompatible with the Hals Pirate Mod, Your Vessels will be Destroyed!",
+  "tooltip.sushigocrafting.nori_sheets": "ⓘ Can also be made by Pressing a Dried Kelp Block against an Iron Block with a Piston.",
   "item.ftb.abyssal_archives_log1": "Abyssal Archives - Log #001",
   "item.ftb.abyssal_archives_log2": "Abyssal Archives - Log #002",
   "item.ftb.abyssal_archives_log3": "Abyssal Archives - Log #003",
@@ -223,5 +225,6 @@
   "structure.ftb.overworld.underwater.globe_orange": "Underwater Globe Orange",
   "structure.ftb.overworld.underwater.globe": "Underwater Globe",
   "structure.ftb.overworld.underwater.sculk": "Underwater Sculk",
-  "structure.ftb.overworld.underwater.sea_shrine": "Underwater Sea Shrine"
+  "structure.ftb.overworld.underwater.sea_shrine": "Underwater Sea Shrine",
+  "tooltip.advancedae.adv_ex_pattern_provider": "ⓘ Use a Capacity Upgrade on a Advanced Provider to Obtain."
 }
