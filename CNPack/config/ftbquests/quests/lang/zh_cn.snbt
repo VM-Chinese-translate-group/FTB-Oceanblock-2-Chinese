@@ -1006,7 +1006,7 @@
     quest.504EEAA75990C78C.title:"{\"text\": \"青色粉笔\", \"color\": \"#3DADAD\"}"
     quest.4113BA0BADB486F0.title:"&f进一步了解&b仪式和五芒星"
     quest.4BCA3115FA95C81F.title:"&灵髓衰退"
-    task.3B91067C07169C66.title:"魔灵衰退"
+    task.3B91067C07169C66.title:"灵髓衰退"
     quest.782A8F5006E367E0.title:"&a仪式用品"
     task.67A22BBA4C91522B.title:"使用物品"
     quest.4DB0A34E6C46B0B8.title:"&b仪式献祭"
@@ -4736,7 +4736,7 @@
     quest.67B7F00BBE11FAC4.quest_desc:[
         "&b品质倍率加成&r：x0.75"
         ""
-        "&b效果&r：护甲值"
+        "&b效果&r：盔甲值"
     ]
     quest.1DFA884DAB026DCA.quest_desc:[
         "&b品质倍率加成&r：x0.75"
@@ -4818,7 +4818,7 @@
         "&b免疫效果&r：中毒"
     ]
     quest.0C9AF68E6C9CF4CA.quest_desc:[
-        "&b属性提升&r：护甲值"
+        "&b属性提升&r：盔甲值"
         ""
         "&b命中效果&r：对目标造成魔法伤害"
         ""
