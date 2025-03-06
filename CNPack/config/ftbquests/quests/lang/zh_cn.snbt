@@ -55,6 +55,7 @@
     quest.663460DE8AF7E464.title:"&a压印处理器"
     quest.10143533A2437ABE.title:"&a硅"
     quest.02F6AC9E53029E0A.title:"&a制造处理器&r"
+    task.27F8AF789DE14145.title:"Any Completed Processor"
     quest.45E7D62C229F898C.title:"&fME合成终端"
     quest.71024D8DC19834AC.title:"&d数字化存储&f的开端！"
     quest.083990CE5CA6E313.title:"元件工作台"
@@ -85,6 +86,7 @@
     quest.06EC32E6140E68C1.title:"&d量子&6自动合成"
     quest.46A1341E5E97ABDC.quest_subtitle:"帮你了解AE的频道机制"
     quest.46A1341E5E97ABDC.title:"&b线缆&f和&6频道"
+    task.101BA566216C32AD.title:"Fluix Cables"
     quest.450A1BAD728F594B.title:"&d无限距离无线访问"
     quest.69F87073390131D5.title:"制作&f样板&6"
     quest.355C3ACB16CC2DE9.title:"&f量子加速&d"
@@ -1005,7 +1007,7 @@
     quest.504EEAA75990C78C.quest_subtitle:"古代粉笔"
     quest.504EEAA75990C78C.title:"{\"text\": \"青色粉笔\", \"color\": \"#3DADAD\"}"
     quest.4113BA0BADB486F0.title:"&f进一步了解&b仪式和五芒星"
-    quest.4BCA3115FA95C81F.title:"&灵髓衰退"
+    quest.4BCA3115FA95C81F.title:"&e灵髓衰退"
     task.3B91067C07169C66.title:"灵髓衰退"
     quest.782A8F5006E367E0.title:"&a仪式用品"
     task.67A22BBA4C91522B.title:"使用物品"
@@ -1061,7 +1063,7 @@
     task.76A6B2D6E28D494F.title:"&f物品召唤"
     quest.4C9473D2E4149656.quest_subtitle:"最终五芒星"
     quest.4C9473D2E4149656.title:"&6罗纳扎之触"
-    quest.739F075AA8F4DA49.title:"@d还想更懒点？？？"
+    quest.739F075AA8F4DA49.title:"&d还想更懒点？？？"
     quest.0C24D8CD961D86B2.quest_subtitle:"召唤五芒星：级别3"
     quest.0C24D8CD961D86B2.title:"&c阿巴拉斯开环召唤术"
     quest.3964E9A95D52B0FD.quest_subtitle:"召唤五芒星：级别5"
@@ -1073,7 +1075,7 @@
     quest.42B887FC6D9FE211.title:"&f你的第一次仪式"
     quest.73090FDB6ABAF9C3.title:"&d守护者使魔"
     task.34C81AE26CFD0DE9.title:"&f召唤一个&a守护者使魔"
-    quest.6750DD01D865937D.title:"@5稳定维度存储促动器"
+    quest.6750DD01D865937D.title:"&5稳定维度存储促动器"
     quest.38E07A5510D2ACEC.title:"&a海德林的动物"
     task.2BB5021FC9A3E6EB.title:"&f召唤一个&a鹦鹉"
     task.1A3819027110CDC5.title:"&f召唤一个&a普通动物"
@@ -2262,7 +2264,7 @@
         ""
         "当机器内存有&b蚀刻酸&r后，放入在&bUV灯箱&r中暴露过的&aPCB板&r。"
         ""
-        "&c这个合成配方有几率失败！&r"
+        "This process has a chance to &cfail&r if not fully exposed inside the &bUV Light Box&r. This &cfailed PCB&r can be recycled in a blast furnace."
         "{@pagebreak}"
         "如果你想让蚀刻槽更快地工作，可以将其加热到50°C以上，但&2蚀刻酸&r会因为&c热量&r而缓慢挥发掉。"
         ""
@@ -2284,7 +2286,7 @@
         "&a装配IO单元&r控制配方的输入和输出。必须在面积为3x3的区域内拥有箱子和装配平台之类的空存储空间。"
     ]
     quest.0EC122E853F2083C.quest_desc:[
-        "&d高级压力管道&r可承受20&bBAR&r的危险压力，同时瞬时传输容积是压力管道的四倍。当处于25&bBAR&r气压时，管道会炸裂！"
+        "&dAdvanced Pressure Tubes&r can handle up to the danger zone of 20 &bBar&r and 4 times the volume. At 25 &bBar&r they will explode!"
         ""
         "在将管道连接到机器前，请确保机器可以承受增大的体积与压力，或者你可以选择用&b调节器&r替代管道进行连接。"
     ]
@@ -2345,13 +2347,13 @@
         "手持伪装涂覆器潜行+右击一个方块（如草方块或者钻石块），然后点击任意可伪装的方块以改变它的外观。"
     ]
     quest.670A52F1036507BB.quest_desc:[
-        "&b气压&r是绝大多数气动机器的能源，它的单位是&bBAR&r。"
+        "&bAir pressure&r, measured in &bBar&r, is what powers most &6PCNR&r machines."
         ""
-        "数值越大，气压就越高。空气会自发的从高气压向低气压运动，以尝试使整个系统气压平衡。 "
+        "The higher the &bBar&r, the higher the pressure. It moves from high-pressure areas to low-pressure areas and will try to equalize throughout the system."
         ""
         "如果机器或管道里的气压超过了承受能力，它就会&c爆炸&r！"
         "{@pagebreak}"
-        "&6气动工艺&r的机器和工具都有一个特定的容量（以&bML&r为单位），表示在0&bbar&r时可容纳多少空气。可以通过安装容积升级来增加容积。  "
+        "&6PNCR&r machines and tools all have a specific volume, measure in &bMl&r that represents how much air they hold at 0 &bBar&r. This can be increased with volume upgrades."
         ""
         "机器使用压缩空气以运行，在消耗压缩空气的过程中会不断降低系统中的压力。"
     ]
@@ -2405,7 +2407,7 @@
         "&a通量压缩机&r是一台可以将&cFE&r转换为&b压力&r的空气压缩机！"
     ]
     quest.1E39AB995B86D47A.quest_desc:[
-        "在&a压力管道&r中装一层钢，就可以将其升级为&2强化压力管道&r，使其能够承受高达10&bBAR&r的压力。如果它们承受了12&bBAR&r的压力，管道便会爆炸！"
+        "By applying a layer of Steel inside of the &aBasic Pressure Tubes&r, you're able to upgrade them to &2Reinforced Pressure Tubes&r, allowing them to handle up to 10 &bBar&r of pressure. If they exceed 12 &bBar&r they will explode!"
         ""
         "&c确保相应地让你的压力系统平衡。&r"
     ]
@@ -3558,6 +3560,10 @@
         "&a强化玻璃罐&r可以承受长时间的高温。我只需要一点点的&c熔岩&r……"
         ""
         "&6&o&n当前任务&r：收集足够多的&3圆石&r，然后用&a强化玻璃罐&r将它们变为&c熔岩&r。"
+        ""
+        "Note: If the Jar doesn't have storage next to it to output the fluid into, it will spit out a &aFluid Capsule&r instead."
+        ""
+        "Use this back onto the Jar or any fluid storage to place in the fluid, just like a bucket!"
     ]
     quest.13603BCBE047B3BC.quest_desc:[
         "我的手臂已经抬都抬不起来了。"
@@ -3727,6 +3733,8 @@
         "幸好这些种子看上去像是百慕大群岛的，这里的高温可以让他们茂然生长！"
         ""
         "&6&o&n当前任务&r：用洗矿槽洗涤泥土以获得&2草种子&r。"
+        ""
+        "Note: Growing &2Flowers&r"
     ]
     quest.5D69890AB3384ABC.quest_desc:[
         "这颗星球的&0黑暗&r深处不断传出低语……我潜的越深听到的就越清晰。"
@@ -3814,6 +3822,8 @@
         "&6&o&n当前任务&r：用&c红石&r制作一个&6罐自动化器&r。"
         ""
         "提示：当放在强化玻璃罐上方时，它会自动混合强化玻璃罐中的物品。"
+        ""
+        "If the Jar does not have storage next to it for the output, it will stop mixing."
     ]
     quest.0B86D627BA958D3C.quest_desc:[
         "我的GPS通讯链接器在事故中损毁了。希望我能找到一些材料修复它……"
@@ -4328,7 +4338,7 @@
         ""
         "点击变量卡旁边的&a+&r键可以打开配置调整界面，接口会按照所调整好的设置将物品从箱子中输入网络。"
         "{@pagebreak}"
-        "如果你想调快传输速率，只需更改&物品传输速率&r，&a最高速率&r为2147483647。"
+        "如果你想调快传输速率，只需更改&a物品传输速率&r，&a最高速率&r为2147483647。"
         ""
         "一秒传输42949672940个物品，有点OP，不是吗？"
     ]
@@ -4736,7 +4746,7 @@
     quest.67B7F00BBE11FAC4.quest_desc:[
         "&b品质倍率加成&r：x0.75"
         ""
-        "&b效果&r：盔甲值"
+        "&b效果&r：护甲值"
     ]
     quest.1DFA884DAB026DCA.quest_desc:[
         "&b品质倍率加成&r：x0.75"
@@ -4818,7 +4828,7 @@
         "&b免疫效果&r：中毒"
     ]
     quest.0C9AF68E6C9CF4CA.quest_desc:[
-        "&b属性提升&r：盔甲值"
+        "&b属性提升&r：护甲值"
         ""
         "&b命中效果&r：对目标造成魔法伤害"
         ""
@@ -6257,12 +6267,11 @@
         "点击复选标记来推进任务流程"
     ]
     quest.23B06AB674CC7193.quest_desc:[
-        "[\"升级\", {\"text\": \"斯特里格高等束缚\", \"color\": \"#FF5555\"}, \" 需要使用\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"和\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔，以及\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"。这将允许你将一位强大的\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 永久囚禁于一件物品中\"]
-"
+        "[\"升级\", {\"text\": \"斯特里格高等束缚\", \"color\": \"#FF5555\"}, \" 需要使用\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"和\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔，以及\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"。这将允许你将一位强大的\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 永久囚禁于一件物品中\"]"
         ""
         "某些&e绑定仪式&r不是必须的，但想要达到&6神秘学&r的终局，你可能会经常用到它们。"
         ""
-        "点击复选标记来推进任务流程"
+        "点击复选标记来推进任务流程。"
     ]
     quest.53B7A49C8138D3B0.quest_desc:[
         "[\"使用\", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"和\", {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \"粉笔，和\", {\"text\": \"魔灵同调水晶\", \"color\": \"#FF55FF\"}, \"，你现在就可以控制\", {\"text\": \"火灵\", \"color\": \"#FF55FF\"}, \" 附身僵尸猪灵了。它被杀死后会掉落\", {\"text\": \"恶魔之肉\", \"color\": \"#55FF55\"}, \" \"]"
@@ -6279,7 +6288,7 @@
         ""
         "没错，咱只需要把它关了"
         ""
-        "这个&b五芒星&r允许你安全的召唤&d火灵&并将其绑定，召唤更强大的&e使魔&r，以及完全控制天气"
+        "这个&b五芒星&r允许你安全的召唤&d火灵&r并将其绑定，召唤更强大的&e使魔&r，以及完全控制天气"
         ""
         "大多数使用&b五芒星&r的&b仪式&r都是可选择进行的。"
     ]
@@ -6313,7 +6322,7 @@
         ""
         "[\"为了制作\", {\"text\": \"品红色粉笔\", \"color\": \"#D17CC9\"}, \"，你需要\", {\"text\": \"龙裔粉\", \"color\": \"#FF55FF\"}, \".\"]"
         ""
-        "这只能通过使用&修菲斯倒转之塔&r获得"
+        "这只能通过使用&6修菲斯倒转之塔&r获得"
     ]
     quest.504EEAA75990C78C.quest_desc:[
         "为了得到&b青色粉笔&r，你需要一位&6魔王碎矿者&r来为你粉碎&d回响碎片&r"
@@ -6368,9 +6377,9 @@
         "&e魔灵矿工&r会随着时间而衰退，但是只需要使用简单的材料，一位&d火灵&r就可以修理一个&e矿工魔灵&r"
     ]
     quest.68A9006D2FE4A38D.quest_desc:[
-        "&a存储稳定器&r会增加&存储促动器&r的存储空间"
+        "&a存储稳定器&r会增加&a存储促动器&r的存储空间"
         ""
-        "更高等级的&存储稳定器&r提供更多的同类物品存储量和物品存储类别"
+        "更高等级的&a存储稳定器&r提供更多的同类物品存储量和物品存储类别"
         ""
         "&a存储稳定器&r需要被放置在五格范围内，面向&a维度水晶矩阵&r的纹理。查看&a魔灵全典&r了解如何摆放"
         ""
@@ -6390,7 +6399,7 @@
     quest.3AF598F0517B7BA6.quest_desc:[
         "&a稳定虫洞&r使得远程访问维度矩阵变得可能。"
         ""
-        "潜行右击&a维度存储促动器&r以连接它，然后把&稳定虫洞&r放置在世界中的任意地点作为远程访问点"
+        "潜行右击&a维度存储促动器&r以连接它，然后把&a稳定虫洞&r放置在世界中的任意地点作为远程访问点"
     ]
     quest.1F09A28387DA18A6.quest_desc:[
         "如果两样相同物品的耐久度、附魔等独特属性（也即NBT数据）不同，那么其在存储中会算作两个不同的种类。"
@@ -6558,7 +6567,7 @@
         ""
         "&a随机常见动物&r：鸡，牛，猪，羊，鱿鱼，狼的其中一种"
         ""
-        "&随机小型动物&r：悦灵，蝙蝠，蜜蜂，鹦鹉，猫，豹猫，狐狸，以及兔子中的一只"
+        "&a随机小型动物&r：悦灵，蝙蝠，蜜蜂，鹦鹉，猫，豹猫，狐狸，以及兔子中的一只"
         ""
         "- &a随机水生动物&r: 美西螈，青蛙，海豚，鳕鱼，鲑鱼，热带鱼，河豚，鱿鱼/发光鱿鱼，蝌蚪，海龟以及雪傀儡中的一只"
     ]
@@ -7361,7 +7370,7 @@
         "&6&o&n当前任务&r：游到你的逃生舱下面，然后顺着海底开始挖掘，直到找到&d裂隙传送门&r为止。"
     ]
     quest.654FDAF241F10870.quest_desc:[
-        "虽然我差点命葬于此，但我对如何激活神庙中的传送门有了更多的理解。"
+        "After finding the Portal structure, I have thought more about how to activate it in that temple."
         ""
         "我认为我的那块凝胶就是激活这条裂隙的关键物品。"
         ""
@@ -7457,7 +7466,7 @@
         ""
         "&6&o&n当前任务&r：制作一个&6裂隙缓冲水晶&r。"
         ""
-        "注意：合成这个水晶后，任何在线且不在&d裂隙&r内的队伍成员，都会收到基于物品等级的&6裂隙能量&r。"
+        "Note: When crafting the crystal, any online Team Member that's not currently in the &dRift&r will gain &6Rift Charge&r based on the item that is crafted."
         ""
         "&6裂隙缓冲水晶&r只能拿来合成下一阶的东西。"
     ]
@@ -7480,7 +7489,7 @@
         "注意：把它放在终极的&a充能台&r上后，每个水晶会增加你15分钟的裂隙能量，但是在这之后水晶会被摧毁。"
     ]
     quest.5685E88BCD17D066.quest_desc:[
-        "很有意思，看来有&d凝胶&r参与制造的盔甲和&d裂隙&r维度有很强的亲和力。"
+        "Interestingly enough, it seems the armor that the &dGoo&r helped create responds well to the &dRift&r dimension."
         ""
         "穿着这套盔甲似乎可以延长我在&d裂隙&r中的停留时间。"
         ""
@@ -7571,9 +7580,9 @@
         ""
         "{@pagebreak}"
         "前进总会有反馈的，就目前为止它在告诉我的是，我可以活下去了。"
-        "机器能有效加速我纯手工做的一切事情，更多资源，更好的工具……也许我还能做出控制深渊的机器。不过虽然我现在忙的停不下来，在我的脑海中还有一个问题挥之不去："
+        "机器能有效加速我纯手工做的一切事情。更多资源、更好的工具……也许我还能做出控制深渊的机器。不过虽然我现在忙的停不下来，在我的脑海中还有一个问题挥之不去："
         ""
-        "为 什 么 这 个 世 界 被 抛 弃 了 ？"
+        "为何这个世界被抛弃了？"
     ]
     quest.78E89B8AC431D36C.quest_desc:[
         "我总算取得了进展，我成功修复了我的通讯链接器……好吧，至少能用。"
@@ -7617,11 +7626,11 @@
         "是时候继续干活了。"
     ]
     quest.2CC60A9AD991255F.quest_desc:[
-        "我越往下走，这个世界越抗拒我深入。"
+        "我越往下潜，这个世界越抗拒我深入。"
         ""
         "光比普通的情况下衰减的更快，水也越发粘稠，就像在阻止我一样……我的潜水服在重压之下不堪一击，那刺骨的寒冷总能趁虚而入。"
         ""
-        "如果我穿着这套装备继续往下走，那我八成没法活着回来了。"
+        "如果我穿着当前这套装备继续往下潜，那我八成是没法活着回来了。"
         ""
         ""
         "{@pagebreak}"
@@ -7646,12 +7655,12 @@
         "它能让我的潜水服更紧致，这样我就可以潜得更深了。对生存有好处，对我的神经简直是地狱折磨。"
         ""
         "{@pagebreak}"
-        "低语声变得更大了，这到底是声音还是通讯器中的静电？"
+        "低语声逐渐清晰，这到底是低语还是通讯器中传来的静电干扰？"
         ""
         "难不成有什么深海梦魇生物要我给车上保险？完全摸不着头脑。"
         "海底近在咫尺。"
         ""
-        "真 的 很 近 。"
+        "真的很近 。"
         ""
         "现在我切实明白什么叫“无知即幸福”了。"
     ]
@@ -7662,7 +7671,7 @@
         ""
         "它在呼吸……它在把恐惧喷散到水中。要从中穿过来的是什么牛鬼蛇神？至少可以确定的是，绝对不是现世的东西。"
         ""
-        "这不是废墟，这是处&6门关&r，我对它的目的地有一种不祥的预感。"
+        "这不是废墟，这是一处&6门关&r，我对它的目的地有一种不祥的预感。"
         ""
         "算了，只能闯闯看了。"
     ]
@@ -7776,17 +7785,17 @@
         "还是说那个世界仅仅是一切祸乱的开端？"
     ]
     quest.2556FBE2470B6DC8.quest_desc:[
-        "“流浪的人啊，你在裂隙之中的旅途已经迎来尾声，不过一段故事的结尾只是另一端故事的开始。"
+        "“羁旅之人啊，你在裂隙之中的旅途已经迎来尾声。但每段故事的终章亦是另一段故事的序幕。"
         ""
         "我在此谨代表全体FTB制作团队感谢您的游玩，您的探索，以及面对未知毫不退缩的勇气。正是您的热情和好奇心支撑着我们制作更多世界，设计更多冒险，以及探索Minecraft整合包的极限。"
         ""
         "{@pagebreak}"
         ""
-        "我们希望这段故事能让您留下美好的回忆——充满发现、挑战和让您仔细思索的时光。你放下的每个方块，解开的每个谜题和每个挑战都是这个故事的一部分，而我们很荣幸能和您一起见证这段时光。"
+        "我们希望这段故事能让您留下美好的回忆——充满发现、挑战和让您仔细思索的时光。您放下的每个方块，解开的每个谜题和挑战都是这个故事的一部分，而我们很荣幸能和您一起见证这段时光。"
         ""
         ""
         "{@pagebreak}"
-        "故事结束了，但冒险还没有结束。新的世界在等着你，新的冒险逐渐揭开面纱，我们期待在下个整合包与您相见。在下次相会之前请保持您探索和合成的热情，以及不要忘记……裂 隙 并 没 有 真 正 关 闭 。"
+        "故事结束了，但冒险还没有结束。新的世界在等着你，新的冒险逐渐揭开面纱，我们期待在下个整合包与您相见。在下次相会之前请保持您探索和合成的热情，以及不要忘记……裂隙并没有真正关闭 。"
         ""
         "最后，感谢您的游玩。”"
     ]
