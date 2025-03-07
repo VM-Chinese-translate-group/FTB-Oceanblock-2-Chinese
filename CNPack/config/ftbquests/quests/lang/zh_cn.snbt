@@ -55,7 +55,7 @@
     quest.663460DE8AF7E464.title:"&a压印处理器"
     quest.10143533A2437ABE.title:"&a硅"
     quest.02F6AC9E53029E0A.title:"&a制造处理器&r"
-    task.27F8AF789DE14145.title:"Any Completed Processor"
+    task.27F8AF789DE14145.title:"任意处理器"
     quest.45E7D62C229F898C.title:"&fME合成终端"
     quest.71024D8DC19834AC.title:"&d数字化存储&f的开端！"
     quest.083990CE5CA6E313.title:"元件工作台"
@@ -86,7 +86,7 @@
     quest.06EC32E6140E68C1.title:"&d量子&6自动合成"
     quest.46A1341E5E97ABDC.quest_subtitle:"帮你了解AE的频道机制"
     quest.46A1341E5E97ABDC.title:"&b线缆&f和&6频道"
-    task.101BA566216C32AD.title:"Fluix Cables"
+    task.101BA566216C32AD.title:"福鲁伊克斯色线缆"
     quest.450A1BAD728F594B.title:"&d无限距离无线访问"
     quest.69F87073390131D5.title:"制作&f样板&6"
     quest.355C3ACB16CC2DE9.title:"&f量子加速&d"
@@ -2264,7 +2264,7 @@
         ""
         "当机器内存有&b蚀刻酸&r后，放入在&bUV灯箱&r中暴露过的&aPCB板&r。"
         ""
-        "This process has a chance to &cfail&r if not fully exposed inside the &bUV Light Box&r. This &cfailed PCB&r can be recycled in a blast furnace."
+        "&c这个合成配方有几率&c失败&r！如果未完全暴露在&bUV 灯箱&r内。这个&c失败的PCB板&r可以在高炉中回收。"
         "{@pagebreak}"
         "如果你想让蚀刻槽更快地工作，可以将其加热到50°C以上，但&2蚀刻酸&r会因为&c热量&r而缓慢挥发掉。"
         ""
@@ -2286,7 +2286,7 @@
         "&a装配IO单元&r控制配方的输入和输出。必须在面积为3x3的区域内拥有箱子和装配平台之类的空存储空间。"
     ]
     quest.0EC122E853F2083C.quest_desc:[
-        "&dAdvanced Pressure Tubes&r can handle up to the danger zone of 20 &bBar&r and 4 times the volume. At 25 &bBar&r they will explode!"
+        "&d高级压力管道&r可承受20&bBar&r的危险压力，同时瞬时传输容积是压力管道的四倍。当处于25&bBar&r气压时，管道会炸裂！"
         ""
         "在将管道连接到机器前，请确保机器可以承受增大的体积与压力，或者你可以选择用&b调节器&r替代管道进行连接。"
     ]
@@ -2347,13 +2347,13 @@
         "手持伪装涂覆器潜行+右击一个方块（如草方块或者钻石块），然后点击任意可伪装的方块以改变它的外观。"
     ]
     quest.670A52F1036507BB.quest_desc:[
-        "&bAir pressure&r, measured in &bBar&r, is what powers most &6PCNR&r machines."
+        "&b气压&r是绝大多数气动机器的能源，它的单位是&bBar&r。"
         ""
-        "The higher the &bBar&r, the higher the pressure. It moves from high-pressure areas to low-pressure areas and will try to equalize throughout the system."
+        "数值越大，气压就越高。空气会自发的从高气压向低气压运动，以尝试使整个系统气压平衡。 "
         ""
         "如果机器或管道里的气压超过了承受能力，它就会&c爆炸&r！"
         "{@pagebreak}"
-        "&6PNCR&r machines and tools all have a specific volume, measure in &bMl&r that represents how much air they hold at 0 &bBar&r. This can be increased with volume upgrades."
+        "&6气动工艺&r的机器和工具都有一个特定的容量（以&bML&r为单位），表示在0&bBar&r时可容纳多少空气。可以通过安装容积升级来增加容积。  "
         ""
         "机器使用压缩空气以运行，在消耗压缩空气的过程中会不断降低系统中的压力。"
     ]
@@ -2407,7 +2407,7 @@
         "&a通量压缩机&r是一台可以将&cFE&r转换为&b压力&r的空气压缩机！"
     ]
     quest.1E39AB995B86D47A.quest_desc:[
-        "By applying a layer of Steel inside of the &aBasic Pressure Tubes&r, you're able to upgrade them to &2Reinforced Pressure Tubes&r, allowing them to handle up to 10 &bBar&r of pressure. If they exceed 12 &bBar&r they will explode!"
+        "在&a压力管道&r中装一层钢，就可以将其升级为&2强化压力管道&r，使其能够承受高达10&bBar&r的压力。如果它们承受了12&bBar&r的压力，管道便会爆炸！"
         ""
         "&c确保相应地让你的压力系统平衡。&r"
     ]
@@ -3561,9 +3561,9 @@
         ""
         "&6&o&n当前任务&r：收集足够多的&3圆石&r，然后用&a强化玻璃罐&r将它们变为&c熔岩&r。"
         ""
-        "Note: If the Jar doesn't have storage next to it to output the fluid into, it will spit out a &aFluid Capsule&r instead."
+        "提示：如果罐子旁边没有用于输出流体的容器，它会吐出一个&a流体胶囊&r。"
         ""
-        "Use this back onto the Jar or any fluid storage to place in the fluid, just like a bucket!"
+        "它可以把液体放回罐子或任何液体储存器中，就像桶一样！"
     ]
     quest.13603BCBE047B3BC.quest_desc:[
         "我的手臂已经抬都抬不起来了。"
@@ -3734,7 +3734,7 @@
         ""
         "&6&o&n当前任务&r：用洗矿槽洗涤泥土以获得&2草种子&r。"
         ""
-        "Note: Growing &2Flowers&r"
+        "提示：种点&2花&r。"
     ]
     quest.5D69890AB3384ABC.quest_desc:[
         "这颗星球的&0黑暗&r深处不断传出低语……我潜的越深听到的就越清晰。"
@@ -3823,7 +3823,7 @@
         ""
         "提示：当放在强化玻璃罐上方时，它会自动混合强化玻璃罐中的物品。"
         ""
-        "If the Jar does not have storage next to it for the output, it will stop mixing."
+        "如果罐子周围没有用于输出的容器，它就会停止混合。"
     ]
     quest.0B86D627BA958D3C.quest_desc:[
         "我的GPS通讯链接器在事故中损毁了。希望我能找到一些材料修复它……"
@@ -7370,7 +7370,7 @@
         "&6&o&n当前任务&r：游到你的逃生舱下面，然后顺着海底开始挖掘，直到找到&d裂隙传送门&r为止。"
     ]
     quest.654FDAF241F10870.quest_desc:[
-        "After finding the Portal structure, I have thought more about how to activate it in that temple."
+        "在发现这座位于神庙中的传送门之后，我琢磨了一下激活它的方法。"
         ""
         "我认为我的那块凝胶就是激活这条裂隙的关键物品。"
         ""
@@ -7466,7 +7466,7 @@
         ""
         "&6&o&n当前任务&r：制作一个&6裂隙缓冲水晶&r。"
         ""
-        "Note: When crafting the crystal, any online Team Member that's not currently in the &dRift&r will gain &6Rift Charge&r based on the item that is crafted."
+        "注意：合成这个水晶后，任何在线且不在&d裂隙&r内的队伍成员，都会收到基于此物等级的&6裂隙能量&r。"
         ""
         "&6裂隙缓冲水晶&r只能拿来合成下一阶的东西。"
     ]
@@ -7489,7 +7489,7 @@
         "注意：把它放在终极的&a充能台&r上后，每个水晶会增加你15分钟的裂隙能量，但是在这之后水晶会被摧毁。"
     ]
     quest.5685E88BCD17D066.quest_desc:[
-        "Interestingly enough, it seems the armor that the &dGoo&r helped create responds well to the &dRift&r dimension."
+        "很有意思，看来有&d凝胶&r参与制造的盔甲和&d裂隙&r维度有很强的亲和力。"
         ""
         "穿着这套盔甲似乎可以延长我在&d裂隙&r中的停留时间。"
         ""
