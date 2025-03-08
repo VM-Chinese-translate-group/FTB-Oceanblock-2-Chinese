@@ -126,7 +126,7 @@
   "info_book.integratedterminals.storage_terminal.crafting.text1": "合成&l存储终端&r，首先你需要一种特殊的自发光的&o玻璃&r，也就是&l门瑞欧玻璃&r，就是你在&l烘干池&l里合成的那个&r",
   "info_book.integratedterminals.storage_terminal.crafting.text2": "以同样的方式，你可以合成&l紫颂玻璃&r，实体可以穿过它。",
   "info_book.integratedterminals.storage_terminal.usage": "用途",
-  "info_book.integratedterminals.storage_terminal.usage.text1": "&l存储终端&r中含有目前连接的网络中所有激活的&o存储网络&r的标签页，可根据需要用频道将它们分开。例如，如果你有一些连接至网络的&o能量单元&r，那么你会在能量标签页里看到所有能量的总和。如果安装了其他带有储存功能的模组，例如可存储&o物品&r和&o流体&r的&l联合管道&r，你也可以在存储终端中与它们交互。每个标签的底部都显示了总和与最大数量。在本书剩余的部分，我们将会谈到哪些&o东西&r是能够作为&原料&r被存储（如物品、流体和能量）。",
+  "info_book.integratedterminals.storage_terminal.usage.text1": "&l存储终端&r中含有目前连接的网络中所有激活的&o存储网络&r的标签页，可根据需要用频道将它们分开。例如，如果你有一些连接至网络的&o能量单元&r，那么你会在能量标签页里看到所有能量的总和。如果安装了其他带有储存功能的模组，例如可存储&o物品&r和&o流体&r的&l联合管道&r，你也可以在存储终端中与它们交互。每个标签的底部都显示了总和与最大数量。在本书剩余的部分，我们将会谈到哪些&o东西&r是能够作为&o原料&r被存储（如物品、流体和能量）。",
   "info_book.integratedterminals.storage_terminal.usage.text2": "除了查看原料，你也可以与它们交互。与任何物品栏相同，此举可以通过点击以捡起某物并再次点击以放下某物的方式来完成。如能量和流体的原料种类，则需要你在物品栏中点击一个容器物品，如电池或者储罐。除了点击，你也可以使用Shift点击以大批量移动。",
   "info_book.integratedterminals.storage_terminal.usage.text3": "选择存储网络原料后，你可以通过再次点击存储网络栏位以少量增加其数量。Shift点击将会大量增加其数量。用同样的方法，你也可以通过右击以减少其数量。对存储原料滚动鼠标滚轮也可以达到同样的效果。",
   "info_book.integratedterminals.storage_terminal.usage.text4": "选择存储网络原料后，你可以通过右击少量移动，左击以选择全部，以及点击中键以选择一半。",
@@ -155,12 +155,12 @@
   "info_book.integratedterminals.crafting_job_terminal.text4": "在这个GUI中，你能够看到每个任务的以下信息：剩余子任务、状态、持续时间、所有者、频道。你可以将鼠标悬停在每个子任务上，以获取有关其状态的更多信息。",
   "info_book.integratedterminals.section.tutorials": "终端教程",
   "info_book.integratedterminals.tutorials.introduction": "介绍",
-  "info_book.integratedterminals.tutorials.introduction.text1": "本节包含几个教程，可帮助你学习和了解&l联合终端&r，一个用于管理和总览&l动态联合&r网络的&l动态联合&附加。",
+  "info_book.integratedterminals.tutorials.introduction.text1": "本节包含几个教程，可帮助你学习和了解&l联合终端&r，一个用于管理和总览&l动态联合&r网络的&l动态联合&r附加。",
   "info_book.integratedterminals.tutorials.storage_terminal": "存储终端",
   "info_book.integratedterminals.tutorials.storage_terminal.text1": "&l存储终端&r可为你你显示所连接网络的存储内容并与其内容交互。不同的原料类型在不同的标签页中可用，且每个标签页都可以按频道、搜索和&l变量卡&r进行过滤。它们也可以通过不同的方式进行排序。有关更多详细信息，请参阅手册。",
   "info_book.integratedterminals.tutorials.storage_terminal.text2": "本教程很简单，合成&l门瑞欧玻璃&r和一个&l储存终端&r，将其连接到网络后打开其GUI。",
   "info_book.integratedterminals.tutorials.storage_terminal_filtering": "存储终端过滤",
   "info_book.integratedterminals.tutorials.storage_terminal_filtering.text1": "&l存储终端&r的许多有用特性之一是它能够通过原料进行&o过滤&r。在本教程中，我们将探索两种不同的过滤方法：基于文本的过滤和基于变量的过滤（只有第二种方法会使你获得成就）。本教程将使用由联合管道中的物品接口提供的基于物品的存储。",
   "info_book.integratedterminals.tutorials.storage_terminal_filtering.text2": "本教程的第一部分，我们将通过在搜索框中输入特定的字符串进行过滤。别忘了你可以使用快捷键以更快的选择搜索框。并且如果你安装了JEI，你可以用JEI的搜索框同步其内容。默认你将按原料名称搜索。添加&o'#'&r前缀，可以通过物品描述搜索。最后，&o'$'&r可以搜索物品标签。在搜索框输入&o'$plank @minecraft'&r来显示所有Minecraft添加的木板以完成教程的第一部分。",
-  "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3": "本教程的第二部分，我们将通过使用&l储存终端&r界面中右下角的&l变量卡&r栏位进行基于变量的过滤。你可以插入&l变量卡&r，其中包含了在&l动态联合逻辑编程器&r中配置的某个&l谓词&r，该&l谓词&r将原料类型作为输入，并将&9布尔型&0作为输出，用于指示是否显示给定的原料。本教程中，让我们尝试过滤所有&o可附魔&物品。为此，打开&l逻辑编程器&r，选择&l谓词&r类型，搜索&o“Enchantable”&R谓词，并将其写入&l变量卡&R中。在这之后，在选中物品标签页时，将你的&l变量卡&r插入&l存储终端&r中的其中一个&l变量卡&r栏位。"
+  "info_book.integratedterminals.tutorials.storage_terminal_filtering.text3": "本教程的第二部分，我们将通过使用&l储存终端&r界面中右下角的&l变量卡&r栏位进行基于变量的过滤。你可以插入&l变量卡&r，其中包含了在&l动态联合逻辑编程器&r中配置的某个&l谓词&r，该&l谓词&r将原料类型作为输入，并将&9布尔型&r作为输出，用于指示是否显示给定的原料。本教程中，让我们尝试过滤所有&o可附魔&r物品。为此，打开&l逻辑编程器&r，选择&l谓词&r类型，搜索&o“Enchantable”&r谓词，并将其写入&l变量卡&r中。在这之后，在选中物品标签页时，将你的&l变量卡&r插入&l存储终端&r中的其中一个&l变量卡&r栏位。"
 }
