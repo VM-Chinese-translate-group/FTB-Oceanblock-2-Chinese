@@ -6,5 +6,5 @@ FTBQuestsEvents.customReward("366CDD79C2D07926", event =>{
     console.log(team)
 
     let portalCenter = global.findPortalCenter(player, team.id)
-    global.setWaypoint(player, 'Rift-Portal', portalCenter)
+    global.setWaypoint(player, '裂隙传送门', portalCenter)
 })

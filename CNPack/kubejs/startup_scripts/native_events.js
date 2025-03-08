@@ -39,7 +39,7 @@ global.handleDimensionTeleport = (event) => {
       entity.getServer().runCommand(
         `/immersivemessages sendcustom ${entity
           .getDisplayName()
-          .getString()} {y:50,size:1.5,sound:2,shake:1,color:"#3a1466",wave:1} 4 ` + "Equip the soul lantern on your belt to pass between worlds!"
+          .getString()} {y:50,size:1.5,sound:2,shake:1,color:"#3a1466",wave:1} 4 ` + "将灵魂灯笼系在腰间，即可穿梭世界！"
       );
       event.setCanceled(true);
     } catch (e) {

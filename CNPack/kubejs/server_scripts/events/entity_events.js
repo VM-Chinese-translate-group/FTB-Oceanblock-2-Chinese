@@ -1,7 +1,7 @@
 EntityEvents.spawned("minecraft:eye_of_ender", (event) => {
     const { entity, server } = event;
     let dimension = entity.level.dimension;
-    entity.customName = Text.translate("entity.ender_eye.name").toJson();
+    entity.customName = {"translate":"entity.ender_eye.name"};
     server.scheduleInTicks(4 * 20, (_) => {
       const { x, y, z } = entity;
       entity.kill();

@@ -117,7 +117,7 @@ const airDropEvent = {
         if (y < 190.5) {
           if (!spawned) {
             spawned = true;
-            new ImmersiveMessage(player, `Airdrop Landed!`)
+            new ImmersiveMessage(player, `空投已着陆！`)
             .setDuration(5)
             .setColor("#ff0000")
             .send();

@@ -123,7 +123,7 @@ ServerEvents.commandRegistry((event) => {
               const time = Arguments.INTEGER.getResult(ctx, "time");
               const player = Arguments.PLAYER.getResult(ctx, "player");
               player.persistentData.putInt("rift_charge", time*20);
-              new ImmersiveMessage(player, "Rift Timer set to " + time + " seconds!").send();
+              new ImmersiveMessage(player, "裂隙计时器已设置为" + time + "秒！").send();
               return 1;
             })
           )
@@ -141,7 +141,7 @@ ServerEvents.commandRegistry((event) => {
               let timer = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 20 * 5;
               
               player.persistentData.putInt("rift_charge", Math.max(0, (timer + time * 20) > 24000 ? 24000 : timer + time));
-              new ImmersiveMessage(player, "Rift Timer increased by " + (time/20).toFixed(0) + " seconds!").send();
+              new ImmersiveMessage(player, "裂隙计时器已增加" + (time/20).toFixed(0) + "秒！").send();
               return 1;
             })
           )
@@ -154,7 +154,7 @@ ServerEvents.commandRegistry((event) => {
           .executes(function (ctx) {
             const player = Arguments.PLAYER.getResult(ctx, "player");
             player.persistentData.putInt("rift_charge", 0);
-            new ImmersiveMessage(player, "Rift Timer cleared!").send();
+            new ImmersiveMessage(player, "裂隙计时器已清空！").send();
             return 1;
           })
         )
@@ -510,7 +510,7 @@ function checkForSoulLantern(event, player) {
 
   let lantern = inv.get().isEquipped("minecraft:soul_lantern");
   if (lantern) return
-  new ImmersiveMessage(player, "Equip the soul lantern on your belt to pass between worlds!")
+  new ImmersiveMessage(player, "将灵魂灯笼系在腰间，即可穿梭世界！")
     .setColor("#bc82ff")
     .setWave(true)
     .setDuration(4)
@@ -522,7 +522,7 @@ function checkForSoulLantern(event, player) {
 function checkForDimensionToSpawn(event, player){
   if(player.getLevel().getDimension().toString() == 'ftb:the_rift'){
     if(player.isCreative()) return;
-    new ImmersiveMessage(player, "The Energies of the Rift are interfering with teleportation!")
+    new ImmersiveMessage(player, "裂隙的能量干扰了传送！")
       .setColor("#bc82ff")
       .setWave(true)
       .setDuration(4)

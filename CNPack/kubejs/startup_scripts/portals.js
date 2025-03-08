@@ -43,7 +43,7 @@ global.handleTeleport = (entity) => {
             try{
                 if(global.isRiftPending(team)){
                     console.log(`Rift is pending, cancelling teleport`)
-                    new ImmersiveMessage(entity, "The Rift is currently too unstable to enter").send();
+                    new ImmersiveMessage(entity, "裂隙尚未稳定，无法进入").send();
                     return;
                 }
                 else{

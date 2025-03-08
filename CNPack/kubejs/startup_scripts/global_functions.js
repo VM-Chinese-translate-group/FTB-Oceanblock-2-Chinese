@@ -97,7 +97,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
     player.getLevel().getEntities().forEach(entity => {
         console.log(entity.getType().toString())
         if(entity.getType().toString() == 'ftboceanmobs:rift_weaver' && entity.distanceToSqr(new $Vec3(x,y,z)) < 32*32){
-            new ImmersiveMessage(player, "Rift Weaver already spawned!").setColor("#AA00AA").send()
+            new ImmersiveMessage(player, "隙间织主已生成！").setColor("#AA00AA").send()
             player.addItemCooldown(item.id, 50)
             spawned = true
         }
@@ -114,7 +114,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
         // )
         new ImmersiveMessage(
             player,
-            "You are not close enough to the Rift Arena!"
+            "你离裂隙竞技场还不够近！"
         )
             .setColor("#AA00AA")
             .send();
