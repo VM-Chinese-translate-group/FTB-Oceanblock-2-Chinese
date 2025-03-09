@@ -1413,7 +1413,7 @@
         "把&a晶化油菜种子&r丢进&a精制菜籽油&r就可以将其变为&c晶化菜籽油&r，不过它还能再升级一次。"
     ]
     quest.1E95AD23243FEF87.quest_desc:[
-        "You can now produce the best fuel &6Actually Additions&r has to offer. Simply drop the &aEmpowered Canola Seed&r into &cCrystallized Oil&r and you have &dEmpowered Oil&r!"
+        "现在你就可以制造&6实用拓展&r模组中的最强燃料！只需动动手把&a充能油菜种子&r丢进&c晶化油&r里，然后&d充能油&r就会出现啦！"
     ]
     quest.47EAA97131FD2B76.quest_desc:[
         "&a生长指环&r在充能的时候，会自动催生玩家周围3格内的作物。"
@@ -3367,7 +3367,7 @@
         ""
         "这是特殊抽屉，可以把物品变为它的压缩形态！你可以用它轻松转化像是铁和金的形态！"
         ""
-        "With &aSimple Compacting Drawers&r, you can store items that only use a base and block recipe. This is great for items like ore chunks!"
+        "&a简易压缩抽屉&r可以处理只有原物品和方块物品配方的储存，比如存放各种矿块！"
     ]
     quest.093FB6A70B7243F9.quest_desc:[
         "建立自动化产线的时候，要想从抽屉中存入或取出物品会很麻烦，所以存储工具就派上用场了！"
@@ -5057,7 +5057,7 @@
         "自动收获的时候，作物掉落物只会存在2秒！请用&a物品收集器&r把它们捡起来吧。"
     ]
     quest.4D6C3ED87414B7D1.quest_desc:[
-        "The &aFerricore Bow&r is a nice upgrade for those going for a ranged build."
+        "想搭配一些远程武器的玩家可能会对&a核源铁弓&r感兴趣。"
         ""
         "该阶的弓只能安装一个升级：&a升级：药箭&r。它可以给你射出的箭附加药水效果。"
     ]
@@ -5242,7 +5242,7 @@
         "如果想要无线抽取物品的话，给路由器加装&a抽取模块2型&r就可以把物品抽取到路由器中。"
     ]
     quest.1F2E5FBD59466D57.quest_desc:[
-        "The &aFluid Module&r allows the water to handle fluids, as long as the router has some kind of storage item in the buffer like a &aBucket&r or a &aTank&r."
+        "&a流体模块&r可以将周边的流体当水处理，前提是路由器中必须有流体类储存容器，比如&a桶&r，或者&a储罐&r。"
         ""
         "装有&a流体模块1型&r的路由器可以和临近方块交互，请在模块UI中进行配置。"
         ""
