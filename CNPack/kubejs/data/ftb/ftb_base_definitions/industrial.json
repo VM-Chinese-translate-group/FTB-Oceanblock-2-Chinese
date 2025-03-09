@@ -1,0 +1,18 @@
+{
+  "id": "ftb:industrial",
+  "display": {
+    "description": "尽力存活",
+    "preview_image": "ftb:textures/bases/industrial.png",
+    "author": "FTB Team"
+  },
+  "construction": {
+    "structure_location": "ftb:bases/industrial",
+    "y_pos": 187,
+    "include_entities": true
+  },
+  "spawn_offset": [0, 0, 0],
+  "dimension": {
+    "private": false,
+    "dimension_id": "minecraft:overworld"
+  }
+}
