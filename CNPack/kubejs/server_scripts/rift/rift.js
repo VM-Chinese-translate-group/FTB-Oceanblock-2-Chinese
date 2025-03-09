@@ -127,11 +127,6 @@ PlayerEvents.tick((event) => {
         .setColor("#AA00AA")
         .setDuration(4)
         .send()
-
-          .setColor("#AA00AA")
-          .setDuration(4)
-          .send();
-
       }
     } else {
       if (timeLeft > 0 && timeLeft % 20 == 0) {

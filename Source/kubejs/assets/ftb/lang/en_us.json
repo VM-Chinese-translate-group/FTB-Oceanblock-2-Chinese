@@ -156,6 +156,7 @@
   "tooltip.brickfurnace.brick_blast_furnace": "ⓘ 2x Faster than a Vanilla Blast Furnace!",
   "tooltip.brickfurnace.brick_furnace": "ⓘ 2x Faster than a Vanilla Furnace!",
   "tooltip.cobblestone_generator.persec.cobble": "Cobble / Sec",
+  "tooltip.basalt_generator.persec.basalt": " Basalt / Sec",
   "tooltip.ftb_rift_charge.2": "Only charges your Rift Time.",
   "tooltip.ftb.abyssal_fragment": "ⓘ Drops from the majority of Rift Mobs.",
   "tooltip.ftb.rift_charge.1": "Does not drop as an item.",
@@ -206,6 +207,6 @@
   "warning.airdrop.incoming.west": "West",
   "warning.airdrop.incoming": "Airdrop Incoming:：%2$s Blocks %1$s",
   "block.ftbstuff.oak_sluice": "Wooden Sluice",
-  "tooltip.advancedae.adv_ex_pattern_provider": "ⓘ Use a Capacity Upgrade on a Advanced Provider to Obtain."
-  
+  "tooltip.advancedae.adv_ex_pattern_provider": "ⓘ Use a Capacity Upgrade on a Advanced Provider to Obtain.",
+  "tooltip.depth_protection": "Wearing full suit provides crush protection." 
 }

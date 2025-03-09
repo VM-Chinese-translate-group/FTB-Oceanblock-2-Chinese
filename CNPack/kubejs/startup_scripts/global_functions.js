@@ -218,7 +218,7 @@ global.isRiftPending = (team) => {
     return teams.includes(team.id.toString())
 }
 
-const showRiftCharge = (player) => {
+global.showRiftCharge = (player) => {
     let charge = player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
     const maxTime = 900*20;
     const percentage = Math.max(0, Math.min(100, Math.floor((charge / maxTime) * 100)));
