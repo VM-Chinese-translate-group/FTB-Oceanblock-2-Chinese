@@ -155,6 +155,7 @@
     "tooltip.brickfurnace.brick_blast_furnace":"ⓘ 比原版高炉快2倍！",
     "tooltip.brickfurnace.brick_furnace":"ⓘ 比原版熔炉快2倍！",
     "tooltip.cobblestone_generator.persec.cobble":"圆石/秒",
+    "tooltip.basalt_generator.persec.basalt":" Basalt / Sec",
     "tooltip.ftb_rift_charge.2":"仅增加你在裂隙中停留的时间。",
     "tooltip.ftb.abyssal_fragment":"ⓘ 大多数裂隙生物的掉落物",
     "tooltip.ftb.rift_charge.1":"不会作为物品掉落。",
@@ -205,5 +206,6 @@
     "warning.airdrop.incoming.west":"西",
     "warning.airdrop.incoming":"空投即将到达：%1$s方%2$s格",
     "block.ftbstuff.oak_sluice":"木洗矿槽",
-    "tooltip.advancedae.adv_ex_pattern_provider":"ⓘ 在高级供应器上使用容量升级以获得。"
+    "tooltip.advancedae.adv_ex_pattern_provider":"ⓘ 在高级供应器上使用容量升级以获得。",
+    "tooltip.depth_protection":"Wearing full suit provides crush protection."
 }
