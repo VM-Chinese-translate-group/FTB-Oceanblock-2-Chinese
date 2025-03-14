@@ -208,5 +208,32 @@
   "warning.airdrop.incoming": "Airdrop Incoming:：%2$s Blocks %1$s",
   "block.ftbstuff.oak_sluice": "Wooden Sluice",
   "tooltip.advancedae.adv_ex_pattern_provider": "ⓘ Use a Capacity Upgrade on a Advanced Provider to Obtain.",
-  "tooltip.depth_protection": "Wearing full suit provides crush protection." 
+  "tooltip.depth_protection": "Wearing full suit provides crush protection.",
+  "feedback_message.ftb.saereth": "Omae Wa Mou Shindeiru",
+  "feedback_message.ftb.alfredgg": "I've Got A Quest For You",
+  "feedback_message.ftb.tazz": "Aw look, how cute!",
+  "feedback_message.ftb.dinnerbeef": "Zoom Zoom!",
+  "feedback_message.ftb.sunekaer": "Must...Smash...Mikey",
+
+  "image.ftb.discord": "Join The Discord!",
+  "image.ftb.bug": "Report A Bug!",
+
+  "item.ftb.barrel_smasher.tooltip": "Only Breaks Barrels / Crates",
+  "item.ftb.extremely_sharp_cactus": "Extremely Sharp Cactus",
+  "item.ftb.swimming_slippers": "Swimming Slippers",
+  "item.ftb.the_ice_breaker": "The Ice Breaker",
+  "item.ftb.useless_machine_1": "Paradox Machine",
+  "item.ftb.useless_machine_2": " Useless Machine",
+  "item.ftb.useless_machine_tooltip": "At least untill you get time crystals",
+  "item.ftb.stacked_netherite":"Netherite Scrappy Alloy",
+  "loot_crate.ftb.adventurer_bundle": "Adventurer Box",
+  "loot_crate.ftb.ae2_supplies": "Box of AE2 Supplies",
+  "loot_crate.ftb.bag_of_random_seeds": "Box of Random Seeds",
+  "loot_crate.ftb.bounty_of_the_sea": "Bounty of the Sea",
+  "loot_crate.ftb.chaos_bundle": "Chaos Box",
+  "loot_crate.ftb.common_reward": "Basic Reward",
+  "loot_crate.ftb.essence_goodie_bag": "Box of Essence",
+  "loot_crate.ftb.mekanism_goodie_bag": "Box of Mekanism Parts",
+  "loot_crate.ftb.random_relic_chest": "Random Relic Crate",
+  "tooltip.mobgrindingutils.iron_spikes": "Basic Spikes - WILL NOT DROP MOB's XP."
 }
