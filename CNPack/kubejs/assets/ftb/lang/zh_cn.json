@@ -218,9 +218,9 @@
     "item.ftb.barrel_smasher.tooltip":"仅能破坏木桶或板条箱",
     "item.ftb.extremely_sharp_cactus":"极其锋利的仙人掌",
     "item.ftb.swimming_slippers":"游泳拖鞋",
-    "item.ftb.the_ice_breaker":"破冰者",
+    "item.ftb.the_ice_breaker":"破冰镐",
     "item.ftb.useless_machine_1":"悖论机器",
-    "item.ftb.useless_machine_2":"无用机器",
+    "item.ftb.useless_machine_2":" 无用机器",
     "item.ftb.useless_machine_tooltip":"至少在你获得时间水晶之前",
     "item.ftb.stacked_netherite":"下界合金碎片合金",
     "loot_crate.ftb.adventurer_bundle":"冒险者奖励箱",
@@ -232,5 +232,6 @@
     "loot_crate.ftb.essence_goodie_bag":"精华奖励箱",
     "loot_crate.ftb.mekanism_goodie_bag":"通用机械零件奖励箱",
     "loot_crate.ftb.random_relic_chest":"随机遗物板条箱",
-    "tooltip.mobgrindingutils.iron_spikes":"基础钉刺 - 不会掉落生物的经验。"
+    "tooltip.mobgrindingutils.iron_spikes":"基础钉刺 - 不会掉落生物的经验。",
+    "crop.mysticalcustomization.entro_crystal":"恩特罗水晶"
 }
