@@ -235,5 +235,6 @@
   "loot_crate.ftb.essence_goodie_bag": "Box of Essence",
   "loot_crate.ftb.mekanism_goodie_bag": "Box of Mekanism Parts",
   "loot_crate.ftb.random_relic_chest": "Random Relic Crate",
-  "tooltip.mobgrindingutils.iron_spikes": "Basic Spikes - WILL NOT DROP MOB's XP."
+  "tooltip.mobgrindingutils.iron_spikes": "Basic Spikes - WILL NOT DROP MOB's XP.",
+  "crop.mysticalcustomization.entro_crystal": "Entro Crystal"
 }
