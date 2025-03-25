@@ -623,7 +623,7 @@
     "general.integrateddynamics.description":"全面自动化控制你的设备。",
     "general.integrateddynamics.energy":"能量",
     "general.integrateddynamics.energy_unit":"RF",
-    "general.integrateddynamics.error.no_network":"没有有效的网络",
+    "general.integrateddynamics.error.no_network":"找不到有效网络",
     "general.integrateddynamics.false":"False（假）",
     "general.integrateddynamics.info.none":"无",
     "general.integrateddynamics.true":"True（真）",
