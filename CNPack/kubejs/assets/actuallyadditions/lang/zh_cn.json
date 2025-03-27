@@ -668,7 +668,7 @@
     "booklet.actuallyadditions.configButton":"打开配置页面",
     "booklet.actuallyadditions.configButton.desc":"按下这个以在游戏中配置%s。\n某些更改需要重新启动游戏才会生效！",
     "booklet.actuallyadditions.achievementButton":"Open Achievements",
-    "booklet.actuallyadditions.achievementButton.desc":"点击这个打开%s进度界面",
+    "booklet.actuallyadditions.achievementButton.desc":"点击这个打开%s成就界面",
     "booklet.actuallyadditions.trialFinishButton.completed":"完成",
     "booklet.actuallyadditions.trialFinishButton.uncompleted":"未完成",
     "booklet.actuallyadditions.trialsButton":"挑战",
