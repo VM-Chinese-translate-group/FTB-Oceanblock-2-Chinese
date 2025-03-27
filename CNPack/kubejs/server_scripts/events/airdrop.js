@@ -58,7 +58,7 @@ const airDropEvent = {
     //Cleanup old airdrops
     
     level.getEntities().forEach((entity) => {
-      if(entity.getType().toString() == 'minecraft:block_display' && entity.tickCount > 20*60*2){
+      if(entity.getType().toString() == 'minecraft:block_display' && entity.tickCount > 20*60*0.5){
         entity.discard();
       }
     })

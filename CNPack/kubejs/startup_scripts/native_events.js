@@ -52,7 +52,7 @@ global.handleAngler = (event) => {
   try {
     if (!(entity.getType() == "cataclysm:deepling_angler" || entity.getType() == "cataclysm:lionfish")) return;
 
-    let range = 5;
+    let range = 15;
     let aabb = AABB.of(
       entity.x - range,
       entity.y - range,

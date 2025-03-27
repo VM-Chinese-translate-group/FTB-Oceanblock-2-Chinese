@@ -214,10 +214,12 @@
   "feedback_message.ftb.tazz": "Aw look, how cute!",
   "feedback_message.ftb.dinnerbeef": "Zoom Zoom!",
   "feedback_message.ftb.sunekaer": "Must...Smash...Mikey",
-
+  "message.ftb.the_rift.blocked_screen": "The Rift is disrupting you from opening this!",
   "image.ftb.discord": "Join The Discord!",
   "image.ftb.bug": "Report A Bug!",
-
+  "tooltip.functionalstorage.water_generator_upgrade": "ⓘ Can be obtained in Airdrops.",
+  "tooltip.oritech.fluid_pipe": "⚠ WARNING: Do not Connect with a Immersive Engineering's Fluid Pipe, you will Crash your Game.",
+  "tooltip.immersiveengineering.fluid_pipe": "⚠ WARNING: Do not Connect with a Oritech's Fluid Pipe, you will Crash your Game.",
   "item.ftb.barrel_smasher.tooltip": "Only Breaks Barrels / Crates",
   "item.ftb.extremely_sharp_cactus": "Extremely Sharp Cactus",
   "item.ftb.swimming_slippers": "Swimming Slippers",

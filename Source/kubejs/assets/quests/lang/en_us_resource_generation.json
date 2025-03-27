@@ -55,7 +55,7 @@
 	"task.351368ACA09D8C22.title":"&bTier 4 &fSeeds",
 	"quest.60EBD67EDCE669DD.title":"&dTier 5 &fSeeds",
 	"task.040406F0404C8971.title":"&dTier 5 &fSeeds",
-	"quest.0D79C07499BF6E95.title":"&fAwakening Altar",
+	"quest.0D79C07499BF6E95.title":"&6Awakening Altar",
 	"quest.0D79C07499BF6E95.quest_desc1":"To create &6Awakened Supremium Essence&r, we'll need to create a new altar for the Awakening.",
 	"quest.0D79C07499BF6E95.quest_desc2":"",
 	"quest.0D79C07499BF6E95.quest_desc3":"Just like the &aInfusion Altar&r, place down the &6Awakening Altar&r first to show a guide on where to place the pedestals and vessels. To create the recipe, the altar will also need a redstone signal.",
@@ -135,5 +135,6 @@
 	"quest.259818648228F2E9.quest_desc1":"In order to craft &2Tier 2&r seeds, you will need to have made an &aAtomic Reconstructor&r from &6Actually Additions&r.",
 	"quest.259818648228F2E9.quest_desc2":"",
 	"quest.259818648228F2E9.quest_desc3":"To charge your &aProsperity Seed&r, simply throw it in the laser coming out of a powered &aAtomic Reconstructor&r.",
-	"quest.0ACF5DAF571848F5.title":"&cCharged Voidflame Seed"
+	"quest.0ACF5DAF571848F5.title":"&cCharged Voidflame Seed",
+	"quest.56A2841D184FAFD4.title":"&dEmpowered Rift Seed"
 }
