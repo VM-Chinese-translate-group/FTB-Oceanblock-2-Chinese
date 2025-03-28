@@ -1,0 +1,23 @@
+{
+    "type": "mysticalagriculture:resource",
+    "tier": "mysticalagriculture:5",
+    "ingredient": {
+      "tag": "c:gems/entro"
+    },
+    "colors": {
+        "flower": "2cd882",
+        "essence": "03e775",
+        "seeds": "29a668"
+    },
+    "textures": {
+      "flower": "mysticalagriculture:block/flower_dust_resource",
+      "essence": "mysticalagriculture:item/essence_quartz",
+      "seeds": "mysticalagriculture:item/mystical_seeds"
+    },
+    "recipes": {
+        "crafting": false,
+        "infusion": false,
+        "reprocessor": true
+    }
+  }
+  
