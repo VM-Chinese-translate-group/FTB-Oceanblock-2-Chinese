@@ -7621,8 +7621,8 @@
         "{@pagebreak}"
         "&o但是GPS和通讯链接器就没我这么幸运了。&r"
         ""
-        "Now I’m here. No land, no comms, just a &6raft &r(and I use the term loosely) and wreckage bobbing in the waves. The Continuum is out there, crippled but still kicking. If I can &brepair the Commlink&r, I can link it with the GPS mapping system. Maybe I can find a way off this rock."
-        "For now, I &oneed&r to survive... And I &oneed&r to &5&lignore&r whatever just moved beneath me."
+        "现在我孤身一人站在这里，脚下没有陆地，手头没有任何交流手段。只有一架&6木筏&r和海上随波逐流的飞船残骸，飞船使用的连续性引擎还在，虽然不成样子但貌似还能用。如果我能&b修好通讯链接器&r，连上GPS我就可以想办法离开这个鬼地方。"
+        "但至少，我&o必须&r活下去……还&o一定&r得装作&5&l没察觉&r脚下刚刚挪动的异物。"
     ]
     quest.2E919C741282C30B.quest_desc:[
         "水中零星散落着各种残骸，大部分是飞船解体后留下的。但有些……并不是。"
@@ -7631,11 +7631,11 @@
         ""
         "我想，这绝非一场意外。连续性引擎&o被强行拽离&r航线，又发生了系统故障，或许这一切都是精心策划的。"
         "{@pagebreak}"
-        "&lI felt it.&r That pull, that raw force, like the universe itself reached out, grabbed hold, and dragged us out of the sky just to watch us fall."
+        "&l我分明感觉到……&r那股拉力，那股原始的蛮力……如同宇宙亲自探出巨手，死死抓住飞船，把我们拽离天际，最后旁观我们自由落体。"
         ""
-        "The thought that gnaws at me is; if I wasn’t the first, and if other ships have been caught in this..."
+        "总有一个念头在我心中挥之不去：我们并非第一个来到这里；如果是这样，那这里一定还有其他遇难飞船……"
         ""
-        "&lWhere did their crews go?&r"
+        "&l但那些船员去了哪里？&r"
     ]
     quest.55ED810832EB6813.quest_desc:[
         "洗矿槽虽然很粗糙，但是效果很好。海水穿过细网后留下沙子与矿物，偶尔还有金属碎片……矿物的一小步，我的一大步。"
@@ -7644,10 +7644,10 @@
         "{@pagebreak}"
         "这种分离提纯原料的过程让我能聚精会神一会，得到的任何资源都是我对这个星球的嘲弄。它想要用海水淹死我，那我就将它的海水变为我的资源！"
         ""
-        "But I can't escape the unease. The ocean is vast, yet silent. No birds. No fish. Nothing but the whisper of waves and the creak of my raft."
+        "但是我始终无法排遣那种沉重感……这片海洋一望无际，但却连一只鸟一条鱼都看不到。除了海浪和筏的嘎吱声外，别无他物。"
         "但仅仅苟活下去还远远不够。"
         ""
-        "I &lneed&r to know what did this."
+        "我&l必须&r知道是什么导致了这一切。"
     ]
     quest.7AE000D515158193.quest_desc:[
         "我日夜不停地拆解，靠着耐心和从不停下的剪刀做出了一些&l基础机器&r。"
@@ -7656,10 +7656,10 @@
         ""
         "活塞与齿轮的轰响声打破了寂静，真是让人解脱。"
         "{@pagebreak}"
-        "Progress has a sound, and right now, it sounds like I might actually survive."
+        "前进总会有反馈的，就目前为止它在告诉我的是，我可以活下去了。"
         "机器能有效加速我纯手工做的一切事情。更多资源、更好的工具……也许我还能做出控制深渊的机器。不过虽然我现在忙的停不下来，在我的脑海中还有一个问题挥之不去："
         ""
-        "Why was this world abandoned?"
+        "为何这个世界被抛弃了？"
     ]
     quest.78E89B8AC431D36C.quest_desc:[
         "我总算取得了进展，我成功修复了我的通讯链接器……好吧，至少能用。"
@@ -7670,9 +7670,9 @@
         ""
         "这绝非自然现象……"
         "{@pagebreak}"
-        "If I can construct better equipment, reinforce my suit, I may be able to reach it. But diving into the unknown is a risk. The deeper I go, the further I stray from the surface… and from safety."
+        "如果我能做出更精良的装备，强化我的盔甲，那我也许能抵达信号源。不过深潜进这么未知的地方很冒险，我潜入的越深，和海平面的距离就越远……离安全也越远。"
         ""
-        "Still, I &ohave to know&r what’s down there."
+        "目前为止，我对下面的状况还是&o一无所知&r。"
     ]
     quest.7C209475626FF302.quest_desc:[
         "好吧，真是令人不安……"
@@ -7685,17 +7685,17 @@
         ""
         "但是这些墙上刻着的字又是怎么回事？它们肯定是有意义的，可能是警告，又或者是毫无意义的介绍什么的。"
         ""
-        "Or maybe it’s just a giant “&lAbandon Hope&r” sign, and I’m the &oidiot&r who stopped to read it."
+        "又或者这上面只不过是一大行“&l这里没有希望&r”的标语，给那些像我一样的&o“白痴”&r读的。"
     ]
     quest.3C2474BD20BCA2CD.quest_desc:[
         "大发现！或者我应该喊“我发现了！”？总之不管怎样，我有电能用了。"
         ""
         "蒸汽很好玩，不过现在我的生产力已经可以从19世纪毕业了……有了这些精炼金属和捡来的电路板后，我就可以发电了。虽然现在产出的FE不是太多，但是驱动我这些粗糙拼凑起来的机器来说，完全够用了。"
         "{@pagebreak}"
-        "Automation can expand, systems can run longer, and maybe... just maybe... I can create a dive suit capable of withstanding the crushing depths below. But even with power, this place doesn’t feel any safer. Something is out there. Beneath the waves. Watching. Waiting."
+        "自动化可以拓展，产线可以延伸，各个系统可以运行得更久，也许……我可以……做出一套可以承受巨大水压的潜水服？不过就算我有电能用，这个地方也没有因此变得更有半分安全感。有什么东西在这，就在波涛之下……等待着，观察着。"
         "无论那个东西是什么，我这辈子也不想和它碰面。"
         ""
-        "Time to pick up the pace."
+        "是时候继续干活了。"
     ]
     quest.2CC60A9AD991255F.quest_desc:[
         "我越往下潜，这个世界越抗拒我深入。"
@@ -7706,7 +7706,7 @@
         "{@pagebreak}"
         "我需要更强大的材料，远比科学、魔法和炼金都要强大的材料。那股该死的力量就在这些废墟中涌动，在那些奇怪的雕刻上浮现……在向深处流动的水流中浮现。如果我能利用它，再辅以我的科技的话，那我说不定真能做到。"
         ""
-        "Because down there, in the black… &5something is waiting&r."
+        "因为我能感觉到……就在脚下的黑暗中……&5有什么东西在等着我&r。"
     ]
     quest.74F90D00EAE988B8.quest_desc:[
         "又是个废墟，不过这个貌似有什么安保措施。"
@@ -7724,14 +7724,14 @@
         ""
         "它能让我的潜水服更贴身，这样我就可以潜得更深了。对生存有好处，对我的神经简直是地狱折磨。"
         "{@pagebreak}"
-        "The whispers are getting louder. Voices? Static?"
+        "低语声逐渐清晰，这到底是低语还是通讯器中传来的静电干扰？"
         ""
         "难不成有什么深海梦魇生物要我给车上保险？完全摸不着头脑。"
-        "The ocean floor is close now. "
+        "海底近在咫尺。"
         ""
-        "Real close. "
+        "真的很近 。"
         ""
-        "And for once, I’m thinking maybe ignorance is bliss."
+        "现在我切实明白什么叫“无知即幸福”了。"
     ]
     quest.7AE5040CD44D7BC9.quest_desc:[
         "行吧，至少我找到这些诡异现象的源头了。"
@@ -7748,9 +7748,9 @@
         "我得到了和传送门能产生共鸣的材料。"
         "我不确定我的现状，很难说我到底是取得了重大进展，还是在朝着成为海底灰尘的深渊狂飙……但我都已经到这里了。"
         ""
-        "If I can stabilize it, I can open it. If I can open it, I can see what’s on the other side."
+        "如果我能让它稳定，那我就能打开它。如果我能打开它，那我就能看到另一边到底是什么。"
         ""
-        "It’s a huge gamble. But at this point, calculated risk is just a fancy term for \"Tuesday.\""
+        "这是一场豪赌，不过都到这个点就别学希腊人把“星期二”当成大凶之兆了。"
     ]
     quest.78376414C201999E.quest_desc:[
         "这个裂隙……&l理论上是不该存在的。&r"
@@ -7759,12 +7759,12 @@
         ""
         "这里有重力吗？可有可无。"
         ""
-        "Reality? Held together with duct tape and spite."
+        "但这里的现实？像是拿胶带赶工粘好的。"
         "{@pagebreak}"
         "我在这里……感觉有什么在拉扯我。"
         ""
-        "If I don’t reinforce my gear, I won’t last long. So, time to brace for whatever fresh cosmic nightmare is waiting up ahead."
-        "Because let’s be honest—it’s never just a scenic walk, is it?"
+        "如果我不加强我的装备，那我在这里根本呆不久。所以是时候准备面对那个不知道是啥的宇宙梦魇了。"
+        "因为……我来这又不是度假的，不是吗？"
     ]
     quest.1EBD69E2E7CEE693.quest_desc:[
         "我看不见，但我不看也能感受到……"
@@ -7773,10 +7773,10 @@
         ""
         "……但它知道我在这 。 "
         "{@pagebreak}"
-        "The deeper I go, the weirder things get; like the Rift itself is paying attention. Time stutters, space bends, and that presence? It’s getting stronger. Whatever it is, it’s tied to this place. And it’s guarding something. Something I need."
+        "我潜得越深，诡异的事就越频繁发生，就像裂隙本身在注意我。时间卡顿空间弯折，而那个存在变得越来越强。不管那个存在到底是什么，它和这个地方肯定有着密不可分的联系，而且它在守护着什么。它守护着的东西必定是我所需要之物。"
         "那阵阵低语已经变成了呼号，清晰又尖锐，所有声音都在不断吟说两个字：回头。"
         ""
-        "Yeah. That’s not happening."
+        "管你怎么说，我绝不可能回头。"
     ]
     quest.03DEDA820D937824.quest_desc:[
         "&6时间水晶&r，它们散落在裂隙内，释放着狂野无瑕的能量。"
@@ -7786,9 +7786,9 @@
         "但是如果它们能在这个扭曲现实中安然无恙地存在，那么我也许可以控制并利用它们。"
         "{@pagebreak}"
         "隙间织主将这里的能量编织为定律，如果我也能这么做的话，那我也许就能在和他对峙的时候掀桌子，说不定还能搏出一条新的生路。"
-        "Or, you know, rip a hole in existence and make everything worse. "
+        "呃，或者，在已知的存在中撕出一个新的空洞，然后让事态变得更糟糕。"
         ""
-        "Guess I’ll find out."
+        "我会搞清楚它怎么用的。"
     ]
     quest.7CBBE33E5B757119.quest_desc:[
         "现实好像出了点差错，而我和那个差错打了一架，猜猜是我死了还是它死了。"
@@ -7797,14 +7797,14 @@
         ""
         "它输了。"
         "{@pagebreak}"
-        "Now I’m holding its essence. It’s pulsing, unstable, and radiating exactly the kind of energy that makes scientists say “we probably shouldn’t touch that.” "
+        "现在我拥有它的精华了，它脉动着，不稳定，放射出一种能让科学家说“我们不该碰这个玩意”的能量。"
         ""
-        "This is what I need to bend the Rift to my will and finally get out of here."
+        "此物即能让裂隙屈服于我的意志，我终于可以离开这里了。"
         ""
-        "Of course, the Rift isn’t thrilled about that. It’s pushing back. Hard."
-        "If I mess this up, I won’t just be stuck. "
+        "至于裂隙，裂隙不会为我的成功而开心，它在快速地收缩。"
+        "如果我搞砸了，那我绝不会简简单单地只被“困在这里”。"
         ""
-        "I’ll be stuck in ways that should not be physically possible."
+        "我会被物理学上不存在的方式卡死。"
     ]
     quest.4DF3BAFE6DD1AE55.quest_desc:[
         "基座都放上东西了，裂隙也……稳定了，它在坍缩和存在之间反复切换。"
@@ -7818,9 +7818,9 @@
         ""
         "回家的路已经对我大开了，不过我不知道它能维持多久。裂隙正在像发脾气的小屁孩一样乱晃，我可不想在我回去之前它就收起玩具回家。"
         "{@pagebreak}"
-        "No time to think. No second chances. If I hesitate, the doorway vanishes. And so do I."
+        "没时间思考了，也没有第二次机会了。如果我犹豫的话，门就会直接消失，我的下场也一样。"
         ""
-        "One. last. step..."
+        "最……后……一……步！"
     ]
     quest.39860652342C4E57.quest_desc:[
         "我往前踏出了那一步，&l裂隙在我身后崩溃。&r"
@@ -7831,12 +7831,12 @@
         "{@pagebreak}"
         "然后就是死一般的寂静……"
         ""
-        "The anomaly isn’t gone. The ocean world, the Rift..."
+        "那种诡异感没有消失，整个海洋世界，以及那个裂隙……"
         "&l它们还在现实的边缘存在着。&r"
         ""
         "是啊，我是逃离那里了，但我成功阻止它们了吗？"
         ""
-        "Was that world just the beginning?"
+        "还是说那个世界仅仅是一切祸乱的开端？"
     ]
     quest.2556FBE2470B6DC8.quest_desc:[
         "“羁旅之人啊，你在裂隙之中的旅途已经迎来尾声。但每段故事的终章亦是另一段故事的序幕。"
@@ -7845,7 +7845,7 @@
         "{@pagebreak}"
         "我们希望这段故事能让您留下美好的回忆——充满发现、挑战和让您仔细思索的时光。您放下的每个方块，解开的每个谜题和挑战都是这个故事的一部分，而我们很荣幸能和您一起见证这段时光。"
         "{@pagebreak}"
-        "But the adventure doesn’t end here. New worlds await, new challenges rise, and we look forward to seeing you again in the next great expedition. Until then, keep exploring, keep creating… and remember: the Rift is never truly closed."
+        "故事结束了，但冒险还没有结束。新的世界在等着你，新的冒险逐渐揭开面纱，我们期待在下个整合包与您相见。在下次相会之前请保持您探索和合成的热情，以及不要忘记……裂隙并没有真正关闭 。"
         ""
         "感谢您的游玩。”"
     ]
