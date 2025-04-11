@@ -7,10 +7,10 @@ const $RiftRegionManager = Java.loadClass("dev.ftb.mods.ftbrifthelper.RiftRegion
 const $Vec3 = Java.loadClass("net.minecraft.world.phys.Vec3");
 let $Player = Java.loadClass("net.minecraft.world.entity.player.Player");
 let $Team = Java.loadClass("dev.ftb.mods.ftbteams.api.Team");
-let $ImmersiveMessage = Java.loadClass('toni.immersivemessages.api.ImmersiveMessage')
-let $SoundEffect = Java.loadClass('toni.immersivemessages.api.SoundEffect')
-let $ImmersiveColor = Java.loadClass("toni.immersivemessages.util.ImmersiveColor");
-let $ImmersiveFont = Java.loadClass("toni.immersivemessages.ImmersiveFont");
+// let $ImmersiveMessage = Java.loadClass('toni.immersivemessages.api.ImmersiveMessage')
+// let $SoundEffect = Java.loadClass('toni.immersivemessages.api.SoundEffect')
+// let $ImmersiveColor = Java.loadClass("toni.immersivemessages.util.ImmersiveColor");
+// let $ImmersiveFont = Java.loadClass("toni.immersivemessages.ImmersiveFont");
 const $TextColor = Java.loadClass("net.minecraft.network.chat.TextColor");
 /* 
 * Find the portal center
@@ -97,7 +97,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
     player.getLevel().getEntities().forEach(entity => {
         console.log(entity.getType().toString())
         if(entity.getType().toString() == 'ftboceanmobs:rift_weaver' && entity.distanceToSqr(new $Vec3(x,y,z)) < 32*32){
-            new ImmersiveMessage(player, "隙间织主已生成！").setColor("#AA00AA").send()
+            new ImmersiveMessage(player, "message.ftboceanmobs.rift_weaver_spawn").setColor("#AA00AA").send()
             player.addItemCooldown(item.id, 50)
             spawned = true
         }
@@ -114,7 +114,7 @@ global.spawnRiftWeaver = (player, teamId, item) => {
         // )
         new ImmersiveMessage(
             player,
-            "你离裂隙竞技场还不够近！"
+            "message.rift.arena"
         )
             .setColor("#AA00AA")
             .send();
@@ -240,52 +240,40 @@ global.showRiftCharge = (player) => {
 global.ImmersiveMessage = (player, message) => {
     return new ImmersiveMessage(player, message);
 }
+
 function ImmersiveMessage(player, message)
     {
         this.player = player;
         this.message = message ?? "";
-        this.font = "minecrafter";
         this.duration = 3;
-        this.size = 1.5;
-        this.typewriter = true;
         this.color = "#FFFFFF";
-        this.wave = true;
-        this.y = 50;
+        this.position = "BOTTOM_CENTER";
+
     
         this.setMessage = (message) => {
-        this.message = message;
-        return this;
+            this.message = message;
+            return this;
         }
+
         this.setColor = (color) => {
             this.color = color;
             return this;
         }
-        this.setSize = (size) => {
-            this.size = size;
-            return this;
-        }
-        this.setTypewriter = (typewriter) => {
-            this.typewriter = typewriter;
-            return this;
-        }
-        this.setWave = (wave) => {
-            this.wave = wave;
-            return this;
-        }
-        this.setY = (y) => {
-        this.y = y;
-        return this;
-        }
+
         this.setDuration = (duration) => {
-        this.duration = duration;
-        return this;
+            this.duration = duration;
+            return this;
         }
-    
+
+        this.setPosition = (position) => {
+            this.position = position;
+            return this;
+        }
     
     
         this.send = () => {
-            this.player.getServer().runCommandSilent(`/immersivemessages sendcustom ${player.username} {y:${this.y},size:${this.size},sound:1,typewriter:${this.typewriter ? 1 : 0},color:"${this.color}",wave:${this.wave ? 1 : 0}} ${this.duration} ${this.message}`);
+            this.player.getServer().runCommandSilent(
+                `/pop create ${this.player.username} ${this.position} ${this.duration} {"translate": "${this.message}", "color": "${this.color}"}`
+            );
         }
-     
-    
 }

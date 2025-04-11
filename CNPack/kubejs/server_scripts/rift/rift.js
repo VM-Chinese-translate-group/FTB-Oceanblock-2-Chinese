@@ -115,7 +115,7 @@ PlayerEvents.tick((event) => {
     {
       if (timeLeft % (20 * 60) == 0) {
         var minutesLeft = (timeLeft / 20) / 60;
-        new ImmersiveMessage(event.player, `你还能在裂隙中停留${minutesLeft}${minutesLeft == 1 ? "分钟" : "分钟" }！`)
+        new ImmersiveMessage(event.player, Text.translate("message.rift.timeLeft", minutesLeft, minutesLeft == 1 ? Text.translate("message.rift.timeLeft.minute") : Text.translate("message.rift.timeLeft.minutes")).getString())
           .setColor("#AA00AA")
           .setDuration(5)
           .send()
@@ -123,7 +123,7 @@ PlayerEvents.tick((event) => {
     } else if (timeLeft > 20 * 10) {
       if (timeLeft % (20 * 15) == 0) {
 
-        new ImmersiveMessage(event.player, `你还能在裂隙中停留${(timeLeft / 20)}秒！`)
+        new ImmersiveMessage(event.player, Text.translate("message.rift.timeLeft.1", timeLeft / 20))
         .setColor("#AA00AA")
         .setDuration(4)
         .send()
@@ -311,7 +311,7 @@ PlayerEvents.tick(event => {
   if (player.getAbilities().flying) {
     player.abilities.mayfly = false
     player.abilities.flying = false
-    new ImmersiveMessage(player, "禁止在裂隙中飞行！")
+    new ImmersiveMessage(player, "message.rift.flying.disable")
       .setColor("#AA0000")
       .setDuration(5)
       .send();
@@ -344,7 +344,7 @@ function handleOriTechJetpacks(chest, player){
   let using = chestItem.tryUseEnergy(chest, energyStorage, player)
   
   if(using){
-    new ImmersiveMessage(player, "裂隙扰乱了你喷气背包中的能量！")
+    new ImmersiveMessage(player, "message.rift.jetpack")
     .setColor("#AA0000")
     .send()
 
@@ -361,7 +361,7 @@ function handleMekJetpacks(chest, player){
   }
   if(stored.getAmount() == 0) return;
   stored.setAmount(0);
-  new ImmersiveMessage(player, "裂隙扰乱了你喷气背包中的能量！")
+  new ImmersiveMessage(player, "message.rift.jetpack")
   .setColor("#AA0000")
   .send()
 }

@@ -69,7 +69,7 @@ function chargePlayer(player, recipe){
 
     let playerCharge =  player.persistentData.contains("rift_charge") ? player.persistentData.getInt("rift_charge") : 0;
     if(playerCharge >= max_charge){
-        new ImmersiveMessage(player, "你的裂隙能量已达到大胆！").send()
+        new ImmersiveMessage(player, "message.rift.charge.max").send()
         global.showRiftCharge(player)
         return;
     }

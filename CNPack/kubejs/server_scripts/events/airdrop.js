@@ -28,7 +28,7 @@ const airDropEvent = {
       relative.message = offset.x > 0 ? "东" : "西";
     }
 
-    new ImmersiveMessage(player, `空投即将到达`)
+    new ImmersiveMessage(player, `message.airdrop.incoming`)
       .setDuration(23)
       .send();
 
@@ -117,7 +117,7 @@ const airDropEvent = {
         if (y < 190.5) {
           if (!spawned) {
             spawned = true;
-            new ImmersiveMessage(player, `空投已着陆！`)
+            new ImmersiveMessage(player, `message.airdrop.landed`)
             .setDuration(5)
             .setColor("#ff0000")
             .send();

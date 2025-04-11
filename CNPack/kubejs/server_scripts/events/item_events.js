@@ -5,10 +5,10 @@ ItemEvents.rightClicked('ftb:gps', event => {
   let message = new ImmersiveMessage(player);
   if (!player.stages.has("ftbchunks_mapping")) {
     player.stages.add("ftbchunks_mapping");
-    message.setMessage("GPS链接已建立！");
+    message.setMessage("message.ftb_gps.established");
   } else {
     player.stages.remove("ftbchunks_mapping");
-    message.setMessage("GPS链接已断开！");
+    message.setMessage("message.ftb_gps.disconnected");
   }
   message.send();
   player.swing();
