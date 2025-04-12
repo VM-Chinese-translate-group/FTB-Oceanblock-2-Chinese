@@ -93,7 +93,7 @@
     quest.5ED463E61F55CA19.quest_subtitle:"不要和飞机（Plane）搞混了哦！"
     quest.5ED463E61F55CA19.title:"&fME面板"
     quest.6960E19480D31FE6.title:"&f无限陨石！"
-    quest.1114D1FD164E514B.title:"&f欢迎来到&d新生魔艺&f！"
+    quest.1114D1FD164E514B.title:"&f欢迎游玩&d新生魔艺&f！"
     chapter.6CA0553DF634A937.title:"新生魔艺"
     quest.13D6C551C8DBC124.title:"&a各种魔法树……"
     task.07B3E353519E2FE6.title:"&9至高木"
@@ -602,7 +602,7 @@
     task.09319F8A1514CF60.title:"输出接口"
     quest.21CA95EEB0F9EE61.title:"&f实例演示"
     task.06C48EBDFE523F4F.title:"实例演示"
-    quest.496903AB7E8A0A92.title:"&f欢迎体验&6Iron's Gems 'n Jewelry&f模组！"
+    quest.496903AB7E8A0A92.title:"&f欢迎游玩&6Iron's Gems 'n Jewelry&f！"
     chapter.143441998FF2D8BD.title:"Iron's Jewelry"
     quest.6045E57AA8E56711.title:"&f红宝石"
     quest.34FA9DF0A6D2163D.title:"&f蓝宝石"
@@ -885,7 +885,7 @@
     quest.781C67090DF1C611.title:"&f管理你的&d激光网络"
     quest.62851FAE7E9D2137.title:"&c长距离激光&r"
     quest.2630B3D5D3B8A67C.title:"&f盐水桶"
-    quest.10F792474C01A594.title:"&f欢迎来到&6神秘学&f！"
+    quest.10F792474C01A594.title:"&f欢迎游玩&6神秘学&f！"
     chapter.366003AD7B6B722C.title:"神秘学"
     quest.4E90956E9A3ADAC9.title:"&f魔鬼之梦果"
     quest.76323B3FF4F17A2B.title:"&f燃起来了！！！"
@@ -1227,7 +1227,7 @@
     quest.1045256B6D1C73CD.title:"&f获取石油"
     quest.4FF1C456DC2A08C4.title:"&dOritech反应堆"
     task.5AAC61AE69FC0089.title:"蒸汽动力"
-    quest.1069575C4B5BCE39.title:"&f欢迎来到&e精致存储2"
+    quest.1069575C4B5BCE39.title:"&f欢迎游玩&e精致存储2"
     chapter.34567C4E01EC7234.title:"精致存储2"
     quest.60C650264AA5525D.title:"&a控制器"
     task.7A2B58FD3F6E8094.title:"&f任意&e精致存储&a控制器"
@@ -1255,9 +1255,9 @@
     quest.3C2A1A2A6D357657.title:"&31024B 流体存储组件"
     quest.2EAA02B80B0E4D5A.title:"&34096B 流体存储组件"
     quest.27D28CC22BB5C665.quest_subtitle:"用于合成其他升级"
-    quest.27D28CC22BB5C665.title:"&fUpgrade Base"
-    quest.31FD89FA8B730048.title:"&a速度 \&\ 堆叠升级"
-    quest.3CD3CA5B619F5698.title:"&a时运 \&\ 精准采集升级"
+    quest.27D28CC22BB5C665.title:"&f升级"
+    quest.31FD89FA8B730048.title:"&a速度升级与堆叠升级"
+    quest.3CD3CA5B619F5698.title:"&a时运升级与精准采集升级"
     quest.0C59F30673774398.title:"&a调节升级"
     quest.50EFBD8BDE0C88AF.title:"&a范围升级"
     quest.4F72252AD2DCAECC.title:"&a自动合成升级"
@@ -1267,23 +1267,23 @@
     quest.23804302767A5907.title:"&68192B 化学品存储组件"
     quest.58982359699AFB7F.title:"&f配置卡"
     quest.5E1FD04538F89292.title:"&d无线网络"
-    quest.2CB418AE76610E8F.quest_subtitle:"You can never have too many wrenches"
-    quest.2CB418AE76610E8F.title:"&fWrench"
-    quest.03BEFC2150D09E7A.title:"&dWireless Grids"
-    quest.59AD05C4C9642285.title:"&2Iron Crafter"
-    quest.73B45ED40DC41735.title:"&3Gold Crafter"
-    quest.0BA876EC757BBE6F.title:"&dDiamond Crafter"
-    quest.210833F817D7AF9E.title:"&6Netherite Crafter"
-    quest.4F5A267B3042E308.title:"&d256k Storage Part"
-    quest.556FF896D9D9C639.title:"&d1024k Storage Part"
-    quest.3052855C35D11703.title:"&64096k Storage Part"
-    quest.32A9DED264608999.title:"&616384k Storage Part"
-    quest.5B5447A65D9C82B9.title:"&d16384b Fluid Storage Part"
-    quest.3B41D9132CD7728D.title:"&d65536b Fluid Storage Part"
-    quest.2D7E43DD8E403698.title:"&6262144b Fluid Storage Part"
-    quest.1CBB7F801A4C554C.title:"&61048576b Fluid Storage Part"
-    quest.0C0B04B6FEFD2928.title:"&aAdvanced Importer"
-    quest.43D386072996F3BE.title:"&aAdvanced Exporter"
+    quest.2CB418AE76610E8F.quest_subtitle:"扳手再多也不嫌多"
+    quest.2CB418AE76610E8F.title:"&f扳手"
+    quest.03BEFC2150D09E7A.title:"&d无线终端"
+    quest.59AD05C4C9642285.title:"&2铁自动合成仓"
+    quest.73B45ED40DC41735.title:"&3金自动合成仓"
+    quest.0BA876EC757BBE6F.title:"&d钻石自动合成仓"
+    quest.210833F817D7AF9E.title:"&6下界合金自动合成仓"
+    quest.4F5A267B3042E308.title:"&d256k 存储组件"
+    quest.556FF896D9D9C639.title:"&d1024k 存储组件"
+    quest.3052855C35D11703.title:"&64096k 存储组件"
+    quest.32A9DED264608999.title:"&616384k 存储组件"
+    quest.5B5447A65D9C82B9.title:"&d16384b 流体存储组件"
+    quest.3B41D9132CD7728D.title:"&d65536b 流体存储组件"
+    quest.2D7E43DD8E403698.title:"&6262144b 流体存储组件"
+    quest.1CBB7F801A4C554C.title:"&61048576b 流体存储组件"
+    quest.0C0B04B6FEFD2928.title:"&a高级输入器"
+    quest.43D386072996F3BE.title:"&a高级输出器"
     chapter.158D033F7F934345.title:"Replication"
     quest.705E4FFB4FCADFD1.title:"&f物质网络"
     quest.5624865A6F796087.quest_subtitle:"复制物品"
@@ -1509,7 +1509,7 @@
     quest.156F1911B93FA2A0.title:"&3铂"
     quest.212155506A40BA41.title:"&c磁通门"
     quest.38EA9FAD11870423.title:"&3末地之力"
-    quest.70A09D5CFC69EA43.title:"欢迎游玩&6Oceanblock 2&r"
+    quest.70A09D5CFC69EA43.title:"欢迎游玩&6Oceanblock 2&r！"
     chapter.061E43DCC3E0E302.title:"欢迎"
     task.7F7994DE4B55D7F6.title:"欢迎游玩&6Oceanblock 2&r"
     quest.2DAA24C99CAB703D.title:"实用命令"
@@ -7338,65 +7338,65 @@
         "制作反应堆组件需要&6装配器&r。"
     ]
     quest.1069575C4B5BCE39.quest_desc:[
-        "&e精致存储2&r（&eRS2&r）是一个大型存储模组，提供基于网络的存储系统，允许在可扩展的设备网络上存储物品、流体和气体。"
+        "&e精致存储2&r（简称&eRS2&r）是一款大型物品存储模组。它提供了一个基于网络的存储系统，让你可以在一个可扩展的设备网络中集中存储物品、流体和气体。"
         ""
-        "Start by crafting some &aMachine Cores&r, which will be used for many network components as you progress through the mod."
+        "首先制作一些&a机械外壳&r，随着模组进度的推进，它们将用于许多网络组件。"
     ]
     quest.60C650264AA5525D.quest_desc:[
-        "&a控制器&r是为您的&6RS2&r网络提供能源的主要设备。"
+        "&a控制器&r是为你的&6RS2&r网络提供能源的主设备。"
         ""
-        "&7&o与AE2控制器不同，您可以将控制器放置在网络上的任何位置。"
+        "&7&o与AE2控制器不同，你可以将控制器放置在网络中的任何位置。"
     ]
     quest.71F17C85D540C559.quest_desc:[
         "&a线缆&r用于连接网络设备。"
         ""
-        "完整方块将连接到任何相邻的方块，无论其颜色如何；而&a线缆&r只会连接到相同颜色的线缆。"
+        "完整方块可连接到任何相邻的任意颜色方块；而&a线缆&r只会连接到相同颜色的线缆。"
     ]
     quest.0D864FD6A668D8C6.quest_desc:[
-        "&a输入器&r和&a输出器&r用于从您的网络输入和输出资源。"
+        "&a输入器&r和&a输出器&能从你的网络输入和输出资源。"
         ""
         "&a接口&r能够在一个方块内满足输入和输出需求。"
     ]
     quest.68778308CBAB4AE3.quest_desc:[
-        "&a外部存储&r可以访问存储网络之外的存储设备（箱子、抽屉、储罐等……）"
+        "&a外部存储&r可以让你直接访问并管理连接在网络外部的存储单元的资源（箱子、抽屉、储罐等）"
     ]
     quest.2BFD68083AD1B894.quest_desc:[
-        "&a破坏器&r可以将世界中的资源收集到您的存储网络中。"
+        "&a破坏器&r可以将世界中的资源收集到你的存储网络中。"
         ""
         "&a成型器&r可以将网络中的资源放置到世界中。"
     ]
     quest.612340743D7C7536.quest_desc:[
-        "&3无线发送器&r允许&d无线终端&r在其设定范围内访问您的网络，该范围可以通过安装最多4个&a范围升级&r来扩展。"
+        "&3无线发送器&r能够让&d无线终端&r在其信号覆盖范围内连接到你的网络。你可以为其安装最多4个&a范围升级&r来扩大覆盖范围。"
         ""
         "&7&o默认范围为16格，最多可扩展至48格。"
     ]
     quest.6AA51581B0CA5271.quest_desc:[
-        "&a磁盘驱动器&r接受能够存储物品或流体的&b存储磁盘&r，并具有多种配置选项，如存储优先级、输入/输出模式、是否销毁过量资源等。"
+        "&a磁盘驱动器&r是用于装载&b存储磁盘&r的设备。这些磁盘可以存储物品或流体。驱动器本身有多种配置选项，如存储优先级、输入/输出模式、溢出销毁模式等。"
         ""
-        "您还可以通过将物品放置在顶部的9个过滤槽位中来筛选可以存储在该&a磁盘驱动器&r中的物品。"
+        "你还可以通过将特定物品放入&a磁盘驱动器&r上方的9个过滤槽位中，来限定这个驱动器只能存储哪些物品。"
         ""
-        "&b存储磁盘&r可以通过将升级后的部件与现有的&b存储磁盘&r合成来直接升级到下一级，在此过程中会返还旧磁盘，同时保留所有存储的物品。"
+        "&b存储磁盘&r可以通过将升级后的部件与现有的&b存储磁盘&r合成来直接升级到下一级，在此过程中会返还旧存储组件，同时保留所有存储的物品。"
         ""
         "当&b存储磁盘&r内没有存储物品时，可以通过Shift右击将存储组件与其外壳分离。"
     ]
     quest.52C305EDBE2CCC55.quest_desc:[
-        "&a终端&r允许您以不同方式与网络的各个组件进行交互和查看。"
+        "&a终端&r是你访问和管理网络的窗口，不同类型的终端提供了不同的交互方式。"
         ""
-        "标准的&a终端&r允许您查看、移除和插入资源到您的存储网络，发送配方请求以及执行许多其他操作。"
+        "标准的&a终端&r能让你查看、存入或是从存储网络中取出资源、发送配方请求以及执行许多其他操作。"
         ""
-        "&3合成终端&r提供了常规&a终端&r的所有功能，在此基础上还为您提供了一个工作台。"
+        "&3合成终端&r提供了常规&a终端&r的所有功能，在此基础上额外集成了一个工作台。"
     ]
     quest.35E8F57E93106BFE.quest_desc:[
-        "&a样板&r用于存储合成或处理等配方。可以在&3样板终端&r内进行编码，该终端一次最多可容纳一组&a样板&r。"
+        "&a样板&r能存储合成或处理等配方。可以在&3样板终端&r内进行编码，该终端一次最多可容纳一组&a样板&r。"
         ""
-        "要设置配方，首先从右侧的界面选择模式。然后，在JEI中搜索您希望合成的物品，并单击其配方旁边的“+”图标。这将自动设置&a样板&r，但如果您愿意，仍然可以手动设置。"
+        "要设置配方，首先从右侧的界面选择模式。然后，在JEI中搜索你想要合成的物品，并点击其配方旁边的“+”图标。这将自动设置&a样板&r，但如果你愿意，仍然可以手动设置。"
         ""
-        "浏览终端时，可自动合成的资源将具有黄色背景。"
+        "在终端界面中，那些可自动合成的资源会带有一个黄色的背景。"
     ]
     quest.7D3A5740B5857874.quest_desc:[
-        "&d安全管理器&r允许您控制不同用户的对不同网络功能的访问权限。"
+        "&d安全管理器&r能让你调整不同用户对不同网络功能的访问权限。"
         ""
-        "您可以控制网络的以下方面："
+        "你可以控制网络的以下方面："
         ""
         "- 物品存入与取出。"
         "- 自动合成任务请求与创建。"
@@ -7410,7 +7410,7 @@
         "不要忘了&b存储磁盘&r也可以通过在合成格中将更高级的存储组件与现有磁盘组合来直接升级到下一级。在此过程中会返还旧的存储组件，同时保留所有物品。"
     ]
     quest.40DCA09032568A0F.quest_desc:[
-        "&a中继器&r可用于创建独立的网络分支，或者用于接通/断开存储网络的特定部分。"
+        "&a中继器&r可用于创建独立的网络分支，或者用红石信号控制接通/断开存储网络的特定部分。"
         ""
         "&a存储监视器&r可以显示存储网络中特定资源的实时存储量。"
         ""
@@ -7419,28 +7419,28 @@
     quest.3F5480E01ABA887B.quest_desc:[
         "&a自动合成仓&r最多可安装9个已配置配方的&a样板&r和4个&a速度升级&r。"
         ""
-        "如果&a自动合成仓&r的输出面指向某个机器或容器，它会尝试将处理配方所需的材料推入其中；否则，它会尝试执行合成台合成配方。"
+        "如果&a自动合成仓&r的输出面指向某个机器或容器，它会尝试将处理配方所需的材料放入其中；否则，它会尝试执行工作台配方。"
         ""
-        "&7&o放置自动合成仓时，它的输出面会朝向你点击的方块表面。"
+        "&7&o放置自动合成仓时，它的输出面会朝向你所看向的方块表面。"
     ]
     quest.5CDE33FC6A041416.quest_desc:[
         "&3自动合成仓管理器&r提供了一个集中管理界面，让你可以在这一个方块处配置网络中所有的&3自动合成仓&r。"
     ]
     quest.33EDFB2DC1BEA7F0.quest_desc:[
-        "&3自动合成监控器&r可以让你实时查看所有正在进行中的自动合成任务的状态和进度。"
+        "&3自动合成监控器&r可以让你实时查看所有正在进行中的自动合成任务的状态。"
     ]
     quest.31FD89FA8B730048.quest_desc:[
-        "&a速度升级&r可以提高安装了它的网络设备的工作速度。"
+        "&a速度升级&r可提高网络设备的工作速度。"
         ""
         "&a堆叠升级&r则可以增加网络设备单次操作处理的物品数量。"
     ]
     quest.3CD3CA5B619F5698.quest_desc:[
-        "&a时运&r和&a精准采集&r升级可以安装在&a破坏器&r 中，使其在破坏方块时获得对应的附魔效果。"
+        "&a时运&r和&a精准采集&r升级可以安装在&a破坏器&r中，使其在破坏方块时获得对应的魔咒。"
     ]
     quest.0C59F30673774398.quest_desc:[
         "&a调节升级&r可以精确控制进出你系统的物品数量，常用于维持外部容器中特定物品的数量。"
         ""
-        "要设置它，先右键点击升级本身，将目标物品放入右侧的过滤槽，然后设定你希望外部容器中保持的该物品数量。"
+        "右击升级并将物品放入右侧的过滤槽，然后设定你希望外部容器中保持的该物品数量，这样就设置好了。"
         ""
         "当用于&a输出器&r时，它会持续输出物品，直到外部容器达到设定数量为止。当用于&a输入器&r时，它会确保外部容器中只保留设定的数量，并将超出部分的物品导入网络。"
     ]
@@ -7458,37 +7458,37 @@
         "Shift右击空气可以清除卡中存储的配置信息。"
     ]
     quest.5E1FD04538F89292.quest_desc:[
-        "By binding a &aNetwork Card&r to a &dNetwork Receiver&r and placing that &aNetwork Card&r into a &dNetwork Transmitter&r connected to your main network, you are able to use your network anywhere, even across dimensions."
+        "通过将&a网络卡&r绑定到&d网络接收器&r，并将该&a网络卡&r放入连接到主网络的&d网络发送器&r 中，你可以在任何地方使用你的网络，甚至跨维度。"
         ""
-        "&7&oMake sure your main system is chunkloaded."
+        "&7&o务必确保你的主网络系统所在的区块始终处于加载状态。"
     ]
     quest.2CB418AE76610E8F.quest_desc:[
-        "The &aWrench&r can be used to rotate network devices or dismantle them when used while crounching."
+        "&a扳手&r可以用来旋转网络设备的方向。如果在潜行状态下使用扳手，则可以快速地拆卸网络设备。"
         ""
-        "Dismantling a network device retains all its current settings and upgrades."
+        "使用扳手拆卸网络设备会完整地保留其内部存储的设置和安装的升级。"
     ]
     quest.03BEFC2150D09E7A.quest_desc:[
-        "&dWireless Grids&r allow remote access to your storage network when within range of the &3Wireless Transmitter&r."
+        "&d无线终端&r让你无需线缆连接，只要在&3无线发送器&r的信号范围内就能远程访问你的存储网络。"
         ""
-        "Each &dWireless Grid&r provides the same functionality as their corresponding &aGrids&r."
+        "每种&d无线终端&r都提供与其对应的有线&a终端&r完全相同的功能。"
     ]
     quest.59AD05C4C9642285.quest_desc:[
-        "The &2Iron Crafter&r has 27 &aPattern&r slots and works as fast as a fully upgraded &aAutocrafter&r."
+        "&2铁自动合成仓&r是更高级的自动合成设备，拥有27个&a样板&r槽位，其基础工作速度相当于一个安装了4个速度升级的普通&a自动合成仓&r。"
     ]
     quest.73B45ED40DC41735.quest_desc:[
-        "The &3Gold Crafter&r has 45 &aPattern&r slots and works as fast as a fully upgraded &2Iron Crafter&r."
+        "&3金自动合成仓&r拥有45个&a样板&r槽位，其基础工作速度相当于一个安装了4个速度升级的&2铁自动合成仓&r。"
     ]
     quest.0BA876EC757BBE6F.quest_desc:[
-        "The &dDiamond Crafter&r has 63 &aPattern&r slots and works as fast as a fully upgraded &3Gold Crafter&r."
+        "&d钻石自动合成仓&r拥有63个&a样板&r槽位，其基础工作速度相当于一个安装了4个速度升级的&3金自动合成仓&r。"
     ]
     quest.210833F817D7AF9E.quest_desc:[
-        "The &6Netherite Crafter&r has 81 &aPattern&r slots and works as fast as a fully upgraded &dDiamond Crafter&r."
+        "&6下界合金自动合成仓&r拥有81个&a样板&r槽位，其基础工作速度相当于一个安装了4个速度升级的&d钻石自动合成仓&r。"
     ]
     quest.0C0B04B6FEFD2928.quest_desc:[
-        "The &aAdvanced Importer&r provides an additional row of filtering slots, up to 18 total."
+        "&a高级输入器&r相比普通输入器，提供了一整排额外的过滤槽位，总计达到18个。"
     ]
     quest.43D386072996F3BE.quest_desc:[
-        "The &aAdvanced Exporter&r provides an additional row of filtering slots, up to 18 total."
+        "&a高级输出器&r相比普通输出器，提供了一整排额外的过滤槽位，总计达到18个。"
     ]
     quest.705E4FFB4FCADFD1.quest_desc:[
         "你可以用&a物质网络管道&r将&6Replication&r模组的机器串联起来，这样就可以在同一个网络下共享物质。"
