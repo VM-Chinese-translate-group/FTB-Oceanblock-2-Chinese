@@ -25,6 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install git+https://github.com/MuXiu1997/ParaTranz-SDK-python.git
           pip install PyGithub
+          pip install aiofiles
       - name: Upload To Paratranz
         run: |
           python .github/workflows/github2para.py
