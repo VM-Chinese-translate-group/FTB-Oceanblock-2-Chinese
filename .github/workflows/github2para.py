@@ -4,17 +4,10 @@ import json
 from pprint import pprint
 import paratranz_client
 from pydantic import ValidationError
-import requests
 
 configuration = paratranz_client.Configuration(host="https://paratranz.cn/api")
 configuration.api_key["Token"] = os.environ["API_TOKEN"]
 
-def update_file(projectId,fileId,file):
-    url = f"https://paratranz.cn/api/projects/{projectId}/files/{fileId}"
-    headers = {"Authorization": os.environ["API_TOKEN"]}
-    files = {"file": (os.path.basename(file), open(file, "rb"), "application/json")}
-    response = requests.post(url, headers=headers, files=files)
-    print(response.json())
 
 async def upload_file(path, file):
     async with paratranz_client.ApiClient(configuration) as api_client:
@@ -29,16 +22,12 @@ async def upload_file(path, file):
             pprint(api_response)
         except ValidationError as error:
             print(f"文件上传成功{path}en_us.json")
-        except paratranz_client.exceptions.BadRequestException as e:
+        except Exception as e:
             filePath: str = json.loads(e.__dict__.get("body"))["message"].split(" ")[1]
             for fileName in files_response:
                 if fileName.name == filePath:
-                    try:
-                        update_file(project_id,fileName.id,file)
-                        #await api_instance.update_file(project_id, file_id=fileName.id, file=file)
-                        print(f"文件已更新！文件路径为：{fileName.name}")
-                    except Exception as e:
-                        print(e)
+                    await api_instance.update_file(project_id, file_id=fileName.id, file=file)
+                    print(f"文件已更新！文件路径为：{fileName.name}")
 
 
 def get_filelist(dir):
