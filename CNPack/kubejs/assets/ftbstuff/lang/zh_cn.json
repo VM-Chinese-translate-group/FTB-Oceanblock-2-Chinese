@@ -98,7 +98,7 @@
     "block.ftbstuff.white_barrel":"白色桶",
     "config.jade.plugin_ftbstuff.autohammer":"自动锤",
     "config.jade.plugin_ftbstuff.pump":"泵",
-    "death.attack.static_electric":"%1$s被静电杀死",
+    "death.attack.static_electric":"%1$s被静电杀死了",
     "ftbstuff.advancement.root":"FTB Stuff & Things",
     "ftbstuff.advancement.root.desc":"只是些有用的东西……和有的没的",
     "ftbstuff.advancement.supercharged":"超负荷",
