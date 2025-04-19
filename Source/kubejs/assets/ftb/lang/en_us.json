@@ -142,6 +142,7 @@
   "message.ftb.the_rift": "The Energies of the Rift are interfering with teleportation!",
   "message.ftboceanmobs.rift_weaver_spawn": "Rift Weaver already spawned!",
   "message.ftboceanmobs.rift_weaver": "You can't hurt this mob outside of the arena!",
+  "message.lantern.required": "Equip the soul lantern on your belt to pass between worlds!",
   "message.rift.arena": "You are not close enough to the Rift Arena!",
   "message.rift.blockBreak": "You can't break this block in the Rift!",
   "message.rift.cardboardUse": "You can't use the Cardboard Box in the Rift!",
