@@ -248,5 +248,7 @@
     "base.ftb.inflames":"逃离火焰",
     "base.ftb.wrong_modpack":"错误的整合包",
     "sign.ftb.lobby.text.1":"在这开始",
-    "sign.ftb.lobby.text.2":"你的旅途"
+    "sign.ftb.lobby.text.2":"你的旅途",
+    "tooltip.ftb.blazing_mesh":"⚠ 仅可用于下界合金洗矿槽！",
+    "tooltip.mob_grinding_utils.jumbo_tank":"⚠ Attention: Filled Jumbo Tanks may get Stuck in your AE/RS System."
 }
