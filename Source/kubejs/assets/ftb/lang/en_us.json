@@ -250,5 +250,6 @@
   "sign.ftb.lobby.text.1": "Begin Your",
   "sign.ftb.lobby.text.2": "Journey Here",
   "tooltip.ftb.blazing_mesh": "⚠ Only works in Netherite Sluice!",
-  "tooltip.mob_grinding_utils.jumbo_tank": "⚠ Attention: Filled Jumbo Tanks may get Stuck in your AE/RS System."
+  "tooltip.mob_grinding_utils.jumbo_tank": "⚠ Attention: Filled Jumbo Tanks may get Stuck in your AE/RS System.",
+  "tooltip.oritechthings.accelerator_speed_sensor": "ⓘ Can Rarely be Found inside of Pulsating Crates."
 }

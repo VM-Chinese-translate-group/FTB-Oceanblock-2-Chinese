@@ -1,0 +1,7 @@
+testMode = false
+autoSwitchLanguage = true
+autoDownloadVMTranslationPack = false
+translationPackSource = "GITEE"
+checkModPackTranslationUpdate = true
+i18nUpdateModCheck = true
+vaultPatcherCheck = false

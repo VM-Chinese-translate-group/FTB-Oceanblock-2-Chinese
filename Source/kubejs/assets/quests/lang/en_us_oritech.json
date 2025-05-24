@@ -191,7 +191,7 @@
 	"quest.26D59E04760C5747.title":"&fDestroyer Block",
 	"quest.26D59E04760C5747.quest_desc1":"The &aDestroyer Block&r is a multiblock that operates on a &aMachine Frame&r gantry and destroys the block layer directly below the frame.",
 	"quest.26D59E04760C5747.quest_desc2":"",
-	"quest.26D59E04760C5747.quest_desc3":"The time and energy required to break a block depend on the block's hardness. The &aBlock Destroyer&r attempts to destroy all blocks below. To enable farming use, the &bCrop Filter Addon&r can be installed, which causes the &aBlock Destroyer&r to skip all non-finished crops.",
+	"quest.26D59E04760C5747.quest_desc3":"The time and energy required to break a block depend on the block's hardness. The &aBlock Destroyer&r attempts to destroy all blocks below.",
 	"quest.26D59E04760C5747.quest_desc4":"{@pagebreak}",
 	"quest.26D59E04760C5747.quest_desc5":"By adding &bQuarry Addons&r, the &aBlock Destroyer&r can also function as a quarry. Each &bQuarry Addon&r multiplies the range by 8 blocks.",
 	"quest.26D59E04760C5747.quest_desc6":"",
