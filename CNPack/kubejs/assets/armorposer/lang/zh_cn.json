@@ -1,5 +1,5 @@
 {
-    "armorposer.config.allowScrolling":"Allow Scrolling",
+    "armorposer.config.allowScrolling":"允许滚动",
     "armorposer.config.allowScrolling.tooltip":"Allow scrolling to increase / decrease an angle value in the posing screen",
     "armorposer.config.enableConfigGui":"启用GUI",
     "armorposer.config.enableConfigGui.tooltip":"Show the Armor Stand configuration GUI on shift right click",
