@@ -969,7 +969,7 @@
     "actuallyadditions.networking.sync_player_client.failed":"无法将玩家数据从客户端同步到服务器：%s",
     "actuallyadditions.networking.sync_player.failed":"无法将玩家数据从服务器同步到客户端：%s",
     "actuallyadditions.networking.button_to_tile.failed":"未能将按下按钮操作发送至互动程序实体：%s",
-    "actuallyadditions.networking.string_to_tile.failed":"未能将字符串发送到互动程序实体: %s",
+    "actuallyadditions.networking.string_to_tile.failed":"未能将字符串发送到互动程序实体：%s",
     "actuallyadditions.networking.number_to_tile.failed":"未能将数字发送到互动程序实体：%s",
     "actuallyadditions.networking.button_to_container.failed":"未能将按下按钮操作发送至容器：%s",
     "jei.actuallyadditions.coffee.special":"特殊效果",
