@@ -5,15 +5,13 @@
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.12.0 | 维护中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.12.2 | 维护中       |
 
 ---
 
 汉化项目：[Paratranz](https://paratranz.cn/projects/13486)
 
 汉化发布：[VM汉化组官网](https://vmct-cn.top/modpacks/oceanblock2)
-
-项目主管：[荔枝](https://github.com/Litchiiiiii)
 
 译者：[查看贡献者排行榜](https://paratranz.cn/projects/13486/leaderboard)
 

@@ -1,11 +1,11 @@
 {
   "modpack": {
     "name": "FTB Oceanblock 2",
-    "version": "1.12.0",
+    "version": "1.12.2",
     "translation": {
       "url": "https://vmct-cn.top/modpacks/ob2/",
       "language": "zh_cn",
-      "version": "1.12.0",
+      "version": "1.12.2",
       "updateCheckUrl": "https://gitee.com/Wulian233/vmtu/raw/main/update/ob2.txt",
       "resourcePackName": "VM汉化组模组汉化包1.19及以上"
     }
