@@ -64,7 +64,7 @@
     "item.oritechthings.frame_placer":"框架放置器",
     "message.oritechthings.frame_placer.missing_frame":"⚠ 框架放置器：缺失框架 ⚠",
     "tooltip.oritechthings.frame_placer":"Shift Right Click on an Frame compatible Machine \nlike the Destroyer to auto build a Frame structure",
-    "message.exojetpack.energy_low":"§c⚠ Exo Jetpack - Energy Low ⚠",
+    "message.exojetpack.energy_low":"§c⚠ 外骨骼喷气背包 - 能量过低 ⚠",
     "message.oritechthings.frame_placer.wrong_machine":"§c⚠ Not a Frame compatible Machine ⚠",
     "message.oritechthings.frame_placer.not_assembled":"§c⚠ 机器尚未组装 ⚠",
     "message.oritechthings.advanced_target_designator.position_invalid":"⚠ 位置无效 ⚠",
