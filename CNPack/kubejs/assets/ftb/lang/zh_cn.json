@@ -251,5 +251,6 @@
     "sign.ftb.lobby.text.2":"你的旅途",
     "tooltip.ftb.blazing_mesh":"⚠ 仅可用于下界合金洗矿槽！",
     "tooltip.mob_grinding_utils.jumbo_tank":"⚠ 注意：装满的巨型储罐会使你的AE/RS系统卡顿。 ",
-    "tooltip.oritechthings.accelerator_speed_sensor":"ⓘ 有小概率在脉动板条箱内找到"
+    "tooltip.oritechthings.accelerator_speed_sensor":"ⓘ 有小概率在脉动板条箱内找到",
+    "tooltip.ftbstuff.netherite_sluice":"⚠ 注意：需要能量才能工作！"
 }
