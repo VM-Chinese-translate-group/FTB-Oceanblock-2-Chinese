@@ -5,7 +5,7 @@
 
 | FTB官网                                                        | 加载器   | 支持整合包版本 | 汉化维护状态 |
 | :------------------------------------------------------------- | :------- | :------------- | :----------- |
-| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.12.2 | 维护中       |
+| <https://www.feed-the-beast.com/modpacks/128-ftb-oceanblock-2> | Neoforge | mc1.21.1 1.13.1 | 维护中       |
 
 ---
 
