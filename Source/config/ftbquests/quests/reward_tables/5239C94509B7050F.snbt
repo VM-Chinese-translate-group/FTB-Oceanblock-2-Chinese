@@ -1,0 +1,175 @@
+{
+	icon: {
+		id: "justdirethings:creaturecatcher"
+	}
+	id: "5239C94509B7050F"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "0D98314521E9687E", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 5, "minecraft:silk_touch": 1, "minecraft:unbreaking": 3 } } }, count: 1, id: "justdirethings:blazegold_pickaxe" } }
+		{ id: "29533CC83C67E296", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 5, "minecraft:fortune": 3, "minecraft:unbreaking": 3 } } }, count: 1, id: "justdirethings:blazegold_pickaxe" } }
+		{ id: "4D3ECD71ADB0D468", item: { components: { "minecraft:custom_name": "{\"extra\":[{\"strikethrough\":false,\"translate\":\"item.ftb.useless_machine_2\"}],\"italic\":false,\"strikethrough\":true,\"translate\":\"item.ftb.useless_machine_1\"}", "minecraft:lore": ["{\"color\":\"dark_red\",\"italic\":true,\"translate\":\"item.ftb.useless_machine_tooltip\"}"] }, count: 1, id: "justdirethings:paradoxmachine" } }
+		{
+			id: "2D4C71BE94168E66"
+			item: {
+				count: 1
+				id: "justdirethings:creaturecatcher"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6E4BDFAE3E4331E3"
+			item: {
+				count: 1
+				id: "justdirethings:polymorphic_fluid_bucket"
+			}
+			weight: 20.0f
+		}
+		{
+			id: "0835316C91E73103"
+			item: {
+				count: 1
+				id: "justdirethings:time_crystal_cluster_small"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 6
+			id: "597B2436EEAA601B"
+			item: {
+				count: 1
+				id: "justdirethings:goosoil_tier1"
+			}
+			random_bonus: 4
+			weight: 25.0f
+		}
+		{
+			id: "7518DF3C98757755"
+			item: {
+				count: 1
+				id: "justdirethings:polymorphic_wand"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 4
+			id: "76759D34006EC323"
+			item: {
+				count: 1
+				id: "justdirethings:goosoil_tier2"
+			}
+			random_bonus: 4
+			weight: 20.0f
+		}
+		{
+			count: 2
+			id: "5044B9DB97736032"
+			item: {
+				count: 1
+				id: "justdirethings:goosoil_tier3"
+			}
+			random_bonus: 2
+			weight: 15.0f
+		}
+		{
+			count: 2
+			id: "6F8068121ACC8683"
+			item: {
+				count: 1
+				id: "justdirethings:goosoil_tier4"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{
+			count: 5
+			id: "51536DDB72183A55"
+			item: {
+				count: 1
+				id: "justdirethings:template_blazegold"
+			}
+		}
+		{
+			id: "4F14956DF0D328BC"
+			item: {
+				count: 1
+				id: "justdirethings:blockbreakert2"
+			}
+			weight: 2.5f
+		}
+		{
+			id: "2BE712A982076120"
+			item: {
+				count: 1
+				id: "justdirethings:blockbreakert1"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "389778107B8677EB"
+			item: {
+				count: 1
+				id: "justdirethings:energytransmitter"
+			}
+			weight: 6.0f
+		}
+		{
+			id: "3EFE79A196255196"
+			item: {
+				count: 1
+				id: "justdirethings:blazejet_wand"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 4
+			id: "3B61D9EAC32495F1"
+			item: {
+				count: 1
+				id: "justdirethings:coal_t2"
+			}
+			random_bonus: 2
+			weight: 20.0f
+		}
+		{
+			count: 2
+			id: "504769A8CA6B2FAC"
+			item: {
+				count: 1
+				id: "justdirethings:coal_t4"
+			}
+			random_bonus: 4
+			weight: 10.0f
+		}
+		{
+			count: 6
+			id: "79F4D22430968E2D"
+			item: {
+				count: 1
+				id: "justdirethings:coal_t1"
+			}
+			random_bonus: 4
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "16A7602A11F037B6"
+			item: {
+				count: 1
+				id: "justdirethings:blazegold_ingot"
+			}
+			random_bonus: 4
+			weight: 15.0f
+		}
+		{
+			count: 8
+			id: "39E82BBB27100C03"
+			item: {
+				count: 1
+				id: "justdirethings:ferricore_ingot"
+			}
+			random_bonus: 4
+			weight: 20.0f
+		}
+	]
+}

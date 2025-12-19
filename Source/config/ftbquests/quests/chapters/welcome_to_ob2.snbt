@@ -1,0 +1,102 @@
+{
+	autofocus_id: "70A09D5CFC69EA43"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_ob2"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "061E43DCC3E0E302"
+	images: [
+		{
+			height: 5.0d
+			image: "ftb:textures/quests/header_night.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 3.5d
+			image: "chipped:block/spruce_log/planked_spruce_log_top"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: "https://go.ftb.team/discord"
+			height: 1.0d
+			hover: ["image.ftb.discord"]
+			image: "ftbpc:textures/gui/discord.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			click: "https://go.ftb.team/support-modpack"
+			height: 1.0d
+			hover: ["image.ftb.bug"]
+			image: "ftbpc:textures/gui/github.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftb:textures/quests/oceanblock_square.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.3d
+			id: "70A09D5CFC69EA43"
+			min_width: 250
+			rewards: [{
+				id: "233475DD4A971B85"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "7F7994DE4B55D7F6"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2DAA24C99CAB703D"
+			min_width: 300
+			rewards: [{
+				id: "2375ED75D0D34A2D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5A2372373A4356E2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

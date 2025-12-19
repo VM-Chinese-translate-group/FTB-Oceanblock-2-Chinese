@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbquests:item/lootcrate/front"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "40521CF80673B184"
+	loot_size: 1
+	order_index: 7
+	rewards: [{ id: "608E262DE58B8DE6", item: { components: { "ftbquests:loot_crate": "chaos_bundle" }, count: 1, id: "ftbquests:lootcrate" } }]
+	use_title: true
+}

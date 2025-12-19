@@ -1,0 +1,55 @@
+{
+	icon: {
+		id: "ironchest:crystal_chest"
+	}
+	id: "013E6D24561C55E0"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			id: "303A0DDBCBFE3559"
+			item: {
+				count: 1
+				id: "justdirethings:time_crystal"
+			}
+			random_bonus: 2
+		}
+		{ id: "2C4D0BC2633D0BFA", item: { count: 1, id: "justdirethings:eclipsealloy_block" } }
+		{ id: "1CCE5FE63DDB4394", item: { count: 1, id: "justdirethings:upgrade_flight" } }
+		{ id: "09544D4A796AD296", item: { count: 1, id: "justdirethings:upgrade_instabreak" } }
+		{ id: "0204E01F7A8933C4", item: { count: 1, id: "justdirethings:upgrade_deathprotection" } }
+		{ id: "1F4B7B686571555F", item: { count: 1, id: "justdirethings:portalgun_v2" } }
+		{ id: "4C9CC9AEB5EA9139", item: { count: 1, id: "justdirethings:time_wand" } }
+		{ id: "5B86F3B118764417", item: { count: 1, id: "megacells:cell_component_256m" } }
+		{
+			count: 4
+			id: "782C277431CA3A14"
+			item: {
+				count: 1
+				id: "oritech:machine_core_7"
+			}
+			random_bonus: 4
+		}
+		{ id: "20DA5494340C98DB", item: { count: 1, id: "ars_nouveau:creative_source_jar" } }
+		{ id: "2829A42737C9DAC6", item: { count: 1, id: "nautec:creative_power_source" } }
+		{ id: "022FA843CEE7653A", item: { count: 1, id: "mininggadgets:upgrade_battery_creative" } }
+		{ id: "5900AEFDB18AA61B", item: { count: 1, id: "bigreactors:reinforced_turbinecreativesteamgenerator" } }
+		{ id: "69373351B4BC00E1", item: { count: 1, id: "ae2:creative_energy_cell" } }
+		{ id: "3313227759D50C69", item: { count: 1, id: "advanced_ae:quantum_helmet" } }
+		{ id: "5E3FB23C17274D9D", item: { count: 1, id: "advanced_ae:quantum_chestplate" } }
+		{ id: "3A297C631EDD1BCF", item: { count: 1, id: "advanced_ae:quantum_leggings" } }
+		{ id: "43459EBEE2A583F9", item: { count: 1, id: "advanced_ae:quantum_boots" } }
+		{ id: "3C3E0ED70C37CD6F", item: { count: 1, id: "advanced_ae:quantum_crafter" } }
+		{
+			count: 3
+			id: "6670C7D7A49E3813"
+			item: {
+				count: 1
+				id: "oritech:prometheum_ingot"
+			}
+			random_bonus: 3
+		}
+		{ id: "25445314156B5DBE", item: { count: 1, id: "oritech:heisenberg_compensator" } }
+	]
+	use_title: true
+}

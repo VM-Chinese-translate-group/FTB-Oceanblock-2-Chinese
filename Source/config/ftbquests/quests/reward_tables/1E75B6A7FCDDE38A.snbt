@@ -1,0 +1,92 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:loot_crate": "adventurer_bundle"
+		}
+		id: "ftbquests:lootcrate"
+	}
+	id: "1E75B6A7FCDDE38A"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.ftb.common_reward"
+		string_id: "common_reward"
+	}
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 2
+			id: "0E08BBAFBE0330F5"
+			item: {
+				count: 1
+				id: "minecraft:ender_pearl"
+			}
+			random_bonus: 2
+		}
+		{ id: "01D66872F7BF8AC1", item: { count: 1, id: "gag:energized_hearthstone" } }
+		{ id: "0E4BB17EF1EB7C19", item: { count: 1, id: "sophisticatedbackpacks:magnet_upgrade" } }
+		{ id: "41C265F4C3902721", item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" } }
+		{ id: "31A5216230CA746D", item: { count: 1, id: "sophisticatedbackpacks:void_upgrade" } }
+		{ id: "768AA05DE0EFCB73", item: { count: 1, id: "sophisticatedbackpacks:everlasting_upgrade" } }
+		{ id: "2D41911404C9F5DE", item: { count: 1, id: "ironchest:gold_chest" } }
+		{ id: "0DCBA0D54C1624EE", item: { count: 1, id: "ironchest:diamond_chest" } }
+		{ id: "317174642CC8EED0", item: { count: 1, id: "justdirethings:itemcollector" } }
+		{ id: "215A1B8D45E554D3", item: { components: { "apothic_attributes:bonus_attribute_modifiers": { modifiers: [{ amount: 2.0d, id: "apothic_attributes:command_generated_-1389872303", operation: "add_value", slot: "feet", type: "neoforge:swim_speed" }] }, "minecraft:custom_name": "{\"translate\":\"item.ftb.swimming_slippers\"}" }, count: 1, id: "nautec:diving_boots" } }
+		{
+			count: 2
+			id: "7D185C2261A8378E"
+			item: {
+				count: 1
+				id: "justdirethings:blockswappert1"
+			}
+		}
+		{ id: "3AF7FE315023189E", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:gold", "irons_jewelry:gem_round": "irons_jewelry:lapis" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.lapis\"},{\"translate\":\"material.irons_jewelry.gold\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "272A2D0AEDF40094", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:gold", "irons_jewelry:gem_round": "irons_jewelry:garnet" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.gold\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "6DB97EF5B885D61F", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:gold", "irons_jewelry:gem_round": "irons_jewelry:ruby" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.ruby\"},{\"translate\":\"material.irons_jewelry.gold\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "04CEFFA76200707F", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:gold", "irons_jewelry:gem_simple_amulet": "irons_jewelry:lapis" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.lapis\"},{\"translate\":\"material.irons_jewelry.gold\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "09F7A4119C344F26", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:gold", "irons_jewelry:gem_simple_amulet": "irons_jewelry:garnet" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.gold\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "3C3B48EEBF230633", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:gold", "irons_jewelry:gem_simple_amulet": "irons_jewelry:ruby" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.ruby\"},{\"translate\":\"material.irons_jewelry.gold\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "444FB89571016CD6", item: { components: { "ftbquests:loot_crate": "chaos_bundle" }, count: 1, id: "ftbquests:lootcrate" } }
+		{ id: "09FD9E06DA4156B8", item: { count: 1, id: "mekanism:cardboard_box" } }
+		{ id: "722BF2FD145021C5", item: { components: { "gateways:gateway": "gateways:basic/enderman" }, count: 1, id: "gateways:gate_pearl" } }
+		{ id: "18B61DD246BF0B05", item: { components: { "gateways:gateway": "gateways:hellish_fortress" }, count: 1, id: "gateways:gate_pearl" } }
+		{
+			count: 2
+			id: "63A485358308D678"
+			item: {
+				count: 1
+				id: "mob_grinding_utils:saw_upgrade_looting"
+			}
+		}
+		{ id: "6805C96F9F71BA7A", item: { count: 1, id: "justdirethings:blazejet_wand" } }
+		{ id: "6546115F7987C0CE", item: { count: 1, id: "mob_grinding_utils:golden_egg" } }
+		{ id: "6AEC9AB2AB0C9E5F", item: { count: 1, id: "mob_grinding_utils:rotten_egg" } }
+		{ id: "0F7A32D0A419944A", item: { count: 1, id: "ars_nouveau:warp_scroll" } }
+		{
+			count: 2
+			id: "5791EF9179F2850B"
+			item: {
+				count: 1
+				id: "ftb:abyssal_fragment"
+			}
+			random_bonus: 2
+		}
+		{ id: "203564D178B63C77", item: { count: 1, id: "oritech:machine_efficiency_addon" } }
+		{ id: "1C1EF04B6AC3A113", item: { count: 1, id: "oritech:machine_speed_addon" } }
+		{ id: "33A2F62B344C77C2", item: { components: { "ftbquests:loot_crate": "random_relic_chest" }, count: 1, id: "ftbquests:lootcrate" } }
+		{ id: "5587FF7C62BCECFF", item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 95.45672d }, distance: { initialValue: 818.9798d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:magic_mirror" } }
+		{ id: "6A35CD8145E3C9A1", item: { components: { "minecraft:stored_enchantments": { levels: { "soulbound:soulbound": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "7582A0A5569C245E", item: { count: 1, id: "constructionstick:netherite_stick" } }
+		{ id: "6D781A087EC6E109", item: { count: 1, id: "constructionstick:template_unbreakable" } }
+		{ id: "5A698BEDA381FE41", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_1" } }
+		{ id: "27B25F1E6209D936", item: { count: 1, id: "sophisticatedbackpacks:stack_upgrade_tier_2" } }
+		{ id: "45F1430F1258EB8C", item: { count: 1, id: "oritech:exo_helmet" } }
+	]
+	use_title: true
+}

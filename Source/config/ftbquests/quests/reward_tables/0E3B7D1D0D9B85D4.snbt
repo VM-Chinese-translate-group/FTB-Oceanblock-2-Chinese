@@ -1,0 +1,41 @@
+{
+	hide_tooltip: true
+	id: "0E3B7D1D0D9B85D4"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			count: 4
+			id: "5207368736A42BD7"
+			item: {
+				count: 1
+				id: "ftb:food_canned_fruit_open"
+			}
+		}
+		{
+			count: 4
+			id: "5808A4E2F23EF41D"
+			item: {
+				count: 1
+				id: "ftb:food_canned_veggies_open"
+			}
+		}
+		{
+			count: 4
+			id: "58F6FCED51BCED68"
+			item: {
+				count: 1
+				id: "ftb:food_canned_meat_open"
+			}
+		}
+		{
+			count: 4
+			id: "57A9D11D5108A65F"
+			item: {
+				count: 1
+				id: "ftb:food_canned_stew_open"
+			}
+		}
+	]
+	use_title: true
+}

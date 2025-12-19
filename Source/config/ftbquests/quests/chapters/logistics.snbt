@@ -1,0 +1,981 @@
+{
+	autofocus_id: "144C5D1E71A070F7"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "logistics"
+	group: "26835947166CBCA2"
+	icon: {
+		components: {
+			"ftbquests:icon": "laserio:item/laser_wrench"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7F56138A835F29C1"
+	images: [
+		{
+			height: 7.0d
+			image: "ftbquests:tasks/input_only"
+			order: -3
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "ftb:textures/quests/logistics_logo.png"
+			rotation: 0.0d
+			width: 13.410526315789474d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			alpha: 100
+			height: 5.5d
+			image: "chipped:block/sea_lantern/framed_sea_lantern"
+			order: -2
+			rotation: 0.0d
+			width: 5.5d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [{
+		id: "144C5D1E71A070F7"
+		linked_quest: "38FBC8ECE9138452"
+		shape: "hexagon"
+		size: 1.5d
+		x: 0.0d
+		y: -2.5d
+	}]
+	quests: [
+		{
+			id: "64E34B2DA32D3586"
+			optional: true
+			rewards: [{
+				id: "4854FCE72EAB7A42"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "1F380E6DD3CF799C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1DA78BAB2A6E2C82"
+			min_width: 300
+			rewards: [{
+				id: "30B653FBB4A1899E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "59380FA7D32F0E39"
+				item: { count: 1, id: "enderio:yeta_wrench" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DA78BAB2A6E2C82"]
+			id: "2FCED22162B00429"
+			rewards: [{
+				id: "46E9FDC252192E98"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0DBD5E7EFC265BCC"
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DA78BAB2A6E2C82"]
+			id: "3C0D9DFFEC915E2C"
+			rewards: [{
+				id: "6B6F3B559D4737FC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "07CEFA47255C447E"
+				item: { components: { "enderio:conduit": "enderio:fluid" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DA78BAB2A6E2C82"]
+			id: "366F506F69C65F28"
+			rewards: [{
+				id: "5F606ECA157BDAE6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "28A68759FAFC4945"
+				item: { components: { "enderio:conduit": "enderio:item" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1DA78BAB2A6E2C82"]
+			id: "408165388CBC4556"
+			rewards: [{
+				id: "278C5F5EBEBCEA01"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "75294CDC597324CD"
+				item: { components: { "enderio:conduit": "enderio:chemical" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "1ABA5F2ECAA6D9D2"
+			min_width: 300
+			rewards: [{
+				id: "3BC9135C5B67AA8E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "54388D97FCF2952D"
+				item: { count: 1, id: "mekanism:configurator" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ABA5F2ECAA6D9D2"]
+			disable_toast: true
+			icon: {
+				id: "mekanism:ultimate_universal_cable"
+			}
+			id: "06C012946C919F68"
+			rewards: [{
+				id: "157DF2D6F01D6B59"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "32FB3083ABF6FFB4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ABA5F2ECAA6D9D2"]
+			icon: {
+				id: "mekanism:ultimate_pressurized_tube"
+			}
+			id: "4ECDF58A8FB43590"
+			rewards: [{
+				id: "258D6A64ED561218"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "39F659B8811B8581"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1ABA5F2ECAA6D9D2"]
+			icon: {
+				id: "mekanism:ultimate_mechanical_pipe"
+			}
+			id: "0B27B02715F61690"
+			rewards: [{
+				id: "3BE140DD6B0B2F6C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4F3BD1ECA2A53285"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1ABA5F2ECAA6D9D2"]
+			icon: {
+				id: "mekanism:ultimate_logistical_transporter"
+			}
+			id: "344A14365BC03575"
+			rewards: [{
+				id: "0EFA6599A48AAC7B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "71E7DDA8A2BC8D5A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "integrateddynamics:wrench"
+			}
+			id: "2AF7DF42143C5443"
+			rewards: [{
+				id: "3383D2DD34BABB97"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "38FF7E08D002F473"
+					item: { count: 1, id: "integrateddynamics:wrench" }
+					type: "item"
+				}
+				{
+					id: "65DFABBC9D761B05"
+					item: { count: 1, id: "integrateddynamics:cable" }
+					type: "item"
+				}
+				{
+					id: "29F9D78EAC791E63"
+					item: { count: 1, id: "integrateddynamics:variable" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF7DF42143C5443"]
+			icon: {
+				id: "integratedtunnels:part_interface_energy"
+			}
+			id: "2A1AE478A678C1A9"
+			optional: true
+			rewards: [{
+				id: "74DCF4447EB47F19"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "47D8C7FA6B20667B"
+					item: { count: 1, id: "integratedtunnels:part_interface_energy" }
+					type: "item"
+				}
+				{
+					id: "1A7CBC00CF2909ED"
+					item: { count: 1, id: "integratedtunnels:part_exporter_energy" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A7A0BFC219C5861"
+					item: { count: 1, id: "integratedtunnels:part_importer_energy" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF7DF42143C5443"]
+			icon: {
+				id: "integratedtunnels:part_interface_item"
+			}
+			id: "4D8644BC9308E349"
+			optional: true
+			rewards: [{
+				id: "1430D8ED8FA740CD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "6FEFC9253CA76761"
+					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					type: "item"
+				}
+				{
+					id: "0E6321F0765A6BAE"
+					item: { count: 1, id: "integratedtunnels:part_exporter_item" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E89EF245CB6A77D"
+					item: { count: 1, id: "integratedtunnels:part_importer_item" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF7DF42143C5443"]
+			icon: {
+				id: "integratedtunnels:part_interface_fluid"
+			}
+			id: "40255F6F1C60B588"
+			optional: true
+			rewards: [{
+				id: "078901B89FD1BFEB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "0445CF65CEBCEC6C"
+					item: { count: 1, id: "integratedtunnels:part_interface_fluid" }
+					type: "item"
+				}
+				{
+					id: "7AF0AD20A5B068B9"
+					item: { count: 1, id: "integratedtunnels:part_exporter_fluid" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C66EEA4AD579142"
+					item: { count: 1, id: "integratedtunnels:part_importer_fluid" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "laserio:laser_wrench"
+			}
+			id: "5778BAEC8F095B3D"
+			min_width: 300
+			rewards: [{
+				id: "009C84B66C813130"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "16E7273CEE3D68C0"
+					item: { count: 1, id: "laserio:laser_wrench" }
+					type: "item"
+				}
+				{
+					id: "5F5F4FD11872B885"
+					item: { count: 1, id: "laserio:laser_node" }
+					type: "item"
+				}
+				{
+					id: "5794DE5BAB0F304A"
+					item: { count: 1, id: "laserio:laser_connector" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5778BAEC8F095B3D"]
+			id: "2061FEEF44253E13"
+			rewards: [{
+				id: "6541AA59AB6181C9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "651A317C6DE47369"
+				item: { count: 1, id: "laserio:card_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5778BAEC8F095B3D"]
+			id: "163228798680D7ED"
+			rewards: [{
+				id: "527087B78AB183F1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "47A12A4431A8E6DE"
+				item: { count: 1, id: "laserio:card_fluid" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5778BAEC8F095B3D"]
+			id: "4D21DB3EC7424E9A"
+			rewards: [{
+				id: "030F94085823B7BB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "176DF1BF495CD234"
+				item: { count: 1, id: "laserio:card_energy" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5778BAEC8F095B3D"]
+			id: "5CA5F9BE51C24FC8"
+			rewards: [{
+				id: "455AC55039AC8102"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "483D029983C69BA1"
+				item: { count: 1, id: "laserio:card_redstone" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5778BAEC8F095B3D"]
+			id: "6E62CF3784A15E0F"
+			rewards: [{
+				id: "00CC68D561AA386C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6A395BAE50CD4F6D"
+				item: { count: 1, id: "laserio:card_chemical" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "38869642A2E6F8B6"
+			min_width: 250
+			rewards: [{
+				id: "24E857F2E4674DAA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "1BD0D325FCF7B9E4"
+				item: { count: 1, id: "modularrouters:modular_router" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			icon: {
+				id: "modularrouters:energy_output_module"
+			}
+			id: "4348D85E3DB176E2"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "4316B7200BC93BCA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6BBF110D76FBDDC7"
+					item: { count: 1, id: "modularrouters:energy_upgrade" }
+					type: "item"
+				}
+				{
+					id: "64404B09E2B8E97C"
+					item: { count: 1, id: "modularrouters:energy_output_module" }
+					type: "item"
+				}
+				{
+					id: "1AB64F964808D2F0"
+					item: { count: 1, id: "modularrouters:energy_distributor_module" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			icon: {
+				id: "modularrouters:sender_module_1"
+			}
+			id: "393850960DC22BB1"
+			min_width: 300
+			rewards: [{
+				id: "648B935C05C41127"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4058121698D0D42C"
+					item: { count: 1, id: "modularrouters:sender_module_1" }
+					type: "item"
+				}
+				{
+					id: "20D3FD7880D114A4"
+					item: { count: 1, id: "modularrouters:distributor_module" }
+					type: "item"
+				}
+				{
+					id: "4D5D781AA9CAE60E"
+					item: { count: 1, id: "modularrouters:puller_module_1" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			id: "1F2E5FBD59466D57"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "61B462222BD799A5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4BFA3243A27E95D7"
+				item: { count: 1, id: "modularrouters:fluid_module" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			id: "745140E3D92CB0D6"
+			min_width: 215
+			optional: true
+			rewards: [{
+				id: "5EE1F6E98FA57301"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5D733131C1727C37"
+				item: { count: 1, id: "modularrouters:breaker_module" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			id: "799515068A0B6D57"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "6F24F81D846350DC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0530F7E8DA9BE070"
+				item: { count: 1, id: "modularrouters:activator_module" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			id: "314E9901D4E89E6F"
+			optional: true
+			rewards: [{
+				id: "567434881BF9F800"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "246733EA4BF9D11F"
+				item: { count: 1, id: "modularrouters:detector_module" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			icon: {
+				id: "modularrouters:speed_upgrade"
+			}
+			id: "1F6FE0AAF690665D"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "32D8545241DEA2A3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1E39008CDA57F297"
+					item: { count: 1, id: "modularrouters:speed_upgrade" }
+					type: "item"
+				}
+				{
+					id: "5E968388DC890F27"
+					item: { count: 1, id: "modularrouters:stack_upgrade" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["38869642A2E6F8B6"]
+			icon: {
+				id: "modularrouters:vacuum_module"
+			}
+			id: "0ED940DF43A934ED"
+			optional: true
+			rewards: [{
+				id: "00CD508503CEBE66"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5727F8E549D29AE5"
+					item: { count: 1, id: "modularrouters:vacuum_module" }
+					type: "item"
+				}
+				{
+					id: "4088727719586848"
+					item: { count: 1, id: "modularrouters:fast_pickup_augment" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1DA78BAB2A6E2C82"]
+			id: "1739969280BB4E82"
+			rewards: [{
+				id: "027275E9E489FFF4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "64FED31153CFA9BE"
+				item: { components: { "enderio:conduit": "enderio:redstone" }, count: 1, id: "enderio:conduit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "fluxnetworks:flux_configurator"
+			}
+			icon_scale: 1.5d
+			id: "34D191F76AA69707"
+			min_width: 300
+			rewards: [{
+				id: "6E40835F9209D366"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "0B1B2282DAF31E31"
+					item: { count: 1, id: "fluxnetworks:flux_dust" }
+					type: "item"
+				}
+				{
+					id: "598EF218472FB269"
+					item: { count: 1, id: "fluxnetworks:flux_configurator" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["34D191F76AA69707"]
+			id: "74BED9604BDE1EA5"
+			min_width: 250
+			optional: true
+			rewards: [{
+				id: "6424A682244928FB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				icon: {
+					id: "fluxnetworks:gargantuan_flux_storage"
+				}
+				id: "74DF2C8885B6405A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(fluxnetworks:basic_flux_storage)item(fluxnetworks:herculean_flux_storage)item(fluxnetworks:gargantuan_flux_storage))", "minecraft:custom_name": "\"Energy Storage\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34D191F76AA69707"]
+			icon: {
+				id: "fluxnetworks:flux_plug"
+			}
+			id: "61D79267453CA30C"
+			min_width: 250
+			rewards: [{
+				id: "5BE42D5C589EFE11"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5C02D74FA069299B"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					id: "6E634520A324EEBE"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["34D191F76AA69707"]
+			id: "6D5905345348ABEF"
+			min_width: 250
+			rewards: [{
+				id: "3C63356B06BCCE3E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "706B296079D24F19"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["34D191F76AA69707"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/ping_4.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "583FFE29C881EE8C"
+			min_width: 300
+			rewards: [{
+				id: "56D58D075AD6E6D3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "36D4CF12BC70DBDD"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "0B8D86A064C7FA56"
+			rewards: [{
+				id: "30AB4A345C3583A7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "0E0C179476C28F89"
+				item: { count: 1, id: "oritech:wrench" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0B8D86A064C7FA56"]
+			id: "326B0543AEBFCF32"
+			rewards: [{
+				id: "386451582583189F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "61CAA3A01D0B7BB0"
+				item: { count: 1, id: "oritech:fluid_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0B8D86A064C7FA56"]
+			icon: {
+				id: "oritech:energy_pipe"
+			}
+			id: "3BFDDF7D74E4D93F"
+			rewards: [{
+				id: "195F1DCE284C531D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0D0C714CC83D88EC"
+					item: { count: 1, id: "oritech:energy_pipe" }
+					type: "item"
+				}
+				{
+					id: "756CE0E884382A2F"
+					item: { count: 1, id: "oritech:superconductor" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0B8D86A064C7FA56"]
+			id: "0319451F474043A2"
+			rewards: [{
+				id: "07A3CFF113317DEF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2BB0534DB931583E"
+				item: { count: 1, id: "oritech:item_pipe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B8D86A064C7FA56"]
+			id: "44FE5A6E3A857A01"
+			rewards: [{
+				id: "24C43DB6641C756C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "255B4EC2F62B151F"
+				item: { count: 1, id: "oritech:pipe_booster_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2AF7DF42143C5443"]
+			id: "04DA6581C64FFF5F"
+			rewards: [{
+				id: "0E878DCC999FBBC4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4B74087ABA22A630"
+				item: { count: 1, id: "integratedterminals:part_terminal_storage" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+}

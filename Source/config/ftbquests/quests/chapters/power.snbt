@@ -1,0 +1,309 @@
+{
+	autofocus_id: "1C58933205E5C96D"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "power"
+	group: "3E2F3CB1CB8F9537"
+	icon: {
+		components: {
+			"ftbquests:icon": "modularrouters:item/upgrade/energy_upgrade"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "391B65CD04A90459"
+	images: [
+		{
+			height: 2.0d
+			image: "ae2:block/molecular_assembler_lights"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "ae2:block/mysterious_cube_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			color: 2631720
+			height: 2.0d
+			image: "easy_piglins:block/bottom_frame"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/quests/power_logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "modularrouters:item/upgrade/energy_upgrade"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			image: "modularrouters:item/upgrade/energy_upgrade"
+			order: -1
+			rotation: -90.0d
+			width: 2.0d
+			x: -2.0d
+			y: -0.65d
+		}
+		{
+			height: 3.5d
+			hover: ["Induction Matrix"]
+			image: "ftb:textures/quests/mekanism/induction.png"
+			rotation: 0.0d
+			width: 3.3373173970783534d
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			color: 16733695
+			height: 2.0d
+			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [
+		{
+			id: "11F28A95EE9B5F02"
+			linked_quest: "4843F5564CA5810C"
+			shape: "hexagon"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			id: "07A519E3163AACC8"
+			linked_quest: "3CADD463CFC2FE32"
+			shape: "hexagon"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "605E2D4DD1B4070B"
+			linked_quest: "648083DCC5BDF216"
+			shape: "hexagon"
+			x: -2.5d
+			y: 2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7ED140018EF78C38"]
+			icon: {
+				id: "justdirethings:generatorfluidt1"
+			}
+			id: "63C6CCD277C86EF4"
+			rewards: [
+				{
+					id: "6B37C9D12068B1E4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0743000CC36B8F07"
+					table_id: 785854764447549437L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "66A2DBBF810EFD69"
+					item: { count: 1, id: "justdirethings:generatorfluidt1" }
+					type: "item"
+				}
+				{
+					id: "41F84CFCEEB9726B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:refined_t2_fluid_bucket)item(justdirethings:refined_t3_fluid_bucket)item(justdirethings:refined_t4_fluid_bucket))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"48A82982DE38D228"
+				"1045256B6D1C73CD"
+			]
+			id: "30C2F5DF2A084982"
+			rewards: [
+				{
+					id: "292200F42D330E07"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17EB13CB112D16A3"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "54FCF281A68F9052"
+				item: { count: 1, id: "oritech:fuel_generator_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76B2ADCA34E95BAD"]
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+			}
+			id: "01DE0E7147DBDDE1"
+			rewards: [
+				{
+					id: "708FA0B77D88A1CD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "590127443E152F62"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "02A144087D09BAF5"
+					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "21C1014C0DD6206C"
+					item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["212155506A40BA41"]
+			hide_dependency_lines: true
+			id: "7696CBA26A4A220E"
+			rewards: [
+				{
+					id: "5D55F95A72AE4AC5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B328C0752ABFB29"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0D0E1B9CAEED0037"
+				item: { count: 1, id: "oritech:big_solar_panel_block" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["619CA9553F525040"]
+			id: "1045256B6D1C73CD"
+			rewards: [
+				{
+					id: "36E9B208F814B765"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "114358A0203E49DC"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "56EE85CBF73B7696"
+				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76B2ADCA34E95BAD"]
+			id: "4FF1C456DC2A08C4"
+			rewards: [
+				{
+					id: "1B8CB7D575309E81"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FFA62259E01FD45"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "77525153C78FB247"
+				item: { count: 1, id: "oritech:reactor_controller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FD9B331E6CD9BDE"]
+			icon: {
+				id: "oritech:steam_engine_block"
+			}
+			id: "1C58933205E5C96D"
+			rewards: [{
+				id: "7E34F2D0247AA904"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5AAC61AE69FC0089"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

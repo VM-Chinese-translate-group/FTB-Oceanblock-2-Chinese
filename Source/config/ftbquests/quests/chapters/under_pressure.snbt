@@ -1,0 +1,737 @@
+{
+	autofocus_id: "002F7856E1F4F86F"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "under_pressure"
+	group: "1082D352D1CC13F4"
+	icon: {
+		id: "pnc_ocean_addons:depth_upgrade_1"
+	}
+	id: "2D4BDD06393E56E1"
+	images: [{
+		height: 2.0d
+		image: "relics:item/aqua_walker_bubble"
+		rotation: 0.0d
+		width: 2.0d
+		x: -4.0d
+		y: -4.0d
+	}]
+	order_index: 2
+	quest_links: [{
+		id: "002F7856E1F4F86F"
+		linked_quest: "7C431927B89A9590"
+		shape: "gear"
+		size: 2.0d
+		x: -4.0d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			dependencies: ["48A82982DE38D228"]
+			icon: {
+				id: "oritech:laser_arm_block"
+			}
+			id: "2FF4717777A2EFEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3222CDDE962BE8C1"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "02C03AEA02A10DCB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2DAE23174E09E29E"
+					item: { count: 1, id: "oritech:laser_arm_block" }
+					type: "item"
+				}
+				{
+					id: "52A6935C39F7D45F"
+					item: { count: 1, id: "oritech:target_designator" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "195CDF17B856A3BF"
+					item: { count: 1, id: "oritech:fluxite" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EE32B2BE71B90AE"]
+			id: "07B0C76DFA277DAF"
+			rewards: [
+				{
+					id: "63D0DCF643DD583E"
+					item: {
+						count: 1
+						id: "oritech:machine_core_4"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2FFD9740CF390350"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "349F67B2E07F4A2D"
+				item: { count: 1, id: "oritech:enderic_compound" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["212155506A40BA41"]
+			id: "0A0DDECA61681E6E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5274E5A62D1974AC"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "4674E308E185F096"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "134ED633961EA83C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "chaos_bundle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "366CDD79C2D07926"
+					team_reward: false
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "4E2080B4978E2627"
+				item: { count: 1, id: "pnc_ocean_addons:depth_upgrade_2" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"619CA9553F525040"
+				"41114A3FA46FF7D9"
+			]
+			id: "1AF8DB4E0B3BE3ED"
+			rewards: [
+				{
+					count: 2
+					id: "1E49C1A213C101FB"
+					item: {
+						count: 1
+						id: "justdirethings:gooblock_tier1"
+					}
+					type: "item"
+				}
+				{
+					id: "582AC185577E92A5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F11B7C43AB48B41"
+				item: { count: 1, id: "justdirethings:gooblock_tier3" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/sculk"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1EE32B2BE71B90AE"
+			rewards: [
+				{
+					count: 4
+					id: "64BEE7B950F4412D"
+					item: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "45204A304E80157E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "666BCB58670CFC1B"
+				item: { count: 1, id: "minecraft:sculk" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1AF8DB4E0B3BE3ED"
+				"79D6F1D02DBB5B6E"
+				"38EA9FAD11870423"
+			]
+			icon: {
+				id: "justdirethings:gooblock_tier4"
+			}
+			id: "7993F4FA33E2B958"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "63CA7E7BC3633D95"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "4B5843D505BFE28E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "48689810CF6131D5"
+					item: { count: 1, id: "justdirethings:gooblock_tier4" }
+					type: "item"
+				}
+				{
+					id: "2DDEA053E944597B"
+					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"76B2ADCA34E95BAD"
+				"07B0C76DFA277DAF"
+				"79D6F1D02DBB5B6E"
+			]
+			id: "48A82982DE38D228"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57C87E01C2002EB4"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "01D3278830671DE3"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "39CF8C8470CAB23E"
+				item: { count: 1, id: "oritech:enderic_lens" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			icon: {
+				id: "ae2:mysterious_cube"
+			}
+			id: "3C68BDD7D3C09412"
+			rewards: [
+				{
+					id: "784406E79425E05D"
+					item: {
+						count: 1
+						id: "ae2:flawless_budding_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "255E031F5148A1FA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					icon: {
+						id: "ae2:mysterious_cube"
+					}
+					id: "410607ED10D1790A"
+					observe_type: 0
+					timer: 0L
+					to_observe: "ae2:mysterious_cube"
+					type: "observation"
+				}
+				{
+					id: "6340080EEA93A327"
+					item: { count: 1, id: "ae2:sky_stone_block" }
+					type: "item"
+				}
+				{
+					id: "3F1F8BD8CBCDFB84"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			id: "43C1ECB8F2112CDF"
+			rewards: [
+				{
+					id: "39429BBFAFBD060A"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_cluster"
+					}
+					type: "item"
+				}
+				{
+					id: "6879E42200201B60"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5D854EC179167280"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1EE32B2BE71B90AE"
+				"43C1ECB8F2112CDF"
+			]
+			id: "79D6F1D02DBB5B6E"
+			rewards: [
+				{
+					id: "6563A2A63752026B"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1F6C8847A638524C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "311F63D9A987D289"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			icon: {
+				id: "ftb:nautical_eye"
+			}
+			id: "23C901E3B4AC916D"
+			rewards: [
+				{
+					id: "2484880176709D4F"
+					item: {
+						count: 1
+						id: "nautec:crowbar"
+					}
+					type: "item"
+				}
+				{
+					id: "6B467BB3050EA7AD"
+					item: {
+						count: 1
+						id: "nautec:nautec_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "591E0F7D5949CFAE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "21B64832FA66F4DD"
+				item: { count: 1, id: "ftb:nautical_eye" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23C901E3B4AC916D"]
+			icon: {
+				id: "nautec:aquatic_catalyst"
+			}
+			id: "61C490B6BBED73DC"
+			rewards: [
+				{
+					id: "055F9B623B7D83C7"
+					item: {
+						count: 1
+						id: "nautec:aquatic_catalyst"
+					}
+					type: "item"
+				}
+				{
+					id: "2ED6183AD1B257D2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "0293E0C0F7FC32EF"
+				item: { count: 1, id: "nautec:aquatic_catalyst" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/mob_effect/haste.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "693320A7F24F202C"
+			rewards: [
+				{
+					id: "1C8543A867AC03B9"
+					item: {
+						components: {
+							"irons_jewelry:jewelry_data": {
+								parts: {
+									"irons_jewelry:band_gem": "irons_jewelry:lead"
+									"irons_jewelry:gem_round": "irons_jewelry:garnet"
+								}
+								pattern: "irons_jewelry:gemset_ring"
+							}
+							"minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.lead\"}]}"
+						}
+						count: 1
+						id: "irons_jewelry:ring"
+					}
+					type: "item"
+				}
+				{
+					id: "2B67EBC586777ECA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "214F322313DAA976"
+					type: "checkmark"
+				}
+				{
+					id: "3EC165E92E0A5635"
+					item: { components: { "ftbfiltersystem:filter": "or(item(irons_jewelry:jewelcrafting_station)item(mininggadgets:mininggadget_simple)item(ars_nouveau:novice_spell_book))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2CFD9B1806BB52F0"]
+			id: "53C9142F41A30AF5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4181F7FF9C0D4F6D"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "302BBC46067D6BED"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4E21920CA0F3BF25"
+				item: { count: 1, id: "explorerscompass:explorerscompass" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["61C490B6BBED73DC"]
+			icon: {
+				id: "nautec:aquarine_steel_ingot"
+			}
+			id: "2CFD9B1806BB52F0"
+			rewards: [
+				{
+					id: "2DC02AB8DB8230DD"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "01FC5AC768F043DF"
+					item: {
+						count: 1
+						id: "nautec:laser_junction"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "610E38A3B4EDFDBE"
+					item: { count: 1, id: "nautec:aquarine_steel_compound" }
+					type: "item"
+				}
+				{
+					id: "72A0270B65FE83F2"
+					item: { count: 1, id: "nautec:aquarine_steel_ingot" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CFD9B1806BB52F0"]
+			id: "619CA9553F525040"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31809CD42FA5EC10"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "06BEC4ADC57C628B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "520F20D935671A8F"
+				item: { count: 1, id: "nautec:mixer" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["212155506A40BA41"]
+			id: "090C216FD86DFF95"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "170227CCC3F15C38"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "1CECB22969AAFC92"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "085F40211347D454"
+				item: { count: 1, id: "oritech:fragment_forge_block" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7993F4FA33E2B958"]
+			icon: {
+				id: "ftbmaterials:platinum_ingot"
+			}
+			id: "156F1911B93FA2A0"
+			rewards: [
+				{
+					id: "1CB22291D4690E7E"
+					item: {
+						count: 1
+						id: "justdirethings:refined_t4_fluid_bucket"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35902768FABBAA9E"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "082F87C11430C1C7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2ED74DD0F4ABB9DC"
+					item: { count: 1, id: "ftbmaterials:platinum_raw_ore" }
+					type: "item"
+				}
+				{
+					id: "2E50860DB714E0E7"
+					item: { count: 1, id: "ftbmaterials:platinum_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"156F1911B93FA2A0"
+				"2FF4717777A2EFEC"
+			]
+			id: "212155506A40BA41"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45760D609D807C4F"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "1FE4CFBC9819B561"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4121AF9D0C94C063"
+				item: { count: 1, id: "oritech:flux_gate" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			hide_dependency_lines: true
+			icon: {
+				id: "extendedcrafting:ender_star"
+			}
+			id: "38EA9FAD11870423"
+			rewards: [
+				{
+					id: "6E8A49C9FBD4A5F3"
+					item: {
+						count: 1
+						id: "extendedcrafting:ender_star"
+					}
+					type: "item"
+				}
+				{
+					id: "19A732CB6E0813DF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 2
+					id: "1845F0818E40C0FE"
+					item: {
+						count: 1
+						id: "mysticalagradditions:withering_soul"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3770A1C6269F5616"
+					item: { count: 1, id: "extendedcrafting:ender_crafter" }
+					type: "item"
+				}
+				{
+					id: "119B52051AAB3848"
+					item: { count: 1, id: "extendedcrafting:ender_alternator" }
+					type: "item"
+				}
+				{
+					id: "221E7459E2A33398"
+					item: { count: 1, id: "extendedcrafting:ender_star" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+}

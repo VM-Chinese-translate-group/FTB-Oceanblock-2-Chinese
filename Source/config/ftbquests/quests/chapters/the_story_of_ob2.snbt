@@ -1,0 +1,460 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: "hexagon"
+	filename: "the_story_of_ob2"
+	group: ""
+	icon: {
+		id: "minecraft:writable_book"
+	}
+	id: "2214CC9FC9A1EA7A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "722E213A3A4FD26B"
+			tasks: [{
+				id: "3EF560ABB680926C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4CD72CD5BEF64E24"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/campfire_fire"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5CA6809074DCA551"
+			rewards: [{
+				id: "7960D4E41A8F81AA"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log1"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "676CCF6511031CB3"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["66E3E6C2AE15DB9A"]
+			icon: {
+				id: "ftbstuff:white_barrel"
+			}
+			id: "2E919C741282C30B"
+			rewards: [{
+				id: "29B239056E1749CB"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log2"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "22F3392195920FE1"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["62B2AE7A4A184E7B"]
+			icon: {
+				id: "ftbstuff:oak_sluice"
+			}
+			id: "55ED810832EB6813"
+			rewards: [{
+				id: "324EF49AC7F29E26"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log3"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3514F3D7CE5EDB06"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FD9B331E6CD9BDE"]
+			icon: {
+				id: "oritech:steam_engine_block"
+			}
+			id: "7AE000D515158193"
+			rewards: [{
+				id: "2B750D8201B1BA31"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log6"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74A90A0754D1037E"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0B86D627BA958D3C"]
+			icon: {
+				id: "ftb:gps"
+			}
+			id: "78E89B8AC431D36C"
+			rewards: [{
+				id: "2DBBE87DF862D455"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log4"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7174DAB059F658"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BCCEE006AA477B5"]
+			icon: {
+				id: "ftb:abyssal_fragment"
+			}
+			id: "7C209475626FF302"
+			rewards: [{
+				id: "735E545E811B4088"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log5"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A0921DD8D68941"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5B58C6D6222A3B0C"]
+			icon: {
+				id: "oritech:foundry_block"
+			}
+			id: "3C2474BD20BCA2CD"
+			rewards: [{
+				id: "1BEB65747356EBE5"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log7"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "051AAC033C3D9955"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7C431927B89A9590"]
+			icon: {
+				id: "pneumaticcraft:pneumatic_helmet"
+			}
+			id: "2CC60A9AD991255F"
+			rewards: [{
+				id: "2306B37C62388665"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log8"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A412DCB63958D36"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1EE32B2BE71B90AE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/sculk"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "74F90D00EAE988B8"
+			rewards: [{
+				id: "70A5AB5434B16415"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log9"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "350089CD32B4F3FC"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A0DDECA61681E6E"]
+			icon: {
+				id: "pnc_ocean_addons:depth_upgrade_2"
+			}
+			id: "0BEE9D34F20CD785"
+			rewards: [{
+				id: "01DD8DB6CFDEAB08"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log10"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "612FC6A5C40DE21C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["674B9A3BBA23C5BD"]
+			icon: {
+				id: "ftb:portal_holder"
+			}
+			id: "7AE5040CD44D7BC9"
+			rewards: [{
+				id: "4F6C6821065304B0"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log11"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44755E4FAA0413B7"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["654FDAF241F10870"]
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "42965470631D920F"
+			rewards: [{
+				id: "2DCBFEAD22B2D673"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log12"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "65B8627FFE5418FB"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4DAE859CAD8DA492"]
+			icon: {
+				id: "ftb:abyssal_pearl"
+			}
+			id: "78376414C201999E"
+			rewards: [{
+				id: "3BC019491BC2E7AB"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log13"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E67B0C0C745A4DD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1843C6E119E4E92D"]
+			icon: {
+				id: "justdirethings:time_crystal"
+			}
+			id: "1EBD69E2E7CEE693"
+			rewards: [{
+				id: "07BEACFB64940C30"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log14"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58F89C3013128227"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CB308D92C354EC2"]
+			icon: {
+				id: "ftb:heart_of_the_rift"
+			}
+			id: "03DEDA820D937824"
+			rewards: [{
+				id: "1059DA610AD86F6A"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log15"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "342F86EE720F642F"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["46169983AA03D507"]
+			icon: {
+				components: {
+					"minecraft:rarity": "uncommon"
+					"obtrophies:trophy_info": {
+						entity: "ftboceanmobs:rift_weaver"
+					}
+				}
+				id: "obtrophies:trophy"
+			}
+			id: "7CBBE33E5B757119"
+			rewards: [{
+				id: "04A474911BC8D1E2"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log16"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B67BBC81A3B88FB"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["471F26D3F526F785"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:block/dimensional_mineshaft_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4DF3BAFE6DD1AE55"
+			rewards: [{
+				id: "429FE38FA535364C"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log17"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60ED1CC486A3405C"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4DF3BAFE6DD1AE55"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "39860652342C4E57"
+			rewards: [{
+				id: "450CAE079BC35895"
+				item: {
+					count: 1
+					id: "ftb:abyssal_archives_log18"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "5C89F97ECA9AEC4B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39860652342C4E57"]
+			icon: {
+				id: "minecraft:totem_of_undying"
+			}
+			id: "2556FBE2470B6DC8"
+			rewards: [
+				{
+					id: "0CC652374547027F"
+					item: {
+						count: 1
+						id: "ftb:abyssal_archives_thankyou"
+					}
+					type: "item"
+				}
+				{
+					id: "234F32A3069FE19B"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"Kevin\""
+							"minecraft:rarity": "uncommon"
+							"obtrophies:trophy_info": {
+								entity: "ftboceanmobs:riftling_observer"
+							}
+						}
+						count: 1
+						id: "obtrophies:trophy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F75E13DD8F9C33A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+	]
+}

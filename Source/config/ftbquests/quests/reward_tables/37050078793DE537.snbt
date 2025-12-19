@@ -1,0 +1,285 @@
+{
+	icon: {
+		id: "ae2:not_so_mysterious_cube"
+	}
+	id: "37050078793DE537"
+	loot_crate: {
+		color: 43690
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.ftb.ae2_supplies"
+		string_id: "ae2_supplies"
+	}
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			id: "13047FF404D65185"
+			item: {
+				count: 1
+				id: "ae2:basic_card"
+			}
+			random_bonus: 3
+			weight: 50.0f
+		}
+		{
+			id: "3651CA2A2398BA0F"
+			item: {
+				count: 1
+				id: "ae2:capacity_card"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			id: "500A2A0957D8C660"
+			item: {
+				count: 1
+				id: "ae2:advanced_card"
+			}
+			random_bonus: 3
+			weight: 50.0f
+		}
+		{
+			id: "07155FF04833AE43"
+			item: {
+				count: 1
+				id: "ae2:speed_card"
+			}
+			random_bonus: 3
+			weight: 75.0f
+		}
+		{
+			id: "65711984550A9CDF"
+			item: {
+				count: 1
+				id: "ae2:crafting_card"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 4
+			id: "6EF06F2F55C4B274"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_crystal"
+			}
+			random_bonus: 12
+			weight: 50.0f
+		}
+		{
+			count: 4
+			id: "09E6F4B9DB1A2C05"
+			item: {
+				count: 1
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			count: 8
+			id: "1E36D8B420695F55"
+			item: {
+				count: 1
+				id: "ae2:certus_quartz_dust"
+			}
+			random_bonus: 8
+			weight: 25.0f
+		}
+		{
+			count: 2
+			id: "52BC3354A5459D31"
+			item: {
+				count: 1
+				id: "ae2:fluix_crystal"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "4EB26DE3BA9620B4"
+			item: {
+				count: 1
+				id: "ae2:fluix_smart_cable"
+			}
+			random_bonus: 8
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "120588A95D779528"
+			item: {
+				count: 1
+				id: "ae2:annihilation_core"
+			}
+			random_bonus: 4
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "6FA4A8A3E95D2FDA"
+			item: {
+				count: 1
+				id: "ae2:formation_core"
+			}
+			random_bonus: 4
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "7198F25E14959674"
+			item: {
+				count: 1
+				id: "ae2:silicon"
+			}
+			random_bonus: 8
+			weight: 50.0f
+		}
+		{
+			id: "70AE9DACA6B556A2"
+			item: {
+				count: 1
+				id: "ae2:engineering_processor"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "133B5B292A6AC9BB"
+			item: {
+				count: 1
+				id: "ae2:calculation_processor"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "51372623DA5CEDEA"
+			item: {
+				count: 1
+				id: "ae2:logic_processor"
+			}
+			random_bonus: 3
+			weight: 25.0f
+		}
+		{
+			id: "47AC3759BE57D714"
+			item: {
+				count: 1
+				id: "ae2:singularity"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "11179C2B162A5823"
+			item: {
+				count: 1
+				id: "ae2:fluix_dust"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			count: 4
+			id: "7AF4828342E6B2BA"
+			item: {
+				count: 1
+				id: "ae2:fluix_smart_dense_cable"
+			}
+			random_bonus: 4
+			weight: 10.0f
+		}
+		{
+			id: "15FF0CEEFADB7CA8"
+			item: {
+				count: 1
+				id: "ae2:import_bus"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2AB6D347EA5C1272"
+			item: {
+				count: 1
+				id: "ae2:export_bus"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "59A6E6BD311C81E6"
+			item: {
+				count: 1
+				id: "ae2:flawless_budding_quartz"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "6680EC23D1EB3A43"
+			item: {
+				count: 1
+				id: "ae2:crafting_accelerator"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5834E1C318159DBB"
+			item: {
+				count: 1
+				id: "ae2:4k_crafting_storage"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "6BDE341434D7749D"
+			item: {
+				count: 1
+				id: "ae2:energy_cell"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "726C113C58CA7FFC"
+			item: {
+				count: 1
+				id: "ae2:dense_energy_cell"
+			}
+			weight: 10.0f
+		}
+		{ id: "2245A94B093CA653", item: { count: 1, id: "advanced_ae:quantum_unit" } }
+		{ id: "6B1EB04AFFA90EAF", item: { count: 1, id: "advanced_ae:quantum_storage_128" } }
+		{ id: "22998ABD0BADCDAE", item: { count: 1, id: "advanced_ae:quantum_accelerator" } }
+		{
+			id: "3499CCBBF89B9C40"
+			item: {
+				count: 1
+				id: "ae2:cell_component_1k"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2764B8ABEC28BA0B"
+			item: {
+				count: 1
+				id: "ae2:cell_component_4k"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5DCDFD32ACD2BD93"
+			item: {
+				count: 1
+				id: "ae2:cell_component_16k"
+			}
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

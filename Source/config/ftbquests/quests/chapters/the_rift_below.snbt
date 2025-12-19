@@ -1,0 +1,1144 @@
+{
+	autofocus_id: "25D6DB6809BC6F11"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "the_rift_below"
+	group: "1082D352D1CC13F4"
+	icon: {
+		components: {
+			"ftbquests:icon": "ftb:item/abyssal_pearl"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "58F6AEE2F2B62190"
+	images: [
+		{
+			color: 170
+			height: 5.0d
+			image: "relics:item/space_dissector"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			color: 1710618
+			height: 11.0d
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 0.0d
+			width: 11.0d
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			color: 11141290
+			height: 8.5d
+			image: "minecraft:block/nether_portal"
+			rotation: 0.0d
+			width: 8.5d
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 20.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 22.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 24.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 26.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 26.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 26.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 26.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 24.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 22.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			height: 2.0d
+			image: "actuallyadditions:block/empowered_void_crystal_block"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 20.5d
+		}
+	]
+	order_index: 3
+	quest_links: [{
+		id: "25D6DB6809BC6F11"
+		linked_quest: "0A0DDECA61681E6E"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			dependencies: ["0A0DDECA61681E6E"]
+			icon: {
+				id: "ftb:portal_holder"
+			}
+			id: "674B9A3BBA23C5BD"
+			min_width: 300
+			rewards: [{
+				id: "5B525438D5BA4E79"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					id: "ftb:portal_holder"
+				}
+				id: "144458AE3FF8DBA7"
+				observe_type: 0
+				timer: 0L
+				to_observe: "ftb:portal_holder"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["674B9A3BBA23C5BD"]
+			icon: {
+				id: "justdirethings:portal_fluid_catalyst"
+			}
+			id: "654FDAF241F10870"
+			rewards: [
+				{
+					id: "7E6FEC31FEFF429A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E6F33AA55860F0A"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "226AF23BC1E5D17E"
+					item: { count: 1, id: "minecraft:chorus_fruit" }
+					type: "item"
+				}
+				{
+					id: "4EC2445CB3F112A0"
+					item: { count: 1, id: "justdirethings:portal_fluid_catalyst" }
+					type: "item"
+				}
+				{
+					id: "2D8AAE45A12312E3"
+					item: { count: 1, id: "justdirethings:portal_fluid_bucket" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["654FDAF241F10870"]
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:block/dimensional_mineshaft_portal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4DAE859CAD8DA492"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "6534D246832F2590"
+					ignore_reward_blocking: true
+					remove: true
+					stage: "after_depth"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "66F333A885AF0B3F"
+					stage: "after_rift"
+					type: "gamestage"
+				}
+				{
+					id: "5EA83FA3189A8CA3"
+					item: {
+						components: {
+							"minecraft:enchantments": {
+								levels: {
+									"soulbound:soulbound": 1
+								}
+							}
+							"minecraft:repair_cost": 1
+						}
+						count: 1
+						id: "ftb:rift_charge_meter"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "337318AF198CA261"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "3B2F4333AAA985EE"
+					item: {
+						count: 1
+						id: "justdirethings:portal_fluid_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				dimension: "ftb:the_rift"
+				id: "160B0F1F03749876"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["50AC20231ECBEA86"]
+			icon: {
+				id: "justdirethings:time_crystal"
+			}
+			id: "1843C6E119E4E92D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35A12F7C4207DB14"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+				{
+					id: "45E960D40C5A9103"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "791A21A023341DA7"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4DAE859CAD8DA492"]
+			id: "134C281AEA99E5A3"
+			rewards: [{
+				id: "2CD7FEC67E0528E3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5A00F8F1D13616AC"
+					item: { count: 1, id: "actuallyadditions:empowerer" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5259C7E4BD3A8FA1"
+					item: { count: 1, id: "actuallyadditions:display_stand" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						bob: 1b
+						display: "nautec:prismarine_crystal"
+						offset: [
+							0.0d
+							0.3d
+							0.0d
+						]
+						rotation_speed: 1.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "40C04194E9876363"
+			rewards: [{
+				id: "34379C3EF6ED2AC1"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							bob: 1b
+							display: "nautec:prismarine_crystal"
+							offset: [
+								0.0d
+								0.3d
+								0.0d
+							]
+							rotation_speed: 1.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "706F3422D8953428"
+				item: { count: 1, id: "nautec:prismarine_crystal_shard" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:rarity": "uncommon"
+					"obtrophies:trophy_info": {
+						entity: "ftboceanmobs:rift_weaver"
+					}
+				}
+				id: "obtrophies:trophy"
+			}
+			id: "46169983AA03D507"
+			rewards: [
+				{
+					id: "3AB73EA25B8346AE"
+					item: {
+						components: {
+							"minecraft:rarity": "uncommon"
+							"obtrophies:trophy_info": {
+								entity: "ftboceanmobs:rift_weaver"
+							}
+						}
+						count: 1
+						id: "obtrophies:trophy"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DDC10CB48DBC6DD"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				entity: "ftboceanmobs:rift_weaver"
+				id: "5C928899025E338D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 20.5d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						display: "justdirethings:polymorphic_fluid_bucket"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 2.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "5D693FF0A43C2D75"
+			rewards: [{
+				id: "1AB3FC89C7E9B82D"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							display: "justdirethings:polymorphic_fluid_bucket"
+							offset: [
+								0.0d
+								0.25d
+								0.0d
+							]
+							rotation_speed: 2.0f
+							scale: 2.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "66791FBEECC2496C"
+				item: { count: 1, id: "justdirethings:polymorphic_fluid_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.5d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:rarity": "rare"
+					"obtrophies:trophy_info": {
+						entity: "cataclysm:ignis"
+					}
+				}
+				id: "obtrophies:trophy"
+			}
+			id: "3147A88D91AF7EA6"
+			rewards: [
+				{
+					id: "6E104F68E6874048"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+							"obtrophies:trophy_info": {
+								entity: "cataclysm:ignis"
+							}
+						}
+						count: 1
+						id: "obtrophies:trophy"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "38CF155333BB1BFA"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					id: "400941AAEF78A6F5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "09C8503FC5DC7743"
+					item: { count: 1, id: "cataclysm:burning_ashes" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 24.5d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						bob: 1b
+						display: "oritech:accelerator_controller"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 1.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "01D1F7F9D3912BD6"
+			rewards: [{
+				id: "0F4D99B830E3AD5A"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							bob: 1b
+							display: "oritech:accelerator_controller"
+							offset: [
+								0.0d
+								0.25d
+								0.0d
+							]
+							rotation_speed: 1.0f
+							scale: 2.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4CF59DB74683F981"
+				item: { count: 1, id: "oritech:accelerator_controller" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 26.5d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:rarity": "epic"
+					"obtrophies:display_trophy_info": {
+						display: "advanced_ae:quantum_core"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 2.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "551276B3354B653E"
+			rewards: [
+				{
+					id: "4F63CD87C0C02738"
+					item: {
+						components: {
+							"minecraft:rarity": "epic"
+							"obtrophies:display_trophy_info": {
+								display: "advanced_ae:quantum_core"
+								offset: [
+									0.0d
+									0.25d
+									0.0d
+								]
+								rotation_speed: 2.0f
+								scale: 2.0f
+							}
+						}
+						count: 1
+						id: "obtrophies:display_trophy"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "525191997F9FFA5D"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "6CD8F3A6D28A20D9"
+					item: { count: 1, id: "advanced_ae:quantum_core" }
+					type: "item"
+				}
+				{
+					id: "73B81CCEE4E28ABE"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 26.5d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						display: "justdirethings:time_crystal_block"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 2.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "39FD7A010B791999"
+			rewards: [{
+				id: "68AEA2E73305F06E"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							display: "justdirethings:time_crystal_block"
+							offset: [
+								0.0d
+								0.25d
+								0.0d
+							]
+							rotation_speed: 2.0f
+							scale: 2.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0C5247DB075E64BC"
+				item: { count: 1, id: "justdirethings:time_crystal_block" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 26.5d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:rarity": "rare"
+					"obtrophies:trophy_info": {
+						entity: "cataclysm:the_leviathan"
+					}
+				}
+				id: "obtrophies:trophy"
+			}
+			id: "158A76E6444DEC41"
+			rewards: [
+				{
+					id: "347E427EFA7ABFD6"
+					item: {
+						components: {
+							"minecraft:rarity": "rare"
+							"obtrophies:trophy_info": {
+								entity: "cataclysm:the_leviathan"
+							}
+						}
+						count: 1
+						id: "obtrophies:trophy"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "333EF6462A5548E3"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "224C4754CEC1384C"
+					item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+					type: "item"
+				}
+				{
+					advancement: "cataclysm:kill_leviathan"
+					criterion: ""
+					icon: {
+						id: "cataclysm:the_leviathan_spawn_egg"
+					}
+					id: "060F2B7DBE46F6C5"
+					type: "advancement"
+				}
+			]
+			x: 3.0d
+			y: 22.5d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						display: "actuallyadditions:empowered_diamatine_crystal_block"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 2.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "79F3D404EADD5626"
+			rewards: [{
+				id: "29C28A0789CF1808"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							display: "actuallyadditions:empowered_diamatine_crystal_block"
+							offset: [
+								0.0d
+								0.25d
+								0.0d
+							]
+							rotation_speed: 2.0f
+							scale: 2.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "04897B51DB6042A7"
+					item: { count: 1, id: "actuallyadditions:empowered_emeradic_crystal" }
+					type: "item"
+				}
+				{
+					id: "35083BFE65F1C883"
+					item: { count: 1, id: "actuallyadditions:empowered_void_crystal" }
+					type: "item"
+				}
+				{
+					id: "5F9D448F9D2D85AD"
+					item: { count: 1, id: "actuallyadditions:empowered_enori_crystal" }
+					type: "item"
+				}
+				{
+					id: "1027A28DABFDE0F2"
+					item: { count: 1, id: "actuallyadditions:empowered_palis_crystal" }
+					type: "item"
+				}
+				{
+					id: "3F4A38819CE97311"
+					item: { count: 1, id: "actuallyadditions:empowered_diamatine_crystal" }
+					type: "item"
+				}
+				{
+					id: "08D0055B244BDD23"
+					item: { count: 1, id: "actuallyadditions:empowered_restonia_crystal" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 26.5d
+		}
+		{
+			dependencies: [
+				"5D693FF0A43C2D75"
+				"158A76E6444DEC41"
+				"40C04194E9876363"
+				"46169983AA03D507"
+				"0FC36AA9604A7852"
+				"7157B4069731D802"
+				"3147A88D91AF7EA6"
+				"551276B3354B653E"
+				"79F3D404EADD5626"
+				"39FD7A010B791999"
+				"01D1F7F9D3912BD6"
+				"4CB308D92C354EC2"
+				"0A2D97FFF49037A0"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "471F26D3F526F785"
+			rewards: [{
+				id: "784BDD5FF67A0E62"
+				item: {
+					count: 1
+					id: "ftb:creative_portal_switcher"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "ftb:home"
+				id: "641D482C7D7DFE22"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			icon: {
+				components: {
+					"minecraft:rarity": "epic"
+					"obtrophies:display_trophy_info": {
+						display: "ftb:heart_of_the_rift"
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "0FC36AA9604A7852"
+			rewards: [{
+				id: "0C63B6B4961D3E44"
+				item: {
+					components: {
+						"minecraft:rarity": "epic"
+						"obtrophies:display_trophy_info": {
+							display: "ftb:heart_of_the_rift"
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0E8650135771C39A"
+				item: { count: 1, id: "ftb:heart_of_the_rift" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 20.5d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						display: "ftbstuff:pump"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 2.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "7157B4069731D802"
+			rewards: [{
+				id: "60E50B13E9483A3F"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							display: "ftbstuff:pump"
+							offset: [
+								0.0d
+								0.25d
+								0.0d
+							]
+							rotation_speed: 2.0f
+							scale: 2.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				advancement: "ftbstuff:supercharged"
+				criterion: ""
+				id: "48837D270478C0BE"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 20.5d
+		}
+		{
+			icon: {
+				components: {
+					"obtrophies:display_trophy_info": {
+						display: "replication:replicator"
+						offset: [
+							0.0d
+							0.25d
+							0.0d
+						]
+						rotation_speed: 2.0f
+						scale: 2.0f
+					}
+				}
+				id: "obtrophies:display_trophy"
+			}
+			id: "0A2D97FFF49037A0"
+			rewards: [{
+				id: "08FB68EFC5FCA349"
+				item: {
+					components: {
+						"obtrophies:display_trophy_info": {
+							display: "replication:replicator"
+							offset: [
+								0.0d
+								0.25d
+								0.0d
+							]
+							rotation_speed: 2.0f
+							scale: 2.0f
+						}
+					}
+					count: 1
+					id: "obtrophies:display_trophy"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3C667C1AD6252FCA"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 22.5d
+		}
+		{
+			dependencies: ["134C281AEA99E5A3"]
+			id: "50AC20231ECBEA86"
+			rewards: [
+				{
+					id: "509070AC91BFB992"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F7F7C75EBE3373B"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "350F6039B9418993"
+				item: { count: 1, id: "ftb:rift_attenuation_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1843C6E119E4E92D"]
+			id: "179E0D3279EB17CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AB739DDD9B96197"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+				{
+					id: "580969AF8F3AC364"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "051492C05AFA4733"
+				item: { count: 1, id: "ftb:enhanced_rift_attenuation_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["179E0D3279EB17CD"]
+			id: "2BBC0C4236AB7C3E"
+			rewards: [
+				{
+					id: "616BBF1004B96FB0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F512D3EC10024E3"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "237CC4E21F32D98C"
+				item: { count: 1, id: "ftb:ultimate_rift_attenuation_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["50AC20231ECBEA86"]
+			hide_dependency_lines: true
+			icon: {
+				id: "justdirethings:celestigem_chestplate"
+			}
+			id: "5685E88BCD17D066"
+			rewards: [
+				{
+					id: "381CA99C9BC8246D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C859C86436C3D77"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "65ABFF26ECEB2A3D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:celestigem_chestplate)item(justdirethings:eclipsealloy_chestplate))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1843C6E119E4E92D"]
+			hide_dependency_lines: true
+			icon: {
+				id: "justdirethings:time_crystal_cluster"
+			}
+			id: "6D42BB02834C1837"
+			rewards: [
+				{
+					id: "2A0C72870659E03F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0627671E144E4392"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "390F3B1BF84F2BB9"
+					item: { count: 1, id: "justdirethings:time_crystal_block" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "justdirethings:time_crystal_budding_block"
+					}
+					id: "14BC93367178C58B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "justdirethings:time_crystal_budding_block"
+					type: "observation"
+				}
+			]
+			x: -1.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2BBC0C4236AB7C3E"]
+			id: "4CB308D92C354EC2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "172F54779592873A"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+				{
+					id: "62854731CC224A48"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [{
+				id: "3A914B092FA48C86"
+				item: { count: 1, id: "ftb:heart_of_the_rift" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 18.0d
+		}
+	]
+}

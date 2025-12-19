@@ -88,7 +88,6 @@
   "item.ftb.random_relic": "Random Relic",
   "item.ftb.relic_dust.tooltip": "A mysterious dust that can be used to craft relics.",
   "item.ftb.relic_dust": "Relic Dust",
-  "item.ftb.sacrificial_knowledge": "Sacrificial Knowledge",
   "tooltip.relics.jellyfish_necklace": "⚠ Incompatible with the Hals Pirate Mod, Your Vessels will be Destroyed!",
   "tooltip.sushigocrafting.nori_sheets": "ⓘ Can also be made by Pressing a Dried Kelp Block against an Iron Block with a Piston.",
   "item.ftb.rift_attenuation_crystal.tooltip": "§8§o5 Minute Base Rift Time",
@@ -253,5 +252,6 @@
   "tooltip.ftb.blazing_mesh": "⚠ Only works in Netherite Sluice!",
   "tooltip.mob_grinding_utils.jumbo_tank": "⚠ Attention: Filled Jumbo Tanks may get Stuck in your AE/RS System.",
   "tooltip.oritechthings.accelerator_speed_sensor": "ⓘ Can Rarely be Found inside of Pulsating Crates.",
-  "tooltip.ftbstuff.netherite_sluice": "⚠ Attention: Requires Power to Work!"
+  "tooltip.ftbstuff.netherite_sluice": "⚠ Attention: Requires Power to Work!",
+  "tooltip.justdirethings.unstable_portal_fluid": "§c⚠ Attention§f: Will §b§nEvaporate§r§f Inside a §3Compact Machine§f!"
 }
