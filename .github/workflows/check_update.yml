@@ -26,7 +26,6 @@ jobs:
       pack_id: ${{ steps.read_config.outputs.pack_id }}
       pack_name: ${{ steps.checker.outputs.pack_name }}
       new_version: ${{ steps.checker.outputs.new_version }}
-      old_version: ${{ steps.checker.outputs.old_version }}
       update_method: ${{ steps.read_config.outputs.update_method }}
 
     steps:
@@ -166,16 +165,8 @@ jobs:
           fi
 
       - name: Generate Diff Report
-        env:
-          OLD_LABEL: "${{ needs.update-and-create-pr.outputs.pack_name }} v${{ needs.update-and-create-pr.outputs.old_version }}"
-          NEW_LABEL: "${{ needs.update-and-create-pr.outputs.pack_name }} v${{ needs.update-and-create-pr.outputs.new_version }}"
         run: |
-          python .github/scripts/compare_archives.py \
-            old_version.zip \
-            new_version.zip \
-            -o diff_report.html \
-            --old-label "$OLD_LABEL" \
-            --new-label "$NEW_LABEL"
+          python .github/scripts/compare_archives.py old_version.zip new_version.zip -o diff_report.html
       
       - name: Prepare Artifacts
         run: |
