@@ -1,5 +1,5 @@
 {
-    "ftbpmapi.generic.mods":"模组（%s）",
-    "ftbpmapi.tooltip.support_discord":"需要帮助？加入我们的Discord服务器！",
-    "ftbpmapi.tooltip.support_github":"发现了Bug？在GitHub上报告！"
+  "ftbpmapi.generic.mods": "模组（%s）",
+  "ftbpmapi.tooltip.support_discord": "需要帮助？加入我们的Discord服务器！",
+  "ftbpmapi.tooltip.support_github": "发现了Bug？在GitHub上报告！"
 }

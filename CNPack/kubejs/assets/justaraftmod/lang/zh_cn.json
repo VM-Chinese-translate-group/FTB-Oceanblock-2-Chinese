@@ -1,14 +1,14 @@
 {
-    "entity.justaraftmod.raft":"木筏",
-    "item.justaraftmod.acacia_raft":"金合欢木筏",
-    "item.justaraftmod.bamboo_raft":"竹筏",
-    "item.justaraftmod.birch_raft":"白桦木筏",
-    "item.justaraftmod.cherry_raft":"樱花木筏",
-    "item.justaraftmod.dark_oak_raft":"深色橡木筏",
-    "item.justaraftmod.jungle_raft":"丛林木筏",
-    "item.justaraftmod.mangrove_raft":"红树木筏",
-    "item.justaraftmod.oak_raft":"橡木筏",
-    "item.justaraftmod.spruce_raft":"云杉木筏",
-    "itemGroup.justaraftmod.raft":"Just A Raft Mod",
-    "justaraftmod.config.title":"Just Another Raft设置"
+  "entity.justaraftmod.raft": "木筏",
+  "item.justaraftmod.acacia_raft": "金合欢木筏",
+  "item.justaraftmod.bamboo_raft": "竹筏",
+  "item.justaraftmod.birch_raft": "白桦木筏",
+  "item.justaraftmod.cherry_raft": "樱花木筏",
+  "item.justaraftmod.dark_oak_raft": "深色橡木筏",
+  "item.justaraftmod.jungle_raft": "丛林木筏",
+  "item.justaraftmod.mangrove_raft": "红树木筏",
+  "item.justaraftmod.oak_raft": "橡木筏",
+  "item.justaraftmod.spruce_raft": "云杉木筏",
+  "itemGroup.justaraftmod.raft": "Just A Raft Mod",
+  "justaraftmod.config.title": "Just Another Raft设置"
 }

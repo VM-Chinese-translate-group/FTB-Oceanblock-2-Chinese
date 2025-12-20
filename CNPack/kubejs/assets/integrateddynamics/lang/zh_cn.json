@@ -1199,7 +1199,7 @@
     "operator.integrateddynamics.general":"通用",
     "operator.integrateddynamics.general.basename":"通用%s",
     "operator.integrateddynamics.general.choice":"选择",
-    "operator.integrateddynamics.general.choice.info":"检测是否第一个值为真，若真则取第二个值，否则取第三个值\n第二个值和第三个值的类型必须相同。",
+    "operator.integrateddynamics.general.choice.info":"检测是否第一个值为真，若真则取第二个值，否则取第三个值\\n第二个值和第三个值的类型必须相同。",
     "operator.integrateddynamics.general.constant":"前值",
     "operator.integrateddynamics.general.constant.info":"第一个参数的副本。",
     "operator.integrateddynamics.general.identity":"复制",

@@ -1,5 +1,5 @@
 {
-    "ftbpackcompanion.pause.mods":"模组（%s）",
-    "ftbpackcompanion.tooltip.support_discord":"需要帮助？加入我们的Discord服务器！",
-    "ftbpackcompanion.tooltip.support_github":"发现了Bug？在GitHub上报告！"
+  "ftbpackcompanion.pause.mods": "模组（%s）",
+  "ftbpackcompanion.tooltip.support_discord": "需要帮助？加入我们的Discord服务器！",
+  "ftbpackcompanion.tooltip.support_github": "发现了Bug？在GitHub上报告！"
 }
