@@ -1,0 +1,129 @@
+{
+	icon: {
+		id: "supplementaries:sack"
+	}
+	id: "61D338F0B6CBFAD3"
+	loot_crate: {
+		color: 43520
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.ftb.bag_of_random_seeds"
+		string_id: "bag_of_random_seeds"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			id: "50A7BAAF9653513E"
+			item: {
+				count: 1
+				id: "mysticalagriculture:prosperity_seed_base"
+			}
+			random_bonus: 3
+			weight: 100.0f
+		}
+		{
+			id: "01CD38AABFD35DE3"
+			item: {
+				count: 1
+				id: "mysticalagriculture:soulium_seed_base"
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			id: "44928AF64DA021E4"
+			item: {
+				count: 1
+				id: "mysticalagriculture:inferium_seeds"
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			id: "1A82B2474F9B1155"
+			item: {
+				count: 1
+				id: "mysticalagriculture:coal_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "28D1750D1B68EF65"
+			item: {
+				count: 1
+				id: "mysticalagriculture:cow_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "1359413ADD3A44F7"
+			item: {
+				count: 1
+				id: "mysticalagriculture:slime_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "0A23A453D7CCDB39"
+			item: {
+				count: 1
+				id: "mysticalagriculture:iron_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "237D9EF558316723"
+			item: {
+				count: 1
+				id: "mysticalagriculture:copper_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "78442B52CF3369D7"
+			item: {
+				count: 1
+				id: "mysticalagriculture:nether_quartz_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "60BDF4B47E36C21B"
+			item: {
+				count: 1
+				id: "mysticalagriculture:redstone_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "11EED903F2F64E76"
+			item: {
+				count: 1
+				id: "mysticalagriculture:gold_seeds"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "3E60E1D15468A553"
+			item: {
+				count: 1
+				id: "mysticalagriculture:diamond_seeds"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "399D1F3AFDA826AB"
+			item: {
+				count: 1
+				id: "mysticalagriculture:netherite_seeds"
+			}
+			weight: 10.0f
+		}
+		{ id: "6097E18F2F5761DE", item: { count: 1, id: "mysticalagriculture:nether_star_seeds" } }
+	]
+	use_title: true
+}

@@ -1,0 +1,373 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "tips__tricks"
+	group: ""
+	icon: {
+		id: "gag:time_sand_pouch"
+	}
+	id: "29669B3D02C7D3D3"
+	images: [
+		{
+			height: 2.0d
+			image: "ftb:textures/quests/usefulitemstitle.png"
+			rotation: 0.0d
+			width: 14.2d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 2.5d
+			image: "actuallyadditions:item/lens_of_disenchanting"
+			order: -1
+			rotation: 45.0d
+			width: 2.5d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			alpha: 100
+			height: 7.0d
+			image: "ftbquests:tasks/input_only"
+			order: -1
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mob_grinding_utils:saw"
+			}
+			id: "11C58E38DE9488BE"
+			min_width: 300
+			rewards: [{
+				id: "349516D38ED48625"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "55517DA48D0041E4"
+					item: { count: 1, id: "mob_grinding_utils:saw" }
+					type: "item"
+				}
+				{
+					id: "73D36BA1126DF32D"
+					item: { count: 1, id: "mob_grinding_utils:fan" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19FB5B3FA8B65AC1"
+					item: { count: 1, id: "mob_grinding_utils:entity_conveyor" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "constructionstick:diamond_stick"
+			}
+			id: "2C1649AE3DADD71D"
+			min_width: 250
+			rewards: [{
+				id: "1B46BE7C39B414B1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4309B43CD4447705"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(constructionstick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "elevatorid:elevator_white"
+			}
+			id: "59A6D7B544F1AE06"
+			rewards: [{
+				id: "541B9827D0D2BBF2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "78869974512F8AD0"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(elevatorid:elevators)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "63D831B65B0532F1"
+			rewards: [{
+				id: "68515C6ACAC0A3A8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6EFBB882C26ED211"
+				item: { count: 1, id: "utilitarian:angel_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "utilitarian:snad"
+			}
+			id: "26F18323EB6EFCA0"
+			rewards: [{
+				id: "675FDC09E43688B8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "3D00D0A8A61617EA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(utilitarian:snad)item(utilitarian:red_snad)item(utilitarian:soul_snad))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "framedblocks:framed_elevated_slope_slab"
+			}
+			id: "2682A911828C2D88"
+			min_width: 300
+			rewards: [{
+				id: "2A3D73A01B421F9E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "12274A6F5CE43657"
+					item: { count: 1, id: "framedblocks:framed_cube" }
+					type: "item"
+				}
+				{
+					id: "7EA2AAF6ED968D05"
+					item: { count: 1, id: "framedblocks:framed_hammer" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "46400310443ACDC3"
+					item: { count: 1, id: "framedblocks:framed_wrench" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "crafting_on_a_stick:crafting_table"
+			}
+			id: "7804E97C7772403E"
+			rewards: [{
+				id: "438DC9F1C5FE80AD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7EA1CB8D304927B8"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(curios:crafting_on_a_stick)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "2B0CFC423CE66AAE"
+			rewards: [{
+				id: "05D50EC69D454CE0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				icon: {
+					id: "minecraft:wooden_hoe"
+				}
+				id: "1DBB6B2E600D2533"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "buildinggadgets2:gadget_building"
+			}
+			id: "2EEE782146096F9C"
+			rewards: [{
+				id: "54127779890F3D89"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "6B9EDB6F4966725F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "215E7EB95A7C64A3"
+			min_width: 250
+			rewards: [{
+				id: "323EF588A8CB3721"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "390BE5325E1DE990"
+				item: { count: 1, id: "gag:time_sand_pouch" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "3148FCED5BF543B5"
+			rewards: [
+				{
+					id: "22C9F79E31F8909C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F0620BB07E698F0"
+					item: {
+						count: 1
+						id: "toolbelt:pouch"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6FE1283A7378C6CB"
+				item: { count: 1, id: "toolbelt:belt" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:player_head"
+			}
+			id: "060DD09733BE86C9"
+			rewards: [{
+				id: "7328B9EE721570E3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5078BE981F759D0F"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/icon/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "74C6CBDB38C29D4D"
+			optional: true
+			rewards: [{
+				id: "12B51E1B8BB4A1ED"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "5CE52CCA9AEA95D5"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "mob_grinding_utils:golden_egg"
+			}
+			id: "70D723ED513104E2"
+			rewards: [
+				{
+					id: "0F93DB14FD6840A3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09A00938FDEFA0EA"
+					table_id: 785854764447549437L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "403A83B23D30C742"
+					item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed_cursed" }
+					type: "item"
+				}
+				{
+					id: "2A74A15F49F3EE12"
+					item: { count: 1, id: "mob_grinding_utils:nutritious_chicken_feed" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "405F905B8A58FBF4"
+					item: { count: 1, id: "mob_grinding_utils:rotten_egg" }
+					type: "item"
+				}
+				{
+					id: "5945923C89A251F4"
+					item: { count: 1, id: "mob_grinding_utils:golden_egg" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+	]
+}

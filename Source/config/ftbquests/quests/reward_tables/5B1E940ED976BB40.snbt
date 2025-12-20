@@ -1,0 +1,103 @@
+{
+	hide_tooltip: true
+	id: "5B1E940ED976BB40"
+	loot_crate: {
+		color: 11141290
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.ftb.chaos_bundle"
+		string_id: "chaos_bundle"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "5D8ACDEA90B5B46F", item: { components: { "apothic_attributes:bonus_attribute_modifiers": { modifiers: [ { amount: 25.0d, id: "apothic_attributes:command_generated_658377850", operation: "add_value", slot: "mainhand", type: "minecraft:generic.attack_damage" }, { amount: 0.10000000149011612d, id: "apothic_attributes:command_generated_1675147067", operation: "add_value", slot: "mainhand", type: "apothic_attributes:current_hp_damage" } ] }, "minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"item.ftb.extremely_sharp_cactus\"}],\"text\":\"\"}", "minecraft:enchantment_glint_override": 1b }, count: 1, id: "minecraft:cactus" } }
+		{
+			count: 2
+			id: "1678A06986E1C7D1"
+			item: {
+				count: 1
+				id: "minecraft:cactus"
+			}
+		}
+		{
+			command: "/summon ftboceanmobs:rift_demon ~ ~ ~ {CustomName:'[{\"text\":\"Saereth\"}]',Health:50,Glowing:1b,PersistenceRequired:1b,HandItems:[{id:\"ae2:speed_card\",count:2}],HandDropChances:[1f],attributes:[{id:\"generic.armor\",base:2f},{id:\"generic.attack_damage\",base:3f},{id:\"generic.armor_toughness\",base:0f},{id:\"generic.max_health\",base:25f}]}"
+			feedback_message: "feedback_message.ftb.saereth"
+			icon: {
+				components: {
+					"ftbquests:icon": "occultism:textures/gui/book/demonic_partner.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2ECFC29F1290F82C"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			command: "/summon ftboceanmobs:rift_minotaur ~ ~ ~ {CustomName:'[{\"text\":\"AlfredGG\"}]',Health:25,Glowing:1b,PersistenceRequired:1b,HandItems:[{id:\"gag:no_solicitors\",count:1}],HandDropChances:[1f],attributes:[{id:\"generic.armor\",base:2f},{id:\"generic.attack_damage\",base:3f},{id:\"generic.armor_toughness\",base:0f},{id:\"generic.max_health\",base:25f}]}"
+			feedback_message: "feedback_message.ftb.alfredgg"
+			icon: {
+				components: {
+					"ftbquests:icon": "immersiveengineering:block/metal_decoration/sign/icon_villager"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A546B00CA8D9817"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 5.0f
+		}
+		{
+			command: "/summon ftboceanmobs:riftling_observer ~ ~ ~ {CustomName:'[{\"text\":\"Tazz\"}]',Health:100,Glowing:1b,PersistenceRequired:1b,HandItems:[{id:\"farmersdelight:diamond_knife\",count:1}],HandDropChances:[1f],attributes:[{id:\"generic.max_health\",base:100f}]}"
+			feedback_message: "feedback_message.ftb.tazz"
+			icon: {
+				components: {
+					"ftbquests:icon": "farmersdelight:item/diamond_knife"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5F2B294C5E0BBC4E"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 5.0f
+		}
+		{ id: "0AD80297BB02FF77", item: { count: 1, id: "justdirethings:goosoil_tier4" } }
+		{
+			command: "/summon ftboceanmobs:shadow_beast ~ ~ ~ {CustomName:'[{\"text\":\"Dinnerbeef\"}]',Health:25,Glowing:1b,PersistenceRequired:1b,HandItems:[{id:\"justdirethings:blazejet_wand\",components:{max_damage:400},count:1}],HandDropChances:[1f],attributes:[{id:\"generic.armor\",base:2f},{id:\"generic.attack_damage\",base:3f},{id:\"generic.armor_toughness\",base:0f},{id:\"generic.max_health\",base:25f}]}"
+			feedback_message: "feedback_message.ftb.dinnerbeef"
+			icon: {
+				components: {
+					"ftbquests:icon": "justdirethings:item/blazejet_wand"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "16C69B8BA9FBE5D1"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 5.0f
+		}
+		{ id: "2F9401EAA914243A", item: { components: { "ftbquests:loot_crate": "random_relic_chest" }, count: 1, id: "ftbquests:lootcrate" } }
+		{
+			command: "/summon ftboceanmobs:corrosive_craig ~ ~ ~ {CustomName:'[{\"text\":\"Sunekaer\"}]',Health:25,Glowing:1b,PersistenceRequired:1b,HandItems:[{id:\"justdirethings:portalgun\",count:1},{id:\"farmersdelight:steak_and_potatoes\",count:1}],HandDropChances:[0.05f,1f],attributes:[{id:\"generic.armor\",base:2f},{id:\"generic.attack_damage\",base:3f},{id:\"generic.armor_toughness\",base:0f},{id:\"generic.max_health\",base:25f}]}"
+			feedback_message: "feedback_message.ftb.sunekaer"
+			icon: {
+				id: "justdirethings:portalgun"
+			}
+			id: "5BB51B5018D58CD8"
+			permission_level: 2
+			silent: true
+			type: "command"
+			weight: 5.0f
+		}
+	]
+	use_title: true
+}

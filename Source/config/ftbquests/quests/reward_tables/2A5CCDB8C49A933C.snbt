@@ -1,0 +1,368 @@
+{
+	icon: {
+		id: "enderio:crafter"
+	}
+	id: "2A5CCDB8C49A933C"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{
+			count: 2
+			id: "525EEBEEDE344F97"
+			item: {
+				count: 1
+				id: "enderio:copper_alloy_ingot"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "38DF7093361364C5"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_ingot"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "6D097648C0CF9FCB"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_ingot"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "22EBD57F6DC107AA"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_ingot"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "1986CA6F573F30E5"
+			item: {
+				count: 1
+				id: "enderio:dark_steel_ingot"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "33DBE2CD5E58C918"
+			item: {
+				count: 1
+				id: "enderio:soularium_ingot"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 32
+			id: "41B8CC6B32FB982A"
+			item: {
+				count: 1
+				id: "enderio:grains_of_infinity"
+			}
+			random_bonus: 32
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "5C46C67EDAC2EA4E"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:energy"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			random_bonus: 16
+			weight: 10.0f
+		}
+		{
+			count: 16
+			id: "0C242A1B708E82DE"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:fluid"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			random_bonus: 16
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "336880855AC58C1D"
+			item: {
+				count: 1
+				id: "enderio:basic_capacitor"
+			}
+			random_bonus: 2
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "0CD555ABF39DBEA1"
+			item: {
+				count: 1
+				id: "enderio:double_layer_capacitor"
+			}
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{
+			id: "1BB8B5B85FCA2364"
+			item: {
+				count: 1
+				id: "enderio:octadic_capacitor"
+			}
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{ id: "6F17EA13EE952E24", item: { count: 1, id: "enderio:staff_of_travelling" } }
+		{
+			count: 8
+			id: "4747364E1BC3A98E"
+			item: {
+				count: 1
+				id: "enderio:clear_glass_dnm"
+			}
+			random_bonus: 8
+			weight: 10.0f
+		}
+		{
+			id: "35065D227A52C861"
+			item: {
+				count: 1
+				id: "enderio:basic_capacitor_bank"
+			}
+			random_bonus: 2
+			weight: 5.0f
+		}
+		{
+			id: "4FBFE9DAB4B8A9A0"
+			item: {
+				count: 1
+				id: "enderio:advanced_capacitor_bank"
+			}
+			random_bonus: 1
+			weight: 5.0f
+		}
+		{
+			id: "7A65553E1E108A96"
+			item: {
+				count: 1
+				id: "enderio:vibrant_capacitor_bank"
+			}
+			random_bonus: 1
+		}
+		{
+			count: 16
+			id: "0D98667649C08E50"
+			item: {
+				components: {
+					"enderio:conduit": "enderio:item"
+				}
+				count: 1
+				id: "enderio:conduit"
+			}
+			random_bonus: 16
+			weight: 10.0f
+		}
+		{
+			id: "33CC3C30BB89E32A"
+			item: {
+				count: 1
+				id: "enderio:xp_vacuum"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "7DAC6DFB29809B2E"
+			item: {
+				count: 1
+				id: "enderio:vacuum_chest"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 32
+			id: "0B2A9D1DAD05D154"
+			item: {
+				count: 1
+				id: "enderio:end_steel_grinding_ball"
+			}
+			random_bonus: 32
+		}
+		{
+			count: 32
+			id: "4BE8D21DDD55D3A9"
+			item: {
+				count: 1
+				id: "enderio:conductive_alloy_grinding_ball"
+			}
+			random_bonus: 32
+			weight: 10.0f
+		}
+		{
+			count: 32
+			id: "75AED14F3133E572"
+			item: {
+				count: 1
+				id: "enderio:pulsating_alloy_grinding_ball"
+			}
+			random_bonus: 32
+			weight: 5.0f
+		}
+		{
+			count: 32
+			id: "3CB97750F59D9AF0"
+			item: {
+				count: 1
+				id: "enderio:energetic_alloy_grinding_ball"
+			}
+			random_bonus: 32
+			weight: 5.0f
+		}
+		{
+			count: 32
+			id: "26CDA0D3CDAE5212"
+			item: {
+				count: 1
+				id: "enderio:vibrant_alloy_grinding_ball"
+			}
+			random_bonus: 32
+		}
+		{
+			count: 32
+			id: "58C67E13EA2F6A19"
+			item: {
+				count: 1
+				id: "enderio:copper_alloy_grinding_ball"
+			}
+			random_bonus: 32
+			weight: 10.0f
+		}
+		{
+			count: 32
+			id: "44CA5106E86B9CFB"
+			item: {
+				count: 1
+				id: "enderio:dark_steel_grinding_ball"
+			}
+			random_bonus: 32
+			weight: 10.0f
+		}
+		{
+			id: "6A627BAF0DB948E8"
+			item: {
+				components: {
+					"enderio:capacitor_data": {
+						base: 1.9982603f
+						specializations: {
+							energy_use: 2.7245414f
+						}
+					}
+				}
+				count: 1
+				id: "enderio:loot_capacitor"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "0EFE8C4BE8E94F95"
+			item: {
+				components: {
+					"enderio:capacitor_data": {
+						base: 2.2683947f
+						specializations: {
+							burning_energy_generation: 2.7978148f
+							energy_use: 3.9568477f
+						}
+					}
+				}
+				count: 1
+				id: "enderio:loot_capacitor"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2DC34FF6DE54B6A5"
+			item: {
+				components: {
+					"enderio:capacitor_data": {
+						base: 3.3303537f
+						specializations: {
+							energy_use: 3.8275177f
+						}
+					}
+				}
+				count: 1
+				id: "enderio:loot_capacitor"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "32F0979E808202CF"
+			item: {
+				components: {
+					"enderio:capacitor_data": {
+						base: 2.3022082f
+						specializations: {
+							fuel_efficiency: 1.5136857f
+						}
+					}
+				}
+				count: 1
+				id: "enderio:loot_capacitor"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "084F69C3D6CF8F5A"
+			item: {
+				components: {
+					"enderio:capacitor_data": {
+						base: 1.1795946f
+						specializations: {
+							energy_use: 2.9815998f
+						}
+					}
+				}
+				count: 1
+				id: "enderio:loot_capacitor"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "54BF8193EB0DF1FB"
+			item: {
+				components: {
+					"enderio:capacitor_data": {
+						base: 2.2351356f
+						specializations: {
+							burning_energy_generation: 3.2150295f
+							energy_capacity: 1.6112075f
+						}
+					}
+				}
+				count: 1
+				id: "enderio:loot_capacitor"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

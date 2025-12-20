@@ -1,0 +1,574 @@
+{
+	autofocus_id: "496903AB7E8A0A92"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "irons_gems__jewelery"
+	group: "6CB7C55CABF95200"
+	icon: {
+		id: "irons_jewelry:moonstone"
+	}
+	id: "143441998FF2D8BD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "496903AB7E8A0A92"
+			min_width: 300
+			rewards: [{
+				id: "2859B881A5E794B6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "30E05678A79E0693"
+				item: { count: 1, id: "irons_jewelry:jewelcrafting_station" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "6045E57AA8E56711"
+			optional: true
+			rewards: [{
+				id: "4C0B9DCD47FCB85B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "24E472A913A3A576"
+				item: { count: 1, id: "irons_jewelry:ruby" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "34FA9DF0A6D2163D"
+			optional: true
+			rewards: [{
+				id: "5F324F1BA25E9A49"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "08B03AC9274FC43C"
+				item: { count: 1, id: "irons_jewelry:sapphire" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "4FB98E93DE3BE477"
+			optional: true
+			rewards: [{
+				id: "73D9B50B4BCCF571"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4587FA9494F99046"
+				item: { count: 1, id: "irons_jewelry:topaz" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "432185176A39B3B2"
+			optional: true
+			rewards: [{
+				id: "5DCDAD3040749E7B"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59A47A57A71DF0D3"
+				item: { count: 1, id: "irons_jewelry:moonstone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "3389EB27CF459DB3"
+			optional: true
+			rewards: [{
+				id: "355E517289D8F0B1"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0875A9CA2680F082"
+				item: { count: 1, id: "irons_jewelry:peridot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "7B7A7CEC2F56275C"
+			optional: true
+			rewards: [{
+				id: "0189D7D82FDE4480"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4BAB3B576ED87380"
+				item: { count: 1, id: "irons_jewelry:onyx" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "14844C0E66FD7F44"
+			optional: true
+			rewards: [{
+				id: "44890538CA3F173E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "34E18F37B11C9E4B"
+				item: { count: 1, id: "irons_jewelry:garnet" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "01B764188498B1FD"
+			optional: true
+			rewards: [{
+				id: "63DC6BB2E0B32ADF"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3209092DD5A91222"
+				item: { count: 1, id: "ftbmaterials:bronze_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "09685FC620B33977"
+			optional: true
+			rewards: [{
+				id: "7EB6B1A2B8CB05C8"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "71E9ABFA3118D05B"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "2262994A5B54AE0D"
+			optional: true
+			rewards: [{
+				id: "7432553EA4086D74"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1798BAF594B1E32A"
+				item: { count: 1, id: "minecraft:gold_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "67B7F00BBE11FAC4"
+			optional: true
+			rewards: [{
+				id: "7B6C173F3256F000"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7639D2C11BBDA56F"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "1DFA884DAB026DCA"
+			optional: true
+			rewards: [{
+				id: "7E9FF83415D0CAFC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6E3187989AC7A95E"
+				item: { count: 1, id: "ftbmaterials:lead_ingot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "6FD2FB59D54B3158"
+			optional: true
+			rewards: [{
+				id: "3E00A16428CC2D36"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4B351DCC54358823"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "290E1C79E7CD3C2A"
+			optional: true
+			rewards: [{
+				id: "1D657C6E85999E3A"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CE6C20DCA981EAE"
+				item: { count: 1, id: "ftbmaterials:platinum_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26D7C5298D95C69A"]
+			id: "1A183C6EA50C9ADF"
+			optional: true
+			rewards: [{
+				id: "3FEFCD999696C6DB"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2C2899E089C53B0E"
+				item: { count: 1, id: "ftbmaterials:silver_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["496903AB7E8A0A92"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "3900E67C8B833980"
+			rewards: [{
+				id: "699951C03C5B7691"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1E99CDD9919D994A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "2F6F52B669C50A01"
+			rewards: [{
+				id: "0C8F1074645A9962"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6AD85C56E712ED7B"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:sharpshooter_loop" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "79A7540F94A2183E"
+			rewards: [{
+				id: "67AC5E399C0FBD9C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "789A1B801CA6B457"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:amulet_of_protection" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "0F184788499005C6"
+			rewards: [{
+				id: "4BE4EBF30885B53E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6089AF52C98C2041"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:stalwart_ring" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "368CF829E37E0945"
+			rewards: [{
+				id: "6A6CC6BB1BFDA81E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2760546A20C4CDD3"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:barbed_band" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "4929927157D97BFC"
+			rewards: [{
+				id: "399E9C117CFA03C1"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F9BA4B6E0066B02"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:improved_gemset_ring" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "2461B0DCE15C5BCE"
+			rewards: [{
+				id: "1274F8DCF631745E"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1A08FFC7CCBB2879"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:superior_gemset_ring" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3900E67C8B833980"]
+			id: "65523A9928B0AF3E"
+			rewards: [{
+				id: "6CE20B886F666729"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3B6D2D2B95967078"
+				item: { components: { "irons_jewelry:stored_pattern": "irons_jewelry:tearstone_ring" }, count: 1, id: "irons_jewelry:recipe" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "6B0731EE1A55A7F0"
+			optional: true
+			rewards: [{
+				id: "6CFED62F9F1B123C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4F4D65F09189341E"
+				item: { count: 1, id: "minecraft:amethyst_shard" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "0C9AF68E6C9CF4CA"
+			optional: true
+			rewards: [{
+				id: "09D8AFEA37B8E706"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5884E3C00DCF4DFD"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "4F1F2AA921441924"
+			optional: true
+			rewards: [{
+				id: "53D6CA9FAB086F9C"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6CF946BC04FD65DA"
+				item: { count: 1, id: "minecraft:prismarine_shard" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "117131CF7E2FE2DE"
+			optional: true
+			rewards: [{
+				id: "52A818950A19E725"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7E32A94663E9EA07"
+				item: { count: 1, id: "minecraft:lapis_lazuli" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F2DC018DD6A2A23"]
+			id: "61FBB8F1E0BB7189"
+			optional: true
+			rewards: [{
+				id: "3F383698239E35FF"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "107DBCA0644F6047"
+				item: { count: 1, id: "minecraft:emerald" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["496903AB7E8A0A92"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "26D7C5298D95C69A"
+			rewards: [{
+				id: "59663A9485CBAD21"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "574369B60421C9FF"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["496903AB7E8A0A92"]
+			disable_toast: true
+			hide_dependent_lines: true
+			id: "2F2DC018DD6A2A23"
+			rewards: [{
+				id: "1B30D18835633FFF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4B67D8495CB6403D"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}

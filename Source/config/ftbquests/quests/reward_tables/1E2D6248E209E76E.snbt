@@ -1,0 +1,323 @@
+{
+	icon: {
+		id: "refinedstorage:creative_controller"
+	}
+	id: "1E2D6248E209E76E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "&aBox of RS2 Goodies"
+		string_id: "box_of_rs2_goodies"
+	}
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{
+			count: 8
+			id: "17A575C553BB1BAD"
+			item: {
+				count: 1
+				id: "ae2:silicon"
+			}
+			random_bonus: 8
+			weight: 500.0f
+		}
+		{
+			count: 4
+			id: "48DAF41FD0B22AFE"
+			item: {
+				count: 1
+				id: "refinedstorage:quartz_enriched_iron"
+			}
+			random_bonus: 4
+			weight: 750.0f
+		}
+		{
+			count: 4
+			id: "19F8E10BD08D9484"
+			item: {
+				count: 1
+				id: "refinedstorage:quartz_enriched_copper"
+			}
+			random_bonus: 4
+			weight: 750.0f
+		}
+		{
+			count: 8
+			id: "119FCB669064CE9F"
+			item: {
+				count: 1
+				id: "refinedstorage:processor_binding"
+			}
+			random_bonus: 16
+			weight: 750.0f
+		}
+		{
+			count: 2
+			id: "47C5BEB2B583D397"
+			item: {
+				count: 1
+				id: "refinedstorage:basic_processor"
+			}
+			random_bonus: 2
+			weight: 500.0f
+		}
+		{
+			count: 2
+			id: "21020454B0267EBB"
+			item: {
+				count: 1
+				id: "refinedstorage:improved_processor"
+			}
+			random_bonus: 2
+			weight: 500.0f
+		}
+		{
+			count: 2
+			id: "29AD604C7EC65EA0"
+			item: {
+				count: 1
+				id: "refinedstorage:advanced_processor"
+			}
+			random_bonus: 2
+			weight: 500.0f
+		}
+		{
+			count: 2
+			id: "4C56AADCEC04E20A"
+			item: {
+				count: 1
+				id: "refinedstorage:construction_core"
+			}
+			random_bonus: 2
+			weight: 500.0f
+		}
+		{
+			count: 2
+			id: "44E4B79C9ED1A86C"
+			item: {
+				count: 1
+				id: "refinedstorage:destruction_core"
+			}
+			random_bonus: 2
+			weight: 500.0f
+		}
+		{
+			id: "0103A3E92623522C"
+			item: {
+				count: 1
+				id: "refinedstorage:network_receiver"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "6D00643DEE113312"
+			item: {
+				count: 1
+				id: "refinedstorage:network_transmitter"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 8
+			id: "2039B46366ECA48C"
+			item: {
+				count: 1
+				id: "refinedstorage:pattern"
+			}
+			random_bonus: 8
+			weight: 500.0f
+		}
+		{
+			id: "19364ACA7761BA95"
+			item: {
+				count: 1
+				id: "refinedstorage:autocrafter"
+			}
+			weight: 250.0f
+		}
+		{
+			count: 12
+			id: "27846C7679A9210A"
+			item: {
+				count: 1
+				id: "refinedstorage:cable"
+			}
+			random_bonus: 12
+			weight: 1000.0f
+		}
+		{
+			id: "48F369BD13B5FC4D"
+			item: {
+				count: 1
+				id: "refinedstorage:importer"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "6542BCFFE250442E"
+			item: {
+				count: 1
+				id: "refinedstorage:exporter"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "254A80B42D6AD8A0"
+			item: {
+				count: 1
+				id: "refinedstorage:external_storage"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "343116980DEEDBB6"
+			item: {
+				count: 1
+				id: "refinedstorage:speed_upgrade"
+			}
+			weight: 1000.0f
+		}
+		{
+			id: "6B5F1DFB0A312483"
+			item: {
+				count: 1
+				id: "refinedstorage:stack_upgrade"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "0B3CCC17FBFDC8D9"
+			item: {
+				count: 1
+				id: "refinedstorage:detector"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "488017D0ECCBDAF1"
+			item: {
+				count: 1
+				id: "refinedstorage:autocrafting_upgrade"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "0F6DBCDE90F5A2DD"
+			item: {
+				count: 1
+				id: "refinedstorage:1k_storage_part"
+			}
+			weight: 750.0f
+		}
+		{
+			id: "67527FAD2B7D7BD7"
+			item: {
+				count: 1
+				id: "refinedstorage:4k_storage_part"
+			}
+			weight: 500.0f
+		}
+		{
+			id: "7A60C2BAF823D308"
+			item: {
+				count: 1
+				id: "refinedstorage:16k_storage_part"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "7CEDB5593475E4C0"
+			item: {
+				count: 1
+				id: "refinedstorage:64k_storage_part"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "16BE47E36F184756"
+			item: {
+				count: 1
+				id: "extrastorage:storagepart_256k"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "1A599846132D524D"
+			item: {
+				count: 1
+				id: "extrastorage:storagepart_1024k"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "0BD9797C109FC58F"
+			item: {
+				count: 1
+				id: "extrastorage:storagepart_4096k"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "73A55CF829CFF550"
+			item: {
+				count: 1
+				id: "extrastorage:storagepart_16384k"
+			}
+			weight: 5.0f
+		}
+		{
+			id: "64DCC078367BB282"
+			item: {
+				count: 1
+				id: "extrastorage:advanced_importer"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "3C1C2F32FC56CBDB"
+			item: {
+				count: 1
+				id: "extrastorage:advanced_exporter"
+			}
+			weight: 250.0f
+		}
+		{
+			id: "78250F00EBBF03CF"
+			item: {
+				count: 1
+				id: "extrastorage:iron_crafter"
+			}
+			weight: 100.0f
+		}
+		{
+			id: "2319297B6F9FADF4"
+			item: {
+				count: 1
+				id: "extrastorage:gold_crafter"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "19071C21FA42C2E1"
+			item: {
+				count: 1
+				id: "extrastorage:diamond_crafter"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "5B9D18E3D85F458B"
+			item: {
+				count: 1
+				id: "extrastorage:netherite_crafter"
+			}
+			weight: 10.0f
+		}
+	]
+	use_title: true
+}

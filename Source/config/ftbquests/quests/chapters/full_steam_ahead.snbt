@@ -1,0 +1,1691 @@
+{
+	autofocus_id: "286F830AC4321E86"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "full_steam_ahead"
+	group: "1082D352D1CC13F4"
+	icon: {
+		id: "oritech:steam_engine_block"
+	}
+	id: "3D9342DE6B42E055"
+	images: [{
+		height: 1.5d
+		image: "ftbstuff:item/diamond_mesh"
+		rotation: 0.0d
+		width: 1.5d
+		x: 10.0d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [
+		{
+			id: "286F830AC4321E86"
+			linked_quest: "7771C7CE9A9C6872"
+			shape: "gear"
+			size: 2.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "5A06BB088CC20D47"
+			linked_quest: "607A28798499F484"
+			shape: "gear"
+			size: 1.5d
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			id: "6541ADA5C7CDD3CD"
+			linked_quest: "65DB98356A7ABA09"
+			shape: "gear"
+			size: 1.5d
+			x: 14.0d
+			y: -3.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7771C7CE9A9C6872"]
+			icon: {
+				id: "minecraft:piglin_head"
+			}
+			id: "7D7DAC8ABD1FEFF3"
+			rewards: [
+				{
+					count: 4
+					id: "0AF65BD7E5B2C8B9"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "37BE6229BF1B6B47"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "116C60E8F8746D6D"
+					structure: "#minecraft:bastion_remnant"
+					type: "structure"
+				}
+				{
+					id: "29E70705BDD61789"
+					item: { count: 1, id: "easy_piglins:barterer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7771C7CE9A9C6872"]
+			icon: {
+				id: "ftb:magma_droplet"
+			}
+			id: "1C90DD17A67CAAE2"
+			rewards: [
+				{
+					id: "50E11C45382E6A4B"
+					item: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					type: "item"
+				}
+				{
+					id: "606359D81F261C36"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "42FC545B9A6723BC"
+					item: { count: 1, id: "minecraft:magma_block" }
+					type: "item"
+				}
+				{
+					id: "498A2584C2B563F8"
+					item: { count: 1, id: "ftb:magma_droplet" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7771C7CE9A9C6872"]
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:nether_wart"
+			}
+			id: "3DA0BFEF3DD6B003"
+			rewards: [
+				{
+					count: 2
+					id: "62699770C4F72847"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5B03C4471F00AD00"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7C746BFE931358D1"
+					structure: "#minecraft:fortress"
+					type: "structure"
+				}
+				{
+					id: "42A5F5EA37C233D7"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+				{
+					id: "1B3B11B8FE85CEBC"
+					item: { count: 1, id: "minecraft:blaze_rod" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C90DD17A67CAAE2"]
+			icon: {
+				id: "immersiveengineering:cokebrick"
+			}
+			id: "6E5652B1F2ADF381"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "5C5BF8302A7AB625"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "2DAD1DFB79958710"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6AD6E7F60B2E5E0E"
+					item: {
+						count: 1
+						id: "immersiveengineering:manual"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					count: 27L
+					id: "4A030DA9197D6855"
+					item: { count: 1, id: "immersiveengineering:cokebrick" }
+					type: "item"
+				}
+				{
+					id: "6B36814D92499DFA"
+					item: { count: 1, id: "immersiveengineering:hammer" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6E5652B1F2ADF381"
+				"5B58C6D6222A3B0C"
+			]
+			icon: {
+				id: "ftbmaterials:steel_ingot"
+			}
+			id: "6B3F61CE37AD6BEF"
+			rewards: [
+				{
+					id: "6B5A6A635058B3DA"
+					item: {
+						count: 1
+						id: "ftbmaterials:steel_ingot"
+					}
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "53DF69A665C3B21C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "7BBC32B97A3025AE"
+					item: { count: 1, id: "ftbmaterials:coal_coke_gem" }
+					type: "item"
+				}
+				{
+					id: "00AD268C752A67A2"
+					item: { count: 1, id: "ftbmaterials:steel_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2642E8FE5AD1E8C3"]
+			icon: {
+				id: "oritech:steam_engine_block"
+			}
+			id: "1FD9B331E6CD9BDE"
+			min_width: 350
+			rewards: [
+				{
+					id: "5AD6C2275CEBC14A"
+					item: {
+						count: 1
+						id: "oritech:machine_efficiency_addon"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3A87594B19399BFE"
+					item: {
+						count: 1
+						id: "oritech:energy_pipe"
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "38F0D5D6D63EBE79"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "16A6957D8F3830EF"
+					item: { count: 1, id: "oritech:lava_generator_block" }
+					type: "item"
+				}
+				{
+					id: "6D860F277F540CC6"
+					item: { count: 1, id: "oritech:steam_boiler_addon" }
+					type: "item"
+				}
+				{
+					id: "11855CBA82C6F232"
+					item: { count: 1, id: "oritech:steam_engine_block" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E5652B1F2ADF381"]
+			icon: {
+				id: "immersiveengineering:workbench"
+			}
+			id: "0F0FD619B363F556"
+			rewards: [
+				{
+					count: 4
+					id: "78D5536151F7CA2A"
+					item: {
+						count: 1
+						id: "immersiveengineering:treated_wood_horizontal"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3A1ABA1CD2D9F9A2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "2518EC51BCD047C4"
+					item: { count: 1, id: "immersiveengineering:creosote_bucket" }
+					type: "item"
+				}
+				{
+					id: "3D84F7AFE46E8C5C"
+					item: { count: 1, id: "immersiveengineering:workbench" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F0FD619B363F556"]
+			icon: {
+				id: "immersiveengineering:electron_tube"
+			}
+			id: "6348561EEF4BF71C"
+			rewards: [
+				{
+					count: 4
+					id: "192097CB5BA4C4B5"
+					item: {
+						count: 1
+						id: "ftbmaterials:nickel_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4AB79DA8EF314A3B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "356A2174C3F1C013"
+					item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
+					type: "item"
+				}
+				{
+					id: "291F6DE97A3C5A65"
+					item: { count: 1, id: "immersiveengineering:electron_tube" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6F41015C610CFE65"
+				"6348561EEF4BF71C"
+			]
+			id: "097D91CC83708C17"
+			rewards: [
+				{
+					count: 8
+					id: "09B607EE3336DFAF"
+					item: {
+						count: 1
+						id: "pneumaticcraft:pressure_tube"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "4848ACAEFB6B8CC3"
+					item: {
+						count: 1
+						id: "pneumaticcraft:security_upgrade"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "117FDBB721A1EABB"
+					table_id: 2194861226031178634L
+					type: "random"
+				}
+				{
+					id: "66E5CA3915261A92"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "chaos_bundle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "067246A5D4ADAD53"
+				item: { count: 1, id: "pneumaticcraft:flux_compressor" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6B3F61CE37AD6BEF"
+				"74535552687AEAF2"
+			]
+			icon: {
+				id: "pneumaticcraft:reinforced_pressure_tube"
+			}
+			id: "524E3A160BE16989"
+			rewards: [
+				{
+					count: 16
+					id: "398A1506708EF1C3"
+					item: {
+						count: 1
+						id: "pneumaticcraft:pressure_tube"
+					}
+					type: "item"
+				}
+				{
+					id: "1B71D47E11CD9C4A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "56AACD420F1D3E91"
+					item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+					type: "item"
+				}
+				{
+					id: "2039A3F334093158"
+					item: { count: 1, id: "pneumaticcraft:reinforced_pressure_tube" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"524E3A160BE16989"
+				"604AB5F0ED53ABE1"
+			]
+			id: "6F41015C610CFE65"
+			rewards: [
+				{
+					id: "2878E91BF11B8DF5"
+					item: {
+						count: 1
+						id: "minecraft:apple"
+					}
+					type: "item"
+				}
+				{
+					id: "18C106E5BB91EC15"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B58270C61183FA6"
+				item: { count: 1, id: "pneumaticcraft:advanced_pressure_tube" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"18907A87ADAF85D8"
+				"1FD9B331E6CD9BDE"
+			]
+			id: "5B58C6D6222A3B0C"
+			rewards: [
+				{
+					id: "649B253CA9B4F4D6"
+					item: {
+						count: 1
+						id: "oritech:machine_speed_addon"
+					}
+					type: "item"
+				}
+				{
+					id: "5B8D9250684EC1D4"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D37A80C5A3D1621"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "127551E3EED3F69C"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "chaos_bundle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "556DBFF6B0AB0961"
+				item: { count: 1, id: "oritech:foundry_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"607A28798499F484"
+				"65DB98356A7ABA09"
+				"33E4C81B762892B2"
+			]
+			dependency_requirement: "one_completed"
+			id: "18907A87ADAF85D8"
+			rewards: [
+				{
+					count: 4
+					id: "5A449E2CC184A377"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "038D4D05D9175E33"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5F18547DF1D0CFB0"
+				item: { count: 1, id: "oritech:motor" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["18907A87ADAF85D8"]
+			id: "539BEDFFD44400A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DD6795D03B46BE2"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "7278E9E625F050A4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5AA561C54E6DE698"
+				item: { count: 1, id: "oritech:centrifuge_block" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["18907A87ADAF85D8"]
+			id: "21BB7CE008421132"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34CA093429CB00E9"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "454F7A532DCEE419"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "48A1665EFD08AF09"
+				item: { count: 1, id: "oritech:pulverizer_block" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B58C6D6222A3B0C"]
+			id: "604AB5F0ED53ABE1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30C8B198A64D18B6"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "783340F8C88140F6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "435A43FB06243AFA"
+				item: { count: 1, id: "oritech:adamant_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["097D91CC83708C17"]
+			icon: {
+				id: "pneumaticcraft:pressure_chamber_interface"
+			}
+			id: "78D1BC40ABA6C870"
+			optional: true
+			rewards: [
+				{
+					id: "1C8D6EC3DB3B7313"
+					item: {
+						count: 1
+						id: "pneumaticcraft:volume_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0B3590A3BD4D0305"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "10A11B04950C7DAE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 23L
+					id: "7C57623EF22D7DC5"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0007323BD22D3FF7"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+				{
+					id: "2291C59DB3D7BCA8"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5B18F5D102A2EBCC"]
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:plastic_sheet"
+			}
+			id: "416864E64F21CC47"
+			rewards: [
+				{
+					count: 2
+					id: "3B5DBBEEBE0A4D5C"
+					item: {
+						count: 1
+						id: "oritech:plastic_sheet"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0F9AD3B986906BA6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BB65669D286C3A1"
+					table_id: 8721787916292516836L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "75C40880A7F58816"
+					item: { count: 1, id: "oritech:raw_biopolymer" }
+					type: "item"
+				}
+				{
+					id: "430E68986E66817F"
+					item: { count: 1, id: "oritech:plastic_sheet" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"539BEDFFD44400A7"
+				"21BB7CE008421132"
+			]
+			icon: {
+				id: "oritech:machine_fluid_addon"
+			}
+			id: "5B18F5D102A2EBCC"
+			rewards: [
+				{
+					id: "275F362BD0677287"
+					item: {
+						count: 1
+						id: "oritech:machine_efficiency_addon"
+					}
+					type: "item"
+				}
+				{
+					id: "0FAD23D89EAB4733"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "49658D5F1B196EF9"
+					item: { count: 1, id: "oritech:carbon_fibre_strands" }
+					type: "item"
+				}
+				{
+					id: "5CD42601DC6ABA86"
+					item: { count: 1, id: "oritech:machine_fluid_addon" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["604AB5F0ED53ABE1"]
+			hide_dependency_lines: true
+			icon: {
+				id: "oritech:assembler_block"
+			}
+			id: "76B2ADCA34E95BAD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "16239C82F8980922"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "04943DA967D1658A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "560AF3270327A689"
+				item: { count: 1, id: "oritech:assembler_block" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"607A28798499F484"
+				"3DA0BFEF3DD6B003"
+			]
+			icon: {
+				id: "justdirethings:gooblock_tier2"
+			}
+			id: "7ED140018EF78C38"
+			rewards: [
+				{
+					id: "373D216F1E1BCDBE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CF59F0B3254437A"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "784ABCC1394194FD"
+					item: { count: 1, id: "justdirethings:gooblock_tier2" }
+					type: "item"
+				}
+				{
+					id: "6F7BC93CEBC3ACFB"
+					item: { count: 1, id: "justdirethings:raw_blazegold" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7771C7CE9A9C6872"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/soul_campfire_fire"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1DD0C33438447DD7"
+			rewards: [
+				{
+					count: 2
+					id: "3730A0E84B459B4C"
+					item: {
+						count: 1
+						id: "minecraft:soul_sand"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "73C04E7C315E2BAE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "4FA3365369CB3D93"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:soul_sand)item(minecraft:soul_campfire)item(ftbstuff:blue_magma_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1DD0C33438447DD7"]
+			id: "407FF5EFBC975E7C"
+			rewards: [
+				{
+					count: 8
+					id: "77CC87F4282AEE9B"
+					item: {
+						count: 1
+						id: "minecraft:netherrack"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "3F8EC61758239445"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0468BA2A6FDEA575"
+					item: {
+						count: 1
+						id: "minecraft:soul_soil"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "757C5FF1AD729CED"
+				item: { count: 1, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["407FF5EFBC975E7C"]
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "622A6C993B33D37C"
+			min_width: 350
+			rewards: [
+				{
+					count: 64
+					id: "6B96BEFC523030CB"
+					item: {
+						count: 1
+						id: "ftbstuff:crushed_netherrack"
+					}
+					type: "item"
+				}
+				{
+					id: "572F009C14F5B9B9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "14AA399C94A1F93A"
+					item: { count: 1, id: "ftbstuff:crushed_netherrack" }
+					type: "item"
+				}
+				{
+					id: "011B2FA8725AE5F0"
+					item: { count: 1, id: "ftbmaterials:quartz_chunk" }
+					type: "item"
+				}
+				{
+					id: "19CE488BEB965B13"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"622A6C993B33D37C"
+				"65DB98356A7ABA09"
+			]
+			icon: {
+				id: "ae2:silicon"
+			}
+			id: "2642E8FE5AD1E8C3"
+			rewards: [
+				{
+					count: 4
+					id: "12E3841B099737D3"
+					item: {
+						count: 1
+						id: "ae2:silicon"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78194A6416DD65EB"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "690D4DE11273F2EA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "57F7F268CF197570"
+					item: { count: 1, id: "ae2:silicon" }
+					type: "item"
+				}
+				{
+					id: "23C79BEE044FDE7D"
+					item: { count: 1, id: "enderio:copper_alloy_ingot" }
+					type: "item"
+				}
+				{
+					id: "3EBF522B08175EDD"
+					item: { count: 1, id: "enderio:fused_quartz" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["407FF5EFBC975E7C"]
+			icon: {
+				id: "minecraft:basalt"
+			}
+			id: "2A9FBA823B2C99E9"
+			rewards: [
+				{
+					count: 32
+					id: "546B25A3F282E373"
+					item: {
+						count: 1
+						id: "ftbstuff:crushed_basalt"
+					}
+					type: "item"
+				}
+				{
+					id: "1E8AB20CF233F8A0"
+					item: {
+						components: {
+							"functionalstorage:direction": "north"
+						}
+						count: 1
+						id: "functionalstorage:collector_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2F8B7FA77C97FE19"
+					item: { count: 1, id: "minecraft:basalt" }
+					type: "item"
+				}
+				{
+					id: "6017852D19CA37A0"
+					item: { count: 1, id: "minecraft:soul_soil" }
+					type: "item"
+				}
+				{
+					id: "78E2D55C5D2E45E9"
+					item: { count: 1, id: "minecraft:blue_ice" }
+					type: "item"
+				}
+				{
+					id: "326E8EB48B9CACA7"
+					item: { count: 1, id: "justdirethings:blockbreakert1" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B3F61CE37AD6BEF"]
+			hide_dependent_lines: true
+			id: "0F3F61955AF65462"
+			rewards: [
+				{
+					id: "6A769E0A3339DE7C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F6231CCABBAEEC4"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "547B1FEECB790197"
+				item: { count: 1, id: "ftbstuff:diamond_mesh" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["097D91CC83708C17"]
+			icon: {
+				id: "pneumaticcraft:thermopneumatic_processing_plant"
+			}
+			id: "64BE2C84DF9B5195"
+			progression_mode: "flexible"
+			rewards: [
+				{
+					count: 2
+					id: "4D0010226EBF3FFA"
+					item: {
+						count: 1
+						id: "pneumaticcraft:speed_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "213855D09EB8D9C3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4EC51D43BC83A9F7"
+					item: {
+						count: 1
+						id: "pneumaticcraft:security_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "00ACF2736197DF17"
+					item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+					type: "item"
+				}
+				{
+					id: "760A54466A9ECC31"
+					item: { count: 1, id: "pneumaticcraft:upgrade_matrix" }
+					type: "item"
+				}
+				{
+					id: "7456B1993D36E7B1"
+					item: { count: 1, id: "pneumaticcraft:security_upgrade" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7ED140018EF78C38"]
+			icon: {
+				id: "justdirethings:polymorphic_catalyst"
+			}
+			id: "41114A3FA46FF7D9"
+			rewards: [
+				{
+					count: 2
+					id: "275D1D2473099424"
+					item: {
+						count: 1
+						id: "justdirethings:polymorphic_catalyst"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "16070C725E7EED57"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "07F9A0EF04C375AE"
+					item: { count: 1, id: "justdirethings:polymorphic_catalyst" }
+					type: "item"
+				}
+				{
+					id: "2EB546EBB8AB7C62"
+					item: { count: 1, id: "justdirethings:polymorphic_fluid_bucket" }
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6348561EEF4BF71C"]
+			hide_dependency_lines: true
+			id: "322914E060D2583C"
+			rewards: [
+				{
+					id: "6378786093B40D4B"
+					item: {
+						count: 1
+						id: "immersiveengineering:cloche"
+					}
+					type: "item"
+				}
+				{
+					id: "2E49397D82EA20D4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5ABE75C6FEF90242"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B3F61CE37AD6BEF"]
+			icon: {
+				id: "enderio:alloy_smelter"
+			}
+			id: "06BE551FB486ABD7"
+			rewards: [
+				{
+					id: "7023BAB5C3C6C387"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14007CCEA0B71ED5"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "44788E0A58AFE30C"
+					item: {
+						count: 1
+						id: "enderio:basic_capacitor"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "6DD5E56E84BD3206"
+					item: { count: 1, id: "enderio:grains_of_infinity" }
+					type: "item"
+				}
+				{
+					id: "4277A9538B09DAC1"
+					item: { count: 1, id: "enderio:dark_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "1EF9F3986C7B5A02"
+					item: { count: 1, id: "enderio:alloy_smelter" }
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7771C7CE9A9C6872"]
+			id: "56026DF98E2FD7B8"
+			rewards: [
+				{
+					count: 4
+					id: "745FBD94969D0DF9"
+					item: {
+						count: 1
+						id: "actuallyadditions:black_quartz"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3B67E5904961E201"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1E9311FE7C585A42"
+					item: {
+						count: 1
+						id: "actuallyadditions:booklet"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "4952D9D8A5FCD176"
+				item: { count: 1, id: "actuallyadditions:black_quartz" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7771C7CE9A9C6872"]
+			id: "7AB8E35FC58302F8"
+			rewards: [
+				{
+					count: 4
+					id: "1A302B96B5F93D81"
+					item: {
+						count: 1
+						id: "ars_nouveau:bastion_pod"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "2D8C498C530E6389"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7FE813272857A94F"
+				item: { count: 1, id: "ars_nouveau:red_archwood_sapling" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7ED140018EF78C38"]
+			icon: {
+				id: "justdirethings:blazegold_chestplate"
+			}
+			id: "767B734339EB1FA8"
+			optional: true
+			rewards: [
+				{
+					id: "20865FB8942CB08D"
+					item: {
+						count: 1
+						id: "justdirethings:upgrade_extinguish"
+					}
+					type: "item"
+				}
+				{
+					id: "2043D19BF88560B2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1FB3FE407B798968"
+				item: { count: 1, id: "justdirethings:blazegold_chestplate" }
+				type: "item"
+			}]
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B3F61CE37AD6BEF"]
+			id: "01CE1D9D083C3C5C"
+			rewards: [
+				{
+					id: "7A1AA43BCF1F4161"
+					item: {
+						count: 1
+						id: "mekanism:basic_tier_installer"
+					}
+					type: "item"
+				}
+				{
+					id: "413E4BCD3986ECB0"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "3B084FF1836647B3"
+				item: { count: 1, id: "mekanism:metallurgic_infuser" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41114A3FA46FF7D9"]
+			id: "46617B1FA6A39399"
+			rewards: [
+				{
+					id: "029C88051C43B334"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					type: "item"
+				}
+				{
+					id: "70BA8F54AC2384B7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EF6DE6E790CCAFB"
+				item: { count: 1, id: "minecraft:snow_block" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7ED140018EF78C38"]
+			icon: {
+				components: {
+					"ftbquests:icon": "justdirethings:block/goopatterns/goorender_side4"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "63E2C7C30142DF86"
+			rewards: [{
+				id: "0FADB64DF5964792"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "00935F8F925FB8D2"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41114A3FA46FF7D9"]
+			icon: {
+				id: "oritech:wither_crop_block"
+			}
+			id: "4E655BB90DE8F356"
+			optional: true
+			rewards: [
+				{
+					id: "2791496FCF702D02"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"soulbound:soulbound": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "137747C4A797717F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63AAF04B687FD4BA"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4B07D068087D1E80"
+					item: { count: 1, id: "oritech:wither_crop_block" }
+					type: "item"
+				}
+				{
+					id: "3B370CB785BD130D"
+					item: { components: { "minecraft:stored_enchantments": { levels: { "soulbound:soulbound": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["41114A3FA46FF7D9"]
+			icon: {
+				id: "replication:raw_replica"
+			}
+			id: "098FC37FAEAFCA33"
+			rewards: [
+				{
+					id: "64B6616DE443C30C"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "0034AA917F748044"
+					item: {
+						count: 1
+						id: "replication:raw_replica"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				id: "316072BA55910A40"
+				item: { count: 1, id: "replication:raw_replica" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["097D91CC83708C17"]
+			icon: {
+				id: "pneumaticcraft:pneumatic_helmet"
+			}
+			id: "5EE3DB64F65604FB"
+			rewards: [
+				{
+					count: 2
+					id: "2CB4D2AC764B2C3B"
+					item: {
+						count: 1
+						id: "pneumaticcraft:item_life_upgrade"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6FBC7CEA8856D179"
+					item: {
+						count: 1
+						id: "pneumaticcraft:speed_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "724D88D941C117D8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3C62B7DE9C097D68"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_leggings" }
+					type: "item"
+				}
+				{
+					id: "20A77AB2398E8DC4"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_helmet" }
+					type: "item"
+				}
+				{
+					id: "3CC3C70C601ED916"
+					item: { count: 1, id: "pneumaticcraft:charging_station" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"64BE2C84DF9B5195"
+				"5EE3DB64F65604FB"
+			]
+			icon: {
+				id: "pnc_ocean_addons:depth_upgrade_1"
+			}
+			id: "7C431927B89A9590"
+			rewards: [
+				{
+					count: 2
+					id: "64FD5B191AF96CF1"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"soulbound:soulbound": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2EDF192104867839"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "410F95A9B16F69FF"
+					type: "xp"
+					xp: 25
+				}
+				{
+					auto: "invisible"
+					id: "2F0B2B5604B72061"
+					ignore_reward_blocking: true
+					remove: true
+					stage: "after_nether"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "2006BEF46FBD682E"
+					stage: "after_depth"
+					type: "gamestage"
+				}
+				{
+					id: "5547596A698D3A5D"
+					item: {
+						components: {
+							"ftbquests:loot_crate": "chaos_bundle"
+						}
+						count: 1
+						id: "ftbquests:lootcrate"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 3.0d
+			tasks: [
+				{
+					id: "27F00C2343EEF564"
+					item: { count: 1, id: "pneumaticcraft:scuba_upgrade" }
+					type: "item"
+				}
+				{
+					id: "75FDD9CC085C5561"
+					item: { count: 1, id: "pnc_ocean_addons:depth_upgrade_1" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 9.5d
+		}
+	]
+}

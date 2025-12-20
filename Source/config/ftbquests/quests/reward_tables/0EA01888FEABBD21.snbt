@@ -1,0 +1,42 @@
+{
+	icon: {
+		id: "ironchest:obsidian_chest"
+	}
+	id: "0EA01888FEABBD21"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ id: "35626F542D3B59C7", item: { count: 1, id: "ftb:abyssal_pearl" } }
+		{ id: "71E6CB9F930D1125", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:netherite", "irons_jewelry:gem_round": "irons_jewelry:lapis" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.lapis\"},{\"translate\":\"material.irons_jewelry.netherite\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "42F7766AE335D505", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:netherite", "irons_jewelry:gem_round": "irons_jewelry:garnet" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.netherite\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "0E1C1CD6A846119D", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:netherite", "irons_jewelry:gem_round": "irons_jewelry:ruby" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.ruby\"},{\"translate\":\"material.irons_jewelry.netherite\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "5D19427FD47BE16A", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:netherite", "irons_jewelry:gem_simple_amulet": "irons_jewelry:lapis" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.lapis\"},{\"translate\":\"material.irons_jewelry.netherite\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "0B498BCFE84E33C6", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:netherite", "irons_jewelry:gem_simple_amulet": "irons_jewelry:garnet" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.netherite\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "4968F0278F286C0C", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:netherite", "irons_jewelry:gem_simple_amulet": "irons_jewelry:ruby" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.ruby\"},{\"translate\":\"material.irons_jewelry.netherite\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "49BF41E8B6F9AF6A", item: { count: 1, id: "ae2:cell_component_16k" } }
+		{
+			count: 32
+			id: "4262F39285FA992B"
+			item: {
+				count: 1
+				id: "fluxnetworks:flux_dust"
+			}
+		}
+		{
+			count: 2
+			id: "410917E8E252D253"
+			item: {
+				count: 1
+				id: "ae2:flawless_budding_quartz"
+			}
+		}
+		{ id: "1FC8205EE96E3B3C", item: { components: { "ftbquests:loot_crate": "random_relic_chest" }, count: 1, id: "ftbquests:lootcrate" } }
+		{ id: "3CFBF9A9448C1FBC", item: { components: { "relics:charge": 6, "relics:data": { abilities: { abilities: { marinade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.18946d } } }, meat_bat: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.65733d }, stun: { initialValue: 0.12994d } } }, regeneration: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 20.2353d }, feed: { initialValue: 1.15861d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:infinity_ham" } }
+		{ id: "1A27F9F5C2C7C291", item: { count: 1, id: "oritech:machine_processing_addon" } }
+		{ id: "261AB38EDA180B00", item: { count: 1, id: "oritech:capacitor_addon_extender" } }
+		{ id: "62B671B6FDA0DD1A", item: { count: 1, id: "oritech:machine_yield_addon" } }
+		{ id: "78678CD26CA2B1A7", item: { count: 1, id: "justdirethings:template_eclipsealloy" } }
+		{ id: "52E70F70336A84DE", item: { count: 1, id: "justdirethings:eclipsealloy_ingot" } }
+	]
+	use_title: true
+}

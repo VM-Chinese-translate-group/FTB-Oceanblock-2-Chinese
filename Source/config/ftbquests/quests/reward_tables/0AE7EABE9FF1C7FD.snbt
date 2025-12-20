@@ -1,0 +1,51 @@
+{
+	hide_tooltip: true
+	icon: {
+		components: {
+			"ftbquests:loot_crate": "essence_goodie_bag"
+		}
+		id: "ftbquests:lootcrate"
+	}
+	id: "0AE7EABE9FF1C7FD"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ id: "7FD3B7828B072DE0", item: { components: { "minecraft:enchantments": { levels: { "minecraft:efficiency": 1, "minecraft:unbreaking": 3 } } }, count: 1, id: "ftbstuff:iron_hammer" } }
+		{ id: "5E009E6204D5A111", item: { count: 1, id: "ftbstuff:iron_auto_hammer" } }
+		{ id: "699DF4A57D3AE13F", item: { components: { "apothic_attributes:bonus_attribute_modifiers": { modifiers: [{ amount: 3.0d, id: "apothic_attributes:command_generated_-1694499451", operation: "add_value", slot: "feet", type: "minecraft:generic.water_movement_efficiency" }] } }, count: 1, id: "minecraft:leather_boots" } }
+		{ id: "7DC85A1CDC859F45", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:iron", "irons_jewelry:gem_simple_amulet": "irons_jewelry:prismarine" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.prismarine\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "375800AB906A81BE", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:iron", "irons_jewelry:gem_round": "irons_jewelry:prismarine" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.prismarine\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "7C42EFF6F5FECE8C", item: { count: 1, id: "torchmaster:megatorch" } }
+		{ id: "2CF0C7AC894D483A", item: { count: 1, id: "ironchest:iron_chest" } }
+		{ id: "54FFF830F30C56B4", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_simple": "irons_jewelry:iron" }, pattern: "irons_jewelry:simple_band" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_band.item\",\"with\":[{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "39C4F5F299DAA908", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_simple": "irons_jewelry:copper" }, pattern: "irons_jewelry:simple_band" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_band.item\",\"with\":[{\"translate\":\"material.irons_jewelry.copper\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "5B987CB67E49FAF7", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:iron", "irons_jewelry:gem_simple_amulet": "irons_jewelry:ruby" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.ruby\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "1F87CC69139C59F5", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:iron", "irons_jewelry:gem_simple_amulet": "irons_jewelry:garnet" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "1A16677DAB271320", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:chain_simple_amulet": "irons_jewelry:iron", "irons_jewelry:gem_simple_amulet": "irons_jewelry:lapis" }, pattern: "irons_jewelry:simple_amulet" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.simple_amulet.item\",\"with\":[{\"translate\":\"material.irons_jewelry.lapis\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:necklace" } }
+		{ id: "2D06578A5E9646E1", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:iron", "irons_jewelry:gem_round": "irons_jewelry:garnet" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.garnet\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "5761DB9A64A24FB0", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:iron", "irons_jewelry:gem_round": "irons_jewelry:lapis" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.lapis\"},{\"translate\":\"material.irons_jewelry.iron\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "5652BD254F599A92", item: { components: { "irons_jewelry:jewelry_data": { parts: { "irons_jewelry:band_gem": "irons_jewelry:copper", "irons_jewelry:gem_round": "irons_jewelry:ruby" }, pattern: "irons_jewelry:gemset_ring" }, "minecraft:item_name": "{\"translate\":\"pattern.irons_jewelry.gemset_ring.item\",\"with\":[{\"translate\":\"material.irons_jewelry.ruby\"},{\"translate\":\"material.irons_jewelry.copper\"}]}" }, count: 1, id: "irons_jewelry:ring" } }
+		{ id: "311EBFD006512767", item: { count: 1, id: "ironchest:gold_chest" } }
+		{ id: "53A964557C516AF1", item: { count: 1, id: "mekanism:basic_fluid_tank" } }
+		{ id: "6D0C7DFE1E5B9231", item: { count: 1, id: "ftbstuff:auto_processing_block" } }
+		{ id: "182D84622DB13A51", item: { count: 1, id: "simplemagnets:basicmagnet" } }
+		{ id: "238AE7546EA8C899", item: { components: { "ftbquests:loot_crate": "chaos_bundle" }, count: 1, id: "ftbquests:lootcrate" } }
+		{ id: "088EC1B00A7358F7", item: { count: 1, id: "hpm:swashbuckleritem" } }
+		{ id: "1041405E45F61173", item: { count: 1, id: "hpm:cutteritem" } }
+		{ id: "7438FDB5AB62A8EA", item: { count: 1, id: "insomniacharm:insomniacharm" } }
+		{ id: "04DFD8B0CE45BE73", item: { components: { "ftbquests:loot_crate": "random_relic_chest" }, count: 1, id: "ftbquests:lootcrate" } }
+		{ id: "72ACEB03708408C4", item: { count: 1, id: "constructionstick:diamond_stick" } }
+		{ id: "04B20DE8D75734F4", item: { count: 1, id: "functionalstorage:storage_controller" } }
+		{
+			count: 2
+			id: "5C24067FC7F4F6CE"
+			item: {
+				count: 1
+				id: "functionalstorage:simple_compacting_drawer"
+			}
+			random_bonus: 2
+		}
+		{ id: "569F8AA398A39E95", item: { count: 1, id: "oritech:exo_helmet" } }
+	]
+	use_title: true
+}

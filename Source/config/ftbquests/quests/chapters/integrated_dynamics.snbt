@@ -1,0 +1,1241 @@
+{
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "2A3DF8DCEDB5449D"
+	icon: {
+		id: "integrateddynamics:crystalized_menril_chunk"
+	}
+	id: "6A58A6F56CD199A3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "integrateddynamics:menril_sapling"
+			}
+			id: "5B34FEF756C93961"
+			min_width: 350
+			rewards: [
+				{
+					id: "038DF2D59DCD7EEA"
+					item: {
+						count: 1
+						id: "integrateddynamics:on_the_dynamics_of_integration"
+					}
+					type: "item"
+				}
+				{
+					id: "7EB0F41AED2EBC6F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "75E71FC2F86BD97D"
+					item: { count: 1, id: "integrateddynamics:menril_sapling" }
+					type: "item"
+				}
+				{
+					id: "0861F7ABF562ACCF"
+					item: { count: 1, id: "integrateddynamics:menril_log" }
+					type: "item"
+				}
+				{
+					id: "5DEA08FEFB5EEBB0"
+					item: { count: 1, id: "integrateddynamics:menril_berries" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B34FEF756C93961"]
+			icon: {
+				id: "integrateddynamics:squeezer"
+			}
+			id: "1403ABF77D987200"
+			min_width: 300
+			rewards: [
+				{
+					count: 5
+					id: "25F5B0D519B1DA0F"
+					item: {
+						count: 1
+						id: "minecraft:smooth_stone_slab"
+					}
+					type: "item"
+				}
+				{
+					id: "618B01C7D8BBE32E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2F727A7D05107837"
+				item: { count: 1, id: "integrateddynamics:squeezer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1403ABF77D987200"
+				"44C976149FC10974"
+			]
+			icon: {
+				id: "integrateddynamics:crystalized_menril_chunk"
+			}
+			id: "6712C96969CB1D58"
+			rewards: [
+				{
+					id: "77BF6DABA03CB603"
+					item: {
+						count: 1
+						id: "integrateddynamics:crystalized_menril_block"
+					}
+					type: "item"
+				}
+				{
+					id: "6207CE2D3D049785"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "78B7FF4B35F44C8F"
+					item: { count: 1, id: "integrateddynamics:crystalized_menril_block" }
+					type: "item"
+				}
+				{
+					id: "331087D38134A8B3"
+					item: { count: 1, id: "integrateddynamics:crystalized_menril_chunk" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6712C96969CB1D58"]
+			icon: {
+				id: "integrateddynamics:cable"
+			}
+			id: "63A3450169DD4B17"
+			rewards: [
+				{
+					count: 8
+					id: "2045B634A4390129"
+					item: {
+						count: 1
+						id: "integrateddynamics:cable"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "0437FB761B2BD4F0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3A4212290FDA9AE3"
+					item: { count: 1, id: "integrateddynamics:cable" }
+					type: "item"
+				}
+				{
+					id: "34D9B05A1D4382B9"
+					item: { count: 1, id: "integrateddynamics:facade" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C7CA3C0E1F9011F"]
+			id: "6005C20FD96E6711"
+			rewards: [
+				{
+					count: 4
+					id: "4A609F9B408D9E02"
+					item: {
+						count: 1
+						id: "integrateddynamics:crystalized_menril_chunk"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "29DEBB057AE56382"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5F2E5FE39F37A88F"
+				item: { count: 1, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63A3450169DD4B17"]
+			icon: {
+				id: "integrateddynamics:part_connector_mono_directional"
+			}
+			id: "7E2399076FA8B7AC"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2710C149150E37B7"
+					item: {
+						count: 1
+						id: "integrateddynamics:cable"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4243C40107D341FC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "54E6EE3666811402"
+				item: { count: 1, id: "integrateddynamics:part_connector_mono_directional" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6712C96969CB1D58"]
+			id: "5691235133373883"
+			rewards: [
+				{
+					id: "794A70BFF130F5C4"
+					item: {
+						components: {
+							"cyclopscore:energy_storage": 0
+						}
+						count: 1
+						id: "integrateddynamics:energy_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "34089816C89A8307"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "052C180AAECB9063"
+				item: { components: { "cyclopscore:energy_storage": 0 }, count: 1, id: "integrateddynamics:energy_battery" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5691235133373883"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "integrateddynamics:mechanical_squeezer"
+			}
+			id: "565B21FA569CF3CC"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "751DFA802E7F73E5"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "70FC912BEEB608C1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2894117C5886495B"
+					item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
+					type: "item"
+				}
+				{
+					id: "2C53BF00636988F8"
+					item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63A3450169DD4B17"]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "integratedtunnels:part_interface_item"
+			}
+			id: "629C6374800613C4"
+			min_width: 250
+			rewards: [{
+				id: "46D4373EA6854CD0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "4DDC10B7CDEA5CB5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid)item(integratedtunnels:part_interface_energy))", "minecraft:custom_name": "\"Interfaces\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["629C6374800613C4"]
+			icon: {
+				id: "integratedterminals:part_terminal_storage"
+			}
+			id: "60B37EEA5AD64C3D"
+			rewards: [{
+				id: "04978B2BC93EC995"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "02A167CEDC441392"
+					item: { count: 1, id: "integratedterminals:part_terminal_storage" }
+					type: "item"
+				}
+				{
+					id: "6D8F24FBF4FBCD9A"
+					item: { count: 1, id: "integratedterminals:terminal_storage_portable" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6005C20FD96E6711"]
+			icon: {
+				id: "integrateddynamics:logic_programmer"
+			}
+			id: "2DDC9D75FBFA1F3C"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31ABAB7243AD28F3"
+					table_id: 785854764447549437L
+					type: "loot"
+				}
+				{
+					id: "3E7A0A40C6E8F3E6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "4D6F47FA4D28D5B4"
+					item: { count: 1, id: "integrateddynamics:logic_programmer" }
+					type: "item"
+				}
+				{
+					id: "64A5B5A0B0B4DC17"
+					item: { count: 1, id: "integrateddynamics:portable_logic_programmer" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["69282BCC2FA04060"]
+			id: "1B2E6CA3642024B7"
+			optional: true
+			rewards: [{
+				id: "2F546E3BED0BA8E0"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7D469722767FAB3A"
+				item: { count: 1, id: "integrateddynamics:materializer" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6005C20FD96E6711"]
+			id: "69282BCC2FA04060"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "773378F20EAC8C04"
+					item: {
+						count: 1
+						id: "integrateddynamics:crystalized_menril_chunk"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "65C3C8022713B847"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4C9343FCD35EF0C5"
+				item: { count: 1, id: "integrateddynamics:variablestore" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["565B21FA569CF3CC"]
+			icon: {
+				id: "integrateddynamics:crystalized_chorus_chunk"
+			}
+			id: "327E27800EB44FCA"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "3C84E6549391702F"
+					item: {
+						count: 1
+						id: "integrateddynamics:proto_chorus"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "269602B93F1919B2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2446E2C76002756E"
+					item: { count: 1, id: "integrateddynamics:crystalized_chorus_chunk" }
+					type: "item"
+				}
+				{
+					id: "340872AE7187B650"
+					item: { count: 1, id: "integrateddynamics:crystalized_chorus_block" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["327E27800EB44FCA"]
+			id: "4A7198127F58DA94"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B11A5450B38D946"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "5EB0DC253A56D54B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "5765EA89F395979E"
+				item: { count: 1, id: "integrateddynamics:logic_director" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7E2399076FA8B7AC"
+				"4A7198127F58DA94"
+			]
+			id: "3D1796B4F460DBBF"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "268CCDCB8B474E63"
+					item: {
+						count: 1
+						id: "integrateddynamics:logic_director"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07E262B33382A47B"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_connector_mono_directional"
+					}
+					type: "item"
+				}
+				{
+					id: "411C25E2BDDD0988"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "136772014822A2CC"
+				item: { count: 1, id: "integrateddynamics:part_connector_omni_directional" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A7198127F58DA94"]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "504D9310A12FBB21"
+			optional: true
+			rewards: [{
+				id: "535A40A06C56CFF9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "461DC877898F48C2"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["629C6374800613C4"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "729DF05C1D2AE6E7"
+			optional: true
+			rewards: [{
+				id: "0379F7C30EF91655"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F5A6F2680A95A43"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"37D23D46198DA708"
+				"73B0702440A063EB"
+			]
+			id: "2C0332B3354D8A9C"
+			optional: true
+			rewards: [{
+				id: "756D1095FAD35135"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3FF59947C8F0778C"
+				item: { count: 1, id: "integratedtunnels:part_player_simulator" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"1403ABF77D987200"
+				"44C976149FC10974"
+			]
+			icon: {
+				id: "minecraft:armor_stand"
+			}
+			id: "5211DFF30B136433"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "312729ADE763952C"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+				{
+					id: "337709BB697F3019"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tasks: [
+				{
+					id: "0FCE4190DD641059"
+					item: { count: 1, id: "minecraft:armor_stand" }
+					type: "item"
+				}
+				{
+					id: "0671014EB51D982F"
+					item: { count: 1, id: "utilitarian:redstone_clock" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["629C6374800613C4"]
+			id: "3DEA6BCF3DD509D9"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58F4DAA4171D73C8"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "53ED45A365E0C28A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5DB35D5D13B0D45A"
+				item: { components: { "integrateddynamics:part_enhancement": 4 }, count: 1, id: "integrateddynamics:enhancement_offset" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["60B37EEA5AD64C3D"]
+			icon: {
+				id: "integratedcrafting:part_interface_crafting"
+			}
+			id: "733B30C6D9F14141"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42EDC4C4388CC701"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "789AAD9C08B0E6E2"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "29E6A23F0A17D66D"
+					item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
+					type: "item"
+				}
+				{
+					id: "0CC8F92BF4962162"
+					item: { count: 1, id: "integratedterminals:part_terminal_crafting_job" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["733B30C6D9F14141"]
+			id: "4DB08D796BBE6E93"
+			optional: true
+			rewards: [{
+				id: "513BB8F74F0E3314"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D44DEAA338C8136"
+				item: { count: 1, id: "integratedcrafting:part_crafting_writer" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["729DF05C1D2AE6E7"]
+			icon: {
+				id: "integrateddynamics:part_inventory_reader"
+			}
+			id: "5E36696532C72B3A"
+			min_width: 300
+			optional: true
+			rewards: [
+				{
+					id: "3A2E2A72D7D5DE62"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_input"
+					}
+					type: "item"
+				}
+				{
+					id: "7182C32C5D542C0E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4E4A10D8343AACDD"
+					item: { count: 1, id: "integrateddynamics:part_inventory_reader" }
+					type: "item"
+				}
+				{
+					id: "293ACFC48E14C678"
+					item: { count: 1, id: "integrateddynamics:part_fluid_reader" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["729DF05C1D2AE6E7"]
+			icon: {
+				id: "integrateddynamics:part_block_reader"
+			}
+			id: "4EAB855FDFCD1955"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					id: "24D7AEEB36EA00DB"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_input"
+					}
+					type: "item"
+				}
+				{
+					id: "4A32CCAD764E61A8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "019FFE3C2B3F1C26"
+					item: { count: 1, id: "integrateddynamics:part_world_reader" }
+					type: "item"
+				}
+				{
+					id: "5BAA205F5951C473"
+					item: { count: 1, id: "integrateddynamics:part_extradimensional_reader" }
+					type: "item"
+				}
+				{
+					id: "6CA0D6F1F3842F3F"
+					item: { count: 1, id: "integrateddynamics:part_audio_reader" }
+					type: "item"
+				}
+				{
+					id: "0ACB4EB9B59FB57E"
+					item: { count: 1, id: "integrateddynamics:part_block_reader" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["729DF05C1D2AE6E7"]
+			icon: {
+				id: "integrateddynamics:part_redstone_reader"
+			}
+			id: "33CD8F19B27FA484"
+			optional: true
+			rewards: [
+				{
+					id: "48C11A2517A3DFAF"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_input"
+					}
+					type: "item"
+				}
+				{
+					id: "4E12A408C4E3FC78"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "35E53A7211E937FB"
+					item: { count: 1, id: "integrateddynamics:part_redstone_reader" }
+					type: "item"
+				}
+				{
+					id: "1E046FEB3669065F"
+					item: { count: 1, id: "integrateddynamics:part_network_reader" }
+					type: "item"
+				}
+				{
+					id: "020452C33949CFEB"
+					item: { count: 1, id: "integrateddynamics:part_machine_reader" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["729DF05C1D2AE6E7"]
+			id: "789BE725F2F89196"
+			optional: true
+			rewards: [
+				{
+					id: "21B95C553EC53171"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_input"
+					}
+					type: "item"
+				}
+				{
+					id: "6C0D7CE246E891FC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "78B1896D4C1F348D"
+				item: { count: 1, id: "integrateddynamics:part_entity_reader" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["729DF05C1D2AE6E7"]
+			icon: {
+				id: "integrateddynamics:part_effect_writer"
+			}
+			id: "00E7719300B02F8F"
+			optional: true
+			rewards: [
+				{
+					id: "2F6E8385DEF06429"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_output"
+					}
+					type: "item"
+				}
+				{
+					id: "0D8FFABA08678F28"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "11F354DBC1265B52"
+					item: { count: 1, id: "integrateddynamics:part_audio_writer" }
+					type: "item"
+				}
+				{
+					id: "051D3A55E6D6190C"
+					item: { count: 1, id: "integrateddynamics:part_effect_writer" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["729DF05C1D2AE6E7"]
+			id: "3B829DC47FFE77D6"
+			optional: true
+			rewards: [
+				{
+					id: "1B60AD2956E9901B"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_output"
+					}
+					type: "item"
+				}
+				{
+					id: "1AEC36939191950F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "2B0806310FBA2DB4"
+				item: { count: 1, id: "integrateddynamics:part_redstone_writer" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["504D9310A12FBB21"]
+			icon: {
+				id: "integratedtunnels:part_importer_world_item"
+			}
+			id: "73B0702440A063EB"
+			optional: true
+			rewards: [{
+				id: "0A78908D9435F04D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "6AA5E33EA2CA3A53"
+					item: { count: 1, id: "integratedtunnels:part_importer_world_item" }
+					type: "item"
+				}
+				{
+					id: "625914D31214BFD7"
+					item: { count: 1, id: "integratedtunnels:part_exporter_world_item" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["504D9310A12FBB21"]
+			icon: {
+				id: "integratedtunnels:part_importer_world_fluid"
+			}
+			id: "091ACA18018FFD3E"
+			optional: true
+			rewards: [{
+				id: "2C3E1DD8F9A83F8A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "6B6FDA05423838E0"
+					item: { count: 1, id: "integratedtunnels:part_importer_world_fluid" }
+					type: "item"
+				}
+				{
+					id: "645D84451E54D582"
+					item: { count: 1, id: "integratedtunnels:part_exporter_world_fluid" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["504D9310A12FBB21"]
+			icon: {
+				id: "integratedtunnels:part_importer_world_energy"
+			}
+			id: "302C29E7007A61D9"
+			optional: true
+			rewards: [{
+				id: "1A5EC7E9E9FDF7E9"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "708ACDB2263BC39B"
+					item: { count: 1, id: "integratedtunnels:part_importer_world_energy" }
+					type: "item"
+				}
+				{
+					id: "52748B3BD2AC76F6"
+					item: { count: 1, id: "integratedtunnels:part_exporter_world_energy" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["504D9310A12FBB21"]
+			icon: {
+				id: "integratedtunnels:part_importer_world_block"
+			}
+			id: "37D23D46198DA708"
+			optional: true
+			rewards: [{
+				id: "063F76E267DB8FF2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "465DDF26ABF57F20"
+					item: { count: 1, id: "integratedtunnels:part_importer_world_block" }
+					type: "item"
+				}
+				{
+					id: "0213898CDF46184D"
+					item: { count: 1, id: "integratedtunnels:part_exporter_world_block" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["629C6374800613C4"]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2331E407E82138AB"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "01D4C1284C37142A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1C0BB83393437BDF"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6005C20FD96E6711"]
+			id: "0CEB6ADF1306381D"
+			optional: true
+			rewards: [
+				{
+					id: "6BFC1EA40CA9ADEB"
+					item: {
+						count: 1
+						id: "integrateddynamics:part_display_panel"
+					}
+					type: "item"
+				}
+				{
+					id: "5036133AC62B7D5F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6CF459AF637D9B8C"
+				item: { count: 1, id: "integrateddynamics:part_display_panel" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B34FEF756C93961"]
+			id: "44C976149FC10974"
+			rewards: [
+				{
+					count: 2
+					id: "2E0AF709F472C7B1"
+					item: {
+						count: 1
+						id: "minecraft:rotten_flesh"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "47E2FAD125C73E27"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "16319DD0D9D3A3FD"
+				item: { count: 1, id: "integrateddynamics:drying_basin" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63A3450169DD4B17"]
+			id: "0F82EF71ADF6717F"
+			optional: true
+			rewards: [{
+				id: "6B817D9DE3804B17"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "5EF7314193D85D10"
+				item: { count: 1, id: "integrateddynamics:wrench" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C7CA3C0E1F9011F"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2CE0423BD989457E"
+			min_width: 300
+			rewards: [{
+				id: "3E372C93A538AA21"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "50AAF21773156546"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["629C6374800613C4"]
+			icon: {
+				id: "integratedtunnels:part_importer_item"
+			}
+			id: "6C7CA3C0E1F9011F"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42E99E5B0E923936"
+					table_id: 785854764447549437L
+					type: "loot"
+				}
+				{
+					id: "0D211F7EAA97515A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "73BC1AB559F02D2A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_fluid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "09319F8A1514CF60"
+					item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_fluid))", "minecraft:custom_name": "\"Exporters\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DDC9D75FBFA1F3C"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "21CA95EEB0F9EE61"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "07CAC63BD4038483"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "06C48EBDFE523F4F"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -1.0d
+		}
+	]
+}

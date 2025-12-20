@@ -153,8 +153,6 @@ def main():
     print(f"Checking updates for: {pack_name} (ID: {pack_id})\nLocal version: {local_clean_version}")
     print(f"Using update method: {update_method}")
 
-    set_github_output("old_version", local_clean_version)
-
     latest_clean_version = None
     local_version_id = None
     latest_version_id = None

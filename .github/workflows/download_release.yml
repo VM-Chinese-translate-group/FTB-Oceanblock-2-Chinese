@@ -12,78 +12,96 @@ jobs:
     environment: PARATRANZ_ENV
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 允许推送代码到仓库
-      actions: read    # 允许读取工作流状态
-      packages: write  # 允许上传 artifacts
+      contents: write
+      actions: read
+      packages: write
     env:
       API_TOKEN: ${{ secrets.API_KEY }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       PROJECT_ID: ${{ vars.ID }}
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.13"
-
-      - name: Cache Python dependencies
-        id: cache-pip
-        uses: actions/cache@v3
-        with:
-          path: ~/.cache/pip
-          key: pip-${{ runner.os }}-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            pip-${{ runner.os }}-
+          python-version: "3"
 
       - name: Install dependencies
         run: |
-          pip install requests nbtlib
+          pip install requests ftb_snbt_lib
 
       - name: Configure Git
         run: |
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "VM[BOT]"
 
-      - name: Checkout main branch
-        run: git checkout main
+      - name: Sync translations from Paratranz
+        run: python .github/scripts/para2github.py
 
-      - name: Paratranz To GitHub
-        run: python .github/workflows/para2github.py
+      - name: Run FTB Color Checker Script
+        run: python .github/scripts/check_ftb_colors.py ./CNPack
+        continue-on-error: true
 
-      - name: Commit changes
+      - name: Check if error_report.html was generated
+        id: check_report
+        run: |
+          if [ -f error_report.html ]; then
+            echo "error_report_exists=true" >> $GITHUB_ENV
+          else
+            echo "error_report_exists=false" >> $GITHUB_ENV
+          fi
+        
+      - name: Commit and Push changes
         id: commit
         run: |
-          if [[ -n $(git status -s) ]]; then
-            git add .
-            git commit -m '从Paratranz同步翻译'
-            git push origin main
-            echo "changed=true" >> $GITHUB_OUTPUT
-            echo "译文变动，发布release！"
-          else
+          # 检查工作区，如果没有任何更改，则提前退出
+          if [[ -z $(git status --porcelain) ]]; then
+            echo "No changes detected from Paratranz. Nothing to commit."
             echo "changed=false" >> $GITHUB_OUTPUT
-            echo "译文不变，取消发布release！"
+            exit 0
           fi
+
+          git rm --cached --ignore-unmatch error_report.html
+
+          git add .
+          git commit -m '从Paratranz同步翻译'
+          git push
+
+          echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Upload Error Report Artifact
+        if: ${{ env.error_report_exists == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: error-report
+          path: error_report.html
 
   release:
     name: Create Release
     runs-on: ubuntu-latest
-    environment: PARATRANZ_ENV
     needs: paratranz-to-gitHub
-    if: ${{ needs.paratranz-to-gitHub.outputs.changed == 'true' }}
-    permissions:
+    if: needs.paratranz-to-gitHub.outputs.changed == 'true'
+    environment: PARATRANZ_ENV
+    permissions: 
       contents: write
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
 
-      - name: Upload CNPack folder
-        uses: actions/upload-artifact@v4
+    steps:
+      - name: Checkout code for Release
+        uses: actions/checkout@v5
         with:
-          name: CNPack
-          path: ./CNPack
+          ref: 'main'
+
+      - name: Download Error Report Artifact (if exists)
+        id: download_error
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: error-report
+          path: ./
 
       - name: Get current datetime for tag
         id: datetime
@@ -92,18 +110,17 @@ jobs:
       - name: Zip CNPack folder
         run: zip -r "VM-CNPack-${{ env.datetime }}.zip" ./CNPack
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: "VM-CNPack-${{ env.datetime }}.zip"
-          path: "VM-CNPack-${{ env.datetime }}.zip"
-
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "VM-CNPack-${{ env.datetime }}.zip"
-          tag: "release-${{ env.datetime }}"
-          name: "测试版构建${{ env.datetime }}"
-          body: "自动生成的最新汉化补丁"
+          tag: "test-${{ env.datetime }}"
+          name: "测试版构建 ${{ env.datetime }}"
+          body: |
+            自动生成的最新汉化补丁
+
+            ${{ steps.download_error.outcome == 'success' && '⚠ 注意：本次同步检测到 FTB 任务文本颜色可能存在错误，详见 release 附带的 error_report.html。' || '✔ 未发现异常颜色，FTB任务颜色字符检查通过。' }}
+          artifacts: |
+            VM-CNPack-${{ env.datetime }}.zip
+            error_report.html
           draft: false
           prerelease: true

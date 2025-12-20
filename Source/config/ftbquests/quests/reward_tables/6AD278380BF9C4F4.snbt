@@ -1,0 +1,327 @@
+{
+	icon: {
+		id: "mekanism:cardboard_box"
+	}
+	id: "6AD278380BF9C4F4"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "loot_crate.ftb.mekanism_goodie_bag"
+		string_id: "mekanism_goodie_bag"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 2
+			id: "077927C84A9D3B21"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "56537A7FECA5C42B"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			count: 2
+			id: "078D2125B32C37E6"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_chemical"
+			}
+			random_bonus: 2
+			weight: 20.0f
+		}
+		{
+			id: "4F227AABE5F072CB"
+			item: {
+				count: 1
+				id: "mekanism:basic_tier_installer"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "0D15B16EE468A68B"
+			item: {
+				count: 1
+				id: "mekanism:advanced_tier_installer"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "585F34AC8F53DD9D"
+			item: {
+				count: 1
+				id: "mekanism:elite_tier_installer"
+			}
+			weight: 30.0f
+		}
+		{
+			id: "2004AF6762ED86CF"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_tier_installer"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 2
+			id: "392E3A1C4ADC3AA7"
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			id: "0354B7C2369786C9"
+			item: {
+				count: 1
+				id: "mekanism:advanced_control_circuit"
+			}
+			random_bonus: 3
+			weight: 75.0f
+		}
+		{
+			count: 2
+			id: "55D6D7F29593C58B"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			count: 8
+			id: "4FD938CFE638A0B8"
+			item: {
+				count: 1
+				id: "mekanism:enriched_redstone"
+			}
+			random_bonus: 8
+			weight: 50.0f
+		}
+		{
+			count: 4
+			id: "2BD4F038BD137145"
+			item: {
+				count: 1
+				id: "mekanism:enriched_carbon"
+			}
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			id: "3D14D2E32A5D72F1"
+			item: {
+				count: 1
+				id: "ftbmaterials:osmium_block"
+			}
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{
+			id: "21C2523AB7A7C039"
+			item: {
+				count: 1
+				id: "ftbmaterials:steel_block"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			id: "0C4894F3F83FF08D"
+			item: {
+				count: 1
+				id: "mekanism:steel_casing"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "580FB872B5F7F44D"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;4000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:basic_energy_cube"
+			}
+			weight: 50.0f
+		}
+		{
+			id: "7887E3F22C41366A"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;16000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:advanced_energy_cube"
+			}
+			weight: 40.0f
+		}
+		{
+			id: "02D8E0A9EC6DDAA8"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;64000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:elite_energy_cube"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "64FE83C41869404E"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;256000000L]
+					}
+				}
+				count: 1
+				id: "mekanism:ultimate_energy_cube"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			id: "16329BBC19204419"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_universal_cable"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "448482AE75CDB824"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_pressurized_tube"
+			}
+			weight: 25.0f
+		}
+		{
+			count: 8
+			id: "36B60EA9BE7ADA17"
+			item: {
+				count: 1
+				id: "mekanism:ultimate_mechanical_pipe"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "3139EEF26A5A9F6C"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;64000L]
+					}
+				}
+				count: 1
+				id: "mekanism:free_runners"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "643124BC81E41E85"
+			item: {
+				components: {
+					"mekanism:chemicals": {
+						chemical_tanks: [{
+							amount: 24000L
+							id: "mekanism:hydrogen"
+						}]
+					}
+				}
+				count: 1
+				id: "mekanism:jetpack"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "47E6B75A9B9CFEE2"
+			item: {
+				components: {
+					"mekanism:chemicals": {
+						chemical_tanks: [{
+							amount: 24000L
+							id: "mekanism:hydrogen"
+						}]
+					}
+				}
+				count: 1
+				id: "mekanism:flamethrower"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "365647245D68FD4C"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;120000L]
+					}
+				}
+				count: 1
+				id: "mekanism:electric_bow"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3D871551654AAAFD"
+			item: {
+				components: {
+					"mekanism:energy": {
+						energy_containers: [L;100000L]
+					}
+				}
+				count: 1
+				id: "mekanism:robit"
+			}
+			weight: 20.0f
+		}
+		{
+			count: 2
+			id: "1E74A5E3532F1139"
+			item: {
+				count: 1
+				id: "mekanism:quantum_entangloporter"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			id: "40050538FFDF5EFD"
+			item: {
+				count: 1
+				id: "ftbmaterials:steel_ingot"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+	]
+	use_title: true
+}

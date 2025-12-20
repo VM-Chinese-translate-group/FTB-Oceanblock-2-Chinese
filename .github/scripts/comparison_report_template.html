@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>压缩包内容比较报告</title>
+    <style>
+        :root {
+            --bg-page: #ecf0f4;
+            --bg-card: #ffffff;
+            --border-subtle: #e1e4e8;
+            --text-main: #24292e;
+            --text-muted: #6a737d;
+            --accent: #0366d6;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB",
+                "Microsoft YaHei", sans-serif;
+            line-height: 1.6;
+            color: var(--text-main);
+            background: radial-gradient(circle at top left, #f0f5ff 0, #ecf0f4 40%, #dde3f0 100%);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: var(--bg-card);
+            border-radius: 12px;
+            border: 1px solid rgba(27,31,35,0.06);
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+            overflow: hidden;
+        }
+
+        header {
+            padding: 22px 32px;
+            border-bottom: 1px solid var(--border-subtle);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.6rem;
+            color: #111827;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        header h1::before {
+            content: "📦";
+            font-size: 1.4rem;
+        }
+
+        .header-meta {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 4px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .header-meta span strong {
+            color: #111827;
+            font-weight: 600;
+        }
+
+        .header-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 2px 8px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            background: #eff6ff;
+            color: #1d4ed8;
+            margin-left: 6px;
+        }
+
+        .header-badge::before {
+            content: "●";
+            font-size: 0.7rem;
+            margin-right: 4px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 18px 18px 16px;
+            }
+        }
+
+        /* 统计卡片 */
+        section.summary-section {
+            padding: 8px 32px 24px;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 16px;
+        }
+
+        @media (max-width: 900px) {
+            .summary-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 600px) {
+            .summary-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .summary-card {
+            position: relative;
+            padding: 16px 18px 14px;
+            border-radius: 12px;
+            color: #fff;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(15, 23, 42, 0.12);
+            transform: translateY(0);
+            transition: transform 0.16s ease-out, box-shadow 0.16s ease-out;
+        }
+
+        .summary-card::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at top right, rgba(255,255,255,0.4), transparent 55%);
+            opacity: 0.9;
+            pointer-events: none;
+        }
+
+        .summary-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(15, 23, 42, 0.18);
+        }
+
+        .summary-card-inner {
+            position: relative;
+            z-index: 1;
+        }
+
+        .summary-card .count {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+        }
+
+        .summary-card .label {
+            margin-top: 4px;
+            font-size: 0.95rem;
+            opacity: 0.95;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .summary-card .label-icon {
+            font-size: 1.1rem;
+        }
+
+        .card-added {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+        }
+
+        .card-removed {
+            background: linear-gradient(135deg, #ef4444, #b91c1c);
+        }
+
+        .card-modified {
+            background: linear-gradient(135deg, #fbbf24, #f97316);
+        }
+
+        .card-identical {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+        }
+
+        /* 详情区与控制条 */
+        .details-section {
+            padding: 20px 32px 28px;
+        }
+
+        .details-section h2 {
+            margin: 0 0 12px;
+            font-size: 1.25rem;
+            color: #111827;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .details-section h2::before {
+            content: "📄";
+        }
+
+        .details-hint {
+            margin: 0 0 12px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .controls-bar {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 12px;
+            margin: 0 -32px 10px;
+            background: linear-gradient(to bottom, #f3f4f6, #ffffff);
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .controls-left,
+        .controls-right {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .controls-bar button {
+            border: 1px solid #d1d5db;
+            background: #ffffff;
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 0.82rem;
+            cursor: pointer;
+            display: inline-flex;
+            gap: 4px;
+            align-items: center;
+            color: #374151;
+            transition: background 0.12s ease-out, box-shadow 0.12s ease-out, border-color 0.12s ease-out;
+        }
+
+        .controls-bar button:hover {
+            background: #eff6ff;
+            border-color: #93c5fd;
+            box-shadow: 0 1px 2px rgba(15, 23, 42, 0.08);
+        }
+
+        .controls-bar button:active {
+            background: #dbeafe;
+        }
+
+        .controls-bar button span.icon {
+            font-size: 0.9rem;
+        }
+
+        .controls-bar input[type="search"] {
+            border-radius: 999px;
+            border: 1px solid #d1d5db;
+            padding: 5px 10px;
+            font-size: 0.85rem;
+            min-width: 180px;
+            outline: none;
+            background-color: #ffffff;
+        }
+
+        .controls-bar input[type="search"]:focus {
+            border-color: #60a5fa;
+            box-shadow: 0 0 0 2px rgba(59,130,246,0.25);
+        }
+
+        .controls-bar .search-label {
+            font-size: 0.8rem;
+            color: #6b7280;
+        }
+
+        @media (max-width: 768px) {
+            .controls-bar {
+                padding: 8px 12px;
+                margin: 0 -18px 10px;
+            }
+        }
+
+        details {
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border: 1px solid var(--border-subtle);
+            overflow: hidden;
+            background-color: #f9fafb;
+            transition: border-color 0.15s ease-out, box-shadow 0.15s ease-out, background 0.15s ease-out;
+        }
+
+        details:hover {
+            border-color: rgba(37, 99, 235, 0.5);
+            box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+        }
+
+        summary {
+            position: relative;
+            padding: 12px 16px;
+            font-weight: 600;
+            font-size: 0.98rem;
+            cursor: pointer;
+            background-color: #f3f4f6;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        summary::-webkit-details-marker {
+            display: none;
+        }
+
+        summary span {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        summary::after {
+            content: "⌄";
+            font-size: 0.9rem;
+            margin-left: 10px;
+            color: #6b7280;
+            transition: transform 0.15s ease-out;
+        }
+
+        details[open] > summary::after {
+            transform: rotate(180deg);
+        }
+
+        details[open] > summary {
+            background-color: #e5edf9;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .file-list-wrapper {
+            background: #ffffff;
+        }
+
+        .file-list {
+            list-style-type: none;
+            padding: 6px 0;
+            margin: 0;
+            max-height: 360px;
+            overflow-y: auto;
+        }
+
+        .file-list li {
+            padding: 6px 16px;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            font-size: 0.88rem;
+            border-bottom: 1px solid #f3f4f6;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .file-list li::before {
+            content: "•";
+            font-size: 0.7rem;
+            color: #9ca3af;
+        }
+
+        .file-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Diff 统计和表格样式 */
+        .diff-stats {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-weight: 500;
+            font-size: 0.8rem;
+        }
+
+        .diff-stats span {
+            padding: 2px 8px;
+            border-radius: 999px;
+        }
+
+        .diff-stat-add {
+            color: #166534;
+            background-color: #dcfce7;
+        }
+
+        .diff-stat-del {
+            color: #b91c1c;
+            background-color: #fee2e2;
+        }
+
+        .diff-container {
+            padding: 8px 0 10px;
+            background: #ffffff;
+        }
+
+        .diff-summary-bin {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            padding: 12px 16px;
+            background: #fef3c7;
+            border-top: 1px solid #fde68a;
+            font-size: 0.9rem;
+        }
+
+        .context-diff-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        }
+
+        .context-diff-table td {
+            padding: 1px 10px;
+            line-height: 1.5;
+            vertical-align: top;
+        }
+
+        .context-diff-table tr:hover {
+            background-color: #f9fafb;
+        }
+
+        .diff-line-num {
+            width: 1%;
+            text-align: right;
+            color: rgba(27,31,35,.55);
+            user-select: none;
+            white-space: nowrap;
+        }
+
+        .diff-line-op {
+            width: 1%;
+            user-select: none;
+            padding-left: 4px !important;
+            white-space: nowrap;
+        }
+
+        .diff-line-code {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .diff-add {
+            background-color: #ecfdf3;
+        }
+
+        .diff-add .diff-line-op {
+            color: #15803d;
+        }
+
+        .diff-sub {
+            background-color: #fef2f2;
+        }
+
+        .diff-sub .diff-line-op {
+            color: #b91c1c;
+        }
+
+        .diff-hunk {
+            background-color: #eff6ff;
+            color: #4b5563;
+        }
+
+        .diff-hunk td {
+            font-weight: 600;
+            padding-top: 6px;
+            padding-bottom: 4px;
+        }
+
+        footer {
+            padding: 14px 20px 18px;
+            border-top: 1px solid var(--border-subtle);
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            background: #f9fafb;
+        }
+
+        .footer-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .no-results {
+            margin-top: 10px;
+            font-size: 0.85rem;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>
+                压缩包内容比较报告
+                <span class="header-badge">自动生成</span>
+            </h1>
+            <div class="header-meta">
+                <span><strong>旧版本 (Archive 1)：</strong>$archive1_name</span>
+                <span><strong>新版本 (Archive 2)：</strong>$archive2_name</span>
+                <span><strong>报告生成时间：</strong>$report_time</span>
+            </div>
+        </header>
+
+        <section class="summary-section">
+            <div class="summary-grid">
+                <div class="summary-card card-added">
+                    <div class="summary-card-inner">
+                        <div class="count">$added_count</div>
+                        <div class="label">
+                            <span class="label-icon">➕</span>
+                            <span>新增文件</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card card-removed">
+                    <div class="summary-card-inner">
+                        <div class="count">$removed_count</div>
+                        <div class="label">
+                            <span class="label-icon">➖</span>
+                            <span>删除文件</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card card-modified">
+                    <div class="summary-card-inner">
+                        <div class="count">$modified_count</div>
+                        <div class="label">
+                            <span class="label-icon">✏️</span>
+                            <span>修改文件</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary-card card-identical">
+                    <div class="summary-card-inner">
+                        <div class="count">$identical_count</div>
+                        <div class="label">
+                            <span class="label-icon">✔️</span>
+                            <span>未变文件</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="details-section">
+            <h2>详细差异</h2>
+            <p class="details-hint">
+                使用下方搜索框可快速按文件名过滤；“展开全部 / 折叠全部” 便于查看大体结构。
+            </p>
+
+            <div class="controls-bar">
+                <div class="controls-left">
+                    <button type="button" data-action="expand-all">
+                        <span class="icon">⬆</span> 展开全部
+                    </button>
+                    <button type="button" data-action="collapse-all">
+                        <span class="icon">⬇</span> 折叠全部
+                    </button>
+                </div>
+                <div class="controls-right">
+                    <span class="search-label">按文件名过滤：</span>
+                    <input type="search" id="file-search" placeholder="例如： src/ 或 config.yaml">
+                </div>
+            </div>
+
+            <div id="diff-sections">
+                $details_html
+            </div>
+            <div id="no-results-hint" class="no-results" style="display:none;">
+                未找到匹配的文件，请尝试调整搜索关键词。
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-inner">
+                报告由 <code>compare_archives.py</code> 自动生成
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        (function() {
+            var searchInput = document.getElementById('file-search');
+            var sectionsRoot = document.getElementById('diff-sections');
+            var noResultsHint = document.getElementById('no-results-hint');
+
+            if (!sectionsRoot) return;
+
+            function getAllDetails() {
+                return Array.prototype.slice.call(sectionsRoot.querySelectorAll('details'));
+            }
+
+            function expandAll() {
+                getAllDetails().forEach(function(d) {
+                    d.open = true;
+                    d.style.display = '';
+                });
+                if (noResultsHint) noResultsHint.style.display = 'none';
+            }
+
+            function collapseAll() {
+                getAllDetails().forEach(function(d) {
+                    d.open = false;
+                    d.style.display = '';
+                });
+                if (noResultsHint) noResultsHint.style.display = 'none';
+                if (searchInput) searchInput.value = '';
+            }
+
+            function applySearch(query) {
+                var q = (query || '').trim().toLowerCase();
+                var detailsList = getAllDetails();
+                var anyMatch = false;
+
+                if (!q) {
+                    // 清空搜索：全部显示，保留当前展开状态
+                    detailsList.forEach(function(det) {
+                        det.style.display = '';
+                        // 恢复 li（避免上次搜索隐藏）
+                        var items = det.querySelectorAll('.file-list li');
+                        items.forEach(function(li) {
+                            li.style.display = '';
+                        });
+                    });
+                    if (noResultsHint) noResultsHint.style.display = 'none';
+                    return;
+                }
+
+                detailsList.forEach(function(det) {
+                    var hasMatch = false;
+                    var summary = det.querySelector('summary');
+                    var summaryText = summary ? summary.textContent.toLowerCase() : '';
+
+                    if (summaryText.indexOf(q) !== -1) {
+                        hasMatch = true;
+                    }
+
+                    // 针对列表型（新增/删除/未变）的 li 做更细过滤
+                    var items = det.querySelectorAll('.file-list li');
+                    if (items.length > 0) {
+                        items.forEach(function(li) {
+                            var text = li.textContent.toLowerCase();
+                            var match = text.indexOf(q) !== -1;
+                            li.style.display = match ? '' : 'none';
+                            if (match) hasMatch = true;
+                        });
+                    }
+
+                    if (hasMatch) {
+                        det.style.display = '';
+                        det.open = true;
+                        anyMatch = true;
+                    } else {
+                        det.style.display = 'none';
+                    }
+                });
+
+                if (noResultsHint) {
+                    noResultsHint.style.display = anyMatch ? 'none' : '';
+                }
+            }
+
+            if (searchInput) {
+                searchInput.addEventListener('input', function(e) {
+                    applySearch(e.target.value);
+                });
+            }
+
+            var expandBtn = document.querySelector('[data-action="expand-all"]');
+            var collapseBtn = document.querySelector('[data-action="collapse-all"]');
+
+            if (expandBtn) {
+                expandBtn.addEventListener('click', expandAll);
+            }
+            if (collapseBtn) {
+                collapseBtn.addEventListener('click', collapseAll);
+            }
+        })();
+    </script>
+</body>
+</html>

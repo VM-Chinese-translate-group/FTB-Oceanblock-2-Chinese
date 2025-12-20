@@ -1,0 +1,1035 @@
+{
+	autofocus_id: "33C16E82B90E5C1F"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "extreme_reactors"
+	group: "2A3DF8DCEDB5449D"
+	icon: {
+		id: "ftbmaterials:uranium_ingot"
+	}
+	id: "2D069B87B860C09B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "33C16E82B90E5C1F"
+			rewards: [
+				{
+					id: "1F26C8CD4F7881C4"
+					item: {
+						components: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "441CD2605F9F56E9"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "53E741809352E762"
+				item: { count: 1, id: "ftbmaterials:uranium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"12BBDC662C7D6622"
+				"1839CCDAC3346C27"
+			]
+			icon: {
+				id: "bigreactors:basic_reactorcontroller"
+			}
+			id: "055F4DA6E97B36B9"
+			min_width: 300
+			rewards: [
+				{
+					count: 16
+					id: "68E638DF47811373"
+					item: {
+						count: 1
+						id: "ftbmaterials:uranium_ingot"
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "5B811CD8E4934E2F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4DD55827B88574E1"
+				item: { count: 1, id: "bigreactors:basic_reactorcontroller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E25EAA3D2851941"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "18A73FAF4D0F9F40"
+			shape: "diamond"
+			tasks: [{
+				id: "2C1DE5245FEB3956"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_block)item(minecraft:gold_block)item(minecraft:diamond_block)item(minecraft:emerald_block)item(minecraft:netherite_block)item(ftbmaterials:lead_block)item(ftbmaterials:electrum_block)item(ftbmaterials:graphite_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["055F4DA6E97B36B9"]
+			icon: {
+				id: "bigreactors:reinforced_reactorfluidport_forge_active"
+			}
+			id: "2CD606A9C5C786D8"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "3F166BF67DBE6444"
+					item: {
+						count: 1
+						id: "bigreactors:reinforced_reactorcasing"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "74A8CC4F1AA54320"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "08B8B7B080C2D138"
+				item: { count: 1, id: "bigreactors:reinforced_reactorfluidport_forge_active" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E25EAA3D2851941"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "07CC52EDB45C7994"
+			shape: "diamond"
+			tasks: [{
+				id: "1A02CBDB99C6928B"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"558971F923A3C186"
+				"506DDFCF6639744D"
+			]
+			icon: {
+				id: "bigreactors:reprocessorcontroller"
+			}
+			id: "5BBE73445913E9A3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71B7DAD05CD67388"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "76FE139280397A95"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7ED7F8DA0ACEEC45"
+				item: { count: 1, id: "bigreactors:reprocessorcontroller" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0B7AD8830F63CC2A"
+				"5CCCCC773275CFAC"
+			]
+			icon: {
+				id: "bigreactors:basic_turbinecontroller"
+			}
+			id: "13F84B912C8FA7FD"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B8126E6DEE97A76"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "0FC96826102709F5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "555B507B8B216CE2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinecontroller)item(bigreactors:reinforced_turbinecontroller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2118F7E7DA50BE2E"
+				"78FEB17736D2E8C5"
+			]
+			icon: {
+				id: "bigreactors:fluidizercontroller"
+			}
+			id: "7876408A8635B7F6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4A37713DBF5781D7"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "4293F3CE43127909"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7888AE01687F91A4"
+				item: { count: 1, id: "bigreactors:fluidizercontroller" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["45621893734C0B96"]
+			icon: {
+				id: "bigreactors:energizercontroller"
+			}
+			id: "62323F1906B5BE00"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56C4DCA05DE7DF40"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "04F801F3D4808973"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					count: 25L
+					id: "4A6E8E27DEC9EA8E"
+					item: { count: 1, id: "bigreactors:energizercasing" }
+					type: "item"
+				}
+				{
+					id: "3297F6D4D369D321"
+					item: { count: 1, id: "bigreactors:energizercontroller" }
+					type: "item"
+				}
+				{
+					id: "7482D5C913B651C9"
+					item: { count: 1, id: "bigreactors:energizercell" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5BBE73445913E9A3"]
+			id: "4BDC456540EBE648"
+			rewards: [
+				{
+					id: "4782BFA1176381FD"
+					item: {
+						count: 1
+						id: "bigreactors:blutonium_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "712AA02BF26F5931"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "012F2CAD29F9B2C2"
+				item: { count: 1, id: "bigreactors:blutonium_ingot" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4BDC456540EBE648"]
+			id: "45621893734C0B96"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4CDFA701FEBA9E62"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "768787E4E2BDC4BB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "656F5F6FE2714F87"
+				item: { count: 1, id: "bigreactors:magentite_ingot" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["055F4DA6E97B36B9"]
+			id: "39F711F28B0FCABA"
+			rewards: [
+				{
+					count: 4
+					id: "1BEDD5A82C656B4F"
+					item: {
+						count: 1
+						id: "bigreactors:cyanite_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "238719B466D1D012"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "3E92F2940035DF24"
+				item: { count: 1, id: "bigreactors:cyanite_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7876408A8635B7F6"
+				"4BDC456540EBE648"
+			]
+			id: "7476CC3F7F7F7B43"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F98DFF6B3CBC828"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "0CAD215625BFB01B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2881DC721DBA8820"
+				item: { count: 1, id: "bigreactors:verderium_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7476CC3F7F7F7B43"]
+			id: "1134A9C11D1AD524"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DB5396D5AF056BF"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "7FBB333DB40C735B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1ABF819B6A8D4A90"
+				item: { count: 1, id: "bigreactors:rossinite_bucket" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4BDC456540EBE648"]
+			id: "2C33DB689BC13D4E"
+			rewards: [
+				{
+					id: "61A9F762D35C736A"
+					item: {
+						count: 1
+						id: "bigreactors:ludicrite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "4F5CF11449B80ECA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7D57BC4358B2EF34"
+				item: { count: 1, id: "bigreactors:ludicrite_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2C33DB689BC13D4E"]
+			id: "1ED582363F67CF8C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2BB101BE64067D33"
+					table_id: 1053869289471982881L
+					type: "loot"
+				}
+				{
+					id: "48CDE633F54294DE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5C2610F180C2BAFF"
+				item: { count: 1, id: "bigreactors:ridiculite_ingot" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"1ED582363F67CF8C"
+				"1134A9C11D1AD524"
+			]
+			id: "3985170CDB3A0BC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F35C5D3BEEC99A5"
+					table_id: 1053869289471982881L
+					type: "random"
+				}
+				{
+					id: "2533F53898743240"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "42741CE7B711AAEF"
+				item: { count: 1, id: "bigreactors:inanite_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"3985170CDB3A0BC3"
+				"1134A9C11D1AD524"
+			]
+			id: "49C272F5ECDF9FA4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "636A18A9D804F413"
+					table_id: 89629045424936416L
+					type: "loot"
+				}
+				{
+					id: "492BABA8B8114539"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "424DFDBE0E6E09E5"
+				item: { count: 1, id: "bigreactors:insanite_block" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["33C16E82B90E5C1F"]
+			icon: {
+				id: "bigreactors:basic_reactorcasing"
+			}
+			id: "3E25EAA3D2851941"
+			min_width: 350
+			rewards: [
+				{
+					count: 16
+					id: "6121D7E4F954DCA7"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorcasing"
+					}
+					type: "item"
+				}
+				{
+					id: "6B35333B3E16D841"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 16L
+					id: "6A963DEA83F8E5F6"
+					item: { count: 1, id: "bigreactors:basic_reactorcasing" }
+					type: "item"
+				}
+				{
+					id: "330CD09C723D0437"
+					item: { count: 1, id: "bigreactors:basic_reactorglass" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E25EAA3D2851941"]
+			icon: {
+				id: "bigreactors:basic_reactorfuelrod"
+			}
+			id: "1839CCDAC3346C27"
+			rewards: [
+				{
+					count: 4
+					id: "2B73B7B45B940E04"
+					item: {
+						count: 1
+						id: "ftbmaterials:uranium_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4CC388ABB718D227"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "2C2BDCCC5A9823AC"
+					item: { count: 1, id: "bigreactors:basic_reactorfuelrod" }
+					type: "item"
+				}
+				{
+					id: "27C6359619A4FB51"
+					item: { count: 1, id: "bigreactors:basic_reactorcontrolrod" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E25EAA3D2851941"]
+			icon: {
+				id: "bigreactors:basic_reactorsolidaccessport"
+			}
+			id: "12BBDC662C7D6622"
+			rewards: [
+				{
+					id: "7735E0F4231E4A00"
+					item: {
+						count: 1
+						id: "bigreactors:basic_reactorsolidaccessport"
+					}
+					type: "item"
+				}
+				{
+					id: "7ACCFA18FE04B150"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "03C1B6FA6A27EC11"
+					item: { count: 1, id: "bigreactors:basic_reactorsolidaccessport" }
+					type: "item"
+				}
+				{
+					id: "68EBB54F6AF09DF0"
+					item: { count: 1, id: "bigreactors:basic_reactorpowertapfe_active" }
+					type: "item"
+				}
+				{
+					id: "0765C938EDB1EB08"
+					item: { count: 1, id: "bigreactors:basic_reactorredstoneport" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["055F4DA6E97B36B9"]
+			icon: {
+				id: "bigreactors:reinforced_reactorcasing"
+			}
+			id: "617363DDAA59D686"
+			rewards: [
+				{
+					count: 4
+					id: "67A43EB11873C401"
+					item: {
+						count: 1
+						id: "bigreactors:reinforced_reactorcasing"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3E545BFCB3C833E7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "225C19A8658A9C8C"
+				item: { count: 1, id: "bigreactors:reinforced_reactorcasing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2CD606A9C5C786D8"]
+			icon: {
+				id: "bigreactors:fluidizercasing"
+			}
+			id: "24651265607A772B"
+			rewards: [
+				{
+					count: 16
+					id: "08D5BF07B87B67DB"
+					item: {
+						count: 1
+						id: "bigreactors:fluidizercasing"
+					}
+					type: "item"
+				}
+				{
+					id: "5C1EEE5CF86F3AF4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					count: 16L
+					id: "6B2658B49995432F"
+					item: { count: 1, id: "bigreactors:fluidizercasing" }
+					type: "item"
+				}
+				{
+					id: "427F05C773E38009"
+					item: { count: 1, id: "bigreactors:fluidizerglass" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["24651265607A772B"]
+			id: "2118F7E7DA50BE2E"
+			min_width: 300
+			rewards: [
+				{
+					count: 8
+					id: "5EC57F0229E73099"
+					item: {
+						count: 1
+						id: "bigreactors:fluidizercasing"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "068EF7795B24C7F4"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "04F5D17BC3E0D03C"
+					item: { count: 1, id: "bigreactors:fluidizersolidinjector" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2B1D1D9A0208D6E6"
+					item: { count: 1, id: "bigreactors:fluidizerfluidinjector" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24651265607A772B"]
+			icon: {
+				id: "bigreactors:fluidizeroutputport"
+			}
+			id: "78FEB17736D2E8C5"
+			rewards: [
+				{
+					count: 4
+					id: "1FAB7F202E531165"
+					item: {
+						count: 1
+						id: "ftbmaterials:uranium_ingot"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "49C79874E9C63660"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "0BF3E23C01FCCE89"
+					item: { count: 1, id: "bigreactors:fluidizerpowerport" }
+					type: "item"
+				}
+				{
+					id: "55110342568FCB15"
+					item: { count: 1, id: "bigreactors:fluidizeroutputport" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["39F711F28B0FCABA"]
+			icon: {
+				id: "bigreactors:basic_turbinecasing"
+			}
+			id: "52B005DF145A5707"
+			rewards: [
+				{
+					count: 16
+					id: "67F2809C1F40124A"
+					item: {
+						count: 1
+						id: "bigreactors:cyanite_ingot"
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					id: "6D1E380BC9B882C8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "081862F8BA857882"
+				item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinecasing)item(bigreactors:reinforced_turbinecasing))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52B005DF145A5707"]
+			icon: {
+				id: "bigreactors:basic_turbinerotorbearing"
+			}
+			id: "0B7AD8830F63CC2A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "17866A93A725E6EB"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "3C0907DF24185CAC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "287383C50A51C925"
+					item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinerotorbearing)item(bigreactors:reinforced_turbinerotorbearing))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3ECDB56A4577AB1E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinerotorshaft)item(bigreactors:reinforced_turbinerotorshaft))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "37E5BA11AD84D7AF"
+					item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinerotorblade)item(bigreactors:reinforced_turbinerotorblade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["52B005DF145A5707"]
+			icon: {
+				id: "bigreactors:basic_turbinefluidport_forge_active"
+			}
+			id: "5CCCCC773275CFAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28C21E22562888A8"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "3587B2AF4000CF15"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "327E3C53D0FEA46E"
+					item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinepowertapfe_active)item(bigreactors:reinforced_turbinepowertapfe_active))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "20F7D4F697921733"
+					item: { components: { "ftbfiltersystem:filter": "or(item(bigreactors:basic_turbinefluidport_forge_active)item(bigreactors:reinforced_turbinefluidport_forge_active))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13F84B912C8FA7FD"]
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11C6F6554654573A"
+			min_width: 300
+			rewards: [{
+				id: "05A2C75920DB7591"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D88835E5FF00CFE"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:iron_block)item(minecraft:copper_block)item(ftbmaterials:invar_block)item(minecraft:gold_block)item(ftbmaterials:electrum_block)item(ftbmaterials:platinum_block)item(bigreactors:ludicrite_block)item(bigreactors:ridiculite_block)item(bigreactors:inanite_block)item(bigreactors:insanite_block)item(ftbmaterials:steel_block)item(ftbmaterials:osmium_block)item(ftbmaterials:silver_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["39F711F28B0FCABA"]
+			id: "22A060CE1CD96EE5"
+			rewards: [
+				{
+					count: 16
+					id: "00CBCF285906499D"
+					item: {
+						count: 1
+						id: "bigreactors:cyanite_ingot"
+					}
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48706E9F0B031E3B"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "65C50DFE7C47E2D9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 52L
+				id: "467B83DF944F3D89"
+				item: { count: 1, id: "bigreactors:reprocessorcasing" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["22A060CE1CD96EE5"]
+			icon: {
+				id: "bigreactors:reprocessorpowerport"
+			}
+			id: "558971F923A3C186"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C0DE443E32FE25A"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "0FE269746D05AC87"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "15206A7B19253B26"
+					item: { count: 1, id: "bigreactors:reprocessorpowerport" }
+					type: "item"
+				}
+				{
+					id: "1CDED5391FEE4809"
+					item: { count: 1, id: "bigreactors:reprocessoroutputport" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["22A060CE1CD96EE5"]
+			icon: {
+				id: "bigreactors:reprocessorwasteinjector"
+			}
+			id: "506DDFCF6639744D"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "733FAE75793610C9"
+					table_id: 2194861226031178634L
+					type: "loot"
+				}
+				{
+					id: "6480F55E12F38E5B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6B00C6AA6873ECF7"
+					item: { count: 1, id: "bigreactors:reprocessorcollector" }
+					type: "item"
+				}
+				{
+					id: "5132BC7948AD2B10"
+					item: { count: 1, id: "bigreactors:reprocessorwasteinjector" }
+					type: "item"
+				}
+				{
+					id: "46801B9D98058F45"
+					item: { count: 1, id: "bigreactors:reprocessorfluidinjector" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 7.5d
+		}
+	]
+}

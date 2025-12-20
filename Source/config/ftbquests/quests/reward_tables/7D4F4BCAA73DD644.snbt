@@ -1,0 +1,205 @@
+{
+	icon: {
+		components: {
+			"sophisticatedcore:accent_color": -14869215
+			"sophisticatedcore:main_color": -14869215
+		}
+		id: "sophisticatedbackpacks:backpack"
+	}
+	id: "7D4F4BCAA73DD644"
+	loot_crate: {
+		color: 16777045
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		item_name: "loot_crate.ftb.adventurer_bundle"
+		string_id: "adventurer_bundle"
+	}
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			id: "3CBFB62984232DA5"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:mending": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "1041E1A660F007D2"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "674039E06BFC2EB7"
+			item: {
+				count: 1
+				id: "minecraft:totem_of_undying"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "35937B0EAE4262B7"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:looting": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "60761BAD47F6CAE9"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "14803F87ACFF4B3D"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:infinity": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "45136DDFDDFE8E5B"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:fortune": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "23AF98D5921D27AA"
+			item: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"minecraft:sharpness": 1
+						}
+					}
+				}
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "2FB2C02CB6CB313E"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_book"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "221D63B0E6E529C1"
+			item: {
+				count: 1
+				id: "sophisticatedbackpacks:void_upgrade"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "5C57B0E5DF083F87"
+			item: {
+				count: 1
+				id: "enderio:staff_of_travelling"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "3ADEB1791B9F1474"
+			item: {
+				count: 1
+				id: "gag:hearthstone"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "69858AACB04E23B7"
+			item: {
+				count: 1
+				id: "gag:sacred_balm"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "31A87F2635762F3E"
+			item: {
+				count: 1
+				id: "gag:sacred_salve"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "54D8EAFA7C3F1A72"
+			item: {
+				count: 1
+				id: "gag:sacred_salt"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "50514FA44F4D6B10"
+			item: {
+				count: 1
+				id: "pneumaticcraft:micromissiles"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "00725DFEB199B3A1"
+			item: {
+				count: 1
+				id: "gag:energized_hearthstone"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "59EB025984CBB52C"
+			item: {
+				count: 1
+				id: "gag:escape_rope"
+			}
+			weight: 25.0f
+		}
+	]
+	use_title: true
+}

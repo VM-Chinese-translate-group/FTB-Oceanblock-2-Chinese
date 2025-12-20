@@ -1,0 +1,532 @@
+{
+	autofocus_id: "049DE43A1B31C38F"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "general_storage"
+	group: "26835947166CBCA2"
+	icon: {
+		id: "minecraft:chest"
+	}
+	id: "1E741D8D60A01B78"
+	images: [
+		{
+			height: 1.0d
+			image: "functionalstorage:item/copper_upgrade"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/barrel/gilded_barrel_bottom"
+			order: 1
+			rotation: 45.0d
+			width: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.5d
+			image: "easy_piglins:block/top_frame"
+			order: -1
+			rotation: 45.0d
+			width: 2.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "chipped:block/barrel/oak_barrel_bottom"
+			rotation: 45.0d
+			width: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "functionalstorage:block/framed_side"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "functionalstorage:block/framed_controller_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "functionalstorage:block/fluid_top"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			height: 3.0d
+			image: "ftb:textures/quests/storage_text.png"
+			rotation: 0.0d
+			width: 8.892857142857142d
+			x: 0.0d
+			y: -4.299999999999999d
+		}
+		{
+			height: 1.5d
+			image: "ftb:textures/quests/chest.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: -3.6000000000000005d
+		}
+		{
+			height: 1.5d
+			image: "ftb:textures/quests/chest_flipped.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.4d
+			y: -3.6000000000000005d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "05CEF45909A11F60"
+			min_width: 300
+			rewards: [{
+				id: "3AF88714D956505F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "78D3693D14169634"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "mekanism:personal_chest"
+			}
+			id: "15E91238E4F603A4"
+			min_width: 250
+			optional: true
+			rewards: [
+				{
+					id: "7BDF87174F00A1D4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "602C858C0D87AD52"
+					table_id: 7697346895244018932L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "17C371D0A671264A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:personal_storage)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "functionalstorage:oak_1"
+			}
+			id: "4A707D443EC2DE33"
+			min_width: 250
+			rewards: [{
+				id: "67381DFEEF7E60C4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "56A35A967954A4C2"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "0BFACB0AAEE7F4C2"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "703D762FAF23BCE2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1A712E5D65A28EF4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(pocketstorage:psu_1)item(pocketstorage:psu_2)item(pocketstorage:psu_3)item(pocketstorage:psu_4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			icon: {
+				id: "functionalstorage:netherite_upgrade"
+			}
+			id: "5FBD41923B66C239"
+			min_width: 300
+			rewards: [{
+				id: "6CEFBFD6FF9D7D43"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5A0B7C6C05EEBEE2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:copper_upgrade)item(functionalstorage:gold_upgrade)item(functionalstorage:diamond_upgrade)item(functionalstorage:netherite_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			id: "7312FFEDAD1A6F75"
+			min_width: 250
+			rewards: [{
+				id: "1B715280A52493AB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2176EEBC20014BE1"
+				item: { count: 1, id: "functionalstorage:void_upgrade" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			icon: {
+				components: {
+					"functionalstorage:direction": "north"
+				}
+				id: "functionalstorage:collector_upgrade"
+			}
+			id: "5881702D0DE6180E"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "3EE3BD9B014EA433"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2DCE94139CB2078D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:collector_upgrade)item(functionalstorage:puller_upgrade)item(functionalstorage:pusher_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1AA08B095A8B378F"]
+			icon: {
+				id: "functionalstorage:storage_controller"
+			}
+			id: "0ABD10520EAB1C57"
+			min_width: 300
+			rewards: [{
+				id: "5C85DA993F335F97"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					icon: {
+						id: "functionalstorage:storage_controller"
+					}
+					id: "1211B7B1BC40225B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:storage_controller)item(functionalstorage:framed_storage_controller))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5E3DB978C813B92A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:controller_extension)item(functionalstorage:framed_controller_extension))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			icon: {
+				id: "functionalstorage:compacting_drawer"
+			}
+			id: "6D2B6421B1115667"
+			min_width: 300
+			rewards: [{
+				id: "241C5144D3F81163"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6FA17DE3B63BDA1A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:simple_compacting_drawer)item(functionalstorage:compacting_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			id: "093FB6A70B7243F9"
+			min_width: 300
+			rewards: [{
+				id: "309BDF2D35B64A6E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1A38FF821DCB9F52"
+				item: { count: 1, id: "functionalstorage:configuration_tool" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			icon: {
+				id: "functionalstorage:framed_1"
+			}
+			id: "019C7CBC9B62C803"
+			min_width: 250
+			optional: true
+			rewards: [{
+				id: "41471B27C3165B49"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "42D7392235F0A913"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:framed_1)item(functionalstorage:framed_2)item(functionalstorage:framed_4)item(functionalstorage:compacting_framed_drawer)item(functionalstorage:framed_simple_compacting_drawer))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			icon: {
+				id: "functionalstorage:fluid_1"
+			}
+			id: "49DD167D6323406B"
+			rewards: [{
+				id: "0EC1656826234295"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3C30835D105E888F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(functionalstorage:fluid_1)item(functionalstorage:fluid_2)item(functionalstorage:fluid_4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AA08B095A8B378F"]
+			id: "4A207BA624849BB8"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "0D99B73B282C258F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "24C81A0256111965"
+				item: { count: 1, id: "functionalstorage:ender_drawer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4A707D443EC2DE33"]
+			hide_dependent_lines: true
+			id: "1AA08B095A8B378F"
+			min_width: 300
+			rewards: [{
+				id: "1BC1B431D4FE570F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "550B9A02BD52B6A8"
+				item: { count: 1, id: "functionalstorage:linking_tool" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["05CEF45909A11F60"]
+			icon: {
+				id: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}
+			id: "141CE17C25D2A53A"
+			min_width: 300
+			rewards: [{
+				id: "6BF33D6555781156"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "34E73B963E55E8DF"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05CEF45909A11F60"]
+			icon: {
+				id: "minecraft:iron_ingot"
+			}
+			id: "304B25BADD64077D"
+			rewards: [{
+				id: "255C4570EF821E80"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "51E0FB26781697CB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(sophisticatedbackpacks:copper_backpack)item(sophisticatedbackpacks:iron_backpack)item(sophisticatedbackpacks:gold_backpack)item(sophisticatedbackpacks:diamond_backpack)item(sophisticatedbackpacks:netherite_backpack))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["05CEF45909A11F60"]
+			icon: {
+				components: {
+					"sophisticatedcore:accent_color": -14869215
+					"sophisticatedcore:main_color": -14869215
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "08204AA5ACCC914E"
+			optional: true
+			rewards: [{
+				id: "7850A73F4059FA3E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "7FAA87B19ACACCBC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dyes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ender_chest"
+			}
+			id: "049DE43A1B31C38F"
+			optional: true
+			rewards: [{
+				id: "591124F37A99CEEE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "5B8D61770B7554D0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "enderstorage:ender_chest"
+			}
+			id: "1FEEBCA6D633B479"
+			min_width: 350
+			optional: true
+			rewards: [
+				{
+					id: "58F56D81273BC8E7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27BDA5DC36D7D6AD"
+					table_id: 785854764447549437L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "27AB3E531E9170D2"
+					item: { count: 1, id: "enderstorage:ender_chest" }
+					type: "item"
+				}
+				{
+					id: "6ED128AD8EFB46BD"
+					item: { count: 1, id: "enderstorage:ender_tank" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "57CFF4E8A871D549"
+					item: { count: 1, id: "enderstorage:ender_pouch" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

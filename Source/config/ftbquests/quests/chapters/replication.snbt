@@ -1,0 +1,151 @@
+{
+	autofocus_id: "098FC37FAEAFCA33"
+	default_hide_dependency_lines: false
+	default_min_width: 250
+	default_quest_shape: ""
+	filename: "replication"
+	group: "3E2F3CB1CB8F9537"
+	icon: {
+		id: "replication:replica_ingot"
+	}
+	id: "158D033F7F934345"
+	order_index: 2
+	quest_links: [{
+		id: "6C5689AD6E8F35F0"
+		linked_quest: "098FC37FAEAFCA33"
+		shape: "hexagon"
+		size: 1.5d
+		x: 0.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["098FC37FAEAFCA33"]
+			id: "705E4FFB4FCADFD1"
+			rewards: [{
+				id: "794810900B49B9A3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "31929EA58B1939C7"
+				item: { count: 1, id: "replication:matter_network_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "5624865A6F796087"
+			rewards: [{
+				id: "4AD55E3AEC4B9E01"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "56BB8661527B61FB"
+				item: { count: 1, id: "replication:replicator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "2F8BB4724991B7C4"
+			rewards: [{
+				id: "76F6B55FE896A516"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0B5FC1CBA6FC0537"
+				item: { count: 1, id: "replication:identification_chamber" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "388014ECCC529C2C"
+			rewards: [{
+				id: "5D331AFCF5A92009"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1ECD19CBCC75C138"
+				item: { count: 1, id: "replication:disintegrator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["705E4FFB4FCADFD1"]
+			id: "39751E377C0F22EE"
+			rewards: [{
+				id: "0A8961A873682D87"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4DDAFD205F5C12EB"
+				item: { count: 1, id: "replication:replication_terminal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34DA4C91DEADF93D"]
+			id: "17EBE81C391DE37E"
+			rewards: [{
+				id: "5A31ED738A71B829"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "29DF36A900DC90E9"
+				item: { count: 1, id: "replication:chip_storage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F8BB4724991B7C4"]
+			id: "34DA4C91DEADF93D"
+			rewards: [{
+				id: "2E99857A623E01F9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "588E62E4F95DE83A"
+				item: { count: 1, id: "replication:memory_chip" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["388014ECCC529C2C"]
+			id: "2464B384CC26F2EC"
+			rewards: [{
+				id: "0EF58CC94BE6A57A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "73CEEE9A982651AD"
+				item: { count: 1, id: "replication:matter_tank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+}
