@@ -1286,7 +1286,7 @@
 		""
 		"&6&o&nTASK&r: Craft a &aDripper&r and convert &2Dirt&r into &bClay&r."
 		""
-		"Note: The Dripper must be placed directly above the Dirt block. Use a &2Bowl&r to scoop water into it."
+		"Note: The Dripper must be placed directly above the Dirt block. Use a &2Bowl&r to scoop water into it, or place a water source above it to automate it."
 	]
 	quest.12D1B9539CB0D796.quest_subtitle: "Notes On Wood"
 	quest.12D1B9539CB0D796.title: "&fDripper"
@@ -1886,7 +1886,9 @@
 	quest.1CFEC4265CAAA0D8.quest_desc: [
 		"&bWatering Cans&r are pretty simple. Fill it with water first by sneak using it on water, then hold right click to use it over an area. You can also sneak use it while looking into the air to use it automatically when held."
 		""
-		"The higher the tier, the more area that it covers. Usually these are automated by placing them in auto-clickers."
+		"The higher the tier, the more area that it covers."
+		""
+		"&eNote&f: These &ccannot be automated&f with auto-clickers in this pack."
 	]
 	quest.1CFEC4265CAAA0D8.title: "&aInferium &fWatering Can"
 	quest.1D410DFB7EFEE4CE.quest_desc: ["&aCoffee Beans&r can be found in the wild, and can be harvested to make &aCoffee&r."]
