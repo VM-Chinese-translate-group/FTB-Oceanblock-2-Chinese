@@ -144,10 +144,14 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				advancement: "minecraft:oritech/resource_node"
-				criterion: ""
-				id: "696467766F0FBA4A"
-				type: "advancement"
+				icon: {
+					id: "oritech:resource_node_platinum"
+				}
+				id: "400902217F620389"
+				observe_type: 1
+				timer: 0L
+				to_observe: "#oritech:resource_nodes"
+				type: "observation"
 			}]
 			x: 13.5d
 			y: 5.0d
