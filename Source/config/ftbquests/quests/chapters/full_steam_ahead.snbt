@@ -1037,7 +1037,7 @@
 				}
 				{
 					id: "23C79BEE044FDE7D"
-					item: { count: 1, id: "enderio:copper_alloy_ingot" }
+					item: { count: 1, id: "enderio:conductive_alloy_ingot" }
 					type: "item"
 				}
 				{

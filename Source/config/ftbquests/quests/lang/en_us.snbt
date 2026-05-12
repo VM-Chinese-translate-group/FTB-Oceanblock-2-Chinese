@@ -1466,7 +1466,7 @@
 	quest.14844C0E66FD7F44.title: "&fGarnet"
 	quest.1500BA1F8E090DCD.quest_desc: ["Dropping &aCrystallized Canola Seeds&r into &aRefined Oil&r will turn it into &cCrystallized Oil&r, which still has one last upgrade."]
 	quest.1507B28963B38101.quest_desc: [
-		"Tired of having manually craft all your componenets? Then the &aAutomated Engineer's Workbench&r is the right tool for you!"
+		"Tired of having manually craft all your components? Then the &aAutomated Engineer's Workbench&r is the right tool for you!"
 		""
 		"This multiblock has the same funcitionality as its non-automated version, but will automatically accept items and output the appropriate product based on the blueprint inside of the machine."
 		""
@@ -1781,7 +1781,7 @@
 	quest.1ABD3BBA8EC1EA70.quest_subtitle: "Maybe Basic MC Sapplings only."
 	quest.1AF177BD838F7F69.quest_subtitle: "Tier 3 Energy Storage"
 	quest.1AF177BD838F7F69.title: "&fVibrant Capacitor Bank"
-	quest.1AF853BD7AFAF0C6.quest_desc: ["This upgrade will increase the efficency of chemical-based machines."]
+	quest.1AF853BD7AFAF0C6.quest_desc: ["This upgrade will increase the efficiency of chemical-based machines."]
 	quest.1AF853BD7AFAF0C6.title: "&fChemical Upgrade"
 	quest.1AF8DB4E0B3BE3ED.quest_desc: [
 		"I seem to have forgotten the ever growing hunger of the Goo I made..."
@@ -2081,7 +2081,7 @@
 		""
 		"&aEnder Tanks&r work in the same way as &aEnder Chests&r but store liquids instead of items."
 		""
-		"Using a &bDiamond&r on the latch of an &aEnder Chest&r will move it to a seperate private network for the player that used the diamond. This is especially good for server use."
+		"Using a &bDiamond&r on the latch of an &aEnder Chest&r will move it to a separate private network for the player that used the diamond. This is especially good for server use."
 	]
 	quest.1FEEBCA6D633B479.title: "&aEnder Storage"
 	quest.1FFD5286C83B6A61.title: "Agriculture"
@@ -3616,7 +3616,7 @@
 		""
 		"This allows you to automate systems where you can break ore blocks, or you can convert modded blocks."
 	]
-	quest.37D23D46198DA708.title: "&fWorld Block Componenets"
+	quest.37D23D46198DA708.title: "&fWorld Block Components"
 	quest.37FC0C5C283E0580.quest_desc: ["This quest is for those who might have misplaced their &aBroken Commlink&r."]
 	quest.37FC0C5C283E0580.title: "&fLost Commlink?"
 	quest.38248F3AE03BE9F7.quest_desc: ["The &dAfrit Smelter&r functions like all other &bSmelters&r, but processes things 90% faster than normal."]
@@ -3643,7 +3643,7 @@
 	]
 	quest.385FCE9BEC913790.title: "&cHeat Vents &f\\&\\ &cHeat Pipes"
 	quest.38705F990589B2E8.quest_desc: [
-		"The &dIesnium Sacrificial Bowl&r is an upgrade to the standard &aGolden Sacrifical Bowl&r."
+		"The &dIesnium Sacrificial Bowl&r is an upgrade to the standard &aGolden Sacrificial Bowl&r."
 		""
 		"Significantly increases &bRitual&r speed."
 	]
@@ -4919,7 +4919,7 @@
 		"{@pagebreak}"
 		"It's also good to note that some &bCode Blocks&r like the &2Export to Chest&r one may have some additional config options that can be accessed via Right-clicking."
 		""
-		"In this case, you can select from wich side the &dDrone&r will access the &2Chest&r."
+		"In this case, you can select from which side the &dDrone&r will access the &2Chest&r."
 	]
 	quest.4DD685A3F0F1329F.title: "&fHarvesting Crops with &dDrones"
 	quest.4DF3BAFE6DD1AE55.quest_desc: [
@@ -5005,7 +5005,7 @@
 		"This is a strong acid used to break down certain items in a &6Chemical Dissolution Chamber&r. It is needed for the progression!"
 	]
 	quest.4EAE9F58776D84C8.title: "&fSulfuric Acid"
-	quest.4ECDF58A8FB43590.quest_subtitle: "Trasnfers Gases or Chemicals"
+	quest.4ECDF58A8FB43590.quest_subtitle: "Transfers Gases or Chemicals"
 	quest.4ECDF58A8FB43590.title: "&fMekanism's Gas Tubes"
 	quest.4EFE71837197FB63.quest_desc: ["&eMiner Spirits&r decay over time, but with simple materials, an &dAfrit&r can repair a &eMiner Spirit&r."]
 	quest.4EFE71837197FB63.title: "&dRepairing a Miner"
@@ -6118,7 +6118,7 @@
 		""
 		"Each category of &bVoltage&r transfers a different amount of power and, as such, require different methods of transportation."
 		""
-		"In general, every power network needs three things: an input, an ouput, and a storage buffer (all machines have a built-in buffer)."
+		"In general, every power network needs three things: an input, an output, and a storage buffer (all machines have a built-in buffer)."
 		"{@pagebreak}"
 		"Power can be sent to and from a network via a connector using a &aWire Coil&r of the matching &bVoltage&r. You can extend the wires by connecting them to a &aWire Relay&r."
 		""
@@ -6428,7 +6428,7 @@
 	]
 	quest.65DB98356A7ABA09.title: "&aA New Type Of Smelter"
 	quest.65EB766D0445C1A6.quest_desc: [
-		"It is safe to destroy a &aStorage Stabilizer&r to ugprade it. The items in the &aStorage Actuator&r won't be lost or dropped, but you won't be able to add new items if until it has free slots again."
+		"It is safe to destroy a &aStorage Stabilizer&r to upgrade it. The items in the &aStorage Actuator&r won't be lost or dropped, but you won't be able to add new items if until it has free slots again."
 		""
 		"Each &cTier 2 Dimensional Storage Stablizer&r adds 1024000 items, and 128 item types, up to four &aStablizers&r."
 	]
@@ -6975,10 +6975,10 @@
 		"- Upgraded: Cannot be upgraded"
 		"{@pagebreak}"
 		"&aFairy&r: Prevents other &eFamiliars'&r death (on cooldown), Buffs &eFamiliars&r, Drains nearby enemies' HP."
-		"- Upgraded: Cannot be ugpraded"
+		"- Upgraded: Cannot be upgraded"
 		""
 		"&aHeadless&r: Steals heads of nearby enemies to gain a permanent damage buff against that enemy type. It is killed if it drops below 50% health, but can be be revived when given Wheat, Sticks, Hay Bale, and a Carved Pumpkin"
-		"- Upgraded: Cannot be ugpraded"
+		"- Upgraded: Cannot be upgraded"
 		""
 		"&aMummy&r: Fights nearby enemies"
 		"- Upgraded: Increased damage"
@@ -7100,7 +7100,7 @@
 	quest.73B0702440A063EB.quest_desc: [
 		"These allow you to place or release items into the world as entities."
 		""
-		"You can use these to set up systems for auto crop farming and harvesting, as well as picking up items like a vaccum hopper from things like a mob farm."
+		"You can use these to set up systems for auto crop farming and harvesting, as well as picking up items like a vacuum hopper from things like a mob farm."
 	]
 	quest.73B0702440A063EB.title: "&fWorld Item Components"
 	quest.73B45ED40DC41735.quest_desc: ["The &3Gold Crafter&r has 45 &aPattern&r slots and works as fast as a fully upgraded &2Iron Crafter&r."]

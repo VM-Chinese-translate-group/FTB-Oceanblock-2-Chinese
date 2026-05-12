@@ -11,7 +11,7 @@
 			id: "525EEBEEDE344F97"
 			item: {
 				count: 1
-				id: "enderio:copper_alloy_ingot"
+				id: "enderio:conductive_alloy_ingot"
 			}
 			random_bonus: 2
 			weight: 10.0f
@@ -250,7 +250,7 @@
 			id: "58C67E13EA2F6A19"
 			item: {
 				count: 1
-				id: "enderio:copper_alloy_grinding_ball"
+				id: "enderio:conductive_alloy_grinding_ball"
 			}
 			random_bonus: 32
 			weight: 10.0f
