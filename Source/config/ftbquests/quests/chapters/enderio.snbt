@@ -53,7 +53,7 @@
 		}
 		{
 			height: 0.5d
-			image: "ftbchunks:textures/faces/minecraft/enderman.png"
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
 			x: 1.0d
@@ -61,7 +61,7 @@
 		}
 		{
 			height: 0.5d
-			image: "ftbchunks:textures/faces/minecraft/enderman.png"
+			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
 			x: 5.0d
@@ -584,7 +584,7 @@
 			tasks: [
 				{
 					id: "5D56EAA3B73A5D97"
-					item: { count: 1, id: "enderio:empty_soul_vial" }
+					item: { count: 1, id: "enderio:soul_vial" }
 					type: "item"
 				}
 				{

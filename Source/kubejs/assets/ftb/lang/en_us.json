@@ -29,7 +29,7 @@
   "item.ftb.the_ice_breaker": "The Ice Breaker",
   "item.ftb.useless_machine_1": "Paradox Machine",
   "item.ftb.useless_machine_2": " Useless Machine",
-  "item.ftb.useless_machine_tooltip": "At least untill you get time crystals",
+  "item.ftb.useless_machine_tooltip": "At least until you get time crystals",
   "loot_crate.ftb.adventurer_bundle": "Adventurer Box",
   "loot_crate.ftb.ae2_supplies": "Box of AE2 Supplies",
   "loot_crate.ftb.bag_of_random_seeds": "Box of Random Seeds",
@@ -253,5 +253,6 @@
   "tooltip.mob_grinding_utils.jumbo_tank": "⚠ Attention: Filled Jumbo Tanks may get Stuck in your AE/RS System.",
   "tooltip.oritechthings.accelerator_speed_sensor": "ⓘ Can Rarely be Found inside of Pulsating Crates.",
   "tooltip.ftbstuff.netherite_sluice": "⚠ Attention: Requires Power to Work!",
-  "tooltip.justdirethings.unstable_portal_fluid": "§c⚠ Attention§f: Will §b§nEvaporate§r§f Inside a §3Compact Machine§f!"
+  "tooltip.justdirethings.unstable_portal_fluid": "§c⚠ Attention§f: Will §b§nEvaporate§r§f Inside a §3Compact Machine§f!",
+  "tooltip.ftb.deprecated": "§c⚠ Attention§f: This Item is §cDeprecated§f, convert it in the §3Crafting Grid§f."
 }
