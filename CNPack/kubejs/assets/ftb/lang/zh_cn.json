@@ -29,7 +29,7 @@
   "item.ftb.the_ice_breaker": "破冰镐",
   "item.ftb.useless_machine_1": "悖论机器",
   "item.ftb.useless_machine_2": " 无用机器",
-  "item.ftb.useless_machine_tooltip": "至少在你获得时间水晶之前",
+  "item.ftb.useless_machine_tooltip": "At least until you get time crystals",
   "loot_crate.ftb.adventurer_bundle": "冒险者奖励箱",
   "loot_crate.ftb.ae2_supplies": "AE2奖励箱",
   "loot_crate.ftb.bag_of_random_seeds": "随机种子奖励箱",
@@ -253,5 +253,6 @@
   "tooltip.mob_grinding_utils.jumbo_tank": "⚠ 注意：装满的巨型储罐会使你的AE/RS系统卡顿。 ",
   "tooltip.oritechthings.accelerator_speed_sensor": "ⓘ 有小概率在脉动板条箱内找到",
   "tooltip.ftbstuff.netherite_sluice": "⚠ 注意：需要能量才能工作！",
-  "tooltip.justdirethings.unstable_portal_fluid": "§c⚠ Attention§f: Will §b§nEvaporate§r§f Inside a §3Compact Machine§f!"
+  "tooltip.justdirethings.unstable_portal_fluid": "§c⚠ Attention§f: Will §b§nEvaporate§r§f Inside a §3Compact Machine§f!",
+  "tooltip.ftb.deprecated": "§c⚠ Attention§f: This Item is §cDeprecated§f, convert it in the §3Crafting Grid§f."
 }

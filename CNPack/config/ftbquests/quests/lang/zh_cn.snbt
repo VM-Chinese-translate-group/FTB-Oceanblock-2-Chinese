@@ -3521,7 +3521,7 @@
 		""
 		"This allows you to automate systems where you can break ore blocks, or you can convert modded blocks."
 	]
-	quest.37D23D46198DA708.title: "&f世界方块交互"
+	quest.37D23D46198DA708.title: "&fWorld Block Components"
 	quest.37FC0C5C283E0580.quest_desc: ["This quest is for those who might have misplaced their &aBroken Commlink&r."]
 	quest.37FC0C5C283E0580.title: "&f弄丢了通讯链接器？"
 	quest.38248F3AE03BE9F7.quest_desc: ["The &dAfrit Smelter&r functions like all other &bSmelters&r, but processes things 90% faster than normal."]
@@ -4799,7 +4799,7 @@
 		"{@pagebreak}"
 		"还需注意的是，某些&b“代码块”&r（如&2“导出到箱子”&r）可能有一些额外的配置选项，通过右击可以查看。"
 		""
-		"在这种情况下，你可以选择&d无人机&r从哪一边访问&2箱子&r。"
+		"In this case, you can select from which side the &dDrone&r will access the &2Chest&r."
 	]
 	quest.4DD685A3F0F1329F.title: "&d用无人机&f收获作物"
 	quest.4DF3BAFE6DD1AE55.quest_desc: [
@@ -4884,7 +4884,7 @@
 		"This is a strong acid used to break down certain items in a &6Chemical Dissolution Chamber&r. It is needed for the progression!"
 	]
 	quest.4EAE9F58776D84C8.title: "&f硫酸"
-	quest.4ECDF58A8FB43590.quest_subtitle: "传输气体和化学品"
+	quest.4ECDF58A8FB43590.quest_subtitle: "Transfers Gases or Chemicals"
 	quest.4ECDF58A8FB43590.title: "&f通用机械气体管道"
 	quest.4EFE71837197FB63.quest_desc: ["&eMiner Spirits&r decay over time, but with simple materials, an &dAfrit&r can repair a &eMiner Spirit&r."]
 	quest.4EFE71837197FB63.title: "&d修理矿工"
@@ -6816,10 +6816,10 @@
 		"- 升级后：该使魔不能被升级"
 		"{@pagebreak}"
 		"&a妖精&r：阻止其他&e使魔&r死亡（有冷却时间），为&e使魔&r提供正面效果，吸收周围敌人生命值"
-		"- 升级后：该使魔不能被升级"
+		"- Upgraded: Cannot be upgraded"
 		""
 		"&a无头鼠骑士&r：窃取周围敌人的头部并占为己有，同时主人将获得对该类生物的伤害加成。但是当它的生命低于50%时，就会死亡。不过可以通过给予它小麦，木棍，干草捆，雕刻南瓜来复活它"
-		"- 升级后：该使魔不能被升级"
+		"- Upgraded: Cannot be upgraded"
 		""
 		"&a木乃伊&r：攻击周围敌人"
 		"- 升级后：提升伤害"
