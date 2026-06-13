@@ -162,6 +162,7 @@
 					id: "immersiveengineering:arc_furnace"
 				}
 				id: "4A0037264C36EBE1"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:arc_furnace"
@@ -192,6 +193,7 @@
 					id: "immersiveengineering:metal_press"
 				}
 				id: "04A70E089DED1FFE"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:metal_press"
@@ -306,6 +308,7 @@
 						id: "immersiveengineering:advanced_blast_furnace"
 					}
 					id: "3A3DB763BBBC3F31"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "immersiveengineering:advanced_blast_furnace"
@@ -411,6 +414,7 @@
 					id: "immersiveengineering:crusher"
 				}
 				id: "4750B6095A6DC2F2"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:crusher"
@@ -583,6 +587,7 @@
 					id: "immersiveengineering:diesel_generator"
 				}
 				id: "4C37818287E9D1ED"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:diesel_generator"
@@ -614,6 +619,7 @@
 					id: "immersiveengineering:lightning_rod"
 				}
 				id: "0E8C4E7C9C329FA2"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:lightning_rod"
@@ -836,6 +842,7 @@
 					id: "immersiveengineering:bottling_machine"
 				}
 				id: "6CDF504643794087"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:bottling_machine"
@@ -881,6 +888,7 @@
 					id: "immersiveengineering:refinery"
 				}
 				id: "77B96BEA9D8D8654"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:refinery"
@@ -942,6 +950,7 @@
 					id: "immersiveengineering:fermenter"
 				}
 				id: "5E824F724F133342"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:fermenter"
@@ -992,6 +1001,7 @@
 					id: "immersiveengineering:auto_workbench"
 				}
 				id: "63631EC45A5E0BD0"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:auto_workbench"
@@ -1021,6 +1031,7 @@
 					id: "immersiveengineering:squeezer"
 				}
 				id: "3F7FE89F1DBD4A48"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:squeezer"
@@ -1082,6 +1093,7 @@
 					id: "immersiveengineering:mixer"
 				}
 				id: "6C1AB8986784E504"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "immersiveengineering:mixer"

@@ -1619,6 +1619,7 @@
 					id: "ftboceanmobs:abyssal_winged_spawn_egg"
 				}
 				id: "22D74C02413B61B9"
+				observation_type: "entity_type"
 				observe_type: 5
 				timer: 0L
 				to_observe: "ftboceanmobs:shadow_beast"

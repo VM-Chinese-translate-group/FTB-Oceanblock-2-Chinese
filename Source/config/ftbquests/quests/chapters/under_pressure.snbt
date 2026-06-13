@@ -302,6 +302,7 @@
 						id: "ae2:mysterious_cube"
 					}
 					id: "410607ED10D1790A"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "ae2:mysterious_cube"
