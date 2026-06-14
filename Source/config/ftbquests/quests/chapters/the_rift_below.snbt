@@ -167,6 +167,7 @@
 					id: "ftb:portal_holder"
 				}
 				id: "144458AE3FF8DBA7"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "ftb:portal_holder"
@@ -1105,6 +1106,7 @@
 						id: "justdirethings:time_crystal_budding_block"
 					}
 					id: "14BC93367178C58B"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "justdirethings:time_crystal_budding_block"

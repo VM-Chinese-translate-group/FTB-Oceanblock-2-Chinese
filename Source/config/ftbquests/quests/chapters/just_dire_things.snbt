@@ -2019,6 +2019,7 @@
 						id: "justdirethings:time_crystal_budding_block"
 					}
 					id: "15C9B9890A034121"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "justdirethings:time_crystal_budding_block"

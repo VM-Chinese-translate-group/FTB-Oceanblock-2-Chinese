@@ -148,6 +148,7 @@
 					id: "oritech:resource_node_platinum"
 				}
 				id: "400902217F620389"
+				observation_type: "block_tag"
 				observe_type: 1
 				timer: 0L
 				to_observe: "#oritech:resource_nodes"
