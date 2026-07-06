@@ -55,7 +55,7 @@
 		}
 		{
 			height: 2.0d
-			image: "advanced_ae:block/crafting/quantum_structure_powered"
+			image: "advanced_ae:block/crafting/quantum_structure"
 			rotation: 45.0d
 			width: 2.0d
 			x: 6.0d
