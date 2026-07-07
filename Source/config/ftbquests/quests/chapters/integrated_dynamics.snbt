@@ -234,9 +234,6 @@
 				{
 					id: "794A70BFF130F5C4"
 					item: {
-						components: {
-							"cyclopscore:energy_storage": 0
-						}
 						count: 1
 						id: "integrateddynamics:energy_battery"
 					}
@@ -250,7 +247,7 @@
 			]
 			tasks: [{
 				id: "052C180AAECB9063"
-				item: { components: { "cyclopscore:energy_storage": 0 }, count: 1, id: "integrateddynamics:energy_battery" }
+				item: { count: 1, id: "integrateddynamics:energy_battery" }
 				type: "item"
 			}]
 			x: 3.5d
