@@ -390,7 +390,7 @@
 		""
 		"The advanced versions allow for you to upgrade the Provider to store more pattern slots by providing &bPattern Provider Capacity Upgrades&r."
 	]
-	quest.06918197435AF24E.title: "&f高级样板提供器升级"
+	quest.06918197435AF24E.title: "&f高级样板供应器升级"
 	quest.06BE551FB486ABD7.quest_desc: [
 		"Unfortunately, I don't believe my Foundry can make everything I need."
 		""
