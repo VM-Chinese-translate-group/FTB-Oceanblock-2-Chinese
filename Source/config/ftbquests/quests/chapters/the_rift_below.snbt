@@ -16,6 +16,7 @@
 		{
 			color: 170
 			height: 5.0d
+			id: "10937104AE08B395"
 			image: "relics:item/space_dissector"
 			order: -1
 			rotation: 0.0d
@@ -26,6 +27,7 @@
 		{
 			color: 1710618
 			height: 11.0d
+			id: "1FACB0AB7DFA2F0D"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d
@@ -36,6 +38,7 @@
 		{
 			color: 11141290
 			height: 8.5d
+			id: "71E0A252A1BB3E7C"
 			image: "minecraft:block/nether_portal"
 			rotation: 0.0d
 			width: 8.5d
@@ -44,6 +47,7 @@
 		}
 		{
 			height: 2.0d
+			id: "43C49EBF5B4F9A0E"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -52,6 +56,7 @@
 		}
 		{
 			height: 2.0d
+			id: "76EE96E92E267C6C"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -60,6 +65,7 @@
 		}
 		{
 			height: 2.0d
+			id: "017B5C765ACD6D5F"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -68,6 +74,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7F213701083D6AFF"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -76,6 +83,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0F789E8155BE65FD"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -84,6 +92,7 @@
 		}
 		{
 			height: 2.0d
+			id: "07DF91DAD37089BF"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -92,6 +101,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7FF0D07A93ACF4F5"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -100,6 +110,7 @@
 		}
 		{
 			height: 2.0d
+			id: "75BC650AC9B0E0B4"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -108,6 +119,7 @@
 		}
 		{
 			height: 2.0d
+			id: "50816950305CCDE8"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -116,6 +128,7 @@
 		}
 		{
 			height: 2.0d
+			id: "06FED0E1A0B8F692"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -124,6 +137,7 @@
 		}
 		{
 			height: 2.0d
+			id: "42A30CF828DD22AA"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d
@@ -132,6 +146,7 @@
 		}
 		{
 			height: 2.0d
+			id: "3FC04208B718B11E"
 			image: "actuallyadditions:block/empowered_void_crystal_block"
 			rotation: 0.0d
 			width: 2.0d

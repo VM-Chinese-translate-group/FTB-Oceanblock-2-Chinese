@@ -36,6 +36,12 @@
 	chapter_group.3E2F3CB1CB8F9537.title: "Resource Automation"
 	chapter_group.6CB7C55CABF95200.title: "Exploration"
 	file.0000000000000001.title: "Oceanblock 2"
+	image.1408F29A2CA767EF.title: "FTB Issue Tracker"
+	image.19096EF8B0683D54.title: "Oritech Wiki"
+	image.4B55338D272BBA2D.title: "Nuclear Reactor Wiki"
+	image.4E8852C316EB8217.title: "Particle Accelerator Wiki"
+	image.5636ED4FD726E9B7.title: "FTB Discord"
+	image.73DE9D6EA6055FBD.title: "Induction Matrix"
 	quest.0017F48E23512C75.quest_desc: ["[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" Chalks\"]"
 	quest.007CD364F96C2912.quest_desc: ["Want to run faster? &aFree Runners&r won't help with that. But they will negate fall damage and offer some protection at the cost of energy!"]
@@ -2391,6 +2397,14 @@
 		"&aInduction Ports&r can be configured to input or output power by sneak-using a &aConfigurator&r on them. I suggest on using at least 2 for your first Matrix!"
 	]
 	quest.25EB6E3274347822.title: "&fThe &dEnergized Induction Matrix"
+	quest.261B2184A4839741.quest_desc: [
+		"If you're playing with friends and want to be on the same starting ship, FTB Teams makes that very easy."
+		""
+		"When joining a world for the first time a team is automatically created for you, so you'll need to type &a/ftbteams party leave&f in chat."
+		""
+		"After that is done, the party leader can invite new players by typing &a/ftbteams party invite <username>&f, and a message will show up in chat prompting the new party member to accept or decline the invite."
+	]
+	quest.261B2184A4839741.title: "Creating and Joining a team"
 	quest.262464EE203C7A1B.quest_desc: [
 		"&6Oritech&r offers different &aJetpack&r variants. All of them can fly using either energy or &cTurbofuel&r. To fill them with energy, any energy storage or a charger can be used. To fill the internal tank, a &aCharger Block&r is required."
 		""
@@ -2896,9 +2910,9 @@
 	]
 	quest.2DA5BB792D9C2E30.title: "&aHedyrin's Familiars"
 	quest.2DAA24C99CAB703D.quest_desc: [
-		"&a/sethome&r - Sets a &eHome&r for you to teleport back to. This cannot be set below crushing depths."
+		"&a/sethome&r - Sets a &eHome&r for you to teleport back to using &a/home <name>&f. This cannot be set below crushing depths."
 		""
-		"&a/home&r - Teleports you back to your &eHome&r."
+		"&a/ftbteambases home&r - Teleports you back to your &ePod Spawn Location&r."
 		""
 		"&a/back&r - Teleports you back to your last death location."
 		""
@@ -7867,6 +7881,12 @@
 	]
 	quest.7E909792A1E7CFD1.quest_subtitle: "Summoning Pentacle: Tier 4"
 	quest.7E909792A1E7CFD1.title: "&dAbras' Conjure"
+	quest.7E96EBFC82E5DA2B.quest_desc: [
+		"Found something that doesn't work like it should?"
+		""
+		"[\"We'd love to know so we can fix it! You can stop by to let us know on \", {\"text\": \"Discord\", \"color\": \"aqua\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://discord.com/invite/X5UGvBs\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open Discord invite\"]} }, \" or by making a bug report on \", {\"text\": \"GitHub\", \"color\": \"light_purple\", \"underlined\": true, \"clickEvent\": {\"action\": \"open_url\", \"value\": \"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"}, \"hoverEvent\": {\"action\": \"show_text\", \"contents\": [\"Open FTB GitHub\"]} }, \".\"]"
+	]
+	quest.7E96EBFC82E5DA2B.title: "&fFound A Bug?"
 	quest.7EA01C721DFBF014.quest_desc: [
 		"The &aAuto-Placer&r/&aFluid Placer&r automatically place block/fluids down in front of it."
 		""
@@ -7987,6 +8007,7 @@
 	task.0296805497AADD1C.title: "Tier 1 & 2 Machine Cores"
 	task.02E6504A12BEF04F.title: "&fSummon a &6Marid Crusher"
 	task.033C0800D02082EF.title: "&fSummon a &aWater Animal"
+	task.035C4884AAC6C3AB.title: "Managing Teams"
 	task.03DFD823ACDCF36F.title: "Fluid Automation"
 	task.040406F0404C8971.title: "&dTier 5 &fSeeds"
 	task.04A70E089DED1FFE.title: "&eObserve&f: Metal Press"
@@ -8164,6 +8185,7 @@
 	task.45CC5A8334951331.title: "I have read and agreed to the Terms and Conditions"
 	task.461DC877898F48C2.title: "&fWorld Blocks"
 	task.46EC79135B4B2DDB.title: "Wooden Log"
+	task.47155550952CA011.title: "Bug Reporting"
 	task.4742ACCF0E820BD4.title: "&fSummon a &aDrikwing"
 	task.4750B6095A6DC2F2.title: "&eObserve&f: Crusher"
 	task.4770154ADE2ED622.title: "&fCreating Your First &dSpell"

@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "567C913D3F671810"
 			image: "ftb:textures/quests/mekanism/mekanism_logo.png"
 			rotation: 0.0d
 			width: 10.345991561181435d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7554441010164386"
 			image: "mekanism:block/painting_machine/back"
 			rotation: 0.0d
 			width: 2.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2D21F0DB2672333F"
 			image: "mekanism:block/induction_port_output_led"
 			rotation: 45.0d
 			width: 2.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 2.0d
+			id: "71475C08C9AA3BD7"
 			image: "mekanism:block/induction_port_output_led"
 			rotation: 45.0d
 			width: 2.0d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7FB018A6E03695C1"
 			image: "mekanism:block/bio_fuel_block_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 1.0d
+			id: "60AC6D9A1F631F10"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -60,6 +66,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2F2212C702B45599"
 			image: "ae2:block/controller_powered"
 			rotation: 45.0d
 			width: 1.0d
@@ -70,6 +77,7 @@
 			alpha: 200
 			color: 66564
 			height: 1.0d
+			id: "564DD7155A919F97"
 			image: "easy_piglins:block/bottom_frame"
 			order: -1
 			rotation: 45.0d
@@ -81,6 +89,7 @@
 			alpha: 150
 			color: 43690
 			height: 5.0d
+			id: "7F5363DD5A83620C"
 			image: "mekanism:block/overlay/overlay_white"
 			order: -1
 			rotation: 0.0d
@@ -90,6 +99,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4FFAE0E85D7E8D2B"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			rotation: 45.0d
 			width: 1.0d

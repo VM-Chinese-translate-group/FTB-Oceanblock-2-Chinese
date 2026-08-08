@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "6BEA57E2F1C0CAE7"
 			image: "functionalstorage:item/copper_upgrade"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.5d
+			id: "476E3FD1C7918EA8"
 			image: "chipped:block/barrel/gilded_barrel_bottom"
 			order: 1
 			rotation: 45.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 2.5d
+			id: "6434567F79B4470D"
 			image: "easy_piglins:block/top_frame"
 			order: -1
 			rotation: 45.0d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 1.5d
+			id: "70C1CEAB878AC20B"
 			image: "chipped:block/barrel/oak_barrel_bottom"
 			rotation: 45.0d
 			width: 1.5d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1A65E134A66D2DB0"
 			image: "functionalstorage:block/framed_side"
 			order: -1
 			rotation: 0.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7545DDB9D78C09BC"
 			image: "functionalstorage:block/framed_controller_front"
 			rotation: 0.0d
 			width: 1.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7DE6A7C5908DC40D"
 			image: "functionalstorage:block/fluid_top"
 			order: -1
 			rotation: 0.0d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 3.0d
+			id: "5969D1324C0F983A"
 			image: "ftb:textures/quests/storage_text.png"
 			rotation: 0.0d
 			width: 8.892857142857142d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 1.5d
+			id: "5A69301E2015DFF7"
 			image: "ftb:textures/quests/chest.png"
 			rotation: 0.0d
 			width: 1.5d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 1.5d
+			id: "6344C851B6199C76"
 			image: "ftb:textures/quests/chest_flipped.png"
 			rotation: 0.0d
 			width: 1.5d

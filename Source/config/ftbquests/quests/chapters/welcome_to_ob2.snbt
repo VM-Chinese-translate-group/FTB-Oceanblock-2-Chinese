@@ -1,6 +1,7 @@
 {
 	autofocus_id: "70A09D5CFC69EA43"
 	default_hide_dependency_lines: false
+	default_min_width: 250
 	default_quest_shape: ""
 	filename: "welcome_to_ob2"
 	group: ""
@@ -14,6 +15,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "110B2EBD97022866"
 			image: "ftb:textures/quests/header_night.png"
 			rotation: 0.0d
 			width: 10.0d
@@ -22,6 +24,7 @@
 		}
 		{
 			height: 3.5d
+			id: "1B405F4459A0899C"
 			image: "chipped:block/spruce_log/planked_spruce_log_top"
 			rotation: 0.0d
 			width: 3.5d
@@ -29,24 +32,24 @@
 			y: 0.0d
 		}
 		{
-			click: "https://go.ftb.team/discord"
+			click_action: "open_uri:https://go.ftb.team/discord"
 			height: 1.0d
-			hover: ["image.ftb.discord"]
+			id: "5636ED4FD726E9B7"
 			image: "ftbpc:textures/gui/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.5d
-			y: 2.5d
+			x: -1.0d
+			y: 4.5d
 		}
 		{
-			click: "https://go.ftb.team/support-modpack"
+			click_action: "open_uri:https://go.ftb.team/support-modpack"
 			height: 1.0d
-			hover: ["image.ftb.bug"]
+			id: "1408F29A2CA767EF"
 			image: "ftbpc:textures/gui/github.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5d
-			y: 2.5d
+			x: 1.0d
+			y: 4.5d
 		}
 	]
 	order_index: 0
@@ -95,8 +98,52 @@
 				id: "5A2372373A4356E2"
 				type: "checkmark"
 			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbteams:textures/teams.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "261B2184A4839741"
+			rewards: [{
+				id: "613A44B867ED7006"
+				team_reward: false
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "035C4884AAC6C3AB"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:textures/gui/missing_image.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7E96EBFC82E5DA2B"
+			rewards: [{
+				id: "7980200CFBB3668B"
+				team_reward: false
+				type: "xp"
+				xp: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "47155550952CA011"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
 		}
 	]
 }

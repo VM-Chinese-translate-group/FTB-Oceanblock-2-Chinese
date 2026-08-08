@@ -11,9 +11,9 @@
 	id: "7B3ADCA4950CB4F0"
 	images: [
 		{
-			click: "https://moddedmc.wiki/en/project/oritech/latest/docs/particle_accelerator"
+			click_action: "open_uri:https://moddedmc.wiki/en/project/oritech/latest/docs/particle_accelerator"
 			height: 1.0d
-			hover: ["Particle Accelerator Wiki"]
+			id: "4E8852C316EB8217"
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -22,6 +22,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0DC074D96CC96974"
 			image: "oritech:block/nickel_plating_block/center"
 			order: 1
 			rotation: 45.0d
@@ -31,6 +32,7 @@
 		}
 		{
 			height: 2.0d
+			id: "54C7F9E7258840E5"
 			image: "oritech:block/nickel_plating_block/center"
 			rotation: 0.0d
 			width: 2.0d
@@ -39,6 +41,7 @@
 		}
 		{
 			height: 1.5d
+			id: "6E39D33611EC8A29"
 			image: "bigreactors:block/fluidizer/glass.0"
 			order: -1
 			rotation: 45.0d
@@ -47,9 +50,9 @@
 			y: 10.0d
 		}
 		{
-			click: "https://moddedmc.org/en/project/oritech/docs"
+			click_action: "open_uri:https://moddedmc.org/en/project/oritech/docs"
 			height: 5.0d
-			hover: ["Oritech Wiki"]
+			id: "19096EF8B0683D54"
 			image: "ftb:textures/quests/oritech_logo.png"
 			rotation: 0.0d
 			width: 9.580152671755725d
@@ -59,6 +62,7 @@
 		{
 			color: 0
 			height: 4.0d
+			id: "2B29F647ABE962BB"
 			image: "mekanism:block/structural_glass"
 			order: -2
 			rotation: 0.0d
@@ -69,6 +73,7 @@
 		{
 			color: 0
 			height: 4.0d
+			id: "29D7277CBA31EC98"
 			image: "chipped:block/glass/ctm/clear_leaded_glass_ctm/3"
 			order: -1
 			rotation: 0.0d
@@ -77,9 +82,9 @@
 			y: -5.0d
 		}
 		{
-			click: "https://moddedmc.wiki/en/project/oritech/latest/docs/reactor/introduction"
+			click_action: "open_uri:https://moddedmc.wiki/en/project/oritech/latest/docs/reactor/introduction"
 			height: 1.0d
-			hover: ["Nuclear Reactor Wiki"]
+			id: "4B55338D272BBA2D"
 			image: "jei:textures/jei/atlas/gui/icons/info.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -88,6 +93,7 @@
 		}
 		{
 			height: 1.5d
+			id: "28CCC023CFE583C5"
 			image: "bigreactors:block/fluidizer/glass.0"
 			order: -1
 			rotation: 45.0d

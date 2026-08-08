@@ -16,6 +16,7 @@
 		{
 			alpha: 125
 			height: 45.0d
+			id: "40EDA6A5ED828B1A"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -25,6 +26,7 @@
 		{
 			alpha: 125
 			height: 45.0d
+			id: "64588498FD7984F1"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -34,6 +36,7 @@
 		{
 			alpha: 125
 			height: 45.0d
+			id: "60110DBB6D336B37"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -43,6 +46,7 @@
 		{
 			alpha: 125
 			height: 45.0d
+			id: "7AD8C5EC751E8DA9"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -50,8 +54,9 @@
 			y: 38.0d
 		}
 		{
-			dev: true
+			dev: 1b
 			height: 45.0d
+			id: "6775697482D14019"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -61,6 +66,7 @@
 		{
 			alpha: 125
 			height: 45.0d
+			id: "686E75B079F191FF"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -68,8 +74,9 @@
 			y: 18.0d
 		}
 		{
-			dev: true
+			dev: 1b
 			height: 45.0d
+			id: "75D637F4C1214C84"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 90.0d
 			width: 1.0d
@@ -79,6 +86,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "5B31B6ED634CBD6F"
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -88,6 +96,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "5ABC99B5F250C2D2"
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -97,6 +106,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "1DE7737C5750F9C8"
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -106,6 +116,7 @@
 		{
 			alpha: 155
 			height: 3.0d
+			id: "2CDFDECCDB8E329F"
 			image: "minecraft:textures/entity/end_portal.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -116,6 +127,7 @@
 			alpha: 125
 			color: 16755200
 			height: 30.0d
+			id: "4002C2A79CAA2298"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -126,6 +138,7 @@
 			alpha: 125
 			color: 16755200
 			height: 30.0d
+			id: "301DD1128E4F4154"
 			image: "minecraft:block/white_stained_glass_pane_top"
 			rotation: 0.0d
 			width: 1.0d
@@ -135,6 +148,7 @@
 		{
 			alpha: 155
 			height: 6.0d
+			id: "498D0724BF3379E1"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			order: -1
 			rotation: 0.0d
@@ -144,6 +158,7 @@
 		}
 		{
 			height: 4.0d
+			id: "643BF34051719D9A"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			rotation: 0.0d
 			width: 4.0d
@@ -152,6 +167,7 @@
 		}
 		{
 			height: 2.0d
+			id: "182BD650778B629E"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			order: 1
 			rotation: 45.0d
@@ -161,6 +177,7 @@
 		}
 		{
 			height: 2.0d
+			id: "420075C1633A47DA"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			order: 1
 			rotation: 45.0d
@@ -170,6 +187,7 @@
 		}
 		{
 			height: 2.0d
+			id: "1B10CE92086ECB2E"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			order: 1
 			rotation: 45.0d
@@ -179,6 +197,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2AC4B6C45C60BA52"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			order: 1
 			rotation: 45.0d
@@ -189,6 +208,7 @@
 		{
 			color: 16733695
 			height: 5.5d
+			id: "128EFD72E634F0D0"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 5.5d
@@ -199,6 +219,7 @@
 			alpha: 55
 			color: 16777045
 			height: 4.0d
+			id: "730C91BB84D7350F"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			order: -2
 			rotation: 45.0d
@@ -209,6 +230,7 @@
 		{
 			alpha: 155
 			height: 4.0d
+			id: "18120B184D87978D"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			order: -2
 			rotation: 45.0d
@@ -220,6 +242,7 @@
 			alpha: 155
 			color: 11141120
 			height: 4.0d
+			id: "4493CECC0A12AFF1"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			order: -2
 			rotation: 45.0d
@@ -231,6 +254,7 @@
 			alpha: 155
 			color: 16733695
 			height: 4.0d
+			id: "009E5FC2EDEC29FA"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			order: -2
 			rotation: 45.0d
@@ -240,6 +264,7 @@
 		}
 		{
 			height: 3.0d
+			id: "3CB5F8BC04486B6B"
 			image: "occultism:textures/gui/book/familiar_fairy.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -248,6 +273,7 @@
 		}
 		{
 			height: 3.0d
+			id: "56B750FF413416F0"
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -257,6 +283,7 @@
 		{
 			color: 16733525
 			height: 1.0d
+			id: "297448463C111D6C"
 			image: "occultism:block/chalk_glyph/5"
 			rotation: 25.0d
 			width: 1.0d
@@ -266,6 +293,7 @@
 		{
 			color: 5592575
 			height: 1.0d
+			id: "2DDB521A65917F84"
 			image: "occultism:block/chalk_glyph/0"
 			rotation: 65.0d
 			width: 1.0d
@@ -275,6 +303,7 @@
 		{
 			color: 43520
 			height: 1.0d
+			id: "0141D55A39EE497E"
 			image: "occultism:block/chalk_glyph/12"
 			rotation: -35.0d
 			width: 1.0d
@@ -283,6 +312,7 @@
 		}
 		{
 			height: 3.0d
+			id: "42F3B4665C433EB9"
 			image: "occultism:textures/gui/book/familiar_deer.png"
 			rotation: 20.0d
 			width: 3.0d
@@ -291,6 +321,7 @@
 		}
 		{
 			height: 5.0d
+			id: "5CBE74E2211538FB"
 			image: "occultism:textures/gui/book/familiar_cthulhu.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -299,6 +330,7 @@
 		}
 		{
 			height: 3.0d
+			id: "0C811BC6C17EE7C5"
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -307,6 +339,7 @@
 		}
 		{
 			height: 5.0d
+			id: "50AC93B7AFB0772A"
 			image: "occultism:textures/gui/book/familiar_mummy.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -315,6 +348,7 @@
 		}
 		{
 			height: 5.0d
+			id: "05A2D982AFB68039"
 			image: "occultism:textures/gui/book/familiar_chimera.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -324,6 +358,7 @@
 		{
 			color: 16755200
 			height: 2.0d
+			id: "1D1EC244EB018C37"
 			image: "occultism:block/stable_wormhole_frame"
 			rotation: 45.0d
 			width: 2.0d
@@ -333,6 +368,7 @@
 		{
 			color: 16733695
 			height: 2.0d
+			id: "13119B8E760CCA67"
 			image: "occultism:block/stable_wormhole_frame"
 			rotation: 45.0d
 			width: 2.0d
@@ -341,6 +377,7 @@
 		}
 		{
 			height: 2.0d
+			id: "49B012163CC5A417"
 			image: "occultism:block/stable_wormhole_frame"
 			rotation: 45.0d
 			width: 2.0d
@@ -349,6 +386,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1B0BB7D7CB540813"
 			image: "occultism:block/dimensional_mineshaft_portal"
 			rotation: 45.0d
 			width: 5.0d
@@ -358,6 +396,7 @@
 		{
 			color: 11141290
 			height: 6.0d
+			id: "35B9E780C24C04EF"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 45.0d
@@ -367,6 +406,7 @@
 		}
 		{
 			height: 2.5d
+			id: "5EE8F564D5396770"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 2.5d
@@ -376,6 +416,7 @@
 		{
 			color: 16733525
 			height: 3.0d
+			id: "75AE57157184A3B2"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -385,6 +426,7 @@
 		{
 			color: 16733525
 			height: 3.0d
+			id: "2CC7B7F6DA747DB9"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -394,6 +436,7 @@
 		{
 			color: 11141120
 			height: 3.0d
+			id: "49A9A949C6B98202"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -403,6 +446,7 @@
 		{
 			color: 5592575
 			height: 3.0d
+			id: "78C12917A4945E95"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -412,6 +456,7 @@
 		{
 			color: 5592575
 			height: 3.0d
+			id: "47679A582426B18D"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -421,6 +466,7 @@
 		{
 			color: 170
 			height: 2.5d
+			id: "2639973DFA6F3C4C"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 2.5d
@@ -430,6 +476,7 @@
 		{
 			color: 16755200
 			height: 3.0d
+			id: "05EB06F5919AE90F"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 3.0d
@@ -439,6 +486,7 @@
 		{
 			color: 16733525
 			height: 2.5d
+			id: "5A0C2C9CE3CAF499"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 45.0d
 			width: 2.5d

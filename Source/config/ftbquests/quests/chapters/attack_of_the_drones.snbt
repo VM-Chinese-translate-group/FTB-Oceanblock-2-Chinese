@@ -13,6 +13,7 @@
 		{
 			alpha: 200
 			height: 2.0d
+			id: "67FC634F79E1AE38"
 			image: "ftbfiltersystem:textures/gui/sprites/background.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -21,6 +22,7 @@
 		}
 		{
 			height: 8.0d
+			id: "36C71D1C181B36BF"
 			image: "ftb:textures/quests/pneumaticcraft/pressure_chamber.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 4.0d
+			id: "582D0C55CE3DF820"
 			image: "ftb:textures/quests/pneumaticcraft/pncr_logo.png"
 			rotation: 0.0d
 			width: 16.710280373831775d
@@ -38,6 +41,7 @@
 		{
 			alpha: 50
 			height: 5.0d
+			id: "577A5FAF930138E9"
 			image: "hostilenetworks:textures/gui/sprites/dl_hud_bg.png"
 			order: -1
 			rotation: 0.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 1.5d
+			id: "00619BD94EE3975D"
 			image: "pneumaticcraft:block/fluid/plastic_flow"
 			rotation: -90.0d
 			width: 1.5d

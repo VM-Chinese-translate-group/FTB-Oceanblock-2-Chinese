@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "7D6C331CD9EE3670"
 			image: "refinedstorage:block/controller/on"
 			rotation: 0.0d
 			width: 1.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1C5D455DC6CA67C7"
 			image: "refinedstorage:block/controller/cutouts/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2E0535904B7E2286"
 			image: "refinedstorage:block/disk_drive/front"
 			rotation: 0.0d
 			width: 1.0d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 1.0d
+			id: "568BEEA55826C49E"
 			image: "refinedstorage:block/disk_interface/front"
 			rotation: 0.0d
 			width: 1.0d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 1.0d
+			id: "184D9C26B5A74C8D"
 			image: "refinedstorage:block/crafting_grid/cutouts/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 1.0d
+			id: "0DC70ED1ED1F63E7"
 			image: "refinedstorage:block/crafting_grid/front"
 			rotation: 0.0d
 			width: 1.0d
@@ -60,6 +66,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1B3BF87A26343E8E"
 			image: "refinedstorage:block/autocrafter/side"
 			rotation: 0.0d
 			width: 1.0d
@@ -68,6 +75,7 @@
 		}
 		{
 			height: 1.0d
+			id: "20AA446A38A46007"
 			image: "refinedstorage:block/autocrafter/cutouts/side/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -76,6 +84,7 @@
 		}
 		{
 			height: 1.0d
+			id: "4EEFFCF33290B5FF"
 			image: "refinedstorage:block/autocrafting_monitor/cutouts/cyan"
 			rotation: 0.0d
 			width: 1.0d
@@ -84,6 +93,7 @@
 		}
 		{
 			height: 1.0d
+			id: "245FDC9106D531A3"
 			image: "refinedstorage:block/autocrafting_monitor/front"
 			rotation: 0.0d
 			width: 1.0d
@@ -92,6 +102,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1B25C0B4936A17FB"
 			image: "refinedstorage:block/autocrafter_manager/front"
 			rotation: 0.0d
 			width: 1.0d
@@ -100,6 +111,7 @@
 		}
 		{
 			height: 1.0d
+			id: "45E9729470AC477F"
 			image: "refinedstorage:block/autocrafter_manager/cutouts/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -108,6 +120,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2A57DE4F34316FEC"
 			image: "refinedstorage:block/autocrafter/cutouts/side/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -116,6 +129,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3D7FA86B268D4CC7"
 			image: "refinedstorage:block/autocrafter/side"
 			rotation: 0.0d
 			width: 1.0d
@@ -124,6 +138,7 @@
 		}
 		{
 			height: 1.0d
+			id: "13B7097CEF003DE7"
 			image: "refinedstorage:block/autocrafter/side"
 			rotation: 0.0d
 			width: 1.0d
@@ -132,6 +147,7 @@
 		}
 		{
 			height: 1.0d
+			id: "17670E605E422822"
 			image: "refinedstorage:block/autocrafter/cutouts/side/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -140,6 +156,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3825D69325903E76"
 			image: "refinedstorage:block/disk_interface/cutouts/light_blue"
 			rotation: 0.0d
 			width: 1.0d
@@ -148,6 +165,7 @@
 		}
 		{
 			height: 3.0d
+			id: "340CDEF89A37D70D"
 			image: "ftb:textures/quests/refined_storage_logo.png"
 			rotation: 0.0d
 			width: 9.0d
@@ -156,6 +174,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6BA0AB7CC181F69E"
 			image: "refinedstorage:block/disk_interface/back"
 			rotation: 45.0d
 			width: 1.0d
@@ -165,6 +184,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "601B88F31C6A5DBD"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -174,6 +194,7 @@
 		{
 			color: 43690
 			height: 1.0d
+			id: "3C619C506FFB14C8"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -183,6 +204,7 @@
 		{
 			color: 16733695
 			height: 1.0d
+			id: "442FD8397770CB1A"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -192,6 +214,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "3233572CF48BECF8"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -201,6 +224,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "54E9D399D9CDB85A"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -210,6 +234,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "41EE8EE1164AFBEE"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -219,6 +244,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "532F097F318E54AE"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -228,6 +254,7 @@
 		{
 			color: 43690
 			height: 1.0d
+			id: "30EC1C585109C82E"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -237,6 +264,7 @@
 		{
 			color: 43690
 			height: 1.0d
+			id: "13929EBD4AA0B1D9"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -246,6 +274,7 @@
 		{
 			color: 43690
 			height: 1.0d
+			id: "753CD1AB01088FB4"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -255,6 +284,7 @@
 		{
 			color: 16733695
 			height: 1.0d
+			id: "59AEB54DC534DA1F"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -264,6 +294,7 @@
 		{
 			color: 16733695
 			height: 1.0d
+			id: "2DDA4D4A5B27D401"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -273,6 +304,7 @@
 		{
 			color: 16733695
 			height: 1.0d
+			id: "71A7D22DF9F7E204"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -282,6 +314,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "4305B0203F85DE29"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -291,6 +324,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "175D67B0398E369A"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -300,6 +334,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "11F3D9538B106893"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -309,6 +344,7 @@
 		{
 			color: 16755200
 			height: 1.0d
+			id: "0092AAA40B0542D6"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -318,6 +354,7 @@
 		{
 			color: 16733695
 			height: 1.0d
+			id: "4F6F2BCD8B3AE703"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -327,6 +364,7 @@
 		{
 			color: 43690
 			height: 1.0d
+			id: "009861275935270C"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -336,6 +374,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "1252D0E29BCB3941"
 			image: "refinedstorage:block/network_receiver/cutouts/white"
 			rotation: 0.0d
 			width: 1.0d
@@ -345,6 +384,7 @@
 		{
 			color: 11184810
 			height: 2.5d
+			id: "10D378F38B156E28"
 			image: "refinedstorage:block/constructor/cutouts/active"
 			rotation: 0.0d
 			width: 2.5d
@@ -354,6 +394,7 @@
 		{
 			color: 11184810
 			height: 2.5d
+			id: "1ED2663A81F81A76"
 			image: "refinedstorage:block/constructor/cutouts/active"
 			rotation: 45.0d
 			width: 2.5d
@@ -363,6 +404,7 @@
 		{
 			color: 5635925
 			height: 1.0d
+			id: "3C4C126C5EE9B444"
 			image: "refinedstorage:textures/gui/sprites/crafting_grid/crafting_matrix_filtering_slot_highlight.png"
 			rotation: 45.0d
 			width: 1.0d
@@ -371,6 +413,7 @@
 		}
 		{
 			height: 1.5d
+			id: "141CD255FA9E7183"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 1.5d
@@ -380,6 +423,7 @@
 		{
 			color: 5658198
 			height: 3.75d
+			id: "3DF39DA165D3641D"
 			image: "minecraft:block/white_concrete"
 			order: -2
 			rotation: 0.0d

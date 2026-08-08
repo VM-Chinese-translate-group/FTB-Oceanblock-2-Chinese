@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "2C3D501690CAC7A1"
 			image: "ftb:textures/quests/just_dire_things_logo.png"
 			rotation: 0.0d
 			width: 19.84d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.0d
+			id: "11A30B3D13A40525"
 			image: "justdirethings:block/gooblock_tier1"
 			rotation: 45.0d
 			width: 1.0d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4672ABF470094260"
 			image: "justdirethings:block/celestigem_block"
 			order: 1
 			rotation: 45.0d
@@ -38,6 +41,7 @@
 		{
 			color: 4100603
 			height: 3.0d
+			id: "093BFB62E9A098BE"
 			image: "actuallyadditions:block/block_greenhouse_glass"
 			rotation: 90.0d
 			width: 3.0d
@@ -46,6 +50,7 @@
 		}
 		{
 			height: 4.0d
+			id: "672919C5C6970CF6"
 			image: "ftbquests:tasks/input_only"
 			order: 1
 			rotation: 0.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 1.5d
+			id: "01A6D0EB2EF02FB2"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 180.0d
@@ -64,6 +70,7 @@
 		}
 		{
 			height: 1.5d
+			id: "099E639232CA0C08"
 			image: "justdirethings:block/gooblock_tier2"
 			rotation: 45.0d
 			width: 1.5d
@@ -72,6 +79,7 @@
 		}
 		{
 			height: 1.5d
+			id: "0EBEFBDCABACF205"
 			image: "justdirethings:block/gooblock_tier3"
 			rotation: 45.0d
 			width: 1.5d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 1.5d
+			id: "3420062A3B904EE7"
 			image: "justdirethings:block/gooblock_tier4"
 			rotation: 45.0d
 			width: 1.5d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 1.5d
+			id: "42B3CD0563BC2324"
 			image: "justdirethings:block/gooblock_tier4"
 			rotation: 0.0d
 			width: 1.5d
@@ -96,6 +106,7 @@
 		}
 		{
 			height: 1.5d
+			id: "04E99173DF829276"
 			image: "justdirethings:block/gooblock_tier3"
 			rotation: 0.0d
 			width: 1.5d
@@ -104,6 +115,7 @@
 		}
 		{
 			height: 1.5d
+			id: "527C2D32978B2E36"
 			image: "justdirethings:block/gooblock_tier2"
 			rotation: 0.0d
 			width: 1.5d
@@ -113,6 +125,7 @@
 		{
 			color: 11141290
 			height: 1.5d
+			id: "175CD9B06E1959A4"
 			image: "justdirethings:textures/entity/vortex1.png"
 			rotation: 90.0d
 			width: 1.5d
@@ -122,6 +135,7 @@
 		{
 			color: 16755200
 			height: 1.5d
+			id: "30E8E14B38C89EE7"
 			image: "justdirethings:textures/entity/vortex1.png"
 			rotation: 90.0d
 			width: 1.5d
@@ -130,6 +144,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3C380F4B51795C9C"
 			image: "justdirethings:block/time_crystal_cluster_large"
 			rotation: -15.0d
 			width: 1.0d
@@ -138,6 +153,7 @@
 		}
 		{
 			height: 1.0d
+			id: "04037C3F7155BB9E"
 			image: "justdirethings:block/time_crystal_cluster_large"
 			rotation: 15.0d
 			width: 1.0d
@@ -146,6 +162,7 @@
 		}
 		{
 			height: 2.0d
+			id: "4DDA7DCDF7936E71"
 			image: "justdirethings:block/eclipsealloy_block"
 			order: 1
 			rotation: 45.0d
@@ -155,6 +172,7 @@
 		}
 		{
 			height: 2.0d
+			id: "19B596446E42CDF3"
 			image: "justdirethings:block/blazegold_block"
 			order: 1
 			rotation: 45.0d
@@ -164,6 +182,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0033876904F03F4A"
 			image: "justdirethings:block/ferricore_block"
 			order: 1
 			rotation: 45.0d
@@ -174,6 +193,7 @@
 		{
 			color: 16733525
 			height: 1.25d
+			id: "175709EC0CCA8D4A"
 			image: "justdirethings:block/fluid_source"
 			rotation: 0.0d
 			width: 1.25d
@@ -183,6 +203,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "6778EBFAE8B665BE"
 			image: "minecraft:block/fire_1"
 			rotation: 135.0d
 			width: 0.75d
@@ -192,6 +213,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "5ED016C64AF6FF79"
 			image: "minecraft:block/fire_1"
 			rotation: 135.0d
 			width: 1.0d
@@ -201,6 +223,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "289689FE2239E55F"
 			image: "minecraft:block/fire_1"
 			rotation: 135.0d
 			width: 1.0d
@@ -210,6 +233,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "6625DF23918080D7"
 			image: "minecraft:block/fire_1"
 			rotation: -135.0d
 			width: 1.0d
@@ -219,6 +243,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "432DAC46F3FC44BC"
 			image: "minecraft:block/fire_1"
 			rotation: -135.0d
 			width: 1.0d
@@ -228,6 +253,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "17B77D08B6860006"
 			image: "minecraft:block/fire_1"
 			rotation: -135.0d
 			width: 0.75d
@@ -237,6 +263,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "00511D9C4634E6FB"
 			image: "occultism:block/spirit_fire_1"
 			rotation: 135.0d
 			width: 0.75d
@@ -246,6 +273,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "713D8C06CB864AAD"
 			image: "occultism:block/spirit_fire_1"
 			rotation: 135.0d
 			width: 1.0d
@@ -255,6 +283,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "2D304D84D7C00A0F"
 			image: "occultism:block/spirit_fire_1"
 			rotation: 135.0d
 			width: 1.0d
@@ -264,6 +293,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "12A9DA75ADC553C9"
 			image: "occultism:block/spirit_fire_1"
 			rotation: -135.0d
 			width: 1.0d
@@ -273,6 +303,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "36DE21722C34BAC3"
 			image: "occultism:block/spirit_fire_1"
 			rotation: -135.0d
 			width: 1.0d
@@ -282,6 +313,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "6039C1F47F3782B6"
 			image: "occultism:block/spirit_fire_1"
 			rotation: -135.0d
 			width: 0.75d
@@ -290,6 +322,7 @@
 		}
 		{
 			height: 1.5d
+			id: "3FC2F9CBAF0FE850"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 180.0d
