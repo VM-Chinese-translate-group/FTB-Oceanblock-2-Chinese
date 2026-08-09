@@ -34,6 +34,12 @@
 	chapter_group.3E2F3CB1CB8F9537.title: "资源自动化"
 	chapter_group.6CB7C55CABF95200.title: "探索世界"
 	file.0000000000000001.title: "Oceanblock 2"
+	image.1408F29A2CA767EF.title: "FTB Issue Tracker"
+	image.19096EF8B0683D54.title: "Oritech Wiki"
+	image.4B55338D272BBA2D.title: "Nuclear Reactor Wiki"
+	image.4E8852C316EB8217.title: "Particle Accelerator Wiki"
+	image.5636ED4FD726E9B7.title: "FTB Discord"
+	image.73DE9D6EA6055FBD.title: "Induction Matrix"
 	quest.0017F48E23512C75.quest_desc: ["[\"You can now upgrade your existing \", {\"text\": \"Pentacles\", \"color\": \"#55FFFF\"}, \" with \", {\"text\": \"Orange\", \"color\": \"#FCA645\"}, \" and \", {\"text\": \"Gray\", \"color\": \"#929292\"}, \" chalks, and \", {\"text\": \"Spirit Attuned Crystals\", \"color\": \"#FF55FF\"}, \".\"]"]
 	quest.0017F48E23512C75.title: "[{\"text\": \"\", \"color\": \"#FFFFFF\"}, {\"text\": \"橙色\", \"color\": \"#FCA645\"}, \" & \", {\"text\": \"灰色\", \"color\": \"#929292\"}, \"粉笔\"]"
 	quest.007CD364F96C2912.quest_desc: ["Want to run faster? &aFree Runners&r won't help with that. But they will negate fall damage and offer some protection at the cost of energy!"]
