@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 7.0d
+			id: "24D41395CA567F5F"
 			image: "ftbquests:tasks/input_only"
 			order: -3
 			rotation: 0.0d
@@ -24,6 +25,7 @@
 		}
 		{
 			height: 2.0d
+			id: "409D58B427B57039"
 			image: "ftb:textures/quests/logistics_logo.png"
 			rotation: 0.0d
 			width: 13.410526315789474d
@@ -33,6 +35,7 @@
 		{
 			alpha: 100
 			height: 5.5d
+			id: "67C91AF6E39C508B"
 			image: "chipped:block/sea_lantern/framed_sea_lantern"
 			order: -2
 			rotation: 0.0d

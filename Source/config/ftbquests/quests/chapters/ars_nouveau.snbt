@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 1.0d
+			id: "21E210F0C30B226D"
 			image: "ars_nouveau:block/void_prism"
 			rotation: 0.0d
 			width: 1.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 5.0d
+			id: "1F7EE425001088CC"
 			image: "ftb:textures/quests/ars/drygmy_perch.png"
 			rotation: 0.0d
 			width: 4.016018306636155d
@@ -31,6 +33,7 @@
 		}
 		{
 			height: 3.0d
+			id: "7A7EF8C46D12E101"
 			image: "ftb:textures/quests/ars/scribe_table.png"
 			rotation: 0.0d
 			width: 4.17970401691332d
@@ -39,6 +42,7 @@
 		}
 		{
 			height: 4.0d
+			id: "19BD54196E3B8367"
 			image: "ftb:textures/quests/ars/glyph_menu.png"
 			rotation: 0.0d
 			width: 5.566433566433567d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 2.0d
+			id: "06B553C5BEAD0831"
 			image: "ars_nouveau:block/fire_2"
 			rotation: 0.0d
 			width: 2.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 2.0d
+			id: "436E30E8B11FE776"
 			image: "ars_nouveau:block/gilded_sourcestone_large_bricks"
 			rotation: 0.0d
 			width: 2.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2479123B6ED73E6D"
 			image: "ars_nouveau:block/gilded_sourcestone_large_bricks"
 			rotation: 180.0d
 			width: 2.0d
@@ -71,6 +78,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6C95B72D96017DE8"
 			image: "ars_nouveau:block/fire_2"
 			order: -2
 			rotation: 0.0d
@@ -80,6 +88,7 @@
 		}
 		{
 			height: 2.0d
+			id: "10FC423746D796E5"
 			image: "ars_nouveau:block/gilded_sourcestone_large_bricks"
 			rotation: 0.0d
 			width: 2.0d
@@ -88,6 +97,7 @@
 		}
 		{
 			height: 2.0d
+			id: "140DDFFF2DEAC3FE"
 			image: "ars_nouveau:block/fire_2"
 			order: -2
 			rotation: 0.0d
@@ -97,6 +107,7 @@
 		}
 		{
 			height: 3.0d
+			id: "68256D654C851E5C"
 			image: "ars_nouveau:textures/mob_effect/freezing.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -105,6 +116,7 @@
 		}
 		{
 			height: 4.0d
+			id: "7D7DEE0F4169F8E6"
 			image: "ftb:textures/quests/ars/alteration_table.png"
 			rotation: 0.0d
 			width: 5.572938689217759d

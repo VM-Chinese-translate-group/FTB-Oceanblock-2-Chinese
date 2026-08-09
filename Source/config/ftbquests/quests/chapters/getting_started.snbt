@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 4.0d
+			id: "64B70E930329715E"
 			image: "ftb:textures/quests/ch1/big_raft1.png"
 			rotation: 0.0d
 			width: 4.674448767833982d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 3.0d
+			id: "10512F1F9FD03037"
 			image: "ftb:textures/quests/ch1/bigraft2.png"
 			rotation: 0.0d
 			width: 4.239795918367347d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 4.0d
+			id: "6218B4CAEA8F6D32"
 			image: "ftb:textures/quests/ch1/starter_raft_alfred.png"
 			rotation: 0.0d
 			width: 9.002583979328165d
@@ -36,6 +39,7 @@
 		}
 		{
 			height: 4.0d
+			id: "1C6E08A0974AE596"
 			image: "ftb:textures/quests/ch1/small_raft1.png"
 			rotation: 0.0d
 			width: 6.226993865030675d
@@ -44,6 +48,7 @@
 		}
 		{
 			height: 1.5d
+			id: "1D57DE6374C8B88D"
 			image: "minecraft:block/magma"
 			rotation: 45.0d
 			width: 1.5d
@@ -52,6 +57,7 @@
 		}
 		{
 			height: 1.5d
+			id: "0FBAFC6601FD687B"
 			image: "easy_piglins:block/bottom_frame"
 			order: 1
 			rotation: 45.0d
@@ -61,6 +67,7 @@
 		}
 		{
 			height: 1.0d
+			id: "56B7EBE8EED83290"
 			image: "relics:item/magma_walker_fire"
 			rotation: 0.0d
 			width: 1.0d
@@ -70,6 +77,7 @@
 		{
 			alpha: 155
 			height: 1.5d
+			id: "1D4631780EB44877"
 			image: "ftbstuff:item/diamond_mesh"
 			rotation: 0.0d
 			width: 1.5d
@@ -78,6 +86,7 @@
 		}
 		{
 			height: 1.5d
+			id: "251D514579FA874C"
 			image: "chipped:block/dark_oak_trapdoor/pointless_dark_oak_trapdoor"
 			order: -1
 			rotation: 0.0d
@@ -88,6 +97,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "5BED317F6098E2AF"
 			image: "minecraft:item/bowl"
 			rotation: 35.0d
 			width: 1.0d
@@ -97,6 +107,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "1AF921F3E34782B7"
 			image: "ftb:item/barrel_smasher"
 			rotation: 60.0d
 			width: 1.0d
@@ -106,6 +117,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "6D570FBB0F429E19"
 			image: "constructionstick:item/copper_stick"
 			rotation: 35.0d
 			width: 1.0d
@@ -115,6 +127,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "2A1D1D177AD5445D"
 			image: "minecraft:item/flint"
 			rotation: 25.0d
 			width: 1.0d
@@ -124,6 +137,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "7E172067F2129322"
 			image: "minecraft:item/cod"
 			rotation: 90.0d
 			width: 1.0d
@@ -133,6 +147,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "50ABC0ED51F7A4CC"
 			image: "minecraft:item/bamboo"
 			rotation: -98.0d
 			width: 1.0d
@@ -142,6 +157,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "02F8D9F0AB80AAF4"
 			image: "ftbstuff:item/dripper"
 			rotation: -52.0d
 			width: 1.0d
@@ -151,6 +167,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "08C71780B6BB0E0D"
 			image: "constructionstick:item/copper_stick"
 			rotation: -86.0d
 			width: 1.0d
@@ -160,6 +177,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "3F7D10F7904B83FF"
 			image: "minecraft:item/bamboo"
 			rotation: 25.0d
 			width: 1.0d
@@ -168,6 +186,7 @@
 		}
 		{
 			height: 1.5d
+			id: "74158529AE5383C4"
 			image: "chipped:block/spruce_trapdoor/pointless_spruce_trapdoor"
 			rotation: 0.0d
 			width: 1.5d
@@ -176,6 +195,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3A15ED03AE357921"
 			image: "minecraft:block/clay"
 			rotation: 0.0d
 			width: 1.0d
@@ -184,6 +204,7 @@
 		}
 		{
 			height: 1.0d
+			id: "407A1F608B0FA837"
 			image: "minecraft:block/lava_flow"
 			rotation: 0.0d
 			width: 1.0d
@@ -192,6 +213,7 @@
 		}
 		{
 			height: 1.0d
+			id: "70DEBA23E056365C"
 			image: "chipped:block/stone/ctm/polished_stone_ctm/2"
 			rotation: 0.0d
 			width: 1.0d
@@ -200,6 +222,7 @@
 		}
 		{
 			height: 1.25d
+			id: "3881637152A32A7A"
 			image: "minecraft:block/nether_portal"
 			rotation: 45.0d
 			width: 1.25d
@@ -208,6 +231,7 @@
 		}
 		{
 			height: 1.0d
+			id: "5755B0327C89D377"
 			image: "brickfurnace:block/brick_blast_furnace_front_on"
 			rotation: 45.0d
 			width: 1.0d
@@ -216,6 +240,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3A63D76A60FEDFC7"
 			image: "farmersdelight:block/spruce_cabinet_side"
 			rotation: 45.0d
 			width: 1.0d
@@ -224,6 +249,7 @@
 		}
 		{
 			height: 1.5d
+			id: "090C7685CA61EC43"
 			image: "ftbstuff:item/iron_mesh"
 			rotation: 0.0d
 			width: 1.5d
@@ -232,6 +258,7 @@
 		}
 		{
 			height: 1.5d
+			id: "3C5FB4DA0A9A0EE3"
 			image: "ftbstuff:item/gold_mesh"
 			rotation: 0.0d
 			width: 1.5d
@@ -240,6 +267,7 @@
 		}
 		{
 			height: 1.0d
+			id: "1998D301916B5789"
 			image: "minecraft:block/lava_still"
 			rotation: 45.0d
 			width: 1.0d
@@ -248,6 +276,7 @@
 		}
 		{
 			height: 2.0d
+			id: "7EECC488DCF78C32"
 			image: "minecraft:block/obsidian"
 			rotation: 0.0d
 			width: 2.0d
@@ -256,6 +285,7 @@
 		}
 		{
 			height: 2.5d
+			id: "6C585AA840FB8F8E"
 			image: "minecraft:block/lava_still"
 			order: -2
 			rotation: 0.0d
@@ -265,6 +295,7 @@
 		}
 		{
 			height: 1.0d
+			id: "50936C08B46E2FA7"
 			image: "justdirethings:block/gooblock_tier1"
 			rotation: 45.0d
 			width: 1.0d
@@ -275,6 +306,7 @@
 			alpha: 155
 			color: 170
 			height: 1.5d
+			id: "4C199CE339A0F323"
 			image: "relics:item/space_dissector"
 			order: -2
 			rotation: 45.0d

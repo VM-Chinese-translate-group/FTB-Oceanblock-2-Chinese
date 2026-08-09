@@ -9,6 +9,7 @@
 		id: "nautec:diving_helmet"
 	}
 	id: "642768EC48CAFC60"
+	images: [ ]
 	order_index: 1
 	quest_links: [{
 		id: "12E21C322AC73560"

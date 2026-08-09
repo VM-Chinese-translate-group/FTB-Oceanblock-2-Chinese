@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "04878FDEC7D0F074"
 			image: "mysticalagriculture:block/inferium_gemstone_block"
 			rotation: 45.0d
 			width: 2.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6613674194745ED0"
 			image: "mysticalagriculture:block/supremium_gemstone_block"
 			order: -2
 			rotation: 45.0d
@@ -32,6 +34,7 @@
 		}
 		{
 			height: 2.0d
+			id: "3723F083526E6C55"
 			image: "mysticalagriculture:block/imperium_gemstone_block"
 			order: -2
 			rotation: 45.0d
@@ -41,6 +44,7 @@
 		}
 		{
 			height: 2.0d
+			id: "410CBD6282525C58"
 			image: "mysticalagriculture:block/tertium_gemstone_block"
 			order: -2
 			rotation: 45.0d
@@ -51,6 +55,7 @@
 		{
 			color: 16645629
 			height: 2.0d
+			id: "4738C3FC900C0CB2"
 			image: "mysticalagriculture:block/prudentium_gemstone_block"
 			order: -2
 			rotation: 45.0d
@@ -60,6 +65,7 @@
 		}
 		{
 			height: 3.0d
+			id: "6E8BA70240DF9992"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -69,6 +75,7 @@
 		}
 		{
 			height: 2.0d
+			id: "09E95218DBB6C157"
 			image: "mysticalagriculture:block/awakened_supremium_gemstone_block"
 			order: -1
 			rotation: 45.0d
@@ -78,6 +85,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2E987B28BCCD6233"
 			image: "mysticalagradditions:block/insanium_gemstone_block"
 			order: -1
 			rotation: 45.0d
@@ -87,6 +95,7 @@
 		}
 		{
 			height: 10.0d
+			id: "4DB2874211E99379"
 			image: "ftb:textures/quests/mystical/farm_example.png"
 			rotation: 0.0d
 			width: 16.962209302325583d
@@ -95,6 +104,7 @@
 		}
 		{
 			height: 1.0d
+			id: "509F3FD1661CB137"
 			image: "mysticalagradditions:item/withering_soul"
 			order: -2
 			rotation: 0.0d
@@ -104,6 +114,7 @@
 		}
 		{
 			height: 1.0d
+			id: "10CC0488C6FF6880"
 			image: "mysticalagradditions:item/withering_soul"
 			rotation: 0.0d
 			width: 1.0d
@@ -112,6 +123,7 @@
 		}
 		{
 			height: 1.0d
+			id: "44E2F9987934CBF3"
 			image: "mysticalagradditions:item/withering_soul"
 			rotation: 0.0d
 			width: 1.0d
@@ -121,6 +133,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "6B0DD0A6072B3692"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d
@@ -131,6 +144,7 @@
 		{
 			color: 29184
 			height: 3.0d
+			id: "7D1EF7CFD80CDA09"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -141,6 +155,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "75CA743714943886"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d
@@ -151,6 +166,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "24B37F9F74E2CA9E"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d
@@ -161,6 +177,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "5B061C42831FB5A7"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d
@@ -171,6 +188,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "21AF9A92F409219C"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d
@@ -181,6 +199,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "51D721E111CBB30A"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d
@@ -191,6 +210,7 @@
 		{
 			color: 170
 			height: 3.0d
+			id: "276CAB1604AC16AD"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -202,6 +222,7 @@
 			alpha: 155
 			color: 5592575
 			height: 3.0d
+			id: "0FC48F8CC79E11AA"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -212,6 +233,7 @@
 		{
 			color: 16733525
 			height: 3.0d
+			id: "25F41553DE6D7B98"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -222,6 +244,7 @@
 		{
 			color: 16745252
 			height: 3.0d
+			id: "0B8BCD5636307224"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -232,6 +255,7 @@
 		{
 			color: 16449536
 			height: 3.0d
+			id: "6785B206F53CDA33"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			order: -1
 			rotation: 45.0d
@@ -242,6 +266,7 @@
 		{
 			color: 0
 			height: 3.0d
+			id: "2EF342924718C6BE"
 			image: "easy_piglins:block/bottom_frame"
 			order: -2
 			rotation: 45.0d

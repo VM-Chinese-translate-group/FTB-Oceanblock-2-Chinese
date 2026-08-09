@@ -9,6 +9,7 @@
 		id: "replication:replica_ingot"
 	}
 	id: "158D033F7F934345"
+	images: [ ]
 	order_index: 2
 	quest_links: [{
 		id: "6C5689AD6E8F35F0"

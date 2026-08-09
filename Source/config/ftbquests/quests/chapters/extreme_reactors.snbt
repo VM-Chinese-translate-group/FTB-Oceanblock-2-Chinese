@@ -9,6 +9,7 @@
 		id: "ftbmaterials:uranium_ingot"
 	}
 	id: "2D069B87B860C09B"
+	images: [ ]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

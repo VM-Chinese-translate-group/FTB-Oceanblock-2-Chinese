@@ -15,6 +15,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "556B92EA134585C1"
 			image: "ae2:block/molecular_assembler_lights"
 			rotation: 0.0d
 			width: 2.0d
@@ -23,6 +24,7 @@
 		}
 		{
 			height: 2.0d
+			id: "46D005FE6CBD1E8F"
 			image: "ae2:block/mysterious_cube_side"
 			rotation: 0.0d
 			width: 2.0d
@@ -32,6 +34,7 @@
 		{
 			color: 2631720
 			height: 2.0d
+			id: "2AC3D28C054C95AF"
 			image: "easy_piglins:block/bottom_frame"
 			order: 1
 			rotation: 0.0d
@@ -41,6 +44,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4AB3B0D5683AB781"
 			image: "ftb:textures/quests/power_logo.png"
 			rotation: 0.0d
 			width: 5.0d
@@ -49,6 +53,7 @@
 		}
 		{
 			height: 2.0d
+			id: "2071D4DA7B75CCB0"
 			image: "modularrouters:item/upgrade/energy_upgrade"
 			order: -1
 			rotation: 90.0d
@@ -58,6 +63,7 @@
 		}
 		{
 			height: 2.0d
+			id: "501655A972BBC6D5"
 			image: "modularrouters:item/upgrade/energy_upgrade"
 			order: -1
 			rotation: -90.0d
@@ -67,7 +73,7 @@
 		}
 		{
 			height: 3.5d
-			hover: ["Induction Matrix"]
+			id: "73DE9D6EA6055FBD"
 			image: "ftb:textures/quests/mekanism/induction.png"
 			rotation: 0.0d
 			width: 3.3373173970783534d
@@ -77,6 +83,7 @@
 		{
 			color: 16733695
 			height: 2.0d
+			id: "4EABE81FD56106F8"
 			image: "pneumaticcraft:item/upgrades/upgrade_frame_3"
 			rotation: 0.0d
 			width: 2.0d

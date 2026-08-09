@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 1.25d
+			id: "55486EADF03BC572"
 			image: "enderio:textures/gui/sprites/conduit_icon/energy.png"
 			rotation: 0.0d
 			width: 1.25d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 1.5d
+			id: "216C53867A99FF9F"
 			image: "enderio:block/enhanced_machine_chassis"
 			rotation: 45.0d
 			width: 1.5d
@@ -28,6 +30,7 @@
 		}
 		{
 			height: 1.5d
+			id: "115C86F1245354C5"
 			image: "easy_piglins:block/bottom_frame"
 			order: 1
 			rotation: 45.0d
@@ -37,6 +40,7 @@
 		}
 		{
 			height: 2.0d
+			id: "6544D4062E57D64A"
 			image: "minecraft:block/fire_1"
 			rotation: 0.0d
 			width: 2.0d
@@ -45,6 +49,7 @@
 		}
 		{
 			height: 2.0d
+			id: "047F4A6F1036CDD4"
 			image: "minecraft:block/bedrock"
 			rotation: 0.0d
 			width: 2.0d
@@ -53,6 +58,7 @@
 		}
 		{
 			height: 0.5d
+			id: "70108DAEADFC5C2E"
 			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -61,6 +67,7 @@
 		}
 		{
 			height: 0.5d
+			id: "640D8DBCE8A59F4F"
 			image: "ftblibrary:textures/faces/minecraft/enderman.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -69,6 +76,7 @@
 		}
 		{
 			height: 1.0d
+			id: "320EC14B80581BB1"
 			image: "enderio:block/xp_juice_flowing"
 			rotation: 0.0d
 			width: 1.0d
@@ -77,6 +85,7 @@
 		}
 		{
 			height: 1.0d
+			id: "24B006280B7A47EE"
 			image: "enderio:block/ender_still"
 			rotation: 0.0d
 			width: 1.0d
@@ -86,6 +95,7 @@
 		{
 			color: 5636095
 			height: 1.0d
+			id: "6D1CA4886E6BA2BA"
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.0d
@@ -94,6 +104,7 @@
 		}
 		{
 			height: 1.5d
+			id: "49048620B7BC12DE"
 			image: "enderio:item/conduit_facade"
 			rotation: 45.0d
 			width: 1.5d
@@ -102,6 +113,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5DF3169A974248A1"
 			image: "minecraft:block/end_portal_frame_top"
 			rotation: 45.0d
 			width: 2.0d
@@ -110,6 +122,7 @@
 		}
 		{
 			height: 1.0d
+			id: "2E770EA8D655C94B"
 			image: "enderio:item/ender_resonator"
 			rotation: 0.0d
 			width: 1.0d
@@ -118,6 +131,7 @@
 		}
 		{
 			height: 1.0d
+			id: "537D4D9E4E4CCC9E"
 			image: "enderio:item/zombie_electrode"
 			rotation: 0.0d
 			width: 1.0d
@@ -126,6 +140,7 @@
 		}
 		{
 			height: 1.0d
+			id: "60697550E9C51E03"
 			image: "enderio:item/soularium_nugget"
 			rotation: 30.0d
 			width: 1.0d
@@ -134,6 +149,7 @@
 		}
 		{
 			height: 1.0d
+			id: "29309B474F1B7DCC"
 			image: "enderio:item/soularium_nugget"
 			rotation: 135.0d
 			width: 1.0d
@@ -144,6 +160,7 @@
 			alpha: 175
 			color: 16733695
 			height: 1.0d
+			id: "31B758998C7CB1EA"
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.0d
@@ -154,6 +171,7 @@
 			alpha: 100
 			color: 5592575
 			height: 1.0d
+			id: "311AEBCC3AC2290E"
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.0d
@@ -163,6 +181,7 @@
 		{
 			color: 9371502
 			height: 1.0d
+			id: "0715CAF98019C9EB"
 			image: "easy_piglins:block/bottom_frame"
 			rotation: 0.0d
 			width: 1.0d
@@ -171,6 +190,7 @@
 		}
 		{
 			height: 1.0d
+			id: "225EFCEFACC426A5"
 			image: "easy_piglins:block/bottom_frame"
 			rotation: 0.0d
 			width: 1.0d
@@ -180,6 +200,7 @@
 		{
 			color: 16733525
 			height: 1.0d
+			id: "519C3C2A86206B07"
 			image: "easy_piglins:block/bottom_frame"
 			rotation: 0.0d
 			width: 1.0d

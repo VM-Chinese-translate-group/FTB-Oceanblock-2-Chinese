@@ -5,6 +5,7 @@
 	filename: "loot_testing_chapter"
 	group: ""
 	id: "4F3A96EA45522F0A"
+	images: [ ]
 	order_index: 3
 	quest_links: [ ]
 	quests: [{

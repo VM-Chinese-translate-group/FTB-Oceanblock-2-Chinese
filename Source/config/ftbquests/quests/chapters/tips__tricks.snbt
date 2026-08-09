@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "53642007992A8028"
 			image: "ftb:textures/quests/usefulitemstitle.png"
 			rotation: 0.0d
 			width: 14.2d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 2.5d
+			id: "4E438F2CD97681E5"
 			image: "actuallyadditions:item/lens_of_disenchanting"
 			order: -1
 			rotation: 45.0d
@@ -29,6 +31,7 @@
 		{
 			alpha: 100
 			height: 7.0d
+			id: "41566FDBF2B82D48"
 			image: "ftbquests:tasks/input_only"
 			order: -1
 			rotation: 0.0d

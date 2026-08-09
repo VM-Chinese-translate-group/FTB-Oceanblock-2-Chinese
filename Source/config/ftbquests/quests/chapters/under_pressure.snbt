@@ -11,6 +11,7 @@
 	id: "2D4BDD06393E56E1"
 	images: [{
 		height: 2.0d
+		id: "5359D5E245CE85C4"
 		image: "relics:item/aqua_walker_bubble"
 		rotation: 0.0d
 		width: 2.0d

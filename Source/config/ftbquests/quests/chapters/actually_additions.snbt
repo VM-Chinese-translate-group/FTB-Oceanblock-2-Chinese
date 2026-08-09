@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 2.0d
+			id: "435553828890032B"
 			image: "actuallyadditions:block/chiseled_black_quartz_block_top"
 			rotation: 0.0d
 			width: 2.0d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 2.0d
+			id: "16DAC652D1EDA368"
 			image: "actuallyadditions:block/empowered_restonia_crystal_block"
 			order: -1
 			rotation: 0.0d
@@ -29,6 +31,7 @@
 		}
 		{
 			height: 2.0d
+			id: "737651AF8BB9E28E"
 			image: "actuallyadditions:block/empowered_palis_crystal_block"
 			order: -1
 			rotation: 0.0d
@@ -38,6 +41,7 @@
 		}
 		{
 			height: 1.5d
+			id: "6903AE39B4C666FD"
 			image: "actuallyadditions:item/lens_of_disenchanting"
 			order: -1
 			rotation: 0.0d
@@ -47,6 +51,7 @@
 		}
 		{
 			height: 2.0d
+			id: "1E6B93A343236D91"
 			image: "actuallyadditions:item/travelers_sack"
 			rotation: 0.0d
 			width: 2.0d
@@ -55,6 +60,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0E9B597E9B3F66FB"
 			image: "actuallyadditions:item/drill_light_blue"
 			rotation: 0.0d
 			width: 2.0d
@@ -63,6 +69,7 @@
 		}
 		{
 			height: 2.0d
+			id: "27CF32629ECA63A6"
 			image: "actuallyadditions:item/coffee_cup"
 			rotation: 0.0d
 			width: 2.0d
@@ -72,6 +79,7 @@
 		{
 			alpha: 100
 			height: 1.0d
+			id: "6C5480C27A72177F"
 			image: "minecraft:block/soul_campfire_fire"
 			rotation: 0.0d
 			width: 1.0d
@@ -81,6 +89,7 @@
 		{
 			color: 43520
 			height: 2.0d
+			id: "498538A8136AF3B4"
 			image: "actuallyadditions:block/block_greenhouse_glass"
 			rotation: 45.0d
 			width: 2.0d
@@ -89,6 +98,7 @@
 		}
 		{
 			height: 3.0d
+			id: "1D08BE76D75CF638"
 			image: "ftb:textures/quests/actually_additions_logo.png"
 			rotation: 0.0d
 			width: 9.035294117647059d
@@ -97,6 +107,7 @@
 		}
 		{
 			height: 2.0d
+			id: "73ACF718DB65F41C"
 			image: "actuallyadditions:item/snail"
 			rotation: 0.0d
 			width: 2.0d
@@ -105,6 +116,7 @@
 		}
 		{
 			height: 1.5d
+			id: "34F9520104CB9ED6"
 			image: "actuallyadditions:item/laser_wrench"
 			rotation: 0.0d
 			width: 1.5d
@@ -113,6 +125,7 @@
 		}
 		{
 			height: 1.5d
+			id: "7141F711831F60AA"
 			image: "actuallyadditions:item/travelers_sack"
 			rotation: 0.0d
 			width: 1.5d
@@ -121,6 +134,7 @@
 		}
 		{
 			height: 3.0d
+			id: "4D715D7C5668AF1D"
 			image: "actuallyadditions:item/lens_of_disenchanting"
 			order: -2
 			rotation: 45.0d
@@ -130,6 +144,7 @@
 		}
 		{
 			height: 3.0d
+			id: "25B7AD326A69090A"
 			image: "actuallyadditions:item/lens_of_disenchanting"
 			order: -2
 			rotation: 45.0d
@@ -140,6 +155,7 @@
 		{
 			color: 4771071
 			height: 1.8d
+			id: "65516A0E554E0F2C"
 			image: "lollipop:textures/misc/magic/rune_circle.png"
 			rotation: 0.0d
 			width: 1.8d

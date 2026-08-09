@@ -12,6 +12,7 @@
 	images: [
 		{
 			height: 8.0d
+			id: "5453610B85650754"
 			image: "ftb:textures/quests/immersive/arc_furnace.png"
 			rotation: 0.0d
 			width: 10.745098039215685d
@@ -20,6 +21,7 @@
 		}
 		{
 			height: 5.0d
+			id: "0AEB7F1F92E8F939"
 			image: "ftb:textures/quests/immersive/immersive_logo.png"
 			rotation: 0.0d
 			width: 15.060240963855422d
